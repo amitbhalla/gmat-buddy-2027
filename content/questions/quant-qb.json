@@ -1,0 +1,1709 @@
+{
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "q-ratios-qb-p-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "The ratio of apples to oranges in a basket is 3:5. If the basket holds 64 fruits in all, how many of them are oranges?",
+      "choices": [
+        "24",
+        "32",
+        "36",
+        "40",
+        "48"
+      ],
+      "answer": 3,
+      "explanation": "The ratio 3:5 means the basket is split into 3 + 5 = 8 equal parts. Each part is 64 ÷ 8 = 8 fruits. Oranges are 5 parts, so 5 × 8 = 40.\n\nFaster way: oranges are 5/8 of the total, and 64 × 5/8 = 40.\n\nCheck: apples are 3 × 8 = 24, and 24 + 40 = 64, as required. Notice that every answer choice is a plausible-looking number, so it pays to say aloud which group you are being asked about before you multiply.",
+      "tip": "A part-to-part ratio a:b means the whole is a + b parts, so always add before you divide.",
+      "trap": "24 is the number of apples, the other group. 32 comes from splitting the 64 fruits in half and ignoring the ratio altogether.",
+      "timeTarget": 75,
+      "skills": [
+        "ratio-parts"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "A recipe uses 2 cups of rice for every 5 cups of water. At this rate, how many cups of water are needed for 6 cups of rice?",
+      "choices": [
+        "6",
+        "9",
+        "10",
+        "12",
+        "15"
+      ],
+      "answer": 4,
+      "explanation": "The recipe scales by multiplying both quantities by the same number. Going from 2 cups of rice to 6 cups of rice means multiplying by 3. So the water must also be multiplied by 3: 5 × 3 = 15 cups.\n\nSet it up as a proportion to double-check: 2/5 = 6/w, so w = 6 × 5 / 2 = 15.\n\nA quick sense-check is that water is always 2.5 times the rice, and 6 × 2.5 = 15.",
+      "tip": "Find the scale factor between the known amounts first, then apply the same factor to the unknown.",
+      "trap": "Adding instead of multiplying: 6 − 2 = 4 extra cups of rice, so people add 4 to 5 and get 9. 6 is just the amount of rice. Ratios scale by multiplication, not addition.",
+      "timeTarget": 75,
+      "skills": [
+        "proportion",
+        "scaling"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Three partners share a profit in the ratio 2:3:5. If the partner with the largest share receives ₹12,000 more than the partner with the smallest share, what is the total profit?",
+      "choices": [
+        "₹12,000",
+        "₹24,000",
+        "₹30,000",
+        "₹36,000",
+        "₹40,000"
+      ],
+      "answer": 4,
+      "explanation": "Write the shares as 2k, 3k and 5k. The largest minus the smallest is 5k − 2k = 3k, and this equals ₹12,000. So k = 4,000.\n\nThe total is 2k + 3k + 5k = 10k = ₹40,000.\n\nCheck: shares are 8,000, 12,000 and 20,000, which add to 40,000, and 20,000 − 8,000 = 12,000.\n\nThe key move is turning the 'difference' information into an equation in k. The difference of 3 units, not 10 units, matches the ₹12,000.",
+      "tip": "When a ratio problem gives a difference, find how many units that difference spans, then scale to the total.",
+      "trap": "₹12,000 is the given gap, not the total. ₹30,000 comes from treating the gap as 4 units instead of 3 (3,000 × 10), and ₹36,000 from treating the gap as one third of 9 units.",
+      "timeTarget": 90,
+      "skills": [
+        "multiplier-method"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If a:b = 3:4 and b:c = 2:5, what is the ratio a:c?",
+      "choices": [
+        "3:10",
+        "3:5",
+        "6:5",
+        "3:8",
+        "2:15"
+      ],
+      "answer": 0,
+      "explanation": "The two ratios share b, but b is 4 in the first and 2 in the second, so they don't connect yet. Scale the second ratio by 2: b:c = 4:10. Now b is 4 in both, so a:b:c = 3:4:10.\n\nTherefore a:c = 3:10.\n\nCheck with numbers: let b = 4. Then a = 3 (from 3:4) and, since b:c = 2:5, c = 10. So a:c = 3:10.\n\nThe matching step is the whole skill: scale each ratio until the shared term has the same value.",
+      "tip": "To chain two ratios, multiply each ratio by whatever makes the shared term equal.",
+      "trap": "3:5 comes from writing a:b:c as 3:4:5, simply glueing the 5 from the second ratio without matching b. 6:5 comes from scaling the first ratio instead of the second.",
+      "timeTarget": 90,
+      "skills": [
+        "common-term"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Eight identical pumps can empty a reservoir in 12 hours. How many identical pumps are needed to empty it in 6 hours?",
+      "choices": [
+        "16",
+        "24",
+        "32",
+        "48",
+        "96"
+      ],
+      "answer": 0,
+      "explanation": "More pumps means less time, so this is inverse proportion: pumps × hours stays constant. The job is 8 × 12 = 96 pump-hours. To finish in 6 hours you need 96 ÷ 6 = 16 pumps.\n\nQuick reasoning: halving the time means doubling the crew, and 8 doubled is 16.\n\nBefore calculating, ask whether both quantities should move in the same direction. Here they move in opposite directions, so the product is fixed rather than the quotient.\n\nNotice how the product 8 × 12 = 96 behaves like a fixed 'amount of work'. Once you know it, any new time gives a new crew size by simple division, which is the safest approach whenever people, machines or pumps are traded against time.",
+      "tip": "If one quantity goes up and the other must go down, multiply them to get the constant.",
+      "trap": "96 is the total pump-hours of work, not the number of pumps. 48 comes from multiplying 8 pumps by 6 hours, and 24 or 32 come from adding or scaling in the wrong direction.",
+      "timeTarget": 90,
+      "skills": [
+        "inverse-proportion"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "At a club the ratio of men to women is 5:3. After 12 more women join, with no other changes, the ratio of men to women is 5:4. How many members did the club have before the 12 women joined?",
+      "choices": [
+        "36",
+        "60",
+        "84",
+        "96",
+        "108"
+      ],
+      "answer": 3,
+      "explanation": "Let men = 5k and women = 3k. After the change women = 3k + 12, so 5k/(3k + 12) = 5/4. Cross-multiplying gives 20k = 15k + 60, so k = 12.\n\nBefore the change the club had 5k + 3k = 8k = 96 members.\n\nCheck: men 60, women 36. After: women 48, and 60:48 = 5:4. ✓\n\nSince the men's number didn't change but the ratio moved from 5:3 to 5:4, the women's part must have grown from 3 parts to 4 parts, so 12 women equal 1 part, which also gives k = 12 without any algebra.",
+      "tip": "If one part of a ratio stays fixed, the change in the other part tells you the size of one unit directly.",
+      "trap": "60 is just the number of men. 108 is the total after the women joined (60 + 48), a common 'wrong moment in time' error. Always check whether the question asks before or after.",
+      "timeTarget": 105,
+      "skills": [
+        "ratio-change",
+        "multiplier-method"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "An alloy contains copper and zinc in the ratio 7:3 by weight. How many kilograms of zinc must be added to 50 kg of this alloy so that the ratio of copper to zinc becomes 7:5?",
+      "choices": [
+        "10",
+        "15",
+        "20",
+        "25",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "In 50 kg of alloy, copper is 7/10 × 50 = 35 kg and zinc is 3/10 × 50 = 15 kg. Adding z kg of zinc leaves copper at 35. We need 35/(15 + z) = 7/5. Then 15 + z = 25, so z = 10.\n\nCheck: 35 kg copper and 25 kg zinc is 7:5. ✓\n\nAnother route: copper is fixed at 7 parts of the new ratio, and 7 parts = 35, so 1 part = 5 and zinc must be 5 parts = 25. Starting with 15, we add 10.",
+      "tip": "When only one ingredient changes, hold the unchanged one fixed and rebuild the ratio around it.",
+      "trap": "15 is the zinc already in the alloy, 25 is the new total zinc and 35 is the copper. The question asks only for the zinc added, and only zinc changes.",
+      "timeTarget": 105,
+      "skills": [
+        "ratio-change",
+        "mixtures"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If 3x = 4y and y ≠ 0, what is the ratio of (x + y) to (x − y)?",
+      "choices": [
+        "7:1",
+        "1:7",
+        "3:7",
+        "4:3",
+        "7:3"
+      ],
+      "answer": 0,
+      "explanation": "From 3x = 4y we get x/y = 4/3. So x and y are in the ratio 4:3. Pick x = 4 and y = 3 (any consistent pair works). Then x + y = 7 and x − y = 1, so the ratio is 7:1.\n\nAlgebra check: x = 4y/3. Then x + y = 7y/3 and x − y = y/3. Dividing, (7y/3)/(y/3) = 7.\n\nChoosing convenient numbers is legitimate because the answer is a ratio and does not depend on the scale.",
+      "tip": "If the question asks only for a ratio, invent convenient numbers that satisfy the given relation.",
+      "trap": "4:3 is just x:y itself. 3:7 and 7:3 come from flipping x/y or mixing up which variable carries the 4. Read 'x + y to x − y' carefully for the order.",
+      "timeTarget": 90,
+      "skills": [
+        "pick-numbers",
+        "ratio-algebra"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-009",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The ratio of Priya's age to Rohan's age is 3:5. Four years ago, the ratio of their ages was 1:2. What will be the sum of their ages 10 years from now?",
+      "choices": [
+        "32",
+        "42",
+        "48",
+        "52",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "Let Priya = 3k and Rohan = 5k. Four years ago: (3k − 4)/(5k − 4) = 1/2. Cross-multiplying: 6k − 8 = 5k − 4, so k = 4.\n\nSo they are now 12 and 20. In 10 years they will be 22 and 30, and the sum is 52.\n\nCheck: four years ago they were 8 and 16, which is 1:2. ✓\n\nThe problem has three time-stamps (four years ago, now, ten years later). Many wrong answers come from answering for the wrong time-stamp. Write the question's time next to your final number.",
+      "tip": "In age problems, apply the ratio only at the time it is stated, and change ages by subtracting or adding the same number of years to everyone.",
+      "trap": "32 is the sum of their current ages (12 + 20). 42 comes from adding 10 to only one person.",
+      "timeTarget": 120,
+      "skills": [
+        "age-ratio",
+        "multiplier-method"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-010",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "A 60-litre mixture of milk and water has milk and water in the ratio 2:1. How many litres of the mixture must be removed and replaced with water so that the milk and water are in equal amounts?",
+      "choices": [
+        "5",
+        "10",
+        "12",
+        "14",
+        "15"
+      ],
+      "answer": 4,
+      "explanation": "Milk is 40 L and water is 20 L. For equal amounts, milk must fall to 30 L. Removing x litres of the mixture removes 2/3 of x as milk (because the mixture is 2/3 milk). So 40 − 2x/3 = 30, giving 2x/3 = 10 and x = 15.\n\nCheck: removing 15 L removes 10 L milk and 5 L water, leaving 30 L milk and 15 L water. Replace with 15 L water to get 30 L and 30 L. ✓\n\nThe subtle point: when you remove 'mixture', you remove both ingredients in the current ratio. You can't take out only milk.",
+      "tip": "Removing mixture removes each ingredient in proportion to the current ratio.",
+      "trap": "10 is how much milk has to go, but you can't remove pure milk, so the mixture removed must be larger. 12 and 14 come from guessing a round number without checking.",
+      "timeTarget": 120,
+      "skills": [
+        "mixture-replacement"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-011",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The ratio of the number of stamps owned by A to B is 3:4, and the ratio of B to C is 5:6. If C has 18 more stamps than A, how many stamps does B have?",
+      "choices": [
+        "15",
+        "20",
+        "24",
+        "30",
+        "40"
+      ],
+      "answer": 4,
+      "explanation": "Match B's term. B is 4 in the first ratio and 5 in the second, with a common multiple of 20. Scale A:B by 5 to get 15:20, and B:C by 4 to get 20:24. So A:B:C = 15:20:24.\n\nC − A = 24 − 15 = 9 units, and this equals 18 stamps, so one unit is 2 stamps. B = 20 × 2 = 40.\n\nCheck: A = 30, B = 40, C = 48. A:B = 3:4 ✓, B:C = 40:48 = 5:6 ✓, and 48 − 30 = 18 ✓.",
+      "tip": "Combine the ratios first, then translate the real-world clue (a difference or a sum) into units.",
+      "trap": "20 and 24 are the ratio terms for B and C before scaling by 2, and 15 is A's ratio term. 30 is A's actual number of stamps, so reading the wrong term lands on a choice.",
+      "timeTarget": 120,
+      "skills": [
+        "common-term",
+        "multiplier-method"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-012",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "A hostel has enough food to feed 120 students for 30 days. After 10 days, 40 students leave. For how many more days will the remaining food last the remaining students?",
+      "choices": [
+        "20",
+        "25",
+        "30",
+        "36",
+        "45"
+      ],
+      "answer": 2,
+      "explanation": "Total food = 120 × 30 = 3,600 student-days. After 10 days, 120 × 10 = 1,200 student-days are used, leaving 2,400. The 80 remaining students will use it for 2,400 ÷ 80 = 30 days.\n\nCheck: 80 students × 30 days = 2,400. ✓\n\nTrap-aware thinking: if nobody left, 2,400 would last 20 more days (the original schedule). Because fewer students remain, the food lasts longer than 20 days, so any choice at or below 20 is wrong immediately.",
+      "tip": "For stock-and-consumption problems, convert everything into one pool of 'person-days' and subtract what's gone.",
+      "trap": "20 is the 'nobody left' answer. 45 comes from dividing the full 3,600 by 80 and forgetting that 10 days have already been used.",
+      "timeTarget": 120,
+      "skills": [
+        "inverse-proportion",
+        "consumption"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-013",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "At a school, boys make up 3/5 of all students. Among the junior students the ratio of boys to girls is 2:1, and among the senior students the ratio of boys to girls is 4:5. What is the ratio of the number of junior students to the number of senior students?",
+      "choices": [
+        "7:3",
+        "3:7",
+        "4:9",
+        "5:4",
+        "9:4"
+      ],
+      "answer": 0,
+      "explanation": "Let there be J juniors and S seniors. Boys among juniors = 2/3 J (ratio 2:1 means 2/3 are boys). Boys among seniors = 4/9 S (ratio 4:5). Overall boys = 3/5 of (J + S).\n\nSo 2J/3 + 4S/9 = 3(J + S)/5. Multiply by 45: 30J + 20S = 27J + 27S. Then 3J = 7S, so J:S = 7:3.\n\nCheck with J = 7k, S = 3k and k = 3 (so J = 21, S = 9): boys 14 + 4 = 18 of 30 students = 3/5. ✓\n\nThis is a weighted-average problem in disguise: 3/5 sits between 4/9 and 2/3, and it's closer to 2/3, so juniors outweigh seniors.",
+      "tip": "Convert each part-to-part ratio into the fraction of the group it describes, then set up the weighted average.",
+      "trap": "3:7 is the flipped answer. People also add ratios directly (2:1 + 4:5 = 6:6), which is meaningless because the two groups have different sizes.",
+      "timeTarget": 150,
+      "skills": [
+        "weighted-average",
+        "ratio-fractions"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-p-014",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "Positive integers a, b and c satisfy a:b = 2:3 and b:c = 4:5. If b + c is odd, which of the following could be the value of c − a?",
+      "choices": [
+        "28",
+        "42",
+        "49",
+        "56",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "Match b: a:b = 2:3 = 8:12 and b:c = 4:5 = 12:15. So a:b:c = 8:12:15. Since gcd(8, 12, 15) = 1, integer solutions are exactly (a, b, c) = (8m, 12m, 15m) for positive integers m.\n\nThen b + c = 27m, which is odd only when m is odd. And c − a = 15m − 8m = 7m.\n\nSo c − a must be 7 times an odd number. Among the choices, 28 = 7 × 4, 42 = 7 × 6, 56 = 7 × 8 and 70 = 7 × 10 all have an even multiplier. Only 49 = 7 × 7 works.",
+      "tip": "With integer constraints, the common-term ratio gives a family (8m, 12m, 15m); then use the extra condition to restrict m.",
+      "trap": "All five choices are multiples of 7, so just checking divisibility by 7 doesn't help. The twist is that the oddness condition forces an odd multiplier.",
+      "timeTarget": 150,
+      "skills": [
+        "integer-constraints",
+        "common-term"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-m-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "In a tea stall, the ratio of cups of tea sold to cups of coffee sold is 5:2. If 35 cups of tea were sold, how many cups of coffee were sold?",
+      "choices": [
+        "10",
+        "12",
+        "14",
+        "49",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "Tea is 5 parts and 35 cups, so one part is 35 ÷ 5 = 7 cups. Coffee is 2 parts, so 2 × 7 = 14 cups.\n\nProportion check: 5/2 = 35/c, so c = 35 × 2 / 5 = 14.\n\nSense-check: tea outsells coffee, so coffee must be fewer than 35. That rules out 49 and 70 at once.\n\nIf you ever feel unsure about direction, write the ratio as a fraction with the labels attached: tea/coffee = 5/2 = 35/coffee. Labels keep you from flipping the fraction.",
+      "tip": "Divide the known quantity by its ratio number to get the value of one part.",
+      "trap": "49 comes from flipping the ratio and computing 35 × 7/5. 70 comes from multiplying 35 by the coffee term 2 instead of dividing by the tea term first.",
+      "timeTarget": 75,
+      "skills": [
+        "ratio-parts"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-m-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The sum of two numbers is 72 and their ratio is 5:7. What is the positive difference between the two numbers?",
+      "choices": [
+        "6",
+        "10",
+        "12",
+        "14",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "The ratio 5:7 splits the sum into 12 equal parts, so each part is 72 ÷ 12 = 6. The numbers are 30 and 42, and the difference is 42 − 30 = 12.\n\nFaster way: the difference is 7 − 5 = 2 parts, and 2 × 6 = 12.\n\nCheck: 30 + 42 = 72 and 30:42 = 5:7. ✓\n\nThis pattern, 'sum and ratio given, difference asked', appears often. The trick is that you never need the actual numbers, only the count of parts between them.",
+      "tip": "The difference of two ratio terms is also a number of parts, so you never need to find the numbers themselves.",
+      "trap": "6 is the size of one part, not the difference. 14 comes from 7 × 2, using the bigger ratio term instead of the gap 7 − 5.",
+      "timeTarget": 90,
+      "skills": [
+        "multiplier-method"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-m-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "A box holds ₹1, ₹2 and ₹5 coins in the ratio 8:5:3 by number of coins. If the total value of the coins is ₹330, how many ₹5 coins are in the box?",
+      "choices": [
+        "10",
+        "30",
+        "50",
+        "60",
+        "150"
+      ],
+      "answer": 1,
+      "explanation": "Write the numbers of coins as 8k, 5k and 3k. Their values are 8k × 1 = 8k, 5k × 2 = 10k and 3k × 5 = 15k. Total value = 33k = 330, so k = 10.\n\nThe number of ₹5 coins is 3k = 30.\n\nCheck: 80 + 50 + 30 = 160 coins; value = 80 + 100 + 150 = ₹330. ✓\n\nThe ratio is for the NUMBER of coins, not their values, so you must multiply by the coin denominations before adding.",
+      "tip": "When a ratio is about counts but the total is about value, convert each count into value before summing.",
+      "trap": "150 is the total value of the ₹5 coins, not their count. 10 is just k. 60 comes from adding coin counts as if every coin were worth the same.",
+      "timeTarget": 105,
+      "skills": [
+        "multiplier-method",
+        "weighted-total"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-m-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "Five identical machines produce 1,200 bolts in 4 hours. At the same rate per machine, how many hours will 8 such machines take to produce 3,000 bolts?",
+      "choices": [
+        "5",
+        "6.25",
+        "6.4",
+        "10",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "Each machine makes 1,200 ÷ 5 ÷ 4 = 60 bolts per hour. Eight machines make 480 bolts per hour, so 3,000 bolts take 3,000 ÷ 480 = 6.25 hours.\n\nProportion check: more bolts means more time (×3,000/1,200 = 2.5) and more machines means less time (×5/8). So 4 × 2.5 × 5/8 = 6.25. ✓\n\nTwo quantities change here, so treat them one at a time and decide direct or inverse for each.\n\nA useful sanity check is the rate per machine: 1,200 bolts from 5 machines in 4 hours is 60 bolts per machine-hour. Any later question about the same machines is then just division.",
+      "tip": "With multiple changes, adjust the original quantity by one factor per change, deciding the direction of each separately.",
+      "trap": "16 = 4 × 2.5 × 8/5 uses the machine ratio the wrong way round (more machines giving more time). 10 forgets the machines altogether (4 × 2.5).",
+      "timeTarget": 120,
+      "skills": [
+        "direct-inverse",
+        "rate"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-m-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The ratio of money held by Asha to Bina is 3:4. If Asha gives ₹10 to Bina, the ratio becomes 1:2. How much money did Asha have originally?",
+      "choices": [
+        "₹30",
+        "₹35",
+        "₹45",
+        "₹60",
+        "₹105"
+      ],
+      "answer": 2,
+      "explanation": "Let Asha = 3k and Bina = 4k. After Asha gives ₹10: (3k − 10)/(4k + 10) = 1/2. Cross-multiplying: 6k − 20 = 4k + 10, so k = 15.\n\nAsha had 3k = ₹45 (and Bina ₹60).\n\nCheck: after the gift Asha has 35 and Bina 70, which is 1:2. ✓\n\nThe total stays the same in a transfer: 7k = 105 before and after. A nice shortcut: after the transfer the total is 3 parts (1 + 2), so each part is 35, and Asha has 35 after giving 10, which means 45 before.",
+      "tip": "In a transfer, the total is constant. Use it to turn the new ratio into actual numbers.",
+      "trap": "₹35 is Asha's amount after the gift. ₹105 is the total of both people. ₹60 is Bina's original amount.",
+      "timeTarget": 120,
+      "skills": [
+        "transfer",
+        "ratio-change"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-m-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The monthly incomes of Ravi and Sunil are in the ratio 5:4, and their monthly expenses are in the ratio 3:2. If each of them saves ₹4,000 a month, what is Ravi's monthly income?",
+      "choices": [
+        "₹6,000",
+        "₹8,000",
+        "₹10,000",
+        "₹12,000",
+        "₹16,000"
+      ],
+      "answer": 2,
+      "explanation": "Let incomes be 5k and 4k, and expenses be 3m and 2m. Savings are equal at ₹4,000: 5k − 3m = 4,000 and 4k − 2m = 4,000.\n\nMultiply the second equation by 1.5 to get 6k − 3m = 6,000. Subtract the first: k = 2,000. So Ravi earns 5k = ₹10,000 and Sunil ₹8,000.\n\nCheck: expenses 3m = 6,000 and 2m = 4,000 (m = 2,000), a 3:2 ratio. Savings: 10,000 − 6,000 = 4,000 and 8,000 − 4,000 = 4,000. ✓\n\nTwo ratios, two unknown units, two equations. That's the pattern.",
+      "tip": "When two different ratios appear, give each its own unit variable and use the common clue to link them.",
+      "trap": "₹8,000 is Sunil's income. ₹6,000 is Ravi's expense. Treating the incomes and expenses as one shared unit gives inconsistent answers.",
+      "timeTarget": 120,
+      "skills": [
+        "simultaneous-equations",
+        "ratio-algebra"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-m-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "Alloy X contains gold and silver in the ratio 2:3 by weight. Alloy Y contains gold and silver in the ratio 3:7 by weight. If 20 kg of alloy Y is melted together with some of alloy X so that the resulting alloy has gold and silver in the ratio 1:2, how many kilograms of alloy X are used?",
+      "choices": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "Gold fraction in X = 2/5 = 0.4. Gold fraction in Y = 3/10 = 0.3. Target gold fraction = 1/3.\n\nLet x kg of X be used. Gold: 0.4x + 0.3(20) = (x + 20)/3. Multiply by 30: 12x + 180 = 10x + 200, so 2x = 20 and x = 10.\n\nCheck: gold = 4 + 6 = 10 kg; silver = 6 + 14 = 20 kg. Ratio 10:20 = 1:2. ✓\n\nAlligation alternative: distances from target to each alloy are 1/3 − 3/10 = 1/30 (to Y) and 2/5 − 1/3 = 1/15 (to X), so X : Y = 1/30 : 1/15 = 1:2 and with 20 kg of Y, X = 10.",
+      "tip": "For blending ratios, convert to fractions of one ingredient and use alligation or a single-ingredient equation.",
+      "trap": "Averaging the ratios (2:3 and 3:7) directly is meaningless. 40 comes from inverting the alligation (X:Y = 2:1 instead of 1:2), and 20 is just the amount of Y.",
+      "timeTarget": 150,
+      "skills": [
+        "alligation",
+        "mixtures"
+      ]
+    },
+    {
+      "id": "q-ratios-qb-m-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-ratios",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "Positive integers a, b and c satisfy a:b = 3:4 and b:c = 6:5. Which of the following must be true?\n\nI. a + b + c is divisible by 31.\n\nII. b is divisible by 12.\n\nIII. c − a is even.",
+      "choices": [
+        "I and II only",
+        "I only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "answer": 0,
+      "explanation": "Match b: a:b = 3:4 = 9:12 and b:c = 6:5 = 12:10. So a:b:c = 9:12:10. Since gcd(9, 12, 10) = 1, every integer solution is (9m, 12m, 10m) for a positive integer m.\n\nI: a + b + c = 31m, so it is divisible by 31. True.\nII: b = 12m, divisible by 12. True.\nIII: c − a = 10m − 9m = m. This is even only if m is even; for m = 1 it is 1. Not necessarily true.\n\nSo only I and II must be true.",
+      "tip": "Turn a ratio of integers into a family (9m, 12m, 10m) and test each statement as an expression in m.",
+      "trap": "Statement III looks plausible because 10 is even, but the subtraction leaves m, which can be odd. Always test the smallest member of the family (m = 1).",
+      "timeTarget": 150,
+      "skills": [
+        "integer-constraints",
+        "must-be-true"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "What is the value of (2⁵ × 2³) ÷ 2⁴?",
+      "choices": [
+        "16",
+        "32",
+        "64",
+        "128",
+        "256"
+      ],
+      "answer": 0,
+      "explanation": "When you multiply powers of the same base you add the exponents, and when you divide you subtract. So 2⁵ × 2³ = 2⁸, and 2⁸ ÷ 2⁴ = 2⁴ = 16.\n\nSecond method: compute directly. 2⁵ = 32 and 2³ = 8, so the product is 256. Then 256 ÷ 16 = 16.\n\nThe rule is the faster route here, and it scales to huge exponents where direct calculation is impossible. Always combine the exponents first and calculate only at the end.",
+      "tip": "Combine exponents of the same base before you compute any actual values.",
+      "trap": "256 is 2⁸, the answer you get if you add 5 + 3 and then forget to divide by 2⁴. 32 is 2⁵ alone, which comes from stopping after one step.",
+      "timeTarget": 75,
+      "skills": [
+        "exponent-rules"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "What is the value of (3²)³ ÷ 3⁴?",
+      "choices": [
+        "3",
+        "9",
+        "27",
+        "81",
+        "243"
+      ],
+      "answer": 1,
+      "explanation": "For a power of a power you multiply the exponents: (3²)³ = 3⁶. Then dividing by 3⁴ subtracts the exponents: 3⁶ ÷ 3⁴ = 3² = 9.\n\nDirect check: 3² = 9 and 9³ = 729. And 3⁴ = 81. 729 ÷ 81 = 9. ✓\n\nThe rules to keep straight: multiply bases' powers means add exponents, divide means subtract, power of a power means multiply.\n\nA good habit is to simplify the exponents completely before evaluating anything: here (3²)³ ÷ 3⁴ collapses to 3⁶ ÷ 3⁴ and then to 3². Large numbers like 729 never need to appear.",
+      "tip": "Power of a power: multiply the exponents. Same-base division: subtract them.",
+      "trap": "3 comes from adding the exponents in (3²)³ to get 3⁵ and then subtracting 4. Adding is only for multiplying two powers, not for raising a power to a power.",
+      "timeTarget": 75,
+      "skills": [
+        "exponent-rules"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If 8<sup>x−1</sup> = 16, what is the value of x?",
+      "choices": [
+        "4/3",
+        "5/3",
+        "2",
+        "3",
+        "7/3"
+      ],
+      "answer": 4,
+      "explanation": "Rewrite both sides with base 2. 8 = 2³, so 8<sup>x−1</sup> = 2<sup>3(x−1)</sup> = 2<sup>3x−3</sup>. And 16 = 2⁴.\n\nSet the exponents equal: 3x − 3 = 4, so 3x = 7 and x = 7/3.\n\nCheck: x − 1 = 4/3, and 8<sup>4/3</sup> = (∛8)⁴ = 2⁴ = 16. ✓\n\nNotice that the exponent is not a whole number. That is normal on the GMAT, so don't reject a fractional answer just because it looks odd.\n\nThe skill being tested is converting a base into a power of a smaller base. Whenever you see 8, 16, 32 or 64, think powers of 2; for 9, 27 or 81, think powers of 3.",
+      "tip": "Express every term as a power of the same base, then equate the exponents.",
+      "trap": "3 comes from reading the equation as x − 1 = 2 (because 8 × 2 = 16), which confuses multiplication with exponentiation. 5/3 comes from writing 16 as 2² by mistake.",
+      "timeTarget": 90,
+      "skills": [
+        "same-base",
+        "exponential-equations"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "What is the value of (5¹² − 5¹¹) ÷ 5¹⁰?",
+      "choices": [
+        "4",
+        "5",
+        "20",
+        "25",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "You can't subtract exponents inside a difference. Factor out the smallest power in the numerator: 5¹² − 5¹¹ = 5¹¹(5 − 1) = 4 × 5¹¹.\n\nDivide by 5¹⁰: 4 × 5¹¹ ÷ 5¹⁰ = 4 × 5 = 20.\n\nCheck with smaller numbers using the same pattern: (5³ − 5²) ÷ 5¹ = (125 − 25) ÷ 5 = 20. ✓ (The answer depends only on the gap between exponents, not their size.)\n\nThe same idea shows up in problems that ask for 'the largest power of 5 dividing' a difference or sum: factor, and the common power is exposed.",
+      "tip": "For a sum or difference of powers, factor out the smallest power first.",
+      "trap": "25 comes from treating the numerator as 5¹² and ignoring the subtraction (5¹² ÷ 5¹⁰ = 25). 5 comes from cancelling 5¹¹ and 5¹⁰ and forgetting the factor 4.",
+      "timeTarget": 90,
+      "skills": [
+        "factoring-powers"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "What is the value of √48 + √12 ?",
+      "choices": [
+        "√60",
+        "2√15",
+        "5√3",
+        "6√3",
+        "12√3"
+      ],
+      "answer": 3,
+      "explanation": "Simplify each root by pulling out perfect squares. √48 = √(16 × 3) = 4√3. √12 = √(4 × 3) = 2√3. Both are multiples of √3, so they combine like terms: 4√3 + 2√3 = 6√3.\n\nNumerical check: √48 ≈ 6.93 and √12 ≈ 3.46, which sum to about 10.39. And 6√3 ≈ 6 × 1.732 = 10.39. ✓\n\nThe tempting wrong move is to add the numbers under the roots. That never works: √a + √b is not √(a + b).",
+      "tip": "Simplify each root to its simplest form; if the radicands match, add the coefficients.",
+      "trap": "√60 (and its simplified form 2√15) come from adding under the root, which never works. 5√3 comes from simplifying √12 as just √3 and then adding 4√3 + √3.",
+      "timeTarget": 90,
+      "skills": [
+        "roots",
+        "simplifying-radicals"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "Which of the following is the greatest?",
+      "choices": [
+        "4⁵⁰",
+        "8³⁴",
+        "16²⁵",
+        "32²⁰",
+        "128¹⁶"
+      ],
+      "answer": 4,
+      "explanation": "Rewrite everything as a power of 2. 4⁵⁰ = 2¹⁰⁰. 8³⁴ = 2¹⁰². 16²⁵ = 2¹⁰⁰. 32²⁰ = 2¹⁰⁰. 128¹⁶ = (2⁷)¹⁶ = 2¹¹².\n\nSince the base is the same (and above 1), the greatest has the biggest exponent: 112, which is 128¹⁶.\n\nNotice how a base like 128 looks enormous but a small exponent like 16 looks tame. Neither impression is reliable. Only the common base reveals the truth.\n\nOn test day, write the exponent next to each choice (100, 102, 100, 100, 112) in a column on your note board. It takes ten seconds and makes the comparison unmissable.",
+      "tip": "To compare powers, rewrite them with the same base and compare exponents.",
+      "trap": "People gravitate to 4⁵⁰ because the exponent is biggest. A large exponent on a small base can lose to a small exponent on a large base.",
+      "timeTarget": 105,
+      "skills": [
+        "comparing-powers"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If 3<sup>x+2</sup> − 3<sup>x</sup> = 216, what is x?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Factor out the smaller power, 3<sup>x</sup>: 3<sup>x+2</sup> − 3<sup>x</sup> = 3<sup>x</sup>(3² − 1) = 8 × 3<sup>x</sup>.\n\nSo 8 × 3<sup>x</sup> = 216, giving 3<sup>x</sup> = 27 = 3³. Hence x = 3.\n\nCheck: 3⁵ − 3³ = 243 − 27 = 216. ✓\n\nTrying to solve without factoring (for example by plugging in values) also works here because there are only five choices, but factoring is the transferable skill.\n\nIf you prefer, test the choices: x = 3 gives 3⁵ − 3³ = 243 − 27 = 216, which matches, while x = 2 gives 81 − 9 = 72 and x = 4 gives 729 − 81 = 648.",
+      "tip": "When two powers of the same base are added or subtracted, factor the smallest power out and the rest becomes a number.",
+      "trap": "Forgetting the '−1' and writing 9 × 3<sup>x</sup> = 216 gives 3<sup>x</sup> = 24, which is not a power of 3, so people guess a nearby choice such as 2 or 4. Always factor (9 − 1) = 8.",
+      "timeTarget": 105,
+      "skills": [
+        "factoring-powers",
+        "exponential-equations"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "What is the value of √0.0049 + ∛0.000027 ?",
+      "choices": [
+        "0.04",
+        "0.1",
+        "0.37",
+        "0.73",
+        "1.0"
+      ],
+      "answer": 1,
+      "explanation": "Handle each root separately. 0.07 × 0.07 = 0.0049, so √0.0049 = 0.07. And 0.03 × 0.03 × 0.03 = 0.000027, so ∛0.000027 = 0.03.\n\nThe sum is 0.07 + 0.03 = 0.10.\n\nA helpful way to see this is to use fractions: 0.0049 = 49/10,000, whose square root is 7/100. And 0.000027 = 27/1,000,000, whose cube root is 3/100.\n\nAnother route: a decimal root has half as many decimal places for a square root (4 places becomes 2) and one third as many for a cube root (6 places becomes 2). That quick rule confirms 0.07 and 0.03.",
+      "tip": "Convert a decimal under a root into a fraction of a power of 10, then take the root of numerator and denominator.",
+      "trap": "0.37 and 0.73 come from shifting the decimal point incorrectly for one root (0.3 or 0.7 instead of 0.03 or 0.07). 0.04 comes from subtracting instead of adding.",
+      "timeTarget": 90,
+      "skills": [
+        "roots-of-decimals"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-009",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "What is the units digit of 3⁴⁵ × 7²² ?",
+      "choices": [
+        "0",
+        "1",
+        "3",
+        "7",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "Units digits of powers repeat in cycles. Powers of 3 end in 3, 9, 7, 1 and repeat every 4. 45 ÷ 4 leaves remainder 1, so 3⁴⁵ ends in 3. Powers of 7 end in 7, 9, 3, 1, also every 4. 22 ÷ 4 leaves remainder 2, so 7²² ends in 9.\n\nThe product of the units digits is 3 × 9 = 27, which ends in 7.\n\nSecond method: 3⁴⁵ × 7²² = 3 × 3⁴⁴ × 49¹¹. 3⁴⁴ ends in 1 (44 is a multiple of 4), and 49¹¹ ends in 9 (an odd power of 9). So 3 × 1 × 9 = 27, again ending in 7.",
+      "tip": "Units digits of powers follow a cycle of 4 or fewer. Use the exponent's remainder after dividing by 4.",
+      "trap": "3 and 9 are the units digits of the two factors on their own. Only the product's units digit counts, so multiply the units digits and take the last digit.",
+      "timeTarget": 105,
+      "skills": [
+        "units-digit",
+        "cycles"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-010",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "What is the sum of the digits of the integer 10⁵⁰ − 25 ?",
+      "choices": [
+        "432",
+        "436",
+        "444",
+        "448",
+        "450"
+      ],
+      "answer": 2,
+      "explanation": "Compute small cases to see the pattern. 10² − 25 = 75. 10³ − 25 = 975. 10⁴ − 25 = 9,975. The result is a string of 9s followed by 75, and the number of 9s is two fewer than the power of 10.\n\nSo 10⁵⁰ − 25 has 48 nines followed by 7 and 5. Check the digit count: 48 + 2 = 50. ✓\n\nDigit sum = 48 × 9 + 7 + 5 = 432 + 12 = 444.\n\nThe only way to be fast here is to notice a pattern from small cases rather than attempt the full subtraction.",
+      "tip": "For huge numbers like 10ⁿ − k, test small n, spot the pattern, and extend it.",
+      "trap": "432 is 48 × 9 and forgets the 7 and 5. 450 comes from assuming 50 nines. Count the digits carefully: 10⁵⁰ has 51 digits but the difference has 50.",
+      "timeTarget": 135,
+      "skills": [
+        "patterns",
+        "digit-sum"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-011",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If n is a positive integer, what is the value of (3<sup>2n+1</sup> − 3<sup>2n−1</sup>) ÷ (3<sup>2n−1</sup> + 3<sup>2n−2</sup>) ?",
+      "choices": [
+        "3",
+        "6",
+        "8",
+        "12",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "Factor each part. Numerator: the smallest power is 3<sup>2n−1</sup>, so 3<sup>2n+1</sup> − 3<sup>2n−1</sup> = 3<sup>2n−1</sup>(3² − 1) = 8 × 3<sup>2n−1</sup>. Denominator: the smallest power is 3<sup>2n−2</sup>, so 3<sup>2n−1</sup> + 3<sup>2n−2</sup> = 3<sup>2n−2</sup>(3 + 1) = 4 × 3<sup>2n−2</sup>.\n\nRatio: (8 × 3<sup>2n−1</sup>) ÷ (4 × 3<sup>2n−2</sup>) = 2 × 3<sup>1</sup> = 6.\n\nCheck with n = 1: (27 − 3) ÷ (3 + 1) = 24 ÷ 4 = 6. ✓ The expression doesn't depend on n, which tells you plugging in n = 1 is a legitimate shortcut.",
+      "tip": "If the answer must be a constant, plug in the smallest legal value of the variable as a check.",
+      "trap": "24 comes from forgetting to divide by the 4 in the denominator. 8 comes from ignoring the leftover power of 3 as well.",
+      "timeTarget": 120,
+      "skills": [
+        "factoring-powers",
+        "plug-in"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-012",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "What is the value of √(7 + 4√3) − √(7 − 4√3) ?",
+      "choices": [
+        "2",
+        "2√2",
+        "4",
+        "2√3",
+        "4√3"
+      ],
+      "answer": 3,
+      "explanation": "Try to write each radicand as a perfect square of the form (a + b√3)². (2 + √3)² = 4 + 4√3 + 3 = 7 + 4√3, so √(7 + 4√3) = 2 + √3. Similarly (2 − √3)² = 7 − 4√3, and since 2 > √3, √(7 − 4√3) = 2 − √3.\n\nSubtract: (2 + √3) − (2 − √3) = 2√3.\n\nNumerical check: √(7 + 6.928) = √13.928 ≈ 3.732 and √(7 − 6.928) = √0.072 ≈ 0.268. The difference ≈ 3.464 ≈ 2 × 1.732. ✓",
+      "tip": "A radicand of the form p + q√r is often (a + b√r)². Guess a and b from a² + b²r = p and 2ab = q.",
+      "trap": "4 comes from adding the two roots instead of subtracting. √(7 − 4√3) must be taken as the positive value 2 − √3, not −(2 − √3).",
+      "timeTarget": 135,
+      "skills": [
+        "nested-radicals"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-013",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "For how many positive integers n ≤ 8 is the sum 2ⁿ + 3ⁿ divisible by 5?",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Work with remainders mod 5. Note that 3 ≡ −2 (mod 5), so 3ⁿ ≡ (−2)ⁿ. Then 2ⁿ + 3ⁿ ≡ 2ⁿ + (−2)ⁿ.\n\nIf n is odd, (−2)ⁿ = −2ⁿ, so the sum is 0 mod 5, meaning it is divisible by 5. If n is even, (−2)ⁿ = 2ⁿ, so the sum is 2 × 2ⁿ, which is not divisible by 5 because 2ⁿ is not.\n\nSo the sum is divisible by 5 exactly when n is odd. For n ≤ 8, odd values are 1, 3, 5, 7: four values.\n\nSpot check: n = 1: 5 ✓; n = 2: 13 ✗; n = 3: 35 ✓.",
+      "tip": "Replace a number with its negative equivalent mod m when it makes powers easier. (3 ≡ −2 mod 5.)",
+      "trap": "Seeing that n = 1 and n = 3 work, many people guess that every n works and answer 8. Test an even n (n = 2 gives 13) before you generalise.",
+      "timeTarget": 150,
+      "skills": [
+        "modular-thinking",
+        "pattern-testing"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-p-014",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If −1 < x < 0, which of the following must be true?\n\nI. x⁴ > x⁶\n\nII. 1/x³ < x\n\nIII. x³ > x⁵",
+      "choices": [
+        "I only",
+        "II only",
+        "II and III only",
+        "I, II and III",
+        "I and II only"
+      ],
+      "answer": 4,
+      "explanation": "Test x = −1/2. Then x² = 1/4, x³ = −1/8, x⁴ = 1/16, x⁵ = −1/32, x⁶ = 1/64.\n\nI: x⁴ = 1/16 > x⁶ = 1/64. True. In general, x⁴ − x⁶ = x⁴(1 − x²) > 0 because |x| < 1.\n\nII: 1/x³ = −8, and −8 < −1/2. True. In general, if −1 < x < 0, then x³ is between −1 and 0, so 1/x³ < −1 < x.\n\nIII: x³ = −1/8 and x⁵ = −1/32. Then −1/8 < −1/32, so x³ > x⁵ is false.\n\nSo only I and II must be true.",
+      "tip": "For −1 < x < 0, odd powers are negative and get closer to 0 as the exponent grows; even powers are positive and shrink.",
+      "trap": "Statement III feels natural because 'higher powers are smaller'. But for negative numbers the odd powers shrink toward zero from below, so the HIGHER power is larger.",
+      "timeTarget": 135,
+      "skills": [
+        "number-line",
+        "must-be-true"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-m-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "What is the value of (1/2)⁻³ ?",
+      "choices": [
+        "−8",
+        "−6",
+        "1/8",
+        "6",
+        "8"
+      ],
+      "answer": 4,
+      "explanation": "A negative exponent flips the base: (1/2)⁻³ = (2/1)³ = 2³ = 8.\n\nSecond method: (1/2)⁻³ = 1 ÷ (1/2)³ = 1 ÷ (1/8) = 8.\n\nThe negative sign in the exponent says 'take the reciprocal'. It does not make the answer negative.\n\nThink of it as 'flip, then power'. In general, x⁻ⁿ = 1/xⁿ, and for a fraction (a/b)⁻ⁿ = (b/a)ⁿ. So (1/2)⁻³ is the same as asking 'what is 2³?', which is 8. A negative exponent never changes the sign of the answer by itself.",
+      "tip": "A negative exponent means flip the base, then apply the positive exponent.",
+      "trap": "−8 comes from letting the negative exponent make the result negative. 1/8 comes from cubing 1/2 and ignoring the negative sign of the exponent.",
+      "timeTarget": 75,
+      "skills": [
+        "negative-exponents"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-m-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If 9<sup>x</sup> = 27<sup>x−2</sup>, what is the value of x?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "12",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "Both 9 and 27 are powers of 3. 9<sup>x</sup> = (3²)<sup>x</sup> = 3<sup>2x</sup> and 27<sup>x−2</sup> = (3³)<sup>x−2</sup> = 3<sup>3x−6</sup>.\n\nEquate exponents: 2x = 3x − 6, so x = 6.\n\nCheck: 9⁶ = 3¹² and 27⁴ = 3¹². ✓\n\nAnother way to see it is to try the choices: with x = 6, 9⁶ = 531,441 and 27⁴ = 531,441. Equal, so x = 6 is correct. Once the bases match, the exponent equation is a simple linear equation that you can solve in one line. Always check that your final x fits the original equation.",
+      "tip": "Rewrite both sides with base 3, then set the exponents equal.",
+      "trap": "x = 2 comes from forgetting to distribute the 3 across (x − 2) and writing 3(x) − 2. Always put brackets around the whole exponent.",
+      "timeTarget": 90,
+      "skills": [
+        "same-base"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-m-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "What is the value of (2²² + 2²¹) ÷ (2²⁰ − 2¹⁹) ?",
+      "choices": [
+        "6",
+        "12",
+        "24",
+        "36",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "Factor each bracket. Numerator: 2²² + 2²¹ = 2²¹(2 + 1) = 3 × 2²¹. Denominator: 2²⁰ − 2¹⁹ = 2¹⁹(2 − 1) = 2¹⁹.\n\nSo the ratio is 3 × 2²¹ ÷ 2¹⁹ = 3 × 2² = 12.\n\nCheck with a small version of the same pattern: (2⁴ + 2³) ÷ (2² − 2¹) = 24 ÷ 2 = 12. ✓\n\nThe pattern in factoring is always the same: identify the smallest power in each sum or difference, pull it out, and what is left in the bracket is a small number. Then cancel the powers of 2 that remain on top and bottom.",
+      "tip": "In a ratio of sums of powers, factor out the smallest power in both the top and the bottom, then cancel.",
+      "trap": "6 comes from dividing by 2²⁰ instead of 2¹⁹. 24 comes from dividing by 2¹⁸. Be exact about the smallest power in each bracket.",
+      "timeTarget": 105,
+      "skills": [
+        "factoring-powers"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-m-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If 5<sup>x</sup> = 3, what is the value of 25<sup>x+1</sup> ÷ 5<sup>x</sup> ?",
+      "choices": [
+        "15",
+        "45",
+        "75",
+        "225",
+        "375"
+      ],
+      "answer": 2,
+      "explanation": "Write 25 as 5². Then 25<sup>x+1</sup> = 5<sup>2x+2</sup> = 5<sup>2x</sup> × 5² = 25 × (5<sup>x</sup>)². Since 5<sup>x</sup> = 3, this is 25 × 9 = 225.\n\nDivide by 5<sup>x</sup> = 3: 225 ÷ 3 = 75.\n\nSimplify first: 25<sup>x+1</sup> ÷ 5<sup>x</sup> = 5<sup>2x+2−x</sup> = 5<sup>x+2</sup> = 25 × 5<sup>x</sup> = 25 × 3 = 75. ✓ Same answer, less arithmetic.\n\nNotice that the problem never asks for x itself. When a question gives you the value of a power like 5ˣ, rewrite the target using that same power rather than hunting for x.",
+      "tip": "Don't solve for x. Express the target in terms of the known power (here 5<sup>x</sup> = 3).",
+      "trap": "225 is the value of the numerator before dividing. 15 comes from using 5<sup>x+1</sup> = 15 by mistake.",
+      "timeTarget": 105,
+      "skills": [
+        "exponent-rules",
+        "substitution"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-m-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If √(11 + 6√2) = a + b√2, where a and b are positive integers, what is the value of a + b ?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "Square both sides: 11 + 6√2 = (a + b√2)² = a² + 2b² + 2ab√2. Match the rational and irrational parts: a² + 2b² = 11 and 2ab = 6, so ab = 3.\n\nPositive integers with ab = 3 are (3, 1) and (1, 3). Test a² + 2b²: (3, 1) gives 9 + 2 = 11 ✓. (1, 3) gives 1 + 18 = 19 ✗.\n\nSo a = 3, b = 1 and a + b = 4.\n\nCheck: (3 + √2)² = 9 + 6√2 + 2 = 11 + 6√2. ✓",
+      "tip": "For nested roots, square the proposed form and match the rational and irrational parts separately.",
+      "trap": "Picking (a, b) = (1, 3) because ab = 3 satisfies one equation but not the other. Both equations must hold. Also 11 appears as a trap for reading a + b off the radicand.",
+      "timeTarget": 120,
+      "skills": [
+        "nested-radicals"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-m-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "Which of the following correctly orders 2¹⁵⁰, 3¹⁰⁰ and 5⁷⁵ from least to greatest?",
+      "choices": [
+        "5⁷⁵ < 3¹⁰⁰ < 2¹⁵⁰",
+        "3¹⁰⁰ < 2¹⁵⁰ < 5⁷⁵",
+        "2¹⁵⁰ < 5⁷⁵ < 3¹⁰⁰",
+        "2¹⁵⁰ < 3¹⁰⁰ < 5⁷⁵",
+        "3¹⁰⁰ < 5⁷⁵ < 2¹⁵⁰"
+      ],
+      "answer": 3,
+      "explanation": "The exponents 150, 100 and 75 share a common factor of 25, so take the 25th root of each. 2¹⁵⁰ → 2⁶ = 64. 3¹⁰⁰ → 3⁴ = 81. 5⁷⁵ → 5³ = 125.\n\nSince 64 < 81 < 125, and taking the same positive root of positive numbers preserves order, 2¹⁵⁰ < 3¹⁰⁰ < 5⁷⁵.\n\nThis is a safe technique: dividing every exponent by the same number is the same as taking a root of every term.\n\nA second route is to compare pairs: 3¹⁰⁰ against 2¹⁵⁰ is (3²)⁵⁰ = 9⁵⁰ against (2³)⁵⁰ = 8⁵⁰, so 3¹⁰⁰ is bigger. Either way the work is just rewriting exponents so that they match.",
+      "tip": "If neither bases nor exponents match, take a common root so the exponents become small and comparable.",
+      "trap": "Judging by exponent size alone (150 is the biggest) puts 2¹⁵⁰ on top, which is the reverse of the truth. The base matters just as much as the exponent.",
+      "timeTarget": 135,
+      "skills": [
+        "comparing-powers",
+        "roots"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-m-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If a, b and c are nonzero numbers with 2<sup>a</sup> = 3<sup>b</sup> = 6<sup>c</sup>, which of the following must be true?",
+      "choices": [
+        "1/c = 1/a + 1/b",
+        "c = a + b",
+        "c = ab",
+        "c² = ab",
+        "c = 1/a + 1/b"
+      ],
+      "answer": 0,
+      "explanation": "Let the common value be k, so 2<sup>a</sup> = 3<sup>b</sup> = 6<sup>c</sup> = k. Raise each to a power to isolate the base: 2 = k<sup>1/a</sup>, 3 = k<sup>1/b</sup>, and 6 = k<sup>1/c</sup>.\n\nSince 6 = 2 × 3, k<sup>1/c</sup> = k<sup>1/a</sup> × k<sup>1/b</sup> = k<sup>1/a + 1/b</sup>.\n\nThus 1/c = 1/a + 1/b (k ≠ 1 as the exponents are nonzero).\n\nNumerical check with k = 1000: a = log₂1000 ≈ 9.97, b ≈ 6.29, c ≈ 3.86. Then 1/a + 1/b ≈ 0.1003 + 0.1590 = 0.2593 and 1/c ≈ 0.2591. ✓",
+      "tip": "When several powers equal the same number, raise each to the reciprocal of its exponent to recover its base.",
+      "trap": "c = a + b is the tempting 'multiplying means adding' version, but the exponents belong to different bases, so the relationship runs through reciprocals.",
+      "timeTarget": 150,
+      "skills": [
+        "exponent-relationships",
+        "algebra"
+      ]
+    },
+    {
+      "id": "q-exponents-qb-m-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-exponents",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "For how many ordered pairs (x, y) of positive integers does x<sup>y</sup> = 2¹² × 3¹⁸ ?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "If x<sup>y</sup> = 2¹² × 3¹⁸, then x must be of the form 2<sup>m</sup> × 3<sup>n</sup>, and x<sup>y</sup> = 2<sup>my</sup> × 3<sup>ny</sup>. So my = 12 and ny = 18, which means y divides both 12 and 18, and then m and n are determined.\n\nThe common divisors of 12 and 18 are the divisors of gcd(12, 18) = 6: 1, 2, 3, 6. Each such y gives exactly one x (for example, y = 6 gives x = 2² × 3³ = 108; y = 1 gives x = 2¹² × 3¹⁸).\n\nSo there are 4 ordered pairs.",
+      "tip": "x<sup>y</sup> = N means y must divide every prime exponent in N, so count the divisors of their gcd.",
+      "trap": "6 is the gcd itself rather than the number of valid y values. 2 counts only the primes in the factorisation. Counting 'how many y' needs the number of divisors of the gcd, not the gcd.",
+      "timeTarget": 150,
+      "skills": [
+        "exponent-counting",
+        "gcd"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "If n is an odd integer, which of the following must be even?",
+      "choices": [
+        "n + 2",
+        "3n",
+        "2n − 1",
+        "n²",
+        "n² + 1"
+      ],
+      "answer": 4,
+      "explanation": "Test an odd value, such as n = 3. Then n + 2 = 5 (odd), 3n = 9 (odd), 2n − 1 = 5 (odd), n² = 9 (odd) and n² + 1 = 10 (even).\n\nReasoning check: an odd number times an odd number is odd, so n² is odd. Adding 1 to an odd number always gives an even number, so n² + 1 is even for every odd n.\n\nAlso 2n is even for any integer, so 2n − 1 is always odd, and n + 2 shifts an odd number by an even amount, which stays odd.",
+      "tip": "For odd/even questions, test one odd value, then confirm the parity rule behind your answer.",
+      "trap": "Choosing 3n or n² because 'it has something to do with n being odd'. Multiplying odd numbers always gives an odd number.",
+      "timeTarget": 75,
+      "skills": [
+        "odd-even"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "The sum of three consecutive integers is 72. What is the largest of the three integers?",
+      "choices": [
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "answer": 3,
+      "explanation": "For three consecutive integers the middle number is the average: 72 ÷ 3 = 24. So the integers are 23, 24 and 25, and the largest is 25.\n\nAlgebra check: n + (n + 1) + (n + 2) = 3n + 3 = 72, so n = 23. The largest is n + 2 = 25.\n\nCheck: 23 + 24 + 25 = 72. ✓\n\nUse this for any odd number of consecutive integers: the middle one is the average. For an even count, the average falls halfway between the two middle terms.",
+      "tip": "The average of consecutive integers is the middle term, so the sum is the middle term times the count.",
+      "trap": "24 is the middle integer, the average, not the largest. 23 is the smallest. Read which one the question asks for.",
+      "timeTarget": 75,
+      "skills": [
+        "consecutive-integers"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If ab > 0 and a + b < 0, which of the following must be true?",
+      "choices": [
+        "a < 0 and b < 0",
+        "a > 0 and b > 0",
+        "a > 0 and b < 0",
+        "a < 0 and b > 0",
+        "a > b"
+      ],
+      "answer": 0,
+      "explanation": "ab > 0 means a and b have the same sign (both positive or both negative). a + b < 0 means the sum is negative, which cannot happen if both are positive.\n\nSo both must be negative: a < 0 and b < 0.\n\nCheck with numbers: a = −2, b = −3 gives ab = 6 > 0 and a + b = −5 < 0. ✓ The final choice, a > b, fails with a = −3, b = −2.\n\nSign questions are usually quickest by listing the possible sign combinations and eliminating.",
+      "tip": "List the possible sign combinations for each variable and let the conditions eliminate them one by one.",
+      "trap": "Choosing 'a > b' because the numbers can be different. A condition that is true for some pairs but not all is not a 'must be true'.",
+      "timeTarget": 90,
+      "skills": [
+        "sign-rules",
+        "logic"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The sum of five consecutive even integers is 150. What is the smallest of the five integers?",
+      "choices": [
+        "24",
+        "26",
+        "28",
+        "30",
+        "32"
+      ],
+      "answer": 1,
+      "explanation": "Five consecutive even integers have a middle term equal to the average: 150 ÷ 5 = 30. The integers go up by 2: 26, 28, 30, 32, 34. The smallest is 26.\n\nAlgebra check: n + (n + 2) + (n + 4) + (n + 6) + (n + 8) = 5n + 20 = 150, so n = 26.\n\nCheck: 26 + 28 + 30 + 32 + 34 = 150. ✓\n\nThe same logic works for odd consecutive integers or multiples of 5: the middle term is the average, and you step outward by the common gap.",
+      "tip": "For consecutive evens or odds the gap is 2, not 1. Go out from the middle term two steps at a time.",
+      "trap": "28 comes from using a gap of 1 (28, 29, 30, 31, 32). 30 is the middle term and the average, not the smallest.",
+      "timeTarget": 90,
+      "skills": [
+        "consecutive-integers"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "How many two-digit positive integers have a units digit that is exactly twice the tens digit?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Let the tens digit be t (from 1 to 9) and the units digit be u = 2t. Since u must be a single digit (0–9), 2t ≤ 9, so t ≤ 4.\n\nThe numbers are t = 1: 12, t = 2: 24, t = 3: 36, t = 4: 48. That is 4 numbers.\n\nCheck t = 5: u = 10, which is not a digit. ✓ So the list stops at 48.\n\nIt pays to list a small family systematically instead of guessing a count.",
+      "tip": "When counting digit patterns, find the limiting constraint (here 2t ≤ 9) and list the cases.",
+      "trap": "Stopping at 3 or running on to 5 or 6 by letting the tens digit be 5 or 0. Remember that 2 × 5 = 10 is not a single digit.",
+      "timeTarget": 90,
+      "skills": [
+        "digits",
+        "counting"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If 0 < x < 1, which of the following has the smallest value?",
+      "choices": [
+        "x",
+        "x²",
+        "√x",
+        "1/x",
+        "x³"
+      ],
+      "answer": 4,
+      "explanation": "Try x = 1/2. Then x = 0.5, x² = 0.25, √x ≈ 0.71, 1/x = 2 and x³ = 0.125. The smallest is x³.\n\nWhy: multiplying a number between 0 and 1 by another number between 0 and 1 makes it smaller, so higher powers get smaller: x > x² > x³. The square root is bigger than x, and 1/x is bigger than 1.\n\nTry another value like x = 0.1 to confirm: x³ = 0.001, the smallest again.",
+      "tip": "For 0 < x < 1: higher powers shrink, roots grow, and the reciprocal exceeds 1.",
+      "trap": "Choosing x² because 'squaring makes it small' without considering that x³ is smaller still. Also remember that the rules reverse for x > 1.",
+      "timeTarget": 90,
+      "skills": [
+        "fractions-between-0-1",
+        "pick-numbers"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If p is a prime number greater than 3, which of the following must be divisible by 24?",
+      "choices": [
+        "p² − 4",
+        "p² + 1",
+        "p(p + 1)",
+        "p² − 2",
+        "p² − 1"
+      ],
+      "answer": 4,
+      "explanation": "p² − 1 = (p − 1)(p + 1), the product of the two even numbers on either side of p. Because p is a prime greater than 3, p is odd and not a multiple of 3.\n\nAmong p − 1, p, p + 1 one is a multiple of 3, and it isn't p, so (p − 1)(p + 1) is a multiple of 3. The two consecutive even numbers p − 1 and p + 1 include a multiple of 4, so their product is a multiple of 8. Multiples of 8 and 3 give 24.\n\nTest with p = 5: 24. p = 7: 48. p = 11: 120. ✓ The other choices fail at p = 5: 21, 26, 30 and 23.",
+      "tip": "Test p = 5 and p = 7 first. Any choice that fails at p = 5 can be eliminated immediately.",
+      "trap": "p² + 1 and p(p + 1) are even and seem plausible, but they fail at p = 5 (26 and 30 are not multiples of 24).",
+      "timeTarget": 105,
+      "skills": [
+        "primes",
+        "consecutive-integers",
+        "pick-numbers"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The digits of a two-digit positive integer add up to 11. If the digits are reversed, the new number is 27 more than the original number. What is the original number?",
+      "choices": [
+        "38",
+        "47",
+        "56",
+        "65",
+        "74"
+      ],
+      "answer": 1,
+      "explanation": "Let the tens digit be t and the units digit u. Original = 10t + u, reversed = 10u + t. Reversed − original = 9(u − t) = 27, so u − t = 3. With t + u = 11, adding the equations gives 2u = 14, so u = 7 and t = 4. The number is 47.\n\nCheck: reverse 74 and 74 − 47 = 27. ✓\n\nThe choices all have digits summing to 11, so the sum alone doesn't decide it. The gap in the digits does: only 47 has u − t = 3.",
+      "tip": "The difference between a two-digit number and its reverse is 9 times the gap between the digits.",
+      "trap": "74 has the right digits but is the reversed number (it is the larger one), so choosing it means misreading which one is original.",
+      "timeTarget": 105,
+      "skills": [
+        "digits",
+        "place-value"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-009",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "For how many integers n is |2n − 1| < 9 ?",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "|2n − 1| < 9 means −9 < 2n − 1 < 9. Add 1: −8 < 2n < 10. Divide by 2: −4 < n < 5.\n\nThe integers strictly between −4 and 5 are −3, −2, −1, 0, 1, 2, 3, 4. That is 8 integers.\n\nCheck the edges: n = −4 gives |−9| = 9, not less than 9, so it is out. n = 5 gives |9| = 9, also out. ✓\n\nWhen counting integers, strict inequalities exclude the endpoints, so count carefully: from −3 to 4 inclusive is 4 − (−3) + 1 = 8.",
+      "tip": "For counting integers from a to b inclusive, use b − a + 1, and make sure you've decided about the endpoints.",
+      "trap": "9 comes from including n = −4 or n = 5 (treating < as ≤). 7 comes from forgetting 0.",
+      "timeTarget": 105,
+      "skills": [
+        "absolute-value",
+        "counting-integers"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-010",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The integers a, b and c are such that the product abc is even and the sum a + b + c is odd. Which of the following must be true?\n\nI. Exactly two of a, b and c are even.\n\nII. abc is divisible by 4.\n\nIII. abc is divisible by 8.",
+      "choices": [
+        "I and II only",
+        "I only",
+        "II only",
+        "I and III only",
+        "II and III only"
+      ],
+      "answer": 0,
+      "explanation": "abc is even, so at least one of the integers is even. The sum is odd, so the number of odd integers among a, b and c is odd: 1 or 3. If all three were odd, abc would be odd, a contradiction. So exactly one is odd and exactly two are even.\n\nI: True. II: two even factors give at least 2 × 2 = 4, so abc is divisible by 4. True. III: need three factors of 2, but e.g. a = 2, b = 2, c = 1 gives abc = 4 with a + b + c = 5 (odd). So 4 isn't divisible by 8. False.\n\nAnswer: I and II only.",
+      "tip": "Convert the product and sum conditions into a count of odd and even values, then test each statement with a minimal example.",
+      "trap": "Statement III looks safe because the numbers are 'even-ish', but two evens guarantee only one factor of 4, not 8. Test with the smallest evens, 2 and 2.",
+      "timeTarget": 120,
+      "skills": [
+        "odd-even",
+        "must-be-true"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-011",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If n is a positive integer and n² is divisible by 72, what is the greatest integer that must be a divisor of n?",
+      "choices": [
+        "2",
+        "6",
+        "8",
+        "12",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "Factor 72 = 2³ × 3². For n² to be divisible by 2³, n must contain at least 2² (since (2<sup>a</sup>)² = 2<sup>2a</sup> ≥ 2³ requires a ≥ 2). For 3², n must contain at least 3¹.\n\nSo n is divisible by 2² × 3 = 12. And n = 12 works (144 = 2 × 72), so no bigger integer must divide n: 36 fails at n = 12, because 12 isn't a multiple of 36.\n\nCheck: 12 divides n, so 6 and 2 also divide n, but the greatest such value is 12.",
+      "tip": "If n² is divisible by a number, n needs at least half (rounded up) of each prime's exponent.",
+      "trap": "6 is the tempting answer from halving each exponent and rounding down (2<sup>1.5</sup> → 2<sup>1</sup>). 8 comes from using the full 2³ in n.",
+      "timeTarget": 120,
+      "skills": [
+        "divisibility",
+        "prime-factorisation"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-012",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If n is a positive integer, which of the following must be divisible by 6?\n\nI. n³ − n\n\nII. n² + n\n\nIII. n(n + 1)(n + 5)",
+      "choices": [
+        "I only",
+        "III only",
+        "I and II only",
+        "I and III only",
+        "I, II and III"
+      ],
+      "answer": 3,
+      "explanation": "I: n³ − n = (n − 1)n(n + 1), the product of three consecutive integers, so it's divisible by 2 and by 3, hence by 6. True.\n\nII: n² + n = n(n + 1), two consecutive integers, always even but not always a multiple of 3. For n = 4: 20, not divisible by 6. False.\n\nIII: n(n + 1) is always even. For divisibility by 3, look at n, n + 1 and n + 5 mod 3: n + 5 ≡ n + 2, so the three factors cover all three remainders and one of them is a multiple of 3. True. (Check n = 1: 12; n = 4: 180.)\n\nAnswer: I and III only.",
+      "tip": "Rewrite expressions as products of consecutive integers or shifted copies of them, then check divisibility by 2 and by 3 separately.",
+      "trap": "Statement II looks like a cousin of statement I, but two consecutive integers guarantee only a factor of 2. Statement III is easy to dismiss because 5 looks irrelevant, but 5 ≡ 2 mod 3.",
+      "timeTarget": 135,
+      "skills": [
+        "divisibility",
+        "consecutive-integers",
+        "must-be-true"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-013",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If x is a real number such that x³ < x² and x⁵ > x⁷, which of the following must be true?\n\nI. x² ≠ 1\n\nII. x³ < x\n\nIII. x² < 1",
+      "choices": [
+        "I and II only",
+        "I only",
+        "II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "answer": 0,
+      "explanation": "Solve each condition. x³ < x² means x²(x − 1) < 0, so x < 1 and x ≠ 0. x⁵ > x⁷ means x⁵(1 − x²) > 0. For x < −1: x⁵ < 0 and 1 − x² < 0, so the product is positive. ✓. For −1 < x < 0: x⁵ < 0 and 1 − x² > 0, so negative ✗. For 0 < x < 1: both positive ✓.\n\nSo x < −1 or 0 < x < 1.\n\nI: x ≠ ±1 in both cases, so x² ≠ 1. True.\nII: x = −2: −8 < −2 ✓. x = 1/2: 1/8 < 1/2 ✓. True.\nIII: x = −2 gives x² = 4, not less than 1. False.\n\nAnswer: I and II only.",
+      "tip": "Find the full solution set on the number line, then test every statement against each interval.",
+      "trap": "People often assume the second condition means |x| < 1 and then wrongly accept III. The solution set has two pieces, and x < −1 is allowed.",
+      "timeTarget": 150,
+      "skills": [
+        "number-line",
+        "inequalities-with-powers",
+        "must-be-true"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-p-014",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "How many ordered pairs (x, y) of integers satisfy x² − y² = 15 ?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "16"
+      ],
+      "answer": 3,
+      "explanation": "Factor: (x − y)(x + y) = 15. List the factor pairs of 15, allowing negatives: (1, 15), (3, 5), (5, 3), (15, 1), (−1, −15), (−3, −5), (−5, −3), (−15, −1). Each gives x = (sum of factors)/2 and y = (second factor − first factor)/2. Since all the factors are odd, both x and y are integers.\n\nThat gives 8 solutions: (8, 7), (4, 1), (4, −1), (8, −7), (−8, −7), (−4, −1), (−4, 1), (−8, 7).\n\nCheck one: 4² − (−1)² = 15. ✓\n\nA second check is by squares: 16 − 1 = 15 and 64 − 49 = 15, and signs of x and y can each be positive or negative, giving 2 × 2 × 2 = 8.",
+      "tip": "Difference of squares means factor pairs. Count negative factor pairs too, and check that the parity works.",
+      "trap": "Counting only positive x and y gives 2 (answer A), and counting only positive x gives 4. Integers include negatives, so every solution has sign variants.",
+      "timeTarget": 150,
+      "skills": [
+        "factoring",
+        "counting-solutions"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-m-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "What is the value of |−7| − |3| × (−2) ?",
+      "choices": [
+        "−8",
+        "1",
+        "13",
+        "14",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "Evaluate the absolute values first: |−7| = 7 and |3| = 3. Then follow the order of operations: multiplication before subtraction. 3 × (−2) = −6.\n\nSo 7 − (−6) = 7 + 6 = 13.\n\nCheck by a different grouping: 7 + (3 × 2) = 13, because subtracting a negative is adding. ✓\n\nThe two traps are doing the subtraction before the multiplication (which gives (7 − 3) × (−2) = −8) and dropping the sign of −2.",
+      "tip": "Absolute values first, then multiplication, then addition or subtraction. Subtracting a negative adds.",
+      "trap": "−8 comes from subtracting first: (7 − 3) × (−2). 1 comes from treating the product as +6 and subtracting it: 7 − 6.",
+      "timeTarget": 75,
+      "skills": [
+        "absolute-value",
+        "order-of-operations"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-m-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Which of the following could be the product of two consecutive positive integers?",
+      "choices": [
+        "40",
+        "48",
+        "54",
+        "56",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "The product of two consecutive integers n and n + 1 is just above n², so it is close to the square of the smaller number. Estimate the square root of each choice and test the integers on either side.\n\n√56 ≈ 7.5, so test 7 × 8 = 56. ✓ For the others: √40 ≈ 6.3, but 6 × 7 = 42 and 5 × 6 = 30; 48 sits between 42 (6 × 7) and 56 (7 × 8); 54 sits between 42 and 56; 60 sits between 56 and 72 (8 × 9).\n\nOnly 56 matches.",
+      "tip": "For n(n + 1), estimate the square root of the target, then test the integers on either side.",
+      "trap": "48 and 54 are 'nice' numbers with factors close together (6 × 8, 6 × 9), which makes them tempting. But those factors differ by 2 and 3, not by 1.",
+      "timeTarget": 90,
+      "skills": [
+        "consecutive-integers",
+        "estimation"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-m-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If x²y < 0, which of the following must be true?",
+      "choices": [
+        "y < 0",
+        "x < 0",
+        "xy < 0",
+        "x + y < 0",
+        "x² < y"
+      ],
+      "answer": 0,
+      "explanation": "x² is never negative, and x² cannot be 0 here (otherwise the product would be 0). So x² > 0. For x²y to be negative, y must be negative. So y < 0 must be true.\n\nTest the others: x = 2, y = −1 gives x²y = −4 < 0 but breaks x < 0 (A), and x + y = 1 (D). x = −2, y = −1 gives x²y = −4 < 0 but xy = 2 > 0 (C). In all cases y < 0, so x² < y fails since x² > 0 > y (E).\n\nOnly y < 0 survives.",
+      "tip": "A square is never negative, so the sign of an expression like x²y is decided by y alone (provided x ≠ 0).",
+      "trap": "Choosing xy < 0 because it looks like a restatement of the problem. x can be negative, which makes xy positive.",
+      "timeTarget": 105,
+      "skills": [
+        "sign-rules",
+        "must-be-true"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-m-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "How many three-digit positive integers are divisible by 5 and have 5 as the tens digit?",
+      "choices": [
+        "9",
+        "10",
+        "18",
+        "20",
+        "90"
+      ],
+      "answer": 2,
+      "explanation": "A three-digit number has a hundreds digit (1 to 9), a tens digit (fixed at 5) and a units digit. Divisibility by 5 requires the units digit to be 0 or 5, so 2 choices.\n\nThe hundreds digit has 9 choices (1 through 9, since 0 would not make it a three-digit number). Total = 9 × 1 × 2 = 18.\n\nSample list: 150, 155, 250, 255, …, 950, 955. That is 2 per hundred and 9 hundreds, so 18. ✓",
+      "tip": "Count choices digit by digit: hundreds (1–9), tens (fixed), units (restricted by the divisibility rule).",
+      "trap": "90 forgets that the tens digit is fixed. 20 uses 10 hundreds digits (including 0), which would create numbers like 055 that are not three-digit.",
+      "timeTarget": 105,
+      "skills": [
+        "digits",
+        "counting",
+        "divisibility-by-5"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-m-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If n is an even integer, what is the greatest integer that must be a divisor of n(n + 2)(n + 4)?",
+      "choices": [
+        "8",
+        "12",
+        "24",
+        "48",
+        "96"
+      ],
+      "answer": 3,
+      "explanation": "Write n = 2k. Then n(n + 2)(n + 4) = 2k × 2(k + 1) × 2(k + 2) = 8k(k + 1)(k + 2). The product k(k + 1)(k + 2) of three consecutive integers is divisible by 6. So the whole expression is divisible by 8 × 6 = 48.\n\nIs 48 the greatest? Test n = 2: 2 × 4 × 6 = 48. So no larger number can divide every case, and 48 is the answer.\n\nCheck n = 4: 4 × 6 × 8 = 192 = 48 × 4 ✓. n = 6: 6 × 8 × 10 = 480 = 48 × 10 ✓.",
+      "tip": "Substitute n = 2k for even n, pull out the factor of 8, and spot the three consecutive integers left over. Then use the smallest case to prove the bound.",
+      "trap": "24 comes from seeing 'three consecutive even integers' and stopping at the factors 2, 4, 6. 96 is tempting from n = 4's neighbours but fails for n = 2.",
+      "timeTarget": 120,
+      "skills": [
+        "even-integers",
+        "consecutive-integers",
+        "divisibility"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-m-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "How many three-digit positive integers have digits whose product is 12?",
+      "choices": [
+        "12",
+        "15",
+        "18",
+        "21",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "None of the digits can be 0 (the product would be 0) and none can be larger than 9. Find the combinations of three digits with product 12.\n\n{1, 2, 6}: three different digits, so 3! = 6 arrangements. {1, 3, 4}: 6 arrangements. {2, 2, 3}: two the same, so 3 arrangements. Other options such as {1, 1, 12} need a digit above 9 and are invalid.\n\nTotal = 6 + 6 + 3 = 15.\n\nCheck for missing sets: 12 = 1 × 1 × 12, 1 × 2 × 6, 1 × 3 × 4, 2 × 2 × 3. Those are all the ways to split 12 into three positive integers.",
+      "tip": "List the digit multisets first, then count the arrangements of each: 3! for three different, 3 for a repeated pair.",
+      "trap": "18 comes from counting {2, 2, 3} as 6 arrangements (as if the 2s were different). 12 comes from forgetting a set of digits.",
+      "timeTarget": 120,
+      "skills": [
+        "digits",
+        "counting",
+        "permutations"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-m-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If a and b are nonzero integers with a² = b³, which of the following must be true?\n\nI. b is a perfect square.\n\nII. a is a perfect cube.\n\nIII. a > 0.",
+      "choices": [
+        "I only",
+        "II only",
+        "I and III only",
+        "I, II and III",
+        "I and II only"
+      ],
+      "answer": 4,
+      "explanation": "Think about the prime factorisation. If b has a prime p with exponent e, then b³ has exponent 3e, and this must equal the exponent in a², which is even. So 3e is even, which forces e to be even. Every prime in b has an even exponent, so b is a perfect square, say b = t². Then a² = t⁶, so a = ±t³.\n\nI: True. II: a = ±t³, and −t³ = (−t)³, so a is a perfect cube. True. III: a can be negative: a = −8, b = 4 satisfies (−8)² = 64 = 4³. False.\n\nAnswer: I and II only.",
+      "tip": "Compare prime exponents on both sides: a² has even exponents, and b³ has exponents three times b's.",
+      "trap": "Statement III is a typical oversight because squaring hides the sign of a. Both a = 8 and a = −8 give the same a².",
+      "timeTarget": 150,
+      "skills": [
+        "perfect-squares",
+        "must-be-true",
+        "prime-factorisation"
+      ]
+    },
+    {
+      "id": "q-numprops-qb-m-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-numprops",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "How many ordered pairs (x, y) of positive integers satisfy 1/x + 1/y = 1/6 ?",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": 4,
+      "explanation": "Multiply through by 6xy: 6y + 6x = xy. Rearrange: xy − 6x − 6y = 0. Add 36 to both sides: (x − 6)(y − 6) = 36.\n\nSince x and y are positive, x − 6 and y − 6 are either both positive or both negative. Both negative would need x − 6 ≥ −5 and y − 6 ≥ −5, so their product would be at most 25 < 36, which fails. So both are positive divisors of 36.\n\n36 has 9 positive divisors (1, 2, 3, 4, 6, 9, 12, 18, 36), each giving exactly one ordered pair. So there are 9 pairs, such as (7, 42), (12, 12) and (42, 7).",
+      "tip": "For equations like 1/x + 1/y = 1/k, rearrange to (x − k)(y − k) = k² and count divisors.",
+      "trap": "5 counts unordered pairs. The question asks for ordered pairs, so (7, 42) and (42, 7) are different.",
+      "timeTarget": 150,
+      "skills": [
+        "factoring",
+        "counting-solutions",
+        "divisors"
+      ]
+    }
+  ]
+}

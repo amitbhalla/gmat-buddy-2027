@@ -1,0 +1,1245 @@
+{
+ "stimuli": [],
+ "questions": [
+  {
+   "id": "d-ds-da-p-001",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is the value of x?\n\n(1) 3x − 7 = 11\n\n(2) x is an even number",
+   "answer": 0,
+   "explanation": "**Statement (1) alone:** 3x = 18, so x = 6. That is one value, so (1) is sufficient.\n\n**Statement (2) alone:** x is even, which fits 2, 4, 6, −10 and infinitely many others. Not sufficient.\n\nSo (1) alone works and (2) alone does not. The answer is **A**.\n\nNotice that (2) is consistent with (1), because 6 is even, but it adds nothing once you already know x = 6. You never need to combine the statements when one of them already settles the question.",
+   "tip": "A single linear equation in one unknown always pins down one value.",
+   "trap": "Choosing C because the second statement 'feels related'. Check each statement alone first.",
+   "timeTarget": 90,
+   "skills": [
+    "linear-equation"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-002",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is Meera's monthly salary?\n\n(1) Meera saves 20% of her monthly salary.\n\n(2) Meera saves ₹6,000 each month, which is 20% of her monthly salary.",
+   "answer": 1,
+   "explanation": "**Statement (1) alone:** She saves 20% of her salary, but we have no actual amount. A salary of ₹30,000 and one of ₹50,000 both fit. Not sufficient.\n\n**Statement (2) alone:** 20% of her salary is ₹6,000, so her salary is 6,000 ÷ 0.2 = ₹30,000. One value, so sufficient.\n\nOnly (2) works alone. The answer is **B**.\n\nIn percent DS questions a percentage by itself never fixes a rupee amount; you also need one actual amount to anchor it. Statement (2) supplies exactly that anchor.",
+   "tip": "A percent without an actual amount can't give you a rupee value.",
+   "trap": "Reading (1) as sufficient because it mentions the salary directly. A percentage alone has no size.",
+   "timeTarget": 90,
+   "skills": [
+    "percents"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-003",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is the value of x?\n\n(1) x + y = 9\n\n(2) x − y = 3",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** One equation with two unknowns. (x, y) = (5, 4) and (6, 3) both work, so x isn't fixed. Not sufficient.\n\n**Statement (2) alone:** Again one equation, two unknowns. (4, 1) and (5, 2) both work. Not sufficient.\n\n**Together:** Add the two equations: 2x = 12, so x = 6 (and y = 3). One value, so sufficient.\n\nNeither statement works alone, but together they do. The answer is **C**.\n\nTwo independent equations for two unknowns is the classic textbook case for C.",
+   "tip": "Two different linear equations in two unknowns together determine both.",
+   "trap": "Stopping at the first statement and guessing. You must test (2) alone as well, then combine.",
+   "timeTarget": 90,
+   "skills": [
+    "simultaneous-equations"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-004",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "Is the integer n odd?\n\n(1) n = 4k + 3 for some integer k\n\n(2) n² is odd",
+   "answer": 3,
+   "explanation": "**Statement (1) alone:** 4k is always even, and even + 3 is odd, so n is always odd. The answer to the question is always yes. Sufficient.\n\n**Statement (2) alone:** If n were even, n² would be even. So n² odd forces n to be odd. Always yes. Sufficient.\n\nEach statement alone answers the question with a definite yes. The answer is **D**.\n\nA quick test: n = 3 and n = 7 satisfy (1) and are odd; n = 5 and n = 9 satisfy (2) and are odd. No counter-example exists for either.",
+   "tip": "Odd × odd is odd and even × anything is even, so the parity of a square matches the parity of the number.",
+   "trap": "Thinking 'n² is odd' says nothing about n. The square of an even number is always even, so it says a lot.",
+   "timeTarget": 90,
+   "skills": [
+    "odd-even"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-005",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is the value of y?\n\n(1) y > 5\n\n(2) y < 10",
+   "answer": 4,
+   "explanation": "**Statement (1) alone:** y could be 6, 7.5, 20 and so on. Not sufficient.\n\n**Statement (2) alone:** y could be 0, 9, −100 and so on. Not sufficient.\n\n**Together:** 5 < y < 10. Unless we are told y is an integer, y could be 6, 7, 7.5, 9.9 and many more. If y were an integer there would still be four candidates (6, 7, 8, 9). Either way, not a single value.\n\nThe answer is **E**.\n\nInequalities define a range, not a single number. For a value question they are only useful when the range collapses to one point.",
+   "tip": "A range of values is never a single value; inequalities rarely settle a 'what is' question.",
+   "trap": "Choosing C because 'together they narrow it down'. Narrowing is not the same as pinning down.",
+   "timeTarget": 90,
+   "skills": [
+    "inequalities"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-006",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is the price of one notebook?\n\n(1) Five notebooks cost ₹150 in total.\n\n(2) Eight notebooks cost ₹240 in total.",
+   "answer": 3,
+   "explanation": "**Statement (1) alone:** If five notebooks cost ₹150, each costs 150 ÷ 5 = ₹30. Sufficient.\n\n**Statement (2) alone:** Eight notebooks cost ₹240, so each costs 240 ÷ 8 = ₹30. Sufficient.\n\nEach statement alone gives the same single price, so the answer is **D**. The two statements agree, which is what the GMAT guarantees (statements never contradict each other).\n\nYou didn't have to divide to find 30; seeing that each statement is one total over one count was enough to know that a unique price exists.",
+   "tip": "Total cost for a known quantity is enough to fix a unit price.",
+   "trap": "Treating the two statements as pieces to combine. Each one is complete on its own.",
+   "timeTarget": 90,
+   "skills": [
+    "unit-price"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-007",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "If x is positive, is x > 4?\n\n(1) x² > 25\n\n(2) x² > 10",
+   "answer": 0,
+   "explanation": "**Statement (1) alone:** x² > 25 with x positive means x > 5, which is greater than 4. Always yes. Sufficient.\n\n**Statement (2) alone:** x² > 10 with x positive means x > √10 ≈ 3.16. Then x = 3.5 satisfies it (12.25 > 10) but is not greater than 4 (no), while x = 5 satisfies it and is greater than 4 (yes). Not sufficient.\n\nThe answer is **A**.\n\nThe stem's 'x is positive' is what makes (1) work. Without it, x = −6 would satisfy x² > 25 and the answer would be no.",
+   "tip": "When squares appear, use the stem's sign information to throw away the negative root.",
+   "trap": "Forgetting that x² > 25 also allows x < −5, or forgetting that the stem rules those values out.",
+   "timeTarget": 100,
+   "skills": [
+    "squares",
+    "inequalities"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-008",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A shop offers a 20% discount on a jacket. What was the original price of the jacket?\n\n(1) The original price was more than ₹2,000.\n\n(2) The discount was ₹800.",
+   "answer": 1,
+   "explanation": "**Statement (1) alone:** A price above ₹2,000 could be ₹2,500 or ₹9,000. Not sufficient.\n\n**Statement (2) alone:** The discount is 20% of the original price, so 0.2 × price = 800 and price = 800 ÷ 0.2 = ₹4,000. One value. Sufficient.\n\nThe answer is **B**.\n\nThe discount amount and the discount percentage together fix the original price: amount ÷ percent. The statement 'more than ₹2,000' is only a bound, and bounds are almost never enough for a 'what is' question.",
+   "tip": "Part ÷ percent = whole.",
+   "trap": "Choosing C because 'together they give a price above 2,000 and a discount of 800'. Statement (1) adds nothing once (2) is sufficient.",
+   "timeTarget": 100,
+   "skills": [
+    "percents"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-009",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "What is the value of c?\n\n(1) The average (arithmetic mean) of the three numbers a, b and c is 10.\n\n(2) a + b = 17",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** The mean is 10, so a + b + c = 30. But a, b and c can vary: (10, 10, 10) and (5, 5, 20) both fit. c is not fixed. Not sufficient.\n\n**Statement (2) alone:** a + b = 17 says nothing about c. Not sufficient.\n\n**Together:** a + b + c = 30 and a + b = 17, so c = 30 − 17 = 13. One value, so sufficient.\n\nThe answer is **C**.\n\nWhenever an average appears in DS, translate it into a sum straight away: mean × count = sum.",
+   "tip": "Mean × number of items = sum; convert averages to sums.",
+   "trap": "Reading the average as 'every number is 10'. An average of 10 doesn't mean each number equals 10.",
+   "timeTarget": 100,
+   "skills": [
+    "averages"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-010",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Is the integer n divisible by 12?\n\n(1) n is divisible by 3.\n\n(2) n is divisible by 6.",
+   "answer": 4,
+   "explanation": "**Statement (1) alone:** n = 3 is divisible by 3 but not by 12 (no); n = 12 is divisible by both (yes). Not sufficient.\n\n**Statement (2) alone:** n = 6 is divisible by 6 but not by 12 (no); n = 12 works (yes). Not sufficient.\n\n**Together:** Every multiple of 6 is already a multiple of 3, so (1) adds nothing to (2). The same counter-examples remain: n = 6 gives no and n = 12 gives yes. Not sufficient.\n\nThe answer is **E**.\n\nTo be divisible by 12 = 4 × 3, a number needs a factor of 4. Divisibility by 6 only guarantees one factor of 2.",
+   "tip": "Check whether one statement already implies the other; then combining gives nothing new.",
+   "trap": "Assuming '3 and 6 together make 12'. They don't; 6 already contains the 3.",
+   "timeTarget": 100,
+   "skills": [
+    "divisibility"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-011",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "What is the width of a rectangle whose length is twice its width?\n\n(1) The perimeter of the rectangle is 36 cm.\n\n(2) The area of the rectangle is 72 cm².",
+   "answer": 3,
+   "explanation": "Let the width be w, so the length is 2w.\n\n**Statement (1) alone:** The perimeter is 2(2w + w) = 6w = 36, so w = 6. Sufficient.\n\n**Statement (2) alone:** The area is 2w × w = 2w² = 72, so w² = 36. A width must be positive, so w = 6. Sufficient.\n\nBoth work alone and agree (w = 6), so the answer is **D**.\n\nThe quadratic in (2) has a second root, w = −6, but a length cannot be negative. That is the hidden constraint that rescues the statement.",
+   "tip": "A physical length can't be negative, which removes the negative root of a quadratic.",
+   "trap": "Marking (2) insufficient because 'w² = 36 gives two values'. A width is positive, so only one survives.",
+   "timeTarget": 110,
+   "skills": [
+    "geometry-lite",
+    "quadratic-roots"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-012",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Four friends (Dev, Esha, Farah and Gita) had different scores on a quiz. Did Dev score higher than Gita?\n\n(1) Dev scored higher than Esha, and Esha scored higher than Gita.\n\n(2) Farah scored higher than Gita.",
+   "answer": 0,
+   "explanation": "**Statement (1) alone:** Dev > Esha and Esha > Gita, so Dev > Gita by chaining. Always yes. Sufficient.\n\n**Statement (2) alone:** Farah > Gita. Dev could be above Gita or below her (Dev might even be the lowest scorer). Not sufficient.\n\nThe answer is **A**.\n\nOrdering questions work like a chain: if A is above B and B is above C, then A is above C. Draw it as D > E > G. Farah's position relative to Gita says nothing about Dev.",
+   "tip": "Chains of 'higher than' relationships let you conclude about the ends.",
+   "trap": "Using Farah's information to say 'Gita is low, so Dev is probably higher'. Probably is not certain.",
+   "timeTarget": 100,
+   "skills": [
+    "ordering",
+    "logic"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-013",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Is x + y even, where x and y are integers?\n\n(1) x is odd.\n\n(2) y is odd.",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** x is odd, but y is unknown. x = 3, y = 1 gives 4 (even), while x = 3, y = 2 gives 5 (odd). Not sufficient.\n\n**Statement (2) alone:** Same issue with y odd and x unknown. Not sufficient.\n\n**Together:** odd + odd is always even. Always yes. Sufficient.\n\nThe answer is **C**.\n\nParity rules to remember: odd + odd = even, even + even = even, odd + even = odd. A sum is even exactly when both parts have the same parity.",
+   "tip": "A sum is even when both terms have the same parity.",
+   "trap": "Concluding E because 'each statement tells only half the story'. Together they tell the whole story.",
+   "timeTarget": 90,
+   "skills": [
+    "odd-even"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-014",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "How old is Ravi (in whole years)?\n\n(1) Ravi is older than his sister.\n\n(2) In 5 years Ravi will be twice as old as he was 10 years ago.",
+   "answer": 1,
+   "explanation": "**Statement (1) alone:** Being older than a sister of unknown age says nothing definite. Not sufficient.\n\n**Statement (2) alone:** Let Ravi's age now be r. Then r + 5 = 2(r − 10), so r + 5 = 2r − 20 and r = 25. One value. Sufficient.\n\nThe answer is **B**.\n\nCheck: in 5 years he is 30, and 10 years ago he was 15, and 30 = 2 × 15. For age problems, write one equation per time reference and solve for the present age.",
+   "tip": "In age problems, define the present age as the variable and shift it for past and future.",
+   "trap": "Picking C because 'both statements are about Ravi'. Statement (1) gives no number at all.",
+   "timeTarget": 100,
+   "skills": [
+    "age-problems",
+    "linear-equation"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-015",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "What is the value of x?\n\n(1) |x − 3| = 5\n\n(2) x² = 4",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** |x − 3| = 5 means x − 3 = 5 or x − 3 = −5, so x = 8 or x = −2. Two values. Not sufficient.\n\n**Statement (2) alone:** x² = 4 gives x = 2 or x = −2. Two values. Not sufficient.\n\n**Together:** The values allowed by (1) are {8, −2} and those allowed by (2) are {2, −2}. The only value in both lists is x = −2. One value. Sufficient.\n\nThe answer is **C**.\n\nWhen two statements each give two possible values, the answer is C if exactly one value is common to both lists. If there were no common value the statements would contradict each other, which never happens in real DS.",
+   "tip": "Write each statement's solution set, then intersect them.",
+   "trap": "Picking E because each statement gives two values. Two lists with exactly one overlap give a single answer.",
+   "timeTarget": 110,
+   "skills": [
+    "absolute-value",
+    "quadratic-roots"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-016",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Is x > y?\n\n(1) x² > y²\n\n(2) y is positive",
+   "answer": 4,
+   "explanation": "**Statement (1) alone:** x² > y² means |x| > |y|. x = 5, y = 2 gives yes. x = −5, y = 2 gives 25 > 4 but −5 < 2 (no). Not sufficient.\n\n**Statement (2) alone:** y positive says nothing about x. Not sufficient.\n\n**Together:** y > 0 and |x| > |y|. x = 5, y = 2 satisfies both and gives yes. x = −5, y = 2 satisfies both (25 > 4, y positive) and gives no. Still two answers. Not sufficient.\n\nThe answer is **E**.\n\nSquared comparisons throw away signs, and a positive y doesn't stop x from being a large negative number.",
+   "tip": "x² > y² compares sizes (absolute values), not signs; always test a negative x.",
+   "trap": "Assuming 'x² > y² and y positive' means x is the bigger positive number. x can be a large negative number.",
+   "timeTarget": 110,
+   "skills": [
+    "squares",
+    "inequalities"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-017",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Did Kapoor Textiles' revenue in 2025 exceed ₹90 crore?\n\n(1) Revenue in 2025 was 15% higher than in 2024, and revenue in 2024 was ₹80 crore.\n\n(2) Revenue in 2025 was at least ₹60 crore.",
+   "answer": 0,
+   "explanation": "**Statement (1) alone:** 2024 revenue was ₹80 crore and 2025 was 15% higher, so 2025 revenue = 80 × 1.15 = ₹92 crore. That is above ₹90 crore. Always yes. Sufficient.\n\n**Statement (2) alone:** 'At least ₹60 crore' allows ₹65 crore (no) and ₹100 crore (yes). Not sufficient.\n\nThe answer is **A**.\n\nShortcut: 10% of 80 is 8 and 5% is 4, so 15% is 12 and the revenue is 92. You only needed to see that it clears 90, so a rough estimate (80 + 12) was enough.",
+   "tip": "With percent-increase DS questions, check quickly whether the result lands clearly above or below the threshold.",
+   "trap": "Overthinking (2). A floor of ₹60 crore is far too low to tell you anything about a ₹90 crore cut-off.",
+   "timeTarget": 110,
+   "skills": [
+    "percent-change",
+    "business-context"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-018",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "How long did a car's journey take, in hours?\n\n(1) The car travelled more than 100 km.\n\n(2) The car's average speed was 60 km/h and it travelled 180 km.",
+   "answer": 1,
+   "explanation": "Time = distance ÷ average speed.\n\n**Statement (1) alone:** More than 100 km is only a bound, and there is no speed. 120 km at 40 km/h takes 3 hours; 120 km at 60 km/h takes 2 hours. Not sufficient.\n\n**Statement (2) alone:** 180 km at 60 km/h takes 180 ÷ 60 = 3 hours. One value. Sufficient.\n\nThe answer is **B**.\n\nFor rate questions, always ask which two of the three quantities (distance, speed, time) a statement gives you. Time needs distance and speed; (1) supplies only one of them.",
+   "tip": "Distance, speed and time: any two give the third.",
+   "trap": "Choosing C. Statement (1) is only a bound, and it is already consistent with the exact figures in (2), so it adds nothing.",
+   "timeTarget": 100,
+   "skills": [
+    "rates"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-019",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Is ab > 0?\n\n(1) a/b > 0\n\n(2) a³b > 0",
+   "answer": 3,
+   "explanation": "ab > 0 asks whether a and b have the same sign (and neither is zero).\n\n**Statement (1) alone:** a/b > 0 means a and b have the same sign, so ab > 0. Always yes. Sufficient.\n\n**Statement (2) alone:** a³ has the same sign as a (an odd power keeps the sign). So a³b > 0 means a and b have the same sign, hence ab > 0. Always yes. Sufficient.\n\nEach alone settles it, so the answer is **D**.\n\nTest it: a = 2, b = 3 satisfies both and gives ab = 6. a = −2, b = −3 satisfies both and gives ab = 6. A mixed-sign pair like a = −2, b = 3 fails both statements.",
+   "tip": "Odd powers preserve sign, even powers erase it; reduce each statement to 'same sign or opposite sign'.",
+   "trap": "Treating a³b as unrelated to ab. Since a³ and a share a sign, the two products share a sign too.",
+   "timeTarget": 100,
+   "skills": [
+    "sign-rules",
+    "exponents"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-020",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A clinic is open on exactly three days of the week, Monday to Sunday, and is never open on two consecutive days of that week. Is the clinic open on Thursday?\n\n(1) The clinic is open on Saturday.\n\n(2) The clinic is closed on Wednesday.",
+   "answer": 2,
+   "explanation": "List the possible schedules: three non-consecutive days out of Monday to Sunday. There are ten.\n\n**Statement (1) alone:** Open Saturday means closed Friday and Sunday. The other two open days come from Monday to Thursday, non-adjacent: (Mon, Wed), (Mon, Thu) or (Tue, Thu). Thursday is open in two of these but not in (Mon, Wed). Not sufficient.\n\n**Statement (2) alone:** Closed Wednesday still leaves several schedules, some with Thursday open and some not (for example Mon-Fri-Sun has Thursday closed, while Mon-Thu-Sat has it open). Not sufficient.\n\n**Together:** Saturday open and Wednesday closed removes (Mon, Wed). Remaining: (Mon, Thu, Sat) and (Tue, Thu, Sat). Thursday is open in both. Always yes. Sufficient.\n\nThe answer is **C**.",
+   "tip": "For schedules, list all arrangements that fit the rules, then cross out the ones each statement kills.",
+   "trap": "Assuming one statement is enough after eliminating some schedules; always check that every remaining schedule gives the same answer.",
+   "timeTarget": 150,
+   "skills": [
+    "schedules",
+    "logic"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-021",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "What is the median of the set {3, 5, x, 11, y}, where x and y are integers?\n\n(1) x > 5\n\n(2) y > 11",
+   "answer": 4,
+   "explanation": "The median of five numbers is the third one when they are in order.\n\n**Statement (1) alone:** x > 5 tells us nothing about y. If x = 6 and y = 20, the order is 3, 5, 6, 11, 20 and the median is 6. If x = 8 and y = 0, the order is 0, 3, 5, 8, 11 and the median is 5. Not sufficient.\n\n**Statement (2) alone:** y > 11, but x is free. x = 0 gives order 0, 3, 5, 11, y with median 5. x = 7 gives 3, 5, 7, 11, y with median 7. Not sufficient.\n\n**Together:** x > 5 and y > 11. Now x = 6 gives median 6 (3, 5, 6, 11, y), while x = 9 gives 3, 5, 9, 11, y with median 9. Different values. Not sufficient.\n\nThe answer is **E**. The median depends on exactly where x lands among 3, 5 and 11.",
+   "tip": "For a median, work out the position of each unknown relative to the known values.",
+   "trap": "Assuming x and y both being large pushes the median to 11. The median is the middle value, so a single large x only reaches x (or 11).",
+   "timeTarget": 120,
+   "skills": [
+    "median",
+    "statistics"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-022",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "If a and b are positive, is a/b > 1?\n\n(1) a² > b²\n\n(2) a + 1 > b",
+   "answer": 0,
+   "explanation": "**Statement (1) alone:** With a and b positive, a² > b² means a > b (taking positive square roots). Then a/b > 1. Always yes. Sufficient.\n\n**Statement (2) alone:** a + 1 > b. Take a = 5, b = 2: yes, a/b = 2.5. Take a = 3, b = 3.5: a + 1 = 4 > 3.5 holds, but a/b < 1 (no). Not sufficient.\n\nThe answer is **A**.\n\nBecause both variables are positive, you can safely compare squares the same way as the numbers themselves. That would be false with negatives, which is why the 'positive' condition in the stem is doing real work.",
+   "tip": "For positive numbers, a > b is equivalent to a² > b²; a/b > 1 is equivalent to a > b.",
+   "trap": "Rejecting (1) because 'squares hide signs'. Here the stem rules out negative values.",
+   "timeTarget": 100,
+   "skills": [
+    "inequalities",
+    "ratios"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-023",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Each of 40 students in a class studies French, German or both. How many students study both languages?\n\n(1) 28 students study French.\n\n(2) 28 students study French and 24 students study German.",
+   "answer": 1,
+   "explanation": "Use the two-set formula with nobody studying neither: Total = French + German − Both.\n\n**Statement (1) alone:** French = 28. German could be 12 (Both = 0) or 20 (Both = 8). Not sufficient.\n\n**Statement (2) alone:** 40 = 28 + 24 − Both, so Both = 52 − 40 = 12. One value. Sufficient.\n\nThe answer is **B**.\n\nCheck: 12 study both, so 16 study only French and 12 study only German: 16 + 12 + 12 = 40. The key is to spot that everyone is in at least one group; otherwise the formula would need a 'neither' number.",
+   "tip": "With no 'neither' group, Both = French + German − Total.",
+   "trap": "Picking A or C because the class size and French count 'feel enough'. You need all three numbers: total, F and G.",
+   "timeTarget": 110,
+   "skills": [
+    "sets",
+    "overlapping-sets"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-024",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Five runners finished a race with no ties. Did Tara finish in the top three?\n\n(1) At least two runners finished behind Tara.\n\n(2) No more than two runners finished ahead of Tara.",
+   "answer": 3,
+   "explanation": "With five runners and no ties, if k runners finished ahead of Tara then she finished in position k + 1.\n\n**Statement (1) alone:** At least two runners behind her means at most 5 − 1 − 2 = 2 runners ahead of her, so her position is at most 3. Always yes. Sufficient.\n\n**Statement (2) alone:** At most two runners ahead means her position is at most 3. Always yes. Sufficient.\n\nBoth statements are the same fact in different words, so the answer is **D**.\n\nTranslating each statement to 'how many are ahead of her' makes the equivalence obvious. With the runners including Tara, 'at least 2 behind' and 'at most 2 ahead' describe exactly the same positions (1st, 2nd or 3rd).",
+   "tip": "Convert 'behind' counts to 'ahead' counts using the total number of competitors.",
+   "trap": "Treating the two statements as different information because the words differ. Translate before you judge.",
+   "timeTarget": 110,
+   "skills": [
+    "ordering",
+    "logic"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-025",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If x and y are positive integers, what is the value of x?\n\n(1) x² − y² = 15\n\n(2) x + y is a multiple of 5",
+   "answer": 4,
+   "explanation": "Factor the first statement: x² − y² = (x − y)(x + y) = 15.\n\n**Statement (1) alone:** Both x − y and x + y are positive integers with product 15, and x + y is the larger. The options are (x − y, x + y) = (1, 15) or (3, 5). The first gives x = 8, y = 7; the second gives x = 4, y = 1. Two values for x. Not sufficient.\n\n**Statement (2) alone:** x + y being a multiple of 5 allows countless pairs. Not sufficient.\n\n**Together:** The two candidate sums are 15 and 5, and both are multiples of 5. So (8, 7) and (4, 1) both survive. x is still 8 or 4. Not sufficient.\n\nThe answer is **E**.\n\nThe second statement looks like a filter, but it filters nothing: 5 and 15 both pass.",
+   "tip": "Factor a difference of squares, list the factor pairs, then test whether the other statement actually removes any of them.",
+   "trap": "Choosing C because 'together they must narrow it down'. Always check that the second statement really eliminates a candidate.",
+   "timeTarget": 150,
+   "skills": [
+    "difference-of-squares",
+    "number-properties"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-026",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Is x⁴ > x²?\n\n(1) x² > 2\n\n(2) x³ > x",
+   "answer": 0,
+   "explanation": "x⁴ > x² can be rewritten as x²(x² − 1) > 0, which is true exactly when x ≠ 0 and x² > 1, that is, when |x| > 1.\n\n**Statement (1) alone:** x² > 2 means |x| > √2 ≈ 1.41, which is greater than 1. So |x| > 1 always holds. Always yes. Sufficient.\n\n**Statement (2) alone:** x³ > x holds for x > 1 and also for −1 < x < 0. x = 2 gives 16 > 4 (yes). x = −0.5 gives x³ = −0.125 > −0.5, so it satisfies (2), but x⁴ = 0.0625 < x² = 0.25 (no). Not sufficient.\n\nThe answer is **A**.",
+   "tip": "Rephrase powers into 'what size is |x|?' before testing; fractions between −1 and 1 behave opposite to big numbers.",
+   "trap": "Assuming (2) is enough because x³ > x 'feels like' x⁴ > x². A negative fraction satisfies one but not the other.",
+   "timeTarget": 130,
+   "skills": [
+    "powers",
+    "inequalities",
+    "fractions"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-027",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Machines A and B, working together at their constant rates, complete a job in 6 hours. How many hours would machine A take to do the job alone?\n\n(1) Machine A alone would take less than 12 hours.\n\n(2) Machine A works twice as fast as machine B.",
+   "answer": 1,
+   "explanation": "Let A take a hours alone and B take b hours alone. Together: 1/a + 1/b = 1/6.\n\n**Statement (1) alone:** a < 12. Many pairs work: (a, b) = (7, 42), (8, 24), (9, 18), (10, 15) and non-integer ones too. Not sufficient.\n\n**Statement (2) alone:** A is twice as fast, so b = 2a. Then 1/a + 1/(2a) = 3/(2a) = 1/6, which gives a = 9. One value. Sufficient.\n\nThe answer is **B**.\n\nCheck: A takes 9 hours and B takes 18 hours; in one hour they finish 1/9 + 1/18 = 3/18 = 1/6 of the job, so together 6 hours. ✓\n\nA fast route is to say: if A is twice as fast as B, then A does 2/3 of the work, so A alone needs 6 ÷ (2/3) = 9 hours.",
+   "tip": "Add rates (jobs per hour), not times; a ratio of speeds converts straight into a share of the work.",
+   "trap": "Stopping at (1) because 'less than 12 is useful'. A bound can't pin down a single value.",
+   "timeTarget": 140,
+   "skills": [
+    "work-rate"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-028",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Is x > 5?\n\n(1) x³ > 100\n\n(2) x is an even integer",
+   "answer": 2,
+   "explanation": "Since 4.64³ ≈ 100, the inequality x³ > 100 means x > ∛100 ≈ 4.64.\n\n**Statement (1) alone:** x could be 4.8 (no, it is below 5) or 6 (yes). Not sufficient.\n\n**Statement (2) alone:** x could be 2 (no) or 8 (yes). Not sufficient.\n\n**Together:** x > 4.64 and x is an even integer. The even integers above 4.64 are 6, 8, 10 and so on (4 is not above 4.64). All of these are greater than 5. Always yes. Sufficient.\n\nThe answer is **C**.\n\nThe key is estimating the cube root well enough to see where it sits relative to 5 and 4: 4³ = 64 and 5³ = 125, so ∛100 lies between 4 and 5, which is why the even-integer condition cleans it up.",
+   "tip": "Estimate roots with nearby perfect cubes or squares; you need only the neighbourhood, not the decimals.",
+   "trap": "Believing x³ > 100 means x > 5 because 5³ = 125 'feels' bigger than 100. The boundary is below 5.",
+   "timeTarget": 130,
+   "skills": [
+    "cubes",
+    "integers",
+    "inequalities"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-029",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If y ≠ 0 and x ≠ y, what is the value of x/y?\n\n(1) 3x = 5y\n\n(2) (x + y)/(x − y) = 4",
+   "answer": 3,
+   "explanation": "**Statement (1) alone:** 3x = 5y, so x/y = 5/3 (y is not zero, so we can divide). One value. Sufficient.\n\n**Statement (2) alone:** Multiply both sides by (x − y), which is allowed because x ≠ y: x + y = 4(x − y) = 4x − 4y. Move terms: 5y = 3x. This is the same relationship as (1), so x/y = 5/3. One value. Sufficient.\n\nEach statement alone gives 5/3, so the answer is **D**.\n\nThe lesson: one equation in two unknowns is enough when the question asks for a ratio, because a ratio only needs the relationship between the variables, not their sizes. And the stem's conditions (y ≠ 0, x ≠ y) are exactly what make dividing and cross-multiplying legal.",
+   "tip": "When the question asks for a ratio, a single relationship between the variables is often sufficient.",
+   "trap": "Counting 'two unknowns, one equation each, so insufficient'. Ratios need only the relationship.",
+   "timeTarget": 130,
+   "skills": [
+    "ratios",
+    "algebra"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-030",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Is x² > x³?\n\n(1) x < 1\n\n(2) x is an integer",
+   "answer": 4,
+   "explanation": "x² > x³ means x²(1 − x) > 0, which is true when x ≠ 0 and x < 1. It fails when x = 0 (0 = 0) and when x ≥ 1.\n\n**Statement (1) alone:** x < 1 includes x = 0, where x² = x³ = 0 (no). It also includes x = −2, where x² = 4 > x³ = −8 (yes). Not sufficient.\n\n**Statement (2) alone:** x = 2 gives 4 > 8 (no), x = −1 gives 1 > −1 (yes). Not sufficient.\n\n**Together:** x is an integer less than 1, so x could be 0 (no) or −1 (yes). Still two answers. Not sufficient.\n\nThe answer is **E**.\n\nZero is the hidden culprit: it satisfies x < 1 and being an integer, but it turns the strict inequality into an equality. Always test zero when a statement contains 'x < 1'.",
+   "tip": "In yes/no questions with strict inequalities, test zero: it turns '>' into '='.",
+   "trap": "Forgetting zero and concluding that 'x < 1 and an integer' means negative integers only.",
+   "timeTarget": 120,
+   "skills": [
+    "powers",
+    "zero-trap"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-031",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Was Store M's revenue in June higher than its revenue in April?\n\n(1) May revenue was 10% higher than April revenue, and June revenue was 8% lower than May revenue.\n\n(2) June revenue was lower than May revenue.",
+   "answer": 0,
+   "explanation": "Let April revenue be 100 (any positive number works).\n\n**Statement (1) alone:** May = 100 × 1.10 = 110. June = 110 × 0.92 = 101.2. That is higher than April's 100, regardless of what April's actual revenue was, because both changes are percentages of the earlier month. Always yes. Sufficient.\n\n**Statement (2) alone:** June below May. June could be above April (May = 110, June = 105) or below it (June = 90). Not sufficient.\n\nThe answer is **A**.\n\nFaster way: multiply the multipliers, 1.10 × 0.92 = 1.012, which is greater than 1. A rise of 10% followed by a fall of 8% still ends slightly above the start, because the 8% is taken from a bigger base.",
+   "tip": "Chain percent changes by multiplying the multipliers; compare the product to 1.",
+   "trap": "Adding the percents (+10 − 8 = +2) and then wondering if the 2 is exact. The product tells you the true net change, +1.2%.",
+   "timeTarget": 130,
+   "skills": [
+    "percent-change",
+    "business-context"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-032",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "What is the units digit of 3ⁿ, where n is a positive integer?\n\n(1) n is a multiple of 3.\n\n(2) n is a multiple of 8.",
+   "answer": 1,
+   "explanation": "The units digits of powers of 3 repeat in a cycle of length 4: 3, 9, 7, 1, then 3, 9, 7, 1, and so on.\n\n**Statement (1) alone:** n a multiple of 3 could be 3 (3³ = 27, units digit 7) or 6 (3⁶ = 729, units digit 9). Two values. Not sufficient.\n\n**Statement (2) alone:** A multiple of 8 is a multiple of 4, so n is at a position of the cycle that ends in 1: 3⁴ = 81, 3⁸ = 6,561. The units digit is always 1. Sufficient.\n\nThe answer is **B**.\n\nTo find the units digit of 3ⁿ, only n mod 4 matters: remainder 1 gives 3, remainder 2 gives 9, remainder 3 gives 7, remainder 0 gives 1.",
+   "tip": "For units digits of powers, find the cycle and use the remainder on division by the cycle length.",
+   "trap": "Assuming a multiple of 3 pins the digit down because the base is 3. What matters is n's remainder on division by 4, which a multiple of 3 doesn't fix.",
+   "timeTarget": 110,
+   "skills": [
+    "units-digit",
+    "cycles"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-033",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Four colleagues (Tara, Uma, Vik and Wen) each sit in one of four seats, numbered 1 to 4 from left to right. Uma and Vik do not sit next to each other. In which seat does Tara sit?\n\n(1) Tara sits immediately to the left of Uma.\n\n(2) Vik sits immediately to the left of Wen.",
+   "answer": 2,
+   "explanation": "List arrangements consistent with the stem: Uma and Vik are never in neighbouring seats.\n\n**Statement (1) alone:** Tara and Uma form an adjacent pair, Tara on the left. Three placements fit the stem. T U W V (Tara in seat 1, Vik in seat 4, not next to Uma). V T U W (Tara in seat 2, Vik in seat 1). V W T U (Tara in seat 3, Vik in seat 1). Tara's seat varies. Not sufficient.\n\n**Statement (2) alone:** Vik-Wen adjacent leaves many arrangements, with Tara in different seats. Not sufficient.\n\n**Together:** The blocks (T U) and (V W) fill the four seats. If (T U) is first, Uma is in seat 2 and Vik in seat 3, which are neighbours, which is forbidden. So (V W) comes first and (T U) second: V W T U. Tara is in seat 3. Sufficient.\n\nThe answer is **C**.",
+   "tip": "With two 'immediately left' pairs, treat each pair as a block and test the two block orders.",
+   "trap": "Letting an attractive arrangement slip past the no-neighbours rule. Always check the stem's restriction on each candidate.",
+   "timeTarget": 150,
+   "skills": [
+    "seating",
+    "logic"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-034",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A scholarship is awarded only to students who have a GPA of at least 3.5, no disciplinary warning, and a family income below ₹8 lakh a year. Each student who meets all three conditions is awarded the scholarship. Did Rhea receive the scholarship?\n\n(1) Rhea's family income is ₹9 lakh a year.\n\n(2) Rhea has received a disciplinary warning.",
+   "answer": 3,
+   "explanation": "The scholarship needs all three conditions. If even one fails, the student does not receive it.\n\n**Statement (1) alone:** Income ₹9 lakh is not below ₹8 lakh, so one condition fails. Rhea did not receive the scholarship. A definite no. Sufficient.\n\n**Statement (2) alone:** A disciplinary warning breaks another condition. Again a definite no. Sufficient.\n\nEach statement alone gives a clear no, so the answer is **D**.\n\nMany students assume sufficient means 'yes'. Here a firm 'no' is perfectly sufficient. Neither statement tells us Rhea's GPA, but it no longer matters once one required condition is broken.",
+   "tip": "When an outcome needs several conditions together, failing any one gives a definite no.",
+   "trap": "Marking each statement 'not sufficient' because GPA is unknown. Missing information is irrelevant once a requirement fails.",
+   "timeTarget": 120,
+   "skills": [
+    "conditions",
+    "logic"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-035",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If x and y are integers, what is the value of x + y?\n\n(1) 3x + 5y = 22\n\n(2) x > y",
+   "answer": 4,
+   "explanation": "**Statement (1) alone:** 3x + 5y = 22 has many integer solutions. x = 4, y = 2 gives x + y = 6. x = −1, y = 5 gives −3 + 25 = 22 and x + y = 4. Not sufficient.\n\n**Statement (2) alone:** x > y says nothing numerical. Not sufficient.\n\n**Together:** Integer solutions of 3x + 5y = 22 come in a pattern: when y goes up by 3, x goes down by 5. Starting from (4, 2): (9, −1), (14, −4), (−1, 5), (−6, 8) and so on. Those with x > y include (4, 2), with x + y = 6, and (9, −1), with x + y = 8, and (14, −4), with x + y = 10. At least two different sums survive. Not sufficient.\n\nThe answer is **E**.\n\nTrap: assuming 'integer' makes a single linear equation unique. It does only when something (like 'positive') cuts the family of solutions down to one.",
+   "tip": "One linear equation in two integer unknowns has infinitely many solutions unless extra conditions cap them.",
+   "trap": "Believing that 'x > y' knocks out all but one integer pair. It only removes the pairs on one side of the pattern.",
+   "timeTarget": 150,
+   "skills": [
+    "integer-solutions",
+    "linear-equation"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-036",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Is |x − y| < |x| + |y|?\n\n(1) x²y > 0\n\n(2) x + y > 0",
+   "answer": 4,
+   "explanation": "First rephrase. |x − y| ≤ |x| + |y| always, and the two sides are equal exactly when x and y have opposite signs or one of them is zero. So |x − y| < |x| + |y| is true exactly when x and y are nonzero with the same sign, that is, when xy > 0.\n\n**Statement (1) alone:** x²y > 0 means x ≠ 0 and y > 0. x = 2, y = 3 gives yes (xy > 0). x = −2, y = 3 gives |−5| = 5 and |−2| + |3| = 5, so the answer is no. Not sufficient.\n\n**Statement (2) alone:** x = 1, y = 2 gives yes; x = −1, y = 3 gives no. Not sufficient.\n\n**Together:** y > 0, x ≠ 0, x + y > 0. x = 2, y = 3 gives yes; x = −1, y = 3 satisfies all (sum 2, x²y = 3 > 0) and gives no. Not sufficient.\n\nThe answer is **E**.",
+   "tip": "Rephrase absolute-value comparisons into sign questions before testing.",
+   "trap": "Treating the triangle-inequality shape as a hint that 'x + y > 0' must force the answer. A negative x with a larger positive y still satisfies both statements.",
+   "timeTarget": 160,
+   "skills": [
+    "absolute-value",
+    "rephrasing"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-037",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A dealer buys an item for a cost price C, marks it up above cost, and then sells it at a discount from the marked price. What was the dealer's profit as a percentage of the cost price?\n\n(1) The marked price was 40% above the cost price, and the item was sold at 15% below the marked price.\n\n(2) The cost price was ₹2,000.",
+   "answer": 0,
+   "explanation": "Let the cost be C. A profit percentage depends only on the ratio of selling price to cost.\n\n**Statement (1) alone:** Marked price = 1.40C. Selling price = 0.85 × 1.40C = 1.19C. Profit = 0.19C, which is 19% of the cost. One value, whatever C is. Sufficient.\n\n**Statement (2) alone:** The cost is ₹2,000, but the markup and discount are unknown, so the profit percentage could be anything. Not sufficient.\n\nThe answer is **A**.\n\nNote that the actual rupee cost never matters for a percentage question: the C cancels. This is why a statement with only an absolute amount is usually weaker than one with percentages in a percent-asking question.\n\nTrap: adding the percents (+40 − 15 = 25%). Successive changes multiply, they don't add.",
+   "tip": "Percent questions are scale-free: if the question asks for a percent, you need multipliers, not amounts.",
+   "trap": "Believing you need the actual cost price. In a percentage question the base cancels.",
+   "timeTarget": 130,
+   "skills": [
+    "successive-percent",
+    "profit"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-038",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If n is a positive integer, is n² − 1 divisible by 24?\n\n(1) n is odd.\n\n(2) n is a prime number greater than 3.",
+   "answer": 1,
+   "explanation": "n² − 1 = (n − 1)(n + 1), a product of two numbers two apart.\n\n**Statement (1) alone:** n = 3 gives 8, which is not divisible by 24 (no). n = 5 gives 24, which is (yes). Not sufficient.\n\n**Statement (2) alone:** A prime above 3 is odd, so (n − 1)(n + 1) is a product of two consecutive even numbers, and one of them is a multiple of 4, so the product is divisible by 8. Also n is not divisible by 3, so one of n − 1 and n + 1 is a multiple of 3. Divisible by 8 and by 3 means divisible by 24. Always yes. Sufficient.\n\nThe answer is **B**.\n\nCheck: n = 7 gives 48 = 2 × 24; n = 11 gives 120 = 5 × 24; n = 13 gives 168 = 7 × 24.\n\nTrap: reading 'odd' as enough. Odd gives divisibility by 8 but misses the factor 3 (n = 3 fails).",
+   "tip": "Factor n² − 1 as (n − 1)(n + 1), then ask which small primes must divide it.",
+   "trap": "Choosing A or D because 'odd numbers give nice results'. Odd guarantees the 8 but not the 3.",
+   "timeTarget": 140,
+   "skills": [
+    "number-properties",
+    "divisibility",
+    "primes"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-039",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If n is an integer, what is the value of n?\n\n(1) 2 < |n| < 5\n\n(2) n³ < −30",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** |n| is strictly between 2 and 5, so |n| = 3 or 4 (integers only). That gives n = 3, −3, 4 or −4. Four values. Not sufficient.\n\n**Statement (2) alone:** n³ < −30 means n is negative with n³ below −30. (−3)³ = −27 does not qualify, but (−4)³ = −64 does. So n could be −4, −5, −6 and so on. Not sufficient.\n\n**Together:** From (1) the candidates are {−4, −3, 3, 4}. From (2) n ≤ −4. The only common value is n = −4. One value. Sufficient.\n\nThe answer is **C**.\n\nTrap: judging (2) by estimating with −3: since (−3)³ = −27 > −30, −3 fails. This borderline value is exactly where the question is set.",
+   "tip": "List the candidate set from one statement, then filter it with the other.",
+   "trap": "Letting −3 slip through: (−3)³ is −27, which is not less than −30.",
+   "timeTarget": 120,
+   "skills": [
+    "integers",
+    "absolute-value",
+    "cubes"
+   ]
+  },
+  {
+   "id": "d-ds-da-p-040",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If x > 0, what is the value of x?\n\n(1) 2<sup>x+1</sup> − 2<sup>x</sup> = 16\n\n(2) x + x² = 20",
+   "answer": 3,
+   "explanation": "**Statement (1) alone:** Factor out 2ˣ: 2ˣ⁺¹ − 2ˣ = 2ˣ(2 − 1) = 2ˣ. So 2ˣ = 16 and x = 4. One value. Sufficient.\n\n**Statement (2) alone:** x² + x − 20 = 0 factors as (x + 5)(x − 4) = 0, so x = 4 or x = −5. The stem says x > 0, so x = −5 is out and x = 4 remains. One value. Sufficient.\n\nEach alone gives x = 4, so the answer is **D**. Both statements agree, as they must.\n\nTrap: marking (2) insufficient because 'quadratics have two roots'. The stem's x > 0 rules out the second root. Equally, many students freeze at (1) and never spot that 2ˣ⁺¹ = 2 · 2ˣ.",
+   "tip": "Always apply the stem's sign condition to quadratic roots before declaring them insufficient.",
+   "trap": "Rejecting (2) because of the two roots, without noticing the stem's x > 0.",
+   "timeTarget": 140,
+   "skills": [
+    "exponents",
+    "quadratic-roots"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-001",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is the value of y?\n\n(1) 5y − 3 = 2y + 12\n\n(2) y² > 0",
+   "answer": 0,
+   "explanation": "**Statement (1) alone:** Move the y terms together: 5y − 2y = 12 + 3, so 3y = 15 and y = 5. One value. Sufficient.\n\n**Statement (2) alone:** y² > 0 only says y is not zero. y could be 5, −3, 0.5 and so on. Not sufficient.\n\nThe answer is **A**.\n\nStatement (2) is true for y = 5, so it doesn't contradict (1), but it carries no extra information once (1) has pinned y down. You never need to combine them.",
+   "tip": "A linear equation in one unknown fixes the unknown even when the unknown sits on both sides.",
+   "trap": "Choosing C because 'y² > 0 is also true'. True is not the same as useful.",
+   "timeTarget": 90,
+   "skills": [
+    "linear-equation"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-002",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "Is the integer n even?\n\n(1) n is divisible by 3.\n\n(2) n is divisible by 4.",
+   "answer": 1,
+   "explanation": "**Statement (1) alone:** n = 3 is divisible by 3 and is odd (no). n = 6 is divisible by 3 and is even (yes). Two answers. Not sufficient.\n\n**Statement (2) alone:** Every multiple of 4 is even (4 = 2 × 2), so n must be even. Always yes. Sufficient.\n\nThe answer is **B**.\n\nA quick rule: divisibility by an even number forces the number to be even, while divisibility by an odd number (such as 3) tells you nothing about parity.",
+   "tip": "Divisibility by an even number implies even; divisibility by an odd number tells you nothing about parity.",
+   "trap": "Picking D because 'multiples of 3 look regular'. Multiples of 3 alternate odd, even, odd, even.",
+   "timeTarget": 80,
+   "skills": [
+    "odd-even",
+    "divisibility"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-003",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is the cost of one pencil?\n\n(1) A pack of 12 pencils costs ₹96.\n\n(2) Three pencils cost ₹24.",
+   "answer": 3,
+   "explanation": "**Statement (1) alone:** A pack of 12 costs ₹96, so one pencil costs 96 ÷ 12 = ₹8. Sufficient.\n\n**Statement (2) alone:** Three pencils cost ₹24, so one pencil costs 24 ÷ 3 = ₹8. Sufficient.\n\nEach statement alone gives ₹8 per pencil, so the answer is **D**.\n\nIn DS you don't have to calculate 8 to know the answer: 'a total for a known number of identical items' always gives a unit price. Because both statements give the same unit price, you also know you haven't made an arithmetic mistake.",
+   "tip": "A total cost for a known number of identical items is enough for a unit price.",
+   "trap": "Assuming that two statements with different numbers must give different information. Both reduce to the same price.",
+   "timeTarget": 80,
+   "skills": [
+    "unit-price"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-004",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A shirt is sold after a discount. Is the final selling price less than ₹1,000?\n\n(1) The original price of the shirt was ₹1,250.\n\n(2) The discount was 25% of the original price.",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** The original price is ₹1,250 but the discount is unknown. A 10% discount gives ₹1,125 (no, not below 1,000); a 25% discount gives ₹937.50 (yes). Not sufficient.\n\n**Statement (2) alone:** A 25% discount alone, without the original price: an original ₹1,250 gives ₹937.50 (yes) but an original ₹1,500 gives ₹1,125 (no). Not sufficient.\n\n**Together:** ₹1,250 × 0.75 = ₹937.50, which is less than ₹1,000. Always yes. Sufficient.\n\nThe answer is **C**.\n\nTrap: the two statements together are 'obviously' needed here, but each alone clearly fails. In a yes/no question about a final price, you need both the starting amount and the percentage.",
+   "tip": "A price after a percentage change needs both the original amount and the percentage.",
+   "trap": "Concluding that a 25% discount on 'a shirt around ₹1,250' is obviously below 1,000 without checking each statement alone.",
+   "timeTarget": 100,
+   "skills": [
+    "percent-change",
+    "price"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-005",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "What is the area of a rectangle?\n\n(1) The perimeter of the rectangle is 24 cm.\n\n(2) The length of the rectangle is greater than its width.",
+   "answer": 4,
+   "explanation": "**Statement (1) alone:** The perimeter 2(l + w) = 24 gives l + w = 12. A 6 × 6 rectangle has area 36, and a 10 × 2 rectangle has area 20. Not sufficient.\n\n**Statement (2) alone:** l > w tells us nothing about size. Not sufficient.\n\n**Together:** l + w = 12 and l > w. A 7 × 5 rectangle has area 35, and a 10 × 2 rectangle has area 20. Still different. Not sufficient.\n\nThe answer is **E**.\n\nThe perimeter fixes the sum of the sides but not the product. For a fixed perimeter, the area depends on how 'square' the rectangle is. You would need a second independent fact, such as the diagonal or the ratio of the sides.",
+   "tip": "A fixed perimeter doesn't fix the area; you need a second independent relationship between the sides.",
+   "trap": "Believing that 'l > w' pins down the shape. It only rules out the rectangles where l is at most w.",
+   "timeTarget": 100,
+   "skills": [
+    "rectangles",
+    "geometry-lite"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-006",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "If x and y are positive, is x + y > 10?\n\n(1) x > 8 and y > 3\n\n(2) x > 6 and y > 3",
+   "answer": 0,
+   "explanation": "**Statement (1) alone:** x is more than 8 and y is more than 3, so x + y is more than 8 + 3 = 11. That is greater than 10. Always yes. Sufficient.\n\n**Statement (2) alone:** x more than 6 and y more than 3 gives x + y more than 9, which is not enough. x = 6.5 and y = 3.5 satisfy it with x + y = 10, which is not greater than 10 (no). x = 7 and y = 4 gives 11 (yes). Not sufficient.\n\nThe answer is **A**.\n\nAdd the minimums: if you add lower bounds on both variables you get a lower bound on the sum. If that lower bound already clears the target, the answer is always yes.",
+   "tip": "Adding lower bounds gives a lower bound on a sum: use it to settle 'greater than' questions fast.",
+   "trap": "Treating 'more than 9' as 'more than 10' for (2). The bound needs to clear the target.",
+   "timeTarget": 100,
+   "skills": [
+    "inequalities",
+    "bounds"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-007",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A box contains only red pens and green pens. How many pens are in the box?\n\n(1) The ratio of red pens to green pens is 3 to 2.\n\n(2) There are 18 red pens, and the ratio of red pens to green pens is 3 to 2.",
+   "answer": 1,
+   "explanation": "**Statement (1) alone:** A ratio of 3 to 2 fits 3 and 2 pens (5 in total), 6 and 4 (10 in total), 30 and 20 (50 in total), and so on. Not sufficient.\n\n**Statement (2) alone:** 18 red pens at a 3:2 ratio means each 'unit' is 6 pens, so green = 2 × 6 = 12. Total = 18 + 12 = 30. One value. Sufficient.\n\nThe answer is **B**.\n\nA ratio gives the shape, never the size. To get an actual count you need one real number (a total, a difference or one part). Statement (2) supplies one real number, the number of red pens.",
+   "tip": "A ratio alone never gives a count; add one real number and it does.",
+   "trap": "Choosing A because the ratio 'looks like enough'. Ratios fix shape, not size.",
+   "timeTarget": 100,
+   "skills": [
+    "ratios"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-008",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "If x and y are integers, what is the value of x?\n\n(1) 2x + 3y = 12\n\n(2) x and y are both positive.",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** 2x + 3y = 12 has many integer solutions: (6, 0), (3, 2), (0, 4), (−3, 6). x could be 6, 3, 0, −3, and so on. Not sufficient.\n\n**Statement (2) alone:** Both positive says nothing about the equation. Not sufficient.\n\n**Together:** With y positive, y = 1 gives 2x = 9 (not an integer), y = 2 gives x = 3, y = 3 gives 2x = 3 (not an integer), y = 4 gives x = 0 (not positive), and larger y make x negative. The only pair is (3, 2). So x = 3. Sufficient.\n\nThe answer is **C**.\n\nWith a single linear equation in two integers, a sign restriction can leave just one possibility.",
+   "tip": "Integer plus positivity turns an infinite family of solutions into a short list you can check.",
+   "trap": "Writing off the combination because 'one equation, two unknowns'. The constraints cut the search space.",
+   "timeTarget": 120,
+   "skills": [
+    "integer-solutions"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-009",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Is the integer n divisible by 3?\n\n(1) n² is divisible by 3.\n\n(2) n³ is divisible by 9.",
+   "answer": 3,
+   "explanation": "Because 3 is prime, 3 can divide a power of n only if 3 divides n itself.\n\n**Statement (1) alone:** If n² is divisible by 3, then n must contain a factor of 3 (primes in a square come from the base). So n is divisible by 3. Always yes. Sufficient.\n\n**Statement (2) alone:** If n isn't divisible by 3, then n³ has no factor of 3 either, so it can't be divisible by 9. So n³ divisible by 9 forces n to be divisible by 3. Always yes. Sufficient.\n\nThe answer is **D**.\n\nTest: n = 3 gives n² = 9 and n³ = 27, both fine. n = 6 gives 36 and 216, both fine. A number like n = 4 gives n² = 16 and n³ = 64, neither divisible by 3.",
+   "tip": "A prime that divides a power must divide the base.",
+   "trap": "Doubting (2) because 'divisible by 9 is stronger than divisible by 3'. It is stronger, and that makes it sufficient.",
+   "timeTarget": 100,
+   "skills": [
+    "primes",
+    "divisibility"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-010",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A hotel offers every member of its Gold tier free lounge access. Did Neha have free lounge access?\n\n(1) Neha is not a Gold member.\n\n(2) Neha stayed at the hotel more than 20 times this year.",
+   "answer": 4,
+   "explanation": "The rule says Gold means lounge access. It does not say that only Gold members get lounge access.\n\n**Statement (1) alone:** Not Gold. The rule is silent about non-Gold members; some of them may have lounge access for other reasons. Neha may or may not have had access. Not sufficient.\n\n**Statement (2) alone:** Many stays say nothing about membership or access. Not sufficient.\n\n**Together:** We know she isn't Gold and that she stayed more than 20 times, but nothing connects either fact to lounge access. Not sufficient.\n\nThe answer is **E**.\n\nThis is the 'inverse' trap. From 'If Gold then access' you cannot conclude 'If not Gold then no access'. Only the contrapositive is valid: no access means not Gold.",
+   "tip": "The inverse of a rule ('if not P then not Q') is not guaranteed; only the contrapositive is.",
+   "trap": "Reading 'not Gold' as 'no access'. The rule says what Gold members get, not what others lack.",
+   "timeTarget": 120,
+   "skills": [
+    "conditional-logic",
+    "business-context"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-011",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "What is the range of the set {3, 7, 9, x}, where x is an integer?\n\n(1) 3 < x < 9\n\n(2) x < 12",
+   "answer": 0,
+   "explanation": "The range is the largest value minus the smallest value.\n\n**Statement (1) alone:** If x lies strictly between 3 and 9, then the smallest value is still 3 and the largest is still 9. Range = 9 − 3 = 6. Sufficient.\n\n**Statement (2) alone:** x < 12 allows x = 5 (range 6), x = 11 (range 11 − 3 = 8), and x = 0 (range 9 − 0 = 9). Not sufficient.\n\nThe answer is **A**.\n\nRange depends only on the extremes. A new number that falls inside the current extremes doesn't change the range at all. This makes 'x is between ...' statements very powerful in range questions.",
+   "tip": "Range only cares about the extremes; a new value inside the current min and max changes nothing.",
+   "trap": "Computing the range with x instead of noticing that x lies inside the existing spread.",
+   "timeTarget": 100,
+   "skills": [
+    "range",
+    "statistics"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-012",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "If a, b and c are positive, is a/b > a/c?\n\n(1) a > c\n\n(2) b > c",
+   "answer": 1,
+   "explanation": "Because a is positive, comparing a/b with a/c is the same as comparing 1/b with 1/c (dividing both by the positive number a). For positive numbers, 1/b > 1/c means b < c.\n\nSo the question is really: **Is b < c?**\n\n**Statement (1) alone:** a > c tells us nothing about b versus c. Not sufficient.\n\n**Statement (2) alone:** b > c, which means the answer to 'Is b < c?' is always no. Sufficient.\n\nThe answer is **B**.\n\nA definite no is still sufficient. Rephrasing makes statement (1) obviously irrelevant: it talks about a, and a cancels from the question.",
+   "tip": "Cancel a common positive factor before judging a comparison.",
+   "trap": "Giving (1) credit because it mentions a. After rephrasing, a plays no role.",
+   "timeTarget": 100,
+   "skills": [
+    "inequalities",
+    "rephrasing"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-013",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "If n is a positive integer, what is the remainder when n is divided by 6?\n\n(1) n is a multiple of 5.\n\n(2) n is even.",
+   "answer": 4,
+   "explanation": "**Statement (1) alone:** n = 5 gives remainder 5, n = 10 gives remainder 4, n = 15 gives remainder 3. Not sufficient.\n\n**Statement (2) alone:** n = 2 gives remainder 2, n = 4 gives remainder 4. Not sufficient.\n\n**Together:** n is a multiple of 10: n = 10 gives remainder 4 and n = 20 gives remainder 2. Two different remainders. Not sufficient.\n\nThe answer is **E**.\n\nMultiples of 10 cycle through remainders 4, 2, 0 when divided by 6 (10, 20, 30, 40 → 4, 2, 0, 4). To fix a remainder on division by 6, you'd need to know n modulo 6, or at least a way of knowing n modulo 2 and modulo 3 together.",
+   "tip": "To pin down a remainder you need information about n modulo the divisor, not just a different divisor.",
+   "trap": "Assuming that 'multiple of 5 and even' gives a fixed pattern. The multiples of 10 keep cycling through different remainders on division by 6.",
+   "timeTarget": 110,
+   "skills": [
+    "remainders"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-014",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If p and q are positive integers and p > q, what is the value of p + q?\n\n(1) pq = 12\n\n(2) p + q is even",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** The factor pairs of 12 with p > q are (12, 1), (6, 2) and (4, 3), giving p + q = 13, 8 or 7. Three values. Not sufficient.\n\n**Statement (2) alone:** p + q even allows (3, 1) with sum 4, (5, 3) with sum 8, and many more. Not sufficient.\n\n**Together:** Of the three sums 13, 8 and 7 from (1), only 8 is even. So p = 6, q = 2 and p + q = 8. One value. Sufficient.\n\nThe answer is **C**.\n\nStrategy: list the possible answers from the more restrictive statement, then use the second statement as a filter. It works when the filter removes all but one candidate.",
+   "tip": "List the candidates from one statement, then see whether the other statement removes all but one.",
+   "trap": "Stopping after (1) with three candidates and picking E without trying to filter them with (2).",
+   "timeTarget": 120,
+   "skills": [
+    "factor-pairs",
+    "parity"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-015",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If x ≠ 0, is x + 1/x ≥ 2?\n\n(1) x > 0\n\n(2) x³ > x²",
+   "answer": 3,
+   "explanation": "For positive x, x + 1/x ≥ 2 always holds (it equals 2 at x = 1 and grows on both sides). For negative x, x + 1/x is negative, so the answer is no.\n\n**Statement (1) alone:** x > 0. Test x = 1: 1 + 1 = 2 (yes). x = 0.5: 0.5 + 2 = 2.5 (yes). x = 4: 4.25 (yes). Always yes. Sufficient.\n\n**Statement (2) alone:** x³ > x² means x²(x − 1) > 0, so x > 1 (x² is never negative and x ≠ 0). Then x is positive, so the same reasoning applies: always yes. Sufficient.\n\nThe answer is **D**.\n\nThe reason behind the rule: (x − 1)² ≥ 0 expands to x² + 1 ≥ 2x, and dividing by positive x gives x + 1/x ≥ 2. For negative x the division flips the sign, which is why the answer flips to no.",
+   "tip": "For positive x, the sum x + 1/x is never below 2 (a form of AM-GM).",
+   "trap": "Treating (2) as 'unclear' because it is not phrased as x > 0. Reduce it to x > 1 first.",
+   "timeTarget": 120,
+   "skills": [
+    "inequalities",
+    "reciprocals"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-016",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A manager schedules three meetings (X, Y and Z) on three different weekdays of the same week, Monday (1) to Friday (5), one meeting per day. Is meeting X scheduled before meeting Z?\n\n(1) Meeting Y is scheduled before meeting Z.\n\n(2) Meeting X is not scheduled on Monday.",
+   "answer": 4,
+   "explanation": "**Statement (1) alone:** Y before Z says nothing about X. X could be Monday (X, Y, Z in order: yes) or Friday (Y, Z, then X: no). Not sufficient.\n\n**Statement (2) alone:** X is not on Monday. X could be Tuesday with Z on Thursday (yes), or X on Friday with Z earlier (no). Not sufficient.\n\n**Together:** Take Y on Monday, X on Tuesday, Z on Wednesday. Y is before Z ✓, X is not on Monday ✓, and X is before Z (yes). Now take Y on Monday, Z on Tuesday, X on Wednesday. Y is before Z ✓, X is not on Monday ✓, and X is after Z (no). Two answers. Not sufficient.\n\nThe answer is **E**.\n\nA statement about the order of Y and Z can only help with X if it links X to one of them.",
+   "tip": "For order problems, build two complete schedules that satisfy both statements but disagree.",
+   "trap": "Assuming 'X not on Monday' pushes X later, so it must come after Z. It doesn't.",
+   "timeTarget": 130,
+   "skills": [
+    "ordering",
+    "scheduling"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-017",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A cyclist rides from town P to town Q at 15 km/h and returns along the same route. What is her average speed, in km/h, for the whole round trip?\n\n(1) Her speed on the return journey is 10 km/h.\n\n(2) The distance between P and Q is 30 km.",
+   "answer": 0,
+   "explanation": "Average speed = total distance ÷ total time.\n\n**Statement (1) alone:** Let the one-way distance be d. Time out = d/15, time back = d/10. Total time = d/15 + d/10 = (2d + 3d)/30 = 5d/30 = d/6. Total distance = 2d. Average speed = 2d ÷ (d/6) = 12 km/h. The distance d cancels. Sufficient.\n\n**Statement (2) alone:** The distance is 30 km, but without the return speed we can't find the total time. Not sufficient.\n\nThe answer is **A**.\n\nShortcut: for equal distances at speeds a and b, the average speed is the harmonic mean 2ab/(a + b) = 2 × 15 × 10 ÷ 25 = 12. The distance never matters.\n\nTrap: averaging 15 and 10 to get 12.5. The slower leg takes more time, so it drags the average below the simple mean.",
+   "tip": "For equal distances, average speed is 2ab/(a + b); the distance cancels out.",
+   "trap": "Averaging the two speeds to 12.5 and, separately, thinking you need the distance to solve it.",
+   "timeTarget": 130,
+   "skills": [
+    "average-speed",
+    "rates"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-018",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Is |x| < 3?\n\n(1) x² > 4\n\n(2) x⁴ < 81",
+   "answer": 1,
+   "explanation": "|x| < 3 is the same as −3 < x < 3.\n\n**Statement (1) alone:** x² > 4 means |x| > 2. x = 2.5 gives |x| < 3 (yes) while x = 5 gives |x| > 3 (no). Not sufficient.\n\n**Statement (2) alone:** x⁴ < 81 = 3⁴. Since x⁴ = (|x|)⁴ and both sides are positive, taking the fourth root gives |x| < 3. Always yes. Sufficient.\n\nThe answer is **B**.\n\nFor even powers, the sign of x disappears, so an inequality like x⁴ < 81 is really a statement about |x|. That makes (2) a disguised version of the question.\n\nTrap: reading (1) as 'x is big, so no' when x = 2.5 is bigger than 2 but still less than 3.",
+   "tip": "Even powers of x are just powers of |x|; take the root and you recover a statement about |x|.",
+   "trap": "Dismissing (2) because of the fourth power. The fourth root of 81 is exactly 3, which is the bound in the question.",
+   "timeTarget": 110,
+   "skills": [
+    "absolute-value",
+    "even-powers"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-019",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A company has only two departments, A and B. Is the average salary of all its employees greater than ₹60,000?\n\n(1) Department A has 60 employees and department B has 40 employees.\n\n(2) Employees in department A earn an average of ₹70,000, and employees in department B earn an average of ₹55,000.",
+   "answer": 2,
+   "explanation": "The company-wide average is a weighted average of the two departmental averages, so you need both the weights (headcounts) and the averages.\n\n**Statement (1) alone:** Headcounts, but no salaries. Not sufficient.\n\n**Statement (2) alone:** The averages are ₹70,000 and ₹55,000, but without headcounts the company average could be anywhere between them. With 1 person in A and 100 in B it is about ₹55,150 (no). With 100 in A and 1 in B it is about ₹69,850 (yes). Not sufficient.\n\n**Together:** (60 × 70,000 + 40 × 55,000) ÷ 100 = (4,200,000 + 2,200,000) ÷ 100 = ₹64,000. That is above ₹60,000. Always yes. Sufficient.\n\nThe answer is **C**.\n\nA quick check: 60% weight on the higher group pulls the average above the midpoint of 62,500, comfortably above 60,000.",
+   "tip": "A combined average is a weighted average: you need the group sizes and the group averages.",
+   "trap": "Averaging the two averages to get 62,500 without knowing the weights. That is only valid if the groups are equal in size.",
+   "timeTarget": 140,
+   "skills": [
+    "weighted-average",
+    "business-context"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-020",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If x and y are positive, what is the value of x/y?\n\n(1) (x + y)/y = 7/3\n\n(2) x/(x + y) = 4/7",
+   "answer": 3,
+   "explanation": "**Statement (1) alone:** (x + y)/y = x/y + 1 = 7/3, so x/y = 7/3 − 1 = 4/3. One value. Sufficient.\n\n**Statement (2) alone:** Cross-multiplying, 7x = 4(x + y) = 4x + 4y, so 3x = 4y and x/y = 4/3. One value. Sufficient.\n\nBoth alone give x/y = 4/3, so the answer is **D**.\n\nIn both cases a fraction relation between the same two variables is just a ratio in disguise. Whenever a statement gives a ratio of two quantities built from x and y (a sum, a difference or a part-of-whole), you can usually convert it to x/y.\n\nTrap: guessing that one of the statements 'must be weaker'. They look different but carry exactly the same information.",
+   "tip": "Part-to-whole and part-to-part ratios are convertible: x/(x+y) = 4/7 means x:y = 4:3.",
+   "trap": "Treating (2) as unsolvable because it has no y alone. Cross-multiplying isolates the ratio x:y.",
+   "timeTarget": 110,
+   "skills": [
+    "ratios"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-021",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If n is an integer greater than 1, is n prime?\n\n(1) n has no divisor d with 2 ≤ d ≤ 7.\n\n(2) n < 150",
+   "answer": 4,
+   "explanation": "**Statement (1) alone:** n = 11 has no divisor from 2 to 7 and is prime (yes). But n = 121 = 11 × 11 has no divisor from 2 to 7 either and is not prime (no). Not sufficient.\n\n**Statement (2) alone:** n = 7 is prime (yes), n = 8 is not (no). Not sufficient.\n\n**Together:** n = 11 is below 150, has no divisor 2 to 7, and is prime (yes). n = 121 is below 150, has no divisor 2 to 7, and is not prime (no). Two answers. Not sufficient.\n\nThe answer is **E**.\n\nThe tempting but wrong reasoning: 'no small factors and not too big, so it's prime'. To be sure a number below 150 is prime, you need to rule out divisors up to its square root, which for 121 is 11. Checking only up to 7 isn't enough.",
+   "tip": "To test primality, check divisors up to the square root, no further and no less.",
+   "trap": "Concluding that 'no divisor up to 7' proves primality for numbers below 150. 121 = 11² slips through.",
+   "timeTarget": 140,
+   "skills": [
+    "primes",
+    "divisibility"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-022",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "What is the value of x?\n\n(1) |x − 2| + |x − 6| = 4\n\n(2) x² = 16",
+   "answer": 2,
+   "explanation": "**Statement (1) alone:** The sum of the distances from x to 2 and from x to 6 equals 4, which is exactly the distance between 2 and 6. That happens for every x between 2 and 6 inclusive. For x = 3: 1 + 3 = 4 ✓. For x = 5: 3 + 1 = 4 ✓. Infinitely many values. Not sufficient.\n\n**Statement (2) alone:** x² = 16 gives x = 4 or x = −4. Not sufficient.\n\n**Together:** The values from (2) are 4 and −4. Only x = 4 lies in the interval [2, 6]. Check x = −4: |−6| + |−10| = 16, not 4. So x = 4. Sufficient.\n\nThe answer is **C**.\n\nThinking of |x − a| as 'distance from a' turns the first statement into a picture: the distances from two points add up to the gap between them only when you stand between them.",
+   "tip": "Read |x − a| as the distance from a on the number line.",
+   "trap": "Expecting an absolute-value equation to give two points. When the right-hand side equals the gap between the two reference points, you get a whole interval.",
+   "timeTarget": 150,
+   "skills": [
+    "absolute-value",
+    "number-line"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-023",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If a and b are positive, is a + b > 2√(ab)?\n\n(1) a² ≠ b²\n\n(2) a/b ≠ 1",
+   "answer": 3,
+   "explanation": "Since (√a − √b)² ≥ 0, we get a + b − 2√(ab) ≥ 0, with equality exactly when a = b. So a + b > 2√(ab) is true exactly when a ≠ b. The question is really **Is a ≠ b?**\n\n**Statement (1) alone:** a² ≠ b². With a and b positive, a² = b² only if a = b, so a² ≠ b² means a ≠ b. Always yes. Sufficient.\n\n**Statement (2) alone:** a/b ≠ 1 means a ≠ b. Always yes. Sufficient.\n\nThe answer is **D**.\n\nCheck: a = 1, b = 4 gives 5 > 2 × 2 = 4 ✓. a = 3, b = 3 gives 6 = 6 (not greater). This is the famous AM-GM inequality.",
+   "tip": "Spot the AM-GM pattern: the average of two positives is at least their geometric mean, with equality only when they match.",
+   "trap": "Trying to test numbers and getting stuck when a = b appears. Recognising the form turns it into 'is a ≠ b?'.",
+   "timeTarget": 110,
+   "skills": [
+    "AM-GM",
+    "rephrasing"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-024",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A 3-person committee is chosen from five people: Anita, Bhavna, Chetan, Divya and Eshan. Bhavna and Chetan will not serve together. Is Bhavna on the committee?\n\n(1) Bhavna serves only if Chetan serves.\n\n(2) Anita serves.",
+   "answer": 0,
+   "explanation": "The stem rules out any committee that has both Bhavna and Chetan.\n\n**Statement (1) alone:** 'Bhavna serves only if Chetan serves' means: if Bhavna serves, then Chetan serves too. But Bhavna and Chetan never serve together. So Bhavna cannot serve. Always no. Sufficient.\n\n**Statement (2) alone:** With Anita on the committee, there are valid committees with Bhavna (for example Anita, Bhavna, Divya) and without her (Anita, Chetan, Divya). Not sufficient.\n\nThe answer is **A**.\n\nThe skill here is turning 'only if' into if/then: B → C. Combined with the rule 'not both B and C', the chain B → C → not B shows B can never serve.",
+   "tip": "Convert 'only if' into if/then, then chain it with the stem's rule; a contradiction means the premise is impossible.",
+   "trap": "Rejecting (1) because it 'doesn't mention whether Bhavna serves'. Combined with the stem, it decides the matter.",
+   "timeTarget": 150,
+   "skills": [
+    "conditional-logic",
+    "committees"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-025",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If n is a positive integer, what is the value of n?\n\n(1) n² + n < 40\n\n(2) n! − n = 115",
+   "answer": 1,
+   "explanation": "**Statement (1) alone:** n² + n < 40. n = 5 gives 30 (yes), n = 6 gives 42 (no). So n could be 1, 2, 3, 4 or 5. Not sufficient.\n\n**Statement (2) alone:** Test small values of n! − n: n = 1 gives 0, n = 2 gives 0, n = 3 gives 3, n = 4 gives 20, n = 5 gives 115 ✓, n = 6 gives 714. The function only grows from there (n! rises much faster than n), so n = 5 is the only solution. Sufficient.\n\nThe answer is **B**.\n\nAfter 4! − 4 = 20 the values jump to 115 and then 714, so the equation can't be hit twice. A quick way to see this: factorials grow so fast that the 'minus n' hardly matters beyond n = 5.",
+   "tip": "Factorial equations are solved by checking small values; they grow too fast to repeat.",
+   "trap": "Stopping at (1) and thinking 'n < 6 is enough'. Five values remain.",
+   "timeTarget": 140,
+   "skills": [
+    "factorials",
+    "inequalities"
+   ]
+  },
+  {
+   "id": "d-ds-da-m-026",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If a ≠ 0, is |a| + |b| = |a + b|?\n\n(1) |a| > |b|\n\n(2) ab² > 0",
+   "answer": 4,
+   "explanation": "The equality |a| + |b| = |a + b| holds exactly when a and b have the same sign (or one of them is zero): ab ≥ 0. So the question is **Is ab ≥ 0?**\n\n**Statement (1) alone:** |a| > |b|. a = 3, b = 1 gives 4 = 4 (yes). a = 3, b = −1 gives 4 versus |2| = 2 (no). Not sufficient.\n\n**Statement (2) alone:** ab² > 0 means a > 0 and b ≠ 0 (b² is positive). b could be 1 (yes) or −1 (no). Not sufficient.\n\n**Together:** a > 0, b ≠ 0, |a| > |b|. a = 3, b = 1 satisfies everything and gives yes. a = 3, b = −1 also satisfies everything (|3| > |−1|, ab² = 3 > 0) and gives no. Not sufficient.\n\nThe answer is **E**.\n\nThe statements say a is positive and larger in size, which tells you nothing about the sign of b.",
+   "tip": "|a| + |b| = |a + b| is a sign question: do a and b agree?",
+   "trap": "Believing that |a| > |b| makes a dominate b so the equality holds. It doesn't fix b's sign.",
+   "timeTarget": 130,
+   "skills": [
+    "absolute-value",
+    "triangle-inequality"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2599 @@
+{
+ "version": 1,
+ "phases": [
+  {
+   "id": "orientation",
+   "title": "Orientation",
+   "blurb": "Learn the exam, set up your system, take a short diagnostic."
+  },
+  {
+   "id": "foundations",
+   "title": "Foundations",
+   "blurb": "Rebuild the math basics and learn how arguments work."
+  },
+  {
+   "id": "core",
+   "title": "Core Skills",
+   "blurb": "Every topic, every question type, one step at a time."
+  },
+  {
+   "id": "advanced",
+   "title": "Advanced Practice",
+   "blurb": "Hard, timed sets and your first full mocks."
+  },
+  {
+   "id": "mocks",
+   "title": "Mock Season",
+   "blurb": "A full mock every week, deep reviews, targeted fixes."
+  },
+  {
+   "id": "taper",
+   "title": "Taper Week",
+   "blurb": "Light review, logistics, rest. Arrive sharp."
+  },
+  {
+   "id": "test",
+   "title": "Test Day",
+   "blurb": "You have done the work. Go get it."
+  },
+  {
+   "id": "apply",
+   "title": "Applications",
+   "blurb": "Turn your score into admits."
+  }
+ ],
+ "units": [
+  {
+   "id": "start",
+   "title": "Start Here",
+   "icon": "compass",
+   "lessons": [
+    "s-welcome",
+    "s-gmat-explained",
+    "s-scoring",
+    "s-study-system"
+   ]
+  },
+  {
+   "id": "quant",
+   "title": "Quantitative Reasoning",
+   "icon": "calc",
+   "lessons": [
+    "q-arith",
+    "q-fractions",
+    "q-percents",
+    "q-ratios",
+    "q-exponents",
+    "q-numprops",
+    "q-linear",
+    "q-divisibility",
+    "q-remainders",
+    "q-quadratics",
+    "q-inequalities",
+    "q-functions",
+    "q-wordprob",
+    "q-rates",
+    "q-mixtures",
+    "q-stats",
+    "q-sets",
+    "q-counting",
+    "q-probability",
+    "q-strategy"
+   ]
+  },
+  {
+   "id": "verbal",
+   "title": "Verbal Reasoning",
+   "icon": "book",
+   "lessons": [
+    "v-cr-structure",
+    "v-cr-assumption",
+    "v-cr-strengthen",
+    "v-cr-weaken",
+    "v-cr-evaluate",
+    "v-cr-inference",
+    "v-cr-paradox",
+    "v-cr-role",
+    "v-cr-flaw",
+    "v-cr-complete",
+    "v-rc-reading",
+    "v-rc-main",
+    "v-rc-detail",
+    "v-rc-inference",
+    "v-rc-function",
+    "v-rc-application",
+    "v-strategy"
+   ]
+  },
+  {
+   "id": "di",
+   "title": "Data Insights",
+   "icon": "chart",
+   "lessons": [
+    "d-intro",
+    "d-ds-method",
+    "d-ds-yesno",
+    "d-ds-traps",
+    "d-ds-verbal",
+    "d-data-literacy",
+    "d-ta",
+    "d-gi",
+    "d-tpa",
+    "d-msr",
+    "d-strategy"
+   ]
+  },
+  {
+   "id": "strategy",
+   "title": "Test Strategy",
+   "icon": "target",
+   "lessons": [
+    "s-pacing",
+    "s-section-order-review",
+    "s-mocks",
+    "s-mindset",
+    "s-test-day-india",
+    "s-scores-retakes",
+    "s-resources"
+   ]
+  },
+  {
+   "id": "admissions",
+   "title": "Admissions",
+   "icon": "cap",
+   "lessons": [
+    "a-roadmap",
+    "a-india-programs",
+    "a-global-programs",
+    "a-school-list",
+    "a-profile",
+    "a-resume",
+    "a-essays",
+    "a-recommendations",
+    "a-interviews",
+    "a-funding",
+    "a-logistics",
+    "a-timeline",
+    "a-decisions"
+   ]
+  }
+ ],
+ "lessons": {
+  "s-welcome": {
+   "id": "s-welcome",
+   "title": "Start Here, Maria",
+   "section": "start",
+   "minutes": 15,
+   "topic": null,
+   "summary": "How this app works and how the next ten months will go."
+  },
+  "s-gmat-explained": {
+   "id": "s-gmat-explained",
+   "title": "The GMAT in Plain English",
+   "section": "start",
+   "minutes": 25,
+   "topic": null,
+   "summary": "Sections, question types, timing, and what is no longer on the test."
+  },
+  "s-scoring": {
+   "id": "s-scoring",
+   "title": "How Scoring Really Works",
+   "section": "start",
+   "minutes": 20,
+   "topic": null,
+   "summary": "205-805, percentiles, adaptivity, and the score you need."
+  },
+  "s-study-system": {
+   "id": "s-study-system",
+   "title": "Your Study System",
+   "section": "start",
+   "minutes": 25,
+   "topic": null,
+   "summary": "Retrieval, spacing, the error log, and how to review a question."
+  },
+  "s-pacing": {
+   "id": "s-pacing",
+   "title": "Pacing and Time Management",
+   "section": "strategy",
+   "minutes": 25,
+   "topic": null,
+   "summary": "Checkpoints, the bail-out rule, and smart guessing."
+  },
+  "s-section-order-review": {
+   "id": "s-section-order-review",
+   "title": "Section Order, Breaks and Review & Edit",
+   "section": "strategy",
+   "minutes": 20,
+   "topic": null,
+   "summary": "Choosing your order and using your 3 answer changes well."
+  },
+  "s-mocks": {
+   "id": "s-mocks",
+   "title": "Mastering Practice Exams",
+   "section": "strategy",
+   "minutes": 25,
+   "topic": null,
+   "summary": "When to take mocks, how to simulate the real thing, how to review."
+  },
+  "s-mindset": {
+   "id": "s-mindset",
+   "title": "Mindset, Energy and Nerves",
+   "section": "strategy",
+   "minutes": 20,
+   "topic": null,
+   "summary": "Studying with a full-time job, beating burnout and test anxiety."
+  },
+  "s-test-day-india": {
+   "id": "s-test-day-india",
+   "title": "Test Day in India",
+   "section": "strategy",
+   "minutes": 25,
+   "topic": null,
+   "summary": "Booking, fees, passport rules, centre vs online, and the day itself."
+  },
+  "s-scores-retakes": {
+   "id": "s-scores-retakes",
+   "title": "Scores, Superscore and Retakes",
+   "section": "strategy",
+   "minutes": 20,
+   "topic": null,
+   "summary": "Score reports, free sends, superscore, and when to retake."
+  },
+  "s-resources": {
+   "id": "s-resources",
+   "title": "The Best Resources (and What to Skip)",
+   "section": "strategy",
+   "minutes": 20,
+   "topic": null,
+   "summary": "Official materials, free tools, courses, and reading sources."
+  },
+  "q-arith": {
+   "id": "q-arith",
+   "title": "Number Sense & Mental Math",
+   "section": "quant",
+   "minutes": 45,
+   "topic": "q-arith",
+   "summary": "Arithmetic without a calculator, fast and accurate."
+  },
+  "q-fractions": {
+   "id": "q-fractions",
+   "title": "Fractions & Decimals",
+   "section": "quant",
+   "minutes": 45,
+   "topic": "q-fractions",
+   "summary": "Operate, compare and convert with confidence."
+  },
+  "q-percents": {
+   "id": "q-percents",
+   "title": "Percents & Percent Change",
+   "section": "quant",
+   "minutes": 45,
+   "topic": "q-percents",
+   "summary": "The single most tested idea on the GMAT."
+  },
+  "q-ratios": {
+   "id": "q-ratios",
+   "title": "Ratios & Proportions",
+   "section": "quant",
+   "minutes": 40,
+   "topic": "q-ratios",
+   "summary": "Parts, wholes and the multiplier method."
+  },
+  "q-exponents": {
+   "id": "q-exponents",
+   "title": "Exponents & Roots",
+   "section": "quant",
+   "minutes": 45,
+   "topic": "q-exponents",
+   "summary": "Rules, tricks and common disguises."
+  },
+  "q-numprops": {
+   "id": "q-numprops",
+   "title": "Number Properties",
+   "section": "quant",
+   "minutes": 45,
+   "topic": "q-numprops",
+   "summary": "Odd/even, signs, consecutive integers and digits."
+  },
+  "q-linear": {
+   "id": "q-linear",
+   "title": "Linear Equations",
+   "section": "quant",
+   "minutes": 40,
+   "topic": "q-linear",
+   "summary": "One and two variable equations and systems."
+  },
+  "q-divisibility": {
+   "id": "q-divisibility",
+   "title": "Factors, Multiples & Primes",
+   "section": "quant",
+   "minutes": 50,
+   "topic": "q-divisibility",
+   "summary": "Prime factorisation, GCD/LCM and factor counting."
+  },
+  "q-remainders": {
+   "id": "q-remainders",
+   "title": "Remainders & Cyclicity",
+   "section": "quant",
+   "minutes": 45,
+   "topic": "q-remainders",
+   "summary": "Division equations, units digits and patterns."
+  },
+  "q-quadratics": {
+   "id": "q-quadratics",
+   "title": "Quadratics & Identities",
+   "section": "quant",
+   "minutes": 50,
+   "topic": "q-quadratics",
+   "summary": "Factoring, special products and roots."
+  },
+  "q-inequalities": {
+   "id": "q-inequalities",
+   "title": "Inequalities & Absolute Value",
+   "section": "quant",
+   "minutes": 50,
+   "topic": "q-inequalities",
+   "summary": "Sign flips, cases and number lines."
+  },
+  "q-functions": {
+   "id": "q-functions",
+   "title": "Functions, Symbols & Sequences",
+   "section": "quant",
+   "minutes": 40,
+   "topic": "q-functions",
+   "summary": "f(x), made-up operations and series."
+  },
+  "q-wordprob": {
+   "id": "q-wordprob",
+   "title": "Translating Word Problems",
+   "section": "quant",
+   "minutes": 45,
+   "topic": "q-wordprob",
+   "summary": "From English to equations, every time."
+  },
+  "q-rates": {
+   "id": "q-rates",
+   "title": "Rates, Speed & Work",
+   "section": "quant",
+   "minutes": 50,
+   "topic": "q-rates",
+   "summary": "RTD tables, average speed and combined work."
+  },
+  "q-mixtures": {
+   "id": "q-mixtures",
+   "title": "Mixtures, Interest, Profit & Loss",
+   "section": "quant",
+   "minutes": 50,
+   "topic": "q-mixtures",
+   "summary": "Weighted averages, interest and markups."
+  },
+  "q-stats": {
+   "id": "q-stats",
+   "title": "Statistics",
+   "section": "quant",
+   "minutes": 45,
+   "topic": "q-stats",
+   "summary": "Mean, median, range and standard deviation."
+  },
+  "q-sets": {
+   "id": "q-sets",
+   "title": "Overlapping Sets",
+   "section": "quant",
+   "minutes": 35,
+   "topic": "q-sets",
+   "summary": "Venn diagrams and the double-set matrix."
+  },
+  "q-counting": {
+   "id": "q-counting",
+   "title": "Counting: Permutations & Combinations",
+   "section": "quant",
+   "minutes": 50,
+   "topic": "q-counting",
+   "summary": "Slots, order, restrictions and complements."
+  },
+  "q-probability": {
+   "id": "q-probability",
+   "title": "Probability",
+   "section": "quant",
+   "minutes": 50,
+   "topic": "q-probability",
+   "summary": "And/or, with/without replacement, at least one."
+  },
+  "q-strategy": {
+   "id": "q-strategy",
+   "title": "Quant Section Strategy",
+   "section": "quant",
+   "minutes": 35,
+   "topic": null,
+   "summary": "Plugging in, backsolving, estimation and pacing."
+  },
+  "v-cr-structure": {
+   "id": "v-cr-structure",
+   "title": "How GMAT Arguments Work",
+   "section": "verbal",
+   "minutes": 40,
+   "topic": null,
+   "summary": "Premises, conclusions, gaps and the 4-step method."
+  },
+  "v-cr-assumption": {
+   "id": "v-cr-assumption",
+   "title": "Assumption Questions",
+   "section": "verbal",
+   "minutes": 40,
+   "topic": "v-cr-assumption",
+   "summary": "The negation test and common gaps."
+  },
+  "v-cr-strengthen": {
+   "id": "v-cr-strengthen",
+   "title": "Strengthen Questions",
+   "section": "verbal",
+   "minutes": 35,
+   "topic": "v-cr-strengthen",
+   "summary": "Close the gap, kill the alternatives."
+  },
+  "v-cr-weaken": {
+   "id": "v-cr-weaken",
+   "title": "Weaken Questions",
+   "section": "verbal",
+   "minutes": 35,
+   "topic": "v-cr-weaken",
+   "summary": "Alternative causes, bad samples, failed plans."
+  },
+  "v-cr-evaluate": {
+   "id": "v-cr-evaluate",
+   "title": "Evaluate the Argument",
+   "section": "verbal",
+   "minutes": 35,
+   "topic": "v-cr-evaluate",
+   "summary": "The two-answer test."
+  },
+  "v-cr-inference": {
+   "id": "v-cr-inference",
+   "title": "Inference & Must Be True",
+   "section": "verbal",
+   "minutes": 35,
+   "topic": "v-cr-inference",
+   "summary": "Stay inside the facts."
+  },
+  "v-cr-paradox": {
+   "id": "v-cr-paradox",
+   "title": "Explain the Discrepancy",
+   "section": "verbal",
+   "minutes": 30,
+   "topic": "v-cr-paradox",
+   "summary": "Let both facts be true."
+  },
+  "v-cr-role": {
+   "id": "v-cr-role",
+   "title": "Boldface & Method of Reasoning",
+   "section": "verbal",
+   "minutes": 40,
+   "topic": "v-cr-role",
+   "summary": "Label every sentence."
+  },
+  "v-cr-flaw": {
+   "id": "v-cr-flaw",
+   "title": "Flaw Questions",
+   "section": "verbal",
+   "minutes": 35,
+   "topic": "v-cr-flaw",
+   "summary": "The catalogue of reasoning errors."
+  },
+  "v-cr-complete": {
+   "id": "v-cr-complete",
+   "title": "Complete the Argument",
+   "section": "verbal",
+   "minutes": 25,
+   "topic": "v-cr-complete",
+   "summary": "Predict what fills the blank."
+  },
+  "v-rc-reading": {
+   "id": "v-rc-reading",
+   "title": "How to Read a GMAT Passage",
+   "section": "verbal",
+   "minutes": 40,
+   "topic": null,
+   "summary": "Read for structure, map the passage."
+  },
+  "v-rc-main": {
+   "id": "v-rc-main",
+   "title": "Main Idea & Primary Purpose",
+   "section": "verbal",
+   "minutes": 30,
+   "topic": "v-rc-main",
+   "summary": "The big picture, not too narrow or broad."
+  },
+  "v-rc-detail": {
+   "id": "v-rc-detail",
+   "title": "Detail Questions",
+   "section": "verbal",
+   "minutes": 25,
+   "topic": "v-rc-detail",
+   "summary": "Go back to the text and match."
+  },
+  "v-rc-inference": {
+   "id": "v-rc-inference",
+   "title": "RC Inference",
+   "section": "verbal",
+   "minutes": 30,
+   "topic": "v-rc-inference",
+   "summary": "One small step from the passage."
+  },
+  "v-rc-function": {
+   "id": "v-rc-function",
+   "title": "Function & Structure",
+   "section": "verbal",
+   "minutes": 30,
+   "topic": "v-rc-function",
+   "summary": "Why did the author say that?"
+  },
+  "v-rc-application": {
+   "id": "v-rc-application",
+   "title": "Application & Tone",
+   "section": "verbal",
+   "minutes": 30,
+   "topic": "v-rc-application",
+   "summary": "Analogies, attitude and tone ladders."
+  },
+  "v-strategy": {
+   "id": "v-strategy",
+   "title": "Verbal Section Strategy",
+   "section": "verbal",
+   "minutes": 30,
+   "topic": null,
+   "summary": "Pacing CR and RC, and a daily reading habit."
+  },
+  "d-intro": {
+   "id": "d-intro",
+   "title": "Meet Data Insights",
+   "section": "di",
+   "minutes": 30,
+   "topic": null,
+   "summary": "Five question types, one calculator, 45 minutes."
+  },
+  "d-ds-method": {
+   "id": "d-ds-method",
+   "title": "Data Sufficiency: The Method",
+   "section": "di",
+   "minutes": 45,
+   "topic": "d-ds",
+   "summary": "The five answers and the AD/BCE grid."
+  },
+  "d-ds-yesno": {
+   "id": "d-ds-yesno",
+   "title": "Data Sufficiency: Yes/No Questions",
+   "section": "di",
+   "minutes": 35,
+   "topic": "d-ds",
+   "summary": "Always yes or always no means sufficient."
+  },
+  "d-ds-traps": {
+   "id": "d-ds-traps",
+   "title": "Data Sufficiency Traps",
+   "section": "di",
+   "minutes": 35,
+   "topic": "d-ds",
+   "summary": "The C-trap, hidden constraints and more."
+  },
+  "d-ds-verbal": {
+   "id": "d-ds-verbal",
+   "title": "Logic-Based Data Sufficiency",
+   "section": "di",
+   "minutes": 30,
+   "topic": "d-ds",
+   "summary": "Reasoning with words, rules and schedules."
+  },
+  "d-data-literacy": {
+   "id": "d-data-literacy",
+   "title": "Reading Data Like an Analyst",
+   "section": "di",
+   "minutes": 45,
+   "topic": null,
+   "summary": "Tables, charts, growth rates and estimation."
+  },
+  "d-ta": {
+   "id": "d-ta",
+   "title": "Table Analysis",
+   "section": "di",
+   "minutes": 35,
+   "topic": "d-ta",
+   "summary": "Sort smart, read statements first."
+  },
+  "d-gi": {
+   "id": "d-gi",
+   "title": "Graphics Interpretation",
+   "section": "di",
+   "minutes": 35,
+   "topic": "d-gi",
+   "summary": "Read graphs precisely, fill the blanks."
+  },
+  "d-tpa": {
+   "id": "d-tpa",
+   "title": "Two-Part Analysis",
+   "section": "di",
+   "minutes": 35,
+   "topic": "d-tpa",
+   "summary": "Two linked answers, one constraint."
+  },
+  "d-msr": {
+   "id": "d-msr",
+   "title": "Multi-Source Reasoning",
+   "section": "di",
+   "minutes": 40,
+   "topic": "d-msr",
+   "summary": "Tabs, cross-references and inference."
+  },
+  "d-strategy": {
+   "id": "d-strategy",
+   "title": "Data Insights Strategy",
+   "section": "di",
+   "minutes": 30,
+   "topic": null,
+   "summary": "Pacing, calculator discipline, what to skip."
+  },
+  "a-roadmap": {
+   "id": "a-roadmap",
+   "title": "From GMAT to Admit: Your Roadmap",
+   "section": "admissions",
+   "minutes": 25,
+   "topic": null,
+   "summary": "MBA vs MiM vs PGP, and the paths that fit you."
+  },
+  "a-india-programs": {
+   "id": "a-india-programs",
+   "title": "Indian Programmes That Take the GMAT",
+   "section": "admissions",
+   "minutes": 30,
+   "topic": null,
+   "summary": "ISB, SPJIMR, XLRI and the IIM one-year options."
+  },
+  "a-global-programs": {
+   "id": "a-global-programs",
+   "title": "Global Programmes",
+   "section": "admissions",
+   "minutes": 30,
+   "topic": null,
+   "summary": "European MiMs, marketing masters, Asian and US options."
+  },
+  "a-school-list": {
+   "id": "a-school-list",
+   "title": "Building Your School List",
+   "section": "admissions",
+   "minutes": 25,
+   "topic": null,
+   "summary": "Reach, target and safe, with real numbers."
+  },
+  "a-profile": {
+   "id": "a-profile",
+   "title": "Building Your Profile",
+   "section": "admissions",
+   "minutes": 25,
+   "topic": null,
+   "summary": "Impact, leadership and the story only you can tell."
+  },
+  "a-resume": {
+   "id": "a-resume",
+   "title": "The Admissions Resume",
+   "section": "admissions",
+   "minutes": 25,
+   "topic": null,
+   "summary": "One page, every line quantified."
+  },
+  "a-essays": {
+   "id": "a-essays",
+   "title": "Writing Your Essays",
+   "section": "admissions",
+   "minutes": 40,
+   "topic": null,
+   "summary": "Goals, why this school, and stories that stick."
+  },
+  "a-recommendations": {
+   "id": "a-recommendations",
+   "title": "Recommendations",
+   "section": "admissions",
+   "minutes": 20,
+   "topic": null,
+   "summary": "Picking and briefing your recommenders."
+  },
+  "a-interviews": {
+   "id": "a-interviews",
+   "title": "Interviews & Video Essays",
+   "section": "admissions",
+   "minutes": 35,
+   "topic": null,
+   "summary": "The questions you will be asked and how to answer."
+  },
+  "a-funding": {
+   "id": "a-funding",
+   "title": "Funding Your Degree",
+   "section": "admissions",
+   "minutes": 30,
+   "topic": null,
+   "summary": "Scholarships, women-focused awards, and loans."
+  },
+  "a-logistics": {
+   "id": "a-logistics",
+   "title": "Transcripts, English Tests & Visas",
+   "section": "admissions",
+   "minutes": 25,
+   "topic": null,
+   "summary": "The paperwork that trips people up."
+  },
+  "a-timeline": {
+   "id": "a-timeline",
+   "title": "Your Month-by-Month Admissions Timeline",
+   "section": "admissions",
+   "minutes": 20,
+   "topic": null,
+   "summary": "What to do and when, through 2028."
+  },
+  "a-decisions": {
+   "id": "a-decisions",
+   "title": "Decisions, Waitlists & What Comes Next",
+   "section": "admissions",
+   "minutes": 25,
+   "topic": null,
+   "summary": "Choosing offers, negotiating, and plan B."
+  }
+ },
+ "sequence": [
+  {
+   "k": "lesson",
+   "id": "s-welcome",
+   "key": "lesson:s-welcome",
+   "minutes": 15,
+   "phase": "orientation"
+  },
+  {
+   "k": "lesson",
+   "id": "s-gmat-explained",
+   "key": "lesson:s-gmat-explained",
+   "minutes": 25,
+   "phase": "orientation"
+  },
+  {
+   "k": "task",
+   "key": "task:mba-account",
+   "title": "Create your mba.com account",
+   "detail": "Sign up at mba.com and claim the free GMAT Official Starter Kit with Practice Exams 1 and 2. Do not take them yet: we save them.",
+   "minutes": 15,
+   "lesson": "s-resources",
+   "phase": "orientation"
+  },
+  {
+   "k": "lesson",
+   "id": "s-scoring",
+   "key": "lesson:s-scoring",
+   "minutes": 20,
+   "phase": "orientation"
+  },
+  {
+   "k": "lesson",
+   "id": "s-study-system",
+   "key": "lesson:s-study-system",
+   "minutes": 25,
+   "phase": "orientation"
+  },
+  {
+   "k": "mock",
+   "key": "mock:diagnostic",
+   "title": "Diagnostic test (short, 3 sections)",
+   "mode": "diagnostic",
+   "minutes": 75,
+   "phase": "orientation"
+  },
+  {
+   "k": "lesson",
+   "id": "a-roadmap",
+   "key": "lesson:a-roadmap",
+   "minutes": 25,
+   "phase": "orientation"
+  },
+  {
+   "k": "lesson",
+   "id": "q-arith",
+   "key": "lesson:q-arith",
+   "minutes": 45,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "q-arith",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-arith:1-3",
+   "title": "Practice: Number Sense & Mental Math",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-structure",
+   "key": "lesson:v-cr-structure",
+   "minutes": 40,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "q-fractions",
+   "key": "lesson:q-fractions",
+   "minutes": 45,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "q-fractions",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-fractions:1-3",
+   "title": "Practice: Fractions & Decimals",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "v-rc-reading",
+   "key": "lesson:v-rc-reading",
+   "minutes": 40,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 1,
+   "d": [
+    1,
+    2
+   ],
+   "timed": false,
+   "key": "rc:intro",
+   "title": "Reading Comprehension: your first passage",
+   "minutes": 14,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "q-percents",
+   "key": "lesson:q-percents",
+   "minutes": 45,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "q-percents",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-percents:1-3",
+   "title": "Practice: Percents & Percent Change",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-assumption",
+   "key": "lesson:v-cr-assumption",
+   "minutes": 40,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-assumption",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-assumption:1-3",
+   "title": "Practice: Assumption Questions",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "q-ratios",
+   "key": "lesson:q-ratios",
+   "minutes": 40,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "q-ratios",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-ratios:1-3",
+   "title": "Practice: Ratios & Proportions",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "s-mindset",
+   "key": "lesson:s-mindset",
+   "minutes": 20,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "q-exponents",
+   "key": "lesson:q-exponents",
+   "minutes": 45,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "q-exponents",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-exponents:1-3",
+   "title": "Practice: Exponents & Roots",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-strengthen",
+   "key": "lesson:v-cr-strengthen",
+   "minutes": 35,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-strengthen",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-strengthen:1-3",
+   "title": "Practice: Strengthen Questions",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "q-numprops",
+   "key": "lesson:q-numprops",
+   "minutes": 45,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "q-numprops",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-numprops:1-3",
+   "title": "Practice: Number Properties",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-weaken",
+   "key": "lesson:v-cr-weaken",
+   "minutes": 35,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-weaken",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-weaken:1-3",
+   "title": "Practice: Weaken Questions",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "v-rc-main",
+   "key": "lesson:v-rc-main",
+   "minutes": 30,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "rc:main",
+   "title": "Reading Comprehension: 2 passages",
+   "minutes": 24,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "q-linear",
+   "key": "lesson:q-linear",
+   "minutes": 40,
+   "phase": "foundations"
+  },
+  {
+   "k": "drill",
+   "topic": "q-linear",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-linear:1-3",
+   "title": "Practice: Linear Equations",
+   "minutes": 28,
+   "phase": "foundations"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:quant-foundations",
+   "title": "Checkpoint: Quant foundations",
+   "topics": [
+    "q-arith",
+    "q-fractions",
+    "q-percents",
+    "q-ratios",
+    "q-exponents",
+    "q-numprops",
+    "q-linear"
+   ],
+   "section": null,
+   "n": 15,
+   "timed": true,
+   "minutes": 40,
+   "phase": "foundations"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:cr-foundations",
+   "title": "Checkpoint: Critical Reasoning basics",
+   "topics": [
+    "v-cr-assumption",
+    "v-cr-strengthen",
+    "v-cr-weaken"
+   ],
+   "section": null,
+   "n": 10,
+   "timed": true,
+   "minutes": 25,
+   "phase": "foundations"
+  },
+  {
+   "k": "lesson",
+   "id": "q-divisibility",
+   "key": "lesson:q-divisibility",
+   "minutes": 50,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-divisibility",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-divisibility:1-3",
+   "title": "Practice: Factors, Multiples & Primes",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-evaluate",
+   "key": "lesson:v-cr-evaluate",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-evaluate",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-evaluate:1-3",
+   "title": "Practice: Evaluate the Argument",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-remainders",
+   "key": "lesson:q-remainders",
+   "minutes": 45,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-remainders",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-remainders:1-3",
+   "title": "Practice: Remainders & Cyclicity",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-rc-detail",
+   "key": "lesson:v-rc-detail",
+   "minutes": 25,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "rc:detail",
+   "title": "Reading Comprehension: 2 passages",
+   "minutes": 24,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-quadratics",
+   "key": "lesson:q-quadratics",
+   "minutes": 50,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-quadratics",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-quadratics:1-3",
+   "title": "Practice: Quadratics & Identities",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-inference",
+   "key": "lesson:v-cr-inference",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-inference",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-inference:1-3",
+   "title": "Practice: Inference & Must Be True",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "a-india-programs",
+   "key": "lesson:a-india-programs",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-intro",
+   "key": "lesson:d-intro",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-ds-method",
+   "key": "lesson:d-ds-method",
+   "minutes": 45,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "n": 8,
+   "d": [
+    1,
+    2
+   ],
+   "timed": false,
+   "key": "drill:d-ds:1-2",
+   "title": "Practice: Data Sufficiency basics",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-inequalities",
+   "key": "lesson:q-inequalities",
+   "minutes": 50,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-inequalities",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-inequalities:1-3",
+   "title": "Practice: Inequalities & Absolute Value",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-rc-inference",
+   "key": "lesson:v-rc-inference",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    2,
+    3
+   ],
+   "timed": false,
+   "key": "rc:inference",
+   "title": "Reading Comprehension: 2 passages",
+   "minutes": 24,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-ds-yesno",
+   "key": "lesson:d-ds-yesno",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "n": 8,
+   "d": [
+    2,
+    3
+   ],
+   "timed": false,
+   "key": "drill:d-ds:2-3",
+   "title": "Practice: Data Sufficiency yes/no",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-functions",
+   "key": "lesson:q-functions",
+   "minutes": 40,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-functions",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-functions:1-3",
+   "title": "Practice: Functions, Symbols & Sequences",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-paradox",
+   "key": "lesson:v-cr-paradox",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-paradox",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-paradox:1-3",
+   "title": "Practice: Explain the Discrepancy",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-wordprob",
+   "key": "lesson:q-wordprob",
+   "minutes": 45,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-wordprob",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-wordprob:1-3",
+   "title": "Practice: Translating Word Problems",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "a-global-programs",
+   "key": "lesson:a-global-programs",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-data-literacy",
+   "key": "lesson:d-data-literacy",
+   "minutes": 45,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-ta",
+   "key": "lesson:d-ta",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ta",
+   "type": "TA",
+   "n": 4,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:d-ta:1-3",
+   "title": "Practice: Table Analysis",
+   "minutes": 20,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-rc-function",
+   "key": "lesson:v-rc-function",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    2,
+    4
+   ],
+   "timed": false,
+   "key": "rc:function",
+   "title": "Reading Comprehension: 2 passages",
+   "minutes": 24,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-rates",
+   "key": "lesson:q-rates",
+   "minutes": 50,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-rates",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-rates:1-3",
+   "title": "Practice: Rates, Speed & Work",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-role",
+   "key": "lesson:v-cr-role",
+   "minutes": 40,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-role",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-role:1-3",
+   "title": "Practice: Boldface & Method of Reasoning",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-gi",
+   "key": "lesson:d-gi",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "d-gi",
+   "type": "GI",
+   "n": 5,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:d-gi:1-3",
+   "title": "Practice: Graphics Interpretation",
+   "minutes": 24,
+   "phase": "core"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:quant-core-1",
+   "title": "Checkpoint: Quant (number theory & algebra)",
+   "topics": [
+    "q-divisibility",
+    "q-remainders",
+    "q-quadratics",
+    "q-inequalities",
+    "q-functions",
+    "q-wordprob",
+    "q-rates"
+   ],
+   "section": null,
+   "n": 15,
+   "timed": true,
+   "minutes": 40,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-mixtures",
+   "key": "lesson:q-mixtures",
+   "minutes": 50,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-mixtures",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-mixtures:1-3",
+   "title": "Practice: Mixtures, Interest, Profit & Loss",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-flaw",
+   "key": "lesson:v-cr-flaw",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-flaw",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-flaw:1-3",
+   "title": "Practice: Flaw Questions",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-ds-traps",
+   "key": "lesson:d-ds-traps",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "n": 8,
+   "d": [
+    2,
+    4
+   ],
+   "timed": false,
+   "key": "drill:d-ds:2-4",
+   "title": "Practice: Data Sufficiency traps",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-stats",
+   "key": "lesson:q-stats",
+   "minutes": 45,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-stats",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-stats:1-3",
+   "title": "Practice: Statistics",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-rc-application",
+   "key": "lesson:v-rc-application",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    2,
+    4
+   ],
+   "timed": false,
+   "key": "rc:application",
+   "title": "Reading Comprehension: 2 passages",
+   "minutes": 24,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-tpa",
+   "key": "lesson:d-tpa",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "d-tpa",
+   "type": "TPA",
+   "n": 5,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:d-tpa:1-3",
+   "title": "Practice: Two-Part Analysis",
+   "minutes": 24,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-sets",
+   "key": "lesson:q-sets",
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-sets",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-sets:1-3",
+   "title": "Practice: Overlapping Sets",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "v-cr-complete",
+   "key": "lesson:v-cr-complete",
+   "minutes": 25,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-complete",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:v-cr-complete:1-3",
+   "title": "Practice: Complete the Argument",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "a-school-list",
+   "key": "lesson:a-school-list",
+   "minutes": 25,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-msr",
+   "key": "lesson:d-msr",
+   "minutes": 40,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "d-msr",
+   "type": "MSR",
+   "n": 6,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:d-msr:1-3",
+   "title": "Practice: Multi-Source Reasoning (2 sets)",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-counting",
+   "key": "lesson:q-counting",
+   "minutes": 50,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-counting",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-counting:1-3",
+   "title": "Practice: Counting: Permutations & Combinations",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "d-ds-verbal",
+   "key": "lesson:d-ds-verbal",
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "n": 8,
+   "d": [
+    1,
+    4
+   ],
+   "timed": false,
+   "key": "drill:d-ds:logic",
+   "title": "Practice: Data Sufficiency mixed",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-probability",
+   "key": "lesson:q-probability",
+   "minutes": 50,
+   "phase": "core"
+  },
+  {
+   "k": "drill",
+   "topic": "q-probability",
+   "n": 8,
+   "d": [
+    1,
+    3
+   ],
+   "timed": false,
+   "key": "drill:q-probability:1-3",
+   "title": "Practice: Probability",
+   "minutes": 28,
+   "phase": "core"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:verbal-core",
+   "title": "Checkpoint: Verbal (CR + RC)",
+   "topics": null,
+   "section": "verbal",
+   "n": 16,
+   "timed": true,
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:di-core",
+   "title": "Checkpoint: Data Insights",
+   "topics": null,
+   "section": "di",
+   "n": 12,
+   "timed": true,
+   "minutes": 30,
+   "phase": "core"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:quant-core-2",
+   "title": "Checkpoint: Quant (all topics)",
+   "topics": null,
+   "section": "quant",
+   "n": 15,
+   "timed": true,
+   "minutes": 35,
+   "phase": "core"
+  },
+  {
+   "k": "lesson",
+   "id": "q-strategy",
+   "key": "lesson:q-strategy",
+   "minutes": 35,
+   "phase": "advanced"
+  },
+  {
+   "k": "lesson",
+   "id": "s-pacing",
+   "key": "lesson:s-pacing",
+   "minutes": 25,
+   "phase": "advanced"
+  },
+  {
+   "k": "lesson",
+   "id": "v-strategy",
+   "key": "lesson:v-strategy",
+   "minutes": 30,
+   "phase": "advanced"
+  },
+  {
+   "k": "lesson",
+   "id": "d-strategy",
+   "key": "lesson:d-strategy",
+   "minutes": 30,
+   "phase": "advanced"
+  },
+  {
+   "k": "lesson",
+   "id": "s-section-order-review",
+   "key": "lesson:s-section-order-review",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "lesson",
+   "id": "s-mocks",
+   "key": "lesson:s-mocks",
+   "minutes": 25,
+   "phase": "advanced"
+  },
+  {
+   "k": "mock",
+   "key": "mock:app-1",
+   "title": "Full mock 1 (GMAT Buddy)",
+   "mode": "full",
+   "minutes": 165,
+   "phase": "advanced"
+  },
+  {
+   "k": "lesson",
+   "id": "a-profile",
+   "key": "lesson:a-profile",
+   "minutes": 25,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-arith",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-arith:hard",
+   "title": "Timed hard set: Number Sense & Mental Math",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-fractions",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-fractions:hard",
+   "title": "Timed hard set: Fractions & Decimals",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-assumption",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-assumption:hard",
+   "title": "Timed hard set: Assumption Questions",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "type": "DS",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-ds:hard:0",
+   "title": "Timed hard set: Data Sufficiency",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-percents",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-percents:hard",
+   "title": "Timed hard set: Percents & Percent Change",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-strengthen",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-strengthen:hard",
+   "title": "Timed hard set: Strengthen Questions",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ta",
+   "type": "TA",
+   "n": 3,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-ta:hard:1",
+   "title": "Timed hard set: Table Analysis",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "rc:hard:1",
+   "title": "Timed RC: 2 hard passages",
+   "minutes": 24,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-ratios",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-ratios:hard",
+   "title": "Timed hard set: Ratios & Proportions",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-exponents",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-exponents:hard",
+   "title": "Timed hard set: Exponents & Roots",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-weaken",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-weaken:hard",
+   "title": "Timed hard set: Weaken Questions",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "type": "DS",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-ds:hard:2",
+   "title": "Timed hard set: Data Sufficiency",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-numprops",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-numprops:hard",
+   "title": "Timed hard set: Number Properties",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-evaluate",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-evaluate:hard",
+   "title": "Timed hard set: Evaluate the Argument",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-gi",
+   "type": "GI",
+   "n": 3,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-gi:hard:3",
+   "title": "Timed hard set: Graphics Interpretation",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "rc:hard:3",
+   "title": "Timed RC: 2 hard passages",
+   "minutes": 24,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-linear",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-linear:hard",
+   "title": "Timed hard set: Linear Equations",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-divisibility",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-divisibility:hard",
+   "title": "Timed hard set: Factors, Multiples & Primes",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-inference",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-inference:hard",
+   "title": "Timed hard set: Inference & Must Be True",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-tpa",
+   "type": "TPA",
+   "n": 3,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-tpa:hard:4",
+   "title": "Timed hard set: Two-Part Analysis",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "lesson",
+   "id": "a-resume",
+   "key": "lesson:a-resume",
+   "minutes": 25,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-remainders",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-remainders:hard",
+   "title": "Timed hard set: Remainders & Cyclicity",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-paradox",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-paradox:hard",
+   "title": "Timed hard set: Explain the Discrepancy",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "type": "DS",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-ds:hard:5",
+   "title": "Timed hard set: Data Sufficiency",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "rc:hard:5",
+   "title": "Timed RC: 2 hard passages",
+   "minutes": 24,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-quadratics",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-quadratics:hard",
+   "title": "Timed hard set: Quadratics & Identities",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-inequalities",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-inequalities:hard",
+   "title": "Timed hard set: Inequalities & Absolute Value",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-role",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-role:hard",
+   "title": "Timed hard set: Boldface & Method of Reasoning",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-msr",
+   "type": "MSR",
+   "n": 3,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-msr:hard:6",
+   "title": "Timed hard set: Multi-Source Reasoning",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "official",
+   "key": "official:pe1",
+   "title": "GMAT Official Practice Exam 1",
+   "detail": "Take free Official Practice Exam 1 on mba.com in one sitting, under real conditions. Then log your scores here.",
+   "url": "https://www.mba.com/exams/gmat-exam/prepare",
+   "minutes": 150,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-functions",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-functions:hard",
+   "title": "Timed hard set: Functions, Symbols & Sequences",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-flaw",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-flaw:hard",
+   "title": "Timed hard set: Flaw Questions",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "type": "DS",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-ds:hard:7",
+   "title": "Timed hard set: Data Sufficiency",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "rc:hard:7",
+   "title": "Timed RC: 2 hard passages",
+   "minutes": 24,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-wordprob",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-wordprob:hard",
+   "title": "Timed hard set: Translating Word Problems",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-rates",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-rates:hard",
+   "title": "Timed hard set: Rates, Speed & Work",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "v-cr-complete",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:v-cr-complete:hard",
+   "title": "Timed hard set: Complete the Argument",
+   "minutes": 16,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ta",
+   "type": "TA",
+   "n": 3,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-ta:hard:8",
+   "title": "Timed hard set: Table Analysis",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "mock",
+   "key": "mock:app-2",
+   "title": "Full mock 2 (GMAT Buddy)",
+   "mode": "full",
+   "minutes": 165,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-mixtures",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-mixtures:hard",
+   "title": "Timed hard set: Mixtures, Interest, Profit & Loss",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "type": "DS",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-ds:hard:9",
+   "title": "Timed hard set: Data Sufficiency",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "rc:hard:9",
+   "title": "Timed RC: 2 hard passages",
+   "minutes": 24,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-stats",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-stats:hard",
+   "title": "Timed hard set: Statistics",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-sets",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-sets:hard",
+   "title": "Timed hard set: Overlapping Sets",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-gi",
+   "type": "GI",
+   "n": 3,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-gi:hard:10",
+   "title": "Timed hard set: Graphics Interpretation",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-counting",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-counting:hard",
+   "title": "Timed hard set: Counting: Permutations & Combinations",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-tpa",
+   "type": "TPA",
+   "n": 3,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-tpa:hard:11",
+   "title": "Timed hard set: Two-Part Analysis",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "type": "RC",
+   "passages": 2,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "rc:hard:11",
+   "title": "Timed RC: 2 hard passages",
+   "minutes": 24,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "q-probability",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:q-probability:hard",
+   "title": "Timed hard set: Probability",
+   "minutes": 20,
+   "phase": "advanced"
+  },
+  {
+   "k": "drill",
+   "topic": "d-ds",
+   "type": "DS",
+   "n": 6,
+   "d": [
+    3,
+    5
+   ],
+   "timed": true,
+   "key": "drill:d-ds:hard:12",
+   "title": "Timed hard set: Data Sufficiency",
+   "minutes": 18,
+   "phase": "advanced"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:final-quant",
+   "title": "Section test: Quant (21 Q, 45 min)",
+   "topics": null,
+   "section": "quant",
+   "n": 21,
+   "timed": true,
+   "minutes": 50,
+   "phase": "advanced"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:final-verbal",
+   "title": "Section test: Verbal (23 Q, 45 min)",
+   "topics": null,
+   "section": "verbal",
+   "n": 23,
+   "timed": true,
+   "minutes": 50,
+   "phase": "advanced"
+  },
+  {
+   "k": "checkpoint",
+   "key": "check:final-di",
+   "title": "Section test: Data Insights (20 Q, 45 min)",
+   "topics": null,
+   "section": "di",
+   "n": 20,
+   "timed": true,
+   "minutes": 50,
+   "phase": "advanced"
+  }
+ ]
+}

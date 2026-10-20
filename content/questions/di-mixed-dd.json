@@ -1,0 +1,2459 @@
+{
+ "stimuli": [
+  {
+   "id": "ta-dd-m-01",
+   "kind": "table",
+   "title": "Regional retail sales",
+   "intro": "A retail chain reports sales, units sold and store counts for each of its eight regions.",
+   "table": {
+    "columns": [
+     "Region",
+     "Sales 2024 ($m)",
+     "Sales 2025 ($m)",
+     "Units sold 2025 (000)",
+     "Stores"
+    ],
+    "rows": [
+     [
+      "North",
+      42,
+      46.2,
+      310,
+      28
+     ],
+     [
+      "South",
+      38.5,
+      36.9,
+      290,
+      31
+     ],
+     [
+      "East",
+      51,
+      58.7,
+      405,
+      36
+     ],
+     [
+      "West",
+      29.4,
+      33.8,
+      215,
+      19
+     ],
+     [
+      "Central",
+      24,
+      24,
+      190,
+      22
+     ],
+     [
+      "Northeast",
+      15.2,
+      19,
+      120,
+      9
+     ],
+     [
+      "Islands",
+      8,
+      7.6,
+      52,
+      6
+     ],
+     [
+      "Overseas",
+      60,
+      63,
+      380,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-dd-m-02",
+   "kind": "table",
+   "title": "Employee satisfaction survey",
+   "intro": "A company surveyed its employees. The table shows, for each department, the number of employees, the number who responded, how many respondents said they were satisfied, and how many employees left the company during 2025.",
+   "table": {
+    "columns": [
+     "Department",
+     "Employees",
+     "Survey responses",
+     "Satisfied",
+     "Left in 2025"
+    ],
+    "rows": [
+     [
+      "Finance",
+      48,
+      40,
+      30,
+      4
+     ],
+     [
+      "HR",
+      20,
+      20,
+      17,
+      1
+     ],
+     [
+      "Marketing",
+      64,
+      48,
+      33,
+      8
+     ],
+     [
+      "Operations",
+      150,
+      120,
+      78,
+      21
+     ],
+     [
+      "Sales",
+      96,
+      72,
+      54,
+      15
+     ],
+     [
+      "Technology",
+      112,
+      84,
+      70,
+      7
+     ],
+     [
+      "Legal",
+      16,
+      16,
+      10,
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-dd-m-03",
+   "kind": "table",
+   "title": "University course results",
+   "intro": "The table shows results for eight first-year courses at a business school.",
+   "table": {
+    "columns": [
+     "Course",
+     "Enrolled",
+     "Passed",
+     "Average score (%)",
+     "Avg study hours/week"
+    ],
+    "rows": [
+     [
+      "Accounting I",
+      180,
+      144,
+      68,
+      9
+     ],
+     [
+      "Statistics",
+      150,
+      96,
+      61,
+      11
+     ],
+     [
+      "Marketing",
+      210,
+      189,
+      74,
+      6
+     ],
+     [
+      "Economics",
+      165,
+      115,
+      64,
+      10
+     ],
+     [
+      "Finance",
+      120,
+      90,
+      70,
+      12
+     ],
+     [
+      "Law",
+      90,
+      72,
+      66,
+      8
+     ],
+     [
+      "Ethics",
+      75,
+      69,
+      79,
+      4
+     ],
+     [
+      "Operations",
+      130,
+      91,
+      60,
+      9
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-dd-m-04",
+   "kind": "table",
+   "title": "Food delivery by city",
+   "intro": "A delivery platform reports annual performance for nine cities.",
+   "table": {
+    "columns": [
+     "City",
+     "Orders (000)",
+     "On-time (%)",
+     "Avg delivery (min)",
+     "Complaints per 1,000 orders",
+     "Riders"
+    ],
+    "rows": [
+     [
+      "Delhi",
+      820,
+      91,
+      34,
+      3.2,
+      5200
+     ],
+     [
+      "Mumbai",
+      910,
+      86,
+      41,
+      4.8,
+      6100
+     ],
+     [
+      "Bengaluru",
+      760,
+      89,
+      38,
+      3.9,
+      4700
+     ],
+     [
+      "Chennai",
+      410,
+      93,
+      32,
+      2.4,
+      2400
+     ],
+     [
+      "Hyderabad",
+      520,
+      90,
+      36,
+      3.1,
+      3100
+     ],
+     [
+      "Kolkata",
+      330,
+      84,
+      44,
+      5.5,
+      2300
+     ],
+     [
+      "Pune",
+      290,
+      92,
+      31,
+      2.2,
+      1700
+     ],
+     [
+      "Jaipur",
+      140,
+      95,
+      29,
+      1.8,
+      800
+     ],
+     [
+      "Lucknow",
+      120,
+      88,
+      37,
+      3.6,
+      900
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-dd-m-05",
+   "kind": "table",
+   "title": "Energy and emissions by country",
+   "intro": "The table shows population, annual electricity use, the share of electricity generated from renewable sources, and annual CO2 emissions for eight countries. Assume that renewable electricity equals electricity use multiplied by the renewable share.",
+   "table": {
+    "columns": [
+     "Country",
+     "Population (m)",
+     "Electricity use (TWh)",
+     "Renewable share (%)",
+     "CO2 emissions (Mt)"
+    ],
+    "rows": [
+     [
+      "Aldoria",
+      48,
+      420,
+      62,
+      95
+     ],
+     [
+      "Brevia",
+      120,
+      910,
+      18,
+      520
+     ],
+     [
+      "Cantara",
+      9,
+      75,
+      81,
+      6
+     ],
+     [
+      "Dunmere",
+      35,
+      260,
+      44,
+      70
+     ],
+     [
+      "Estoria",
+      210,
+      1450,
+      27,
+      880
+     ],
+     [
+      "Farrow",
+      16,
+      190,
+      9,
+      140
+     ],
+     [
+      "Gallen",
+      64,
+      520,
+      53,
+      110
+     ],
+     [
+      "Hesper",
+      5,
+      38,
+      95,
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-dd-m-06",
+   "kind": "table",
+   "title": "Hotel chain performance",
+   "intro": "A hotel chain reports data for seven properties. Annual room revenue = rooms × occupancy × average daily rate × 365. RevPAR (revenue per available room per day) = occupancy × average daily rate.",
+   "table": {
+    "columns": [
+     "Hotel",
+     "Rooms",
+     "Occupancy (%)",
+     "Avg daily rate ($)",
+     "Staff"
+    ],
+    "rows": [
+     [
+      "Harbour View",
+      200,
+      80,
+      150,
+      160
+     ],
+     [
+      "City Central",
+      320,
+      70,
+      120,
+      240
+     ],
+     [
+      "Palm Court",
+      150,
+      85,
+      210,
+      135
+     ],
+     [
+      "Airport Inn",
+      280,
+      75,
+      95,
+      140
+     ],
+     [
+      "Lakeside",
+      100,
+      60,
+      260,
+      90
+     ],
+     [
+      "Old Town",
+      60,
+      90,
+      180,
+      48
+     ],
+     [
+      "Summit",
+      240,
+      65,
+      170,
+      200
+     ]
+    ]
+   }
+  },
+  {
+   "id": "gi-dd-m-01",
+   "kind": "chart",
+   "title": "Quarterly revenue by product",
+   "intro": "The chart shows quarterly revenue, in $ millions, for two products during one year.",
+   "chart": {
+    "type": "bar",
+    "xLabel": "Quarter",
+    "yLabel": "Revenue ($m)",
+    "categories": [
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "series": [
+     {
+      "name": "Product A",
+      "values": [
+       12,
+       15,
+       18,
+       21
+      ]
+     },
+     {
+      "name": "Product B",
+      "values": [
+       20,
+       18,
+       16,
+       14
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-dd-m-02",
+   "kind": "chart",
+   "title": "Website visits by source",
+   "intro": "The chart shows monthly website visits, in thousands, from organic search and from paid advertising, from January to June.",
+   "chart": {
+    "type": "line",
+    "xLabel": "Month",
+    "yLabel": "Visits (thousands)",
+    "categories": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun"
+    ],
+    "series": [
+     {
+      "name": "Organic",
+      "values": [
+       40,
+       44,
+       50,
+       55,
+       60,
+       66
+      ]
+     },
+     {
+      "name": "Paid",
+      "values": [
+       20,
+       24,
+       26,
+       36,
+       38,
+       39
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-dd-m-03",
+   "kind": "chart",
+   "title": "Production cost breakdown",
+   "intro": "The chart shows a manufacturer's annual production costs, in ₹ crore, split into three components.",
+   "chart": {
+    "type": "stacked",
+    "xLabel": "Year",
+    "yLabel": "Cost (₹ crore)",
+    "categories": [
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ],
+    "series": [
+     {
+      "name": "Materials",
+      "values": [
+       30,
+       32,
+       36,
+       40
+      ]
+     },
+     {
+      "name": "Labour",
+      "values": [
+       25,
+       26,
+       27,
+       28
+      ]
+     },
+     {
+      "name": "Overheads",
+      "values": [
+       15,
+       17,
+       17,
+       22
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-dd-m-04",
+   "kind": "chart",
+   "title": "Advertising spend and sales by store",
+   "intro": "Each point shows one store's annual advertising spend (horizontal axis) and annual sales (vertical axis), both in $ thousands.",
+   "chart": {
+    "type": "scatter",
+    "xLabel": "Advertising spend ($k)",
+    "yLabel": "Sales ($k)",
+    "points": [
+     {
+      "name": "Store A",
+      "x": 10,
+      "y": 120
+     },
+     {
+      "name": "Store B",
+      "x": 15,
+      "y": 150
+     },
+     {
+      "name": "Store C",
+      "x": 20,
+      "y": 210
+     },
+     {
+      "name": "Store D",
+      "x": 25,
+      "y": 230
+     },
+     {
+      "name": "Store E",
+      "x": 30,
+      "y": 330
+     },
+     {
+      "name": "Store F",
+      "x": 35,
+      "y": 300
+     },
+     {
+      "name": "Store G",
+      "x": 40,
+      "y": 420
+     },
+     {
+      "name": "Store H",
+      "x": 45,
+      "y": 400
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-dd-m-05",
+   "kind": "chart",
+   "title": "Annual operating budget",
+   "intro": "The pie chart shows how a start-up's annual operating budget of $2.5 million is divided, as a percent of the total.",
+   "chart": {
+    "type": "pie",
+    "slices": [
+     {
+      "label": "Salaries",
+      "value": 36
+     },
+     {
+      "label": "Rent",
+      "value": 28
+     },
+     {
+      "label": "Marketing",
+      "value": 14
+     },
+     {
+      "label": "Technology",
+      "value": 12
+     },
+     {
+      "label": "Other",
+      "value": 10
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-dd-m-06",
+   "kind": "chart",
+   "title": "Market share of three brands",
+   "intro": "The chart shows the market share, in percent, of three brands in a regional market from 2021 to 2025.",
+   "chart": {
+    "type": "line",
+    "xLabel": "Year",
+    "yLabel": "Market share (%)",
+    "categories": [
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ],
+    "series": [
+     {
+      "name": "Brand X",
+      "values": [
+       22,
+       24,
+       27,
+       31,
+       34
+      ]
+     },
+     {
+      "name": "Brand Y",
+      "values": [
+       30,
+       29,
+       27,
+       25,
+       22
+      ]
+     },
+     {
+      "name": "Brand Z",
+      "values": [
+       48,
+       47,
+       46,
+       44,
+       44
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "msr-dd-m-01",
+   "kind": "msr",
+   "title": "Planning a two-day team offsite",
+   "tabs": [
+    {
+     "title": "Brief",
+     "body": "**From:** Anita Rao, HR Manager\n**To:** Offsite planning team\n\nWe are taking **90 employees** away for a **two-day offsite**. Please choose one venue and one caterer.\n\n- The venue must seat at least 90 people in a banquet layout.\n- The total budget for venue, catering and transport is **₹6,00,000**.\n- Catering is charged per person per day, for all 90 people on both days.\n- Our office is in Gurugram. If the venue is **more than 25 km** from the office, we must hire coaches, which cost **₹40,000 per day** (so ₹80,000 for the two days). Venues 25 km or less from the office need no coaches."
+    },
+    {
+     "title": "Venues",
+     "table": {
+      "columns": [
+       "Venue",
+       "Banquet capacity",
+       "Daily rate (₹)",
+       "Distance from office (km)",
+       "Guest rating (out of 5)"
+      ],
+      "rows": [
+       [
+        "Lakeview",
+        120,
+        180000,
+        18,
+        4.2
+       ],
+       [
+        "Orchid",
+        80,
+        120000,
+        30,
+        4.6
+       ],
+       [
+        "Palm Grove",
+        100,
+        150000,
+        40,
+        4.4
+       ],
+       [
+        "Skyline",
+        95,
+        210000,
+        12,
+        4.7
+       ],
+       [
+        "Riverside",
+        150,
+        240000,
+        22,
+        4
+       ]
+      ]
+     }
+    },
+    {
+     "title": "Catering",
+     "table": {
+      "columns": [
+       "Caterer",
+       "Price per person per day (₹)",
+       "Menu style"
+      ],
+      "rows": [
+       [
+        "Spice Route",
+        1100,
+        "North Indian buffet"
+       ],
+       [
+        "Green Plate",
+        900,
+        "Vegetarian buffet"
+       ],
+       [
+        "Royal Feast",
+        1400,
+        "Plated multi-course"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dd-m-02",
+   "kind": "msr",
+   "title": "Pro plan price increase",
+   "tabs": [
+    {
+     "title": "Memo",
+     "body": "**To:** Pricing committee\n**From:** Karan Mehta, Head of Product\n\nThe Pro plan currently costs **$12 per subscriber per month**. We are considering moving it to **$15 from July** in all markets. To test the effect, we ran one-month price pilots in three markets (see the Pilot results tab).\n\nThe committee will approve a national increase only if projected **monthly Pro revenue rises by at least 5%** compared with June. For the projection, assume the national subscriber loss will match the pilot market that tested the same new price, and use the June national subscriber base shown in the Subscriber trend tab."
+    },
+    {
+     "title": "Pilot results",
+     "table": {
+      "columns": [
+       "Market",
+       "Pilot price ($)",
+       "Pro subscribers in June",
+       "Pro subscribers in pilot month"
+      ],
+      "rows": [
+       [
+        "Market A",
+        14,
+        20000,
+        18400
+       ],
+       [
+        "Market B",
+        15,
+        15000,
+        12750
+       ],
+       [
+        "Market C",
+        13,
+        10000,
+        9600
+       ]
+      ]
+     }
+    },
+    {
+     "title": "Subscriber trend",
+     "chart": {
+      "type": "line",
+      "xLabel": "Month",
+      "yLabel": "Pro subscribers (thousands)",
+      "categories": [
+       "Jan",
+       "Feb",
+       "Mar",
+       "Apr",
+       "May",
+       "Jun"
+      ],
+      "series": [
+       {
+        "name": "Pro subscribers (national)",
+        "values": [
+         70,
+         72,
+         74,
+         76,
+         78,
+         80
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dd-m-03",
+   "kind": "msr",
+   "title": "Choosing a component supplier",
+   "tabs": [
+    {
+     "title": "Email",
+     "body": "**From:** Meera Joshi, Operations Director\n**To:** Procurement\n\nEvery month our assembly line needs **at least 12,000 usable units** of the component. Defective units cannot be used and are not refunded or replaced.\n\nSuppliers ship in **full containers of 1,000 units**. We pay the unit price for every unit we order plus a **freight charge per container**. Order the smallest number of containers that still gives us at least 12,000 usable units.\n\nThe lead time must be **30 days or fewer**, or the line will stop. Please recommend a supplier."
+    },
+    {
+     "title": "Supplier quotes",
+     "table": {
+      "columns": [
+       "Supplier",
+       "Unit price ($)",
+       "Defect rate (%)",
+       "Freight per container ($)",
+       "Lead time (days)"
+      ],
+      "rows": [
+       [
+        "Alpha",
+        4,
+        2,
+        900,
+        21
+       ],
+       [
+        "Beta",
+        3.7,
+        5,
+        1100,
+        14
+       ],
+       [
+        "Gamma",
+        4.3,
+        1,
+        700,
+        28
+       ],
+       [
+        "Delta",
+        3.4,
+        8,
+        800,
+        35
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "d-ds-dd-p-001",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "If x is an integer, what is the value of x?\n\n(1) 2x − 7 = 9\n\n(2) x² = 64",
+   "answer": 0,
+   "explanation": "Take the statements one at a time.\n\nStatement (1): 2x − 7 = 9, so 2x = 16 and x = 8. One value, so (1) is sufficient.\n\nStatement (2): x² = 64 has two solutions, x = 8 and x = −8. Two different values, so (2) is not sufficient.\n\nOnly (1) works, so the answer is A.",
+   "tip": "Whenever a statement squares the unknown, check the negative root before calling it sufficient.",
+   "trap": "Choosing D because x² = 64 \"obviously\" means 8. The square root gives both 8 and −8, and nothing in the stem rules out negatives.",
+   "timeTarget": 90,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-002",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Is the integer n even?\n\n(1) n is divisible by 3\n\n(2) n + 1 is odd",
+   "answer": 1,
+   "explanation": "This is a yes/no question, so we need a definite Yes or a definite No from each statement.\n\nStatement (1): multiples of 3 can be even (6) or odd (9). Sometimes yes, sometimes no, so (1) is not sufficient.\n\nStatement (2): if n + 1 is odd, then n must be even. Always Yes, so (2) is sufficient.\n\nThe answer is B.",
+   "tip": "In a yes/no question, \"always no\" is just as sufficient as \"always yes\". Only \"sometimes\" is insufficient.",
+   "trap": "Reading divisibility by 3 as a hint about parity. Divisibility by 3 says nothing about even or odd.",
+   "timeTarget": 75,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-003",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A stationery shop sells pens and notebooks at fixed prices. What is the price of one notebook?\n\n(1) The total price of 3 pens and 2 notebooks is ₹130.\n\n(2) One pen costs ₹20.",
+   "answer": 2,
+   "explanation": "Let a pen cost p and a notebook cost n.\n\nStatement (1): 3p + 2n = 130 has two unknowns. Pen at ₹10 gives notebook ₹50; pen at ₹20 gives notebook ₹35. Not sufficient.\n\nStatement (2): p = 20 tells us nothing about n. Not sufficient.\n\nTogether: 60 + 2n = 130, so n = 35. A single value, so the answer is C.",
+   "tip": "One equation with two unknowns needs a second, independent piece of information. Look for the statement that supplies it.",
+   "trap": "Picking A because statement (1) \"mentions notebooks\". Mentioning the quantity is not the same as pinning it down.",
+   "timeTarget": 90,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-004",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "If x is a positive number, what is the value of x?\n\n(1) x² − 6x + 9 = 0\n\n(2) 2<sup>x</sup> = 8",
+   "answer": 3,
+   "explanation": "Statement (1): x² − 6x + 9 factors as (x − 3)² = 0, so x = 3. A perfect square equal to zero has only one root, so (1) is sufficient.\n\nStatement (2): 2<sup>x</sup> = 8 = 2³, so x = 3. Sufficient.\n\nEach statement alone gives x = 3, so the answer is D.\n\nNotice the contrast with a quadratic like x² = 9. A repeated root gives one value; two different roots give two.",
+   "tip": "Factor before you panic. A quadratic that is a perfect square has exactly one solution.",
+   "trap": "Assuming every quadratic has two answers and marking (1) insufficient.",
+   "timeTarget": 90,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-005",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Is x > y?\n\n(1) x² > y²\n\n(2) y < 0",
+   "answer": 4,
+   "explanation": "Statement (1): x² > y² means |x| > |y|. That is true for x = 5, y = 2 (x > y) and also for x = −5, y = 2 (x < y). Not sufficient.\n\nStatement (2): y < 0 says nothing about x. Not sufficient.\n\nTogether: take y = −2. If x = 5, then x² > y² and x > y (Yes). If x = −5, then x² > y² but x < y (No). Both answers are possible, so the answer is E.",
+   "tip": "Never turn x² > y² into x > y. Squaring throws away signs, so you must test negative values.",
+   "trap": "Choosing C because \"y negative plus bigger square\" feels like it forces x to be big and positive. x can be a large negative number.",
+   "timeTarget": 100,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-006",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Is |x − 3| < 2?\n\n(1) x² − 4x + 3 < 0\n\n(2) x > 2",
+   "answer": 0,
+   "explanation": "|x − 3| < 2 means 1 < x < 5.\n\nStatement (1): x² − 4x + 3 = (x − 1)(x − 3) < 0, which holds exactly when 1 < x < 3. Every such x lies inside (1, 5), so the answer is always Yes. Sufficient.\n\nStatement (2): x > 2 includes x = 2.5 (Yes) and x = 6 (No). Not sufficient.\n\nThe answer is A.",
+   "tip": "Translate absolute-value inequalities into an interval first, then ask whether the statement's range sits fully inside it.",
+   "trap": "Thinking (1) gives only 1 < x < 3 and not 1 < x < 5, so it \"doesn't match\". A range that fits inside the target range is still a definite Yes.",
+   "timeTarget": 110,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-007",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "If a and b are positive numbers, what is the value of a/b?\n\n(1) a + b = 20\n\n(2) (a + b)/a = 5/3",
+   "answer": 1,
+   "explanation": "Statement (1): a + b = 20 allows a = 10, b = 10 (ratio 1) and a = 12, b = 8 (ratio 1.5). Not sufficient.\n\nStatement (2): (a + b)/a = 1 + b/a = 5/3, so b/a = 2/3 and a/b = 3/2. The ratio is fixed even though a and b individually are not. Sufficient.\n\nThe answer is B.",
+   "tip": "Ratio questions can be answered without knowing the actual numbers. Ask for the ratio, not for the values.",
+   "trap": "Wanting both a and b before you are willing to say \"sufficient\". The question only asks for their ratio.",
+   "timeTarget": 90,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-008",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Is the positive integer n divisible by 4?\n\n(1) n² is divisible by 16\n\n(2) n/2 is an even integer",
+   "answer": 3,
+   "explanation": "Statement (1): write n as 2<sup>k</sup> times an odd number. Then n² has 2<sup>2k</sup>. For 16 = 2⁴ to divide n², we need 2k ≥ 4, so k ≥ 2, which means 4 divides n. Always Yes. Sufficient.\n\nStatement (2): n/2 even means n/2 = 2m, so n = 4m. Always Yes. Sufficient.\n\nEach statement alone settles it, so the answer is D.\n\nQuick test for (1): n = 2 gives n² = 4, not divisible by 16; n = 4 gives 16, divisible. Small cases back up the prime-factor argument.",
+   "tip": "For \"is n divisible by k\" questions, think in prime factors: powers of 2 in n² are double those in n.",
+   "trap": "Testing only n = 8 or n = 12 for statement (1) and never seeing why a number like 6 (n² = 36) fails. Always reason from the factors.",
+   "timeTarget": 100,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-009",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If n is a positive integer, what is the remainder when n is divided by 12?\n\n(1) When n is divided by 4, the remainder is 3.\n\n(2) When n is divided by 3, the remainder is 2.",
+   "answer": 2,
+   "explanation": "Statement (1): n = 3, 7, 11, 15, ... Dividing by 12 gives remainders 3, 7, 11, 3, ... Not sufficient.\n\nStatement (2): n = 2, 5, 8, 11, 14, ... Remainders on division by 12 include 2, 5, 8, 11. Not sufficient.\n\nTogether: a number that is 1 short of a multiple of 4 AND 1 short of a multiple of 3 is 1 short of a multiple of both, so n + 1 is a multiple of 12. Then n leaves remainder 11 every time. Sufficient.\n\nThe answer is C.",
+   "tip": "Remainders of \"k − 1\" with several divisors combine neatly: n + 1 is divisible by all of them, hence by their LCM.",
+   "trap": "Testing only n = 11 and stopping. It works, but you should know why it always works, otherwise you will miss a counter-example in a harder version.",
+   "timeTarget": 120,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-010",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If x and y are positive integers, what is the value of x + y?\n\n(1) x² − y² = 15\n\n(2) x < 10",
+   "answer": 4,
+   "explanation": "Statement (1): (x − y)(x + y) = 15. Both factors are positive integers with x + y larger. The factor pairs of 15 are 1 × 15 and 3 × 5. That gives x + y = 15, x − y = 1 (x = 8, y = 7) or x + y = 5, x − y = 3 (x = 4, y = 1). Two possible sums. Not sufficient.\n\nStatement (2): x < 10 says nothing definite about the sum. Not sufficient.\n\nTogether: both (8, 7) and (4, 1) have x < 10, so the sum is still 15 or 5. Not sufficient.\n\nThe answer is E.",
+   "tip": "Factor a difference of squares and list the factor pairs. It often reveals more than one solution.",
+   "trap": "Stopping at the first pair you find (8, 7) and calling (1) sufficient. Always hunt for the second factor pair.",
+   "timeTarget": 120,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-011",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Machines A and B, working together at constant rates, can complete an order in 6 hours. How many hours would Machine A take to complete the order alone?\n\n(1) Machine B alone would take 15 hours to complete the order.\n\n(2) Machine A works faster than Machine B.",
+   "answer": 0,
+   "explanation": "Combine rates: 1/A + 1/B = 1/6.\n\nStatement (1): 1/A = 1/6 − 1/15 = 5/30 − 2/30 = 3/30 = 1/10, so A = 10 hours. Sufficient.\n\nStatement (2): A being faster only says A < B. A = 8 hours forces B = 24, and A = 10 forces B = 15; both fit. Not sufficient.\n\nThe answer is A.\n\nSanity check: 10 and 15 hours gives 1/10 + 1/15 = 5/30 = 1/6. Correct.",
+   "tip": "In work problems add the rates (jobs per hour), never the times.",
+   "trap": "Averaging or adding times (6 = A + B?). Rates add; times do not.",
+   "timeTarget": 120,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-012",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Is (x − 1)(x − 3) < 0?\n\n(1) x² < 9\n\n(2) |x − 2| < 1/2",
+   "answer": 1,
+   "explanation": "The product (x − 1)(x − 3) is negative exactly when 1 < x < 3.\n\nStatement (1): x² < 9 means −3 < x < 3. That range is wider than (1, 3). x = 2 gives Yes, but x = 0 gives (−1)(−3) = 3, a No. Not sufficient.\n\nStatement (2): |x − 2| < 1/2 means 1.5 < x < 2.5, which sits entirely inside (1, 3). Always Yes. Sufficient.\n\nThe answer is B.",
+   "tip": "Rewrite each statement as an interval and compare with the target interval: inside means Yes, partly inside means insufficient.",
+   "trap": "Saying (1) works because x = 2 satisfies it. One example that gives Yes does not rule out an example that gives No.",
+   "timeTarget": 120,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-013",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If x and y are positive integers, is x<sup>y</sup> > y<sup>x</sup>?\n\n(1) x < y\n\n(2) x > 3",
+   "answer": 2,
+   "explanation": "The function f(n) = n<sup>1/n</sup> rises up to n = 3 (about 1.442) and then falls forever. Comparing x<sup>y</sup> with y<sup>x</sup> is the same as comparing x<sup>1/x</sup> with y<sup>1/y</sup>.\n\nStatement (1): x = 1, y = 2 gives 1 vs 2 (No). x = 3, y = 4 gives 81 vs 64 (Yes). Not sufficient.\n\nStatement (2): x = 4, y = 2 gives 16 vs 16 (No); x = 4, y = 5 gives 1024 vs 625 (Yes). Not sufficient.\n\nTogether: once x ≥ 4 the function is falling, so a larger y gives a smaller y<sup>1/y</sup>, which means x<sup>1/x</sup> is the larger one. Always Yes. Sufficient.\n\nThe answer is C.",
+   "tip": "For comparisons like x^y vs y^x, test small values systematically (1, 2, 3, 4, 5) and look for the turning point.",
+   "trap": "Testing only x = 3, y = 4 (Yes) and 4, 5 (Yes) and declaring the statements sufficient. Small cases near 1 and 2 behave differently.",
+   "timeTarget": 150,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-p-014",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If n is a positive integer, is n³ − n divisible by 24?\n\n(1) n > 10\n\n(2) n is divisible by 4",
+   "answer": 4,
+   "explanation": "Factor: n³ − n = (n − 1)(n)(n + 1), three consecutive integers. That is always divisible by 3. We also need a factor of 8.\n\nIf n is odd, n − 1 and n + 1 are consecutive even numbers, so their product is divisible by 8. Yes.\n\nIf n is even, n² − 1 is odd, so all the 2s must come from n. We need 8 to divide n.\n\nStatement (1): n = 11 (odd) gives Yes; n = 12 gives 1716, which is not divisible by 24 (No). Not sufficient.\n\nStatement (2): n = 4 gives 60 (No); n = 8 gives 504 = 24 × 21 (Yes). Not sufficient.\n\nTogether: n = 12 gives No and n = 16 gives 4080 = 24 × 170 (Yes). Not sufficient. The answer is E.",
+   "tip": "Factor expressions like n³ − n into consecutive integers; then reason about which powers of 2 and 3 are guaranteed.",
+   "trap": "Believing \"divisible by 4\" is close enough to \"divisible by 8\". The missing factor of 2 is exactly where the No cases hide.",
+   "timeTarget": 150,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-001",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "If y is a positive integer, what is the value of y?\n\n(1) y² < 30\n\n(2) y³ = 27",
+   "answer": 1,
+   "explanation": "Statement (1): y² < 30 allows y = 1, 2, 3, 4 or 5. Many values, so not sufficient.\n\nStatement (2): y³ = 27 means y = 3. Sufficient.\n\nThe answer is B.\n\nAn inequality almost never pins down a single value on its own. An equation usually does.",
+   "tip": "An inequality on integers usually leaves a range of values; an equation usually leaves one.",
+   "trap": "Picking D because y = 3 fits both statements. Fitting is not enough: statement (1) fits many other values too.",
+   "timeTarget": 75,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-002",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A fruit seller charges the same price for every apple. What is the price of one apple?\n\n(1) 4 apples cost ₹60.\n\n(2) 10 apples cost ₹150.",
+   "answer": 3,
+   "explanation": "Statement (1): 4 apples cost ₹60, so one apple costs 60 ÷ 4 = ₹15. Sufficient.\n\nStatement (2): 10 apples cost ₹150, so one apple costs 150 ÷ 10 = ₹15. Sufficient.\n\nEach statement alone gives the same single price, so the answer is D.\n\nStatements in DS never contradict each other, and they can each be enough on their own.",
+   "tip": "Do not assume you need both statements. Check each one independently first.",
+   "trap": "Choosing C because \"two statements, two pieces of information\". Each one stands alone here.",
+   "timeTarget": 60,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-003",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A company has 60 employees. What percent of the employees work in the Sales department?\n\n(1) 18 employees work in the Sales department.\n\n(2) 24 of the employees are women.",
+   "answer": 0,
+   "explanation": "The total is already given as 60, so we only need the number in Sales.\n\nStatement (1): 18 of 60 work in Sales, which is 18/60 = 30%. Sufficient.\n\nStatement (2): the number of women says nothing about how many people work in Sales. Women could be in any department. Not sufficient.\n\nThe answer is A.",
+   "tip": "Before using a statement, ask whether it even talks about the quantity the question needs.",
+   "trap": "Treating any number in the statement as useful. 24 is a distractor here.",
+   "timeTarget": 75,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-004",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A firm's revenue was positive in each of 2023, 2024 and 2025. Was the firm's revenue in 2025 greater than its revenue in 2024?\n\n(1) Revenue in 2025 was 8% higher than revenue in 2023.\n\n(2) Revenue in 2024 was 5% lower than revenue in 2023.",
+   "answer": 2,
+   "explanation": "Use 2023 revenue as the common base, call it R.\n\nStatement (1): 2025 = 1.08R. Without 2024 we cannot compare. Not sufficient.\n\nStatement (2): 2024 = 0.95R. Without 2025 we cannot compare. Not sufficient.\n\nTogether: 2025 = 1.08R and 2024 = 0.95R, so 2025 is larger regardless of what R is. Always Yes. The answer is C.",
+   "tip": "When two statements compare different things to the same third thing, chain them through that common base.",
+   "trap": "Choosing E because no actual rupee figures are given. A comparison can be settled without any absolute numbers.",
+   "timeTarget": 100,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-005",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "In a class of 40 students, some study French, some study German, and some may study both or neither. How many students study both languages?\n\n(1) 25 students study French.\n\n(2) 22 students study German.",
+   "answer": 4,
+   "explanation": "Overlap formula: French + German − Both + Neither = 40.\n\nStatement (1): French = 25 alone leaves German, Both and Neither unknown. Not sufficient.\n\nStatement (2): German = 22 alone leaves the rest unknown. Not sufficient.\n\nTogether: 25 + 22 − Both + Neither = 40, so Both − Neither = 7. If Neither = 0 then Both = 7; if Neither = 3 then Both = 10. Two unknowns, one equation. Not sufficient.\n\nThe answer is E.",
+   "tip": "In overlapping-sets problems, count the unknowns. \"Neither\" is a hidden unknown unless the stem rules it out.",
+   "trap": "Computing 25 + 22 − 40 = 7 and marking C. That only works if every student studies at least one language, which the stem does not say.",
+   "timeTarget": 100,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-006",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Is z positive?\n\n(1) z² > 0\n\n(2) z³ > 0",
+   "answer": 1,
+   "explanation": "Statement (1): z² > 0 only tells us z ≠ 0. Both z = 2 (Yes) and z = −2 (No) work. Not sufficient.\n\nStatement (2): a cube keeps the sign of the number, so z³ > 0 means z > 0. Always Yes. Sufficient.\n\nThe answer is B.\n\nOdd powers preserve sign; even powers erase it.",
+   "tip": "Even powers hide the sign. Odd powers keep it.",
+   "trap": "Thinking z² > 0 means z is positive. Squares are positive for negative numbers too.",
+   "timeTarget": 75,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-007",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A salesperson is paid a fixed monthly salary plus a commission that is a constant percent of her sales. What is the commission rate?\n\n(1) Her earnings were ₹800 higher in a month when her sales were ₹10,000 higher than in an earlier month.\n\n(2) In one month she sold ₹20,000 and earned ₹3,000; in another month she sold ₹15,000 and earned ₹2,600.",
+   "answer": 3,
+   "explanation": "Earnings = fixed salary + rate × sales. The fixed salary cancels whenever we look at a difference between two months.\n\nStatement (1): an extra ₹10,000 in sales brought an extra ₹800, so the rate is 800/10,000 = 8%. Sufficient.\n\nStatement (2): the difference is ₹5,000 in sales and ₹400 in earnings, so the rate is 400/5,000 = 8%. Sufficient (and the fixed salary is ₹1,400, though we did not need it).\n\nThe answer is D.",
+   "tip": "In \"fixed plus variable\" problems, subtract two data points: the fixed part cancels and the slope is left.",
+   "trap": "Worrying that you do not know the fixed salary. The question asks for the rate only.",
+   "timeTarget": 120,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-008",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "If p and q are positive integers, is p + q > 10?\n\n(1) p > 7 and q > 3\n\n(2) pq > 20",
+   "answer": 0,
+   "explanation": "Statement (1): p is at least 8 and q is at least 4 (integers), so p + q ≥ 12 > 10. Always Yes. Sufficient.\n\nStatement (2): pq > 20 allows p = 20, q = 2 (sum 22, Yes) and p = q = 5 (product 25, sum 10, which is not greater than 10, so No). Not sufficient.\n\nThe answer is A.\n\nNotice that because p and q are integers, \"p > 7\" means p ≥ 8. Using the integer condition is what makes (1) work.",
+   "tip": "With integers, turn strict inequalities into the next whole number: p > 7 means p ≥ 8.",
+   "trap": "Reasoning that a big product must mean a big sum. Products grow faster than sums, so 5 × 5 beats 20 while summing only to 10.",
+   "timeTarget": 100,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-009",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A chemist mixes x litres of a 20% acid solution with y litres of a 50% acid solution. What is the value of x?\n\n(1) The total volume of the mixture is 30 litres.\n\n(2) The mixture is 40% acid.",
+   "answer": 2,
+   "explanation": "Acid in the mixture: 0.2x + 0.5y.\n\nStatement (1): x + y = 30 alone leaves x free. Not sufficient.\n\nStatement (2): 0.2x + 0.5y = 0.4(x + y) simplifies to 0.1y = 0.2x, so y = 2x. That fixes the ratio but not the amounts (x = 5, y = 10 and x = 10, y = 20 both work). Not sufficient.\n\nTogether: x + 2x = 30, so x = 10. Sufficient. The answer is C.",
+   "tip": "A concentration statement gives a ratio of volumes; you still need one actual volume to get amounts.",
+   "trap": "Thinking the 40% figure is enough. Concentrations are scale-free: doubling every volume keeps the percentage unchanged.",
+   "timeTarget": 120,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-010",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "If x and y are integers, is xy > 0?\n\n(1) x + y > 0\n\n(2) x − y > 0",
+   "answer": 4,
+   "explanation": "xy > 0 means x and y have the same sign (both positive or both negative).\n\nStatement (1): x = 3, y = 1 gives Yes; x = 3, y = −1 gives No. Not sufficient.\n\nStatement (2): x = 3, y = 1 gives Yes; x = 1, y = −3 gives No. Not sufficient.\n\nTogether: x = 3, y = 1 satisfies both and gives Yes. x = 3, y = −1 satisfies both (sum 2, difference 4) and gives No. Not sufficient.\n\nThe answer is E.",
+   "tip": "When statements are inequalities, try one all-positive and one mixed-sign example before you commit.",
+   "trap": "Combining x + y > 0 and x − y > 0 to conclude x > 0 and then assuming y must be positive too. x > 0 is true, but y can be negative.",
+   "timeTarget": 100,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-011",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "If n is a positive integer, what is the value of n?\n\n(1) n² + n < 50\n\n(2) 2<sup>n</sup> + 2<sup>n</sup> = 64",
+   "answer": 1,
+   "explanation": "Statement (1): n = 1 gives 2, n = 5 gives 30, n = 6 gives 42, and n = 7 gives 56 (too big). So n can be 1, 2, 3, 4, 5 or 6. Not sufficient.\n\nStatement (2): 2<sup>n</sup> + 2<sup>n</sup> = 2 × 2<sup>n</sup> = 2<sup>n+1</sup> = 64 = 2⁶, so n = 5. Sufficient.\n\nThe answer is B.",
+   "tip": "Spot like terms in exponent equations: x + x = 2x, so 2<sup>n</sup> + 2<sup>n</sup> = 2<sup>n+1</sup>.",
+   "trap": "Treating 2<sup>n</sup> + 2<sup>n</sup> as 4<sup>n</sup>. Adding equal powers doubles the value; it does not square the base.",
+   "timeTarget": 90,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-012",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Is the positive integer n a multiple of 12?\n\n(1) n/4 and n/3 are both integers.\n\n(2) n² is a multiple of 144.",
+   "answer": 3,
+   "explanation": "Statement (1): n divisible by both 4 and 3 means n is divisible by their LCM, 12 (4 and 3 share no factors). Always Yes. Sufficient.\n\nStatement (2): 144 = 2⁴ × 3². For n² to contain 2⁴ and 3², n must contain at least 2² and 3¹, so 12 divides n. Always Yes. Sufficient.\n\nThe answer is D.\n\nQuick check on (2): 6² = 36 is not a multiple of 144, so 6 is correctly excluded.",
+   "tip": "Divisible by two coprime numbers means divisible by their product.",
+   "trap": "Believing (2) is weaker than (1) because squares are \"less direct\". Prime-factor reasoning shows it forces exactly the same conclusion.",
+   "timeTarget": 100,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-013",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If n is a positive integer, is n! divisible by 1,000?\n\n(1) n > 14\n\n(2) n is a multiple of 5",
+   "answer": 0,
+   "explanation": "1,000 = 2³ × 5³, so we need at least three factors of 5 and three of 2 inside n!.\n\nFactors of 5 in n!: n = 5 to 9 gives one, n = 10 to 14 gives two, n = 15 to 19 gives three. Factors of 2 are never a problem once n is that large.\n\nStatement (1): n ≥ 15 gives at least three 5s (from 5, 10 and 15). Always Yes. Sufficient.\n\nStatement (2): n = 5 gives 120 (No) and n = 15 gives a Yes. Not sufficient.\n\nThe answer is A.",
+   "tip": "For divisibility of factorials by powers of 10, count the 5s. The 2s are plentiful.",
+   "trap": "Assuming a multiple of 5 is \"enough fives\". n = 5 or 10 has only one or two factors of 5.",
+   "timeTarget": 120,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-014",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A product's price was first increased by p% and then decreased by q%, where p and q are positive integers less than 100. Is the final price lower than the original price?\n\n(1) p ≥ q\n\n(2) p = q",
+   "answer": 1,
+   "explanation": "The final price is original × (1 + p/100)(1 − q/100). It is lower when that multiplier is below 1.\n\nStatement (1): p ≥ q. With p = 10, q = 9 the multiplier is 1.1 × 0.91 = 1.001 (higher, No). With p = 50, q = 40 it is 1.5 × 0.6 = 0.9 (lower, Yes). Not sufficient.\n\nStatement (2): p = q gives (1 + r)(1 − r) = 1 − r², which is always below 1 for r > 0. Always Yes. Sufficient.\n\nThe answer is B.",
+   "tip": "An equal percent up then down always leaves you worse off: the multiplier is 1 − r².",
+   "trap": "Assuming an increase at least as big as the decrease means a higher final price. The decrease is applied to the larger, already-increased amount.",
+   "timeTarget": 120,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-015",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If x and y are nonzero numbers, what is the value of x/y?\n\n(1) x² − 3xy + 2y² = 0\n\n(2) x ≠ y",
+   "answer": 2,
+   "explanation": "Statement (1): factor x² − 3xy + 2y² = (x − y)(x − 2y) = 0. So x = y (ratio 1) or x = 2y (ratio 2). Two possible values. Not sufficient.\n\nStatement (2): x ≠ y alone allows any ratio other than 1. Not sufficient.\n\nTogether: the case x = y is eliminated, which leaves x = 2y and a ratio of 2. Sufficient.\n\nThe answer is C.",
+   "tip": "Homogeneous equations (every term has the same total degree) give ratios. Factor them to find the possible ratios.",
+   "trap": "Dividing the equation by y without noting that you lose or keep solutions. Factoring is safer and shows both roots.",
+   "timeTarget": 130,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-016",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If n is a positive integer, what is the remainder when n is divided by 5?\n\n(1) n is 2 more than a multiple of 15.\n\n(2) n is 3 less than a multiple of 10.",
+   "answer": 3,
+   "explanation": "Statement (1): n = 15k + 2. Since 15k is a multiple of 5, the remainder on division by 5 is 2 (n = 2, 17, 32, ... all end in 2 or 7). Sufficient.\n\nStatement (2): n = 10m − 3 = 10(m − 1) + 7. A multiple of 10 is a multiple of 5, so the remainder is 7 mod 5 = 2 (n = 7, 17, 27, ...). Sufficient.\n\nEach statement alone gives remainder 2, so the answer is D.",
+   "tip": "If a statement is built from a multiple of the divisor (or of a multiple of it), the remainder comes from the leftover part only.",
+   "trap": "Believing you need the actual value of n. The remainder depends only on the leftover after stripping multiples of 5.",
+   "timeTarget": 110,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-017",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A retailer sells in two regions, A and B. Sales in both regions rose from 2024 to 2025. Did sales in Region A grow by a larger percentage than sales in Region B?\n\n(1) The rupee increase in Region A was larger than the rupee increase in Region B.\n\n(2) Region A's 2024 sales were higher than Region B's 2024 sales.",
+   "answer": 4,
+   "explanation": "Percentage growth = increase ÷ starting value. Region A beats Region B if ΔA/A₀ > ΔB/B₀.\n\nStatement (1) gives ΔA > ΔB but says nothing about the bases. Statement (2) gives A₀ > B₀ but says nothing about the increases. Neither is sufficient alone.\n\nTogether: a bigger increase on a bigger base can go either way.\n\nYes: A₀ = 200, ΔA = 100 (50%); B₀ = 100, ΔB = 10 (10%).\nNo: A₀ = 800, ΔA = 100 (12.5%); B₀ = 100, ΔB = 50 (50%).\n\nBoth cases satisfy both statements, so the answer is E.",
+   "tip": "Percent change depends on both the change and the base. One of them alone, or both in the \"wrong\" direction, will not settle a percent comparison.",
+   "trap": "Reasoning that a larger absolute increase must mean larger growth. A big base can swallow a big increase.",
+   "timeTarget": 130,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-018",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If x is a positive integer, is √x an integer?\n\n(1) x² has exactly 7 positive divisors.\n\n(2) x is odd.",
+   "answer": 0,
+   "explanation": "The number of divisors of p<sup>a</sup> is a + 1. A count of exactly 7 is prime, so x² must be p⁶ for a single prime p.\n\nStatement (1): x² = p⁶ gives x = p³ (such as 8, 27, 125). The square root of p³ is p<sup>3/2</sup>, which is not an integer. Always No. Sufficient.\n\nStatement (2): x = 9 gives √9 = 3 (Yes) while x = 15 gives √15 ≈ 3.87 (No). Not sufficient.\n\nThe answer is A.",
+   "tip": "The divisor count of p<sup>a</sup> × q<sup>b</sup> is (a + 1)(b + 1). Work backwards from a count like 7 to find the only possible prime structure.",
+   "trap": "Dismissing (1) as \"too abstract\". A definite No is a perfectly good answer to a yes/no question.",
+   "timeTarget": 150,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-019",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If a and b are positive integers, what is the value of a + b?\n\n(1) ab = a + b + 3\n\n(2) a ≠ b",
+   "answer": 2,
+   "explanation": "Statement (1): rearrange to ab − a − b = 3 and add 1 to both sides: (a − 1)(b − 1) = 4. For positive integers the factor pairs of 4 give (a, b) = (2, 5), (3, 3) or (5, 2). The sums are 7, 6 and 7. Not sufficient.\n\nStatement (2): a ≠ b alone leaves every sum possible. Not sufficient.\n\nTogether: the case (3, 3) is removed, leaving (2, 5) and (5, 2), and both have a + b = 7. Sufficient.\n\nThe answer is C.",
+   "tip": "When you see ab − a − b, add 1 to both sides to factor it as (a − 1)(b − 1).",
+   "trap": "Checking only (3, 3) because it is the \"nice\" solution and concluding that (1) is sufficient.",
+   "timeTarget": 150,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-ds-dd-m-020",
+   "section": "di",
+   "type": "DS",
+   "topic": "d-ds",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If n is a positive integer, is n(n + 1)(n + 2) divisible by 48?\n\n(1) n is even\n\n(2) n is divisible by 3",
+   "answer": 4,
+   "explanation": "48 = 16 × 3. Three consecutive integers always contain a multiple of 3, so the factor of 3 is automatic. The real question is whether the product contains 2⁴.\n\nStatement (1): n even gives n(n + 2) as two consecutive even numbers, which supplies at least 2³. But whether there is a fourth 2 depends on n. n = 2 gives 24 (No) and n = 6 gives 336 = 48 × 7 (Yes). Not sufficient.\n\nStatement (2): n = 3 gives 60 (No) and n = 6 gives Yes. Not sufficient.\n\nTogether: n = 6 gives Yes, but n = 12 gives 12 × 13 × 14 = 2,184, and 2,184 ÷ 48 = 45.5 (No). Not sufficient.\n\nThe answer is E.",
+   "tip": "When a yes/no question hinges on a power of 2, test numbers that differ in their powers of 2 (2, 4, 6, 8, 12, 16).",
+   "trap": "Assuming \"even\" delivers four factors of 2. Two consecutive evens guarantee only three.",
+   "timeTarget": 150,
+   "skills": [
+    "data-sufficiency"
+   ]
+  },
+  {
+   "id": "d-tpa-dd-m-001",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "tpa",
+   "prompt": "A café sells one coffee and one sandwich at fixed prices. A coffee and a sandwich together cost ₹280, and the sandwich costs ₹80 more than the coffee.\n\nSelect a price for the coffee and a price for the sandwich that are consistent with this information. Make only one selection in each column.",
+   "labels": [
+    "Coffee",
+    "Sandwich"
+   ],
+   "choices": [
+    "₹80",
+    "₹100",
+    "₹120",
+    "₹160",
+    "₹180",
+    "₹200"
+   ],
+   "answer": [
+    1,
+    4
+   ],
+   "explanation": "Let the coffee cost c. Then the sandwich costs c + 80, and together c + (c + 80) = 280.\n\nSo 2c = 200 and c = 100, which makes the sandwich ₹180.\n\nCheck: 100 + 180 = 280 and 180 − 100 = 80. Both conditions hold.\n\nOther tempting pairs fail one condition. For instance ₹120 and ₹160 add to 280 but differ by only 40; ₹80 and ₹200 add to 280 but differ by 120.",
+   "tip": "In two-part questions, turn the two conditions into two equations and solve them as a system; then match the answer to the list.",
+   "trap": "Choosing a pair that satisfies the sum (₹120 and ₹160, say) and not checking the difference. Each answer pair must satisfy every condition.",
+   "timeTarget": 120,
+   "skills": [
+    "two-part-analysis"
+   ]
+  },
+  {
+   "id": "d-tpa-dd-m-002",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "A courier rides 48 km from a depot to a client at a constant speed. He returns by the same route at a constant speed that is 4 km/h slower. The whole round trip takes 7 hours.\n\nSelect a speed for the outward trip and a speed for the return trip that are consistent with this information. Make only one selection in each column.",
+   "labels": [
+    "Outward speed (km/h)",
+    "Return speed (km/h)"
+   ],
+   "choices": [
+    "8 km/h",
+    "12 km/h",
+    "14 km/h",
+    "16 km/h",
+    "18 km/h",
+    "20 km/h"
+   ],
+   "answer": [
+    3,
+    1
+   ],
+   "explanation": "The return speed is 4 km/h less than the outward speed, so the candidate pairs from the list are (12, 8), (16, 12), (18, 14) and (20, 16).\n\nTest each with time = distance ÷ speed:\n\n(16, 12): 48/16 + 48/12 = 3 + 4 = 7 hours. Matches.\n(20, 16): 2.4 + 3 = 5.4 hours. Too short.\n(18, 14): about 2.67 + 3.43 = 6.1 hours. Too short.\n(12, 8): 4 + 6 = 10 hours. Too long.\n\nOutward 16 km/h and return 12 km/h is the only pair that works.",
+   "tip": "Use the simple linear condition (a 4 km/h gap) to cut the choices down, then test the time condition on the survivors.",
+   "trap": "Averaging the speeds. Equal distances at different speeds do not average to the mean of the two speeds, because the slower leg takes more time.",
+   "timeTarget": 150,
+   "skills": [
+    "two-part-analysis"
+   ]
+  },
+  {
+   "id": "d-tpa-dd-m-003",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "A laptop costs a retailer ₹40,000. The retailer marks it up by a% over cost to set the marked price, then sells it at a discount of b% off the marked price, receiving ₹42,000. The markup percent a is exactly 20 more than the discount percent b.\n\nSelect a value for a and a value for b that are consistent with this information. Make only one selection in each column.",
+   "labels": [
+    "Markup a (%)",
+    "Discount b (%)"
+   ],
+   "choices": [
+    "20",
+    "25",
+    "30",
+    "40",
+    "50",
+    "60"
+   ],
+   "answer": [
+    4,
+    2
+   ],
+   "explanation": "The condition a = b + 20 narrows the pairs to (50, 30), (40, 20) and (60, 40) from the list.\n\nTest each against the selling price of ₹42,000.\n\n(50, 30): 40,000 × 1.5 = 60,000, then × 0.7 = 42,000. Matches.\n(60, 40): 64,000 × 0.6 = 38,400. No.\n(40, 20): 56,000 × 0.8 = 44,800. No.\n\nNote that (40, 25) would also give ₹42,000 but the gap is 15, not 20. That is why the second condition is in the question.",
+   "tip": "When one condition leaves several answers, use it as a filter first, then test the other condition on the survivors.",
+   "trap": "Finding that markup 40% and discount 25% give ₹42,000 and stopping. It breaks the \"20 more\" rule.",
+   "timeTarget": 150,
+   "skills": [
+    "two-part-analysis"
+   ]
+  },
+  {
+   "id": "d-tpa-dd-m-004",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "A warehouse stores 120 identical cartons in s stacks of b cartons each. If the warehouse added 2 more stacks and each stack held 3 fewer cartons, the total would still be 120 cartons.\n\nSelect a value for s and a value for b that are consistent with this information. Make only one selection in each column.",
+   "labels": [
+    "Number of stacks (s)",
+    "Cartons per stack (b)"
+   ],
+   "choices": [
+    "6",
+    "8",
+    "10",
+    "12",
+    "15",
+    "20"
+   ],
+   "answer": [
+    1,
+    4
+   ],
+   "explanation": "First condition: s × b = 120. From the list, the pairs that multiply to 120 are (6, 20), (8, 15), (10, 12), (12, 10), (15, 8) and (20, 6).\n\nSecond condition: (s + 2)(b − 3) = 120. Test the pairs.\n\n(8, 15): 10 × 12 = 120. Matches.\n(6, 20): 8 × 17 = 136. No.\n(10, 12): 12 × 9 = 108. No.\n(12, 10): 14 × 7 = 98. No.\n\nAlgebra confirms it: expanding gives 2b − 3s = 6, and substituting b = 120/s leads to s² + 2s − 80 = 0, so s = 8 and b = 15.",
+   "tip": "List the pairs that satisfy the multiplication condition first. It is usually a short list, and you can test the second condition on each.",
+   "trap": "Using the list pair (10, 12) because \"12 cartons less 3 is 9 and 10 plus 2 is 12\". That product is 108, not 120.",
+   "timeTarget": 160,
+   "skills": [
+    "two-part-analysis"
+   ]
+  },
+  {
+   "id": "d-tpa-dd-m-005",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "The sum of two integers is 18, and their product is positive and less than 80.\n\nSelect the smallest possible value of the greater of the two integers, and the largest possible value of the greater of the two integers. Make only one selection in each column.",
+   "labels": [
+    "Smallest possible value",
+    "Largest possible value"
+   ],
+   "choices": [
+    "10",
+    "11",
+    "12",
+    "16",
+    "17",
+    "18"
+   ],
+   "answer": [
+    1,
+    4
+   ],
+   "explanation": "A positive product with a positive sum means both integers are positive. Call them x (greater) and y (smaller or equal), with x = 18 − y.\n\nThe product is y(18 − y). Test small values of y:\n\ny = 1: 17. y = 5: 65. y = 7: 77 (below 80). y = 8: 80 (not below 80). y = 9: 81.\n\nSo y can be any integer from 1 to 7, and the greater integer x = 18 − y ranges from 11 (when y = 7) up to 17 (when y = 1).\n\nSmallest greater integer: 11. Largest greater integer: 17.",
+   "tip": "For \"smallest and largest possible\" questions, find the boundary case on each side and check it against every condition, including strict inequalities.",
+   "trap": "Including y = 8 (product exactly 80) and giving 10 as the smallest greater integer. \"Less than 80\" excludes 80, so 10 and 8 do not qualify.",
+   "timeTarget": 170,
+   "skills": [
+    "two-part-analysis"
+   ]
+  },
+  {
+   "id": "d-tpa-dd-m-006",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "Tap X alone can fill a tank in x hours. Tap Y alone can fill the same tank in y hours, and y is 6 hours more than x. Working together, the two taps fill the tank in exactly 4 hours.\n\nSelect a value for x and a value for y that are consistent with this information. Make only one selection in each column.",
+   "labels": [
+    "x (hours)",
+    "y (hours)"
+   ],
+   "choices": [
+    "4",
+    "6",
+    "8",
+    "10",
+    "12",
+    "15"
+   ],
+   "answer": [
+    1,
+    4
+   ],
+   "explanation": "The gap condition y = x + 6 leaves only two pairs from the list: (4, 10) and (6, 12).\n\nCombined rate must equal 1/4 of the tank per hour.\n\n(6, 12): 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4. Matches.\n(4, 10): 1/4 + 1/10 = 0.35, far too fast.\n\nAlgebra check: 1/x + 1/(x + 6) = 1/4 gives x² − 2x − 24 = 0, so x = 6 (the other root, −4, is impossible).",
+   "tip": "In work-rate questions, add rates (1/time), not times. Then test the short list of pairs that survive the simple condition.",
+   "trap": "Choosing x = 4 because the combined time is 4. Together the taps must be faster than either alone, so each tap alone must take longer than 4 hours.",
+   "timeTarget": 150,
+   "skills": [
+    "two-part-analysis"
+   ]
+  },
+  {
+   "id": "d-tpa-dd-m-007",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "A sequence of positive integers starts with terms a₁ and a₂. Every term after the second equals the sum of the two terms before it. The fifth term is 34 and the sixth term is 55.\n\nSelect a value for a₁ and a value for a₂ that are consistent with this information. Make only one selection in each column.",
+   "labels": [
+    "a₁",
+    "a₂"
+   ],
+   "choices": [
+    "3",
+    "5",
+    "8",
+    "13",
+    "21",
+    "34"
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "Write the terms in terms of a₁ and a₂:\n\na₃ = a₁ + a₂\na₄ = a₁ + 2a₂\na₅ = 2a₁ + 3a₂\na₆ = 3a₁ + 5a₂\n\nSo 2a₁ + 3a₂ = 34 and 3a₁ + 5a₂ = 55. Subtract to eliminate a₁: multiply the first by 3 and the second by 2, giving 6a₁ + 9a₂ = 102 and 6a₁ + 10a₂ = 110, so a₂ = 8 and a₁ = 5.\n\nSequence: 5, 8, 13, 21, 34, 55. Matches.\n\nA faster way is to work backwards: a₄ = a₆ − a₅ = 21, a₃ = a₅ − a₄ = 13, a₂ = 8, a₁ = 5.",
+   "tip": "When each term is built from the previous ones, work backwards by subtraction. It is quicker than setting up equations.",
+   "trap": "Picking 21 and 34 (or 13 and 21) because they look like the answer. Those are values of the sequence, but 34 and 55 are the fifth and sixth terms, not the first two.",
+   "timeTarget": 140,
+   "skills": [
+    "two-part-analysis"
+   ]
+  },
+  {
+   "id": "d-tpa-dd-m-008",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "tpa",
+   "prompt": "Five distinct positive integers have a mean of 12 and a median of 10. The largest of the five is no more than 20.\n\nSelect the smallest possible value and the largest possible value of the smallest of the five integers. Make only one selection in each column.",
+   "labels": [
+    "Smallest possible value",
+    "Largest possible value"
+   ],
+   "choices": [
+    "1",
+    "2",
+    "3",
+    "7",
+    "8",
+    "9"
+   ],
+   "answer": [
+    1,
+    4
+   ],
+   "explanation": "List the integers a < b < 10 < d < e, with a + b + 10 + d + e = 60, so a + b + d + e = 50, and e ≤ 20.\n\nSmallest possible a: d + e is at most 19 + 20 = 39, so a + b must be at least 11. Since b ≤ 9, we need a ≥ 2. Check a = 2, b = 9, d = 19, e = 20: sum 2 + 9 + 10 + 19 + 20 = 60. Valid. (a = 1 would need b = 10, which is not below the median.)\n\nLargest possible a: a < b ≤ 9 means a ≤ 8. Take a = 8, b = 9: then d + e = 50 − 17 = 33, for example 13 and 20. Valid.\n\nSo the smallest integer can range from 2 to 8.",
+   "tip": "For extreme-value questions, push the other numbers as far as the conditions allow in the opposite direction and see what is forced.",
+   "trap": "Answering 1 for the minimum because 1 is the smallest positive integer. The mean of 12 forces the larger numbers to be big, but the 20 cap limits how big they can be.",
+   "timeTarget": 180,
+   "skills": [
+    "two-part-analysis"
+   ]
+  },
+  {
+   "id": "d-ta-dd-m-001",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "ta-dd-m-01",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information in the table, or **False** if it is not.",
+   "statements": [
+    "The region with the largest percentage increase in sales from 2024 to 2025 is not the region with the largest increase in dollar terms.",
+    "Total sales across the eight regions rose by more than 8% from 2024 to 2025.",
+    "Among the regions with more than 20 stores, East had the highest 2025 sales per store."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    1,
+    1
+   ],
+   "explanation": "Statement 1 (True). Northeast grew from 15.2 to 19.0, which is +25%, the biggest percentage rise. East added 7.7 ($58.7m − $51.0m), the biggest dollar rise. They are different regions, so the statement is supported.\n\nStatement 2 (False). 2024 total = 268.1 and 2025 total = 289.2. The increase is 21.1, and 21.1/268.1 is about 7.9%, just under 8%.\n\nStatement 3 (False). Regions with more than 20 stores: North (28), South (31), East (36), Central (22). Sales per store in 2025: North 46.2/28 = 1.65, East 58.7/36 = 1.63. North is higher, so East is not the highest.",
+   "tip": "Percentage and absolute change usually crown different winners. Always check which one the statement is asking about.",
+   "trap": "Statement 3 invites you to look at the biggest region (East). Sales per store needs a division, and North edges East by a hair.",
+   "timeTarget": 150,
+   "skills": [
+    "table-analysis"
+   ]
+  },
+  {
+   "id": "d-ta-dd-m-002",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "yesno",
+   "stimulusId": "ta-dd-m-02",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information in the table, or **False** if it is not.",
+   "statements": [
+    "Technology had the highest percentage of respondents who said they were satisfied.",
+    "Across all seven departments, more than 70% of survey respondents said they were satisfied.",
+    "Sales had the highest percentage of its employees leave during 2025."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    1,
+    0,
+    0
+   ],
+   "explanation": "Statement 1 (False). Satisfied as a share of respondents: Technology 70/84 = 83.3%, but HR is 17/20 = 85%. HR is higher.\n\nStatement 2 (True). Total satisfied = 30 + 17 + 33 + 78 + 54 + 70 + 10 = 292. Total respondents = 400. 292/400 = 73%, which is above 70%.\n\nStatement 3 (True). Leavers as a share of employees: Sales 15/96 = 15.6%, Operations 21/150 = 14.0%, Marketing 8/64 = 12.5%, Legal 2/16 = 12.5%. Sales is highest, even though Operations lost more people in total.",
+   "tip": "Always ask what the denominator is: all employees, or only respondents?",
+   "trap": "Statement 3 tempts you to pick Operations because 21 is the biggest number. The statement asks about percentage, not headcount.",
+   "timeTarget": 150,
+   "skills": [
+    "table-analysis"
+   ]
+  },
+  {
+   "id": "d-ta-dd-m-003",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "ta-dd-m-03",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information in the table, or **False** if it is not.",
+   "statements": [
+    "Among the courses where students study at least 10 hours a week on average, the pass rate is below 75% in every course.",
+    "Marketing alone accounts for more than one fifth of all students who passed.",
+    "The course with the lowest pass rate is also the course with the lowest average score."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    1,
+    0,
+    1
+   ],
+   "explanation": "Statement 1 (False). Courses with 10 or more hours: Statistics (96/150 = 64%), Economics (115/165 = 69.7%) and Finance (90/120 = 75%). Finance is exactly 75%, which is not below 75%.\n\nStatement 2 (True). Total passes = 144 + 96 + 189 + 115 + 90 + 72 + 69 + 91 = 866. Marketing passes: 189. 189/866 is about 21.8%, above 20%.\n\nStatement 3 (False). The lowest pass rate is Statistics (64%), but the lowest average score is Operations (60%).",
+   "tip": "Watch the boundary words: \"at least\" includes the cutoff and \"below\" excludes it.",
+   "trap": "Statement 1 hides a boundary case. Finance sits exactly on 75%, so \"below 75% in every course\" fails.",
+   "timeTarget": 150,
+   "skills": [
+    "table-analysis"
+   ]
+  },
+  {
+   "id": "d-ta-dd-m-004",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "ta-dd-m-04",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information in the table, or **False** if it is not.",
+   "statements": [
+    "Among the cities with more than 500 thousand orders, the city with the highest on-time percentage is also the city with the fewest complaints per 1,000 orders.",
+    "Mumbai received more than 1.5 times as many total complaints as Delhi.",
+    "Jaipur handled more orders per rider than any other city."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    1,
+    0,
+    0
+   ],
+   "explanation": "Statement 1 (False). Cities above 500 thousand orders: Delhi, Mumbai, Bengaluru, Hyderabad. Highest on-time: Delhi (91%). Fewest complaints per 1,000 orders: Hyderabad (3.1, versus Delhi's 3.2). Different cities.\n\nStatement 2 (True). Total complaints are orders times the complaint rate. Mumbai: 910 × 4.8 = 4,368. Delhi: 820 × 3.2 = 2,624. The ratio is 4,368/2,624 = 1.66, above 1.5.\n\nStatement 3 (True). Orders per rider: Jaipur 140,000/800 = 175. Pune and Chennai are both about 171. Jaipur is highest.\n\nShortcut for statement 2: 4.8/3.2 is exactly 1.5, and Mumbai also has more orders than Delhi, so the total must be more than 1.5 times.",
+   "tip": "A rate per 1,000 orders must be multiplied by the number of orders before you compare totals.",
+   "trap": "Statement 2: comparing rates alone (4.8 versus 3.2 is exactly 1.5 times) makes it look borderline. Mumbai's larger order volume pushes the totals clearly past 1.5.",
+   "timeTarget": 170,
+   "skills": [
+    "table-analysis"
+   ]
+  },
+  {
+   "id": "d-ta-dd-m-005",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "ta-dd-m-05",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information in the table, or **False** if it is not.",
+   "statements": [
+    "Farrow has both the highest CO2 emissions per person and the highest CO2 emissions per TWh of electricity used.",
+    "Gallen generates more renewable electricity than Brevia does.",
+    "Among the countries with a renewable share above 40%, Cantara has the lowest CO2 emissions per TWh of electricity used."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "Statement 1 (True). CO2 per person: Farrow 140/16 = 8.75 t; the next highest is Brevia at 4.33. CO2 per TWh: Farrow 140/190 = 0.74 Mt; the next is Estoria at 0.61. Farrow leads on both measures.\n\nStatement 2 (True). Renewable TWh: Gallen 520 × 0.53 = 275.6; Brevia 910 × 0.18 = 163.8. Gallen is higher.\n\nStatement 3 (False). Countries above 40%: Aldoria, Cantara, Dunmere, Gallen, Hesper. CO2 per TWh: Cantara 6/75 = 0.080, but Hesper 2/38 = 0.053. Hesper is lower, so Cantara is not the lowest.",
+   "tip": "When a statement says \"both\", check the second condition even if the first one holds.",
+   "trap": "Statement 3: Cantara looks like the cleanest because 81% of its electricity is renewable, but Hesper (95%) emits even less per TWh.",
+   "timeTarget": 180,
+   "skills": [
+    "table-analysis"
+   ]
+  },
+  {
+   "id": "d-ta-dd-m-006",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "yesno",
+   "stimulusId": "ta-dd-m-06",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information in the table, or **False** if it is not.",
+   "statements": [
+    "The hotel with the highest annual room revenue is not the hotel with the highest RevPAR.",
+    "Palm Court earns the highest annual room revenue per staff member.",
+    "The hotels with more than 200 rooms together generate less than half of the chain's total annual room revenue."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "Annual room revenue ($m): Harbour View 8.76, City Central 9.81, Palm Court 9.77, Airport Inn 7.28, Lakeside 5.69, Old Town 3.55, Summit 9.68. The chain total is about 54.54.\n\nStatement 1 (True). The highest revenue is City Central (9.81). The highest RevPAR is Palm Court: 0.85 × 210 = $178.5, versus City Central at 0.70 × 120 = $84.\n\nStatement 2 (False). Revenue per staff member: Palm Court 9.77m/135 = $72.4k, Old Town 3.55m/48 = $74.0k. Old Town is higher.\n\nStatement 3 (True). Hotels above 200 rooms: City Central, Airport Inn, Summit = 9.81 + 7.28 + 9.68 = 26.77. That is 26.77/54.54 = 49.1%, so just under half.",
+   "tip": "Build the derived column you need (revenue, RevPAR, revenue per staff) once, then answer every statement from it.",
+   "trap": "Statement 2: Palm Court wins on RevPAR and is near the top on total revenue, so it feels like the winner on everything. Old Town's small staff flips the per-staff ranking.",
+   "timeTarget": 180,
+   "skills": [
+    "table-analysis"
+   ]
+  },
+  {
+   "id": "d-gi-dd-m-001",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-dd-m-01",
+   "prompt": "Select the options from the drop-down menus that create the most accurate statement based on the information provided in the chart.\n\nProduct A's quarterly revenue first exceeded Product B's in [[1]]. Over the full year, Product A's total revenue was approximately [[2]] of Product B's total revenue.",
+   "blanks": [
+    [
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    [
+     "94%",
+     "97%",
+     "100%",
+     "103%",
+     "106%"
+    ]
+   ],
+   "answer": [
+    2,
+    1
+   ],
+   "explanation": "Blank 1: compare bar heights quarter by quarter. Q1: A 12 vs B 20. Q2: 15 vs 18. Q3: 18 vs 16, so A is ahead for the first time in Q3. In Q2 A is still behind by 3.\n\nBlank 2: total A = 12 + 15 + 18 + 21 = 66. Total B = 20 + 18 + 16 + 14 = 68. 66/68 = 97.1%, so about 97%. The ratio is below 100% because A's early deficit outweighs its later lead.\n\nSpot-check: the gaps are −8, −3, +2, +7, which sum to −2. A is 2 below B in total, which is about 3% of 68.",
+   "tip": "For \"total\" questions, sum the series and compare; do not eyeball the last bars.",
+   "trap": "Picking 103% because Product A finishes the year on top. The early quarters, where A trails by a lot, outweigh the late lead.",
+   "timeTarget": 120,
+   "skills": [
+    "graphics-interpretation"
+   ]
+  },
+  {
+   "id": "d-gi-dd-m-002",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-dd-m-02",
+   "prompt": "Select the options from the drop-down menus that create the most accurate statement based on the information provided in the chart.\n\nFrom January to June, organic visits increased by approximately [[1]]. The largest month-on-month percentage increase in paid visits occurred in [[2]].",
+   "blanks": [
+    [
+     "55%",
+     "65%",
+     "75%",
+     "85%"
+    ],
+    [
+     "February",
+     "March",
+     "April",
+     "May"
+    ]
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "Blank 1: organic visits rose from 40 to 66 thousand. The increase is 26, and 26/40 = 65%.\n\nBlank 2: paid visits by month are 20, 24, 26, 36, 38, 39. Percentage increases: Feb 4/20 = 20%, Mar 2/24 = 8.3%, Apr 10/26 = 38.5%, May 2/36 = 5.6%, Jun 1/38 = 2.6%. April is largest.\n\nNote that April also has the largest absolute jump (10 thousand), but the question is about percentages. The two happen to agree here, so use the quick visual check: the steepest segment of the Paid line is March to April.",
+   "tip": "Percent change is the change divided by the starting value. Use the earlier month as the base.",
+   "trap": "Dividing the organic increase by the June figure (26/66 = 39%) instead of the January starting point.",
+   "timeTarget": 120,
+   "skills": [
+    "graphics-interpretation"
+   ]
+  },
+  {
+   "id": "d-gi-dd-m-003",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "dropdown",
+   "stimulusId": "gi-dd-m-03",
+   "prompt": "Select the options from the drop-down menus that create the most accurate statement based on the information provided in the chart.\n\nMaterials made up the largest share of total production cost in [[1]]. Between 2021 and 2024, overheads increased by approximately [[2]].",
+   "blanks": [
+    [
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ],
+    [
+     "35%",
+     "40%",
+     "43%",
+     "47%",
+     "53%"
+    ]
+   ],
+   "answer": [
+    2,
+    3
+   ],
+   "explanation": "Blank 1: compute the materials share each year. 2021: 30/70 = 42.9%. 2022: 32/75 = 42.7%. 2023: 36/80 = 45.0%. 2024: 40/90 = 44.4%. The highest share is 2023. The largest absolute materials cost is 2024 (40), which is the tempting wrong answer.\n\nBlank 2: overheads are 15 in 2021 and 22 in 2024. Increase = 7, and 7/15 = 46.7%, so about 47%.\n\nTip: stacked bars show each segment's size, not its share. Shares need a division by the bar total.",
+   "tip": "In a stacked chart, a segment's size and its share of the bar are different things. Divide by the bar total for shares.",
+   "trap": "Choosing 2024 for blank 1 because the materials segment is tallest there. It is the biggest in rupees but not the biggest share of that year's total.",
+   "timeTarget": 150,
+   "skills": [
+    "graphics-interpretation"
+   ]
+  },
+  {
+   "id": "d-gi-dd-m-004",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "dropdown",
+   "stimulusId": "gi-dd-m-04",
+   "prompt": "Select the options from the drop-down menus that create the most accurate statement based on the information provided in the chart.\n\nThe store with the highest sales per advertising dollar is [[1]]. If the store with the lowest sales per advertising dollar had matched the ratio of that top store, its sales would have been higher by approximately [[2]].",
+   "blanks": [
+    [
+     "Store A",
+     "Store C",
+     "Store E",
+     "Store G"
+    ],
+    [
+     "$80k",
+     "$100k",
+     "$120k",
+     "$140k"
+    ]
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "Sales per advertising dollar is y divided by x, which is the slope of the line from the origin to each point.\n\nStore A: 120/10 = 12.0. Store B: 10.0. Store C: 10.5. Store D: 9.2. Store E: 11.0. Store F: 300/35 = 8.57. Store G: 10.5. Store H: 400/45 = 8.9.\n\nHighest ratio: Store A (12.0). Lowest ratio: Store F (8.57).\n\nIf Store F matched A's ratio, its sales would be 35 × 12 = $420k instead of $300k, an increase of $120k.\n\nNote that Store G has the highest sales overall, but not the best ratio.",
+   "tip": "On a scatter plot, a ratio of y to x is the steepness of the line from the origin to the point. Compare slopes, not heights.",
+   "trap": "Choosing Store G because it has the highest sales. Sales per advertising dollar rewards low spending that still produces sales.",
+   "timeTarget": 160,
+   "skills": [
+    "graphics-interpretation"
+   ]
+  },
+  {
+   "id": "d-gi-dd-m-005",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "dropdown",
+   "stimulusId": "gi-dd-m-05",
+   "prompt": "Select the options from the drop-down menus that create the most accurate statement based on the information provided in the chart.\n\nSalaries and Technology together account for [[1]] of the budget. The amount budgeted for Marketing is [[2]].",
+   "blanks": [
+    [
+     "46%",
+     "48%",
+     "50%",
+     "52%"
+    ],
+    [
+     "$320,000",
+     "$350,000",
+     "$400,000",
+     "$420,000"
+    ]
+   ],
+   "answer": [
+    1,
+    1
+   ],
+   "explanation": "Blank 1: Salaries 36% + Technology 12% = 48%.\n\nBlank 2: Marketing is 14% of $2.5 million. 10% is $250,000, 4% is $100,000, so 14% is $350,000. (Check: 0.14 × 2,500,000 = 350,000.)\n\nA quick way to check slices: they should sum to 100%. 36 + 28 + 14 + 12 + 10 = 100.",
+   "tip": "Pie charts give shares, so a dollar amount needs the total multiplied by the share.",
+   "trap": "Reading \"Marketing 14\" as $14,000 or as 14 out of the 2.5 million, rather than 14% of the whole budget.",
+   "timeTarget": 120,
+   "skills": [
+    "graphics-interpretation"
+   ]
+  },
+  {
+   "id": "d-gi-dd-m-006",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "dropdown",
+   "stimulusId": "gi-dd-m-06",
+   "prompt": "Select the options from the drop-down menus that create the most accurate statement based on the information provided in the chart.\n\nBrand X's market share first rose above Brand Y's in [[1]]. From 2021 to 2025, Brand X's market share grew by approximately [[2]] in relative terms.",
+   "blanks": [
+    [
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ],
+    [
+     "12%",
+     "35%",
+     "45%",
+     "55%",
+     "65%"
+    ]
+   ],
+   "answer": [
+    2,
+    3
+   ],
+   "explanation": "Blank 1: the X and Y lines meet in 2023 at 27% each, which is a tie, not a lead. X is first above Y in 2024 (31 versus 25).\n\nBlank 2: X goes from 22% to 34%. That is a rise of 12 percentage points, but the question asks for relative growth: 12/22 = 54.5%, so about 55%. The choice of 12% is the percentage-point change.\n\nTip: \"percentage points\" are differences between percentages. \"Percent growth\" divides by the starting percentage.",
+   "tip": "A change in a percentage share can be quoted in points (34 − 22 = 12) or in relative terms (12/22 = 55%). Read which one is asked for.",
+   "trap": "Choosing 2023 because the lines touch there, or 12% because 34 − 22 = 12. A tie is not \"above\", and points are not percent.",
+   "timeTarget": 120,
+   "skills": [
+    "graphics-interpretation"
+   ]
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-001",
+   "stimulusId": "msr-dd-m-01",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Which venue and caterer combination has the **lowest total cost** among the combinations that meet every requirement in the brief?",
+   "choices": [
+    "Orchid with Green Plate",
+    "Lakeview with Green Plate",
+    "Palm Grove with Green Plate",
+    "Skyline with Green Plate",
+    "Lakeview with Spice Route"
+   ],
+   "answer": 1,
+   "explanation": "Total cost = 2 × daily rate + (90 × 2 × caterer price) + coaches if the venue is more than 25 km away.\n\nFirst remove venues that cannot seat 90. Orchid seats only 80, so it is out even though Orchid with Green Plate (₹4,82,000) looks cheapest.\n\nThe candidates with Green Plate (₹900 × 180 = ₹1,62,000): Lakeview 3,60,000 + 1,62,000 = ₹5,22,000. Palm Grove 3,00,000 + 80,000 coaches + 1,62,000 = ₹5,42,000. Skyline 4,20,000 + 1,62,000 = ₹5,82,000.\n\nLakeview with Green Plate is the cheapest eligible option at ₹5,22,000.",
+   "tip": "Apply the hard constraints (capacity) before you compare costs. A cheaper option that breaks a rule is not an option.",
+   "trap": "Choosing Orchid with Green Plate because it has the lowest total. It fails the capacity requirement of 90."
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-002",
+   "stimulusId": "msr-dd-m-01",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "How many of the venue and caterer combinations meet the capacity requirement **and** keep the total cost within the ₹6,00,000 budget?",
+   "choices": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "answer": 2,
+   "explanation": "Eligible venues (capacity 90 or more): Lakeview, Palm Grove, Skyline, Riverside. Orchid is out.\n\nTotal costs:\nLakeview: Spice Route ₹5,58,000; Green Plate ₹5,22,000; Royal Feast ₹6,12,000.\nPalm Grove (with ₹80,000 coaches): Spice Route ₹5,78,000; Green Plate ₹5,42,000; Royal Feast ₹6,32,000.\nSkyline: Spice Route ₹6,18,000; Green Plate ₹5,82,000; Royal Feast ₹6,72,000.\nRiverside: Spice Route ₹6,78,000; Green Plate ₹6,42,000; Royal Feast ₹7,32,000.\n\nWithin ₹6,00,000: Lakeview with Spice Route and Green Plate, Palm Grove with Spice Route and Green Plate, and Skyline with Green Plate. That is 5.",
+   "tip": "Make a small grid of combinations and tick off the ones that pass each rule. It is faster and safer than doing it in your head.",
+   "trap": "Forgetting the ₹80,000 coach cost for Palm Grove, which would make its Royal Feast option look affordable, or counting Orchid options."
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-003",
+   "stimulusId": "msr-dd-m-01",
+   "difficulty": 4,
+   "format": "yesno",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information provided, or **False** if it is not.",
+   "statements": [
+    "For any given caterer, choosing Palm Grove instead of Lakeview adds exactly ₹20,000 to the total cost.",
+    "The cheapest combination that meets every requirement costs less than 88% of the budget.",
+    "Riverside would fit within the budget if it were paired with Spice Route."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "Statement 1 (True). Palm Grove has a lower daily rate (₹1,50,000 against ₹1,80,000), saving ₹30,000 a day or ₹60,000 over two days. But Palm Grove is 40 km away, so coaches add ₹80,000. Net change: +₹20,000, whichever caterer is used.\n\nStatement 2 (True). The cheapest eligible combination is Lakeview with Green Plate at ₹5,22,000. 88% of ₹6,00,000 is ₹5,28,000, and 5,22,000 is below that (it is 87%).\n\nStatement 3 (False). Riverside with Spice Route costs 4,80,000 + 1,98,000 = ₹6,78,000, which is above ₹6,00,000. (Riverside is 22 km away, so no coaches are needed.)",
+   "tip": "When two options differ in several ways, work out the net difference once and reuse it.",
+   "trap": "Statement 1: many people stop at the lower daily rate and assume Palm Grove is cheaper. The coaches reverse the saving."
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-004",
+   "stimulusId": "msr-dd-m-02",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In which pilot market did monthly Pro revenue rise by the **largest percentage** compared with June?",
+   "choices": [
+    "Market A",
+    "Market B",
+    "Market C",
+    "Markets A and B tied",
+    "Revenue did not rise in any market"
+   ],
+   "answer": 0,
+   "explanation": "Revenue = price × subscribers. June revenue used the $12 price.\n\nMarket A: June 12 × 20,000 = $240,000. Pilot 14 × 18,400 = $257,600. Increase 7.3%.\nMarket B: June 12 × 15,000 = $180,000. Pilot 15 × 12,750 = $191,250. Increase 6.25%.\nMarket C: June 12 × 10,000 = $120,000. Pilot 13 × 9,600 = $124,800. Increase 4.0%.\n\nMarket A has the largest percentage rise. Note that Market B had the largest price increase, and Market A the largest dollar gain, but the question asks for percentage.",
+   "tip": "Revenue questions need both price and quantity. Compute old and new revenue for each case, then compare percentages.",
+   "trap": "Picking Market B because it had the biggest price increase ($3). It also lost the most subscribers, so its revenue gain is smaller in percentage terms."
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-005",
+   "stimulusId": "msr-dd-m-02",
+   "difficulty": 4,
+   "format": "yesno",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information provided, or **False** if it is not.",
+   "statements": [
+    "In Market B, exactly 15% of June subscribers were lost during the pilot month.",
+    "Monthly Pro revenue in Market C rose by at least 5%.",
+    "Per $1 of price increase, Market A lost a smaller percentage of its subscribers than Market B did."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "Statement 1 (True). Market B went from 15,000 to 12,750, a loss of 2,250. 2,250/15,000 = 15%.\n\nStatement 2 (False). Market C revenue rose from $120,000 to $124,800, which is +4.0%, below 5%.\n\nStatement 3 (True). Market A lost 1,600 of 20,000 (8%) on a $2 increase, which is 4% per dollar. Market B lost 15% on a $3 increase, which is 5% per dollar. A is lower.\n\nThis kind of \"loss per dollar\" comparison is the key to scaling pilot results up to a national price change.",
+   "tip": "To compare unlike pilots, convert each to a common unit, such as percent lost per $1 of increase.",
+   "trap": "Statement 3: Market B lost more subscribers in total (2,250 against 1,600), but the question is per dollar and as a percentage."
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-006",
+   "stimulusId": "msr-dd-m-02",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Using the committee's assumptions, what is the projected monthly Pro revenue after a national move to $15, and does it meet the 5% requirement?",
+   "choices": [
+    "$1,200,000, which meets the requirement",
+    "$816,000, which does not meet the requirement",
+    "$1,020,000, which meets the requirement",
+    "$1,020,000, which does not meet the requirement",
+    "$960,000, which does not meet the requirement"
+   ],
+   "answer": 2,
+   "explanation": "The June national base is 80 thousand subscribers (read from the chart). June revenue = 80,000 × $12 = $960,000.\n\nThe new price is $15, which matches Market B's pilot. Market B lost 15% of its subscribers, so assume the national base falls to 80,000 × 0.85 = 68,000.\n\nProjected revenue = 68,000 × $15 = $1,020,000.\n\nChange: 1,020,000/960,000 = 1.0625, an increase of 6.25%, which is above 5%. The requirement is met.\n\nWrong options: $1,200,000 ignores subscriber loss; $816,000 uses the old $12 price on the reduced base.",
+   "tip": "Projection questions chain three steps: read the base, apply the loss, apply the new price.",
+   "trap": "Stopping at $1,200,000 (80,000 × $15) and forgetting that some subscribers will leave."
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-007",
+   "stimulusId": "msr-dd-m-03",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "How many containers must the company order each month from **Delta** to obtain at least 12,000 usable units?",
+   "choices": [
+    "12",
+    "13",
+    "14",
+    "15",
+    "16"
+   ],
+   "answer": 2,
+   "explanation": "Delta's defect rate is 8%, so only 92% of the units are usable.\n\n12,000 usable units needs 12,000 ÷ 0.92 = about 13,043 units ordered. Containers hold 1,000 units each, so we need 14 containers (14,000 units).\n\nCheck 13 containers: 13,000 × 0.92 = 11,960 usable units, which is 40 short. So 13 is not enough. 14 containers give 12,880 usable units.",
+   "tip": "When quantities come in fixed lots, always round up, and check the lot just below your answer to confirm it falls short.",
+   "trap": "Rounding 13,043 down to 13 containers, or ordering exactly 12,000 units and ignoring the defects."
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-008",
+   "stimulusId": "msr-dd-m-03",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Which supplier should the company choose to **minimise total monthly cost** while meeting all requirements in the email?",
+   "choices": [
+    "Alpha",
+    "Beta",
+    "Gamma",
+    "Delta",
+    "There is a tie for the lowest cost"
+   ],
+   "answer": 1,
+   "explanation": "First compute the containers needed and the monthly cost for each supplier.\n\nAlpha: 12,000 ÷ 0.98 = 12,245, so 13 containers. Cost 13,000 × $4.00 + 13 × $900 = $52,000 + $11,700 = $63,700.\nBeta: 12,000 ÷ 0.95 = 12,632, so 13 containers. Cost 13,000 × $3.70 + 13 × $1,100 = $48,100 + $14,300 = $62,400.\nGamma: 12,000 ÷ 0.99 = 12,121, so 13 containers. Cost 13,000 × $4.30 + 13 × $700 = $55,900 + $9,100 = $65,000.\nDelta: 14 containers, cost 14,000 × $3.40 + 14 × $800 = $47,600 + $11,200 = $58,800.\n\nDelta is cheapest but its 35-day lead time breaks the 30-day rule. Among the rest, Beta at $62,400 is the lowest.",
+   "tip": "Apply pass/fail rules (like lead time) before you rank the options by cost.",
+   "trap": "Choosing Delta because it has the lowest price per unit and the lowest total. Its lead time of 35 days is over the limit.",
+   "time": 170
+  },
+  {
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "skills": [
+    "multi-source-reasoning"
+   ],
+   "timeTarget": 150,
+   "id": "d-msr-dd-m-009",
+   "stimulusId": "msr-dd-m-03",
+   "difficulty": 5,
+   "format": "yesno",
+   "prompt": "Click on each statement and select **True** if the statement is supported by the information provided, or **False** if it is not.",
+   "statements": [
+    "Alpha's total monthly cost per usable unit received is lower than Gamma's.",
+    "Beta's total monthly cost is more than 5% lower than Alpha's.",
+    "Ignoring lead time, switching from Beta to Delta would save more than $3,000 a month."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "Use the monthly totals: Alpha $63,700, Beta $62,400, Gamma $65,000, Delta $58,800.\n\nStatement 1 (True). Alpha receives 13,000 × 0.98 = 12,740 usable units: $63,700 ÷ 12,740 = $5.00 each. Gamma receives 13,000 × 0.99 = 12,870 usable units: $65,000 ÷ 12,870 = about $5.05. Alpha is lower.\n\nStatement 2 (False). Beta saves $1,300 compared with Alpha. 1,300 ÷ 63,700 is about 2.0%, well below 5%.\n\nStatement 3 (True). Beta minus Delta is $62,400 − $58,800 = $3,600, which is more than $3,000. Delta would save about $3,600 a month, but only if lead time were ignored.",
+   "tip": "Compute each supplier's total once, in a small list, then answer every statement from that list.",
+   "trap": "Statement 1: comparing the unit prices ($4.00 against $4.30) alone is not enough. The question is about cost per usable unit including freight.",
+   "time": 180
+  }
+ ]
+}

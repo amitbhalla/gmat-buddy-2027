@@ -1,0 +1,786 @@
+[
+ {
+  "term": "Adaptive test",
+  "category": "exam",
+  "definition": "A test that adjusts to you as you go. On the GMAT Focus each answer changes the difficulty of later questions in that section.",
+  "example": "Answer a hard question right and the next one tends to be harder."
+ },
+ {
+  "term": "Question-level adaptive",
+  "category": "exam",
+  "definition": "The GMAT adapts after every single question, not after blocks of questions."
+ },
+ {
+  "term": "Percentile",
+  "category": "exam",
+  "definition": "The share of test takers you scored higher than. A 90th percentile means you beat about 90 percent of them.",
+  "example": "A total score and its percentile appear on your score report."
+ },
+ {
+  "term": "Total score",
+  "category": "exam",
+  "definition": "The overall GMAT Focus score on a 205 to 805 scale in steps of 10, ending in 5 (for example 655)."
+ },
+ {
+  "term": "Section score",
+  "category": "exam",
+  "definition": "The score for Quant, Verbal or Data Insights, each from 60 to 90."
+ },
+ {
+  "term": "Superscore",
+  "category": "exam",
+  "definition": "A GMAC feature that builds your best possible total from the strongest section scores across valid Focus Edition attempts."
+ },
+ {
+  "term": "Review & Edit",
+  "category": "exam",
+  "definition": "A feature that lets you bookmark questions in a section and change up to three answers before you finish it."
+ },
+ {
+  "term": "Bookmark",
+  "category": "exam",
+  "definition": "A flag you place on a question so you can find it again in Review & Edit."
+ },
+ {
+  "term": "Unanswered-question penalty",
+  "category": "exam",
+  "definition": "A scoring penalty applied when you leave questions blank at the end of time. Always answer everything, even with a guess."
+ },
+ {
+  "term": "Enhanced Score Report (ESR)",
+  "category": "exam",
+  "definition": "An optional paid report that breaks your performance down by question type and timing, helpful for planning a retake."
+ },
+ {
+  "term": "Official score report",
+  "category": "exam",
+  "definition": "The score report schools receive. You see the official version after the exam; free sends go to five programs."
+ },
+ {
+  "term": "Unofficial score",
+  "category": "exam",
+  "definition": "The preview score shown on screen right after you finish the exam, before the official report arrives."
+ },
+ {
+  "term": "Section order",
+  "category": "exam",
+  "definition": "The ability to take Quant, Verbal and Data Insights in any order you choose at the start of the exam."
+ },
+ {
+  "term": "Optional break",
+  "category": "exam",
+  "definition": "A single 10-minute break you can take between sections."
+ },
+ {
+  "term": "Retake",
+  "category": "exam",
+  "definition": "Taking the GMAT again. You can test up to 5 times in 12 months, with 16 days between attempts."
+ },
+ {
+  "term": "Test centre",
+  "category": "exam",
+  "definition": "A Pearson VUE site where you can take the GMAT in person. Original passport is required in India."
+ },
+ {
+  "term": "Online exam",
+  "category": "exam",
+  "definition": "The at-home version of the GMAT, taken with a proctor watching remotely."
+ },
+ {
+  "term": "Noteboard",
+  "category": "exam",
+  "definition": "The writing surface supplied for your rough work, because your own paper and pens are not allowed in the exam."
+ },
+ {
+  "term": "Score validity",
+  "category": "exam",
+  "definition": "How long a score can be sent to schools. GMAT scores are valid for five years."
+ },
+ {
+  "term": "GMAC",
+  "category": "exam",
+  "definition": "The Graduate Management Admission Council, the organisation that owns and runs the GMAT."
+ },
+ {
+  "term": "Problem Solving",
+  "category": "quant",
+  "definition": "A standard five-choice math question. All 21 Quant questions on the GMAT Focus are Problem Solving."
+ },
+ {
+  "term": "Integer",
+  "category": "quant",
+  "definition": "A whole number, positive, negative or zero. 3, 0 and −7 are integers; ½ is not."
+ },
+ {
+  "term": "Prime number",
+  "category": "quant",
+  "definition": "A whole number greater than 1 whose only factors are 1 and itself. 2 is the only even prime.",
+  "example": "2, 3, 5, 7, 11."
+ },
+ {
+  "term": "Composite number",
+  "category": "quant",
+  "definition": "A whole number greater than 1 that is not prime; it has more than two factors."
+ },
+ {
+  "term": "Factor",
+  "category": "quant",
+  "definition": "A number that divides another evenly. 1, 2, 3, 4, 6 and 12 are all factors of 12."
+ },
+ {
+  "term": "Multiple",
+  "category": "quant",
+  "definition": "A number you get by multiplying a given number by an integer. Multiples of 5 are 5, 10, 15 and so on."
+ },
+ {
+  "term": "Divisible",
+  "category": "quant",
+  "definition": "Dividing evenly with remainder zero. 12 is divisible by 4 because 12 ÷ 4 = 3 exactly."
+ },
+ {
+  "term": "Remainder",
+  "category": "quant",
+  "definition": "What is left over after division. 17 ÷ 5 gives quotient 3 and remainder 2, since 17 = 5 × 3 + 2."
+ },
+ {
+  "term": "Quotient",
+  "category": "quant",
+  "definition": "The whole-number result of a division, ignoring the remainder."
+ },
+ {
+  "term": "GCF (greatest common factor)",
+  "category": "quant",
+  "definition": "The largest number that divides two or more numbers evenly. GCF of 12 and 18 is 6."
+ },
+ {
+  "term": "LCM (least common multiple)",
+  "category": "quant",
+  "definition": "The smallest positive number that is a multiple of each number. LCM of 4 and 6 is 12."
+ },
+ {
+  "term": "Prime factorisation",
+  "category": "quant",
+  "definition": "Writing a number as a product of primes. 60 = 2² × 3 × 5."
+ },
+ {
+  "term": "Even and odd",
+  "category": "quant",
+  "definition": "Even numbers are divisible by 2; odd numbers are not. Even + even is even, odd × odd is odd."
+ },
+ {
+  "term": "Consecutive integers",
+  "category": "quant",
+  "definition": "Integers in order with no gaps, like 7, 8, 9. Their difference is always 1."
+ },
+ {
+  "term": "Absolute value",
+  "category": "quant",
+  "definition": "The distance of a number from zero, always non-negative. |−5| = 5.",
+  "example": "Written |x|."
+ },
+ {
+  "term": "Reciprocal",
+  "category": "quant",
+  "definition": "The number you multiply by to get 1. The reciprocal of 3/4 is 4/3."
+ },
+ {
+  "term": "Exponent",
+  "category": "quant",
+  "definition": "A small raised number saying how many times to multiply the base by itself. 2⁵ = 32."
+ },
+ {
+  "term": "Square root",
+  "category": "quant",
+  "definition": "The non-negative number that multiplies by itself to give the original. √49 = 7."
+ },
+ {
+  "term": "Perfect square",
+  "category": "quant",
+  "definition": "The square of an integer, such as 1, 4, 9, 16, 25."
+ },
+ {
+  "term": "Factorial",
+  "category": "quant",
+  "definition": "The product of all positive integers up to n, written n!. 5! = 120. By definition 0! = 1."
+ },
+ {
+  "term": "Ratio",
+  "category": "quant",
+  "definition": "A comparison of quantities. A ratio of 3:2 means 3 parts to 2 parts."
+ },
+ {
+  "term": "Proportion",
+  "category": "quant",
+  "definition": "An equation saying two ratios are equal, like 3/4 = 9/12."
+ },
+ {
+  "term": "Percent",
+  "category": "quant",
+  "definition": "Parts per hundred. 35% means 35/100 or 0.35."
+ },
+ {
+  "term": "Percent change",
+  "category": "quant",
+  "definition": "The change divided by the original, times 100. From 50 to 65 is a 30% increase."
+ },
+ {
+  "term": "Percentage points",
+  "category": "quant",
+  "definition": "The simple difference between two percentages. From 20% to 25% is 5 percentage points."
+ },
+ {
+  "term": "Simple interest",
+  "category": "quant",
+  "definition": "Interest paid only on the original amount: I = P × r × t."
+ },
+ {
+  "term": "Compound interest",
+  "category": "quant",
+  "definition": "Interest paid on the original amount plus past interest: A = P(1 + r)<sup>t</sup> for annual compounding."
+ },
+ {
+  "term": "Mean (average)",
+  "category": "quant",
+  "definition": "The sum of the values divided by how many there are."
+ },
+ {
+  "term": "Median",
+  "category": "quant",
+  "definition": "The middle value when the numbers are in order; the average of the two middle values if there is an even number."
+ },
+ {
+  "term": "Mode",
+  "category": "quant",
+  "definition": "The value that appears most often in a set."
+ },
+ {
+  "term": "Range",
+  "category": "quant",
+  "definition": "The largest value minus the smallest value in a set."
+ },
+ {
+  "term": "Standard deviation (SD)",
+  "category": "quant",
+  "definition": "A measure of how spread out numbers are around the mean. A small SD means values cluster near the mean."
+ },
+ {
+  "term": "Weighted average",
+  "category": "quant",
+  "definition": "An average where some values count more than others, based on how often they occur."
+ },
+ {
+  "term": "Linear equation",
+  "category": "quant",
+  "definition": "An equation where the variable has no exponent above one, like 3x + 5 = 20."
+ },
+ {
+  "term": "Quadratic equation",
+  "category": "quant",
+  "definition": "An equation with a squared variable, like x² − 5x + 6 = 0. It can have up to two roots."
+ },
+ {
+  "term": "Inequality",
+  "category": "quant",
+  "definition": "A statement comparing two expressions with <, >, ≤ or ≥. Flip the sign when multiplying or dividing by a negative."
+ },
+ {
+  "term": "Function",
+  "category": "quant",
+  "definition": "A rule that gives exactly one output for each input, written f(x)."
+ },
+ {
+  "term": "Arithmetic sequence",
+  "category": "quant",
+  "definition": "A list where each term differs from the last by a constant, like 4, 7, 10, 13."
+ },
+ {
+  "term": "Geometric sequence",
+  "category": "quant",
+  "definition": "A list where each term is the previous one times a constant ratio, like 3, 6, 12, 24."
+ },
+ {
+  "term": "Permutation",
+  "category": "quant",
+  "definition": "An arrangement where order matters. Choosing a president then a secretary from 5 people: 5 × 4 = 20."
+ },
+ {
+  "term": "Combination",
+  "category": "quant",
+  "definition": "A selection where order does not matter. Choosing a team of 2 from 5 people: 5C2 = 10."
+ },
+ {
+  "term": "Probability",
+  "category": "quant",
+  "definition": "How likely an event is: favourable outcomes divided by total equally likely outcomes. Always between 0 and 1."
+ },
+ {
+  "term": "Independent events",
+  "category": "quant",
+  "definition": "Events where one outcome does not change the probability of the other. Multiply their probabilities for 'and'."
+ },
+ {
+  "term": "Mutually exclusive",
+  "category": "quant",
+  "definition": "Events that cannot both happen. Their 'or' probability is the plain sum."
+ },
+ {
+  "term": "Overlapping sets",
+  "category": "quant",
+  "definition": "A problem where some items belong to more than one group. Use Total = A + B − Both + Neither."
+ },
+ {
+  "term": "Venn diagram",
+  "category": "quant",
+  "definition": "A picture of overlapping circles showing which items belong to which groups."
+ },
+ {
+  "term": "Rate",
+  "category": "quant",
+  "definition": "How much of something happens per unit of time. Speed is distance per time; work rate is job per time."
+ },
+ {
+  "term": "Mixture problem",
+  "category": "quant",
+  "definition": "A problem where two or more solutions or items are combined, and you track the amount of the key ingredient."
+ },
+ {
+  "term": "Units digit",
+  "category": "quant",
+  "definition": "The last digit of a number. Powers of integers follow repeating units-digit cycles."
+ },
+ {
+  "term": "Evenly spaced set",
+  "category": "quant",
+  "definition": "A set where consecutive terms differ by the same amount. Mean and median are equal."
+ },
+ {
+  "term": "Argument",
+  "category": "verbal",
+  "definition": "A conclusion supported by one or more premises. Critical Reasoning questions ask you to analyse one."
+ },
+ {
+  "term": "Premise",
+  "category": "verbal",
+  "definition": "A stated fact or reason offered as evidence for a conclusion."
+ },
+ {
+  "term": "Conclusion",
+  "category": "verbal",
+  "definition": "The main claim an argument is trying to prove. Look for words like 'therefore' or 'so'."
+ },
+ {
+  "term": "Assumption",
+  "category": "verbal",
+  "definition": "An unstated idea the argument needs for its conclusion to follow from its premises."
+ },
+ {
+  "term": "Necessary assumption",
+  "category": "verbal",
+  "definition": "A statement that must be true for the argument to work. If you negate it, the argument breaks."
+ },
+ {
+  "term": "Negation test",
+  "category": "verbal",
+  "definition": "A check for assumptions: negate the answer choice, and if the argument falls apart, the choice is a necessary assumption."
+ },
+ {
+  "term": "Inference",
+  "category": "verbal",
+  "definition": "A conclusion that must be true given the information. In RC it is a small logical step beyond the text."
+ },
+ {
+  "term": "Strengthen",
+  "category": "verbal",
+  "definition": "A question type asking for a fact that makes the conclusion more likely to be true."
+ },
+ {
+  "term": "Weaken",
+  "category": "verbal",
+  "definition": "A question type asking for a fact that makes the conclusion less likely to be true."
+ },
+ {
+  "term": "Evaluate the argument",
+  "category": "verbal",
+  "definition": "A question type asking which piece of information would best help you judge the argument."
+ },
+ {
+  "term": "Paradox (discrepancy)",
+  "category": "verbal",
+  "definition": "A CR question where two facts seem to conflict, and you find the fact that resolves the conflict."
+ },
+ {
+  "term": "Boldface question",
+  "category": "verbal",
+  "definition": "A CR question asking what role two highlighted statements play in the argument, such as premise or conclusion."
+ },
+ {
+  "term": "Flaw",
+  "category": "verbal",
+  "definition": "An error in the reasoning, for example confusing correlation with cause."
+ },
+ {
+  "term": "Correlation vs causation",
+  "category": "verbal",
+  "definition": "Two things happening together does not prove one causes the other. A third cause or reverse direction may explain it."
+ },
+ {
+  "term": "Counter-argument",
+  "category": "verbal",
+  "definition": "A point raised against a claim, often introduced by 'however' or 'critics argue'."
+ },
+ {
+  "term": "Alternative cause",
+  "category": "verbal",
+  "definition": "A different explanation for an effect, used to weaken a causal argument."
+ },
+ {
+  "term": "Sample bias",
+  "category": "verbal",
+  "definition": "When the group studied does not represent the larger population, making the conclusion unreliable."
+ },
+ {
+  "term": "Scope",
+  "category": "verbal",
+  "definition": "The range of topics an argument or passage covers. Answers outside the scope are usually wrong."
+ },
+ {
+  "term": "Extreme language",
+  "category": "verbal",
+  "definition": "Words like always, never, all, only. Answers with such words are usually too strong to be supported."
+ },
+ {
+  "term": "Paraphrase",
+  "category": "verbal",
+  "definition": "Restating an idea in different words. Correct RC answers often paraphrase the passage."
+ },
+ {
+  "term": "Main idea",
+  "category": "verbal",
+  "definition": "The central point of the whole passage, not just one paragraph."
+ },
+ {
+  "term": "Primary purpose",
+  "category": "verbal",
+  "definition": "What the author is trying to do in the passage: describe, argue, compare, explain, or critique."
+ },
+ {
+  "term": "Tone",
+  "category": "verbal",
+  "definition": "The author's attitude, such as critical, neutral, enthusiastic or skeptical."
+ },
+ {
+  "term": "Passage map",
+  "category": "verbal",
+  "definition": "A brief note on scratch paper summarising what each paragraph does, to find details quickly later."
+ },
+ {
+  "term": "Transition word",
+  "category": "verbal",
+  "definition": "A word like 'however' or 'moreover' that signals the direction of the argument."
+ },
+ {
+  "term": "Function question",
+  "category": "verbal",
+  "definition": "An RC question asking why the author included a detail, not what the detail says."
+ },
+ {
+  "term": "Application question",
+  "category": "verbal",
+  "definition": "An RC question asking you to apply the passage's idea to a new situation."
+ },
+ {
+  "term": "Out of scope",
+  "category": "verbal",
+  "definition": "An answer choice discussing something the argument or passage never mentions."
+ },
+ {
+  "term": "Distractor",
+  "category": "verbal",
+  "definition": "A wrong answer designed to look right, often using words from the passage."
+ },
+ {
+  "term": "Sufficient",
+  "category": "di",
+  "definition": "In Data Sufficiency, information that gives a single definite answer to the question."
+ },
+ {
+  "term": "Data Sufficiency (DS)",
+  "category": "di",
+  "definition": "A question with two statements where you decide if they give enough information to answer, without necessarily solving it."
+ },
+ {
+  "term": "Value question",
+  "category": "di",
+  "definition": "A DS question asking for a specific number. A statement is sufficient only if it fixes one value."
+ },
+ {
+  "term": "Yes/No question",
+  "category": "di",
+  "definition": "A DS question asking whether something is true. A statement is sufficient only if it always gives the same answer."
+ },
+ {
+  "term": "Table Analysis",
+  "category": "di",
+  "definition": "A Data Insights question type using a sortable table with statements to judge as true or false."
+ },
+ {
+  "term": "Sortable table",
+  "category": "di",
+  "definition": "A table on screen you can reorder by any column to find rankings, extremes and medians quickly."
+ },
+ {
+  "term": "Graphics Interpretation",
+  "category": "di",
+  "definition": "A question with a chart or graph and a sentence with two drop-down menus to complete."
+ },
+ {
+  "term": "Two-Part Analysis",
+  "category": "di",
+  "definition": "A question with a scenario where you choose one answer for each of two linked parts."
+ },
+ {
+  "term": "Multi-Source Reasoning",
+  "category": "di",
+  "definition": "A set of two or three tabs of information (text, tables, charts) with several questions drawing on them."
+ },
+ {
+  "term": "Data literacy",
+  "category": "di",
+  "definition": "The skill of reading, interpreting and drawing sound conclusions from data."
+ },
+ {
+  "term": "On-screen calculator",
+  "category": "di",
+  "definition": "A basic calculator available only in the Data Insights section."
+ },
+ {
+  "term": "Axis",
+  "category": "di",
+  "definition": "One of the reference lines of a chart, labelled with a variable and units. Always read both axes."
+ },
+ {
+  "term": "Scatter plot",
+  "category": "di",
+  "definition": "A chart showing individual data points to reveal a relationship or trend between two variables."
+ },
+ {
+  "term": "Trend line",
+  "category": "di",
+  "definition": "A line summarising the general direction of data on a scatter plot."
+ },
+ {
+  "term": "Outlier",
+  "category": "di",
+  "definition": "A data point far from the others. It can pull the mean but barely affects the median."
+ },
+ {
+  "term": "Rounding",
+  "category": "di",
+  "definition": "Approximating a number to simplify arithmetic. In DI, round carefully and check the answer options' spacing."
+ },
+ {
+  "term": "Pacing",
+  "category": "strategy",
+  "definition": "Managing your time so each question gets its fair share. Roughly 2 minutes per question on average."
+ },
+ {
+  "term": "Guess and move on",
+  "category": "strategy",
+  "definition": "Making an educated guess when stuck, so you keep time for later questions rather than burning minutes on one."
+ },
+ {
+  "term": "Elimination",
+  "category": "strategy",
+  "definition": "Removing answer choices you can prove wrong, which improves your odds when guessing."
+ },
+ {
+  "term": "Plugging in numbers",
+  "category": "strategy",
+  "definition": "Replacing variables with easy numbers to test an expression or choose an answer."
+ },
+ {
+  "term": "Backsolving",
+  "category": "strategy",
+  "definition": "Testing the answer choices in the problem, starting with the middle one, instead of solving algebraically."
+ },
+ {
+  "term": "Estimation",
+  "category": "strategy",
+  "definition": "Approximating to rule out answers, especially when choices are far apart."
+ },
+ {
+  "term": "Error log",
+  "category": "strategy",
+  "definition": "A notebook or file where you record every mistake, why it happened, and the fix, so you stop repeating it."
+ },
+ {
+  "term": "Spaced repetition",
+  "category": "strategy",
+  "definition": "Reviewing material at increasing intervals, which fixes it in long-term memory better than cramming."
+ },
+ {
+  "term": "Active recall",
+  "category": "strategy",
+  "definition": "Testing yourself from memory instead of rereading. Flashcards and practice questions are active recall."
+ },
+ {
+  "term": "Mock exam",
+  "category": "strategy",
+  "definition": "A full-length timed practice test used to measure your score and stamina under exam conditions."
+ },
+ {
+  "term": "Diagnostic",
+  "category": "strategy",
+  "definition": "An early test that shows your strengths and weaknesses so you can plan your study."
+ },
+ {
+  "term": "Taper",
+  "category": "strategy",
+  "definition": "Reducing study load in the final days before the exam so you arrive rested and sharp."
+ },
+ {
+  "term": "Section order strategy",
+  "category": "strategy",
+  "definition": "Choosing the order of Quant, Verbal and Data Insights, usually to start with your strongest section or rest your weakest."
+ },
+ {
+  "term": "Time-box",
+  "category": "strategy",
+  "definition": "Giving a task a fixed amount of time and stopping when it runs out."
+ },
+ {
+  "term": "Test-day routine",
+  "category": "strategy",
+  "definition": "A planned sequence for exam morning: sleep, food, ID, travel, warm-up, so decisions are removed."
+ },
+ {
+  "term": "Growth mindset",
+  "category": "strategy",
+  "definition": "The belief that ability improves through effort and good practice, which suits a skill like the GMAT."
+ },
+ {
+  "term": "Application round",
+  "category": "admissions",
+  "definition": "One of the fixed deadlines (Round 1, 2, 3) a school sets for applications. Earlier rounds usually have more scholarship money and seats."
+ },
+ {
+  "term": "Rolling admissions",
+  "category": "admissions",
+  "definition": "A process where applications are reviewed as they come in and decided on a continuing basis rather than at fixed deadlines."
+ },
+ {
+  "term": "Deferral",
+  "category": "admissions",
+  "definition": "An arrangement letting an admitted student start a year later, sometimes offered to those with early career plans."
+ },
+ {
+  "term": "Yield",
+  "category": "admissions",
+  "definition": "The percentage of admitted students who accept the offer. Schools watch it closely."
+ },
+ {
+  "term": "Waitlist",
+  "category": "admissions",
+  "definition": "A holding list of candidates not yet admitted or rejected. Spots open if admitted people decline."
+ },
+ {
+  "term": "LOR (letter of recommendation)",
+  "category": "admissions",
+  "definition": "A reference written by a manager or colleague who knows your work, a required part of most MBA applications."
+ },
+ {
+  "term": "MiM (Master in Management)",
+  "category": "admissions",
+  "definition": "A one-year or two-year masters for early-career candidates, often with little or no work experience."
+ },
+ {
+  "term": "MBA",
+  "category": "admissions",
+  "definition": "Master of Business Administration, typically for candidates with several years of work experience."
+ },
+ {
+  "term": "PGP (Post Graduate Programme)",
+  "category": "admissions",
+  "definition": "The name many Indian business schools use for their full-time MBA-equivalent programme, for example the one-year PGP at ISB."
+ },
+ {
+  "term": "ROI (return on investment)",
+  "category": "admissions",
+  "definition": "What you gain from the degree compared with what it costs. Salary uplift divided by total cost is the common view."
+ },
+ {
+  "term": "Forte Foundation",
+  "category": "admissions",
+  "definition": "A non-profit that supports women in business school with fellowships, events and community."
+ },
+ {
+  "term": "Class profile",
+  "category": "admissions",
+  "definition": "The published statistics for a school's current cohort, including average GMAT, work experience and countries."
+ },
+ {
+  "term": "GMAT average (median)",
+  "category": "admissions",
+  "definition": "The typical score of admitted students, published in the class profile. A guide, not a cut-off."
+ },
+ {
+  "term": "Statement of purpose (essay)",
+  "category": "admissions",
+  "definition": "A written piece explaining your goals and why this programme fits."
+ },
+ {
+  "term": "Admissions interview",
+  "category": "admissions",
+  "definition": "A conversation, often by invitation, where the school tests fit and communication."
+ },
+ {
+  "term": "Work experience",
+  "category": "admissions",
+  "definition": "Years of professional experience, which schools weigh alongside your score and academic record."
+ },
+ {
+  "term": "Scholarship",
+  "category": "admissions",
+  "definition": "Funding awarded on merit or need, which reduces what you pay."
+ },
+ {
+  "term": "Post-study work visa",
+  "category": "admissions",
+  "definition": "A permit letting international graduates work in the country after finishing, which affects ROI for study-abroad plans."
+ },
+ {
+  "term": "STEM-designated",
+  "category": "admissions",
+  "definition": "A US programme classification that can allow longer post-study work authorisation for international students."
+ },
+ {
+  "term": "GRE",
+  "category": "admissions",
+  "definition": "An alternative graduate admissions test that many business schools also accept."
+ },
+ {
+  "term": "CAT",
+  "category": "admissions",
+  "definition": "The Common Admission Test used for entry to IIMs and many Indian business schools."
+ },
+ {
+  "term": "Fit",
+  "category": "admissions",
+  "definition": "How well your goals, background and values match what a programme offers."
+ },
+ {
+  "term": "Career switcher",
+  "category": "admissions",
+  "definition": "An applicant using an MBA to move to a new function or industry."
+ },
+ {
+  "term": "Score send",
+  "category": "admissions",
+  "definition": "Sending your official GMAT score to a school. Five free sends are included with the exam."
+ },
+ {
+  "term": "Optional essay",
+  "category": "admissions",
+  "definition": "An essay for explaining weaknesses, such as a low grade or a career gap."
+ }
+]

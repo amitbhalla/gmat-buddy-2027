@@ -1,0 +1,1742 @@
+{
+ "stimuli": [],
+ "questions": [
+  {
+   "id": "q-functions-qe-p-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "If f(x) = 3x − 5, what is the value of f(4) + f(−1)?",
+   "choices": [
+    "15",
+    "−1",
+    "5",
+    "7",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "Plug each input in separately, then add.\n\nf(4) = 3(4) − 5 = 12 − 5 = 7.\n\nf(−1) = 3(−1) − 5 = −3 − 5 = −8.\n\nSo f(4) + f(−1) = 7 + (−8) = −1.\n\nCheck by another route: f(4) + f(−1) = 3(4 + (−1)) − 5 − 5 = 3(3) − 10 = −1. Notice that the −5 gets counted once for each function value, so it shows up twice. The notation f(x) just means 'run the rule on whatever sits inside the brackets', and brackets with a negative number need extra care so the sign doesn't get lost.",
+   "tip": "Put a bracket around every substituted value, especially negatives, before you multiply.",
+   "trap": "Writing f(−1) as 3 − 5 = −2 (dropping the negative sign), which gives 7 − 2 = 5. Another slip is 7 + 8 = 15 from mishandling the sign of −8.",
+   "timeTarget": 75,
+   "skills": [
+    "function-notation",
+    "substitution"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "The first term of an arithmetic sequence is 7 and the common difference is 4. What is the 20th term?",
+   "choices": [
+    "79",
+    "80",
+    "87",
+    "83",
+    "91"
+   ],
+   "answer": 3,
+   "explanation": "In an arithmetic sequence, the nth term is a₁ + (n − 1)d. To get from term 1 to term 20 you take 19 steps, not 20.\n\n20th term = 7 + 19(4) = 7 + 76 = 83.\n\nCheck by a second route: the 1st term is 7, the 2nd is 11, so term n equals 4n + 3. For n = 20 that is 80 + 3 = 83. Both methods agree.\n\nA good habit is to test the formula on a term you already know: 4(1) + 3 = 7 works for term 1, so the rule is safe. This 'steps, not terms' idea is the single most common thing the GMAT checks in sequence questions.",
+   "tip": "From term 1 to term n there are n − 1 steps, so the nth term is a₁ + (n − 1)d.",
+   "trap": "Using 20 steps instead of 19 gives 7 + 20(4) = 87. Using just 20 × 4 = 80 forgets the starting 7.",
+   "timeTarget": 75,
+   "skills": [
+    "arithmetic-sequence",
+    "nth-term"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "For all numbers a and b, the operation ★ is defined by a ★ b = a² − 2b. What is the value of (3 ★ 2) ★ 1?",
+   "choices": [
+    "23",
+    "5",
+    "19",
+    "21",
+    "25"
+   ],
+   "answer": 0,
+   "explanation": "Made-up symbols are just instructions. Work from the inside out, brackets first.\n\n3 ★ 2 = 3² − 2(2) = 9 − 4 = 5.\n\nNow the result takes the first position: 5 ★ 1 = 5² − 2(1) = 25 − 2 = 23.\n\nCheck: the symbol is not commutative, so order matters. If you wrongly computed 3 ★ (2 ★ 1), you'd get 2 ★ 1 = 4 − 2 = 2, then 3 ★ 2 = 5, a different answer (and one of the choices). The first number gets squared, the second gets doubled, and swapping them changes everything.",
+   "tip": "Treat a made-up symbol like a recipe: copy the rule, substitute, and keep the order of the inputs.",
+   "trap": "Evaluating 3 ★ (2 ★ 1) instead of (3 ★ 2) ★ 1 gives 5. Also, squaring the second number instead of the first leads to wrong values like 19 or 21.",
+   "timeTarget": 90,
+   "skills": [
+    "made-up-symbols",
+    "order-of-operations"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "What is the sum of all the integers from 11 to 40, inclusive?",
+   "choices": [
+    "750",
+    "754",
+    "765",
+    "780",
+    "795"
+   ],
+   "answer": 2,
+   "explanation": "Use the arithmetic series shortcut: sum = (number of terms) × (average of first and last).\n\nNumber of terms = 40 − 11 + 1 = 30.\n\nAverage = (11 + 40)/2 = 25.5.\n\nSum = 30 × 25.5 = 765.\n\nSecond method: the sum of 1 to 40 is 40 × 41/2 = 820. Remove 1 to 10, which is 55. So 820 − 55 = 765. Both agree.\n\nThe 'plus one' in the count is the usual place to slip: from 11 to 40 there are 30 numbers, not 29.",
+   "tip": "Sum = count × average, and count = last − first + 1.",
+   "trap": "Subtracting the wrong block, for example 820 − 66 = 754 (removing 1 to 11 as well), is a classic off-by-one. Using 30 × 25 = 750 ignores the .5 in the average.",
+   "timeTarget": 90,
+   "skills": [
+    "arithmetic-series",
+    "sum-formula"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "If f(x) = 2x + 1 and g(x) = x − 3, what is the value of f(g(5)) − g(f(5))?",
+   "choices": [
+    "−5",
+    "3",
+    "5",
+    "13",
+    "−3"
+   ],
+   "answer": 4,
+   "explanation": "Composite functions are worked from the inside out.\n\nf(g(5)): g(5) = 5 − 3 = 2, then f(2) = 2(2) + 1 = 5.\n\ng(f(5)): f(5) = 2(5) + 1 = 11, then g(11) = 11 − 3 = 8.\n\nSo f(g(5)) − g(f(5)) = 5 − 8 = −3.\n\nCheck algebraically: f(g(x)) = 2(x − 3) + 1 = 2x − 5 and g(f(x)) = (2x + 1) − 3 = 2x − 2. Their difference is (2x − 5) − (2x − 2) = −3 for every x, which explains why the answer is the same whatever x is. Composite functions usually don't commute, and this question shows how big the gap can be.",
+   "tip": "f(g(x)) means 'do g first'. Read composites from the inside out.",
+   "trap": "Reversing the order of the subtraction gives +3. Computing f(g(5)) as g(f(5)) by mistake also produces wrong values such as 5 or 13.",
+   "timeTarget": 100,
+   "skills": [
+    "composite-functions"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A sequence is defined by a₁ = 3 and aₙ = 2aₙ₋₁ + 1 for n ≥ 2. What is the units digit of a₃₀?",
+   "choices": [
+    "1",
+    "7",
+    "3",
+    "5",
+    "9"
+   ],
+   "answer": 1,
+   "explanation": "First list a few terms to find the pattern: a₁ = 3, a₂ = 7, a₃ = 15, a₄ = 31, a₅ = 63. Each term is one less than a power of 2: 4 − 1, 8 − 1, 16 − 1, 32 − 1, 64 − 1.\n\nSo aₙ = 2<sup>n+1</sup> − 1, and a₃₀ = 2³¹ − 1.\n\nUnits digits of powers of 2 repeat every 4: 2, 4, 8, 6. Since 31 = 4(7) + 3, the units digit of 2³¹ is the third in the cycle: 8.\n\nThen 8 − 1 ends in 7.\n\nCheck on a known term: a₅ = 2⁶ − 1 = 63. Correct.",
+   "tip": "When a recursive sequence is too long to list, compute 4 or 5 terms, spot the closed form, then use a units-digit cycle.",
+   "trap": "Taking the exponent as 30 instead of 31 gives 2³⁰ whose units digit is 4, so the answer 3 looks right. The exponent is n + 1, not n.",
+   "timeTarget": 120,
+   "skills": [
+    "recursive-sequence",
+    "units-digit",
+    "pattern"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "For all numbers a and b, a ◆ b = ab − a − b. If 4 ◆ x = 11, what is the value of x ◆ x?",
+   "choices": [
+    "10",
+    "11",
+    "20",
+    "15",
+    "25"
+   ],
+   "answer": 3,
+   "explanation": "First find x from the given information.\n\n4 ◆ x = 4x − 4 − x = 3x − 4 = 11, so 3x = 15 and x = 5.\n\nNow x ◆ x = 5 ◆ 5 = 25 − 5 − 5 = 15.\n\nCheck: 4 ◆ 5 = 20 − 4 − 5 = 11, as given. Another view: ab − a − b = (a − 1)(b − 1) − 1, so 5 ◆ 5 = 4 × 4 − 1 = 15 and 4 ◆ 5 = 3 × 4 − 1 = 11. The factored form is a handy shortcut for this particular rule.",
+   "tip": "Rewrite ab − a − b as (a − 1)(b − 1) − 1; many made-up operations simplify this way.",
+   "trap": "Subtracting only one 5, giving 25 − 5 = 20, forgets that both a and b are taken away.",
+   "timeTarget": 110,
+   "skills": [
+    "made-up-symbols",
+    "algebra"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In a geometric sequence of positive terms, the third term is 12 and the sixth term is 96. What is the tenth term?",
+   "choices": [
+    "1,536",
+    "768",
+    "960",
+    "1,024",
+    "3,072"
+   ],
+   "answer": 0,
+   "explanation": "In a geometric sequence each term is the previous one times a common ratio r. Going from the 3rd to the 6th term is three steps, so r³ = 96/12 = 8, which means r = 2.\n\nThe 3rd term is 12, so the 1st term is 12/4 = 3.\n\nThe 10th term is 3 × 2⁹ = 3 × 512 = 1,536.\n\nSecond method: from the 6th to the 10th term is four steps, so the 10th term = 96 × 2⁴ = 96 × 16 = 1,536.\n\nBoth methods match, and the second one never needs the first term.",
+   "tip": "To move k places in a geometric sequence, multiply by rᵏ. You rarely need the first term.",
+   "trap": "Using nine steps from the 6th term (96 × 2⁹) or stopping at the ninth term (768) are common slips. Count the steps carefully.",
+   "timeTarget": 110,
+   "skills": [
+    "geometric-sequence",
+    "ratio"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A function f is defined for positive integers by f(x) = x/2 if x is even and f(x) = 3x + 1 if x is odd. What is the value of f(f(f(7)))?",
+   "choices": [
+    "11",
+    "17",
+    "34",
+    "22",
+    "67"
+   ],
+   "answer": 2,
+   "explanation": "Apply the rule one layer at a time.\n\nf(7): 7 is odd, so 3(7) + 1 = 22.\n\nf(22): 22 is even, so 22/2 = 11.\n\nf(11): 11 is odd, so 3(11) + 1 = 34.\n\nSo f(f(f(7))) = 34.\n\nCheck by writing the chain: 7 → 22 → 11 → 34. Every arrow is exactly one use of f, and three arrows were requested. Function-by-cases questions are simply about discipline: after each step re-check whether the new number is odd or even before choosing the rule. The tempting wrong answers (11, 22, 17) are numbers that appear mid-chain or half of the final answer.",
+   "tip": "For piecewise rules, write the chain of values and re-test odd/even at every step.",
+   "trap": "Stopping after two applications (answer 11) or after one (22) is easy when you lose count of the layers. Count the f's in the question.",
+   "timeTarget": 100,
+   "skills": [
+    "piecewise-function",
+    "composite-functions"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-010",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "The sum of the first n terms of a sequence is Sₙ = n² + 3n. What is the 10th term of the sequence?",
+   "choices": [
+    "13",
+    "20",
+    "23",
+    "130",
+    "22"
+   ],
+   "answer": 4,
+   "explanation": "The nth term equals the sum of the first n terms minus the sum of the first n − 1 terms.\n\na₁₀ = S₁₀ − S₉.\n\nS₁₀ = 100 + 30 = 130.\n\nS₉ = 81 + 27 = 108.\n\na₁₀ = 130 − 108 = 22.\n\nGeneral check: aₙ = Sₙ − Sₙ₋₁ = n² + 3n − [(n − 1)² + 3(n − 1)] = 2n + 2. For n = 10 that is 22. The sequence is 4, 6, 8, ... which is arithmetic with first term S₁ = 4 and common difference 2, as expected from a quadratic sum.",
+   "tip": "A single term is a difference of two running totals: aₙ = Sₙ − Sₙ₋₁.",
+   "trap": "Answering 130 confuses the sum of ten terms with the tenth term itself. Using S₁₀ − S₁₀₋₁ with the wrong S₉ gives 20 or 23.",
+   "timeTarget": 120,
+   "skills": [
+    "series-sum",
+    "nth-term"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-011",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "The linear function f(x) = ax + b, with a > 0, satisfies f(f(x)) = 9x + 8 for all x. What is the value of f(4)?",
+   "choices": [
+    "−16",
+    "14",
+    "8",
+    "12",
+    "18"
+   ],
+   "answer": 1,
+   "explanation": "Substitute f into itself: f(f(x)) = a(ax + b) + b = a²x + ab + b.\n\nMatch with 9x + 8: a² = 9, so a = 3 (given a > 0). Then ab + b = 3b + b = 4b = 8, so b = 2.\n\nSo f(x) = 3x + 2 and f(4) = 14.\n\nCheck: f(f(x)) = 3(3x + 2) + 2 = 9x + 8. It works.\n\nThe condition a > 0 matters. With a = −3 we would get −3b + b = 8, so b = −4 and f(4) = −16, which is why −16 appears among the choices. Matching coefficients is the standard tool for functional equations like this.",
+   "tip": "When two expressions are equal for all x, match the coefficients of x and the constants separately.",
+   "trap": "Forgetting that a² = 9 has two roots, ±3, and picking the negative one gives −16. The condition a > 0 rules it out.",
+   "timeTarget": 130,
+   "skills": [
+    "composite-functions",
+    "linear-function",
+    "coefficients"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-012",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A sequence is defined by a₁ = 2, a₂ = 3, and aₙ = aₙ₋₁ − aₙ₋₂ for n ≥ 3. What is the sum of the first 100 terms?",
+   "choices": [
+    "0",
+    "2",
+    "5",
+    "4",
+    "7"
+   ],
+   "answer": 3,
+   "explanation": "Write out terms until a pattern appears: 2, 3, 1, −2, −3, −1, 2, 3, ... The sequence repeats every 6 terms.\n\nSum of one full cycle: 2 + 3 + 1 − 2 − 3 − 1 = 0.\n\n100 = 6 × 16 + 4, so the first 96 terms add to 0. The remaining four terms are 2, 3, 1, −2 and sum to 4.\n\nTotal = 4.\n\nCheck the cycle: a₇ = a₆ − a₅ = −1 − (−3) = 2 and a₈ = a₇ − a₆ = 2 − (−1) = 3, matching a₁ and a₂, so the pattern really repeats. Long sums of periodic sequences are always 'full cycles plus a remainder'.",
+   "tip": "For recursions with subtraction or alternating signs, look for a repeating cycle, then use the remainder.",
+   "trap": "Assuming that all cycles cancel entirely, giving 0, ignores the four leftover terms.",
+   "timeTarget": 130,
+   "skills": [
+    "periodic-sequence",
+    "pattern",
+    "series-sum"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-013",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "The 4th term of an arithmetic sequence is p and the 10th term is q. In terms of p and q, what is the sum of the first 13 terms?",
+   "choices": [
+    "13(p + q)/2",
+    "13(p + q)",
+    "7(p + q)/2",
+    "13(q − p)/2",
+    "13(p + q)/4"
+   ],
+   "answer": 0,
+   "explanation": "In an arithmetic sequence, the sum of n terms equals n times the average term. When n is odd, the average equals the middle term.\n\nWith 13 terms, the middle one is the 7th term. The 7th term sits exactly halfway between the 4th and the 10th (both are 3 positions away), so a₇ = (p + q)/2.\n\nSum = 13 × a₇ = 13(p + q)/2.\n\nCheck with numbers: let the sequence be 1, 2, 3, ... Then p = 4, q = 10, a₇ = 7 = (4 + 10)/2. The sum of the first 13 terms is 13 × 14/2 = 91, and 13(4 + 10)/2 = 91. Correct.\n\nPicking neat numbers to test a formula is a fast way to rule out the other choices.",
+   "tip": "In an arithmetic sequence, any term is the average of two terms placed symmetrically around it.",
+   "trap": "Writing 13(p + q) forgets to halve the average. Using 7(p + q)/2 mistakes the middle position for the number of terms.",
+   "timeTarget": 150,
+   "skills": [
+    "arithmetic-sequence",
+    "symmetry",
+    "variable-answers"
+   ]
+  },
+  {
+   "id": "q-functions-qe-p-014",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "If f(x) = x² − 6x + 5, how many distinct real values of x satisfy f(f(x)) = 0?",
+   "choices": [
+    "2",
+    "3",
+    "4",
+    "6",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Work in layers. Let y = f(x). Then f(y) = 0 means y² − 6y + 5 = 0, so (y − 1)(y − 5) = 0, giving y = 1 or y = 5.\n\nNow solve f(x) = 1 and f(x) = 5.\n\nf(x) = 1: x² − 6x + 4 = 0. The discriminant is 36 − 16 = 20 > 0, so there are 2 real roots (3 ± √5).\n\nf(x) = 5: x² − 6x = 0, so x = 0 or x = 6, which is 2 roots.\n\nNo overlap, since f(x) can't equal both 1 and 5 at the same x. Total = 4 distinct values.\n\nCheck: f(0) = 5 and f(5) = 0, so f(f(0)) = f(5) = 0. Good. Likewise f(6) = 5 and f(5) = 0.",
+   "tip": "Peel a composite equation from the outside: first solve for the inner value, then solve each inner equation.",
+   "trap": "Counting only the two values of y (answer 2) forgets that each y value can be reached by two different x values.",
+   "timeTarget": 150,
+   "skills": [
+    "composite-functions",
+    "quadratics",
+    "counting-solutions"
+   ]
+  },
+  {
+   "id": "q-functions-qe-m-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "If f(x) = x² − 2x, what is the value of f(−3)?",
+   "choices": [
+    "−15",
+    "−3",
+    "3",
+    "12",
+    "15"
+   ],
+   "answer": 4,
+   "explanation": "Substitute −3 for every x, keeping the brackets.\n\nf(−3) = (−3)² − 2(−3) = 9 + 6 = 15.\n\nThe square of a negative number is positive (9), and subtracting a negative term (−2 times −3 = −6) adds 6. Check with the factored form: f(x) = x(x − 2), so f(−3) = (−3)(−5) = 15. Same answer.\n\nThe most common error is to write −3² as −9, which changes the answer to −3. Always bracket the substituted negative number before you apply the exponent.",
+   "tip": "Always bracket a negative input before squaring.",
+   "trap": "Reading (−3)² as −9 gives −9 + 6 = −3, one of the tempting wrong choices.",
+   "timeTarget": 75,
+   "skills": [
+    "function-notation",
+    "negative-numbers"
+   ]
+  },
+  {
+   "id": "q-functions-qe-m-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "For all numbers x and y, x ♣ y = x(y − x). What is the value of 2 ♣ (3 ♣ 5)?",
+   "choices": [
+    "2",
+    "8",
+    "6",
+    "12",
+    "16"
+   ],
+   "answer": 1,
+   "explanation": "Start inside the brackets: 3 ♣ 5 = 3(5 − 3) = 3 × 2 = 6.\n\nThen 2 ♣ 6 = 2(6 − 2) = 2 × 4 = 8.\n\nCheck: the rule multiplies the first number by (second − first). Redo it carefully: for 3 ♣ 5, first = 3, second = 5, so 3 × (5 − 3) = 6. For 2 ♣ 6, first = 2, second = 6, so 2 × (6 − 2) = 8.\n\nIf you did the brackets in the opposite order, (2 ♣ 3) ♣ 5 = 2 × 1 = 2, then 2 ♣ 5 = 2 × 3 = 6. That's a different value and it is also a choice, so the order of operations matters here.",
+   "tip": "The first number controls the multiplication; do inner brackets first and never swap the order.",
+   "trap": "Doing (2 ♣ 3) ♣ 5 instead of 2 ♣ (3 ♣ 5) gives 6.",
+   "timeTarget": 90,
+   "skills": [
+    "made-up-symbols"
+   ]
+  },
+  {
+   "id": "q-functions-qe-m-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "What is the sum of all the multiples of 7 between 100 and 200?",
+   "choices": [
+    "2,100",
+    "2,114",
+    "2,205",
+    "2,107",
+    "2,310"
+   ],
+   "answer": 3,
+   "explanation": "The first multiple of 7 above 100 is 105 (7 × 15), and the last below 200 is 196 (7 × 28).\n\nNumber of terms = 28 − 15 + 1 = 14.\n\nAverage = (105 + 196)/2 = 150.5.\n\nSum = 14 × 150.5 = 2,107.\n\nSecond method: the multiples are 7 × (15 + 16 + ... + 28). The sum 15 through 28 is 14 × 21.5 = 301, and 7 × 301 = 2,107.\n\nThe tricky part is finding the first and last multiples correctly. 100/7 is about 14.3, so the first multiple above 100 is 7 × 15, not 7 × 14 = 98. Likewise 200/7 is about 28.6, so the last is 7 × 28.",
+   "tip": "First find the first and last terms inside the range; then count, average, multiply.",
+   "trap": "Including 98 (outside the range) gives 15 terms and 2,205; rounding the average to 150 or 151 gives 2,100 or 2,114.",
+   "timeTarget": 120,
+   "skills": [
+    "arithmetic-series",
+    "multiples",
+    "counting"
+   ]
+  },
+  {
+   "id": "q-functions-qe-m-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "For any positive integer n, let f(n) be the sum of the distinct prime factors of n. What is the value of f(210) − f(60)?",
+   "choices": [
+    "7",
+    "5",
+    "10",
+    "17",
+    "27"
+   ],
+   "answer": 0,
+   "explanation": "Distinct means each prime counts once, no matter how many times it divides n.\n\n210 = 2 × 3 × 5 × 7, so f(210) = 2 + 3 + 5 + 7 = 17.\n\n60 = 2² × 3 × 5, so f(60) = 2 + 3 + 5 = 10.\n\nf(210) − f(60) = 17 − 10 = 7.\n\nCheck by comparing: 210 has the extra prime 7 and 60 has none that 210 lacks, so the difference must be exactly 7. That observation avoids computing both sums.\n\nThe word 'distinct' is what the question tests. If you counted the repeated 2 in 60, you would get 12 and a difference of 5.",
+   "tip": "Functions defined in words are just instructions; underline the key word (here 'distinct').",
+   "trap": "Counting the repeated prime 2 in 60 gives f(60) = 12 and the answer 5.",
+   "timeTarget": 100,
+   "skills": [
+    "functions-in-words",
+    "prime-factors"
+   ]
+  },
+  {
+   "id": "q-functions-qe-m-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "If f(x) = x/(x + 1) for x ≠ −1, what is the value of f(f(f(2)))?",
+   "choices": [
+    "2/3",
+    "2/5",
+    "2/7",
+    "3/7",
+    "4/7"
+   ],
+   "answer": 2,
+   "explanation": "Apply f three times, one layer at a time.\n\nf(2) = 2/3.\n\nf(2/3) = (2/3)/(2/3 + 1) = (2/3)/(5/3) = 2/5.\n\nf(2/5) = (2/5)/(2/5 + 1) = (2/5)/(7/5) = 2/7.\n\nPattern check: f(x) = x/(x + 1) applied again gives x/(2x + 1), and a third time x/(3x + 1). For x = 2, that is 2/7. The pattern is that each application adds another x to the denominator.\n\nThe wrong choices 2/3 and 2/5 are what you get after one or two applications. Count your layers.",
+   "tip": "Look for a pattern after two applications; many repeated-function questions follow x/(kx + 1).",
+   "trap": "Stopping after one application (2/3) or two (2/5) is the typical miscount.",
+   "timeTarget": 120,
+   "skills": [
+    "composite-functions",
+    "fractions",
+    "pattern"
+   ]
+  },
+  {
+   "id": "q-functions-qe-m-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "In an arithmetic sequence, the sum of terms 11 through 20 exceeds the sum of terms 1 through 10 by 400. What is the difference between the 25th term and the 1st term?",
+   "choices": [
+    "4",
+    "24",
+    "100",
+    "400",
+    "96"
+   ],
+   "answer": 4,
+   "explanation": "Pair the terms: term 11 is 10 steps after term 1, term 12 is 10 steps after term 2, and so on. Each of the 10 pairs differs by 10d, where d is the common difference.\n\nSo the total difference is 10 × 10d = 100d = 400, and d = 4.\n\nThe 25th term is 24 steps after the 1st term, so a₂₅ − a₁ = 24d = 24 × 4 = 96.\n\nCheck with an example: take a₁ = 1, d = 4. Terms 1-10 sum to 10(1 + 37)/2 = 190. Terms 11-20 sum to 10(41 + 77)/2 = 590. The difference is 400, as required.\n\nThe key idea is that 'pairing' removes the need to know a₁.",
+   "tip": "Compare two blocks of an arithmetic sequence by pairing terms: each pair differs by (distance) × d.",
+   "trap": "Stopping at d = 4 (the answer to a different question), or confusing 100d with the 400, are the common slips.",
+   "timeTarget": 130,
+   "skills": [
+    "arithmetic-sequence",
+    "pairing"
+   ]
+  },
+  {
+   "id": "q-functions-qe-m-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "The function f satisfies f(x) + 2f(1/x) = 3x for all nonzero x. What is the value of f(2)?",
+   "choices": [
+    "−2",
+    "−1",
+    "1",
+    "3/2",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "Write the equation twice, once with x = 2 and once with x = 1/2.\n\nx = 2: f(2) + 2f(1/2) = 6. (1)\n\nx = 1/2: f(1/2) + 2f(2) = 3/2. (2)\n\nFrom (2), f(1/2) = 3/2 − 2f(2). Substitute into (1): f(2) + 3 − 4f(2) = 6, so −3f(2) = 3 and f(2) = −1.\n\nCheck: f(1/2) = 3/2 − 2(−1) = 7/2. Then f(2) + 2f(1/2) = −1 + 7 = 6. Correct. And f(1/2) + 2f(2) = 7/2 − 2 = 3/2. Correct.\n\nThe trick is that replacing x by 1/x gives a second equation in the same two unknowns.",
+   "tip": "If a functional equation involves f(x) and f(1/x), write it again with x replaced by 1/x and solve the pair.",
+   "trap": "Solving only equation (1) and guessing, or mixing up the two equations, gives choices like 3/2 or 3.",
+   "timeTarget": 150,
+   "skills": [
+    "functional-equation",
+    "simultaneous-equations"
+   ]
+  },
+  {
+   "id": "q-functions-qe-m-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-functions",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A sequence is defined by a₁ = 2, a₂ = 5, and aₙ = 3aₙ₋₁ − 2aₙ₋₂ for n ≥ 3. What is the value of a₈?",
+   "choices": [
+    "381",
+    "384",
+    "389",
+    "383",
+    "767"
+   ],
+   "answer": 3,
+   "explanation": "Rewrite the rule as aₙ − aₙ₋₁ = 2(aₙ₋₁ − aₙ₋₂). So the differences between consecutive terms double each time.\n\nThe first difference is a₂ − a₁ = 3. Then the differences are 3, 6, 12, 24, 48, 96, 192 for steps 1 to 7.\n\na₈ = 2 + (3 + 6 + 12 + 24 + 48 + 96 + 192) = 2 + 381 = 383.\n\nClosed form check: the sum of seven doubling differences is 3(2⁷ − 1) = 381, so aₙ = 3 × 2ⁿ⁻¹ − 1. For n = 8: 3 × 128 − 1 = 383. Test a₃: 3 × 4 − 1 = 11 and 3(5) − 2(2) = 11. It matches.\n\nListing terms also works: 2, 5, 11, 23, 47, 95, 191, 383.",
+   "tip": "If a recursion has the form aₙ = p·aₙ₋₁ − q·aₙ₋₂, look at the differences between terms.",
+   "trap": "Adding up the differences but forgetting the starting 2 (381), or using one extra doubling (767), are the usual errors.",
+   "timeTarget": 150,
+   "skills": [
+    "recursive-sequence",
+    "closed-form",
+    "pattern"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "Maria buys 3 notebooks at ₹45 each and 2 pens at ₹12 each. She pays with a ₹200 note. How much change does she get back?",
+   "choices": [
+    "₹41",
+    "₹31",
+    "₹59",
+    "₹65",
+    "₹159"
+   ],
+   "answer": 0,
+   "explanation": "Work out the total cost first, then subtract from what she paid.\n\nNotebooks: 3 × 45 = 135.\n\nPens: 2 × 12 = 24.\n\nTotal spent = 135 + 24 = 159.\n\nChange = 200 − 159 = 41.\n\nCheck by adding up: 159 + 41 = 200. Another way: 200 − 135 = 65 left after the notebooks, then 65 − 24 = 41. Translating this kind of story is mostly about keeping track of 'each' (multiply) and 'total' (add), and then remembering the last step is the change, not the total spent.",
+   "tip": "Underline what the question actually asks for (change, not total) before you start computing.",
+   "trap": "Stopping at the total cost of ₹159 answers a different question; subtracting only the notebooks gives ₹65.",
+   "timeTarget": 60,
+   "skills": [
+    "translation",
+    "arithmetic"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "Tom is 4 years older than twice Sam's age. If the sum of their ages is 31, how old is Tom?",
+   "choices": [
+    "9",
+    "13",
+    "22",
+    "18",
+    "27"
+   ],
+   "answer": 2,
+   "explanation": "Let Sam's age be s. Then Tom's age is 2s + 4 ('4 years older than twice Sam's age').\n\nSum: s + (2s + 4) = 31, so 3s = 27 and s = 9.\n\nTom = 2(9) + 4 = 22.\n\nCheck: 9 + 22 = 31. Backsolving works too: try Tom = 22, then twice Sam's age plus 4 gives Sam = 9 and the sum is 31.\n\nThe phrase 'older than twice' is a classic translation test: 'than' points at what to compare with ('twice Sam's age'), and the 4 is added to it.",
+   "tip": "Define the variable for the person you know least about, then write the other person in terms of it.",
+   "trap": "Answering 9 gives Sam's age, not Tom's. Always re-read what the question asks for after solving.",
+   "timeTarget": 75,
+   "skills": [
+    "age-problems",
+    "translation"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A jar holds only ₹5 coins and ₹2 coins. There are 40 coins in total, worth ₹146. How many ₹5 coins are in the jar?",
+   "choices": [
+    "18",
+    "20",
+    "24",
+    "26",
+    "22"
+   ],
+   "answer": 4,
+   "explanation": "Let x be the number of ₹5 coins, so there are 40 − x coins of ₹2.\n\nValue: 5x + 2(40 − x) = 146, so 5x + 80 − 2x = 146, so 3x = 66 and x = 22.\n\nCheck: 22 coins of ₹5 = ₹110 and 18 coins of ₹2 = ₹36. Total = ₹146, with 22 + 18 = 40 coins. Correct.\n\nFaster way: if all 40 coins were ₹2, the total would be ₹80. Each swap of a ₹2 coin for a ₹5 coin adds ₹3. We need an extra ₹66, so 66/3 = 22 swaps.",
+   "tip": "For two-type problems, assume all coins are the cheaper type, then count how many swaps close the gap.",
+   "trap": "Reporting 18, the number of ₹2 coins, means you solved correctly but answered the wrong question.",
+   "timeTarget": 100,
+   "skills": [
+    "coins",
+    "system-of-equations"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "The sum of three consecutive odd integers is 87. What is the largest of the three integers?",
+   "choices": [
+    "27",
+    "31",
+    "29",
+    "33",
+    "35"
+   ],
+   "answer": 1,
+   "explanation": "Consecutive odd integers differ by 2, so call them n, n + 2, n + 4.\n\nSum: 3n + 6 = 87, so 3n = 81 and n = 27. The integers are 27, 29, 31, and the largest is 31.\n\nFaster way: the middle number of an odd-sized evenly spaced set is the average, 87/3 = 29. The largest is 29 + 2 = 31.\n\nCheck: 27 + 29 + 31 = 87.\n\nThe most common mistake is to stop at the average (29) or the smallest value (27) because they come out of the equation first.",
+   "tip": "For evenly spaced numbers, the middle value equals the average; the sum is count × middle.",
+   "trap": "Giving 29 (the average) or 27 (the smallest) answers a different question; read 'largest' again at the end.",
+   "timeTarget": 90,
+   "skills": [
+    "consecutive-integers",
+    "average"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A printer prints 40 pages per minute. At this rate, how many hours will it take to print 12,000 pages?",
+   "choices": [
+    "3",
+    "20",
+    "200",
+    "5",
+    "300"
+   ],
+   "answer": 3,
+   "explanation": "Rate × time = amount, so time = amount ÷ rate. The rate is in pages per minute, but the question wants hours, so a unit conversion hides in the middle.\n\nTime = 12,000 ÷ 40 = 300 minutes.\n\nConvert to hours: 300 ÷ 60 = 5 hours.\n\nCheck: in one hour the printer prints 40 × 60 = 2,400 pages. 12,000 ÷ 2,400 = 5 hours. Same answer, and this second route converts the rate into the unit the question uses before dividing, which is a good habit with 'per' problems.",
+   "tip": "Convert the rate to the units of the answer first (pages per hour), then divide.",
+   "trap": "300 is the correct number of minutes but not hours. Always match the answer to the unit asked for.",
+   "timeTarget": 75,
+   "skills": [
+    "per",
+    "unit-conversion"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Anita is three times as old as Bina. In 6 years, Anita will be twice as old as Bina. How old is Anita now?",
+   "choices": [
+    "18",
+    "9",
+    "12",
+    "15",
+    "24"
+   ],
+   "answer": 0,
+   "explanation": "Let Bina's age now be b. Then Anita's age now is 3b.\n\nIn 6 years: Anita = 3b + 6, Bina = b + 6. The condition says 3b + 6 = 2(b + 6) = 2b + 12.\n\nSo b = 6, and Anita is 3 × 6 = 18.\n\nCheck: in 6 years Anita is 24 and Bina is 12, and 24 = 2 × 12. Correct.\n\nBacksolving also works: try Anita = 18 (Bina = 6): in 6 years, 24 and 12. It fits immediately. The key rule for age problems is to add the same number of years to both people, not to just one.",
+   "tip": "Age problems: write 'now' and 'later' as two columns and add the same number to every entry.",
+   "trap": "Adding the 6 years to only one person, or doubling the ages instead of adding 6 to each, leads to wrong answers such as 12 or 24.",
+   "timeTarget": 110,
+   "skills": [
+    "age-problems",
+    "linear-equations",
+    "backsolving"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A school fund needs at least ₹10,000. The 6 teachers contribute ₹350 each, and each student contributes ₹120. What is the minimum number of students needed to reach the target?",
+   "choices": [
+    "60",
+    "65",
+    "66",
+    "83",
+    "84"
+   ],
+   "answer": 2,
+   "explanation": "Teachers give 6 × 350 = ₹2,100. The students must cover the remaining 10,000 − 2,100 = ₹7,900.\n\nNumber of students s must satisfy 120s ≥ 7,900, so s ≥ 7,900/120 = 65.83...\n\nSince the number of students is a whole number and 'at least' means we can't fall short, round up to 66.\n\nCheck: 65 students give 7,800 + 2,100 = 9,900, which is short. 66 students give 7,920 + 2,100 = 10,020, which is enough.\n\nWith 'at least' or 'at most' questions, round in the direction that keeps the condition true, not to the nearest whole number.",
+   "tip": "'At least' means you may not fall short, so round up; always test the boundary values.",
+   "trap": "Rounding 65.83 down to 65 leaves the fund ₹100 short. Ignoring the teachers gives 84.",
+   "timeTarget": 100,
+   "skills": [
+    "inequalities-in-words",
+    "rounding"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Aman spends 1/3 of his monthly salary on rent. He spends 1/4 of the remainder on food and saves half of what is then left. If he saves ₹6,000, what is his monthly salary?",
+   "choices": [
+    "₹12,000",
+    "₹18,000",
+    "₹30,000",
+    "₹36,000",
+    "₹24,000"
+   ],
+   "answer": 4,
+   "explanation": "Use a smart number, or work backwards.\n\nWork backwards: he saves half of what's left after food, so ₹6,000 is half and the amount left after food was ₹12,000.\n\nThat ₹12,000 is the remainder after taking 1/4 of the post-rent money, so it's 3/4 of the post-rent money. Post-rent money = 12,000 ÷ 3/4 = ₹16,000.\n\nThat's the 2/3 left after rent, so salary = 16,000 ÷ 2/3 = ₹24,000.\n\nCheck: rent = 8,000; left 16,000; food = 4,000; left 12,000; savings = 6,000. Correct.\n\nSmart-number method: start with salary 12 units. Rent 4, left 8, food 2, left 6, saves 3. So 3 units = 6,000 and 12 units = 24,000.",
+   "tip": "For chained fractions of a remainder, pick a number divisible by every denominator (here 12) and follow it through.",
+   "trap": "Treating 1/4 as a fraction of the original salary rather than of the remainder gives a different chain. '1/4 of the remainder' always refers to what is left.",
+   "timeTarget": 120,
+   "skills": [
+    "fractions-of-remainder",
+    "smart-numbers"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "The sum of five consecutive integers is S. In terms of S, what is the sum of the next five consecutive integers?",
+   "choices": [
+    "S + 5",
+    "S + 25",
+    "S + 10",
+    "2S",
+    "S + 50"
+   ],
+   "answer": 1,
+   "explanation": "Let the first five be n, n + 1, n + 2, n + 3, n + 4, so S = 5n + 10.\n\nThe next five are n + 5, ..., n + 9. Each is exactly 5 more than its partner in the first group, so the new sum is S + 5 × 5 = S + 25.\n\nCheck with numbers: 1 + 2 + 3 + 4 + 5 = 15 = S. The next five, 6 to 10, sum to 40 and S + 25 = 40. \n\nThe wrong choices S + 5 and S + 10 are what you get by adding only 5 or 10 once rather than for each of the five terms. Test a quick example whenever the answer choices are variable expressions.",
+   "tip": "With variable answer choices, test one concrete example (like 1 to 5) to eliminate the wrong ones.",
+   "trap": "Adding 5 once (S + 5) forgets that each of the five numbers moves up by 5.",
+   "timeTarget": 90,
+   "skills": [
+    "consecutive-integers",
+    "variable-answers"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-010",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Seven distinct positive integers have an average (arithmetic mean) of 12 and a median of 6. What is the greatest possible value of the largest of the seven integers?",
+   "choices": [
+    "49",
+    "55",
+    "60",
+    "57",
+    "63"
+   ],
+   "answer": 3,
+   "explanation": "The total is 7 × 12 = 84. To make the largest number as big as possible, make the other six as small as possible.\n\nSorted order: a < b < c < 6 < e < f < g.\n\nSmallest values: a, b, c = 1, 2, 3 (distinct positive integers). The median is the 4th number, so it is 6. The numbers above the median must be greater than 6 and distinct, so e = 7 and f = 8.\n\nSum of the other six = 1 + 2 + 3 + 6 + 7 + 8 = 27. So g = 84 − 27 = 57.\n\nCheck: g = 57 is greater than f = 8, so the order holds, and the median is 6.\n\nTrap: ignoring the distinct condition and using 6 for e and f gives 60; ignoring the median gives 63.",
+   "tip": "For 'greatest possible' problems, shrink everything else to its minimum while respecting every condition.",
+   "trap": "Letting e and f equal 6 (not distinct) gives 60. Ignoring the median altogether gives 84 − 21 = 63.",
+   "timeTarget": 150,
+   "skills": [
+    "max-min",
+    "median",
+    "distinct-integers"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-011",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A theatre has 400 seats, all sold. Premium seats cost $50 and standard seats cost $30. The revenue is at least $15,000, and premium seats are at most 40% of all seats. How many different numbers of premium seats are possible?",
+   "choices": [
+    "11",
+    "10",
+    "12",
+    "150",
+    "160"
+   ],
+   "answer": 0,
+   "explanation": "Let p be the number of premium seats. Revenue = 50p + 30(400 − p) = 12,000 + 20p.\n\nRevenue ≥ 15,000 means 20p ≥ 3,000, so p ≥ 150.\n\nAt most 40% premium means p ≤ 0.4 × 400 = 160.\n\nSo p can be any integer from 150 to 160 inclusive. That's 160 − 150 + 1 = 11 values.\n\nCheck the boundaries: p = 150 gives 7,500 + 7,500 = 15,000, which meets 'at least'. p = 160 gives 8,000 + 7,200 = 15,200 and 160 is exactly 40%. \n\nThe 'plus 1' for inclusive counting is the trap, along with picking up the boundary numbers 150 and 160 as the answer.",
+   "tip": "Turn each condition into a range for one variable, then count integers in the overlap: last − first + 1.",
+   "trap": "Subtracting 160 − 150 = 10 forgets that both endpoints are allowed.",
+   "timeTarget": 150,
+   "skills": [
+    "inequalities-in-words",
+    "counting",
+    "revenue"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-012",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Priya spends 1/3 of her money on books, then 1/4 of what remains on lunch. She then gives her brother half of what is left plus ₹100, and ends up with ₹200. How much money did Priya start with?",
+   "choices": [
+    "₹800",
+    "₹1,000",
+    "₹1,200",
+    "₹1,600",
+    "₹2,400"
+   ],
+   "answer": 2,
+   "explanation": "Work backwards from the end, undoing each step.\n\nEnd: ₹200. Before that she gave her brother half of what was left plus ₹100. So 200 = (half of what was left) − 100, which means half = ₹300 and what was left = ₹600.\n\nBefore lunch: lunch took 1/4 of the remainder, so ₹600 is 3/4 of the amount after books. Amount after books = 600 × 4/3 = ₹800.\n\nBefore books: books took 1/3, so ₹800 is 2/3 of the original. Original = 800 × 3/2 = ₹1,200.\n\nCheck forwards: 1,200 → books 400 → 800 → lunch 200 → 600 → brother 300 + 100 = 400 → 200. Correct.",
+   "tip": "When a story applies several steps in sequence, undo them in reverse order, one step at a time.",
+   "trap": "Treating 'half of what is left plus ₹100' as 'half of what is left' (ignoring the ₹100) leads to ₹800.",
+   "timeTarget": 150,
+   "skills": [
+    "work-backwards",
+    "fractions-of-remainder"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-013",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "With ₹1,200, Rohan could buy exactly 4 more notebooks if the price of each notebook were ₹10 lower. What is the current price of one notebook?",
+   "choices": [
+    "₹50",
+    "₹55",
+    "₹65",
+    "₹70",
+    "₹60"
+   ],
+   "answer": 4,
+   "explanation": "Let the price be p. The number of notebooks now is 1,200/p, and at the lower price it is 1,200/(p − 10). The second number is 4 larger.\n\n1,200/(p − 10) − 1,200/p = 4. Combine: 1,200 × 10/[p(p − 10)] = 4, so p(p − 10) = 3,000.\n\nTwo numbers 10 apart whose product is 3,000: 60 × 50 = 3,000. So p = 60.\n\nBacksolving is just as quick. Try ₹60: 1,200/60 = 20 notebooks; at ₹50, 1,200/50 = 24 notebooks, which is 4 more. It works. Try ₹50: 24 notebooks versus 1,200/40 = 30, a difference of 6, so no.\n\nWith answer choices that are neat numbers, test the middle options first.",
+   "tip": "When the setup leads to a quadratic with neat answer choices, backsolve: test the choices that divide 1,200 evenly.",
+   "trap": "Choosing ₹50, the lower price, confuses the 'now' price with the 'reduced' price.",
+   "timeTarget": 150,
+   "skills": [
+    "backsolving",
+    "rates-and-price",
+    "quadratic-in-words"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-p-014",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A club has m members, and each pays d dollars in dues. If s of the members do not pay, by how many dollars must each of the remaining members pay extra for the club to still collect the same total?",
+   "choices": [
+    "ds/m",
+    "ds/(m − s)",
+    "ds/(m + s)",
+    "d(m − s)/m",
+    "md/(m − s)"
+   ],
+   "answer": 1,
+   "explanation": "The target total is md. Only m − s members are paying, so each must pay md/(m − s).\n\nExtra per payer = md/(m − s) − d = [md − d(m − s)]/(m − s) = ds/(m − s).\n\nSmart-number check: m = 10, d = 100, s = 2. Total = 1,000. Eight members pay 125 each, which is 25 more than 100. The formula gives (100 × 2)/(10 − 2) = 25. \n\nNow test the traps: ds/m = 20 (wrong), ds/(m + s) = 16.7 (wrong), d(m − s)/m = 80 (wrong), and md/(m − s) = 125 (the new total per payer, not the extra). Only ds/(m − s) gives 25.",
+   "tip": "With variables in the answer choices, plug in simple numbers for the variables and see which choice matches.",
+   "trap": "md/(m − s) is the new payment per person, not the extra amount. Always check whether the question wants 'new' or 'extra'.",
+   "timeTarget": 150,
+   "skills": [
+    "variable-answers",
+    "smart-numbers",
+    "rates-and-price"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-m-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A taxi charges a fixed ₹50 plus ₹12 per kilometre. What is the fare for a 15-kilometre trip?",
+   "choices": [
+    "₹180",
+    "₹195",
+    "₹215",
+    "₹230",
+    "₹930"
+   ],
+   "answer": 3,
+   "explanation": "The fixed charge is paid once, and the per-kilometre charge is multiplied by the distance.\n\nFare = 50 + 12 × 15 = 50 + 180 = 230.\n\nCheck: 12 × 15 = 12 × 10 + 12 × 5 = 120 + 60 = 180, then 180 + 50 = 230.\n\nThe word 'per' means multiply by the number of units, while 'plus' marks a one-time cost. If someone read the problem as ₹62 per kilometre they would get 62 × 15 = 930, which is one of the traps here.",
+   "tip": "'Per' means multiply; a fixed fee is added once, not multiplied.",
+   "trap": "Multiplying the fixed fee by the distance too gives (50 + 12) × 15 = 930.",
+   "timeTarget": 60,
+   "skills": [
+    "per",
+    "linear-model"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-m-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A shopkeeper sells pens at ₹5 each and pencils at ₹3 each. A customer buys 12 items in total and spends ₹46. How many pens did the customer buy?",
+   "choices": [
+    "5",
+    "4",
+    "6",
+    "7",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "Let p be the number of pens, so pencils = 12 − p.\n\n5p + 3(12 − p) = 46, so 5p + 36 − 3p = 46, so 2p = 10 and p = 5.\n\nCheck: 5 pens = ₹25, 7 pencils = ₹21, total ₹46 with 12 items.\n\nFaster way: if all 12 items were pencils, the cost would be ₹36. Each pen instead of a pencil adds ₹2, and the extra needed is ₹10, so 5 pens. \n\nBacksolving: test p = 6: 30 + 18 = 48, too high. So p = 5.",
+   "tip": "Assume all items are the cheaper type and count how many upgrades cover the extra money.",
+   "trap": "Answering 7, the number of pencils, comes from solving but not re-reading the question.",
+   "timeTarget": 90,
+   "skills": [
+    "system-of-equations",
+    "price-quantity"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-m-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Three pens and two notebooks cost ₹49. Two pens and three notebooks cost ₹46. What is the cost of one pen plus one notebook?",
+   "choices": [
+    "₹9.50",
+    "₹17",
+    "₹19",
+    "₹21",
+    "₹23"
+   ],
+   "answer": 2,
+   "explanation": "Don't solve for each price separately. Add the two equations.\n\n(3p + 2n) + (2p + 3n) = 49 + 46, so 5p + 5n = 95, so p + n = 19.\n\nCheck by solving fully: subtract the equations to get p − n = 3. With p + n = 19, p = 11 and n = 8. Test: 3(11) + 2(8) = 33 + 16 = 49 and 2(11) + 3(8) = 22 + 24 = 46. Correct.\n\nThe lesson is to ask what the question really wants. Here the combination 'p + n' appears directly when you add, and nothing else is required.",
+   "tip": "Before solving for each variable, check whether adding or subtracting the equations hands you the requested combination.",
+   "trap": "Dividing 95 by 10 (₹9.50) happens when you divide by the total number of items rather than by 5.",
+   "timeTarget": 100,
+   "skills": [
+    "system-of-equations",
+    "combination-trick"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-m-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A van and its driver weigh 180 kg together. The total load, including the van and the driver, must not exceed 1,000 kg. If each box weighs 26 kg, what is the maximum number of boxes the van can carry?",
+   "choices": [
+    "30",
+    "32",
+    "34",
+    "38",
+    "31"
+   ],
+   "answer": 4,
+   "explanation": "The weight available for boxes is 1,000 − 180 = 820 kg.\n\nNumber of boxes b must satisfy 26b ≤ 820, so b ≤ 820/26 = 31.5...\n\nSince the load must not exceed the limit, round down: b = 31.\n\nCheck: 31 boxes weigh 806 kg, total 986 kg, which is within the limit. 32 boxes weigh 832 kg, total 1,012 kg, over the limit.\n\nWith 'at most' conditions, always round down. The wrong answer 38 comes from ignoring the van and driver (1,000/26 = 38.46).",
+   "tip": "'Must not exceed' means round down; subtract fixed weights first.",
+   "trap": "Dividing the full 1,000 kg by 26 ignores the fixed weight of the van and driver and gives 38.",
+   "timeTarget": 100,
+   "skills": [
+    "inequalities-in-words",
+    "rounding"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-m-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A gift costing ₹1,200 is shared equally by a group of friends. If two of the friends drop out, each of the remaining friends has to pay ₹50 more. How many friends were in the original group?",
+   "choices": [
+    "4",
+    "8",
+    "6",
+    "10",
+    "12"
+   ],
+   "answer": 1,
+   "explanation": "Let n be the original number of friends. Each paid 1,200/n; after two drop out each pays 1,200/(n − 2).\n\n1,200/(n − 2) − 1,200/n = 50. Combine: 1,200 × 2/[n(n − 2)] = 50, so n(n − 2) = 48.\n\nTwo numbers differing by 2 whose product is 48: 8 × 6. So n = 8.\n\nCheck: ₹1,200 ÷ 8 = ₹150 each; ₹1,200 ÷ 6 = ₹200 each. Increase = ₹50. Correct.\n\nBacksolving is just as fast. Try n = 10: 120 versus 150, a ₹30 increase, too small. Try n = 6: 200 versus 300, a ₹100 increase, too big.",
+   "tip": "For 'shared equally, some drop out' problems, set up 'new share − old share = difference' and look for neat factor pairs.",
+   "trap": "6 is the number remaining, not the original group size.",
+   "timeTarget": 130,
+   "skills": [
+    "backsolving",
+    "shared-cost",
+    "quadratic-in-words"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-m-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Five distinct positive integers have an average (arithmetic mean) of 20 and a median of 15. What is the greatest possible value of the largest of the five integers?",
+   "choices": [
+    "65",
+    "67",
+    "82",
+    "66",
+    "90"
+   ],
+   "answer": 3,
+   "explanation": "The total is 5 × 20 = 100. To make the largest number as large as possible, make the other four as small as possible.\n\nSorted: a < b < 15 < d < e. The median is the middle number, 15.\n\nSmallest options: a = 1, b = 2, d = 16 (it must be greater than 15 and distinct).\n\nSum of the other four = 1 + 2 + 15 + 16 = 34, so e = 100 − 34 = 66.\n\nCheck: 1, 2, 15, 16, 66 sum to 100, median 15, all distinct. \n\nIf you forgot 'distinct' and used d = 15 you'd get 67. If you forgot the median condition you'd get 100 − 1 − 2 − 3 − 4 = 90.",
+   "tip": "Use the median to pin down the middle number, then minimise everything that must sit below and above it.",
+   "trap": "Setting d = 15 (not distinct) gives 67; ignoring the median altogether gives 90.",
+   "timeTarget": 130,
+   "skills": [
+    "max-min",
+    "median",
+    "distinct-integers"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-m-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A teacher has some sweets to share among her students. If she gives each student 5 sweets, 12 sweets are left over. If she instead tries to give each student 7 sweets, no sweets are left over but the last student receives at least 1 and fewer than 7 sweets. What is the sum of all possible numbers of sweets the teacher could have?",
+   "choices": [
+    "156",
+    "57",
+    "104",
+    "109",
+    "161"
+   ],
+   "answer": 0,
+   "explanation": "Let s be the number of students and N the number of sweets. From the first plan, N = 5s + 12.\n\nIn the second plan, s − 1 students get 7 each, and the last student gets k sweets with 1 ≤ k ≤ 6. So N = 7(s − 1) + k.\n\nSet equal: 5s + 12 = 7s − 7 + k, so 2s = 19 − k. For s to be an integer, 19 − k must be even, so k is odd: 1, 3 or 5.\n\nk = 1: s = 9, N = 57. k = 3: s = 8, N = 52. k = 5: s = 7, N = 47.\n\nCheck k = 3: 8 students, 52 sweets; 7 students get 7 = 49, the last gets 3. And 5 × 8 + 12 = 52. Valid.\n\nSum = 57 + 52 + 47 = 156.",
+   "tip": "When a condition says 'between 1 and 6 left', turn it into a small list of cases, and let parity or divisibility cut it down.",
+   "trap": "Stopping at the first solution (57) or counting only some of the odd values of k leaves you short.",
+   "timeTarget": 170,
+   "skills": [
+    "integer-solutions",
+    "cases",
+    "remainders-in-words"
+   ]
+  },
+  {
+   "id": "q-wordprob-qe-m-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-wordprob",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A worker earns r dollars per hour for the first 40 hours of a week and 1.5r dollars per hour for every hour beyond 40. In a week in which she works h hours, with h > 40, what is her average pay per hour, in dollars?",
+   "choices": [
+    "3r/2",
+    "r(3h + 40)/(2h)",
+    "r(3h − 40)/(2h)",
+    "r(3h − 80)/(2h)",
+    "r(h + 40)/h"
+   ],
+   "answer": 2,
+   "explanation": "Total pay = 40r + 1.5r(h − 40) = 40r + 1.5rh − 60r = 1.5rh − 20r.\n\nAverage per hour = (1.5rh − 20r)/h = r(1.5h − 20)/h. Multiply top and bottom by 2: r(3h − 40)/(2h).\n\nSmart-number check: r = 10, h = 50. Pay = 400 + 10 × 15 = 550, so the average is 11 per hour. The formula gives 10(150 − 40)/(100) = 11. Correct.\n\nTest 3r/2: that gives 15, which would apply only if every hour were overtime. Test r(3h − 80)/(2h) = 10 × 70/100 = 7, too low. The average must lie between r and 1.5r, a quick sanity check that eliminates several choices.",
+   "tip": "An average pay must sit between the lowest and highest hourly rates; use that to eliminate choices, then verify with numbers.",
+   "trap": "Choosing 3r/2 assumes all hours are paid at the overtime rate.",
+   "timeTarget": 150,
+   "skills": [
+    "variable-answers",
+    "weighted-average",
+    "smart-numbers"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A train travels 360 kilometres in 4 hours at a constant speed. At the same speed, how many hours will it take to travel 540 kilometres?",
+   "choices": [
+    "4.5",
+    "5",
+    "7",
+    "8",
+    "6"
+   ],
+   "answer": 4,
+   "explanation": "First find the speed: 360 ÷ 4 = 90 km/h.\n\nThen time = distance ÷ speed = 540 ÷ 90 = 6 hours.\n\nCheck with proportion: the distance grew by 540/360 = 1.5 times, so the time also grows by 1.5 times: 4 × 1.5 = 6. At a constant speed, distance and time move together, so a proportion is the quickest route.\n\nMost errors here come from using the wrong formula (multiplying instead of dividing). Remember D = R × T, so T = D ÷ R.",
+   "tip": "At constant speed, distance and time are directly proportional; scale one by the same factor as the other.",
+   "trap": "Adding the extra 180 km as if it were hours, or multiplying instead of dividing, gives wrong values such as 7 or 8.",
+   "timeTarget": 60,
+   "skills": [
+    "rtd",
+    "proportion"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A car is moving at 72 kilometres per hour. What is its speed in metres per second?",
+   "choices": [
+    "1.2",
+    "20",
+    "12",
+    "25",
+    "120"
+   ],
+   "answer": 1,
+   "explanation": "To convert km/h into m/s, multiply by 1,000 (metres per km) and divide by 3,600 (seconds per hour). The shortcut is to multiply by 5/18.\n\n72 × 5/18 = 4 × 5 = 20 m/s.\n\nCheck by building the chain: 72 km/h = 72,000 m per 3,600 s = 20 m/s.\n\nGoing the other way, m/s to km/h, multiplies by 18/5 (3.6). A quick sanity check: a fast walker moves about 1.5 m/s, which is about 5.4 km/h. Because 1 m/s is a bit slower than 4 km/h, 20 m/s should be a bit faster than 72 km/h. It is exactly 72.",
+   "tip": "km/h × 5/18 = m/s. And m/s × 18/5 = km/h.",
+   "trap": "Dividing by 60 (to get 1.2) treats the conversion as hours to minutes and ignores the metres.",
+   "timeTarget": 60,
+   "skills": [
+    "unit-conversion",
+    "speed"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Anita drives to her office at 40 km/h and returns along the same route at 60 km/h. What is her average speed for the whole round trip, in km/h?",
+   "choices": [
+    "45",
+    "50",
+    "52",
+    "48",
+    "100"
+   ],
+   "answer": 3,
+   "explanation": "Average speed = total distance ÷ total time, never the simple average of the speeds.\n\nPick a convenient distance: 120 km each way (a multiple of both 40 and 60).\n\nTime going: 120/40 = 3 hours. Time returning: 120/60 = 2 hours.\n\nTotal distance = 240 km, total time = 5 hours. Average speed = 240/5 = 48 km/h.\n\nFormula: for equal distances, the average speed is the harmonic mean, 2ab/(a + b) = 2(40)(60)/100 = 48.\n\nThe average is closer to the slower speed because she spends more time at the slower speed.",
+   "tip": "Equal distances at two speeds: average speed = 2ab/(a + b), never (a + b)/2.",
+   "trap": "Averaging the speeds, (40 + 60)/2 = 50, assumes equal times, not equal distances.",
+   "timeTarget": 90,
+   "skills": [
+    "average-speed",
+    "harmonic-mean"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Ravi can paint a fence in 6 hours and Seema can paint the same fence in 12 hours. Working together at their constant rates, how many hours will they take to paint the fence?",
+   "choices": [
+    "4",
+    "3",
+    "4.5",
+    "6",
+    "9"
+   ],
+   "answer": 0,
+   "explanation": "Work in rates: Ravi does 1/6 of the fence per hour, Seema does 1/12.\n\nCombined rate = 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4 per hour.\n\nTime = 1 ÷ (1/4) = 4 hours.\n\nQuick check: in 4 hours Ravi paints 4/6 = 2/3 of the fence and Seema paints 4/12 = 1/3. Together, 2/3 + 1/3 = 1 whole fence. \n\nRule: when two people work together, the combined time is always less than the faster person's time alone (4 < 6), which rules out 6 and 9 straight away.",
+   "tip": "Combined time = (a × b)/(a + b) for two workers: here (6 × 12)/18 = 4.",
+   "trap": "Averaging the two times, (6 + 12)/2 = 9, is the most common slip. The answer must be below 6.",
+   "timeTarget": 75,
+   "skills": [
+    "work-rates",
+    "combined-rate"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Two cyclists start 90 km apart and ride towards each other at constant speeds of 12 km/h and 18 km/h. How many hours after they start will they meet?",
+   "choices": [
+    "2",
+    "5",
+    "3",
+    "6",
+    "7.5"
+   ],
+   "answer": 2,
+   "explanation": "When two objects move towards each other, their speeds add up: closing speed = 12 + 18 = 30 km/h.\n\nTime to meet = distance ÷ closing speed = 90 ÷ 30 = 3 hours.\n\nCheck: in 3 hours the first cyclist covers 36 km and the second covers 54 km. 36 + 54 = 90. \n\nThe wrong choices come from using only one speed (90/18 = 5 and 90/12 = 7.5) or the average of the two speeds (90/15 = 6).",
+   "tip": "Towards each other: add the speeds. Same direction (catching up): subtract.",
+   "trap": "Using the average of the two speeds (15 km/h) gives 6 hours; using a single cyclist's speed gives 5 or 7.5.",
+   "timeTarget": 75,
+   "skills": [
+    "relative-speed",
+    "towards"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Arun leaves a town at 9:00 a.m. and drives at a constant 40 km/h. Bala leaves the same town at 10:00 a.m. along the same road in the same direction at a constant 60 km/h. At what time does Bala catch up with Arun?",
+   "choices": [
+    "11:00 a.m.",
+    "11:30 a.m.",
+    "12:00 noon",
+    "12:30 p.m.",
+    "1:00 p.m."
+   ],
+   "answer": 2,
+   "explanation": "By 10:00 a.m. Arun has driven for 1 hour at 40 km/h, so he leads by 40 km.\n\nBala closes the gap at 60 − 40 = 20 km/h (same direction, so subtract).\n\nTime to close 40 km = 40 ÷ 20 = 2 hours after 10:00, which is 12:00 noon.\n\nCheck: at noon Arun has driven 3 hours = 120 km; Bala has driven 2 hours = 120 km. They are at the same spot.\n\nA frequent slip is to start the 2-hour clock at 9:00 a.m. (giving 11:00) or to forget Arun's head start entirely and add 40/60 of an hour.",
+   "tip": "Catching up: head start ÷ difference in speeds = time to catch up (measured from the later start).",
+   "trap": "Counting the 2 hours from 9:00 a.m. gives 11:00 a.m. Ignoring the head start gives 40 minutes after 10:00.",
+   "timeTarget": 100,
+   "skills": [
+    "relative-speed",
+    "catching-up"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Pipe A can fill an empty tank in 8 hours, pipe B can fill it in 12 hours, and drain C can empty a full tank in 24 hours. If all three are open at the same time, how many hours will it take to fill the empty tank?",
+   "choices": [
+    "4.8",
+    "6",
+    "5",
+    "7",
+    "9"
+   ],
+   "answer": 1,
+   "explanation": "Add the rates of the pipes and subtract the drain.\n\nA: 1/8 per hour. B: 1/12 per hour. C: −1/24 per hour.\n\nUse 24 as the common denominator: 3/24 + 2/24 − 1/24 = 4/24 = 1/6 per hour.\n\nTime = 6 hours.\n\nCheck with a smart number: let the tank hold 24 litres. A fills 3 L/h, B fills 2 L/h, C removes 1 L/h, for a net of 4 L/h. 24 ÷ 4 = 6 hours. \n\nIf you ignored the drain you'd get 24/5 = 4.8 hours.",
+   "tip": "Pick the tank size as the LCM of the times (24) so every rate is a whole number.",
+   "trap": "Leaving out the drain gives 4.8 hours. The drain's rate must be subtracted.",
+   "timeTarget": 100,
+   "skills": [
+    "pipes",
+    "combined-rate",
+    "smart-numbers"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Machine A can complete a job in 10 hours and machine B can complete it in 15 hours. They work together for 3 hours, and then B is switched off. How many more hours does A need to finish the job alone?",
+   "choices": [
+    "3",
+    "4",
+    "6",
+    "5",
+    "7.5"
+   ],
+   "answer": 3,
+   "explanation": "Rates: A = 1/10 per hour, B = 1/15 per hour. Together: 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6 per hour.\n\nIn 3 hours they complete 3 × 1/6 = 1/2 of the job. Remaining: 1/2.\n\nA alone does 1/10 per hour, so the remaining half takes (1/2) ÷ (1/10) = 5 hours.\n\nCheck with a smart number of 30 units: A does 3 units per hour, B does 2. In 3 hours together: 15 units. Remaining 15 units at 3 per hour = 5 hours.\n\nTrap: dividing the remainder by the combined rate (1/2 ÷ 1/6 = 3) forgets that B has left.",
+   "tip": "Track 'fraction of job done' after each phase; use the correct rate for the correct phase.",
+   "trap": "Using the combined rate for the remaining work gives 3 hours, even though B has stopped.",
+   "timeTarget": 100,
+   "skills": [
+    "work-rates",
+    "changing-team"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A boat travels at 12 km/h in still water. A river flows at 3 km/h. The boat goes 45 km downstream and then returns the same 45 km upstream. How many hours does the whole trip take?",
+   "choices": [
+    "8",
+    "6",
+    "7.5",
+    "9",
+    "10"
+   ],
+   "answer": 0,
+   "explanation": "Downstream, the current helps: speed = 12 + 3 = 15 km/h. Time = 45/15 = 3 hours.\n\nUpstream, the current opposes: speed = 12 − 3 = 9 km/h. Time = 45/9 = 5 hours.\n\nTotal = 3 + 5 = 8 hours.\n\nCheck using average speed: total distance 90 km. Average speed = 90/8 = 11.25 km/h, which is lower than the still-water speed of 12 km/h, as it must be (the slower leg takes longer, so the average can't beat 12).\n\nIgnoring the current gives 90/12 = 7.5 hours. That is the main trap: the current doesn't cancel out, because time spent going against it is longer.",
+   "tip": "With a current, the trip is always slower than in still water because more time is spent at the lower speed.",
+   "trap": "Ignoring the current and using 12 km/h both ways gives 7.5 hours.",
+   "timeTarget": 110,
+   "skills": [
+    "rtd",
+    "boats-and-streams",
+    "round-trip"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-010",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A train 120 metres long and another train 180 metres long travel on parallel tracks in opposite directions at 54 km/h and 36 km/h, respectively. How many seconds after the fronts of the trains meet will the rear ends clear each other?",
+   "choices": [
+    "6",
+    "10",
+    "12",
+    "15",
+    "60"
+   ],
+   "answer": 2,
+   "explanation": "For trains moving in opposite directions, add the speeds: 54 + 36 = 90 km/h. Convert to m/s: 90 × 5/18 = 25 m/s.\n\nTo pass completely, the trains must cover the sum of their lengths: 120 + 180 = 300 m.\n\nTime = 300 ÷ 25 = 12 seconds.\n\nCheck: in 12 seconds the first train goes 15 m/s × 12 = 180 m and the second goes 10 m/s × 12 = 120 m. Together 300 m. Correct.\n\nThe trap is to subtract the speeds (as if they were moving in the same direction): 18 km/h = 5 m/s gives 300/5 = 60 seconds.",
+   "tip": "Crossing time = (sum of lengths) ÷ (relative speed); add speeds if opposite, subtract if same direction.",
+   "trap": "Subtracting the speeds treats the trains as if they move in the same direction and gives 60 seconds.",
+   "timeTarget": 120,
+   "skills": [
+    "trains",
+    "relative-speed",
+    "unit-conversion"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-011",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A cyclist rides the first half of a journey's distance at 20 km/h and the second half at a constant speed of v km/h. If her average speed for the entire journey is 24 km/h, what is the value of v?",
+   "choices": [
+    "28",
+    "32",
+    "36",
+    "40",
+    "30"
+   ],
+   "answer": 4,
+   "explanation": "Equal distances, so the average speed is the harmonic mean: 24 = 2(20)(v)/(20 + v).\n\n24(20 + v) = 40v, so 480 + 24v = 40v, so 16v = 480 and v = 30.\n\nCheck with a smart distance of 60 km each way: first half takes 60/20 = 3 hours, second half takes 60/30 = 2 hours. Total 120 km in 5 hours = 24 km/h. Correct.\n\nThe trap is the arithmetic mean: (20 + v)/2 = 24 gives v = 28. But the cyclist spends more time at the slower speed, so v needs to be higher than 28 to pull the average up.",
+   "tip": "If average speed over equal distances is given, work with times: pick a convenient distance and total the hours.",
+   "trap": "Setting (20 + v)/2 = 24 gives v = 28, which treats speeds as if they were used for equal times.",
+   "timeTarget": 120,
+   "skills": [
+    "average-speed",
+    "harmonic-mean"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-012",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Two towns, X and Y, are 240 km apart. A car leaves X for Y at a constant 60 km/h. One hour later, a second car leaves Y for X along the same road at a constant 90 km/h. How many kilometres from X will the cars meet?",
+   "choices": [
+    "100",
+    "132",
+    "108",
+    "120",
+    "144"
+   ],
+   "answer": 1,
+   "explanation": "In the first hour, the first car covers 60 km, so the remaining gap is 240 − 60 = 180 km.\n\nNow both cars are moving, and their closing speed is 60 + 90 = 150 km/h. Time to meet = 180/150 = 1.2 hours.\n\nIn that time the first car covers 60 × 1.2 = 72 km. Distance from X = 60 + 72 = 132 km.\n\nCheck from Y's side: the second car drives 90 × 1.2 = 108 km from Y, so it is 240 − 108 = 132 km from X. Both agree.\n\nThe trap is to forget the first car's head start (72 or 108 km) or to start the clock for the second car incorrectly.",
+   "tip": "A delayed start just shrinks the gap: subtract the head start, then use the closing speed.",
+   "trap": "108 is the distance the second car travels from Y, not the distance from X. 120 comes from ignoring the head start.",
+   "timeTarget": 150,
+   "skills": [
+    "relative-speed",
+    "delayed-start"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-013",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Machines A and B together can complete a job in 12 days. Machines B and C together can complete it in 15 days, and machines A and C together can complete it in 20 days. How many days would machine A alone take to complete the job?",
+   "choices": [
+    "20",
+    "24",
+    "36",
+    "30",
+    "40"
+   ],
+   "answer": 3,
+   "explanation": "Add the three pair rates: (A + B) + (B + C) + (A + C) = 2(A + B + C) = 1/12 + 1/15 + 1/20.\n\nCommon denominator 60: 5/60 + 4/60 + 3/60 = 12/60 = 1/5.\n\nSo A + B + C = 1/10 per day.\n\nA alone = (A + B + C) − (B + C) = 1/10 − 1/15 = 3/30 − 2/30 = 1/30 per day. A needs 30 days.\n\nCheck: B = 1/10 − 1/20 = 1/20 and C = 1/10 − 1/12 = 1/60. Then B + C = 3/60 + 1/60 = 4/60 = 1/15 and A + C = 2/60 + 1/60 = 3/60 = 1/20. Both match the givens.\n\nThe idea is that the trio's rate minus the pair that excludes A leaves A.",
+   "tip": "With pair rates, add all pairs to get twice the trio rate, then subtract the pair that leaves out your target.",
+   "trap": "Subtracting the wrong pair, for example 1/10 − 1/12 = 1/60, gives C's time (60 days) instead of A's.",
+   "timeTarget": 150,
+   "skills": [
+    "work-rates",
+    "three-workers"
+   ]
+  },
+  {
+   "id": "q-rates-qe-p-014",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "In a 100-metre race, runner A beats runner B by 20 metres. In a 100-metre race, B beats runner C by 10 metres. If all runners run at constant speeds, by how many metres does A beat C in a 100-metre race?",
+   "choices": [
+    "28",
+    "25",
+    "27",
+    "30",
+    "32"
+   ],
+   "answer": 0,
+   "explanation": "Turn 'beats by' into distances run in the same time.\n\nWhen A finishes 100 m, B has run 80 m. So B's speed is 0.8 of A's.\n\nWhen B finishes 100 m, C has run 90 m. So C's speed is 0.9 of B's, which is 0.9 × 0.8 = 0.72 of A's.\n\nSo when A runs 100 m, C runs 72 m. A beats C by 100 − 72 = 28 metres.\n\nCheck with numbers: let A run at 10 m/s, B at 8 m/s, C at 7.2 m/s. A finishes in 10 s and C has gone 72 m. \n\nThe trap is to add 20 + 10 = 30: that would be right only if B's 10 m margin was measured while A was running as well.",
+   "tip": "'Beats by' problems are speed ratios in disguise: convert each margin to a ratio and multiply them.",
+   "trap": "Adding the margins, 20 + 10 = 30, ignores that B's 10-metre margin over C is measured over B's 100 m, not A's.",
+   "timeTarget": 150,
+   "skills": [
+    "speed-ratios",
+    "races"
+   ]
+  },
+  {
+   "id": "q-rates-qe-m-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A runner covers 6 kilometres in 40 minutes. What is her speed in kilometres per hour?",
+   "choices": [
+    "6",
+    "7.5",
+    "9",
+    "12",
+    "15"
+   ],
+   "answer": 2,
+   "explanation": "Speed = distance ÷ time, and the time must be in hours for km/h.\n\n40 minutes = 40/60 = 2/3 hour.\n\nSpeed = 6 ÷ (2/3) = 6 × 3/2 = 9 km/h.\n\nCheck: in 20 minutes (a third of an hour) she covers 3 km, so in 60 minutes she covers 9 km. \n\nThe wrong choices come from forgetting to convert minutes to hours (6/40 = 0.15) or dividing in the wrong direction. A quick sense check: 6 km in 40 minutes is a brisk pace, and 9 km/h is a decent jogging speed, which fits.",
+   "tip": "Convert time to hours before dividing if you need km/h.",
+   "trap": "Treating 40 minutes as 0.4 hours gives 15 km/h.",
+   "timeTarget": 60,
+   "skills": [
+    "speed",
+    "unit-conversion"
+   ]
+  },
+  {
+   "id": "q-rates-qe-m-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Meena walks to school at 4 km/h and returns along the same route at 6 km/h. If the round trip takes 2.5 hours in total, how many kilometres is the school from her home?",
+   "choices": [
+    "3",
+    "5",
+    "7.5",
+    "12",
+    "6"
+   ],
+   "answer": 4,
+   "explanation": "Let the one-way distance be d km. Time going = d/4, time returning = d/6.\n\nTotal: d/4 + d/6 = 2.5. The common denominator is 12: 3d/12 + 2d/12 = 5d/12 = 2.5, so d = 2.5 × 12/5 = 6.\n\nCheck: 6/4 = 1.5 hours and 6/6 = 1 hour, so 2.5 hours in total. Correct.\n\nAlternatively, the average speed is 2(4)(6)/10 = 4.8 km/h. The total distance is 4.8 × 2.5 = 12 km, which is the round trip, so one way is 6 km. If you answered 12 you gave the round-trip distance.",
+   "tip": "Check whether the question asks for one-way or round-trip distance.",
+   "trap": "Answering 12 reports the round-trip distance rather than the one-way distance.",
+   "timeTarget": 100,
+   "skills": [
+    "round-trip",
+    "average-speed"
+   ]
+  },
+  {
+   "id": "q-rates-qe-m-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Pump A can fill an empty tank in 6 hours, and drain B can empty a full tank in 9 hours. Both are opened together on the empty tank. After 3 hours, the drain is closed and the pump keeps running. How many hours after the start will the tank be full?",
+   "choices": [
+    "6",
+    "8",
+    "7",
+    "9",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "Rates: pump = 1/6 per hour, drain = −1/9 per hour. Together: 1/6 − 1/9 = 3/18 − 2/18 = 1/18 per hour.\n\nIn the first 3 hours: 3 × 1/18 = 1/6 of the tank.\n\nRemaining: 5/6. The pump alone fills at 1/6 per hour, so the time = (5/6) ÷ (1/6) = 5 hours.\n\nTotal = 3 + 5 = 8 hours.\n\nCheck with an 18-litre tank: pump = 3 L/h, drain = 2 L/h. After 3 hours: 3 litres in. Remaining 15 litres at 3 L/h = 5 hours. Total 8.\n\nThe trap is to take 6 hours (the pump's time alone) and forget the drain's effect early on.",
+   "tip": "Treat each phase separately: write the fraction filled after phase 1, then finish with the new rate.",
+   "trap": "Answering 6 assumes the drain never affected the pump.",
+   "timeTarget": 110,
+   "skills": [
+    "pipes",
+    "phases",
+    "combined-rate"
+   ]
+  },
+  {
+   "id": "q-rates-qe-m-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Two runners start together from the same point of a circular track that is 400 metres long. They run in the same direction, one at 5 m/s and the other at 7 m/s. How many seconds after the start will the faster runner be exactly one full lap ahead of the slower runner?",
+   "choices": [
+    "57",
+    "80",
+    "100",
+    "200",
+    "400"
+   ],
+   "answer": 3,
+   "explanation": "Same direction, so the relative speed is the difference: 7 − 5 = 2 m/s.\n\nThe faster runner gains 400 m (one full lap) when time × 2 = 400, so time = 200 seconds.\n\nCheck: in 200 s the faster runner covers 1,400 m = 3.5 laps and the slower covers 1,000 m = 2.5 laps. The difference is exactly 1 lap.\n\nDistractors: 400/5 = 80 is the time for the slower runner to run one lap, and 400/7 is about 57 s for the faster runner. If they ran in opposite directions, they would meet after 400/12, about 33 s. In circular-track problems always decide which direction first.",
+   "tip": "On a circular track, same direction means subtract speeds and gain one lap; opposite directions means add speeds.",
+   "trap": "Using one runner's lap time (80 or 57 s) ignores the relative speed.",
+   "timeTarget": 100,
+   "skills": [
+    "relative-speed",
+    "circular-track"
+   ]
+  },
+  {
+   "id": "q-rates-qe-m-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A car drives from A to B at 60 km/h and then from B to C at 40 km/h. The distance from B to C is twice the distance from A to B. What is the car's average speed for the whole trip from A to C, in km/h?",
+   "choices": [
+    "45",
+    "40",
+    "46.7",
+    "48",
+    "50"
+   ],
+   "answer": 0,
+   "explanation": "Let AB = d, so BC = 2d and the total distance is 3d.\n\nTime AB = d/60. Time BC = 2d/40 = d/20 = 3d/60.\n\nTotal time = d/60 + 3d/60 = 4d/60 = d/15.\n\nAverage speed = 3d ÷ (d/15) = 45 km/h.\n\nCheck with d = 60 km: AB takes 1 hour, BC (120 km) takes 3 hours, total 180 km in 4 hours = 45 km/h. \n\nTraps: the simple average (60 + 40)/2 = 50; the harmonic mean for equal distances, 48; and the distance-weighted average of speeds, (60 + 2 × 40)/3 = 46.7. The correct weighting is by time, not distance.",
+   "tip": "Average speed = total distance ÷ total time. Weighted averages of speeds must be weighted by time, not by distance.",
+   "trap": "Weighting speeds by distance, (60 + 80)/3 = 46.7, looks sophisticated but is wrong.",
+   "timeTarget": 130,
+   "skills": [
+    "average-speed",
+    "weighted-average"
+   ]
+  },
+  {
+   "id": "q-rates-qe-m-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Machine A can complete an order in 12 hours and machine B can complete it in 24 hours. Both start at the same time. After 4 hours, machine A breaks down and B finishes the order alone. How many hours in total does the order take?",
+   "choices": [
+    "12",
+    "14",
+    "16",
+    "18",
+    "20"
+   ],
+   "answer": 2,
+   "explanation": "Rates: A = 1/12 per hour, B = 1/24 per hour. Together: 2/24 + 1/24 = 3/24 = 1/8 per hour.\n\nIn 4 hours together: 4 × 1/8 = 1/2 of the order.\n\nRemaining: 1/2, and B alone does 1/24 per hour, so it needs (1/2) ÷ (1/24) = 12 hours.\n\nTotal = 4 + 12 = 16 hours.\n\nCheck with a smart number of 24 units: A does 2 per hour, B does 1 per hour. In 4 hours: 12 units. Remaining 12 units at 1 per hour = 12 hours. Total = 16.\n\nThe trap is 12, which is the time B needs after the breakdown and not the total from the start.",
+   "tip": "Always add the time before the breakdown to the time after it; the question asks for total time.",
+   "trap": "Answering 12 gives only the time after the breakdown, forgetting the first 4 hours.",
+   "timeTarget": 110,
+   "skills": [
+    "work-rates",
+    "changing-team"
+   ]
+  },
+  {
+   "id": "q-rates-qe-m-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A traveller drives from P to Q at a constant speed. If she drives at 60 km/h she arrives 1 hour late, and if she drives at 90 km/h she arrives 1 hour early. At what constant speed, in km/h, should she drive to arrive exactly on time?",
+   "choices": [
+    "70",
+    "74",
+    "75",
+    "80",
+    "72"
+   ],
+   "answer": 4,
+   "explanation": "Let the distance be d and the scheduled travel time be T hours.\n\nd/60 = T + 1 and d/90 = T − 1. Subtract: d/60 − d/90 = 2. With a common denominator, d(3 − 2)/180 = 2, so d = 360 km.\n\nThen T = 360/60 − 1 = 5 hours (check: 360/90 = 4 = 5 − 1).\n\nRequired speed = 360/5 = 72 km/h.\n\nTrap: the average of 60 and 90 is 75, which is tempting but wrong, since the time gained or lost isn't linear in speed. The harmonic mean of 60 and 90 is 72, which in this symmetric case (1 hour late and 1 hour early) also gives the right answer.",
+   "tip": "Set up two equations with the same distance and the same scheduled time, then eliminate the time.",
+   "trap": "The simple average 75 km/h is the classic trap, as speed and time are inversely related.",
+   "timeTarget": 150,
+   "skills": [
+    "rtd",
+    "simultaneous-equations",
+    "late-early"
+   ]
+  },
+  {
+   "id": "q-rates-qe-m-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-rates",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A car covers the first half of a journey's distance at a constant speed of r km/h and the second half at a constant speed of 1.25r km/h. In terms of r, what is the car's average speed for the whole journey, in km/h?",
+   "choices": [
+    "9r/8",
+    "10r/9",
+    "5r/4",
+    "8r/7",
+    "11r/10"
+   ],
+   "answer": 1,
+   "explanation": "For equal distances, the average speed is the harmonic mean: 2ab/(a + b) with a = r and b = 1.25r.\n\n2(r)(1.25r)/(r + 1.25r) = 2.5r²/2.25r = 2.5r/2.25 = 10r/9.\n\nSmart-number check: r = 40, so the speeds are 40 and 50. Take a 200 km distance in each half: 5 hours + 4 hours = 9 hours for 400 km. Average = 400/9 = 44.4 km/h. The formula gives 10(40)/9 = 44.4. \n\nThe arithmetic mean would be (r + 1.25r)/2 = 1.125r = 9r/8, which is the main trap. The true average must be lower, because more time is spent at the lower speed.",
+   "tip": "For equal distances, use the harmonic mean; test with r = 40 so the speeds are 40 and 50.",
+   "trap": "The arithmetic mean 9r/8 is wrong because it assumes equal times at each speed.",
+   "timeTarget": 140,
+   "skills": [
+    "average-speed",
+    "harmonic-mean",
+    "variable-answers"
+   ]
+  }
+ ]
+}

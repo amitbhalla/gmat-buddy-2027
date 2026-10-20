@@ -1,0 +1,317 @@
+[
+  {
+    "id": "mba-gmat-exam",
+    "title": "GMAT exam hub on mba.com",
+    "url": "https://www.mba.com/exams/gmat-exam",
+    "category": "official",
+    "cost": "Free",
+    "why": "The official place to register, read policies, check fees and find free prep.",
+    "when": "All phases; essential in Test & Apply"
+  },
+  {
+    "id": "mba-home",
+    "title": "mba.com",
+    "url": "https://www.mba.com/",
+    "category": "official",
+    "cost": "Free",
+    "why": "Your account, scores, score sending and the official store all live here.",
+    "when": "Foundations onward"
+  },
+  {
+    "id": "gmac-home",
+    "title": "GMAC",
+    "url": "https://www.gmac.com/",
+    "category": "official",
+    "cost": "Free",
+    "why": "The exam owner's news and announcements, including Superscore and concordance updates.",
+    "when": "All phases"
+  },
+  {
+    "id": "starter-kit",
+    "title": "GMAT Official Starter Kit and Practice Exams 1 and 2",
+    "url": "https://www.mba.com/exams/gmat-exam",
+    "category": "official",
+    "cost": "Free",
+    "why": "Real sample questions and two full-length adaptive exams with the real scoring.",
+    "when": "Foundations (Exam 1), end of Core (Exam 2)"
+  },
+  {
+    "id": "official-guide",
+    "title": "GMAT Official Guide 2026-2027",
+    "url": "https://www.mba.com/exams/gmat-exam",
+    "category": "official",
+    "cost": "Paid (approx US$43-50; e-book about US$30)",
+    "why": "Over 975 real questions with explanations, the best realistic practice available.",
+    "when": "Advanced"
+  },
+  {
+    "id": "official-reviews",
+    "title": "Official Guide Quant, Verbal and Data Insights Reviews",
+    "url": "https://www.mba.com/exams/gmat-exam",
+    "category": "official",
+    "cost": "Paid (approx US$27 each)",
+    "why": "Extra official questions in one area, useful once you know your weakest section.",
+    "when": "Advanced"
+  },
+  {
+    "id": "official-practice-questions",
+    "title": "GMAT Official Practice Questions",
+    "url": "https://www.mba.com/exams/gmat-exam",
+    "category": "official",
+    "cost": "Paid (approx US$30 per section, about US$80 for the bundle)",
+    "why": "Section-specific sets of real questions for targeted practice.",
+    "when": "Advanced"
+  },
+  {
+    "id": "official-exams-3-6",
+    "title": "GMAT Official Practice Exams 3 to 6",
+    "url": "https://www.mba.com/exams/gmat-exam",
+    "category": "official",
+    "cost": "Paid (approx US$108-110 for all four; check mba.com)",
+    "why": "The best predictor of your real score, with the real algorithm and timing.",
+    "when": "Mock season"
+  },
+  {
+    "id": "wiley",
+    "title": "Wiley (publisher of the Official Guide)",
+    "url": "https://www.wiley.com/",
+    "category": "official",
+    "cost": "Paid (approx US$43 for the Official Guide)",
+    "why": "An alternative place to buy the Official Guide in print or as an e-book.",
+    "when": "Advanced"
+  },
+  {
+    "id": "pearson-vue",
+    "title": "Pearson VUE",
+    "url": "https://www.pearsonvue.com/",
+    "category": "tool",
+    "cost": "Free",
+    "why": "Test centre information; confirm Delhi NCR locations and what to expect on the day.",
+    "when": "Test & Apply"
+  },
+  {
+    "id": "gmatclub-forum",
+    "title": "GMAT Club forum",
+    "url": "https://gmatclub.com/forum/",
+    "category": "community",
+    "cost": "Free",
+    "why": "The largest GMAT community with explanations, study plans and score stories.",
+    "when": "All phases"
+  },
+  {
+    "id": "gmatclub-home",
+    "title": "GMAT Club",
+    "url": "https://gmatclub.com/",
+    "category": "community",
+    "cost": "Free (mocks paid, approx US$100 for 3 months)",
+    "why": "Question bank, tests, study plans and school information in one place.",
+    "when": "Core to Mock season"
+  },
+  {
+    "id": "beat-the-gmat",
+    "title": "Beat The GMAT",
+    "url": "https://www.beatthegmat.com/",
+    "category": "community",
+    "cost": "Free",
+    "why": "Forums and success stories, helpful for morale and recent test-day reports.",
+    "when": "All phases"
+  },
+  {
+    "id": "reddit-gmat",
+    "title": "r/GMAT on Reddit",
+    "url": "https://www.reddit.com/r/GMAT/",
+    "category": "community",
+    "cost": "Free",
+    "why": "Quick questions, recent test-day experiences and motivation from other test-takers.",
+    "when": "All phases"
+  },
+  {
+    "id": "khan-math",
+    "title": "Khan Academy maths",
+    "url": "https://www.khanacademy.org/math",
+    "category": "free",
+    "cost": "Free",
+    "why": "Rebuild school-level arithmetic and algebra from the ground up.",
+    "when": "Foundations"
+  },
+  {
+    "id": "youtube",
+    "title": "YouTube",
+    "url": "https://www.youtube.com/",
+    "category": "free",
+    "cost": "Free",
+    "why": "Free lessons from several prep providers; prefer recent videos on the current exam.",
+    "when": "Foundations and Core"
+  },
+  {
+    "id": "ttp",
+    "title": "Target Test Prep",
+    "url": "https://gmat.targettestprep.com/",
+    "category": "course",
+    "cost": "Paid (reports vary, roughly US$150-250 a month; check site)",
+    "why": "Deep, structured Quant course with a large question bank and error tracking.",
+    "when": "Core and Advanced"
+  },
+  {
+    "id": "egmat",
+    "title": "e-GMAT",
+    "url": "https://e-gmat.com/",
+    "category": "course",
+    "cost": "Paid (reported roughly US$300-400; free trial available)",
+    "why": "Strong on Critical Reasoning, Reading Comprehension and Data Insights, with adaptive tools.",
+    "when": "Core and Advanced"
+  },
+  {
+    "id": "manhattan-prep",
+    "title": "Manhattan Prep",
+    "url": "https://www.manhattanprep.com/gmat/",
+    "category": "course",
+    "cost": "Paid (reported from about US$999)",
+    "why": "Well-regarded teaching and live courses, the most expensive option here.",
+    "when": "Core (optional)"
+  },
+  {
+    "id": "magoosh",
+    "title": "Magoosh GMAT",
+    "url": "https://magoosh.com/gmat/",
+    "category": "course",
+    "cost": "Paid (plans listed about US$199 for 6 months; check site)",
+    "why": "Friendly video lessons and a free trial; a gentle, affordable choice.",
+    "when": "Foundations and Core"
+  },
+  {
+    "id": "experts-global",
+    "title": "Experts' Global",
+    "url": "https://www.expertsglobal.com/",
+    "category": "course",
+    "cost": "Paid (mocks reported about US$90 for 6 months; one mock free)",
+    "why": "Budget-friendly Indian provider with many full-length mocks.",
+    "when": "Mock season"
+  },
+  {
+    "id": "gmat-ninja",
+    "title": "GMAT Ninja",
+    "url": "https://www.gmatninja.com/",
+    "category": "free",
+    "cost": "Free (paid options vary)",
+    "why": "Excellent concept explanations; check that older content still applies to the current exam.",
+    "when": "Core and Advanced"
+  },
+  {
+    "id": "crackverbal",
+    "title": "CrackVerbal",
+    "url": "https://www.crackverbal.com/",
+    "category": "course",
+    "cost": "Paid (varies; check site)",
+    "why": "India-based coaching with free guides, including a Data Sufficiency guide.",
+    "when": "Core (optional)"
+  },
+  {
+    "id": "economist",
+    "title": "The Economist",
+    "url": "https://www.economist.com",
+    "category": "reading",
+    "cost": "Free articles limited; subscription paid",
+    "why": "Dense, well-organised argument, ideal for building a Reading Comprehension habit.",
+    "when": "All phases"
+  },
+  {
+    "id": "aeon",
+    "title": "Aeon",
+    "url": "https://aeon.co",
+    "category": "reading",
+    "cost": "Free",
+    "why": "Long essays on ideas and culture that train you on abstract, idea-heavy writing.",
+    "when": "All phases"
+  },
+  {
+    "id": "sciam",
+    "title": "Scientific American",
+    "url": "https://www.scientificamerican.com",
+    "category": "reading",
+    "cost": "Free articles limited; subscription paid",
+    "why": "Clear science writing, close to the style of RC science passages.",
+    "when": "All phases"
+  },
+  {
+    "id": "smithsonian",
+    "title": "Smithsonian Magazine",
+    "url": "https://www.smithsonianmag.com",
+    "category": "reading",
+    "cost": "Free",
+    "why": "History and science in accessible prose, good for relaxed reading practice.",
+    "when": "All phases"
+  },
+  {
+    "id": "atlantic",
+    "title": "The Atlantic",
+    "url": "https://www.theatlantic.com",
+    "category": "reading",
+    "cost": "Free articles limited; subscription paid",
+    "why": "Long-form essays on society and ideas for stamina and argument-tracking.",
+    "when": "Core to Advanced"
+  },
+  {
+    "id": "hbr",
+    "title": "Harvard Business Review",
+    "url": "https://hbr.org",
+    "category": "reading",
+    "cost": "Free articles limited; subscription paid",
+    "why": "Business reasoning close to Critical Reasoning and Data Insights content.",
+    "when": "All phases"
+  },
+  {
+    "id": "our-world-in-data",
+    "title": "Our World in Data",
+    "url": "https://ourworldindata.org/",
+    "category": "free",
+    "cost": "Free",
+    "why": "Real charts and datasets to practise reading graphs and tables.",
+    "when": "Core to Advanced"
+  },
+  {
+    "id": "gapminder",
+    "title": "Gapminder",
+    "url": "https://www.gapminder.org/",
+    "category": "free",
+    "cost": "Free",
+    "why": "Interactive charts that build data-reading intuition for Data Insights.",
+    "when": "Core"
+  },
+  {
+    "id": "anki",
+    "title": "Anki",
+    "url": "https://apps.ankiweb.net/",
+    "category": "tool",
+    "cost": "Free on desktop and Android; paid on iPhone",
+    "why": "Optional spaced-repetition flashcards if you want a second tool beyond the app.",
+    "when": "All phases"
+  },
+  {
+    "id": "isb",
+    "title": "Indian School of Business",
+    "url": "https://www.isb.edu/",
+    "category": "community",
+    "cost": "Free",
+    "why": "Official ISB admissions pages, class profile and policies for your target programme.",
+    "when": "Test & Apply"
+  },
+  {
+    "id": "pubmed-roediger",
+    "title": "Roediger and Karpicke (2006) on PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16507066/",
+    "category": "reading",
+    "cost": "Free",
+    "why": "The original test-enhanced learning study behind retrieval practice.",
+    "when": "Foundations"
+  },
+  {
+    "id": "pubmed-cepeda",
+    "title": "Cepeda et al. (2006) on PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+    "category": "reading",
+    "cost": "Free",
+    "why": "The review of distributed practice research behind spaced study.",
+    "when": "Foundations"
+  }
+]

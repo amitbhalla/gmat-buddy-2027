@@ -1,0 +1,1727 @@
+{
+ "stimuli": [],
+ "questions": [
+  {
+   "id": "q-mixtures-qf-p-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A lab technician mixes 2 litres of a 20% salt solution with 3 litres of a 40% salt solution. What is the percent of salt in the resulting mixture?",
+   "choices": [
+    "26%",
+    "28%",
+    "30%",
+    "32%",
+    "34%"
+   ],
+   "answer": 3,
+   "explanation": "Work with the amount of pure salt, because salt and volume both simply add.\n\nSalt in the first solution: 0.20 × 2 = 0.4 L. Salt in the second: 0.40 × 3 = 1.2 L. Total salt = 1.6 L in 5 L of mixture, and 1.6 ÷ 5 = 0.32 = 32%.\n\nFaster way: the answer must lie between 20% and 40%, and since there is more of the stronger solution (3 L vs 2 L), it should sit closer to 40%. The gap is 20 points; the weights 2 : 3 put the mix 3/5 of the way up from 20%: 20 + 12 = 32%.",
+   "tip": "Convert each solution to the amount of pure stuff it contains, add those, then divide by the total volume.",
+   "trap": "Averaging 20% and 40% to get 30% ignores that the two volumes are different.",
+   "timeTarget": 90,
+   "skills": [
+    "weighted-average",
+    "concentration"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "Priya deposits $2,500 in an account that pays 6% simple interest per year. How much interest does she earn in 4 years?",
+   "choices": [
+    "$300",
+    "$450",
+    "$600",
+    "$750",
+    "$900"
+   ],
+   "answer": 2,
+   "explanation": "Simple interest = principal × rate × time = 2,500 × 0.06 × 4.\n\n2,500 × 0.06 = 150 per year. Over 4 years: 150 × 4 = $600.\n\nSimple interest is the same amount every year because it is always charged on the original $2,500 only.",
+   "tip": "Simple interest is a straight line: yearly interest × number of years.",
+   "trap": "Stopping after one year ($150) or giving the total amount ($3,100) instead of the interest alone.",
+   "timeTarget": 75,
+   "skills": [
+    "simple-interest"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A shopkeeper buys a bag for $40 and marks it up by 50% over cost. During a sale he sells it at 20% off the marked price. What is his profit as a percent of cost?",
+   "choices": [
+    "15%",
+    "20%",
+    "25%",
+    "30%",
+    "35%"
+   ],
+   "answer": 1,
+   "explanation": "Marked price = 40 × 1.50 = $60. Sale price = 60 × 0.80 = $48. Profit = 48 − 40 = $8, which is 8/40 = 20% of cost.\n\nMultiplier version: 1.50 × 0.80 = 1.20, so the net effect is +20% over cost.\n\nThe discount applies to the marked price ($60), not to the cost, so you cannot just subtract 20 from 50.",
+   "tip": "Chain markups and discounts as multipliers (× 1.5, × 0.8), never as added or subtracted percents.",
+   "trap": "50% − 20% = 30% forgets that the discount is taken on the larger marked price.",
+   "timeTarget": 105,
+   "skills": [
+    "markup",
+    "discount"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A 30-litre solution contains 20% acid. How many litres of water must be added to make it a 15% acid solution?",
+   "choices": [
+    "5",
+    "10",
+    "12",
+    "15",
+    "20"
+   ],
+   "answer": 1,
+   "explanation": "Acid in the solution = 0.20 × 30 = 6 L, and adding water does not change that.\n\nIn the final solution, 6 L must be 15% of the total, so the total = 6 ÷ 0.15 = 40 L. Water added = 40 − 30 = 10 litres.\n\nCheck: 6/40 = 15%. ✓\n\nFaster way: concentration times volume stays constant when you only add water: 0.20 × 30 = 0.15 × V, so V = 40.",
+   "tip": "When only water is added or removed, the amount of the other ingredient is fixed. Build the equation on it.",
+   "trap": "Subtracting percent points (20 − 15 = 5) and calling it 5 litres.",
+   "timeTarget": 105,
+   "skills": [
+    "dilution",
+    "concentration"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "$4,000 is invested at 5% interest compounded annually. How much total interest is earned over 2 years?",
+   "choices": [
+    "$385",
+    "$400",
+    "$405",
+    "$410",
+    "$420"
+   ],
+   "answer": 3,
+   "explanation": "Year 1 interest: 4,000 × 0.05 = $200, so the balance becomes $4,200.\n\nYear 2 interest: 4,200 × 0.05 = $210. Total interest = 200 + 210 = $410.\n\nFaster way: (1.05)² = 1 + 0.10 + 0.0025 = 1.1025, so interest = 4,000 × 0.1025 = $410. The extra 0.0025 is interest on interest: 4,000 × 0.0025 = $10.",
+   "tip": "Compound interest over 2 years = simple interest + P × r² (the interest earned on interest).",
+   "trap": "Choosing $400 (the simple interest answer) misses the interest on the first year's interest.",
+   "timeTarget": 100,
+   "skills": [
+    "compound-interest"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A grocer mixes 20 kg of rice costing $9 per kg with some rice costing $14 per kg. If the mixture is worth $12 per kg, how many kg of the $14 rice were used?",
+   "choices": [
+    "16",
+    "20",
+    "24",
+    "28",
+    "30"
+   ],
+   "answer": 4,
+   "explanation": "Seesaw method. The target price is $12. The $9 rice is $3 below it and the $14 rice is $2 above it. The volumes are in the flipped ratio: ($9 rice) : ($14 rice) = 2 : 3.\n\nIf 20 kg is the \"2\" part, each part is 10 kg, so the $14 rice is 3 × 10 = 30 kg.\n\nAlgebra check: 9 × 20 + 14x = 12(20 + x), so 180 + 14x = 240 + 12x, so 2x = 60, x = 30. ✓",
+   "tip": "In a two-ingredient blend, the amounts are in the inverse ratio of the distances from the target price.",
+   "trap": "Flipping the ratio the wrong way gives 20 × 2/3 ≈ 13.3 kg. The ingredient nearer the target price always gets the bigger share.",
+   "timeTarget": 110,
+   "skills": [
+    "alligation",
+    "weighted-average"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A tank holds 80 litres of a 30% acid solution. 20 litres are drained and replaced with 20 litres of a 70% acid solution. What is the acid concentration of the final solution?",
+   "choices": [
+    "40%",
+    "42%",
+    "45%",
+    "47.5%",
+    "50%"
+   ],
+   "answer": 0,
+   "explanation": "Acid at the start: 0.30 × 80 = 24 L.\n\nThe 20 L drained carried away 0.30 × 20 = 6 L of acid, leaving 18 L. The 20 L added brings 0.70 × 20 = 14 L. New acid = 18 + 14 = 32 L in 80 L, which is 32/80 = 40%.\n\nFaster way: one quarter of the tank (20/80) is now 70% solution and three quarters is still 30% solution: 0.75 × 30 + 0.25 × 70 = 22.5 + 17.5 = 40%.",
+   "tip": "Replacement keeps the total volume fixed, so treat the final mix as a weighted average of \"what stayed\" and \"what was added\".",
+   "trap": "Averaging 30% and 70% to get 50% ignores that only a quarter of the tank was replaced; and forgetting that the drained liquid carried acid away gives (24 + 14)/80 = 47.5%.",
+   "timeTarget": 120,
+   "skills": [
+    "replacement",
+    "concentration"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "An article sold for $330 yields a 10% profit on cost. At what price should it be sold to incur a 20% loss on cost?",
+   "choices": [
+    "$240",
+    "$250",
+    "$264",
+    "$270",
+    "$300"
+   ],
+   "answer": 0,
+   "explanation": "A 10% profit means 330 = 1.10 × cost, so cost = 330 ÷ 1.10 = $300.\n\nA 20% loss means selling at 0.80 × cost = 0.80 × 300 = $240.\n\nThe key step is going back to cost first. Both the profit and the loss are measured on the cost price, which is the same $300 in both cases.",
+   "tip": "Always recover the cost price first; every profit or loss percent is measured on it.",
+   "trap": "Taking 20% off the $330 selling price gives $264, but the loss is measured on the cost, not on the old selling price.",
+   "timeTarget": 105,
+   "skills": [
+    "profit-loss",
+    "cost-price"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "$10,000 is invested at an annual rate of 8%, compounded semi-annually. How much interest is earned in the first year?",
+   "choices": [
+    "$800",
+    "$816",
+    "$824",
+    "$832",
+    "$864"
+   ],
+   "answer": 1,
+   "explanation": "Compounded semi-annually at 8% a year means 4% every six months, two periods in the year.\n\nAfter 6 months: 10,000 × 1.04 = 10,400. After 12 months: 10,400 × 1.04 = 10,816. Interest = $816.\n\nFaster way: (1.04)² = 1 + 0.08 + 0.0016 = 1.0816. So the effective yearly rate is 8.16%, and 8.16% of 10,000 = $816.",
+   "tip": "Split the annual rate by the number of periods per year, and multiply the number of periods by the years.",
+   "trap": "Using $800 (plain 8%) ignores the extra interest earned on the first half-year's interest.",
+   "timeTarget": 120,
+   "skills": [
+    "compound-interest",
+    "semi-annual"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-010",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A chemist has 30 litres of a 20% acid solution. She removes 10 litres of it and replaces them with 10 litres of pure acid. She then adds 10 litres of water. What is the acid concentration of the final 40-litre solution?",
+   "choices": [
+    "25%",
+    "30%",
+    "33⅓%",
+    "35%",
+    "40%"
+   ],
+   "answer": 3,
+   "explanation": "Track the pure acid through each step.\n\nStart: 0.20 × 30 = 6 L acid.\n\nRemove 10 L: that is one third of the solution, so it takes away one third of the acid, 2 L. Acid left = 4 L in 20 L.\n\nAdd 10 L pure acid: acid = 14 L in 30 L.\n\nAdd 10 L water: acid is still 14 L, total is 40 L. Concentration = 14/40 = 35%.\n\nTrap check: when she removed 10 L, the liquid taken out was 20% acid, not pure water, so the acid dropped only by 2 L.",
+   "tip": "In a multi-step mixture, keep a running tally of litres of the pure ingredient and litres of total volume.",
+   "trap": "Forgetting that the removed 10 L carried acid with it (leaving 6 + 10 = 16 L of acid) gives 16/40 = 40%.",
+   "timeTarget": 135,
+   "skills": [
+    "replacement",
+    "concentration",
+    "multi-step"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-011",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A dealer sells two scooters for $300 each. On one he makes a 25% profit on cost and on the other he takes a 25% loss on cost. On the whole transaction, what is his result?",
+   "choices": [
+    "No gain or loss",
+    "A 4% loss",
+    "A 10% loss",
+    "A 6.25% gain",
+    "A 6.25% loss"
+   ],
+   "answer": 4,
+   "explanation": "Find each cost.\n\nScooter 1 (25% profit): 300 = 1.25 × cost, so cost = $240.\nScooter 2 (25% loss): 300 = 0.75 × cost, so cost = $400.\n\nTotal cost = $640. Total revenue = $600. Net result = a $40 loss, which is 40/640 = 6.25% of the total cost.\n\nWhy not break-even? The same selling price with the same percent gain and loss means the loss scooter had the larger cost, so the dollar loss (100) is bigger than the dollar gain (60).",
+   "tip": "Equal percent gain and loss on equal selling prices is always a net loss. Always find the two costs separately.",
+   "trap": "Assuming a 25% gain and 25% loss cancel out to \"no gain or loss\", because the percentages are on different costs.",
+   "timeTarget": 140,
+   "skills": [
+    "profit-loss",
+    "percent-of-different-bases"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-012",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A sum invested at a fixed rate of compound interest, compounded annually, grows to $7,260 after 2 years and to $7,986 after 3 years. What was the original sum?",
+   "choices": [
+    "$6,000",
+    "$6,050",
+    "$6,200",
+    "$6,600",
+    "$7,260"
+   ],
+   "answer": 0,
+   "explanation": "Each year the balance is multiplied by the same factor. From year 2 to year 3: 7,986 ÷ 7,260 = 1.10, so the rate is 10%.\n\nBalance after 2 years = P × 1.10² = P × 1.21 = 7,260, so P = 7,260 ÷ 1.21 = $6,000.\n\nCheck: 6,000 → 6,600 → 7,260 → 7,986. ✓\n\nThe extra $726 earned in year 3 equals 10% of 7,260, which confirms the rate.",
+   "tip": "The ratio of two consecutive years' balances gives the growth factor directly; then divide back to the start.",
+   "trap": "Dividing by 1.10 only once gives $6,600, the balance after one year, not the original principal.",
+   "timeTarget": 130,
+   "skills": [
+    "compound-interest",
+    "rate-from-growth"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-013",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A vessel contains 80 litres of a solution that is 25% acid. A certain quantity is drained and replaced with an equal quantity of water. The same quantity is then drained and replaced with water again. The final solution is 16% acid. How many litres were drained each time?",
+   "choices": [
+    "8",
+    "12",
+    "16",
+    "20",
+    "24"
+   ],
+   "answer": 2,
+   "explanation": "Acid starts at 0.25 × 80 = 20 L. Each time a fraction f of the vessel is drained and replaced by water, the acid left is multiplied by (1 − f). After two rounds the acid is 20 × (1 − f)².\n\nFinal acid = 0.16 × 80 = 12.8 L. So (1 − f)² = 12.8/20 = 0.64, so 1 − f = 0.8 and f = 0.2.\n\nThe quantity drained each time = 0.2 × 80 = 16 litres.\n\nCheck: 20 → 16 → 12.8 L acid. ✓\n\nThe neat shortcut is to notice that the concentration also scales by (1 − f)² : 16% = 25% × 0.64.",
+   "tip": "For repeated drain-and-replace with water, the concentration scales by (1 − f) each round. Recognise perfect squares like 0.64 = 0.8².",
+   "trap": "Treating the two drains as one (25% to 16% in a single step) gives a drain of 28.8 L; the second drain also removes acid.",
+   "timeTarget": 150,
+   "skills": [
+    "replacement",
+    "repeated-dilution",
+    "quadratic-insight"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-p-014",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A trader blends rice costing $40 per kg with rice costing $75 per kg and sells the blend at $69 per kg, earning a 15% profit on his cost. How many kilograms of the $40 rice are in 70 kg of the blend?",
+   "choices": [
+    "20",
+    "30",
+    "35",
+    "40",
+    "50"
+   ],
+   "answer": 1,
+   "explanation": "Step 1: find the blend's cost per kg. Selling price $69 is 115% of cost, so cost = 69 ÷ 1.15 = $60 per kg.\n\nStep 2: seesaw on cost. The target cost is $60. The $40 rice is $20 below; the $75 rice is $15 above. The volumes are in the flipped ratio: ($40 rice) : ($75 rice) = 15 : 20 = 3 : 4.\n\nStep 3: in 70 kg, the $40 rice is 3/7 of the blend = 30 kg.\n\nCheck: 30 × 40 + 40 × 75 = 1,200 + 3,000 = 4,200, and 4,200 ÷ 70 = $60. ✓",
+   "tip": "In \"blend and sell at a profit\" questions, convert the selling price back to the average cost before you do alligation.",
+   "trap": "Running the alligation on the selling price $69 instead of the cost price $60 gives the wrong ratio (about 6 : 29).",
+   "timeTarget": 160,
+   "skills": [
+    "profit-loss",
+    "alligation",
+    "multi-step"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-m-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A 10-litre solution is 40% acid. If 10 litres of water are added, what is the percent of acid in the new solution?",
+   "choices": [
+    "10%",
+    "12%",
+    "15%",
+    "18%",
+    "20%"
+   ],
+   "answer": 4,
+   "explanation": "The acid is 0.40 × 10 = 4 L, and adding water does not change that. The new total is 20 L, so the concentration is 4/20 = 20%.\n\nShortcut: doubling the volume with water halves the concentration, so 40% becomes 20%.",
+   "tip": "Adding water changes the volume, never the amount of the other ingredient.",
+   "trap": "Subtracting 10 from 40 or dividing by the wrong total (4/10 = 40% unchanged).",
+   "timeTarget": 75,
+   "skills": [
+    "dilution"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-m-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A jacket is listed at $250. It is first discounted by 20%, and then the sale price is reduced by a further 10%. What is the final price?",
+   "choices": [
+    "$150",
+    "$175",
+    "$180",
+    "$190",
+    "$200"
+   ],
+   "answer": 2,
+   "explanation": "Apply the discounts one after the other, each on the current price.\n\nAfter 20% off: 250 × 0.80 = $200. After a further 10% off: 200 × 0.90 = $180.\n\nMultiplier version: 250 × 0.8 × 0.9 = 250 × 0.72 = $180, which is a total discount of 28%, not 30%.",
+   "tip": "Successive discounts multiply (0.8 × 0.9 = 0.72); they never add.",
+   "trap": "Adding 20% and 10% to get a 30% discount gives $175.",
+   "timeTarget": 90,
+   "skills": [
+    "discount",
+    "successive-percent"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-m-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "How many litres of a 12% salt solution must be added to 30 litres of a 36% salt solution to produce a 20% salt solution?",
+   "choices": [
+    "15",
+    "30",
+    "40",
+    "50",
+    "60"
+   ],
+   "answer": 4,
+   "explanation": "Seesaw. The target is 20%. The 36% solution is 16 points above it; the 12% solution is 8 points below it. The volumes are in the flipped ratio: (12% volume) : (36% volume) = 16 : 8 = 2 : 1.\n\nSo the weak solution must be twice the strong one: 2 × 30 = 60 litres.\n\nAlgebra check: 0.36 × 30 + 0.12x = 0.20(30 + x), so 10.8 + 0.12x = 6 + 0.20x, so 4.8 = 0.08x, so x = 60. ✓",
+   "tip": "The solution whose percentage is nearer the target is the one you need more of.",
+   "trap": "Flipping the ratio gives 15 litres: the nearer solution gets the larger share, so 20% is closer to 12% than to 36%.",
+   "timeTarget": 120,
+   "skills": [
+    "alligation",
+    "concentration"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-m-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "At a certain rate of simple interest, a sum of money triples in 10 years. In how many years will it become 5 times itself at the same rate?",
+   "choices": [
+    "20",
+    "25",
+    "30",
+    "40",
+    "50"
+   ],
+   "answer": 0,
+   "explanation": "Tripling means the interest alone equals 2 times the principal after 10 years. So the interest earned each year = 2P ÷ 10 = 0.2P (a 20% rate).\n\nBecoming 5 times means the interest must equal 4P. At 0.2P per year that takes 4P ÷ 0.2P = 20 years.\n\nKey idea: it is the interest, not the total, that scales with time. \"Triples\" = interest of 2P in 10 years; \"5 times\" = interest of 4P, which is twice as much, so twice as long.",
+   "tip": "In simple interest, \"becomes k times\" means the interest equals (k − 1) × the principal.",
+   "trap": "Scaling the total amount: 5/3 × 10 ≈ 16.7 years, or 5 × 10 = 50 years. Only the interest grows linearly, not the total.",
+   "timeTarget": 105,
+   "skills": [
+    "simple-interest",
+    "time-to-multiple"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-m-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A 40-litre mixture of milk and water contains 20% water. How many litres of the mixture must be removed and replaced with pure milk so that the water makes up 10% of the final mixture?",
+   "choices": [
+    "10",
+    "15",
+    "20",
+    "25",
+    "30"
+   ],
+   "answer": 2,
+   "explanation": "Water now: 0.20 × 40 = 8 L. Water needed at the end: 0.10 × 40 = 4 L. So 4 L of water must leave with the removed mixture.\n\nThe mixture being removed is 20% water, so removing x litres removes 0.20x litres of water. Set 0.20x = 4, so x = 20 litres.\n\nCheck: the vessel holds 32 L milk + 8 L water. Removing 20 L takes out 16 L milk + 4 L water, leaving 16 L milk + 4 L water. Adding 20 L pure milk gives 36 L milk + 4 L water = 40 L, and 4/40 = 10%. ✓",
+   "tip": "When you remove some of a mixture, the removal takes the current concentration with it. Divide the water you need to lose by that concentration.",
+   "trap": "Thinking \"halve the water means remove half the mixture, 10 L\" or removing only pure water; the removed liquid is only 20% water, so you must take out a lot more.",
+   "timeTarget": 135,
+   "skills": [
+    "replacement",
+    "concentration"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-m-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A retailer buys goods from a wholesaler at 20% below the wholesaler's list price L. He marks them up by 50% over his cost, and then sells them at a 10% discount on his marked price. His profit is what percent of L?",
+   "choices": [
+    "18%",
+    "20%",
+    "24%",
+    "28%",
+    "30%"
+   ],
+   "answer": 3,
+   "explanation": "Set L = 100 to make the percentages easy.\n\nRetailer's cost = 80% of L = 80. Marked price = 80 × 1.50 = 120. Selling price = 120 × 0.90 = 108. Profit = 108 − 80 = 28, which is 28% of L.\n\nNote the question asks for profit as a percent of L (100), not as a percent of his cost (80). As a percent of cost it would be 28/80 = 35%.\n\nMultiplier version: 0.8 × 1.5 × 0.9 = 1.08, so he sells for 1.08 L; his cost was 0.8 L; profit = 0.28 L.",
+   "tip": "Pick L = 100, track cost, marked price, and selling price as plain numbers, then read the question's base carefully.",
+   "trap": "Answering with a percent of cost (35%, not offered) or subtracting percents: 50 − 10 − 20 = 20%.",
+   "timeTarget": 130,
+   "skills": [
+    "markup",
+    "discount",
+    "profit-loss"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-m-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A sum is invested for 3 years at a fixed rate of compound interest, compounded annually. The interest earned in the second year is $1,320 and the interest earned in the third year is $1,452. If the same sum were instead invested for 3 years at 12% simple interest, how much interest would it earn?",
+   "choices": [
+    "$3,600",
+    "$3,960",
+    "$4,000",
+    "$4,200",
+    "$4,320"
+   ],
+   "answer": 4,
+   "explanation": "Each year's interest is the previous year's interest multiplied by (1 + r). So 1 + r = 1,452 ÷ 1,320 = 1.10, and r = 10%.\n\nInterest in year 2 = (balance after year 1) × 10% = P × 1.10 × 0.10 = 0.11P. Setting 0.11P = 1,320 gives P = $12,000.\n\nSimple interest at 12% for 3 years = 12,000 × 0.12 × 3 = $4,320.\n\nCheck: year 1 interest = $1,200, year 2 = $1,320, year 3 = $1,452. Each is 10% more than the last. ✓",
+   "tip": "In compound interest, the yearly interest amounts themselves grow by the factor (1 + r), so their ratio gives the rate.",
+   "trap": "Using $1,320 × 3 = $3,960 (copying the compound interest year-by-year) or computing at 10% instead of 12% gives $3,600.",
+   "timeTarget": 160,
+   "skills": [
+    "compound-interest",
+    "simple-interest",
+    "multi-step"
+   ]
+  },
+  {
+   "id": "q-mixtures-qf-m-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-mixtures",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A 50-litre vessel contains a mixture of milk and water in the ratio 3 : 2. 10 litres of the mixture are removed and replaced with 10 litres of water. Then 10 litres of the new mixture are removed and replaced with 10 litres of milk. What is the final ratio of milk to water?",
+   "choices": [
+    "73 : 52",
+    "7 : 5",
+    "3 : 2",
+    "29 : 21",
+    "59 : 41"
+   ],
+   "answer": 0,
+   "explanation": "Track litres of milk (M) and water (W).\n\nStart: M = 30, W = 20.\n\nStep 1: remove 10 L, which is 1/5 of the vessel, so remove 6 L milk and 4 L water: M = 24, W = 16. Add 10 L water: M = 24, W = 26.\n\nStep 2: remove 10 L (1/5 again): remove 4.8 L milk and 5.2 L water: M = 19.2, W = 20.8. Add 10 L milk: M = 29.2, W = 20.8.\n\nRatio = 29.2 : 20.8 = 292 : 208 = 73 : 52. (Divide both by 4.)\n\nThe answer is close to 7 : 5 (1.40 vs 1.404), which is the tempting distractor, so do not estimate.",
+   "tip": "In repeated replacements, update milk and water separately after each step; each removal takes both liquids in the current ratio.",
+   "trap": "Assuming the two operations cancel out (water in, milk in) and settling on 3 : 2, or rounding to 7 : 5.",
+   "timeTarget": 170,
+   "skills": [
+    "replacement",
+    "ratios",
+    "multi-step"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "The average (arithmetic mean) of 7, 9, 12, and x is 10. What is the value of x?",
+   "choices": [
+    "8",
+    "10",
+    "11",
+    "12",
+    "14"
+   ],
+   "answer": 3,
+   "explanation": "Turn the average into a sum: 4 numbers with a mean of 10 have a sum of 4 × 10 = 40.\n\nThe known numbers add to 7 + 9 + 12 = 28, so x = 40 − 28 = 12.\n\nCheck: (7 + 9 + 12 + 12)/4 = 40/4 = 10. ✓",
+   "tip": "Sum = Mean × Count. Convert every \"average\" statement to a sum first.",
+   "trap": "Guessing x = 10 because \"the average is 10\". The other numbers are not balanced around 10, so x must make up the gap.",
+   "timeTarget": 80,
+   "skills": [
+    "mean",
+    "sum-from-mean"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is the median of the numbers 12, 7, 15, 9, 4, and 10?",
+   "choices": [
+    "9",
+    "9.5",
+    "10",
+    "10.5",
+    "11"
+   ],
+   "answer": 1,
+   "explanation": "Sort the list first: 4, 7, 9, 10, 12, 15.\n\nThere are 6 numbers (an even count), so the median is the average of the 3rd and 4th: (9 + 10)/2 = 9.5.\n\nThe median does not have to be a number in the list.",
+   "tip": "Sort first. With an even count, average the two middle values.",
+   "trap": "Skipping the sort: the middle two entries of the list as written are 15 and 9, which average to 12.",
+   "timeTarget": 75,
+   "skills": [
+    "median"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A company has two offices. Office A has 15 employees whose average salary is $56,000, and Office B has 25 employees whose average salary is $40,000. What is the average salary across all 40 employees?",
+   "choices": [
+    "$46,000",
+    "$47,000",
+    "$48,000",
+    "$49,000",
+    "$50,000"
+   ],
+   "answer": 0,
+   "explanation": "Use total salary, not the average of the two averages.\n\nOffice A total = 15 × 56,000 = $840,000. Office B total = 25 × 40,000 = $1,000,000. Combined = $1,840,000 across 40 employees. Average = 1,840,000 ÷ 40 = $46,000.\n\nSeesaw check: the gap between the averages is $16,000. Office B has 25 of the 40 people (5/8), so the mean sits 5/8 of the way from $56,000 down to $40,000: 56,000 − 10,000 = $46,000. ✓",
+   "tip": "The overall average always leans toward the average of the bigger group.",
+   "trap": "(56,000 + 40,000)/2 = $48,000 is the unweighted average, which ignores that Office B is larger.",
+   "timeTarget": 100,
+   "skills": [
+    "weighted-average"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "The average of 8 numbers is 20. When a ninth number is added, the average of all 9 numbers becomes 22. What is the ninth number?",
+   "choices": [
+    "22",
+    "34",
+    "38",
+    "40",
+    "42"
+   ],
+   "answer": 2,
+   "explanation": "Sum of the first 8 = 8 × 20 = 160. Sum of all 9 = 9 × 22 = 198. The ninth number = 198 − 160 = 38.\n\nFaster way: the new number must lift each of the 9 numbers by 2, which costs 9 × 2 = 18 above the old average of 20: 20 + 18 = 38.",
+   "tip": "New value = old average + (change in average × new count).",
+   "trap": "Adding just 2 to the old average (22) forgets that the new number has to pull up all nine values.",
+   "timeTarget": 90,
+   "skills": [
+    "mean",
+    "adding-element"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "What is the sum of all even integers from 10 to 50, inclusive?",
+   "choices": [
+    "560",
+    "580",
+    "600",
+    "610",
+    "630"
+   ],
+   "answer": 4,
+   "explanation": "The even integers from 10 to 50 form an evenly spaced set with gap 2.\n\nNumber of terms = (50 − 10)/2 + 1 = 21. Average = (10 + 50)/2 = 30. Sum = 21 × 30 = 630.\n\nThe \"+ 1\" matters: 10 and 50 are both included.",
+   "tip": "Sum of an evenly spaced set = (first + last)/2 × number of terms, and number of terms = (last − first)/gap + 1.",
+   "trap": "Using 20 terms (forgetting the + 1) gives 20 × 30 = 600.",
+   "timeTarget": 100,
+   "skills": [
+    "evenly-spaced",
+    "sum"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Each of the following lists has a mean of 10. Which one has the greatest standard deviation?",
+   "choices": [
+    "{8, 9, 10, 11, 12}",
+    "{5, 10, 10, 10, 15}",
+    "{2, 2, 10, 18, 18}",
+    "{0, 10, 10, 10, 20}",
+    "{10, 10, 10, 10, 10}"
+   ],
+   "answer": 2,
+   "explanation": "Standard deviation measures how far values typically sit from the mean, using every value, not just the ends.\n\nSquared distances from 10, averaged:\n\n{8, 9, 10, 11, 12}: (4 + 1 + 0 + 1 + 4)/5 = 2\n{5, 10, 10, 10, 15}: (25 + 0 + 0 + 0 + 25)/5 = 10\n{2, 2, 10, 18, 18}: (64 + 64 + 0 + 64 + 64)/5 = 51.2\n{0, 10, 10, 10, 20}: (100 + 0 + 0 + 0 + 100)/5 = 40\n{10, 10, 10, 10, 10}: 0\n\nThe greatest is {2, 2, 10, 18, 18}. Notice it has a smaller range (16) than {0, 10, 10, 10, 20} (range 20), but four of its five values are far from the mean, whereas the other list has three values sitting exactly on the mean.",
+   "tip": "To compare spreads, ask how many values are far from the mean, and how far, not just how wide the extremes are.",
+   "trap": "Picking {0, 10, 10, 10, 20} because it has the widest range; the range only looks at two numbers.",
+   "timeTarget": 120,
+   "skills": [
+    "standard-deviation",
+    "concept"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "The sum of 7 consecutive multiples of 4 is 308. What is the largest of these 7 numbers?",
+   "choices": [
+    "56",
+    "60",
+    "64",
+    "72",
+    "77"
+   ],
+   "answer": 0,
+   "explanation": "For an evenly spaced set, the mean equals the median, which is the middle (4th) term. Mean = 308 ÷ 7 = 44, so the middle term is 44.\n\nThe terms are 32, 36, 40, 44, 48, 52, 56. The largest is 3 steps above the middle: 44 + 3 × 4 = 56.\n\nCheck: 7 × 44 = 308. ✓",
+   "tip": "For an odd number of evenly spaced terms, the mean is the middle term. Step outward from it.",
+   "trap": "Stepping 4 times from the middle (44 + 16 = 60) miscounts: with 7 terms there are only 3 terms above the middle.",
+   "timeTarget": 110,
+   "skills": [
+    "evenly-spaced",
+    "consecutive-multiples"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "The standard deviation of a data set S is 6. A new data set T is formed by multiplying every value in S by −3 and then adding 10 to each result. What is the standard deviation of T?",
+   "choices": [
+    "−18",
+    "−8",
+    "6",
+    "12",
+    "18"
+   ],
+   "answer": 4,
+   "explanation": "Adding 10 to every value shifts the whole set without changing how spread out it is, so it has no effect on the standard deviation.\n\nMultiplying every value by −3 stretches the spread by a factor of 3. The negative sign only flips the set around, and a standard deviation can never be negative, so the factor is |−3| = 3.\n\nSD(T) = 3 × 6 = 18.",
+   "tip": "SD ignores shifts and scales with |multiplier|. A standard deviation is never negative.",
+   "trap": "Keeping the minus sign (−18), or adding 10 and getting 28 or 16, mixes up what shifting and scaling do to spread.",
+   "timeTarget": 90,
+   "skills": [
+    "standard-deviation",
+    "transformations"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In a class of 40 students, the mean test score is 77. The boys' mean score is 72 and the girls' mean score is 80. How many girls are in the class?",
+   "choices": [
+    "15",
+    "25",
+    "27",
+    "30",
+    "32"
+   ],
+   "answer": 1,
+   "explanation": "Seesaw. The class mean 77 is 5 above the boys' mean (72) and 3 below the girls' mean (80). The headcounts are in the flipped ratio: boys : girls = 3 : 5.\n\nOf 40 students, girls = 5/8 × 40 = 25.\n\nAlgebra check: let g be the girls. 72(40 − g) + 80g = 77 × 40, so 2,880 + 8g = 3,080, so g = 25. ✓",
+   "tip": "The overall mean sits nearer the larger group's mean; use the distances as the flipped ratio of group sizes.",
+   "trap": "15 is the number of boys; read which group the question asks for.",
+   "timeTarget": 110,
+   "skills": [
+    "weighted-average",
+    "seesaw"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-010",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Seven distinct positive integers have a mean of 10 and a median of 8. What is the greatest possible value of the largest of these integers?",
+   "choices": [
+    "34",
+    "35",
+    "36",
+    "37",
+    "40"
+   ],
+   "answer": 3,
+   "explanation": "The sum is 7 × 10 = 70. Arrange the integers a < b < c < d < e < f < g, so the median is d = 8.\n\nTo make g as large as possible, make the other six as small as the rules allow.\n\n• The three below the median are distinct positive integers: smallest possible 1, 2, 3.\n• The two between the median and the top must be larger than 8 and distinct: smallest possible 9, 10.\n\nSo g = 70 − (1 + 2 + 3 + 8 + 9 + 10) = 70 − 33 = 37.\n\nCheck: {1, 2, 3, 8, 9, 10, 37} has sum 70 and median 8. ✓",
+   "tip": "For \"greatest possible\" questions, fix the total, then push every other value to its minimum allowed by \"distinct\" and the median.",
+   "trap": "Letting the two values above the median both equal 8 gives 40; \"distinct\" forces them to be at least 9 and 10.",
+   "timeTarget": 130,
+   "skills": [
+    "max-min-of-one-element",
+    "distinct-integers",
+    "median"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-011",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A list S contains 6 numbers that are not all equal, and the mean of S is 50. Two more numbers, each equal to 50, are added to the list to form a new list. Which of the following must be true of the new list compared with S?\n\nI. The mean is still 50.\nII. The standard deviation is smaller.\nIII. The range is unchanged.",
+   "choices": [
+    "I only",
+    "II only",
+    "I and II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "answer": 4,
+   "explanation": "I. Adding values equal to the mean leaves the total divided by the count unchanged: (300 + 100)/8 = 50. True.\n\nII. The new values sit at distance 0 from the mean, so the sum of squared distances stays the same, but it is now averaged over 8 values instead of 6. Because the numbers in S are not all equal, that sum is positive, so the average (and the SD) goes down. True.\n\nIII. The mean of a list always lies between its smallest and largest values. So 50 is already inside the old range and adding it does not move the minimum or maximum. True.\n\nAll three must hold.",
+   "tip": "A value equal to the mean keeps the mean, shrinks the SD (unless SD is already 0), and cannot extend the range.",
+   "trap": "Dropping statement III because \"adding numbers could change the range\"; the mean always sits inside the range.",
+   "timeTarget": 120,
+   "skills": [
+    "standard-deviation",
+    "adding-element",
+    "range"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-012",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A set of 11 evenly spaced numbers has a sum of 330 and a range of 40. What is the second smallest number in the set?",
+   "choices": [
+    "6",
+    "10",
+    "12",
+    "14",
+    "16"
+   ],
+   "answer": 3,
+   "explanation": "Mean = 330/11 = 30. In an evenly spaced set, the mean equals the median, which is the 6th term, so the 6th term is 30.\n\nThe range from the 1st to the 11th term spans 10 equal steps, so each step = 40/10 = 4.\n\nThe 1st term = 30 − 5 × 4 = 10, so the 2nd term = 14.\n\nCheck: the set is 10, 14, 18, ..., 50 and (10 + 50)/2 = 30. ✓",
+   "tip": "Range = (number of terms − 1) × gap in an evenly spaced set. The mean is the middle.",
+   "trap": "Dividing the range by 11 (instead of 10 gaps) gives a gap of about 3.6; 11 terms have only 10 gaps.",
+   "timeTarget": 130,
+   "skills": [
+    "evenly-spaced",
+    "range",
+    "mean-median"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-013",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Five positive integers have a mean of 15, a median of 10, and a unique mode of 8. What is the greatest possible value of the largest integer?",
+   "choices": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "41"
+   ],
+   "answer": 2,
+   "explanation": "Sum = 5 × 15 = 75. Order the numbers a ≤ b ≤ c ≤ d ≤ e with median c = 10.\n\nThe mode is 8, so 8 appears at least twice. Values equal to 8 must be at or below the median, so a = b = 8.\n\nThat leaves d + e = 75 − (8 + 8 + 10) = 49. To make e as large as possible, make d as small as possible. d must be at least 10 (it is above the median in order). But if d = 10, then 10 appears twice, tying 8 as a mode, and the mode would no longer be unique. So d ≥ 11.\n\nWith d = 11: e = 49 − 11 = 38.\n\nCheck: {8, 8, 10, 11, 38} has sum 75, median 10, and 8 is the only repeated value. ✓",
+   "tip": "In mode puzzles, count frequencies: a \"unique mode\" means every other value must appear fewer times.",
+   "trap": "Setting d = 10 (giving 39) breaks the unique mode, because 8 and 10 would both appear twice.",
+   "timeTarget": 150,
+   "skills": [
+    "max-min-of-one-element",
+    "mode",
+    "median"
+   ]
+  },
+  {
+   "id": "q-stats-qf-p-014",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Group P has 16 values with a mean of 50 and a (population) standard deviation of 2. Group Q has 14 values with a mean of 50 and a (population) standard deviation of 7. What is the standard deviation of the combined 30 values?",
+   "choices": [
+    "4",
+    "4⅓",
+    "4.5",
+    "5",
+    "6"
+   ],
+   "answer": 3,
+   "explanation": "Standard deviation comes from the average squared distance from the mean, so work with squares, not with the SDs themselves.\n\nBoth groups have the same mean (50), so the combined mean is also 50 and the distances are measured from the same centre.\n\nSum of squared distances in P = 16 × 2² = 64. In Q = 14 × 7² = 14 × 49 = 686. Combined = 750 over 30 values: variance = 750/30 = 25, so SD = 5.\n\nAveraging the SDs directly would give 4.5 (simple) or (16 × 2 + 14 × 7)/30 = 130/30 = 4⅓ (weighted), and neither is right: variances combine, SDs do not.",
+   "tip": "Never average standard deviations. Combine variances (SD²) weighted by group size, provided the groups share the same mean.",
+   "trap": "Averaging the two SDs: 4.5 (simple) or 4⅓ (weighted by size).",
+   "timeTarget": 150,
+   "skills": [
+    "standard-deviation",
+    "combined-sets"
+   ]
+  },
+  {
+   "id": "q-stats-qf-m-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "What is the range of the numbers 12, 3, 19, 7, and 15?",
+   "choices": [
+    "16",
+    "17",
+    "19",
+    "21",
+    "22"
+   ],
+   "answer": 0,
+   "explanation": "Range = largest − smallest = 19 − 3 = 16.\n\nThe range only looks at the two extreme values; the numbers in between (12, 7 and 15) do not matter at all. A quick way to avoid slips is to scan the list once for the biggest number and once for the smallest, write both down, and only then subtract.\n\nRelated idea for later: if every number in the list were increased by 5, the range would stay 16, because both extremes move together. Range, like standard deviation, ignores shifts and only responds to stretching.",
+   "tip": "Range = max − min. Find both extremes first.",
+   "trap": "Giving the largest value (19) or the sum of extremes (22) instead of their difference.",
+   "timeTarget": 75,
+   "skills": [
+    "range"
+   ]
+  },
+  {
+   "id": "q-stats-qf-m-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "The average of 6 numbers is 14. If one of the numbers, 9, is removed, what is the average of the remaining 5 numbers?",
+   "choices": [
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+   ],
+   "answer": 1,
+   "explanation": "Sum of all 6 = 6 × 14 = 84. After removing 9, the sum is 75 over 5 numbers, so the average is 75 ÷ 5 = 15.\n\nIntuition: the removed number (9) was below the average of 14, so taking it out pushes the average up.",
+   "tip": "Removing a value below the mean raises the mean; removing one above it lowers it.",
+   "trap": "Assuming the average stays 14 because only one number left.",
+   "timeTarget": 90,
+   "skills": [
+    "mean",
+    "removing-element"
+   ]
+  },
+  {
+   "id": "q-stats-qf-m-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Nine numbers have an average of 14. The average of the first five numbers is 13, and the average of the last five numbers is 16. What is the fifth number?",
+   "choices": [
+    "19",
+    "21",
+    "22",
+    "24",
+    "26"
+   ],
+   "answer": 0,
+   "explanation": "Sum of all nine = 9 × 14 = 126. Sum of the first five = 5 × 13 = 65. Sum of the last five = 5 × 16 = 80.\n\nThe first five and last five together cover the 9 numbers, but the fifth number belongs to both groups, so it gets counted twice: 65 + 80 = 145 = 126 + (fifth number).\n\nFifth number = 145 − 126 = 19.\n\nCheck: the first four sum to 65 − 19 = 46 and the last four to 80 − 19 = 61, and 46 + 19 + 61 = 126. ✓",
+   "tip": "When two groups overlap, add their sums and subtract the total; the leftover is the overlap counted twice.",
+   "trap": "Forgetting the shared number and finding that 65 + 80 ≠ 126 without realising why.",
+   "timeTarget": 110,
+   "skills": [
+    "overlapping-groups",
+    "mean"
+   ]
+  },
+  {
+   "id": "q-stats-qf-m-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Let S = {1, 2, 3, 4, 5}. Which of the following changes would leave the standard deviation of the data set unchanged?\n\nI. Adding 10 to every number.\nII. Replacing every number x by 6 − x.\nIII. Multiplying every number by 2.",
+   "choices": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "answer": 1,
+   "explanation": "I. Adding the same number to every value shifts the set but leaves the spread unchanged. SD is unchanged.\n\nII. Replacing x by 6 − x gives {5, 4, 3, 2, 1}, which is exactly the same set of numbers. (In general, x → c − x flips the set around without changing distances.) SD is unchanged.\n\nIII. Multiplying by 2 doubles every distance from the mean, so the SD doubles.\n\nSo I and II only.",
+   "tip": "Shifts and reflections keep SD; scaling by k multiplies it by |k|.",
+   "trap": "Treating a reflection (6 − x) as a change; it reorders the numbers but keeps every distance from the mean.",
+   "timeTarget": 105,
+   "skills": [
+    "standard-deviation",
+    "transformations"
+   ]
+  },
+  {
+   "id": "q-stats-qf-m-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "In a certain firm, 40% of employees earn $50,000 a year, 35% earn $70,000, and the remaining 25% earn $100,000. By how much does the median salary exceed the mean salary?",
+   "choices": [
+    "$0",
+    "$250",
+    "$500",
+    "$1,000",
+    "$1,500"
+   ],
+   "answer": 2,
+   "explanation": "Mean: take 100 employees. 40 × 50,000 + 35 × 70,000 + 25 × 100,000 = 2,000,000 + 2,450,000 + 2,500,000 = 6,950,000, so the mean is $69,500.\n\nMedian: the lowest 40% earn $50,000 and the next 35% (taking us from the 40th to the 75th employee) earn $70,000. The middle employees (50th and 51st) are both in that group, so the median is $70,000.\n\nMedian − mean = 70,000 − 69,500 = $500.\n\nNo need to compute the mean from scratch: measure each group relative to $70,000: 40% × (−20,000) + 35% × 0 + 25% × (+30,000) = −8,000 + 7,500 = −500, so the mean is $500 below $70,000.",
+   "tip": "Compute the mean as an offset from a convenient reference value (like the median) to keep numbers small.",
+   "trap": "Assuming the mean must be higher than the median because the top salary is large; here the mean is slightly lower.",
+   "timeTarget": 140,
+   "skills": [
+    "mean-vs-median",
+    "weighted-average",
+    "percentages"
+   ]
+  },
+  {
+   "id": "q-stats-qf-m-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Five integers have a mean of 12, a median of 12, and a range of 10. What is the greatest possible value of the smallest of the five integers?",
+   "choices": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "answer": 3,
+   "explanation": "Let the integers in order be a ≤ b ≤ c ≤ d ≤ e. Then c = 12 (median), the sum is 60, and e = a + 10.\n\nTo make a as large as possible, keep the other values as small as allowed: b ≥ a, d ≥ 12 (it can't be below the median). The smallest possible sum for a given a is a + a + 12 + 12 + (a + 10) = 3a + 34.\n\nThis must not exceed 60: 3a + 34 ≤ 60, so a ≤ 8.67, so a ≤ 8 (integers).\n\nCheck a = 8: e = 18, and b + d = 60 − 8 − 12 − 18 = 22. Take b = 10, d = 12. The set {8, 10, 12, 12, 18} has sum 60, median 12, range 10. ✓\n\nCheck a = 9: e = 19 and b + d = 60 − 9 − 12 − 19 = 20, but d ≥ 12 forces b ≤ 8, which is below a = 9. Impossible.",
+   "tip": "To maximise one value, minimise its neighbours subject to the ordering rules, then check the integer boundary by hand.",
+   "trap": "Stopping at 8.67 and rounding up to 9; integers force you to round down, and checking a = 9 shows it fails.",
+   "timeTarget": 150,
+   "skills": [
+    "max-min-of-one-element",
+    "range",
+    "median"
+   ]
+  },
+  {
+   "id": "q-stats-qf-m-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A set of 9 numbers has a mean of 20 and a standard deviation of 3. Two of the numbers in the set are 14 and 26. If both of these are replaced by 20, what is the standard deviation of the new set?",
+   "choices": [
+    "3",
+    "2",
+    "√3",
+    "√2",
+    "1"
+   ],
+   "answer": 4,
+   "explanation": "Standard deviation comes from the sum of squared distances from the mean. Work with that sum.\n\nOriginal: sum of squared distances = 9 × 3² = 81.\n\nThe numbers 14 and 26 are each 6 away from the mean 20, contributing 36 + 36 = 72 of that 81. The other seven numbers contribute 81 − 72 = 9.\n\nAfter replacing 14 and 26 by 20: the mean is still 20 (the two numbers were symmetric about 20, and the new ones equal 20), the two new values add 0 to the sum of squares, so the sum is 9 over 9 values. Variance = 1, so SD = 1.\n\nThe SD drops from 3 to 1 because two outliers made up almost 90% of the spread.",
+   "tip": "Sum of squared deviations = n × SD². Subtract the contribution of anything you remove, and recompute.",
+   "trap": "Assuming the SD changes only slightly (or is unchanged) since only 2 of 9 numbers were replaced.",
+   "timeTarget": 160,
+   "skills": [
+    "standard-deviation",
+    "sum-of-squares"
+   ]
+  },
+  {
+   "id": "q-stats-qf-m-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-stats",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "At a firm, the average salary is $60,000. The average salary of managers is $90,000 and the average salary of non-managers is $50,000. Next year, every manager receives a 10% raise and every non-manager receives a 20% raise. By what percent does the firm's average salary increase?",
+   "choices": [
+    "15%",
+    "16.25%",
+    "17.5%",
+    "18%",
+    "20%"
+   ],
+   "answer": 1,
+   "explanation": "Step 1: find the share of managers. Seesaw: relative to the overall mean of $60,000, managers are $30,000 above and non-managers are $10,000 below. The groups are in the flipped ratio: managers : non-managers = 10 : 30 = 1 : 3. So managers are 25% of staff.\n\nStep 2: new average. Managers: 90,000 × 1.10 = 99,000. Non-managers: 50,000 × 1.20 = 60,000. New mean = 0.25 × 99,000 + 0.75 × 60,000 = 24,750 + 45,000 = $69,750.\n\nStep 3: percent increase = 9,750/60,000 = 16.25%.\n\nNote that the answer is not 15% (the plain average of 10% and 20%) and not 17.5%; the weights matter.",
+   "tip": "Recover the group proportions from the overall average first; then apply each group's change separately.",
+   "trap": "Averaging the two raises, (10% + 20%)/2 = 15%, ignores that managers and non-managers are not equally common and earn different amounts.",
+   "timeTarget": 170,
+   "skills": [
+    "weighted-average",
+    "percent-change",
+    "multi-step"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "In a group of 50 people, 30 like tea, 25 like coffee, and 10 like both. How many like neither tea nor coffee?",
+   "choices": [
+    "2",
+    "5",
+    "8",
+    "10",
+    "15"
+   ],
+   "answer": 1,
+   "explanation": "Use Total = A + B − Both + Neither.\n\n50 = 30 + 25 − 10 + Neither, so 50 = 45 + Neither, so Neither = 5.\n\nCheck with a diagram: tea only = 20, coffee only = 15, both = 10, which makes 45 people who like at least one, leaving 5.",
+   "tip": "Subtract the overlap once, because the \"both\" people are counted in each group.",
+   "trap": "Adding 30 + 25 = 55 (more than the total) and not subtracting the overlap, which gives nonsense.",
+   "timeTarget": 80,
+   "skills": [
+    "two-set-formula"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "In a class of 40 students, 24 play cricket and 20 play football. Every student plays at least one of the two games. How many students play both?",
+   "choices": [
+    "4",
+    "6",
+    "16",
+    "20",
+    "24"
+   ],
+   "answer": 0,
+   "explanation": "Total = A + B − Both + Neither, with Neither = 0.\n\n40 = 24 + 20 − Both, so Both = 44 − 40 = 4.\n\nCheck: cricket only = 20, football only = 16, both = 4, and 20 + 16 + 4 = 40. ✓",
+   "tip": "If everyone is in at least one group, the sum of the group sizes exceeds the total by exactly the overlap.",
+   "trap": "Answering 16 or 20 (the \"only\" counts) instead of the overlap.",
+   "timeTarget": 80,
+   "skills": [
+    "two-set-formula"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A club has 150 members. 90 of them are older than 30, 80 are women, and 35 of the women are older than 30. How many members are men aged 30 or younger?",
+   "choices": [
+    "5",
+    "10",
+    "15",
+    "45",
+    "55"
+   ],
+   "answer": 2,
+   "explanation": "Build a 2 × 2 table.\n\nWomen over 30 = 35. Women total = 80, so women aged 30 or under = 45.\nOver-30 total = 90, so men over 30 = 90 − 35 = 55.\nMen total = 150 − 80 = 70, so men aged 30 or under = 70 − 55 = 15.\n\nCheck with the formula: 150 = 90 + 80 − 35 + Neither (neither = men not over 30) gives Neither = 150 − 135 = 15. ✓",
+   "tip": "Yes/no attributes (woman/man, over/under 30) fit a 2 × 2 matrix. Fill the known cells, then use row and column totals.",
+   "trap": "45 is the women aged 30 or under and 55 is the men over 30; read which row and column the question asks for.",
+   "timeTarget": 110,
+   "skills": [
+    "double-set-matrix"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "In a survey, 65% of respondents like sweets, 55% like savouries, and 20% like neither. What percent of respondents like both?",
+   "choices": [
+    "20%",
+    "30%",
+    "35%",
+    "40%",
+    "45%"
+   ],
+   "answer": 3,
+   "explanation": "Treat the total as 100 and use Total = A + B − Both + Neither.\n\n100 = 65 + 55 − Both + 20, so 100 = 140 − Both, so Both = 40%.\n\nCheck: sweets only = 25, savouries only = 15, both = 40, neither = 20, and 25 + 15 + 40 + 20 = 100. ✓",
+   "tip": "Percent set questions work exactly like headcount questions: pretend the total is 100.",
+   "trap": "Forgetting the 20% who like neither gives Both = 120 − 100 = 20%.",
+   "timeTarget": 90,
+   "skills": [
+    "two-set-formula",
+    "percentages"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Of 100 people, 60 own a dog, 50 own a cat, and 25 own both. How many people own exactly one of the two kinds of pet?",
+   "choices": [
+    "35",
+    "45",
+    "50",
+    "55",
+    "60"
+   ],
+   "answer": 4,
+   "explanation": "\"Exactly one\" means dog only plus cat only.\n\nDog only = 60 − 25 = 35. Cat only = 50 − 25 = 25. Exactly one = 35 + 25 = 60.\n\nFormula: A + B − 2 × Both = 60 + 50 − 50 = 60. ✓\n\n(The remaining 100 − 60 − 25 = 15 people own neither.)",
+   "tip": "Exactly one = A + B − 2 × Both. The overlap leaves both circles, so it comes out twice.",
+   "trap": "Subtracting the overlap once (60 + 50 − 25 = 85) gives the \"at least one\" number, not \"exactly one\".",
+   "timeTarget": 90,
+   "skills": [
+    "exactly-one"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In a survey of 200 people, 140 own a phone and 150 own a laptop. What is the difference between the greatest possible and the least possible number of people who own both a phone and a laptop?",
+   "choices": [
+    "50",
+    "60",
+    "70",
+    "90",
+    "140"
+   ],
+   "answer": 0,
+   "explanation": "Greatest overlap: the smaller group fits entirely inside the larger one, so the maximum is 140 (all phone owners also own a laptop).\n\nLeast overlap: the two groups together cover 140 + 150 = 290 slots, but there are only 200 people, so at least 290 − 200 = 90 people must be in both.\n\nDifference = 140 − 90 = 50.",
+   "tip": "Max overlap = the smaller group. Min overlap = A + B − Total (at least 0).",
+   "trap": "Reporting 90 or 140 alone; the question asks for the difference between them.",
+   "timeTarget": 120,
+   "skills": [
+    "max-min-overlap"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In a firm of 120 employees, some attend training A and some attend training B. 30 attend both and 15 attend neither. The number who attend only A is twice the number who attend only B. How many employees attend training A in total, including those who attend both?",
+   "choices": [
+    "50",
+    "60",
+    "70",
+    "80",
+    "90"
+   ],
+   "answer": 3,
+   "explanation": "Employees who attend at least one training = 120 − 15 = 105. Of these, 30 attend both, so only A + only B = 105 − 30 = 75.\n\nOnly A = 2 × only B, so 3 × (only B) = 75, so only B = 25 and only A = 50.\n\nTotal attending A = only A + both = 50 + 30 = 80.\n\nCheck: only A 50 + only B 25 + both 30 + neither 15 = 120. ✓",
+   "tip": "Split the total into four regions (only A, only B, both, neither) and write what you know about each.",
+   "trap": "Answering 50, which is only A; the question includes those attending both.",
+   "timeTarget": 120,
+   "skills": [
+    "two-set-formula",
+    "algebra"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In a group of 90 people, 45 read newspaper A, 35 read newspaper B, and 30 read newspaper C. 15 people read exactly two of the three newspapers, and 5 people read all three. How many people read none of the three?",
+   "choices": [
+    "0",
+    "5",
+    "10",
+    "15",
+    "20"
+   ],
+   "answer": 1,
+   "explanation": "Use Total = A + B + C − (exactly two) − 2 × (all three) + Neither.\n\n90 = 45 + 35 + 30 − 15 − 2 × 5 + Neither = 110 − 15 − 10 + Neither = 85 + Neither, so Neither = 5.\n\nCross-check by counting heads: let exactly one = x. The sum 110 counts each exactly-one reader once, each exactly-two reader twice, and each all-three reader three times: x + 2(15) + 3(5) = 110, so x = 65. Then 65 + 15 + 5 + Neither = 90 gives Neither = 5. ✓",
+   "tip": "In the three-set formula, \"exactly two\" is subtracted once and \"all three\" twice.",
+   "trap": "Subtracting the all-three group only once gives 90 = 110 − 15 − 5 + Neither, so Neither = 0.",
+   "timeTarget": 120,
+   "skills": [
+    "three-set",
+    "formula"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In a class of 60 students, 36 study mathematics and 30 study physics. The number of students who study both subjects is three times the number who study neither. How many students study neither?",
+   "choices": [
+    "3",
+    "6",
+    "9",
+    "12",
+    "15"
+   ],
+   "answer": 0,
+   "explanation": "Let n be the number who study neither, so the number studying both is 3n.\n\nTotal = Math + Physics − Both + Neither: 60 = 36 + 30 − 3n + n = 66 − 2n. So 2n = 6 and n = 3.\n\nCheck: both = 9, math only = 27, physics only = 21, neither = 3, and 27 + 21 + 9 + 3 = 60. ✓",
+   "tip": "When a problem relates two unknown regions, call one n, express the other in terms of n, then use the total formula.",
+   "trap": "Answering 9 (the \"both\" number) instead of the number who study neither.",
+   "timeTarget": 120,
+   "skills": [
+    "two-set-formula",
+    "algebra"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-010",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Every one of 200 residents of a town subscribes to at least one of three magazines P, Q and R. 120 subscribe to P, 100 to Q and 80 to R. If 70 residents subscribe to at least two of the magazines, how many subscribe to all three?",
+   "choices": [
+    "15",
+    "20",
+    "25",
+    "30",
+    "35"
+   ],
+   "answer": 3,
+   "explanation": "Let x be the number who subscribe to all three. \"At least two\" = exactly two + x, so exactly two = 70 − x.\n\nUse Total = P + Q + R − (exactly two) − 2 × (all three) + Neither, with Neither = 0:\n\n200 = 300 − (70 − x) − 2x = 230 − x, so x = 30.\n\nCheck: exactly two = 40, all three = 30, exactly one = 200 − 70 = 130. Counting subscriptions: 130 + 2 × 40 + 3 × 30 = 130 + 80 + 90 = 300 = 120 + 100 + 80. ✓",
+   "tip": "\"At least two\" includes the all-three group. Convert it to \"exactly two + all three\" before using the formula.",
+   "trap": "Treating 70 as the \"exactly two\" group gives 200 = 300 − 70 − 2x, so x = 15.",
+   "timeTarget": 140,
+   "skills": [
+    "three-set",
+    "at-least-two"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-011",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Among 100 people, 80 speak English, 70 speak Hindi, and 60 speak Tamil. What is the least possible number of people who speak all three languages?",
+   "choices": [
+    "0",
+    "10",
+    "20",
+    "30",
+    "40"
+   ],
+   "answer": 1,
+   "explanation": "Think about who does NOT speak each language: 20 people do not speak English, 30 do not speak Hindi, 40 do not speak Tamil.\n\nEven if these three \"non-speaker\" groups don't overlap at all, they add up to at most 20 + 30 + 40 = 90 people who are missing at least one language. That leaves at least 100 − 90 = 10 people who miss nothing, i.e. speak all three.\n\nFormula version: 80 + 70 + 60 − 2 × 100 = 10.",
+   "tip": "For the minimum overlap of several groups, count the people OUTSIDE each group; the people outside none are the ones in all.",
+   "trap": "Subtracting only once (210 − 100 = 110) or answering 0 because the groups \"could\" avoid each other; they cannot, since 210 > 200.",
+   "timeTarget": 130,
+   "skills": [
+    "max-min-overlap",
+    "three-set"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-012",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "In a company, 60% of the employees work in sales, and women make up 45% of all employees. 30% of the sales employees are women. What percent of the employees who do NOT work in sales are women?",
+   "choices": [
+    "60%",
+    "62.5%",
+    "65%",
+    "67.5%",
+    "70%"
+   ],
+   "answer": 3,
+   "explanation": "Assume 100 employees. Sales: 60 people; non-sales: 40 people.\n\nWomen in sales = 30% of 60 = 18. All women = 45, so women in non-sales = 45 − 18 = 27.\n\nPercent of non-sales employees who are women = 27/40 = 67.5%.\n\nUsing a table: rows women/men, columns sales/non-sales. Women: 18 | 27 | 45. Men: 42 | 13 | 55. Totals: 60 | 40 | 100.",
+   "tip": "Pick a total of 100 and fill a 2 × 2 table. Percentages given \"of a group\" must be converted into counts using that group's size, not the total.",
+   "trap": "Computing 27% of 100 (taking the 27 people as 27%) instead of 27 out of the 40 non-sales employees.",
+   "timeTarget": 140,
+   "skills": [
+    "double-set-matrix",
+    "percentages",
+    "conditional"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-013",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "In a group of 100 people, each person likes at least one of tea, coffee and juice. 70 like tea, 60 like coffee, and 50 like juice. What is the greatest possible number of people who like all three?",
+   "choices": [
+    "30",
+    "35",
+    "40",
+    "45",
+    "50"
+   ],
+   "answer": 2,
+   "explanation": "Let E1, E2, E3 be the numbers who like exactly one, exactly two, and all three drinks. Then:\n\nE1 + E2 + E3 = 100 (everyone likes at least one), and E1 + 2E2 + 3E3 = 70 + 60 + 50 = 180 (counting preferences).\n\nSubtract the first equation from the second: E2 + 2E3 = 80. To make E3 as large as possible, make E2 as small as possible, which is E2 = 0. Then E3 = 40 and E1 = 60.\n\nCheck it works: tea only 30, coffee only 20, juice only 10 (total 60), plus 40 who like all three. Tea = 30 + 40 = 70, coffee = 20 + 40 = 60, juice = 10 + 40 = 50. ✓\n\nThe obvious guess of 50 (the smallest group) fails: if all 50 juice fans liked everything, E3 = 50 would need E2 = −20.",
+   "tip": "Two equations (heads and preference counts) link E1, E2, E3. Push E2 to 0 to maximise E3.",
+   "trap": "Taking the smallest group (50) as the maximum overlap; with three sets, the groups also have to add up to exactly the total number of preferences.",
+   "timeTarget": 160,
+   "skills": [
+    "three-set",
+    "max-min-overlap",
+    "constraints"
+   ]
+  },
+  {
+   "id": "q-sets-qf-p-014",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "In a certain class, 85% of the students passed mathematics, 80% passed English, 90% passed science, and 75% passed history. What is the least possible percent of students who passed all four subjects?",
+   "choices": [
+    "5%",
+    "10%",
+    "15%",
+    "20%",
+    "30%"
+   ],
+   "answer": 4,
+   "explanation": "Count the students who FAILED each subject: 15% failed math, 20% failed English, 10% failed science, 25% failed history.\n\nThe largest possible number of students who failed at least one subject happens when no student fails two subjects, so the failure groups don't overlap: 15 + 20 + 10 + 25 = 70%.\n\nSo at most 70% failed at least one subject, and at least 100 − 70 = 30% passed all four.\n\nFormula version: sum of pass rates − (number of subjects − 1) × 100 = 330 − 300 = 30. ✓",
+   "tip": "For the minimum of \"all of them\", add up the percentages who miss each one; whoever misses none is in all.",
+   "trap": "Subtracting only one 100 from the sum of the pass rates (330 − 100 = 230), which is more than 100% and makes no sense.",
+   "timeTarget": 150,
+   "skills": [
+    "complement-counting",
+    "max-min-overlap",
+    "percentages"
+   ]
+  },
+  {
+   "id": "q-sets-qf-m-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "Of 45 employees at a firm, 28 speak Hindi, 20 speak Punjabi, and 8 speak both languages. How many employees speak neither language?",
+   "choices": [
+    "5",
+    "8",
+    "13",
+    "17",
+    "28"
+   ],
+   "answer": 0,
+   "explanation": "Total = A + B − Both + Neither.\n\n45 = 28 + 20 − 8 + Neither = 40 + Neither, so Neither = 5.\n\nCheck: Hindi only = 20, Punjabi only = 12, both = 8, neither = 5, and 20 + 12 + 8 + 5 = 45. ✓",
+   "tip": "Count the overlap once: A + B − Both gives everyone in at least one group.",
+   "trap": "Using 28 + 20 = 48 > 45 and being confused; the 8 bilingual employees were counted twice.",
+   "timeTarget": 80,
+   "skills": [
+    "two-set-formula"
+   ]
+  },
+  {
+   "id": "q-sets-qf-m-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Among 80 people, 45 own a cat, 40 own a dog, and 10 own neither. How many people own exactly one of the two kinds of pet?",
+   "choices": [
+    "40",
+    "50",
+    "55",
+    "60",
+    "70"
+   ],
+   "answer": 2,
+   "explanation": "First find the overlap: 80 = 45 + 40 − Both + 10, so 80 = 95 − Both, so Both = 15.\n\nExactly one = cat only + dog only = (45 − 15) + (40 − 15) = 30 + 25 = 55.\n\nCheck: 55 + 15 (both) + 10 (neither) = 80. ✓",
+   "tip": "Find \"both\" first with the total formula, then peel off the overlap to get the \"only\" counts.",
+   "trap": "Giving 70 (people who own at least one pet) rather than exactly one.",
+   "timeTarget": 100,
+   "skills": [
+    "two-set-formula",
+    "exactly-one"
+   ]
+  },
+  {
+   "id": "q-sets-qf-m-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Half of a company's employees are women. 40% of the women and 20% of the men hold an MBA. What fraction of all MBA holders at the company are women?",
+   "choices": [
+    "1/3",
+    "1/2",
+    "3/5",
+    "5/8",
+    "2/3"
+   ],
+   "answer": 4,
+   "explanation": "Assume 100 employees: 50 women and 50 men.\n\nWomen with an MBA = 40% of 50 = 20. Men with an MBA = 20% of 50 = 10. Total MBA holders = 30.\n\nFraction who are women = 20/30 = 2/3.\n\nSince the two groups have equal size, you can skip the assumption: the ratio of MBA holders is just 40 : 20 = 2 : 1, so 2/3 are women.",
+   "tip": "When groups are equal in size, the ratio of their rates is the ratio of their members in the target group.",
+   "trap": "Saying 1/2 because \"half the employees are women\" or averaging 40% and 20% into 30% and stopping.",
+   "timeTarget": 120,
+   "skills": [
+    "double-set-matrix",
+    "conditional"
+   ]
+  },
+  {
+   "id": "q-sets-qf-m-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In a group of 60 people, 45 can swim and 40 can cycle. If at least 5 people can do neither, what is the least possible number of people who can do both?",
+   "choices": [
+    "20",
+    "25",
+    "30",
+    "35",
+    "40"
+   ],
+   "answer": 2,
+   "explanation": "At least 5 can do neither, so at most 60 − 5 = 55 people can do at least one of the activities.\n\nPeople who can swim or cycle = 45 + 40 − Both ≤ 55, so 85 − Both ≤ 55, so Both ≥ 30.\n\nSo the least possible number who do both is 30 (reached when exactly 5 people can do neither).\n\nCheck: 15 swim only, 10 cycle only, 30 both, 5 neither = 60. ✓",
+   "tip": "The more people outside both groups, the more the groups must overlap. Use the extreme case for the minimum.",
+   "trap": "Ignoring the \"neither\" condition and computing 85 − 60 = 25.",
+   "timeTarget": 125,
+   "skills": [
+    "max-min-overlap",
+    "neither"
+   ]
+  },
+  {
+   "id": "q-sets-qf-m-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "In a school of 120 students, 60 study mathematics, 50 study physics, and 40 study chemistry. 20 study both mathematics and physics, 15 study both physics and chemistry, and 10 study both mathematics and chemistry (each of these pair counts includes students who study all three subjects). 5 students study all three subjects. How many students study exactly one of the three subjects?",
+   "choices": [
+    "65",
+    "75",
+    "80",
+    "85",
+    "110"
+   ],
+   "answer": 1,
+   "explanation": "Use the pairwise formula for the number who take at least one subject:\n\nAt least one = M + P + C − (M∩P) − (P∩C) − (M∩C) + (all three) = 150 − 45 + 5 = 110.\n\nNow split that 110 into exactly one, exactly two, and all three.\n\nExactly two = (20 − 5) + (15 − 5) + (10 − 5) = 15 + 10 + 5 = 30. All three = 5.\n\nExactly one = 110 − 30 − 5 = 75.\n\nCheck region by region: maths only = 60 − 20 − 10 + 5 = 35; physics only = 50 − 20 − 15 + 5 = 20; chemistry only = 40 − 15 − 10 + 5 = 20. 35 + 20 + 20 = 75. ✓\n\nThe other 10 students (120 − 110) study none of the three.",
+   "tip": "Pair overlaps that \"include all three\" must have the centre removed before you count \"exactly two\".",
+   "trap": "Treating the pair counts (20, 15, 10) as \"exactly two\" gives exactly two = 45 and a wrong answer.",
+   "timeTarget": 150,
+   "skills": [
+    "three-set",
+    "pairwise-overlaps"
+   ]
+  },
+  {
+   "id": "q-sets-qf-m-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "In a survey, 40% of people like cricket, 50% like football, and 30% like tennis. 10% like all three sports and 20% like none of them. What percent of people like exactly two of the three sports?",
+   "choices": [
+    "10%",
+    "15%",
+    "18%",
+    "20%",
+    "25%"
+   ],
+   "answer": 3,
+   "explanation": "Assume 100 people and use Total = A + B + C − (exactly two) − 2 × (all three) + Neither:\n\n100 = 120 − E2 − 2 × 10 + 20 = 120 − E2, so E2 = 20.\n\nCheck by counting preferences: exactly one = 100 − 20 (none) − 20 (exactly two) − 10 (all three) = 50. Then 50 × 1 + 20 × 2 + 10 × 3 = 50 + 40 + 30 = 120 = 40 + 50 + 30. ✓",
+   "tip": "Count preferences: each person in exactly k groups contributes k to the sum of the group sizes.",
+   "trap": "Forgetting to add back the 20% who like none, or subtracting the all-three group only once.",
+   "timeTarget": 140,
+   "skills": [
+    "three-set",
+    "percentages"
+   ]
+  },
+  {
+   "id": "q-sets-qf-m-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Each of 50 people speaks at least one of three languages A, B and C. 40 people speak A, 35 speak B, and 30 speak C. What is the greatest possible number of people who speak exactly two of the three languages?",
+   "choices": [
+    "45",
+    "50",
+    "55",
+    "60",
+    "65"
+   ],
+   "answer": 0,
+   "explanation": "Let E1, E2, E3 be the numbers who speak exactly one, exactly two, and all three languages.\n\nHeads: E1 + E2 + E3 = 50. Language counts: E1 + 2E2 + 3E3 = 40 + 35 + 30 = 105.\n\nSubtract: E2 + 2E3 = 55, so E2 = 55 − 2E3.\n\nTo maximise E2, make E3 as small as possible. But E1 = 50 − E2 − E3 = 50 − (55 − 2E3) − E3 = E3 − 5, and E1 cannot be negative, so E3 ≥ 5.\n\nWith E3 = 5: E2 = 45 and E1 = 0. That is achievable: the pair counts AB = 20, AC = 15, BC = 10 (plus the 5 in all three) give A = 20 + 15 + 5 = 40, B = 20 + 10 + 5 = 35, C = 15 + 10 + 5 = 30. ✓\n\nSo the maximum is 45, not 55 (which would need E3 = 0 and would force E1 = −5).",
+   "tip": "Use the two equations (heads and language counts), then use \"E1 ≥ 0\" as the constraint that caps the answer.",
+   "trap": "Writing E2 + 2E3 = 55 and concluding E2 = 55 with E3 = 0, without checking that E1 would be negative.",
+   "timeTarget": 170,
+   "skills": [
+    "three-set",
+    "max-min-overlap",
+    "constraints"
+   ]
+  },
+  {
+   "id": "q-sets-qf-m-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-sets",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "In a town, 80% of households own a phone, 70% own a laptop, and 60% own a tablet. Exactly 5% of households own none of the three devices. What is the least possible percent of households that own all three devices?",
+   "choices": [
+    "5%",
+    "10%",
+    "15%",
+    "18%",
+    "20%"
+   ],
+   "answer": 4,
+   "explanation": "Count households that do NOT own each device: 20% lack a phone, 30% lack a laptop, 40% lack a tablet. That is 90 \"missing-device slots\" in total (out of 100 households).\n\nThe 5% who own nothing use up 3 slots each: 15 slots. That leaves 90 − 15 = 75 slots for the other households.\n\nTo find the minimum number who own all three, we want as many households as possible to be missing at least one device. Each remaining household can be missing at least one device using just 1 slot, so at most 75 more households can be missing something.\n\nHouseholds missing at least one device is at most 5 + 75 = 80, so at least 100 − 80 = 20% own all three.\n\nCheck it can be done: 15% miss only the phone, 25% miss only the laptop, 35% miss only the tablet (15 + 25 + 35 = 75), 5% own none, and 20% own all three. Phone ownership = 100 − 15 − 5 = 80 ✓, laptop = 100 − 25 − 5 = 70 ✓, tablet = 100 − 35 − 5 = 60 ✓.",
+   "tip": "In minimum-overlap puzzles, count how many \"missing\" slots each household uses; households owning nothing eat three slots at once.",
+   "trap": "Using the standard 210 − 200 = 10 and ignoring that the 5% who own nothing use up slots; the true minimum is 20%.",
+   "timeTarget": 170,
+   "skills": [
+    "complement-counting",
+    "three-set",
+    "max-min-overlap"
+   ]
+  }
+ ]
+}

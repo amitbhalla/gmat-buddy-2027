@@ -1,0 +1,2529 @@
+[
+ {
+  "id": "fc-quant-facts-001",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "11² and 12²?",
+  "back": "121 and 144. Anchor squares you will see constantly."
+ },
+ {
+  "id": "fc-quant-facts-002",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "13²?",
+  "back": "169. Check: 13 × 13 = 130 + 39."
+ },
+ {
+  "id": "fc-quant-facts-003",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "14²?",
+  "back": "196. Check: 14 × 14 = 140 + 56."
+ },
+ {
+  "id": "fc-quant-facts-004",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "15²?",
+  "back": "225. Any number ending in 5: take n × (n+1), then tack on 25. 1 × 2 = 2, so 225."
+ },
+ {
+  "id": "fc-quant-facts-005",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "16²?",
+  "back": "256. Also 2⁸, so it shows up twice."
+ },
+ {
+  "id": "fc-quant-facts-006",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "17²?",
+  "back": "289. Check: 17 × 17 = 170 + 119."
+ },
+ {
+  "id": "fc-quant-facts-007",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "18²?",
+  "back": "324. Check: 18 × 18 = 180 + 144."
+ },
+ {
+  "id": "fc-quant-facts-008",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "19²?",
+  "back": "361. Shortcut: (20 − 1)² = 400 − 40 + 1."
+ },
+ {
+  "id": "fc-quant-facts-009",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "21²?",
+  "back": "441. Shortcut: (20 + 1)² = 400 + 40 + 1."
+ },
+ {
+  "id": "fc-quant-facts-010",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "22²?",
+  "back": "484. Shortcut: (20 + 2)² = 400 + 80 + 4."
+ },
+ {
+  "id": "fc-quant-facts-011",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "23²?",
+  "back": "529. Shortcut: (20 + 3)² = 400 + 120 + 9."
+ },
+ {
+  "id": "fc-quant-facts-012",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "24²?",
+  "back": "576. Shortcut: (25 − 1)² = 625 − 50 + 1."
+ },
+ {
+  "id": "fc-quant-facts-013",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "25²?",
+  "back": "625. Ends in 5: 2 × 3 = 6, then 25 gives 625."
+ },
+ {
+  "id": "fc-quant-facts-014",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "√361, √529 and √625?",
+  "back": "19, 23 and 25. Recognising the squares lets you simplify roots at speed."
+ },
+ {
+  "id": "fc-quant-facts-015",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "3³ and 4³?",
+  "back": "27 and 64."
+ },
+ {
+  "id": "fc-quant-facts-016",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "5³ and 6³?",
+  "back": "125 and 216."
+ },
+ {
+  "id": "fc-quant-facts-017",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "7³?",
+  "back": "343. Check: 49 × 7 = 343."
+ },
+ {
+  "id": "fc-quant-facts-018",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "8³ and 9³?",
+  "back": "512 and 729. 512 is also 2⁹ and 729 is also 3⁶."
+ },
+ {
+  "id": "fc-quant-facts-019",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "2³ and 10³?",
+  "back": "8 and 1000."
+ },
+ {
+  "id": "fc-quant-facts-020",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "∛64, ∛125 and ∛216?",
+  "back": "4, 5 and 6."
+ },
+ {
+  "id": "fc-quant-facts-021",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "2⁶, 2⁷ and 2⁸?",
+  "back": "64, 128 and 256. Double each time."
+ },
+ {
+  "id": "fc-quant-facts-022",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "2⁹ and 2¹⁰?",
+  "back": "512 and 1024. 2¹⁰ ≈ 1000 is a handy estimate."
+ },
+ {
+  "id": "fc-quant-facts-023",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "3⁴ and 3⁵?",
+  "back": "81 and 243."
+ },
+ {
+  "id": "fc-quant-facts-024",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "3⁶?",
+  "back": "729. Equal to 9³ and 27².  Check: 243 × 3."
+ },
+ {
+  "id": "fc-quant-facts-025",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "5³ and 5⁴?",
+  "back": "125 and 625. Each extra power of 5 multiplies by 5."
+ },
+ {
+  "id": "fc-quant-facts-026",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "2⁴ and 2⁵?",
+  "back": "16 and 32."
+ },
+ {
+  "id": "fc-quant-facts-027",
+  "deck": "quant-facts",
+  "topic": "q-exponents",
+  "front": "7²  and 7³?",
+  "back": "49 and 343."
+ },
+ {
+  "id": "fc-quant-facts-028",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/2 as a decimal and a percent?",
+  "back": "0.5 and 50%."
+ },
+ {
+  "id": "fc-quant-facts-029",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/3 as a decimal and a percent?",
+  "back": "0.333... and 33⅓%. Two-thirds is 0.666... = 66⅔%."
+ },
+ {
+  "id": "fc-quant-facts-030",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/4 and 3/4 as decimals and percents?",
+  "back": "0.25 = 25% and 0.75 = 75%."
+ },
+ {
+  "id": "fc-quant-facts-031",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/5 and 2/5?",
+  "back": "0.2 = 20% and 0.4 = 40%. So 3/5 = 60% and 4/5 = 80%."
+ },
+ {
+  "id": "fc-quant-facts-032",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/6 as a decimal and a percent?",
+  "back": "0.1666... and 16⅔%. Then 5/6 = 83⅓%."
+ },
+ {
+  "id": "fc-quant-facts-033",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/7 as a decimal?",
+  "back": "About 0.143, which is about 14.3%. The digits repeat 142857."
+ },
+ {
+  "id": "fc-quant-facts-034",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/8 as a decimal and a percent?",
+  "back": "0.125 = 12.5%. Memorise it, then 3/8, 5/8, 7/8 are easy."
+ },
+ {
+  "id": "fc-quant-facts-035",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "3/8 as a decimal and a percent?",
+  "back": "0.375 = 37.5%. It is 3 × 12.5%."
+ },
+ {
+  "id": "fc-quant-facts-036",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "5/8 as a decimal and a percent?",
+  "back": "0.625 = 62.5%. It is 5 × 12.5%."
+ },
+ {
+  "id": "fc-quant-facts-037",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "7/8 as a decimal and a percent?",
+  "back": "0.875 = 87.5%. It is 100% − 12.5%."
+ },
+ {
+  "id": "fc-quant-facts-038",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/9 as a decimal and a percent?",
+  "back": "0.111... and 11⅑%, roughly 11.1%. 2/9 = 0.222..."
+ },
+ {
+  "id": "fc-quant-facts-039",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/10 and 1/20?",
+  "back": "0.1 = 10% and 0.05 = 5%."
+ },
+ {
+  "id": "fc-quant-facts-040",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/11 as a decimal?",
+  "back": "0.0909..., about 9.09%."
+ },
+ {
+  "id": "fc-quant-facts-041",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/12 as a decimal and a percent?",
+  "back": "0.0833..., which is 8⅓%. Handy for monthly splits: 1/12 of a year."
+ },
+ {
+  "id": "fc-quant-facts-042",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/16 as a decimal and a percent?",
+  "back": "0.0625 = 6.25%. Half of 1/8."
+ },
+ {
+  "id": "fc-quant-facts-043",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "3/16 as a decimal?",
+  "back": "0.1875 = 18.75%. It is 3 × 6.25%."
+ },
+ {
+  "id": "fc-quant-facts-044",
+  "deck": "quant-facts",
+  "topic": "q-fractions",
+  "front": "1/25 and 1/50?",
+  "back": "0.04 = 4% and 0.02 = 2%."
+ },
+ {
+  "id": "fc-quant-facts-045",
+  "deck": "quant-facts",
+  "topic": "q-percents",
+  "front": "Which fraction is 12.5%, 37.5% and 62.5%?",
+  "back": "1/8, 3/8 and 5/8. Convert percents to fractions to calculate faster."
+ },
+ {
+  "id": "fc-quant-facts-046",
+  "deck": "quant-facts",
+  "topic": "q-percents",
+  "front": "Which fraction is 16⅔% and 83⅓%?",
+  "back": "1/6 and 5/6."
+ },
+ {
+  "id": "fc-quant-facts-047",
+  "deck": "quant-facts",
+  "topic": "q-percents",
+  "front": "Which fraction is 6.25%?",
+  "back": "1/16. Half of 12.5%, or 1 out of 16."
+ },
+ {
+  "id": "fc-quant-facts-048",
+  "deck": "quant-facts",
+  "topic": "q-percents",
+  "front": "Which fraction is 8⅓%?",
+  "back": "1/12. Twelve of them make 100%."
+ },
+ {
+  "id": "fc-quant-facts-049",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "List the primes below 20.",
+  "back": "2, 3, 5, 7, 11, 13, 17, 19. That is 8 primes."
+ },
+ {
+  "id": "fc-quant-facts-050",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "List the primes from 20 to 50.",
+  "back": "23, 29, 31, 37, 41, 43, 47. That is 7 primes."
+ },
+ {
+  "id": "fc-quant-facts-051",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "List the primes from 50 to 100.",
+  "back": "53, 59, 61, 67, 71, 73, 79, 83, 89, 97. That is 10 primes."
+ },
+ {
+  "id": "fc-quant-facts-052",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "How many primes are there below 100?",
+  "back": "25. (8 below 20, 7 from 20 to 50, 10 from 50 to 100.)"
+ },
+ {
+  "id": "fc-quant-facts-053",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "Is 1 prime? Is 2 prime?",
+  "back": "1 is not prime (it has only one factor). 2 is prime, and it is the only even prime."
+ },
+ {
+  "id": "fc-quant-facts-054",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "Sneaky composites that look prime: 51, 57, 87, 91?",
+  "back": "51 = 3 × 17, 57 = 3 × 19, 87 = 3 × 29, 91 = 7 × 13. Test small primes before declaring prime."
+ },
+ {
+  "id": "fc-quant-facts-055",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "Largest prime you must test to check if a number up to 100 is prime?",
+  "back": "7. If no prime up to 7 divides it, a number below 121 is prime. Test 2, 3, 5, 7 only."
+ },
+ {
+  "id": "fc-quant-facts-056",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Divisibility rule for 3?",
+  "back": "Digit sum divisible by 3. Example: 4,527 has digit sum 18, so it works."
+ },
+ {
+  "id": "fc-quant-facts-057",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Divisibility rule for 9?",
+  "back": "Digit sum divisible by 9. Example: 7,263 has digit sum 18, so yes."
+ },
+ {
+  "id": "fc-quant-facts-058",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Divisibility rule for 4?",
+  "back": "Last two digits form a number divisible by 4. 3,716: 16 works."
+ },
+ {
+  "id": "fc-quant-facts-059",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Divisibility rule for 8?",
+  "back": "Last three digits form a number divisible by 8. 5,128: 128 = 8 × 16."
+ },
+ {
+  "id": "fc-quant-facts-060",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Divisibility rule for 6?",
+  "back": "Divisible by both 2 and 3. Even, and digit sum divisible by 3."
+ },
+ {
+  "id": "fc-quant-facts-061",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Divisibility rule for 11?",
+  "back": "Alternating sum of digits is 0 or divisible by 11. 2,728: 2 − 7 + 2 − 8 = −11, so yes."
+ },
+ {
+  "id": "fc-quant-facts-062",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Divisibility rule for 12?",
+  "back": "Divisible by 3 and 4 (not by 2 and 6, which share a factor)."
+ },
+ {
+  "id": "fc-quant-facts-063",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Divisibility rules for 2, 5 and 10?",
+  "back": "2: last digit even. 5: last digit 0 or 5. 10: last digit 0."
+ },
+ {
+  "id": "fc-quant-facts-064",
+  "deck": "quant-facts",
+  "topic": "q-divisibility",
+  "front": "Why can you not check divisibility by 24 by testing 4 and 6?",
+  "back": "They share the factor 2. Use coprime pairs: 3 and 8. A number divisible by 4 and 6 need not be divisible by 24 (12 is the example)."
+ },
+ {
+  "id": "fc-quant-facts-065",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "0! and 1! and 2! and 3!?",
+  "back": "1, 1, 2 and 6. 0! = 1 by definition."
+ },
+ {
+  "id": "fc-quant-facts-066",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "4! and 5!?",
+  "back": "24 and 120."
+ },
+ {
+  "id": "fc-quant-facts-067",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "6! and 7!?",
+  "back": "720 and 5,040. 7! = 7 × 720."
+ },
+ {
+  "id": "fc-quant-facts-068",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "8!?",
+  "back": "40,320. 8! = 8 × 5,040."
+ },
+ {
+  "id": "fc-quant-facts-069",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "What is 8!/6! without multiplying everything out?",
+  "back": "56. Cancel: 8 × 7 = 56."
+ },
+ {
+  "id": "fc-quant-facts-070",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "What is 10!/(8! × 2!)?",
+  "back": "45. Cancel 8!: (10 × 9)/2 = 45. It is also the combination 10C2."
+ },
+ {
+  "id": "fc-quant-facts-071",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "Approximate √2, √3 and √5?",
+  "back": "√2 ≈ 1.41, √3 ≈ 1.73 and √5 ≈ 2.24. The first two you will use all the time."
+ },
+ {
+  "id": "fc-quant-facts-072",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "Approximate √6, √7 and √10?",
+  "back": "√6 ≈ 2.45, √7 ≈ 2.65 and √10 ≈ 3.16."
+ },
+ {
+  "id": "fc-quant-facts-073",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "Mnemonic for √2 and √3?",
+  "back": "√2 ≈ 1.414 (the year 1414 is easy to recall) and √3 ≈ 1.732. Use them to estimate answers like 3√2 ≈ 4.2."
+ },
+ {
+  "id": "fc-quant-facts-074",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "Cycle of units digits for powers of 2?",
+  "back": "2, 4, 8, 6, then repeats (period 4). For 2²⁰²⁶ divide the exponent by 4 and use the remainder."
+ },
+ {
+  "id": "fc-quant-facts-075",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "Cycle of units digits for powers of 3 and 7?",
+  "back": "3: 3, 9, 7, 1. 7: 7, 9, 3, 1. Both have period 4."
+ },
+ {
+  "id": "fc-quant-facts-076",
+  "deck": "quant-facts",
+  "topic": "q-numprops",
+  "front": "Units digits of powers of 5, 6, 0 and 1?",
+  "back": "Always 5, 6, 0 and 1 respectively. Period 1."
+ },
+ {
+  "id": "fc-quant-facts-077",
+  "deck": "quant-facts",
+  "topic": "q-arith",
+  "front": "Sum of the first 10 positive integers?",
+  "back": "55. Formula n(n+1)/2 = 10 × 11/2."
+ },
+ {
+  "id": "fc-quant-formulas-001",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Percent change formula?",
+  "back": "(New − Old)/Old × 100. Always divide by the OLD value. 50 to 65 is 15/50 = 30% up."
+ },
+ {
+  "id": "fc-quant-formulas-002",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Successive percent changes of a% then b%: multiplier?",
+  "back": "(1 + a/100)(1 + b/100). Up 20% then down 20% is 1.2 × 0.8 = 0.96, a 4% net fall."
+ },
+ {
+  "id": "fc-quant-formulas-003",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Original price after a 25% increase gives 150. Original?",
+  "back": "120. New = 1.25 × Old, so Old = 150/1.25. Never take 25% off the new price."
+ },
+ {
+  "id": "fc-quant-formulas-004",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Percent of vs percent more than?",
+  "back": "'x is p% of y' means x = (p/100)y. 'x is p% more than y' means x = (1 + p/100)y."
+ },
+ {
+  "id": "fc-quant-formulas-005",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Net effect of x% up then x% down?",
+  "back": "A loss of x²/100 percent. 10% up then 10% down: 1% loss."
+ },
+ {
+  "id": "fc-quant-formulas-006",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Percentage points vs percent change?",
+  "back": "A rate going 20% to 25% is +5 percentage points but a 25% relative increase (5/20)."
+ },
+ {
+  "id": "fc-quant-formulas-007",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Fast way to find 15% of a number?",
+  "back": "10% plus half of 10%. 15% of 80 = 8 + 4 = 12."
+ },
+ {
+  "id": "fc-quant-formulas-008",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Profit percent and markup formulas?",
+  "back": "Profit = Revenue − Cost. Markup % = profit/cost × 100. Margin % = profit/selling price × 100."
+ },
+ {
+  "id": "fc-quant-formulas-009",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "Discount percent formula?",
+  "back": "(List − Sale)/List × 100. A discount is a percent of the list price."
+ },
+ {
+  "id": "fc-quant-formulas-010",
+  "deck": "quant-formulas",
+  "topic": "q-percents",
+  "front": "If a quantity multiplies by k, what is the percent change?",
+  "back": "(k − 1) × 100%. Multiplying by 1.35 is +35%; by 0.6 is −40%."
+ },
+ {
+  "id": "fc-quant-formulas-011",
+  "deck": "quant-formulas",
+  "topic": "q-wordprob",
+  "front": "Simple interest formula?",
+  "back": "I = P × r × t, with t in years. ₹10,000 at 6% for 3 years gives ₹1,800."
+ },
+ {
+  "id": "fc-quant-formulas-012",
+  "deck": "quant-formulas",
+  "topic": "q-wordprob",
+  "front": "Compound interest formula?",
+  "back": "A = P(1 + r/n)<sup>nt</sup>. For annual compounding, A = P(1 + r)<sup>t</sup>. 1,000 at 10% for 2 years = 1,210."
+ },
+ {
+  "id": "fc-quant-formulas-013",
+  "deck": "quant-formulas",
+  "topic": "q-wordprob",
+  "front": "Compound vs simple interest after 2 years at r%?",
+  "back": "Compound is higher by P × (r/100)². On 1,000 at 10% that is 10 more than simple interest (210 vs 200)."
+ },
+ {
+  "id": "fc-quant-formulas-014",
+  "deck": "quant-formulas",
+  "topic": "q-wordprob",
+  "front": "Rule of 72?",
+  "back": "Years to double ≈ 72 ÷ rate (in percent). At 8%, about 9 years. It is an estimate."
+ },
+ {
+  "id": "fc-quant-formulas-015",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "Average formula?",
+  "back": "Average = Sum ÷ Number of terms. Sum = Average × Number. Rearranging this is the key to most average problems."
+ },
+ {
+  "id": "fc-quant-formulas-016",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "Average of evenly spaced numbers?",
+  "back": "The average of the first and last terms, which is also the median."
+ },
+ {
+  "id": "fc-quant-formulas-017",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "Weighted average formula?",
+  "back": "(w₁x₁ + w₂x₂ + ...)/(w₁ + w₂ + ...). The average sits closer to the group with more weight."
+ },
+ {
+  "id": "fc-quant-formulas-018",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "How do you fix the average when a new number is added?",
+  "back": "New sum = old sum + new number; divide by the new count. If the new number equals the old average, the average is unchanged."
+ },
+ {
+  "id": "fc-quant-formulas-019",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "Median of an even number of terms?",
+  "back": "Average the two middle terms after sorting. The median of 3, 5, 9, 20 is (5 + 9)/2 = 7."
+ },
+ {
+  "id": "fc-quant-formulas-020",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "Range formula?",
+  "back": "Range = largest − smallest. It ignores everything in between."
+ },
+ {
+  "id": "fc-quant-formulas-021",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "Standard deviation: what does adding a constant do?",
+  "back": "Nothing. SD stays the same when every term shifts by c. Only the mean shifts."
+ },
+ {
+  "id": "fc-quant-formulas-022",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "Standard deviation: what does multiplying by a constant do?",
+  "back": "Multiplying every term by k multiplies SD by |k|, and the variance by k²."
+ },
+ {
+  "id": "fc-quant-formulas-023",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "SD of a set where all terms are equal?",
+  "back": "Zero. SD measures spread from the mean, and there is none."
+ },
+ {
+  "id": "fc-quant-formulas-024",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "When does adding a number lower the SD?",
+  "back": "When the new number is closer to the mean than the typical existing deviation. A number equal to the mean always lowers the SD."
+ },
+ {
+  "id": "fc-quant-formulas-025",
+  "deck": "quant-formulas",
+  "topic": "q-stats",
+  "front": "Mean vs median in a right-skewed set?",
+  "back": "The mean is pulled above the median by the large outliers. Think incomes."
+ },
+ {
+  "id": "fc-quant-formulas-026",
+  "deck": "quant-formulas",
+  "topic": "q-rates",
+  "front": "Rate-time-distance formula?",
+  "back": "D = R × T. Solve for whichever is missing, and make sure the units match (minutes vs hours)."
+ },
+ {
+  "id": "fc-quant-formulas-027",
+  "deck": "quant-formulas",
+  "topic": "q-rates",
+  "front": "Average speed over a round trip?",
+  "back": "Total distance ÷ total time. Equal distances at 40 and 60 give 2 × 40 × 60/(40 + 60) = 48, not 50."
+ },
+ {
+  "id": "fc-quant-formulas-028",
+  "deck": "quant-formulas",
+  "topic": "q-rates",
+  "front": "Two objects moving toward each other?",
+  "back": "Relative speed = sum of speeds. Gap closes at (r₁ + r₂). Same direction: use the difference."
+ },
+ {
+  "id": "fc-quant-formulas-029",
+  "deck": "quant-formulas",
+  "topic": "q-rates",
+  "front": "Catch-up problems?",
+  "back": "Head start distance ÷ (faster speed − slower speed) gives the catch-up time."
+ },
+ {
+  "id": "fc-quant-formulas-030",
+  "deck": "quant-formulas",
+  "topic": "q-rates",
+  "front": "Combined work formula?",
+  "back": "Rates add. If A takes a hours and B takes b hours, together 1/a + 1/b per hour, so time = ab/(a + b)."
+ },
+ {
+  "id": "fc-quant-formulas-031",
+  "deck": "quant-formulas",
+  "topic": "q-rates",
+  "front": "Work = ?",
+  "back": "Work = Rate × Time. Treat the whole job as 1 unit, so a worker finishing in 6 hours has rate 1/6 per hour."
+ },
+ {
+  "id": "fc-quant-formulas-032",
+  "deck": "quant-formulas",
+  "topic": "q-rates",
+  "front": "Two workers, one fills a pool and another drains it?",
+  "back": "Subtract rates: net rate = 1/a − 1/b. Time = ab/(b − a), valid only if the fill rate is greater."
+ },
+ {
+  "id": "fc-quant-formulas-033",
+  "deck": "quant-formulas",
+  "topic": "q-rates",
+  "front": "Convert km/h to m/s?",
+  "back": "Multiply by 5/18. 72 km/h × 5/18 = 20 m/s."
+ },
+ {
+  "id": "fc-quant-formulas-034",
+  "deck": "quant-formulas",
+  "topic": "q-sets",
+  "front": "Two overlapping sets: total formula?",
+  "back": "Total = A + B − Both + Neither. Equivalent to A ∪ B = A + B − A ∩ B."
+ },
+ {
+  "id": "fc-quant-formulas-035",
+  "deck": "quant-formulas",
+  "topic": "q-sets",
+  "front": "Three overlapping sets formula?",
+  "back": "Total = A + B + C − (sum of pairs) + (all three) + Neither. Watch for 'exactly two' vs 'at least two'."
+ },
+ {
+  "id": "fc-quant-formulas-036",
+  "deck": "quant-formulas",
+  "topic": "q-sets",
+  "front": "How do you count 'exactly two' groups?",
+  "back": "Sum of pairwise overlaps − 3 × (all three). Overlaps include the triple region, so remove it."
+ },
+ {
+  "id": "fc-quant-formulas-037",
+  "deck": "quant-formulas",
+  "topic": "q-sets",
+  "front": "Set matrix for two characteristics?",
+  "back": "A 2 × 2 grid with row and column totals. Fill every known cell, then subtract to fill the rest."
+ },
+ {
+  "id": "fc-quant-formulas-038",
+  "deck": "quant-formulas",
+  "topic": "q-counting",
+  "front": "Permutations formula?",
+  "back": "nPr = n!/(n − r)!. Order matters. Arranging 3 of 5 books: 5 × 4 × 3 = 60."
+ },
+ {
+  "id": "fc-quant-formulas-039",
+  "deck": "quant-formulas",
+  "topic": "q-counting",
+  "front": "Combinations formula?",
+  "back": "nCr = n!/(r!(n − r)!). Order doesn't matter. Choosing 3 of 5 people: 10."
+ },
+ {
+  "id": "fc-quant-formulas-040",
+  "deck": "quant-formulas",
+  "topic": "q-counting",
+  "front": "Symmetry of combinations?",
+  "back": "nCr = nC(n − r). So 10C8 = 10C2 = 45."
+ },
+ {
+  "id": "fc-quant-formulas-041",
+  "deck": "quant-formulas",
+  "topic": "q-counting",
+  "front": "Arrangements of n items with repeats?",
+  "back": "n!/(a! b! ...), dividing by the factorial of each repeated group. MISSISSIPPI-style: divide by 4! 4! 2!."
+ },
+ {
+  "id": "fc-quant-formulas-042",
+  "deck": "quant-formulas",
+  "topic": "q-counting",
+  "front": "Circular arrangements of n distinct people?",
+  "back": "(n − 1)!. Fix one person, then arrange the rest."
+ },
+ {
+  "id": "fc-quant-formulas-043",
+  "deck": "quant-formulas",
+  "topic": "q-counting",
+  "front": "Fundamental counting principle?",
+  "back": "Multiply the choices at each step. 3 shirts × 4 trousers × 2 shoes = 24 outfits."
+ },
+ {
+  "id": "fc-quant-formulas-044",
+  "deck": "quant-formulas",
+  "topic": "q-counting",
+  "front": "Number of ways to arrange items when two must stay together?",
+  "back": "Glue them into one unit, arrange (n − 1) units, then multiply by 2 for the internal order."
+ },
+ {
+  "id": "fc-quant-formulas-045",
+  "deck": "quant-formulas",
+  "topic": "q-probability",
+  "front": "Basic probability formula?",
+  "back": "Favourable outcomes ÷ total equally likely outcomes. Check that outcomes are equally likely."
+ },
+ {
+  "id": "fc-quant-formulas-046",
+  "deck": "quant-formulas",
+  "topic": "q-probability",
+  "front": "Probability of A and B (independent)?",
+  "back": "P(A) × P(B). Two coin flips both heads: 1/2 × 1/2 = 1/4."
+ },
+ {
+  "id": "fc-quant-formulas-047",
+  "deck": "quant-formulas",
+  "topic": "q-probability",
+  "front": "Probability of A or B?",
+  "back": "P(A) + P(B) − P(A and B). For mutually exclusive events the last term is 0."
+ },
+ {
+  "id": "fc-quant-formulas-048",
+  "deck": "quant-formulas",
+  "topic": "q-probability",
+  "front": "'At least one' probability?",
+  "back": "1 − P(none). Often far faster than adding up cases."
+ },
+ {
+  "id": "fc-quant-formulas-049",
+  "deck": "quant-formulas",
+  "topic": "q-probability",
+  "front": "Complement rule?",
+  "back": "P(not A) = 1 − P(A)."
+ },
+ {
+  "id": "fc-quant-formulas-050",
+  "deck": "quant-formulas",
+  "topic": "q-probability",
+  "front": "Drawing without replacement?",
+  "back": "Probabilities change at each draw. 2 red from 5 red + 5 blue: (5/10)(4/9) = 2/9."
+ },
+ {
+  "id": "fc-quant-formulas-051",
+  "deck": "quant-formulas",
+  "topic": "q-numprops",
+  "front": "Sum of the first n terms of an arithmetic sequence?",
+  "back": "S = n(first + last)/2 = n/2 × [2a + (n − 1)d]."
+ },
+ {
+  "id": "fc-quant-formulas-052",
+  "deck": "quant-formulas",
+  "topic": "q-functions",
+  "front": "nth term of an arithmetic sequence?",
+  "back": "aₙ = a₁ + (n − 1)d. Count 'gaps', not terms: from term 5 to term 20 is 15 gaps."
+ },
+ {
+  "id": "fc-quant-formulas-053",
+  "deck": "quant-formulas",
+  "topic": "q-functions",
+  "front": "nth term of a geometric sequence?",
+  "back": "aₙ = a₁ × r<sup>n−1</sup>. Common ratio r multiplies each time."
+ },
+ {
+  "id": "fc-quant-formulas-054",
+  "deck": "quant-formulas",
+  "topic": "q-numprops",
+  "front": "Number of terms in an evenly spaced list?",
+  "back": "(Last − First)/Step + 1. From 12 to 96 by 4: 84/4 + 1 = 22."
+ },
+ {
+  "id": "fc-quant-formulas-055",
+  "deck": "quant-formulas",
+  "topic": "q-numprops",
+  "front": "Sum of integers from 1 to n?",
+  "back": "n(n + 1)/2. The first 100: 5,050."
+ },
+ {
+  "id": "fc-quant-formulas-056",
+  "deck": "quant-formulas",
+  "topic": "q-numprops",
+  "front": "Sum of first n odd numbers; first n even numbers?",
+  "back": "n² and n(n + 1). First 10 odds sum to 100; first 10 evens sum to 110."
+ },
+ {
+  "id": "fc-quant-formulas-057",
+  "deck": "quant-formulas",
+  "topic": "q-numprops",
+  "front": "Number of factors of a number?",
+  "back": "Prime-factorise, add 1 to each exponent, multiply. 360 = 2³ × 3² × 5 gives 4 × 3 × 2 = 24 factors."
+ },
+ {
+  "id": "fc-quant-formulas-058",
+  "deck": "quant-formulas",
+  "topic": "q-numprops",
+  "front": "When does a positive integer have an odd number of factors?",
+  "back": "Only when it is a perfect square, because factors pair up except the square root."
+ },
+ {
+  "id": "fc-quant-formulas-059",
+  "deck": "quant-formulas",
+  "topic": "q-numprops",
+  "front": "GCF × LCM formula?",
+  "back": "For two positive integers, GCF × LCM = product of the numbers. 12 and 18: 6 × 36 = 216."
+ },
+ {
+  "id": "fc-quant-formulas-060",
+  "deck": "quant-formulas",
+  "topic": "q-exponents",
+  "front": "Exponent rules: multiply and divide same base?",
+  "back": "x<sup>a</sup> × x<sup>b</sup> = x<sup>a+b</sup> and x<sup>a</sup> ÷ x<sup>b</sup> = x<sup>a−b</sup>. Same base only."
+ },
+ {
+  "id": "fc-quant-formulas-061",
+  "deck": "quant-formulas",
+  "topic": "q-exponents",
+  "front": "Power of a power; negative; zero exponent?",
+  "back": "(x<sup>a</sup>)<sup>b</sup> = x<sup>ab</sup>; x<sup>−a</sup> = 1/x<sup>a</sup>; x⁰ = 1 for x ≠ 0."
+ },
+ {
+  "id": "fc-quant-formulas-062",
+  "deck": "quant-formulas",
+  "topic": "q-exponents",
+  "front": "Fractional exponents?",
+  "back": "x<sup>1/2</sup> = √x and x<sup>a/b</sup> = (b-th root of x)<sup>a</sup>. So 8<sup>2/3</sup> = 4."
+ },
+ {
+  "id": "fc-quant-formulas-063",
+  "deck": "quant-formulas",
+  "topic": "q-exponents",
+  "front": "Roots of products and quotients?",
+  "back": "√(ab) = √a × √b and √(a/b) = √a/√b (a, b ≥ 0). But √(a + b) ≠ √a + √b."
+ },
+ {
+  "id": "fc-quant-formulas-064",
+  "deck": "quant-formulas",
+  "topic": "q-quadratics",
+  "front": "Special products: square of a sum and difference?",
+  "back": "(a + b)² = a² + 2ab + b² and (a − b)² = a² − 2ab + b². Don't forget the middle term."
+ },
+ {
+  "id": "fc-quant-formulas-065",
+  "deck": "quant-formulas",
+  "topic": "q-quadratics",
+  "front": "Difference of squares?",
+  "back": "a² − b² = (a − b)(a + b). 99² − 98² = 1 × 197 = 197."
+ },
+ {
+  "id": "fc-quant-formulas-066",
+  "deck": "quant-formulas",
+  "topic": "q-quadratics",
+  "front": "Sum and difference of cubes?",
+  "back": "a³ + b³ = (a + b)(a² − ab + b²) and a³ − b³ = (a − b)(a² + ab + b²). Rare on GMAT but they exist."
+ },
+ {
+  "id": "fc-quant-formulas-067",
+  "deck": "quant-formulas",
+  "topic": "q-quadratics",
+  "front": "Quadratic formula?",
+  "back": "x = (−b ± √(b² − 4ac))/(2a). The discriminant b² − 4ac tells you the number of real roots."
+ },
+ {
+  "id": "fc-quant-formulas-068",
+  "deck": "quant-formulas",
+  "topic": "q-inequalities",
+  "front": "Absolute value equation |x| = k (k > 0)?",
+  "back": "x = k or x = −k. If k < 0 there is no solution."
+ },
+ {
+  "id": "fc-quant-formulas-069",
+  "deck": "quant-formulas",
+  "topic": "q-inequalities",
+  "front": "Absolute value inequalities: |x| < k and |x| > k?",
+  "back": "|x| < k means −k < x < k (between). |x| > k means x < −k or x > k (outside)."
+ },
+ {
+  "id": "fc-quant-formulas-070",
+  "deck": "quant-formulas",
+  "topic": "q-inequalities",
+  "front": "|x − a| = distance meaning?",
+  "back": "The distance between x and a on the number line. |x − 3| < 2 means x is within 2 of 3, so 1 < x < 5."
+ },
+ {
+  "id": "fc-quant-formulas-071",
+  "deck": "quant-formulas",
+  "topic": "q-numprops",
+  "front": "Sum and product of the roots of x² + bx + c = 0?",
+  "back": "Sum of roots = −b and product = c. Roots of x² − 7x + 12 are 3 and 4 (sum 7, product 12)."
+ },
+ {
+  "id": "fc-quant-formulas-072",
+  "deck": "quant-formulas",
+  "topic": "q-ratios",
+  "front": "If A:B = 2:3 and B:C = 4:5, what is A:B:C?",
+  "back": "Match B: A:B:C = 8:12:15. Scale each ratio so the shared term agrees."
+ },
+ {
+  "id": "fc-quant-traps-001",
+  "deck": "quant-traps",
+  "topic": "q-rates",
+  "front": "You drive to Jaipur at 60 km/h and return at 40 km/h. Is the average speed 50?",
+  "back": "No. Average speed is total distance over total time. Equal distances: 2 × 60 × 40/100 = 48 km/h. You spend more time at the slower speed."
+ },
+ {
+  "id": "fc-quant-traps-002",
+  "deck": "quant-traps",
+  "topic": "q-quadratics",
+  "front": "Solve x² = 9. Is the answer 3?",
+  "back": "No, x = 3 or x = −3. Squaring loses the sign. Only √9 is just 3."
+ },
+ {
+  "id": "fc-quant-traps-003",
+  "deck": "quant-traps",
+  "topic": "q-percents",
+  "front": "A rate rises from 4% to 6%. Is this a 2% increase?",
+  "back": "It is 2 percentage points, but a 50% relative increase (2/4). Read whether the question asks for points or percent."
+ },
+ {
+  "id": "fc-quant-traps-004",
+  "deck": "quant-traps",
+  "topic": "q-linear",
+  "front": "You see x² = 3x and divide both sides by x to get x = 3. What went wrong?",
+  "back": "You lost the root x = 0. Factor instead: x(x − 3) = 0, so x = 0 or 3. Never divide by a variable that might be zero."
+ },
+ {
+  "id": "fc-quant-traps-005",
+  "deck": "quant-traps",
+  "topic": "q-inequalities",
+  "front": "Solve −2x > 6. Do you get x > −3?",
+  "back": "No. Dividing by a negative flips the sign: x < −3."
+ },
+ {
+  "id": "fc-quant-traps-006",
+  "deck": "quant-traps",
+  "topic": "q-percents",
+  "front": "Price rises 20% then falls 20%. Back to the original?",
+  "back": "No. 1.2 × 0.8 = 0.96, so it is 4% lower. The second change applies to a bigger base."
+ },
+ {
+  "id": "fc-quant-traps-007",
+  "deck": "quant-traps",
+  "topic": "q-percents",
+  "front": "Price after a 25% discount is ₹750. Is the original ₹750 + 25% of 750 = ₹937.50?",
+  "back": "No. 25% comes off the original, so 0.75 × Original = 750 and Original = ₹1,000."
+ },
+ {
+  "id": "fc-quant-traps-008",
+  "deck": "quant-traps",
+  "topic": "q-exponents",
+  "front": "Is (a + b)² equal to a² + b²?",
+  "back": "No. (a + b)² = a² + 2ab + b². The missing middle term is a classic trap."
+ },
+ {
+  "id": "fc-quant-traps-009",
+  "deck": "quant-traps",
+  "topic": "q-exponents",
+  "front": "Is √(a² + b²) equal to a + b?",
+  "back": "No. √(9 + 16) = 5, but 3 + 4 = 7. Roots do not split across addition."
+ },
+ {
+  "id": "fc-quant-traps-010",
+  "deck": "quant-traps",
+  "topic": "q-exponents",
+  "front": "Is √(x²) always x?",
+  "back": "No, it is |x|. √((−5)²) = 5. The square root symbol returns only the non-negative root."
+ },
+ {
+  "id": "fc-quant-traps-011",
+  "deck": "quant-traps",
+  "topic": "q-exponents",
+  "front": "Is −3² equal to 9?",
+  "back": "No. The exponent applies to 3 first, so −3² = −9. (−3)² = 9."
+ },
+ {
+  "id": "fc-quant-traps-012",
+  "deck": "quant-traps",
+  "topic": "q-exponents",
+  "front": "Is 2<sup>3</sup> × 3<sup>3</sup> equal to 6<sup>6</sup>?",
+  "back": "No. Same exponent, multiply bases, keep exponent: 2³ × 3³ = 6³ = 216. Adding exponents needs the same base."
+ },
+ {
+  "id": "fc-quant-traps-013",
+  "deck": "quant-traps",
+  "topic": "q-numprops",
+  "front": "Is the product of two positive numbers always bigger than each?",
+  "back": "No. Between 0 and 1, multiplying makes things smaller: 0.5 × 0.4 = 0.2. Similarly, x² < x when 0 < x < 1."
+ },
+ {
+  "id": "fc-quant-traps-014",
+  "deck": "quant-traps",
+  "topic": "q-numprops",
+  "front": "Is 0 positive, negative, even, odd?",
+  "back": "It is neither positive nor negative. It is even. It is a multiple of every integer, and divisible by every nonzero integer."
+ },
+ {
+  "id": "fc-quant-traps-015",
+  "deck": "quant-traps",
+  "topic": "q-numprops",
+  "front": "Is 1 prime? Is every odd number prime?",
+  "back": "1 is not prime. Odd numbers like 9, 15 and 21 are not prime either. Only 2 is the even prime."
+ },
+ {
+  "id": "fc-quant-traps-016",
+  "deck": "quant-traps",
+  "topic": "q-numprops",
+  "front": "A DS problem says 'x is a number'. Can x be a fraction or negative?",
+  "back": "Yes. Unless the question says integer or positive, test fractions, zero and negatives."
+ },
+ {
+  "id": "fc-quant-traps-017",
+  "deck": "quant-traps",
+  "topic": "q-remainders",
+  "front": "Does 'remainder 3 when divided by 5' mean the number is 3?",
+  "back": "No. It could be 3, 8, 13, 18... all numbers of the form 5k + 3. Use the form 5k + 3 and test several values."
+ },
+ {
+  "id": "fc-quant-traps-018",
+  "deck": "quant-traps",
+  "topic": "q-remainders",
+  "front": "Can a remainder be larger than the divisor?",
+  "back": "Never. The remainder is between 0 and divisor − 1. A remainder of 7 on division by 5 is impossible."
+ },
+ {
+  "id": "fc-quant-traps-019",
+  "deck": "quant-traps",
+  "topic": "q-ratios",
+  "front": "The ratio of boys to girls is 3:2. What fraction of the class is boys?",
+  "back": "3/5, not 3/2. Add the parts (3 + 2 = 5) to get the total before forming the fraction."
+ },
+ {
+  "id": "fc-quant-traps-020",
+  "deck": "quant-traps",
+  "topic": "q-ratios",
+  "front": "Ratio 2:3 becomes 3:4 after adding the same number to both. Does adding keep the ratio?",
+  "back": "No. Adding a constant changes the ratio. Only multiplying keeps it. Set up (2k + x)/(3k + x)."
+ },
+ {
+  "id": "fc-quant-traps-021",
+  "deck": "quant-traps",
+  "topic": "q-stats",
+  "front": "The average of 10 numbers is 8, and you remove a 14. Is the new average 8 − 14/9?",
+  "back": "Wrong approach. New sum = 80 − 14 = 66 over 9 numbers = 7.33. Work with sums, not averages of averages."
+ },
+ {
+  "id": "fc-quant-traps-022",
+  "deck": "quant-traps",
+  "topic": "q-stats",
+  "front": "Group A has an average of 70 and group B has 90. Is the combined average 80?",
+  "back": "Only if the groups are the same size. Otherwise it is a weighted average pulled toward the bigger group."
+ },
+ {
+  "id": "fc-quant-traps-023",
+  "deck": "quant-traps",
+  "topic": "q-stats",
+  "front": "Does a larger range always mean a larger SD?",
+  "back": "No. Range uses only the two extremes. SD uses every value's distance from the mean."
+ },
+ {
+  "id": "fc-quant-traps-024",
+  "deck": "quant-traps",
+  "topic": "q-stats",
+  "front": "Does the median change if you double the largest number?",
+  "back": "No. The median depends on the middle position, not the extremes, as long as the largest value stays the largest."
+ },
+ {
+  "id": "fc-quant-traps-025",
+  "deck": "quant-traps",
+  "topic": "q-inequalities",
+  "front": "You multiply both sides of an inequality by x without knowing the sign. What can go wrong?",
+  "back": "If x is negative you must flip the sign, and if x is zero you lose information. Move terms to one side and factor instead."
+ },
+ {
+  "id": "fc-quant-traps-026",
+  "deck": "quant-traps",
+  "topic": "q-inequalities",
+  "front": "From x² > 4 do you conclude x > 2?",
+  "back": "No. x > 2 or x < −2. Squares give two intervals."
+ },
+ {
+  "id": "fc-quant-traps-027",
+  "deck": "quant-traps",
+  "topic": "q-inequalities",
+  "front": "From |x| > 3 do you conclude x > 3?",
+  "back": "No, x > 3 or x < −3. 'Greater than' absolute value means outside."
+ },
+ {
+  "id": "fc-quant-traps-028",
+  "deck": "quant-traps",
+  "topic": "q-counting",
+  "front": "Choosing a committee of 3 from 8: do you use 8 × 7 × 6?",
+  "back": "That counts ordered arrangements. A committee is unordered, so divide by 3! to get 56."
+ },
+ {
+  "id": "fc-quant-traps-029",
+  "deck": "quant-traps",
+  "topic": "q-probability",
+  "front": "Probability of at least one head in 3 flips: do you add 1/2 + 1/2 + 1/2?",
+  "back": "No, that exceeds 1. Use 1 − P(no heads) = 1 − 1/8 = 7/8."
+ },
+ {
+  "id": "fc-quant-traps-030",
+  "deck": "quant-traps",
+  "topic": "q-probability",
+  "front": "Two events each have probability 1/2. Is P(both) always 1/4?",
+  "back": "Only if independent. Without independence you can't multiply."
+ },
+ {
+  "id": "fc-quant-traps-031",
+  "deck": "quant-traps",
+  "topic": "q-rates",
+  "front": "A 200 m train passes a pole at 20 m/s. How long does it take, and what changes for a 300 m platform?",
+  "back": "200/20 = 10 seconds for the pole. For the platform the train must cover 200 + 300 = 500 m, so 25 seconds. Add the lengths."
+ },
+ {
+  "id": "fc-quant-traps-032",
+  "deck": "quant-traps",
+  "topic": "q-wordprob",
+  "front": "Problem asks for the value of 2x but you solve for x and select it. What to do?",
+  "back": "Circle the target on your scratch paper before solving. GMAT answer choices always include x as a bait."
+ },
+ {
+  "id": "fc-quant-traps-033",
+  "deck": "quant-traps",
+  "topic": "q-fractions",
+  "front": "Is 1/a + 1/b equal to 1/(a + b)?",
+  "back": "No. 1/a + 1/b = (a + b)/ab. Add fractions only after finding a common denominator."
+ },
+ {
+  "id": "fc-quant-traps-034",
+  "deck": "quant-traps",
+  "topic": "q-fractions",
+  "front": "Can you split a/(b + c) into a/b + a/c?",
+  "back": "No. You can split a numerator, (a + b)/c = a/c + b/c, but never a denominator. Test a = 1, b = c = 1: 1/2 is not 2."
+ },
+ {
+  "id": "fc-cr-001",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Which question type? 'The argument above depends on which of the following assumptions?'",
+  "back": "Assumption. Find the unstated premise that bridges evidence to conclusion."
+ },
+ {
+  "id": "fc-cr-002",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Which question type? 'The argument relies on the presupposition that...'",
+  "back": "Assumption. 'Relies on', 'depends on', 'requires' and 'presupposes' all point here."
+ },
+ {
+  "id": "fc-cr-003",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "What is the negation test?",
+  "back": "Negate an answer choice. If the argument collapses, that choice is a necessary assumption. Use it to confirm, not to find answers."
+ },
+ {
+  "id": "fc-cr-004",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Necessary vs sufficient assumption: which does the GMAT usually ask for?",
+  "back": "Necessary: something the argument must have. It need not prove the conclusion on its own."
+ },
+ {
+  "id": "fc-cr-005",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "How do you find the assumption in an argument?",
+  "back": "Spot the gap: new term or idea in the conclusion that the premises never mention. The assumption links them."
+ },
+ {
+  "id": "fc-cr-006",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Assumption pattern: 'Sales rose after the new ad, so the ad worked.'",
+  "back": "Causal. The assumption: nothing else caused the rise, and sales were not already rising."
+ },
+ {
+  "id": "fc-cr-007",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Assumption pattern: a survey of some people leads to a claim about everyone.",
+  "back": "Sampling. The assumption: the sample is representative of the larger group."
+ },
+ {
+  "id": "fc-cr-008",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Assumption pattern: 'Plan X worked in City A, so it will work in City B.'",
+  "back": "Analogy. The assumption: the two cities are similar in the relevant ways."
+ },
+ {
+  "id": "fc-cr-009",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Assumption pattern: 'Costs will fall, so the project will be profitable.'",
+  "back": "Plan feasibility. The assumption: nothing else, like lower revenue, offsets the cost savings."
+ },
+ {
+  "id": "fc-cr-010",
+  "deck": "cr",
+  "topic": "v-cr-strengthen",
+  "front": "Which question type? 'Which of the following, if true, most strengthens the argument?'",
+  "back": "Strengthen. Accept every answer as true, then choose the one that makes the conclusion more likely."
+ },
+ {
+  "id": "fc-cr-011",
+  "deck": "cr",
+  "topic": "v-cr-weaken",
+  "front": "Which question type? 'Which of the following, if true, most seriously weakens the argument?'",
+  "back": "Weaken. Attack the link between premise and conclusion. Not proof, just doubt."
+ },
+ {
+  "id": "fc-cr-012",
+  "deck": "cr",
+  "topic": "v-cr-strengthen",
+  "front": "Standard way to strengthen a causal argument?",
+  "back": "Rule out other causes, show the effect disappears when the cause is absent, or show the cause came before the effect."
+ },
+ {
+  "id": "fc-cr-013",
+  "deck": "cr",
+  "topic": "v-cr-weaken",
+  "front": "Standard way to weaken a causal argument?",
+  "back": "Offer an alternative cause, reverse the direction (B causes A), or show coincidence. Any of these is enough."
+ },
+ {
+  "id": "fc-cr-014",
+  "deck": "cr",
+  "topic": "v-cr-weaken",
+  "front": "Standard way to weaken a survey or sample argument?",
+  "back": "Show the sample is unrepresentative or biased: self-selected, too small, or drawn from the wrong group."
+ },
+ {
+  "id": "fc-cr-015",
+  "deck": "cr",
+  "topic": "v-cr-strengthen",
+  "front": "Standard way to strengthen an analogy argument?",
+  "back": "Show the two cases are similar in the respects that matter. Weaken it by showing a relevant difference."
+ },
+ {
+  "id": "fc-cr-016",
+  "deck": "cr",
+  "topic": "v-cr-weaken",
+  "front": "Standard way to weaken a prediction or plan?",
+  "back": "Show an obstacle, a side effect that undermines the goal, or that the plan won't work as expected."
+ },
+ {
+  "id": "fc-cr-017",
+  "deck": "cr",
+  "topic": "v-cr-weaken",
+  "front": "Does a weaken answer need to disprove the conclusion?",
+  "back": "No. It only needs to make the conclusion less likely. 'Most seriously weakens' means pick the best of five."
+ },
+ {
+  "id": "fc-cr-018",
+  "deck": "cr",
+  "topic": "v-cr-strengthen",
+  "front": "Which answers are usually wrong in strengthen questions?",
+  "back": "Ones that restate a premise, are irrelevant, or strengthen a different conclusion. The answer should link to the gap."
+ },
+ {
+  "id": "fc-cr-019",
+  "deck": "cr",
+  "topic": "v-cr-evaluate",
+  "front": "Which question type? 'Which of the following would be most useful to determine in evaluating the argument?'",
+  "back": "Evaluate. Pick the question whose answer would, one way or the other, make the conclusion more or less likely."
+ },
+ {
+  "id": "fc-cr-020",
+  "deck": "cr",
+  "topic": "v-cr-evaluate",
+  "front": "What is the 'two-way test' for evaluate questions?",
+  "back": "Ask: if the answer is yes, does the argument get stronger or weaker? If no, does it move the opposite way? The correct choice must do both."
+ },
+ {
+  "id": "fc-cr-021",
+  "deck": "cr",
+  "topic": "v-cr-inference",
+  "front": "Which question type? 'Which of the following can be properly inferred from the statements above?'",
+  "back": "Inference. The answer must be true if the passage is true. Stay close to the text."
+ },
+ {
+  "id": "fc-cr-022",
+  "deck": "cr",
+  "topic": "v-cr-inference",
+  "front": "How strong should an inference answer be?",
+  "back": "Modest. Look for answers with 'some', 'may', 'at least'. Extreme words (all, never, only, most) are usually unsupported."
+ },
+ {
+  "id": "fc-cr-023",
+  "deck": "cr",
+  "topic": "v-cr-inference",
+  "front": "Is outside knowledge allowed in inference questions?",
+  "back": "No. Answer only from the information given. Common sense is fine, specialist facts are not."
+ },
+ {
+  "id": "fc-cr-024",
+  "deck": "cr",
+  "topic": "v-cr-inference",
+  "front": "Inference vs assumption: how do the answers differ?",
+  "back": "An inference follows FROM the passage. An assumption is something the passage needs but does not state."
+ },
+ {
+  "id": "fc-cr-025",
+  "deck": "cr",
+  "topic": "v-cr-paradox",
+  "front": "Which question type? 'Which of the following helps to explain the discrepancy above?'",
+  "back": "Paradox / resolve the discrepancy. Two facts seem to conflict; find a reason both can be true."
+ },
+ {
+  "id": "fc-cr-026",
+  "deck": "cr",
+  "topic": "v-cr-paradox",
+  "front": "What should a paradox answer NOT do?",
+  "back": "Deny a fact in the stimulus, or only explain one side. The correct answer reconciles both facts."
+ },
+ {
+  "id": "fc-cr-027",
+  "deck": "cr",
+  "topic": "v-cr-paradox",
+  "front": "Common paradox pattern: an action should produce result X, but result Y occurred.",
+  "back": "The answer often supplies a hidden factor or a difference between groups or periods that explains the surprise."
+ },
+ {
+  "id": "fc-cr-028",
+  "deck": "cr",
+  "topic": "v-cr-role",
+  "front": "Which question type? 'The portions in boldface play which of the following roles?'",
+  "back": "Boldface / role. Label each bold part: conclusion, premise, counter-argument, background, or objection."
+ },
+ {
+  "id": "fc-cr-029",
+  "deck": "cr",
+  "topic": "v-cr-role",
+  "front": "What is your first step in a boldface question?",
+  "back": "Find the main conclusion. Then decide whether each bold statement supports it, opposes it, or is context."
+ },
+ {
+  "id": "fc-cr-030",
+  "deck": "cr",
+  "topic": "v-cr-role",
+  "front": "Common wrong answer in boldface questions?",
+  "back": "Answers that describe the bold text correctly but assign it the wrong job, or use 'the author's conclusion' for an intermediate claim."
+ },
+ {
+  "id": "fc-cr-031",
+  "deck": "cr",
+  "topic": "v-cr-flaw",
+  "front": "Which question type? 'The reasoning is flawed because it...'",
+  "back": "Flaw. Describe the error in the reasoning in abstract terms."
+ },
+ {
+  "id": "fc-cr-032",
+  "deck": "cr",
+  "topic": "v-cr-flaw",
+  "front": "Flaw: 'Mistaking correlation for causation'.",
+  "back": "The argument says A causes B only because they occur together, ignoring other causes or reversed direction."
+ },
+ {
+  "id": "fc-cr-033",
+  "deck": "cr",
+  "topic": "v-cr-flaw",
+  "front": "Flaw: 'Confusing necessary and sufficient conditions'.",
+  "back": "Treating 'X is needed for Y' as 'X guarantees Y'. Example: 'You need a visa to enter, so having a visa lets you in.'"
+ },
+ {
+  "id": "fc-cr-034",
+  "deck": "cr",
+  "topic": "v-cr-flaw",
+  "front": "Flaw: 'Part to whole' (composition) and 'whole to part' (division)?",
+  "back": "Assuming what's true of the parts is true of the whole, or the reverse. A team of fast runners is not automatically a fast team."
+ },
+ {
+  "id": "fc-cr-035",
+  "deck": "cr",
+  "topic": "v-cr-flaw",
+  "front": "Flaw: 'Unrepresentative sample'.",
+  "back": "Drawing a general conclusion from a small, self-selected, or biased group."
+ },
+ {
+  "id": "fc-cr-036",
+  "deck": "cr",
+  "topic": "v-cr-flaw",
+  "front": "Flaw: 'Attacking the source' (ad hominem).",
+  "back": "Rejecting a claim because of who says it rather than why. Appears as 'the speaker has a motive'."
+ },
+ {
+  "id": "fc-cr-037",
+  "deck": "cr",
+  "topic": "v-cr-flaw",
+  "front": "Flaw: 'Circular reasoning'.",
+  "back": "The conclusion is restated as a premise. The argument assumes what it is trying to prove."
+ },
+ {
+  "id": "fc-cr-038",
+  "deck": "cr",
+  "topic": "v-cr-flaw",
+  "front": "Flaw: 'Equivocation'.",
+  "back": "A key word is used in two senses, so the conclusion does not follow."
+ },
+ {
+  "id": "fc-cr-039",
+  "deck": "cr",
+  "topic": "v-cr-complete",
+  "front": "Which question type? 'Which of the following most logically completes the argument?'",
+  "back": "Complete the argument. Usually works like inference or strengthen, depending on the blank."
+ },
+ {
+  "id": "fc-cr-040",
+  "deck": "cr",
+  "topic": "v-cr-complete",
+  "front": "What clue words help with fill-in-the-blank arguments?",
+  "back": "'Therefore', 'so', 'because', 'but', 'however'. Use the direction of the sentence to predict the missing conclusion or premise."
+ },
+ {
+  "id": "fc-cr-041",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Basic CR method in four steps?",
+  "back": "Read the stem first, identify conclusion and premises, predict the gap or answer, then eliminate. Do not read answers cold."
+ },
+ {
+  "id": "fc-cr-042",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Conclusion indicator words?",
+  "back": "'Therefore', 'thus', 'hence', 'so', 'clearly', 'it follows that'. Premise indicators: 'because', 'since', 'given that'."
+ },
+ {
+  "id": "fc-cr-043",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "In CR, what does 'scope shift' mean?",
+  "back": "The answer discusses something the argument never mentions. It sounds relevant but is outside the argument's scope."
+ },
+ {
+  "id": "fc-cr-044",
+  "deck": "cr",
+  "topic": "v-cr-weaken",
+  "front": "Common wrong-answer type: 'out of scope'.",
+  "back": "Raises a topic the argument does not discuss. Reject it even if it is true and interesting."
+ },
+ {
+  "id": "fc-cr-045",
+  "deck": "cr",
+  "topic": "v-cr-inference",
+  "front": "Common wrong-answer type: 'too extreme'.",
+  "back": "Uses absolute words such as 'always', 'only', 'never', 'all' when the passage supports less."
+ },
+ {
+  "id": "fc-cr-046",
+  "deck": "cr",
+  "topic": "v-cr-strengthen",
+  "front": "Common wrong-answer type: 'opposite'.",
+  "back": "Does the reverse of what the stem asks. Check whether you are strengthening or weakening before you commit."
+ },
+ {
+  "id": "fc-cr-047",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Common wrong-answer type: 'half right'.",
+  "back": "Starts with something plausible, then adds an unsupported clause. Read to the very end of each choice."
+ },
+ {
+  "id": "fc-cr-048",
+  "deck": "cr",
+  "topic": "v-cr-weaken",
+  "front": "Common wrong-answer type: 'irrelevant comparison'.",
+  "back": "Compares things the argument never compared. Check what the argument compares."
+ },
+ {
+  "id": "fc-cr-049",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "Should you use your own opinion in CR?",
+  "back": "No. Treat the stimulus as the whole world. If an answer needs outside facts, it's wrong."
+ },
+ {
+  "id": "fc-cr-050",
+  "deck": "cr",
+  "topic": "v-cr-assumption",
+  "front": "How many CR questions should you expect and how much time?",
+  "back": "Roughly 9-11 of the 23 Verbal questions (GMAC publishes no fixed split). Aim for about 2 minutes each; guess and move on after about 2:30."
+ },
+ {
+  "id": "fc-cr-051",
+  "deck": "cr",
+  "topic": "v-cr-weaken",
+  "front": "If you can't find the gap, what then?",
+  "back": "Test each answer by asking 'does this attack or support the premise-to-conclusion link?' Eliminate the clear misses first."
+ },
+ {
+  "id": "fc-rc-001",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Which RC question type? 'The primary purpose of the passage is to...'",
+  "back": "Main idea / purpose. Answer at the level of the whole passage, not one paragraph."
+ },
+ {
+  "id": "fc-rc-002",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "How do you check a main-idea answer?",
+  "back": "It must cover every paragraph and not add anything the passage does not say. Too narrow = one paragraph. Too broad = goes beyond."
+ },
+ {
+  "id": "fc-rc-003",
+  "deck": "rc",
+  "topic": "v-rc-detail",
+  "front": "Which RC question type? 'According to the passage, ...'",
+  "back": "Detail / explicit. The answer is stated or closely paraphrased in the text. Go back and locate it."
+ },
+ {
+  "id": "fc-rc-004",
+  "deck": "rc",
+  "topic": "v-rc-inference",
+  "front": "Which RC question type? 'It can be inferred from the passage that the author would most likely agree with...'",
+  "back": "Inference. A small logical step beyond the text. The hardest type for many test-takers."
+ },
+ {
+  "id": "fc-rc-005",
+  "deck": "rc",
+  "topic": "v-rc-function",
+  "front": "Which RC question type? 'The author mentions X in order to...'",
+  "back": "Function / logical structure. Ask WHY the author included it, not WHAT it says."
+ },
+ {
+  "id": "fc-rc-006",
+  "deck": "rc",
+  "topic": "v-rc-application",
+  "front": "Which RC question type? 'Which of the following situations is most analogous to the one described...'",
+  "back": "Application. Abstract the principle from the passage, then match it to a new case."
+ },
+ {
+  "id": "fc-rc-007",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Which RC question type? 'The author's attitude toward X is best described as...'",
+  "back": "Tone / attitude. Look for evaluative words, then pick the answer with matching strength."
+ },
+ {
+  "id": "fc-rc-008",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Does reading a passage mean memorising details?",
+  "back": "No. Read for structure and purpose: what each paragraph does. You can return to the text for details."
+ },
+ {
+  "id": "fc-rc-009",
+  "deck": "rc",
+  "topic": "v-rc-detail",
+  "front": "Why return to the passage for detail questions?",
+  "back": "Memory is unreliable and trap answers sound familiar. Locate the line and match the paraphrase."
+ },
+ {
+  "id": "fc-rc-010",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Contrast keywords: what do 'however', 'but', 'yet', 'although' signal?",
+  "back": "A turn in the argument. The author's real point usually comes after the contrast."
+ },
+ {
+  "id": "fc-rc-011",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Emphasis keywords?",
+  "back": "'Most important', 'in fact', 'crucially', 'clearly'. The author is telling you what matters."
+ },
+ {
+  "id": "fc-rc-012",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Opinion keywords?",
+  "back": "'Unfortunately', 'surprisingly', 'remarkably', 'only', 'merely'. These reveal the author's attitude."
+ },
+ {
+  "id": "fc-rc-013",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Continuation keywords?",
+  "back": "'Moreover', 'furthermore', 'in addition', 'for example'. The previous idea is being extended or illustrated."
+ },
+ {
+  "id": "fc-rc-014",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Tone: what does 'critical' vs 'skeptical' vs 'ambivalent' mean?",
+  "back": "Critical: finds fault. Skeptical: doubts. Ambivalent: mixed feelings. Neutral: just reports. Pick the one matching the passage's evidence."
+ },
+ {
+  "id": "fc-rc-015",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Tone words: 'laudatory', 'dismissive', 'measured', 'tentative'?",
+  "back": "Laudatory: praising. Dismissive: treats as unimportant. Measured: careful and balanced. Tentative: not sure, cautious."
+ },
+ {
+  "id": "fc-rc-016",
+  "deck": "rc",
+  "topic": "v-rc-detail",
+  "front": "Trap answer: 'extreme language'.",
+  "back": "Words like 'always', 'completely', 'solely' that overstate what the passage says. Real answers are moderate."
+ },
+ {
+  "id": "fc-rc-017",
+  "deck": "rc",
+  "topic": "v-rc-detail",
+  "front": "Trap answer: 'word match'.",
+  "back": "Copies exact words from the passage but changes the meaning. Correct answers often paraphrase instead."
+ },
+ {
+  "id": "fc-rc-018",
+  "deck": "rc",
+  "topic": "v-rc-inference",
+  "front": "Trap answer: 'outside knowledge'.",
+  "back": "True in the real world but not supported by the passage. Only the passage counts."
+ },
+ {
+  "id": "fc-rc-019",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Trap answer: 'scope error'.",
+  "back": "Too narrow (one detail), too broad (beyond the passage), or about a different topic."
+ },
+ {
+  "id": "fc-rc-020",
+  "deck": "rc",
+  "topic": "v-rc-inference",
+  "front": "Trap answer: 'reversed'.",
+  "back": "Gets the relationship backwards: says A caused B when the passage says B caused A, or flips for/against."
+ },
+ {
+  "id": "fc-rc-021",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "Typical RC passage structure?",
+  "back": "Background and a puzzle, then a theory or claim, then evidence or objection, then author's view. Map each paragraph in a few words."
+ },
+ {
+  "id": "fc-rc-022",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "How long should you spend reading a short RC passage?",
+  "back": "About 1-2 minutes, then about 1.5 minutes per question. Do not over-read."
+ },
+ {
+  "id": "fc-rc-023",
+  "deck": "rc",
+  "topic": "v-rc-main",
+  "front": "How many questions follow each RC passage?",
+  "back": "Usually 3-4. Passages are up to about 350 words."
+ },
+ {
+  "id": "fc-rc-024",
+  "deck": "rc",
+  "topic": "v-rc-inference",
+  "front": "Inference answer should feel like...",
+  "back": "Almost boring. It restates something the passage nearly says. If you are excited by it, check for overreach."
+ },
+ {
+  "id": "fc-rc-025",
+  "deck": "rc",
+  "topic": "v-rc-function",
+  "front": "What does the 'function of a paragraph' question really test?",
+  "back": "Whether you tracked the passage's structure: does the paragraph give background, evidence, a counterpoint, or an example?"
+ },
+ {
+  "id": "fc-di-001",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS answer choice A means?",
+  "back": "Statement (1) ALONE is sufficient, but statement (2) alone is not."
+ },
+ {
+  "id": "fc-di-002",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS answer choice B means?",
+  "back": "Statement (2) ALONE is sufficient, but statement (1) alone is not."
+ },
+ {
+  "id": "fc-di-003",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS answer choice C means?",
+  "back": "BOTH statements TOGETHER are sufficient, but NEITHER statement alone is sufficient."
+ },
+ {
+  "id": "fc-di-004",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS answer choice D means?",
+  "back": "EACH statement ALONE is sufficient."
+ },
+ {
+  "id": "fc-di-005",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS answer choice E means?",
+  "back": "Statements (1) and (2) TOGETHER are NOT sufficient. You need additional data."
+ },
+ {
+  "id": "fc-di-006",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "What does 'sufficient' mean in DS?",
+  "back": "It gives exactly one answer to the question (one value, or always Yes or always No). It does not mean you must find the value."
+ },
+ {
+  "id": "fc-di-007",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "In a Value DS question, when is a statement sufficient?",
+  "back": "When it pins down a single value. Two possible values means insufficient."
+ },
+ {
+  "id": "fc-di-008",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "In a Yes/No DS question, when is a statement sufficient?",
+  "back": "When the answer is ALWAYS yes or ALWAYS no. A definite 'no' is sufficient. 'Sometimes yes, sometimes no' is insufficient."
+ },
+ {
+  "id": "fc-di-009",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "AD/BCE method: what if (1) alone is sufficient?",
+  "back": "The answer is A or D. Eliminate B, C, E and test (2) alone: sufficient gives D, insufficient gives A."
+ },
+ {
+  "id": "fc-di-010",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "AD/BCE method: what if (1) alone is not sufficient?",
+  "back": "The answer is B, C or E. Test (2) alone: if sufficient, B. If not, combine them: C if sufficient, E if not."
+ },
+ {
+  "id": "fc-di-011",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "Why evaluate the statements separately first?",
+  "back": "Each statement must be tested independently before combining. Using (1)'s info when testing (2) leads to wrong C answers."
+ },
+ {
+  "id": "fc-di-012",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS trap: the C trap.",
+  "back": "Combining statements when one alone was enough. Always test each statement by itself before combining."
+ },
+ {
+  "id": "fc-di-013",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS trap: assuming 'number' means integer or positive.",
+  "back": "Unless stated, variables can be fractions, zero or negatives. Test them before calling a statement sufficient."
+ },
+ {
+  "id": "fc-di-014",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS trap: solving when you only need to decide.",
+  "back": "You do not need the value. Stop when you know it is determinable, and move on."
+ },
+ {
+  "id": "fc-di-015",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS trap: statements never contradict the question or each other.",
+  "back": "Statements are true. If your work shows a contradiction, you have made an error."
+ },
+ {
+  "id": "fc-di-016",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS trap: treating a quadratic's two roots as sufficient.",
+  "back": "x² = 16 gives x = 4 or −4: two values, insufficient. Unless a sign or other condition removes one."
+ },
+ {
+  "id": "fc-di-017",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS tip: rephrase the question first.",
+  "back": "Simplify the stem (for example, 'is x > y?' becomes 'is x − y > 0?'). It tells you what information you need."
+ },
+ {
+  "id": "fc-di-018",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS rule of thumb: how many equations do you need for N unknowns?",
+  "back": "Roughly as many independent equations as unknowns. But nonlinear or duplicate equations break this rule, so check."
+ },
+ {
+  "id": "fc-di-019",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS tip: two equations that are really the same.",
+  "back": "Statements like x + y = 5 and 2x + 2y = 10 give no new information. Check whether the second is a multiple of the first."
+ },
+ {
+  "id": "fc-di-020",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "DS tip: when to use number-testing?",
+  "back": "For Yes/No questions with constraints. Test 0, 1, negatives and fractions to find both a yes and a no."
+ },
+ {
+  "id": "fc-di-021",
+  "deck": "di",
+  "topic": "d-ds",
+  "front": "How long should a DS question take?",
+  "back": "About 2 minutes. If you are stuck after about 30 seconds, make a plan or bookmark, and move on if needed."
+ },
+ {
+  "id": "fc-di-022",
+  "deck": "di",
+  "topic": "d-ta",
+  "front": "What is a Table Analysis question?",
+  "back": "A sortable table of data, then three statements to mark True/False, Yes/No or similar. Each statement has to be right to get credit."
+ },
+ {
+  "id": "fc-di-023",
+  "deck": "di",
+  "topic": "d-ta",
+  "front": "Table Analysis strategy: first step?",
+  "back": "Read the title, units and column headers before the questions. Then sort by the column the statement is about."
+ },
+ {
+  "id": "fc-di-024",
+  "deck": "di",
+  "topic": "d-ta",
+  "front": "Table Analysis: why sort the table?",
+  "back": "Sorting puts the relevant extremes or ranks in order, making medians, top-N and threshold statements quick to check."
+ },
+ {
+  "id": "fc-di-025",
+  "deck": "di",
+  "topic": "d-ta",
+  "front": "Table Analysis: how to handle 'at least' and 'more than'?",
+  "back": "Read the wording exactly. 'At least 30' includes 30. 'More than 30' does not. Boundary values are the trap."
+ },
+ {
+  "id": "fc-di-026",
+  "deck": "di",
+  "topic": "d-gi",
+  "front": "What is a Graphics Interpretation question?",
+  "back": "A chart or graph with a sentence containing two drop-down menus. Choose one option for each blank."
+ },
+ {
+  "id": "fc-di-027",
+  "deck": "di",
+  "topic": "d-gi",
+  "front": "Graphics Interpretation: what to read first?",
+  "back": "Axis labels, units, scale and legend. Misreading units (thousands vs millions) is the top error."
+ },
+ {
+  "id": "fc-di-028",
+  "deck": "di",
+  "topic": "d-gi",
+  "front": "Graphics Interpretation: estimate or calculate?",
+  "back": "Often estimating from the chart is enough. Choose the option closest to the chart reading, and watch for broken axes."
+ },
+ {
+  "id": "fc-di-029",
+  "deck": "di",
+  "topic": "d-tpa",
+  "front": "What is a Two-Part Analysis question?",
+  "back": "One scenario with two linked decisions. You choose one option for each part from a shared table. Both must be right."
+ },
+ {
+  "id": "fc-di-030",
+  "deck": "di",
+  "topic": "d-tpa",
+  "front": "Two-Part Analysis: how to approach it?",
+  "back": "Translate the constraints into equations or conditions, then find the pair of answers that satisfies both. The parts are interdependent."
+ },
+ {
+  "id": "fc-di-031",
+  "deck": "di",
+  "topic": "d-tpa",
+  "front": "Two-Part Analysis: can both parts have the same answer?",
+  "back": "Sometimes. Read the instructions. The table may allow the same row for both columns."
+ },
+ {
+  "id": "fc-di-032",
+  "deck": "di",
+  "topic": "d-msr",
+  "front": "What is a Multi-Source Reasoning set?",
+  "back": "Two or three tabs (emails, tables, charts) and usually three questions. Information from multiple tabs is needed to answer."
+ },
+ {
+  "id": "fc-di-033",
+  "deck": "di",
+  "topic": "d-msr",
+  "front": "Multi-Source Reasoning: how to read the tabs?",
+  "back": "Skim each tab's title and structure first, then read the question and go back for exactly what you need. Check details across at least two tabs."
+ },
+ {
+  "id": "fc-di-034",
+  "deck": "di",
+  "topic": "d-msr",
+  "front": "MSR trap?",
+  "back": "Using a number from one tab when a later tab updates or overrides it. Note dates, versions and exceptions."
+ },
+ {
+  "id": "fc-di-035",
+  "deck": "di",
+  "topic": "d-intro",
+  "front": "Where is the on-screen calculator available?",
+  "back": "Only in Data Insights. Not in Quant and not in Verbal."
+ },
+ {
+  "id": "fc-di-036",
+  "deck": "di",
+  "topic": "d-intro",
+  "front": "Calculator discipline: when should you use it?",
+  "back": "For messy multiplication, division or percentages. Not for simple arithmetic. Estimate first so you spot slip-ups."
+ },
+ {
+  "id": "fc-di-037",
+  "deck": "di",
+  "topic": "d-intro",
+  "front": "Calculator discipline: biggest risk?",
+  "back": "Typing errors and mis-ordered operations. Re-enter once or sanity check the magnitude before you submit."
+ },
+ {
+  "id": "fc-di-038",
+  "deck": "di",
+  "topic": "d-data-literacy",
+  "front": "Chart-reading rule: check the axis start.",
+  "back": "A bar chart that does not start at zero exaggerates differences. Compare numbers, not bar lengths."
+ },
+ {
+  "id": "fc-di-039",
+  "deck": "di",
+  "topic": "d-data-literacy",
+  "front": "Chart-reading rule: percentage vs absolute number.",
+  "back": "A bigger percentage of a smaller base can be a smaller number. Always check which the chart uses."
+ },
+ {
+  "id": "fc-di-040",
+  "deck": "di",
+  "topic": "d-data-literacy",
+  "front": "Chart-reading rule: correlation on a scatter plot.",
+  "back": "A trend line shows association, not cause. Pick answers that say 'is associated with' unless the data prove cause."
+ },
+ {
+  "id": "fc-di-041",
+  "deck": "di",
+  "topic": "d-intro",
+  "front": "How many Data Insights questions and how much time?",
+  "back": "20 questions in 45 minutes: about 2 minutes 15 seconds each."
+ },
+ {
+  "id": "fc-test-001",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How many sections are on the GMAT Focus Edition and how long is each?",
+  "back": "Three sections: Quantitative Reasoning, Verbal Reasoning and Data Insights. 45 minutes each, 2 hours 15 minutes in total."
+ },
+ {
+  "id": "fc-test-002",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How many questions on the GMAT Focus in total?",
+  "back": "64: 21 Quant, 23 Verbal and 20 Data Insights."
+ },
+ {
+  "id": "fc-test-003",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How many Quant questions and what types?",
+  "back": "21 Problem Solving questions. Arithmetic and algebra only. No geometry, no Data Sufficiency in this section."
+ },
+ {
+  "id": "fc-test-004",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How many Verbal questions and what types?",
+  "back": "23 questions: Critical Reasoning and Reading Comprehension. No Sentence Correction."
+ },
+ {
+  "id": "fc-test-005",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How many Data Insights questions and what types?",
+  "back": "20 questions: Data Sufficiency, Multi-Source Reasoning, Table Analysis, Graphics Interpretation and Two-Part Analysis."
+ },
+ {
+  "id": "fc-test-006",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Is there an essay or Analytical Writing section?",
+  "back": "No. The GMAT Focus Edition has no writing assessment."
+ },
+ {
+  "id": "fc-test-007",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Is geometry tested in GMAT Focus Quant?",
+  "back": "No. Geometry (triangles, circles, area, solids) is out. Coordinate-geometry style questions are not part of GMAC's stated scope either, so do not over-invest."
+ },
+ {
+  "id": "fc-test-008",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What is the score range for sections and for the total?",
+  "back": "Each section is scored 60 to 90. The total score runs from 205 to 805."
+ },
+ {
+  "id": "fc-test-009",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What is the total score step size?",
+  "back": "10 points: totals end in 5 (205, 215, ..., 805). A '655' is a valid total; '650' is not."
+ },
+ {
+  "id": "fc-test-010",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What does 'question-level adaptive' mean?",
+  "back": "Each answer affects the difficulty of later questions within a section. Do well and questions get harder; hard questions are worth more."
+ },
+ {
+  "id": "fc-test-011",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Can you skip a question and come back later?",
+  "back": "No. You must answer in order. You can bookmark and revisit in Review & Edit, but only if time remains."
+ },
+ {
+  "id": "fc-test-012",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What is Question Review & Edit?",
+  "back": "After a section you can bookmark questions and change answers on up to 3 questions in that section. Unused edits do not carry over."
+ },
+ {
+  "id": "fc-test-013",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How many answers can you change in Review & Edit?",
+  "back": "Up to three per section. It is a limit per section, not across the exam."
+ },
+ {
+  "id": "fc-test-014",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Can you choose the order of the sections?",
+  "back": "Yes. You pick any of the 6 possible orders at the start of the exam."
+ },
+ {
+  "id": "fc-test-015",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How long is the break and when can you take it?",
+  "back": "One optional 10-minute break, taken after the first or second section (not both)."
+ },
+ {
+  "id": "fc-test-016",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Is there a calculator?",
+  "back": "Only in Data Insights, on screen. None in Quant or Verbal. You write on the noteboard supplied."
+ },
+ {
+  "id": "fc-test-017",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What happens if you leave a question unanswered?",
+  "back": "Unanswered questions are penalised in scoring, so answer everything. Guess on the last few if time is running out."
+ },
+ {
+  "id": "fc-test-018",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What is the Superscore?",
+  "back": "A GMAC feature that combines your best section scores from valid Focus Edition attempts into a single best total. New in August 2026."
+ },
+ {
+  "id": "fc-test-019",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Which attempts count toward the Superscore?",
+  "back": "Valid attempts of the Focus Edition (205-805 scale), whether test centre or online. Older-edition scores do not count."
+ },
+ {
+  "id": "fc-test-020",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How many times can you take the GMAT?",
+  "back": "Up to 5 times in a rolling 12-month period, with at least 16 days between attempts. The lifetime cap was removed in 2024."
+ },
+ {
+  "id": "fc-test-021",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Minimum gap between GMAT attempts?",
+  "back": "16 days (counting calendar days). Plan your retake window when you book your first attempt."
+ },
+ {
+  "id": "fc-test-022",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What ID is accepted at an Indian test centre?",
+  "back": "An original, valid passport. Aadhaar, PAN, driving licence and voter ID are not accepted at test centres."
+ },
+ {
+  "id": "fc-test-023",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How long are GMAT scores valid?",
+  "back": "Five years from the test date."
+ },
+ {
+  "id": "fc-test-024",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "How many score reports can you send free?",
+  "back": "Five programs for free, selected after you see your score. Extra sends cost a fee. Check the deadline on mba.com when you test."
+ },
+ {
+  "id": "fc-test-025",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Do you see a score at the end of the exam?",
+  "back": "Yes, you see an unofficial score on screen before deciding which programs get the free sends. The official report follows."
+ },
+ {
+  "id": "fc-test-026",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What is the timing per question for each section?",
+  "back": "About 2:09 for Quant, 1:57 for Verbal and 2:15 for Data Insights if you spend all 45 minutes evenly."
+ },
+ {
+  "id": "fc-test-027",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What is Maria's first attempt date?",
+  "back": "28 August 2027. Everything in this plan is built backwards from that date."
+ },
+ {
+  "id": "fc-test-028",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "What is a competitive GMAT Focus total score for top MBA programs?",
+  "back": "Roughly 655 to 705 and above. Check each school's class profile for current averages."
+ },
+ {
+  "id": "fc-test-029",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Can you retake just one section?",
+  "back": "No. A retake means the full exam, but your best section scores can combine in the Superscore."
+ },
+ {
+  "id": "fc-test-030",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Why do the early questions of a section matter?",
+  "back": "Because the test adapts, your early answers steer the difficulty path. Take extra care with the first several questions and avoid rushing them."
+ },
+ {
+  "id": "fc-test-031",
+  "deck": "test",
+  "topic": "s-welcome",
+  "front": "Is the GMAT Focus the only GMAT Maria needs?",
+  "back": "Yes. The older GMAT (200-800) was retired in early 2024. Scores must be on the Focus Edition scale."
+ },
+ {
+  "id": "fc-vocab-001",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'undermine' mean?",
+  "back": "To weaken or damage, often gradually. 'The new evidence undermines the researchers' claim.'"
+ },
+ {
+  "id": "fc-vocab-002",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'corroborate' mean?",
+  "back": "To support with additional evidence. 'A second study corroborated the original finding.'"
+ },
+ {
+  "id": "fc-vocab-003",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'tenuous' mean?",
+  "back": "Weak, thin, not well supported. 'The link between the two events is tenuous.'"
+ },
+ {
+  "id": "fc-vocab-004",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'mitigate' mean?",
+  "back": "To make less severe. 'The company took steps to mitigate the risk of delays.'"
+ },
+ {
+  "id": "fc-vocab-005",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'ostensibly' mean?",
+  "back": "Apparently, but perhaps not truly. 'The merger was ostensibly about efficiency.'"
+ },
+ {
+  "id": "fc-vocab-006",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'concomitant' mean?",
+  "back": "Happening at the same time, as a side effect. 'Rapid growth and its concomitant strain on infrastructure.'"
+ },
+ {
+  "id": "fc-vocab-007",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'proliferate' mean?",
+  "back": "To increase rapidly in number. 'Small shops proliferated after the policy changed.'"
+ },
+ {
+  "id": "fc-vocab-008",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'spurious' mean?",
+  "back": "Not genuine; only apparently real. 'The correlation between ice cream sales and drowning is spurious.'"
+ },
+ {
+  "id": "fc-vocab-009",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'posit' mean?",
+  "back": "To put forward as a basis for argument. 'The author posits that prices will fall.'"
+ },
+ {
+  "id": "fc-vocab-010",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'presuppose' mean?",
+  "back": "To require as a prior condition. 'The plan presupposes that workers will accept longer shifts.'"
+ },
+ {
+  "id": "fc-vocab-011",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'contend' mean?",
+  "back": "To argue or maintain a position. 'Critics contend that the study was too small.'"
+ },
+ {
+  "id": "fc-vocab-012",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'refute' mean?",
+  "back": "To prove a claim false. 'The data refute the earlier theory.' Stronger than 'dispute'."
+ },
+ {
+  "id": "fc-vocab-013",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'ambivalent' mean?",
+  "back": "Having mixed or conflicting feelings. 'The author is ambivalent about the reform.'"
+ },
+ {
+  "id": "fc-vocab-014",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'skeptical' mean?",
+  "back": "Doubtful; inclined to question. 'Analysts are skeptical that sales will recover.'"
+ },
+ {
+  "id": "fc-vocab-015",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'pragmatic' mean?",
+  "back": "Practical, focused on what works. 'A pragmatic approach to budgeting.'"
+ },
+ {
+  "id": "fc-vocab-016",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'advocate' mean?",
+  "back": "To publicly support a cause (verb), or a supporter (noun). 'She advocates remote working.'"
+ },
+ {
+  "id": "fc-vocab-017",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'detrimental' mean?",
+  "back": "Causing harm. 'Long hours are detrimental to productivity.'"
+ },
+ {
+  "id": "fc-vocab-018",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'bolster' mean?",
+  "back": "To strengthen or support. 'New data bolster the case for the policy.'"
+ },
+ {
+  "id": "fc-vocab-019",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'exacerbate' mean?",
+  "back": "To make worse. 'Delays exacerbated the cost overruns.'"
+ },
+ {
+  "id": "fc-vocab-020",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'ubiquitous' mean?",
+  "back": "Found everywhere. 'Smartphones are now ubiquitous.'"
+ },
+ {
+  "id": "fc-vocab-021",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'negligible' mean?",
+  "back": "So small it can be ignored. 'The effect on prices was negligible.'"
+ },
+ {
+  "id": "fc-vocab-022",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'tacit' mean?",
+  "back": "Understood without being said. 'There was a tacit agreement not to raise prices.'"
+ },
+ {
+  "id": "fc-vocab-023",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'discrepancy' mean?",
+  "back": "A gap between things that should match. 'There is a discrepancy between the two reports.'"
+ },
+ {
+  "id": "fc-vocab-024",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'unprecedented' mean?",
+  "back": "Never done or known before. 'The scale of the expansion was unprecedented.'"
+ },
+ {
+  "id": "fc-vocab-025",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'viable' mean?",
+  "back": "Able to work or succeed. 'The firm sought a viable alternative to imports.'"
+ },
+ {
+  "id": "fc-vocab-026",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'anomaly' mean?",
+  "back": "Something that deviates from what is normal. 'The February sales spike was an anomaly.'"
+ },
+ {
+  "id": "fc-vocab-027",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'plausible' mean?",
+  "back": "Seems reasonable and likely. Plausible does not mean proven. 'A plausible explanation for the drop.'"
+ },
+ {
+  "id": "fc-vocab-028",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'conjecture' mean?",
+  "back": "An opinion formed on incomplete evidence. 'The theory remains conjecture.'"
+ },
+ {
+  "id": "fc-vocab-029",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'mandate' mean?",
+  "back": "An official order or requirement. 'The regulator mandated annual audits.'"
+ },
+ {
+  "id": "fc-vocab-030",
+  "deck": "vocab",
+  "topic": null,
+  "front": "What does 'paradigm' mean?",
+  "back": "A typical pattern or model of how things work. 'A shift in the dominant paradigm of retail.'"
+ }
+]

@@ -1,0 +1,2728 @@
+{
+ "stimuli": [
+  {
+   "id": "msr-dc-p-01",
+   "kind": "msr",
+   "title": "Choosing a gym plan for the team",
+   "tabs": [
+    {
+     "title": "Email",
+     "body": "**From:** Karan Mehta, Office Manager\n\n**To:** Facilities team\n\n**Subject:** Gym memberships for the new joiners\n\nTen of our staff want to join a gym near the office. The company will pay both the one-time joining fee and the monthly fees for the first 6 months. Each person expects to attend about 6 classes a month. Please choose the plan with the lowest total cost over the first 6 months. Assume the attendance is the same every month."
+    },
+    {
+     "title": "Plan prices",
+     "table": {
+      "columns": [
+       "Plan",
+       "Monthly fee per person (₹)",
+       "Joining fee per person (₹)",
+       "Classes included per month",
+       "Price per extra class (₹)"
+      ],
+      "rows": [
+       [
+        "Basic",
+        1200,
+        2000,
+        4,
+        300
+       ],
+       [
+        "Plus",
+        1800,
+        1000,
+        8,
+        250
+       ],
+       [
+        "Premium",
+        2600,
+        0,
+        "Unlimited",
+        "n/a"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-p-02",
+   "kind": "msr",
+   "title": "Two coffee outlets",
+   "tabs": [
+    {
+     "title": "Email",
+     "body": "**From:** Anita Rao, Owner\n\n**Subject:** Growth review\n\nI'd like to review our two outlets, A and B. We will call an outlet a **growth site** if its monthly revenue grew by **at least 5%** compared with the previous month in **each of the last three month-to-month changes** shown in the chart (that is, April to May is not enough on its own).\n\nI will also close any outlet whose June profit is below ₹2 lakh. Profit is revenue minus variable costs minus fixed costs."
+    },
+    {
+     "title": "Revenue chart",
+     "chart": {
+      "type": "line",
+      "xLabel": "Month (this year)",
+      "yLabel": "Revenue (₹ lakh)",
+      "categories": [
+       "Jan",
+       "Feb",
+       "Mar",
+       "Apr",
+       "May",
+       "Jun"
+      ],
+      "series": [
+       {
+        "name": "Outlet A",
+        "values": [
+         10,
+         10.5,
+         11.2,
+         12.0,
+         12.6,
+         13.5
+        ]
+       },
+       {
+        "name": "Outlet B",
+        "values": [
+         8,
+         8.2,
+         8.1,
+         9.0,
+         9.9,
+         10.9
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Costs",
+     "table": {
+      "columns": [
+       "Item",
+       "Outlet A",
+       "Outlet B"
+      ],
+      "rows": [
+       [
+        "Variable costs (% of revenue)",
+        "55%",
+        "55%"
+       ],
+       [
+        "Fixed costs per month (₹ lakh)",
+        4.0,
+        3.0
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-p-03",
+   "kind": "msr",
+   "title": "Choosing a courier",
+   "tabs": [
+    {
+     "title": "Memo",
+     "body": "**To:** Logistics team\n\n**Subject:** Courier for the festival-season dispatch\n\nWe have **240 parcels** to ship in one batch. A courier is eligible only if (a) its on-time rate is **at least 95%** and (b) its minimum batch size is **not more than** our batch size. Among eligible couriers, choose the one with the lowest total cost.\n\nTotal cost = number of parcels × price per parcel × (1 + fuel surcharge)."
+    },
+    {
+     "title": "Courier rates",
+     "table": {
+      "columns": [
+       "Courier",
+       "Price per parcel (₹)",
+       "Fuel surcharge",
+       "On-time rate (%)",
+       "Minimum batch size (parcels)"
+      ],
+      "rows": [
+       [
+        "SwiftKart",
+        80,
+        "10%",
+        96,
+        100
+       ],
+       [
+        "NorthLine",
+        72,
+        "15%",
+        93,
+        0
+       ],
+       [
+        "GreenPost",
+        78,
+        "5%",
+        97,
+        250
+       ],
+       [
+        "QuickHaul",
+        85,
+        "0%",
+        98,
+        50
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-p-04",
+   "kind": "msr",
+   "title": "Clinic waiting-time ratings",
+   "tabs": [
+    {
+     "title": "Rating policy",
+     "body": "**Waiting-time rating (issued quarterly)**\n\nEach clinic is rated on two criteria:\n\n1. **Median wait** of 20 minutes or less.\n2. **At least 90%** of patients seen within 30 minutes.\n\nA clinic that meets both criteria is rated **Green**, one that meets exactly one is **Amber**, and one that meets neither is **Red**."
+    },
+    {
+     "title": "Clinic data",
+     "table": {
+      "columns": [
+       "Clinic",
+       "Patients per day",
+       "Median wait (min)",
+       "Patients seen within 30 min (%)"
+      ],
+      "rows": [
+       [
+        "North",
+        120,
+        24,
+        86
+       ],
+       [
+        "East",
+        90,
+        18,
+        91
+       ],
+       [
+        "South",
+        150,
+        22,
+        88
+       ],
+       [
+        "West",
+        80,
+        26,
+        93
+       ],
+       [
+        "Central",
+        200,
+        19,
+        85
+       ]
+      ]
+     }
+    },
+    {
+     "title": "Director's email",
+     "body": "**Subject:** Extra nurses\n\nWe have budget for **two** extra nurses this quarter. A nurse can be placed at any clinic, and two nurses can go to the same clinic. Each nurse added to a clinic **lowers its median wait by 3 minutes** and **raises its percentage seen within 30 minutes by 4 percentage points** (the percentage cannot go above 100). The effects add up if two nurses go to the same clinic.\n\nOur aim is to maximise the number of patients per day who are treated at Green-rated clinics."
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-p-05",
+   "kind": "msr",
+   "title": "Choosing an electricity plan",
+   "tabs": [
+    {
+     "title": "Email",
+     "body": "**From:** Rohit\n\n**To:** Housing society committee\n\nOur flat's electricity provider lets us pick one of three plans for the next six months. Units are in kWh. The bill each month is the **fixed charge** plus the **energy charge**, and the plan is charged on that month's units only. Please choose the plan that would have been cheapest for our usage over the last six months, shown in the chart."
+    },
+    {
+     "title": "Plan terms",
+     "table": {
+      "columns": [
+       "Plan",
+       "Fixed charge per month (₹)",
+       "Rate up to the slab limit (₹/unit)",
+       "Slab limit (units per month)",
+       "Rate above the limit (₹/unit, on the excess only)"
+      ],
+      "rows": [
+       [
+        "A",
+        300,
+        6,
+        "No limit",
+        6
+       ],
+       [
+        "B",
+        0,
+        5,
+        200,
+        8
+       ],
+       [
+        "C",
+        450,
+        4,
+        400,
+        7
+       ]
+      ]
+     }
+    },
+    {
+     "title": "Usage chart",
+     "chart": {
+      "type": "bar",
+      "xLabel": "Month",
+      "yLabel": "Units used (kWh)",
+      "categories": [
+       "Jan",
+       "Feb",
+       "Mar",
+       "Apr",
+       "May",
+       "Jun"
+      ],
+      "series": [
+       {
+        "name": "Units used",
+        "values": [
+         180,
+         160,
+         210,
+         330,
+         420,
+         380
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-m-01",
+   "kind": "msr",
+   "title": "Planning a live concert",
+   "tabs": [
+    {
+     "title": "Email",
+     "body": "**From:** Neha Sethi, Event Producer\n\n**Subject:** Concert budget check\n\nThe concert has three seat categories (see the table). Our costs are a fixed **₹18,00,000** for the venue and artists, plus **₹300 per ticket sold** for catering and security. Profit is total ticket revenue minus these costs. Please assume that ticket sales are exactly the percentage of seats shown as sold."
+    },
+    {
+     "title": "Seat data",
+     "table": {
+      "columns": [
+       "Category",
+       "Seats available",
+       "Ticket price (₹)",
+       "Seats sold (%)"
+      ],
+      "rows": [
+       [
+        "Gold",
+        200,
+        4000,
+        "90%"
+       ],
+       [
+        "Silver",
+        500,
+        2500,
+        "80%"
+       ],
+       [
+        "Bronze",
+        800,
+        1200,
+        "60%"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-m-02",
+   "kind": "msr",
+   "title": "Store performance review",
+   "tabs": [
+    {
+     "title": "Memo",
+     "body": "**Retail review rules**\n\n- A store is **efficient** if its monthly sales per 1,000 sq ft of area are **at least ₹9 lakh**.\n- A store is **flagged for rent review** if its monthly rent is **more than 30%** of its monthly sales.\n\nThe chart shows each store's area and monthly sales. The table shows monthly rent."
+    },
+    {
+     "title": "Area and sales",
+     "chart": {
+      "type": "scatter",
+      "xLabel": "Store area (thousand sq ft)",
+      "yLabel": "Monthly sales (₹ lakh)",
+      "points": [
+       {
+        "name": "Store 1",
+        "x": 2,
+        "y": 18
+       },
+       {
+        "name": "Store 2",
+        "x": 3,
+        "y": 24
+       },
+       {
+        "name": "Store 3",
+        "x": 4,
+        "y": 40
+       },
+       {
+        "name": "Store 4",
+        "x": 5,
+        "y": 35
+       },
+       {
+        "name": "Store 5",
+        "x": 6,
+        "y": 66
+       },
+       {
+        "name": "Store 6",
+        "x": 2.5,
+        "y": 30
+       },
+       {
+        "name": "Store 7",
+        "x": 4.5,
+        "y": 36
+       },
+       {
+        "name": "Store 8",
+        "x": 7,
+        "y": 56
+       }
+      ]
+     }
+    },
+    {
+     "title": "Rent",
+     "table": {
+      "columns": [
+       "Store",
+       "Monthly rent (₹ lakh)"
+      ],
+      "rows": [
+       [
+        "Store 1",
+        6
+       ],
+       [
+        "Store 2",
+        7
+       ],
+       [
+        "Store 3",
+        10
+       ],
+       [
+        "Store 4",
+        12
+       ],
+       [
+        "Store 5",
+        15
+       ],
+       [
+        "Store 6",
+        5
+       ],
+       [
+        "Store 7",
+        11
+       ],
+       [
+        "Store 8",
+        14
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-m-03",
+   "kind": "msr",
+   "title": "Research funding decision",
+   "tabs": [
+    {
+     "title": "Email",
+     "body": "**From:** Dr. Iyer, Research Director\n\n**Subject:** Funding round\n\nWe have **₹100 lakh** for this round. Each project is either funded in full or not at all. Projects **P3 and P6 are run by the same laboratory**, so at most one of them can be funded. Our aim is to maximise the total **impact score** of the funded projects, without exceeding the budget."
+    },
+    {
+     "title": "Project data",
+     "table": {
+      "columns": [
+       "Project",
+       "Cost (₹ lakh)",
+       "Impact score",
+       "Duration (months)"
+      ],
+      "rows": [
+       [
+        "P1",
+        40,
+        70,
+        18
+       ],
+       [
+        "P2",
+        30,
+        45,
+        12
+       ],
+       [
+        "P3",
+        25,
+        50,
+        24
+       ],
+       [
+        "P4",
+        35,
+        55,
+        12
+       ],
+       [
+        "P5",
+        20,
+        30,
+        6
+       ],
+       [
+        "P6",
+        15,
+        35,
+        9
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-m-04",
+   "kind": "msr",
+   "title": "Online store traffic and sales",
+   "tabs": [
+    {
+     "title": "Note",
+     "body": "**From:** Vikram, Head of Digital Marketing\n\n**Subject:** April channel review\n\nThe stacked chart shows monthly website sessions (in thousands) by traffic channel. The table gives each channel's **conversion rate** (the percentage of sessions that end in an order) and its **average order value**. Revenue for a channel is sessions × conversion rate × average order value.\n\nI'm considering moving some sessions from one channel to another by changing our ad spend. Assume that the conversion rate and the average order value of each channel stay the same when sessions move."
+    },
+    {
+     "title": "Sessions chart",
+     "chart": {
+      "type": "stacked",
+      "xLabel": "Month",
+      "yLabel": "Sessions (thousands)",
+      "categories": [
+       "Jan",
+       "Feb",
+       "Mar",
+       "Apr"
+      ],
+      "series": [
+       {
+        "name": "Organic",
+        "values": [
+         40,
+         44,
+         48,
+         52
+        ]
+       },
+       {
+        "name": "Paid",
+        "values": [
+         20,
+         25,
+         30,
+         28
+        ]
+       },
+       {
+        "name": "Email",
+        "values": [
+         10,
+         10,
+         12,
+         15
+        ]
+       },
+       {
+        "name": "Social",
+        "values": [
+         30,
+         28,
+         26,
+         24
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Channel economics",
+     "table": {
+      "columns": [
+       "Channel",
+       "Conversion rate",
+       "Average order value (₹)"
+      ],
+      "rows": [
+       [
+        "Organic",
+        "2%",
+        1200
+       ],
+       [
+        "Paid",
+        "3%",
+        1000
+       ],
+       [
+        "Email",
+        "5%",
+        900
+       ],
+       [
+        "Social",
+        "1%",
+        1500
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-m-05",
+   "kind": "msr",
+   "title": "Annual bonus pool",
+   "tabs": [
+    {
+     "title": "Bonus policy",
+     "body": "**Annual bonus pool policy**\n\n1. The bonus pool is **8% of the company's profit above ₹2 crore**.\n2. Only departments with a performance score of **at least 3.0** are eligible.\n3. Each eligible department earns **points = headcount × performance score**, and receives a share of the pool proportional to its points.\n4. Cap rule: see the email from the CFO."
+    },
+    {
+     "title": "Department data",
+     "table": {
+      "columns": [
+       "Department",
+       "Headcount",
+       "Performance score (out of 5)"
+      ],
+      "rows": [
+       [
+        "Sales",
+        20,
+        4.0
+       ],
+       [
+        "Operations",
+        30,
+        3.0
+       ],
+       [
+        "Finance",
+        10,
+        4.0
+       ],
+       [
+        "IT",
+        10,
+        3.0
+       ],
+       [
+        "HR",
+        8,
+        2.5
+       ]
+      ]
+     }
+    },
+    {
+     "title": "Email from CFO",
+     "body": "**Subject:** Cap on departmental bonuses\n\nThis year's profit is **₹3.5 crore**. No department may receive more than **35% of the pool**. If the points-based share of any department exceeds the cap, that department receives exactly the cap, and the excess is **shared among the other eligible departments in proportion to their points**. (Assume that no second round of capping is needed.)"
+    }
+   ]
+  },
+  {
+   "id": "msr-dc-m-06",
+   "kind": "msr",
+   "title": "Factory defect monitoring",
+   "tabs": [
+    {
+     "title": "Quality memo",
+     "body": "**Quality monitoring rules**\n\n- The **plant defect rate** for a week is the total number of defects across all lines divided by the total units produced, expressed as defects per 1,000 units.\n- A week incurs a **penalty** if the plant defect rate is **above 8 per 1,000**.\n- A line is placed on **watch** if its defect rate **rose in each of three consecutive week-to-week changes**.\n\nAssume that each line's weekly production is the same every week."
+    },
+    {
+     "title": "Production",
+     "table": {
+      "columns": [
+       "Line",
+       "Units produced per week"
+      ],
+      "rows": [
+       [
+        "L1",
+        5000
+       ],
+       [
+        "L2",
+        3000
+       ],
+       [
+        "L3",
+        2000
+       ]
+      ]
+     }
+    },
+    {
+     "title": "Defect rates",
+     "chart": {
+      "type": "line",
+      "xLabel": "Week",
+      "yLabel": "Defects per 1,000 units",
+      "categories": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6"
+      ],
+      "series": [
+       {
+        "name": "L1",
+        "values": [
+         8,
+         7,
+         9,
+         6,
+         5,
+         5
+        ]
+       },
+       {
+        "name": "L2",
+        "values": [
+         12,
+         11,
+         10,
+         10,
+         9,
+         8
+        ]
+       },
+       {
+        "name": "L3",
+        "values": [
+         4,
+         6,
+         9,
+         11,
+         12,
+         14
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "d-tpa-dc-p-001",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "tpa",
+   "prompt": "A cricket club sold 50 tickets for a match. Adult tickets cost ₹200 each and child tickets cost ₹100 each. Total ticket sales were ₹7,000.\n\nSelect a value for **Adult tickets sold** and a value for **Child tickets sold** that are consistent with this information. Make only one selection in each column.",
+   "labels": [
+    "Adult tickets sold",
+    "Child tickets sold"
+   ],
+   "choices": [
+    "10",
+    "20",
+    "25",
+    "30",
+    "40"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "The two columns are linked by the total count: adults + children = 50. The money gives the second equation: 200a + 100c = 7,000, which simplifies to 2a + c = 70.\n\nSubtract the first equation from the second: (2a + c) − (a + c) = 70 − 50, so a = 20. Then c = 30. Check: 20 × 200 = 4,000 and 30 × 100 = 3,000, total 7,000. Correct.\n\nFaster way: if all 50 tickets were child tickets, takings would be ₹5,000. Every adult ticket swapped in adds ₹100. You need ₹2,000 more, so 20 adult tickets.\n\nWhy the others fail: 10 adults and 40 children give ₹6,000; 25 and 25 give ₹7,500; 30 adults and 20 children give ₹8,000.",
+   "tip": "When a total count and a total value are both given, assume 'all one kind' and count how many swaps close the gap.",
+   "trap": "Swapping the two columns: 30 adults and 20 children (₹8,000) feels close, but only 20 adults and 30 children match the ₹7,000.",
+   "timeTarget": 120,
+   "skills": [
+    "simultaneous-equations",
+    "word-problem"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-002",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "tpa",
+   "prompt": "The sum of two numbers is 25 and their difference is 7.\n\nSelect a value for the **larger number** and a value for the **smaller number**. Make only one selection in each column.",
+   "labels": [
+    "Larger number",
+    "Smaller number"
+   ],
+   "choices": [
+    "7",
+    "9",
+    "12",
+    "16",
+    "18"
+   ],
+   "answer": [
+    3,
+    1
+   ],
+   "explanation": "The link between the columns is the sum and the difference. If the larger number is L and the smaller is S, then L + S = 25 and L − S = 7.\n\nAdd the two equations: 2L = 32, so L = 16. Then S = 25 − 16 = 9. Check: 16 − 9 = 7. Correct.\n\nFaster way: the numbers sit 7 apart and add to 25. Half the sum is 12.5; go 3.5 above and 3.5 below to get 16 and 9.\n\nWhy the others fail: 18 and 7 add to 25, but their difference is 11, not 7. 12 would need a partner of 13, which isn't offered, and 12 with itself doesn't differ at all.",
+   "tip": "For a sum-and-difference pair, the larger is (sum + difference)/2 and the smaller is (sum − difference)/2.",
+   "trap": "Choosing 18 and 7 because they add to 25. They do, but the difference is 11, not 7. Always test both conditions.",
+   "timeTarget": 90,
+   "skills": [
+    "simultaneous-equations"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-003",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "tpa",
+   "prompt": "Meera and Rohan together earn ₹90,000 a month. Meera earns 50% more than Rohan.\n\nSelect a value for **Meera's monthly earnings** and a value for **Rohan's monthly earnings** (in ₹) that are consistent with this information. Make only one selection in each column.",
+   "labels": [
+    "Meera's monthly earnings (₹)",
+    "Rohan's monthly earnings (₹)"
+   ],
+   "choices": [
+    "30,000",
+    "36,000",
+    "45,000",
+    "54,000",
+    "60,000"
+   ],
+   "answer": [
+    3,
+    1
+   ],
+   "explanation": "Let Rohan earn R. Meera earns 50% more, so she earns 1.5R. Together: R + 1.5R = 2.5R = 90,000, so R = 36,000 and Meera = 54,000.\n\nCheck: 54,000 is 1.5 × 36,000, and 54,000 + 36,000 = 90,000.\n\nFaster way: 'Meera earns 50% more than Rohan' means the ratio is 3 : 2. Split ₹90,000 into 5 parts of ₹18,000 each, giving 54,000 and 36,000.\n\nWhy the others fail: 45,000 and 45,000 is an equal split. 60,000 and 30,000 is a 2 : 1 ratio, which would mean Meera earns 100% more. 60,000 and 36,000 don't sum to 90,000.",
+   "tip": "'x is 50% more than y' means x : y = 3 : 2. Turn percent statements into ratios and split the total.",
+   "trap": "Treating 'Meera earns 50% more' as Meera = 50% of the total (₹45,000). The percentage compares to Rohan, not to the total.",
+   "timeTarget": 120,
+   "skills": [
+    "ratios",
+    "percent"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-004",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "tpa",
+   "prompt": "An item has a marked price. After a 20% discount on the marked price, it sells for ₹960.\n\nSelect a value for the **marked price** and a value for the **discount amount**, both in rupees. Make only one selection in each column.",
+   "labels": [
+    "Marked price (₹)",
+    "Discount amount (₹)"
+   ],
+   "choices": [
+    "160",
+    "240",
+    "1,000",
+    "1,200",
+    "1,500",
+    "1,920"
+   ],
+   "answer": [
+    3,
+    1
+   ],
+   "explanation": "After a 20% discount the buyer pays 80% of the marked price. So 0.8 × M = 960, giving M = 960 ÷ 0.8 = 1,200.\n\nThe discount amount is the marked price minus the selling price: 1,200 − 960 = 240. Check: 20% of 1,200 = 240. Correct.\n\nFaster way: 960 is 4 parts out of 5; one part is 240. The marked price is 5 parts (1,200) and the discount is 1 part (240).\n\nWhy the others fail: 1,000 is 960 plus 40, as if the discount were only ₹40. 1,152 (960 × 1.2) would be the slip of adding 20% to the selling price, and it isn't even offered, but 1,920 (960 × 2) and 1,500 are the same kind of wrong-base thinking. 160 is 20% of 800, a misread base.",
+   "tip": "If a price falls by p%, the new price is (100 − p)% of the original. Divide by that; don't add p% back.",
+   "trap": "Computing 960 × 1.20 = 1,152 as the marked price. Percentages apply to the marked price, not the selling price.",
+   "timeTarget": 120,
+   "skills": [
+    "percent",
+    "reverse-percent"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-005",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "tpa",
+   "prompt": "A start-up has exactly ₹4,80,000 a month for salaries and employs 10 people. Each person is either an analyst, paid ₹60,000 a month, or an associate, paid ₹40,000 a month. The whole budget is used.\n\nSelect a value for the **number of analysts** and a value for the **number of associates**. Make only one selection in each column.",
+   "labels": [
+    "Analysts",
+    "Associates"
+   ],
+   "choices": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "Let analysts = a and associates = s. Then a + s = 10 and 60a + 40s = 480 (in thousands).\n\nIf all 10 were associates, the cost would be 400 (thousand). The budget is 480, so 80 more is needed. Each associate-to-analyst switch adds 20, so 4 switches: 4 analysts and 6 associates. Check: 4 × 60 = 240, 6 × 40 = 240, total 480.\n\nAlgebra: substitute s = 10 − a: 60a + 400 − 40a = 480, so 20a = 80, a = 4.\n\nWhy the others fail: 5 and 5 cost ₹5,00,000. 6 and 4 cost ₹5,20,000. 3 and 7 cost ₹4,60,000. Only 4 and 6 hit ₹4,80,000.",
+   "tip": "With two kinds and a total, assume everyone is the cheaper kind, then count the upgrades needed to reach the target.",
+   "trap": "Reversing the columns (6 analysts, 4 associates) gives ₹5,20,000. Read which count belongs to which column.",
+   "timeTarget": 120,
+   "skills": [
+    "simultaneous-equations",
+    "word-problem"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-006",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "Class A and Class B together have 40 students. The average score is 70 in Class A and 85 in Class B. The average score of all 40 students combined is 79.\n\nSelect a value for the **number of students in Class A** and a value for the **number of students in Class B**. Make only one selection in each column.",
+   "labels": [
+    "Students in Class A",
+    "Students in Class B"
+   ],
+   "choices": [
+    "12",
+    "16",
+    "20",
+    "24",
+    "28",
+    "30"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "The combined total score is 40 × 79 = 3,160. If Class A has a students and Class B has b students: a + b = 40 and 70a + 85b = 3,160.\n\nSubstitute a = 40 − b: 2,800 − 70b + 85b = 3,160, so 15b = 360 and b = 24. Then a = 16.\n\nFaster way (weighted average): 79 is 9 above 70 and 6 below 85. The distances 9 : 6 = 3 : 2 are in the reverse ratio of the weights, so A and B have weights 2 : 3. Split 40 in a 2 : 3 ratio: 16 and 24.\n\nWhy the others fail: 20 and 20 would give a simple average of 77.5. Choosing 24 for A and 16 for B reverses the weights (average 75.4).",
+   "tip": "A weighted average sits closer to the group with more people. The distances to the two group averages give the ratio in reverse.",
+   "trap": "Reversing the weights. 79 is closer to 85 than to 70, so Class B must be the larger class.",
+   "timeTarget": 150,
+   "skills": [
+    "weighted-average",
+    "simultaneous-equations"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-007",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "A father is now four times as old as his son. In 6 years' time, the father will be three times as old as his son will be then.\n\nSelect a value for the **father's present age** and a value for the **son's present age**. Make only one selection in each column.",
+   "labels": [
+    "Father's present age",
+    "Son's present age"
+   ],
+   "choices": [
+    "6",
+    "8",
+    "12",
+    "36",
+    "42",
+    "48"
+   ],
+   "answer": [
+    5,
+    2
+   ],
+   "explanation": "Let the son be s now and the father f = 4s. In 6 years: f + 6 = 3(s + 6).\n\nSubstitute: 4s + 6 = 3s + 18, so s = 12 and f = 48. Check: in 6 years the father is 54 and the son is 18, and 54 = 3 × 18. Correct.\n\nOption testing also works: only 48 is four times another option (12), and that pair satisfies the second condition too.\n\nWhy the others fail: 36 and 8 aren't in a 4 : 1 ratio, and 42 and 6 would make the father 7 times older. A father of 36 would need a son of 9, who isn't offered, and 36 fails the second condition anyway (in 6 years, 42 versus 3 × 15 = 45).",
+   "tip": "Age problems: set up 'now' and 'later' equations separately. 'In 6 years' adds 6 to both people.",
+   "trap": "Adding 6 to only one person, or forgetting that '3 times as old as the son will be then' refers to the son's future age.",
+   "timeTarget": 150,
+   "skills": [
+    "age-problems",
+    "linear-equations"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-008",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "The squares of two consecutive positive odd integers add up to 130.\n\nSelect a value for the **smaller integer** and a value for the **larger integer**. Make only one selection in each column.",
+   "labels": [
+    "Smaller integer",
+    "Larger integer"
+   ],
+   "choices": [
+    "3",
+    "5",
+    "7",
+    "9",
+    "11",
+    "13"
+   ],
+   "answer": [
+    2,
+    3
+   ],
+   "explanation": "Consecutive odd integers differ by 2, so call them n and n + 2. Then n² + (n + 2)² = 130, which gives 2n² + 4n + 4 = 130, so n² + 2n − 63 = 0 and (n + 9)(n − 7) = 0. Since n is positive, n = 7 and the larger one is 9. Check: 49 + 81 = 130.\n\nFaster way: test the options. Consecutive odd pairs in the list are (3,5), (5,7), (7,9), (9,11), (11,13). Their squares add to 34, 74, 130, 202, 290. Only (7, 9) works. A quick estimate also helps: each square is about 65, and 8² = 64.\n\nWhy the others fail: 5 and 7 give 74; 9 and 11 give 202. Choosing 7 and 9 in the wrong columns loses the question.",
+   "tip": "For 'consecutive odd or even' use n and n + 2. When options are given, test the pair that brackets the estimated middle (here √65 ≈ 8).",
+   "trap": "Placing 7 and 9 in the wrong columns, or using n and n + 1 (consecutive integers) instead of n and n + 2.",
+   "timeTarget": 150,
+   "skills": [
+    "quadratics",
+    "consecutive-integers"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-009",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "Product A's price after a 25% increase equals Product B's price after a 10% decrease. Product B's original price is ₹500.\n\nSelect a value for **A's original price** and a value for **A's price after the increase**, both in rupees. Make only one selection in each column.",
+   "labels": [
+    "A's original price (₹)",
+    "A's price after increase (₹)"
+   ],
+   "choices": [
+    "360",
+    "375",
+    "400",
+    "450",
+    "500",
+    "540"
+   ],
+   "answer": [
+    0,
+    3
+   ],
+   "explanation": "B's price after a 10% decrease is 0.9 × 500 = ₹450. That's also A's new price. A's original price satisfies 1.25 × A = 450, so A = 450 ÷ 1.25 = ₹360.\n\nCheck: 360 × 1.25 = 450. Correct.\n\nFaster way: a 25% increase means multiplying by 5/4, so the original is 4/5 of the new price: 450 × 4/5 = 360.\n\nWhy the others fail: 375 is 450 minus 75, as if the 25% were taken off the new price in the wrong direction. 400 is a round number from subtracting 50, and 540 is 450 × 1.2, the classic reverse-percent slip.",
+   "tip": "After an increase of p%, original = new ÷ (1 + p/100). Never subtract p% of the new price.",
+   "trap": "Computing 450 × 0.75 = 337.5 or 450 − 25% as the original; the 25% is of the original, not of the new price.",
+   "timeTarget": 120,
+   "skills": [
+    "percent",
+    "reverse-percent"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-010",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "Pipe A alone fills a tank in 6 hours. Pipe B alone fills the same tank in b hours. Working together at their constant rates, the two pipes fill the empty tank in 2.4 hours.\n\nSelect a value for **b** (in hours) and a value for the **percentage of the tank that Pipe A fills** during those 2.4 hours. Make only one selection in each column.",
+   "labels": [
+    "b (hours)",
+    "Percent of tank filled by Pipe A"
+   ],
+   "choices": [
+    "3",
+    "4",
+    "5",
+    "40",
+    "60",
+    "100"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "Rates add. Pipe A fills 1/6 of the tank per hour; together the pipes fill 1/2.4 = 5/12 per hour. So B's rate is 5/12 − 2/12 = 3/12 = 1/4 per hour, and B alone takes 4 hours.\n\nIn 2.4 hours Pipe A fills 2.4 × (1/6) = 0.4 of the tank, which is 40%. (Pipe B fills the other 60%, which is 2.4 ÷ 4 = 0.6. They add to 100%, a good check.)\n\nFaster way for column 1: test b = 4. 1/6 + 1/4 = 2/12 + 3/12 = 5/12, which equals 1/2.4. Done.\n\nWhy the others fail: b = 3 or 5 gives a combined time of 2 or about 2.73 hours. 60 is the percentage Pipe B fills, and 100 is the whole tank, which A doesn't fill by itself in 2.4 hours.",
+   "tip": "Add rates, not times, and use the two parts to check each other: A's share and B's share must total 100%.",
+   "trap": "Picking 60 for the second column. That's Pipe B's share, easy to confuse when both numbers appear in the options.",
+   "timeTarget": 150,
+   "skills": [
+    "work-rates",
+    "fractions"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-011",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "The ratio of a to b is 3 : 5. When 12 is added to each of them, the new ratio of a to b is 5 : 7.\n\nSelect a value for the **original a** and a value for the **original b**. Make only one selection in each column.",
+   "labels": [
+    "Original a",
+    "Original b"
+   ],
+   "choices": [
+    "12",
+    "18",
+    "24",
+    "30",
+    "36",
+    "42"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "Write a = 3k and b = 5k. After adding 12: (3k + 12)/(5k + 12) = 5/7. Cross-multiply: 7(3k + 12) = 5(5k + 12), so 21k + 84 = 25k + 60, so 4k = 24 and k = 6. Then a = 18 and b = 30.\n\nCheck: 18 : 30 = 3 : 5, and 30 : 42 = 5 : 7. Correct.\n\nOption testing: the original pair must be in a 3 : 5 ratio. Among the options, only 18 and 30 are in that ratio, and the 5 : 7 check confirms it.\n\nWhy the others fail: 12 and 30 aren't in a 3 : 5 ratio, and neither are 24 and 42. The pair 30 and 42 is the answer to 'after adding 12', not the original values, so it traps anyone who reads the wrong stage.",
+   "tip": "Turn a ratio into a multiple (3k, 5k), then use the second condition to find the multiplier k.",
+   "trap": "Adding 12 to the ratio terms (3 + 12 : 5 + 12). The 12 is added to the actual quantities, not to the ratio numbers.",
+   "timeTarget": 150,
+   "skills": [
+    "ratios",
+    "linear-equations"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-012",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "Two towns are 300 km apart. Car A leaves Town 1 at 8:00 and drives towards Town 2 at a constant speed of a km/h. Car B leaves Town 2 at 9:00 and drives towards Town 1 at a constant speed of b km/h, where b = a + 10. The two cars meet at 11:00.\n\nSelect a value for **a** and a value for **b**. Make only one selection in each column.",
+   "labels": [
+    "a (km/h)",
+    "b (km/h)"
+   ],
+   "choices": [
+    "50",
+    "56",
+    "60",
+    "66",
+    "70",
+    "76"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "Car A has been driving 3 hours (8:00 to 11:00) and Car B only 2 hours (9:00 to 11:00). Together they cover the whole 300 km: 3a + 2b = 300. With b = a + 10: 3a + 2a + 20 = 300, so 5a = 280 and a = 56, b = 66.\n\nCheck: 3 × 56 = 168 and 2 × 66 = 132; 168 + 132 = 300. Correct.\n\nFaster way: the pair must differ by 10, so the options give (50, 60), (56, 66), (60, 70), (66, 76). Test 3a + 2b: 270, 300, 330, 360. Only (56, 66) hits 300.\n\nWhy the others fail: (50, 60) covers only 270 km. Using 3 hours for both cars gives 3(a + b) = 300, so a + b = 100 and a = 45, b = 55, which aren't even offered.",
+   "tip": "When start times differ, give each vehicle its own travel time before adding distances.",
+   "trap": "Using the same travel time (3 hours) for both cars. B started an hour later, so B has driven only 2 hours.",
+   "timeTarget": 180,
+   "skills": [
+    "rates",
+    "relative-motion",
+    "linear-equations"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-013",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "A school spends exactly ₹200 on pens at ₹7 each and notebooks at ₹12 each. It buys at least 5 of each item. Among all the ways to spend exactly ₹200 under these conditions, the school chose the one that has the greatest possible number of pens.\n\nSelect a value for the **number of pens** and a value for the **number of notebooks** in that purchase. Make only one selection in each column.",
+   "labels": [
+    "Pens",
+    "Notebooks"
+   ],
+   "choices": [
+    "5",
+    "8",
+    "12",
+    "15",
+    "20",
+    "25"
+   ],
+   "answer": [
+    4,
+    0
+   ],
+   "explanation": "We need whole numbers p ≥ 5 and n ≥ 5 with 7p + 12n = 200. Because 200 − 12n must be a multiple of 7, step through n: n = 5 gives 140, so p = 20. n = 6 gives 128, n = 7 gives 116, n = 8 gives 104, n = 9 gives 92, n = 10 gives 80, n = 11 gives 68; none of these is a multiple of 7. n = 12 gives 56, so p = 8. Larger n either fails the multiple test or pushes p below 5.\n\nSo the only purchases are (20 pens, 5 notebooks) and (8 pens, 12 notebooks). The greater number of pens is 20, with 5 notebooks. Check: 140 + 60 = 200.\n\nWhy the others fail: (8, 12) is also valid but has fewer pens. Pairs like (12, 8) or (15, 5) don't total ₹200.",
+   "tip": "For 'exactly this total' with whole items, step through the larger-priced item and check divisibility, rather than guessing.",
+   "trap": "Choosing (8 pens, 12 notebooks). It satisfies the money, but the question asks for the purchase with the greatest number of pens.",
+   "timeTarget": 180,
+   "skills": [
+    "integer-solutions",
+    "linear-equations"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-014",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "N is a positive integer that leaves a remainder of 3 when divided by 7, and a remainder of 2 when divided by 5.\n\nSelect a value for the **smallest possible N** and a value for the **second smallest possible N**. Make only one selection in each column.",
+   "labels": [
+    "Smallest possible N",
+    "Second smallest possible N"
+   ],
+   "choices": [
+    "10",
+    "17",
+    "24",
+    "45",
+    "52",
+    "59"
+   ],
+   "answer": [
+    1,
+    4
+   ],
+   "explanation": "Numbers leaving remainder 3 when divided by 7 are 3, 10, 17, 24, 31, 38, 45, 52, 59, ... Keep those leaving remainder 2 when divided by 5, which means ending in 2 or 7: 17 (ends in 7) and 52 (ends in 2). The first two are 17 and 52, and they differ by 35, the LCM of 7 and 5.\n\nCheck: 17 = 2 × 7 + 3 and 17 = 3 × 5 + 2. 52 = 7 × 7 + 3 and 52 = 10 × 5 + 2. Correct.\n\nWhy the others fail: every option in the list leaves remainder 3 when divided by 7, so the second condition is what separates them. 10 and 45 are multiples of 5 (remainder 0). 24 and 59 leave remainder 4. Only 17 and 52 leave remainder 2.",
+   "tip": "Combine two remainder conditions by listing numbers for one divisor and filtering by the other. Solutions repeat every LCM.",
+   "trap": "Picking 10 as the smallest. It leaves remainder 3 when divided by 7 but remainder 0 when divided by 5.",
+   "timeTarget": 150,
+   "skills": [
+    "remainders",
+    "number-properties"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-015",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "A stall's weekly demand follows the rule q = 100 − 2p, where p is the price per item in rupees and q is the number of items sold per week. Revenue equals p × q. The stall chooses a price p from the list and sells exactly q items at that price.\n\nSelect a value for the **price p that maximises weekly revenue** among the options, and a value for the **quantity q** sold at that price. Make only one selection in each column.",
+   "labels": [
+    "Price p (₹)",
+    "Quantity q (items)"
+   ],
+   "choices": [
+    "20",
+    "25",
+    "30",
+    "40",
+    "50",
+    "60"
+   ],
+   "answer": [
+    1,
+    4
+   ],
+   "explanation": "Compute revenue for each option price. At p = 20, q = 60 and revenue = 1,200. At p = 25, q = 50 and revenue = 1,250. At p = 30, q = 40 and revenue = 1,200. At p = 40, q = 20 and revenue = 800. At p = 50, q = 0, revenue 0.\n\nThe best is p = 25 with q = 50 (revenue 1,250).\n\nFaster way: revenue p(100 − 2p) is a downward-opening parabola with its peak midway between the zeros p = 0 and p = 50, that is, at p = 25. Then q = 100 − 50 = 50.\n\nWhy the others fail: 20 and 30 are symmetric around 25 and give equal, lower revenues of 1,200. A high price such as 50 gives zero demand, and a high quantity such as 60 means a price so low that revenue falls.",
+   "tip": "For a quantity-price rule, revenue peaks halfway between the zeros of the demand line.",
+   "trap": "Choosing the highest quantity (60) because more units feels better. More units at a lower price isn't more revenue.",
+   "timeTarget": 150,
+   "skills": [
+    "quadratics",
+    "optimization"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-016",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "x and y are positive integers with x < y that satisfy 1/x + 1/y = 1/6. Of all pairs of positive integers that satisfy these conditions, consider the pair with the **least possible value of x + y**.\n\nSelect a value for **x** and a value for **y** in that pair. Make only one selection in each column.",
+   "labels": [
+    "x",
+    "y"
+   ],
+   "choices": [
+    "8",
+    "9",
+    "10",
+    "15",
+    "18",
+    "24"
+   ],
+   "answer": [
+    2,
+    3
+   ],
+   "explanation": "Clear fractions: 6(x + y) = xy, so xy − 6x − 6y = 0. Add 36 to both sides: (x − 6)(y − 6) = 36. Now list factor pairs of 36 with the smaller factor first: 1 × 36, 2 × 18, 3 × 12, 4 × 9 (and 6 × 6, which gives x = y and is excluded). Add 6 to each factor: (7, 42), (8, 24), (9, 18), (10, 15). Their sums are 49, 32, 27, 25.\n\nThe least sum is 25, from x = 10 and y = 15. Check: 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6.\n\nWhy the others fail: (8, 24) and (9, 18) both satisfy the equation, but their sums (32 and 27) are larger. The pair 12 and 12 satisfies the equation but violates x < y. The sum is smallest when the two numbers are closest together.",
+   "tip": "For 1/x + 1/y = 1/k, rewrite as (x − k)(y − k) = k² and list factor pairs of k².",
+   "trap": "Choosing (8, 24) or (9, 18). Both solve the equation; the question asks for the least sum, which comes from the factor pair closest together.",
+   "timeTarget": 180,
+   "skills": [
+    "number-properties",
+    "factoring"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-017",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "tpa",
+   "prompt": "Machines X, Y and Z each work at a constant rate. Working together, X and Y complete a job in 12 hours; Y and Z complete the same job in 15 hours; X and Z complete it in 20 hours.\n\nSelect a value for the **hours X would take to complete the job alone** and a value for the **hours Z would take to complete the job alone**. Make only one selection in each column.",
+   "labels": [
+    "X alone (hours)",
+    "Z alone (hours)"
+   ],
+   "choices": [
+    "10",
+    "20",
+    "30",
+    "40",
+    "60",
+    "90"
+   ],
+   "answer": [
+    2,
+    4
+   ],
+   "explanation": "Rates add. Let the rates be x, y, z (jobs per hour). Then x + y = 1/12, y + z = 1/15, x + z = 1/20.\n\nAdd all three: 2(x + y + z) = 1/12 + 1/15 + 1/20 = 5/60 + 4/60 + 3/60 = 12/60 = 1/5, so x + y + z = 1/10 (all three together take 10 hours).\n\nNow subtract each pair: z = 1/10 − 1/12 = 1/60, so Z alone takes 60 hours. x = 1/10 − 1/15 = 1/30, so X alone takes 30 hours. (And y = 1/10 − 1/20 = 1/20, so Y takes 20 hours.)\n\nCheck: X and Z: 1/30 + 1/60 = 3/60 = 1/20. Correct.\n\nWhy the others fail: 10 is the time for all three together. 20 is Y's time, which would be right if the question had asked about Y. 40 and 90 come from averaging or adding times.",
+   "tip": "With three pairwise rates, add all three equations and halve to get the combined rate of all three, then subtract each pair.",
+   "trap": "Choosing 20 for X because it appears in 'X and Z take 20 hours'. A pair time is not an individual time.",
+   "timeTarget": 180,
+   "skills": [
+    "work-rates",
+    "systems-of-equations"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-018",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "tpa",
+   "prompt": "A set of five positive integers has a mean of 10, a median of 9, a range of 8, and exactly one mode, which is 7.\n\nSelect a value for the **second-largest integer** and a value for the **largest integer** in the set. Make only one selection in each column.",
+   "labels": [
+    "Second largest",
+    "Largest"
+   ],
+   "choices": [
+    "7",
+    "9",
+    "12",
+    "13",
+    "15",
+    "17"
+   ],
+   "answer": [
+    2,
+    4
+   ],
+   "explanation": "Write the set in order a ≤ b ≤ c ≤ d ≤ e. The median is the middle value, so c = 9. The sum is 5 × 10 = 50. The range gives e = a + 8.\n\nThe mode is 7, so 7 appears at least twice. The values at positions c, d and e are 9 or more, so both 7s must be a and b. So a = b = 7 and e = 15.\n\nThe sum gives d = 50 − 7 − 7 − 9 − 15 = 12. The set is {7, 7, 9, 12, 15}. Check: median 9, range 15 − 7 = 8, mean 50/5 = 10, and only 7 repeats.\n\nWhy the others fail: 13 and 17 would break the sum or the range. 9 as the second largest would make 9 appear twice and compete with 7 for the mode. 7 as the second largest would need three 7s and change the sum.",
+   "tip": "Use the median to pin the middle, the mode to pin the repeats, then the range and sum to finish. Write the ordered set.",
+   "trap": "Letting the two 7s sit above the median (for example, d = 7). That would pull the median below 9.",
+   "timeTarget": 180,
+   "skills": [
+    "statistics",
+    "logic"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-019",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "tpa",
+   "prompt": "A bakery chain began printing calorie counts beside every item on its menus. Over the next year, sales of its lowest-calorie items rose by 20%. The chain's manager concluded that the calorie labels caused customers to shift towards lower-calorie items.\n\nSelect the statement that, if true, would **most strengthen** the manager's conclusion and the statement that, if true, would **most weaken** it. Make only one selection in each column.",
+   "labels": [
+    "Most strengthens the conclusion",
+    "Most weakens the conclusion"
+   ],
+   "choices": [
+    "In the chain's outlets that did not print calorie counts, sales of the lowest-calorie items stayed flat over the same year.",
+    "In the same month the labels were introduced, the chain launched a large price discount on its lowest-calorie items.",
+    "The chain employs about 400 staff across its 60 outlets.",
+    "The chain's best-selling item is a chocolate croissant.",
+    "Calorie labelling on menus is required by law in some other countries."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "The conclusion is causal: labels caused the shift. A strengthener rules out other explanations or shows the effect only where labels exist; a weakener offers a rival cause.\n\nThe flat sales in outlets without labels are a comparison group. The shift appears only where labels were introduced, which supports the manager. That's the strengthener.\n\nThe discount launched in the same month is a rival explanation: customers may have switched because the items got cheaper, not because of calories. That's the weakener.\n\nWhy the rest fail: staff numbers are irrelevant to why customers switched. The best-selling item says nothing about the change in low-calorie sales. Laws in other countries don't show what happened in this chain.",
+   "tip": "Strengthen a causal claim by adding a comparison group or ruling out alternatives; weaken it by adding a rival cause.",
+   "trap": "Picking the croissant fact as a weakener. It sounds like it undermines healthy eating, but it doesn't touch the change in sales.",
+   "timeTarget": 120,
+   "skills": [
+    "strengthen",
+    "weaken",
+    "causal-reasoning"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-020",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "tpa",
+   "prompt": "A manufacturing company trialled a four-day working week for three months. During the trial, output per employee rose by 8%, and employees who were surveyed said they felt more rested. The managing director therefore argues that the company should adopt the four-day week permanently.\n\nSelect the statement that is the **conclusion** of the managing director's argument and the statement that is an **assumption** the argument depends on. Make only one selection in each column.",
+   "labels": [
+    "Conclusion of the argument",
+    "Assumption of the argument"
+   ],
+   "choices": [
+    "Output per employee rose by 8% during the trial.",
+    "The company should adopt the four-day week permanently.",
+    "The higher output seen during the trial would continue after the trial ends, once the novelty has worn off.",
+    "Employees who were surveyed said they felt more rested.",
+    "Many employees would prefer shorter working weeks to higher pay."
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "The conclusion is the claim the managing director wants us to accept: the company should adopt the four-day week permanently. Everything else supports it.\n\nThe argument rests on a trial of three months. To justify a permanent change, the director must assume the benefit lasts. If the extra output was only a short-term burst from the novelty of the trial, the case collapses. That is the assumption. Test it with the negation: if the output gain would fade after the trial, the argument fails.\n\nWhy the rest fail: the 8% rise and the rested employees are evidence stated in the passage, so they are premises, not assumptions. The pay preference is a new idea the argument never mentions, and the argument doesn't need it.",
+   "tip": "The conclusion is what the author wants you to accept; the assumption is the unstated link, and negating it should wreck the argument.",
+   "trap": "Choosing the 8% output rise as the conclusion because it is the biggest number. It is evidence, not the claim being argued for.",
+   "timeTarget": 120,
+   "skills": [
+    "conclusion",
+    "assumption"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-021",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "tpa",
+   "prompt": "An online tutoring platform reports that students who used its practice quizzes at least three times a week improved their exam scores by an average of 12 points over a term, while students who used them less often improved by an average of 4 points. The platform concludes that frequent quiz use raises exam scores.\n\nSelect the statement that, if true, would **most strengthen** the platform's conclusion and the statement that, if true, would **most weaken** it. Make only one selection in each column.",
+   "labels": [
+    "Most strengthens the conclusion",
+    "Most weakens the conclusion"
+   ],
+   "choices": [
+    "The students who used the quizzes most often were already the most motivated and also spent many extra hours studying in other ways.",
+    "In a separate group where the platform randomly assigned students to frequent or infrequent quiz use, the frequent-use students also improved more.",
+    "The platform has 50,000 registered students.",
+    "Quizzes are available in six subjects.",
+    "Some students use the platform on mobile phones."
+   ],
+   "answer": [
+    1,
+    0
+   ],
+   "explanation": "The platform infers causation from a comparison of two groups who chose their own habits. The weak point is self-selection: motivated students may both quiz more and study more.\n\nThe weakener is the first statement: it offers a rival explanation (motivation and extra study) for the higher scores. The strengthener is the second: random assignment removes self-selection, so a difference in improvement is much more likely to be caused by the quizzes.\n\nWhy the rest fail: the number of registered students, the number of subjects and the use of mobile phones are facts about the platform that don't bear on why frequent users improved more.",
+   "tip": "When groups choose their own behaviour, look for the self-selection rival cause; random assignment is the classic strengthener.",
+   "trap": "Picking the 50,000 registered students as a strengthener. A large user base sounds convincing but doesn't show that quizzes cause improvement.",
+   "timeTarget": 120,
+   "skills": [
+    "strengthen",
+    "weaken",
+    "causal-reasoning"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-022",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "tpa",
+   "prompt": "A conference organiser schedules five talks, P, Q, R, S and T, one in each of five consecutive slots numbered 1 to 5 (1 is the earliest). The following conditions apply:\n\n- P is scheduled in an earlier slot than Q.\n- S is scheduled in the slot immediately after R.\n- T is scheduled in neither the first nor the last slot.\n\nSelect the **earliest slot** in which S could be scheduled and the **latest slot** in which P could be scheduled. Make only one selection in each column.",
+   "labels": [
+    "Earliest slot for S",
+    "Latest slot for P"
+   ],
+   "choices": [
+    "Slot 1",
+    "Slot 2",
+    "Slot 3",
+    "Slot 4",
+    "Slot 5"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "Earliest slot for S: S must come right after R, so S cannot be first. Slot 2 works if R is in slot 1. The order R, S, T, P, Q satisfies all rules (R in 1, S in 2, T in 3, P in 4, Q in 5). So the earliest slot for S is 2.\n\nLatest slot for P: P must come before Q, so P cannot be last. Can P be in slot 4? Then Q is in slot 5, and R, S, T take slots 1 to 3 with R directly before S and T not first. R, S, T in slots 1, 2, 3 works. So P can be in slot 4, and cannot be later. The latest slot for P is 4.\n\nWhy the others fail: Slot 1 for S is impossible because S follows R. Slot 5 for P is impossible because Q must come later. Slots 3 or 2 are possible for S or P but are not the earliest or latest.",
+   "tip": "For earliest/latest questions, build one concrete schedule that pushes the item to the extreme, then check it against every rule.",
+   "trap": "Saying S could be in slot 1 by ignoring the 'immediately after R' rule, or saying P could be last when Q must come after it.",
+   "timeTarget": 150,
+   "skills": [
+    "scheduling",
+    "logic"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-023",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "A city council has one goal: to reduce the number of cars entering the city centre on weekdays without reducing the number of shoppers who visit the central stores. It is considering five measures.\n\nSelect the measure that would **most help** the council achieve its goal and the measure that would **most hinder** it. Make only one selection in each column.",
+   "labels": [
+    "Would most help achieve the goal",
+    "Would most hinder the goal"
+   ],
+   "choices": [
+    "Raise central all-day parking fees and use the revenue to run frequent, free shuttle buses from park-and-ride lots on the edge of the city.",
+    "Cut the frequency of central bus services by half to save money.",
+    "Install electronic signs showing which central car parks have free spaces.",
+    "Plant trees along the central shopping streets.",
+    "Offer a discount at central stores to shoppers who spend more than ₹2,000."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "The goal has two parts: fewer cars entering the centre, and no fall in shoppers. A measure that helps must work on both parts; one that hinders damages at least one.\n\nThe parking-fee-plus-free-shuttle measure cuts car trips by making all-day parking costlier while giving shoppers an easy, free alternative, so shopper numbers should hold up. That helps most.\n\nHalving bus frequency makes the bus a poorer choice, which pushes some riders into cars (more cars) and discourages others from coming at all (fewer shoppers). That hinders on both counts.\n\nWhy the rest fail: parking signs may reduce circling but do nothing to cut cars entering the centre. Trees may make the area pleasant but have no clear effect on car numbers. The spending discount may attract shoppers, but could bring more cars, so it addresses only half the goal.",
+   "tip": "For 'help the goal' questions, check every clause of the goal. The best option satisfies all of them; the worst damages them.",
+   "trap": "Choosing the spending discount as the best measure. It helps the shoppers part only, and could raise car numbers.",
+   "timeTarget": 120,
+   "skills": [
+    "policy",
+    "evaluation"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-024",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "Commuters in the city of Varna who switched to the new express train line cut their average journey time by 15 minutes. Because the line has been so effective at shortening journeys, the city council argues that extending it to the northern suburbs will reduce the total time suburban residents spend commuting.\n\nSelect the statement that is the **conclusion** of the council's argument and the statement that is an **assumption** the argument depends on. Make only one selection in each column.",
+   "labels": [
+    "Conclusion of the argument",
+    "Assumption of the argument"
+   ],
+   "choices": [
+    "Commuters in Varna who switched to the express line cut their average journey time by 15 minutes.",
+    "Extending the line to the northern suburbs will reduce the total time suburban residents spend commuting.",
+    "The suburban residents who would use an extended line have commutes broadly similar in length and type to those of the Varna commuters who benefited.",
+    "The northern suburbs have a larger population than the city centre.",
+    "The express line costs less to run than the old service."
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "The conclusion is the council's prediction about the northern suburbs: extending the line will reduce suburban residents' total commuting time. The 15-minute saving in Varna is the evidence offered for it.\n\nThe argument moves from what happened to Varna commuters to what will happen to suburban residents. For this to work, the two groups must be alike in the relevant way: if suburban commutes are very different (for example, mostly on foot or already short), the saving may not carry over. Negating the similarity statement damages the argument, so it is the assumption.\n\nWhy the rest fail: the 15-minute saving is stated in the passage, so it is a premise. The population of the suburbs doesn't bear on whether individual commutes shorten. Running costs are about the council's budget, not about commuting time.",
+   "tip": "When an argument predicts for a new group from an old group, the assumption is almost always that the two groups are relevantly similar.",
+   "trap": "Picking the 15-minute saving as the conclusion. It's a reported fact that supports the prediction.",
+   "timeTarget": 150,
+   "skills": [
+    "conclusion",
+    "assumption",
+    "analogy"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-025",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "tpa",
+   "prompt": "A hiring manager schedules six interviews, A, B, C, D, E and F, one in each of six consecutive slots numbered 1 to 6 (1 is the earliest). The following conditions apply:\n\n- B is interviewed in an earlier slot than D.\n- E is interviewed exactly two slots after C (for example, C in slot 2 and E in slot 4).\n- A and F are not interviewed in consecutive slots.\n- A is interviewed in an earlier slot than C.\n\nSelect the **earliest slot** in which E could be interviewed and the **latest slot** in which B could be interviewed. Make only one selection in each column.",
+   "labels": [
+    "Earliest slot for E",
+    "Latest slot for B"
+   ],
+   "choices": [
+    "Slot 1",
+    "Slot 2",
+    "Slot 3",
+    "Slot 4",
+    "Slot 5",
+    "Slot 6"
+   ],
+   "answer": [
+    3,
+    4
+   ],
+   "explanation": "Earliest slot for E: A must come before C, so C is at least slot 2. E is two slots after C, so E is at least slot 4. Slot 4 is achievable: A in 1, C in 2, E in 4, with B, D, F in 3, 5, 6 (for example A, C, B, E, D, F). Check: B before D, A and F not adjacent. So E's earliest slot is 4.\n\nLatest slot for B: B must come before D, so B cannot be last. Try B in slot 5 and D in 6. Then A, C, E, F fill slots 1 to 4 with A before C and E two after C: A, C, F, E... that puts C in 2 and E in 4, A in 1, F in 3. But A (1) and F (3) are not consecutive, so the order A, C, F, E, B, D works. So B can be in slot 5, and not 6.\n\nWhy the others fail: E in slots 1 to 3 is impossible because A and C must precede it. B in slot 6 would leave no later slot for D.",
+   "tip": "For 'exactly two after', count the slots needed on both sides: here A, C and E need at least four slots, so E starts at 4.",
+   "trap": "Placing E in slot 3 by letting C go in slot 1, forgetting that A must come before C.",
+   "timeTarget": 150,
+   "skills": [
+    "scheduling",
+    "logic"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-026",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "Researchers found that adults who regularly eat breakfast weigh less, on average, than adults who regularly skip it. A nutrition columnist concludes that eating breakfast helps people keep their weight down.\n\nSelect the statement that, if true, would **most strengthen** the columnist's conclusion and the statement that, if true, would **most weaken** it. Make only one selection in each column.",
+   "labels": [
+    "Most strengthens the conclusion",
+    "Most weakens the conclusion"
+   ],
+   "choices": [
+    "Among adults who weighed the same at the start of a fifteen-year period, those who ate breakfast regularly at the start weighed less at the end than those who skipped it.",
+    "Adults who are already heavy are considerably more likely to skip breakfast in an attempt to lose weight.",
+    "Most adults who skip breakfast say they do so because they are short of time in the morning.",
+    "The adults in the study came from twelve different cities.",
+    "Breakfast cereals are among the most heavily advertised packaged foods."
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "The columnist reads a correlation as a cause: breakfast keeps weight down. The classic weak spot is reverse causation: maybe weight influences breakfast habits, not the other way round.\n\nThe weakener is the statement that heavier adults skip breakfast to lose weight. It suggests weight drives the habit, which would explain the correlation without breakfast helping at all.\n\nThe strengthener is the fifteen-year comparison of adults who started at the same weight. Because the starting weights are equal, reverse causation is ruled out, and the breakfast eaters end up lighter, which supports the columnist.\n\nWhy the rest fail: the reason people skip breakfast (lack of time) doesn't say whether breakfast affects weight. The number of cities is irrelevant to causation. Advertising of cereals says nothing about what eating breakfast does to weight.",
+   "tip": "Whenever a correlation is turned into a cause, test two rivals: reverse causation and a third factor causing both.",
+   "trap": "Choosing the 'short of time' fact as a weakener. It explains why people skip breakfast, but it doesn't challenge the link with weight.",
+   "timeTarget": 150,
+   "skills": [
+    "strengthen",
+    "weaken",
+    "reverse-causation"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-027",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "A regional airline plans to replace its fleet of 40 older turboprop aircraft with 40 newer jets of similar seating capacity. The airline argues that the replacement will lower its operating cost per passenger on each flight.\n\nSelect the statement that, if true, would **most strengthen** the airline's argument and the statement that, if true, would **most weaken** it. Make only one selection in each column.",
+   "labels": [
+    "Most strengthens the conclusion",
+    "Most weakens the conclusion"
+   ],
+   "choices": [
+    "The new jets need much longer runways, and most of the airline's airports the airline would pay substantially higher landing fees on every flight to cover runway extensions.",
+    "Maintenance costs for the older turboprops have risen each year and are expected to double over the next five years, while maintenance costs for the new jets are guaranteed by the manufacturer for ten years.",
+    "Passengers say they prefer flying on jets to flying on turboprops.",
+    "The new jets are considerably quieter than the older turboprops.",
+    "The older turboprops were bought more than twenty years ago."
+   ],
+   "answer": [
+    1,
+    0
+   ],
+   "explanation": "The claim is specifically about operating cost per passenger per flight. The right answers must bear on cost, not on passenger comfort or revenue.\n\nThe strengthener is the maintenance statement: rising costs for the old fleet versus guaranteed costs for the new one shows the new jets will be cheaper to run, which supports the claim.\n\nThe weakener is the landing-fee statement: higher charges on every flight at most airports push operating costs per flight up, which works against the airline's argument.\n\nWhy the rest fail: passenger preference might raise bookings and revenue, but it doesn't change cost per passenger on a given flight, so it is a half-relevant decoy. Noise matters to neighbours, not to the airline's costs. The age of the turboprops, by itself, doesn't say what the replacements will cost to run.",
+   "tip": "Match the evidence to the exact claim: if the claim is about cost, revenue and comfort facts are decoys.",
+   "trap": "Choosing passenger preference as the strengthener. It might help sales but doesn't lower operating cost per passenger.",
+   "timeTarget": 150,
+   "skills": [
+    "strengthen",
+    "weaken",
+    "scope"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-028",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "tpa",
+   "prompt": "A festival organiser schedules five performers, G, H, J, K and L, one in each of five consecutive slots numbered 1 to 5 (1 is the earliest). The following conditions apply:\n\n- Either G performs earlier than H, or K performs earlier than J, or both.\n- J performs earlier than L.\n- H and K perform in consecutive slots, in either order.\n- G does not perform in slot 1.\n\nSelect the **earliest slot** in which L could perform and the **latest slot** in which J could perform. Make only one selection in each column.",
+   "labels": [
+    "Earliest slot for L",
+    "Latest slot for J"
+   ],
+   "choices": [
+    "Slot 1",
+    "Slot 2",
+    "Slot 3",
+    "Slot 4",
+    "Slot 5"
+   ],
+   "answer": [
+    1,
+    3
+   ],
+   "explanation": "Earliest slot for L: J must perform before L, so L is at least slot 2. Slot 2 works with J in slot 1. Try J in slot 1 and L in slot 2, then place G, H, K in slots 3 to 5 with H and K consecutive: J, L, G, H, K. Check the either/or rule: G (3) is before H (4), so it holds. J (1) is before L (2), H and K are consecutive, and G is not first. So L can be in slot 2.\n\nLatest slot for J: J must come before L, so J cannot be in slot 5. Try slot 4 with L in slot 5. Then G, H, K fill slots 1 to 3, G is not first, and H and K are consecutive: H, K, G puts K (2) before J (4), so the either/or rule is satisfied. Check: H(1), K(2), G(3), J(4), L(5). All conditions hold. So J can be in slot 4 but never 5.\n\nWhy the others fail: L in slot 1 would put J before it with no slot. J in slot 5 would leave no later slot for L.",
+   "tip": "With an 'either/or (or both)' rule, you only need one side to be true; build a schedule that satisfies the easiest side.",
+   "trap": "Treating 'either ... or both' as two separate requirements that must both hold. Only one side is needed.",
+   "timeTarget": 150,
+   "skills": [
+    "scheduling",
+    "logic",
+    "conditional-rules"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-p-029",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "tpa",
+   "prompt": "At a business conference, every attendee registered for at least one of three tracks: Finance, Marketing and Operations. The following facts are known:\n\n- Every attendee who registered for Finance also registered for Operations.\n- No attendee registered for both Marketing and Operations.\n- At least one attendee registered for Finance.\n\nSelect the statement that **must be true** and the statement that **cannot be true**, given the facts above. Make only one selection in each column.",
+   "labels": [
+    "Must be true",
+    "Cannot be true"
+   ],
+   "choices": [
+    "At least one attendee registered for Operations.",
+    "At least one attendee registered for Marketing.",
+    "At least one attendee registered for both Finance and Marketing.",
+    "Every attendee registered for Operations.",
+    "Every attendee who registered for Marketing also registered for Finance."
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "Work out what the facts force.\n\nSomeone registered for Finance, and every Finance attendee also registered for Operations. So at least one attendee registered for Operations: that must be true.\n\nA Finance-and-Marketing attendee would need to be in Operations too (because Finance forces Operations), but nobody can be in both Marketing and Operations. So no one can register for both Finance and Marketing: that cannot be true.\n\nWhy the rest fail: 'At least one registered for Marketing' could be true or false, since everyone might be in Finance and Operations. 'Every attendee registered for Operations' is possible (everyone in Finance, say), but not required. The last statement sounds impossible, because a Marketing attendee cannot be in Finance, but it is true if no one registered for Marketing at all, so it is possible, not forbidden.",
+   "tip": "For 'must' and 'cannot' questions, test whether you can build a world where the statement is false (so it is not forced) or true (so it is not forbidden).",
+   "trap": "Marking the last statement as 'cannot be true'. It would be vacuously true if nobody registered for Marketing, so it is merely possible.",
+   "timeTarget": 150,
+   "skills": [
+    "logic",
+    "inference"
+   ]
+  },
+  {
+   "id": "d-tpa-dc-m-030",
+   "section": "di",
+   "type": "TPA",
+   "topic": "d-tpa",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "tpa",
+   "prompt": "A panel organiser schedules six speakers, A, B, C, D, E and F, one in each of six consecutive slots numbered 1 to 6 (1 is the earliest). The following conditions apply:\n\n- F speaks later than both A and B.\n- Either A speaks later than B, or C speaks earlier than D, or both.\n- C and E speak in consecutive slots, in either order.\n- D speaks neither first nor last.\n\nSuppose that A speaks earlier than B. Select the **slot that F must occupy** and the **latest slot in which C could speak**. Make only one selection in each column.",
+   "labels": [
+    "Slot F must occupy",
+    "Latest slot for C"
+   ],
+   "choices": [
+    "Slot 1",
+    "Slot 2",
+    "Slot 3",
+    "Slot 4",
+    "Slot 5",
+    "Slot 6"
+   ],
+   "answer": [
+    5,
+    3
+   ],
+   "explanation": "If A speaks earlier than B, the first half of the either/or rule fails, so the second half must hold: C speaks earlier than D. D is also not first or last, so D is in slots 2 to 5.\n\nF must be later than both A and B. If F were in slot 5, then slot 6 would hold one of C, D or E. D can't be last, and C or E last would need its partner (E or C) in slot 5, which F occupies. So slot 6 can't be filled, and F must be in slot 6.\n\nLatest slot for C: C is before D, and D is at most slot 5, so C is at most slot 4. Slot 4 works: for example A, B, E, C, D, F (A before B, C before D, C and E consecutive, D in slot 5, F last). So C's latest slot is 4.\n\nWhy the others fail: any slot other than 6 for F leaves slot 6 unfillable. C in slot 5 or 6 would put D after it, which can't happen because D can't be last.",
+   "tip": "A conditional 'either/or' rule turns into a firm requirement as soon as one side is ruled out by the 'suppose' clause.",
+   "trap": "Forgetting that the supposition switches the either/or rule: with A before B, the rule forces C earlier than D.",
+   "timeTarget": 180,
+   "skills": [
+    "scheduling",
+    "logic",
+    "conditional-rules"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-001",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-01",
+   "prompt": "What is the monthly cost for one person on the Basic plan who attends 6 classes in the month (excluding any joining fee)?",
+   "choices": [
+    "₹1,200",
+    "₹1,500",
+    "₹1,800",
+    "₹2,100",
+    "₹2,600"
+   ],
+   "answer": 2,
+   "explanation": "The Basic plan includes 4 classes a month, so a person attending 6 classes uses 2 extra classes. Each extra class costs ₹300, so the extras are 2 × 300 = ₹600. Add the monthly fee of ₹1,200: 1,200 + 600 = ₹1,800.\n\nThe question says to exclude the joining fee, so the ₹2,000 does not belong in this answer.\n\nWhy the others fail: ₹1,200 ignores the extra classes. ₹1,500 charges only one extra class. ₹2,100 charges three extra classes (it forgets that 4 are included). ₹2,600 is the monthly fee of the Premium plan, picked from the wrong row.",
+   "tip": "Read the 'included' column first: extras are only the classes above the included number.",
+   "trap": "Forgetting the included classes and charging for all 6 (₹1,200 + 6 × 300 = ₹3,000), or reading the Premium row.",
+   "timeTarget": 90,
+   "skills": [
+    "table-reading",
+    "arithmetic"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-002",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "yesno",
+   "stimulusId": "msr-dc-p-01",
+   "prompt": "Over the first 6 months, with each person attending 6 classes a month, decide whether each statement is true or false.",
+   "statements": [
+    "The Plus plan costs less per person than the Basic plan.",
+    "The Premium plan costs less per person than the Basic plan.",
+    "A person who attended 10 classes a month would cost more on the Plus plan than on the Premium plan."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    1
+   ],
+   "explanation": "Work out the 6-month cost per person at 6 classes a month. Basic: 2,000 + 6 × 1,800 = ₹12,800. Plus: 1,000 + 6 × 1,800 = ₹11,800 (6 classes is within the 8 included, so there are no extras). Premium: 6 × 2,600 = ₹15,600.\n\nStatement 1: 11,800 is less than 12,800, so Yes. Statement 2: 15,600 is more than 12,800, so No.\n\nStatement 3: at 10 classes a month, Plus has 2 extra classes, costing 2 × 250 = ₹500 a month. Plus costs 1,000 + 6 × (1,800 + 500) = 1,000 + 13,800 = ₹14,800. Premium is still ₹15,600. Plus is cheaper, so the statement is No.",
+   "tip": "Compute the full 6-month total for each plan once, then judge every statement against those totals.",
+   "trap": "Forgetting the one-time joining fee, which makes Plus look the same as Basic per month and hides its ₹1,000 advantage.",
+   "timeTarget": 150,
+   "skills": [
+    "table-reading",
+    "comparison"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-003",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-01",
+   "prompt": "Using the email's rule, what is the total 6-month cost, for all ten staff, of the cheapest plan (at 6 classes a month each)?",
+   "choices": [
+    "₹1,08,000",
+    "₹1,12,000",
+    "₹1,18,000",
+    "₹1,28,000",
+    "₹1,56,000"
+   ],
+   "answer": 2,
+   "explanation": "Work out the 6-month cost for one person at 6 classes a month on each plan. Basic: 2,000 + 6 × (1,200 + 2 × 300) = 2,000 + 10,800 = ₹12,800. Plus: 1,000 + 6 × 1,800 = ₹11,800, with no extras because 6 is within the 8 included classes. Premium: 6 × 2,600 = ₹15,600. The cheapest is Plus at ₹11,800 per person.\n\nFor ten staff: 10 × 11,800 = ₹1,18,000.\n\nWhy the others fail: ₹1,08,000 is 10 × 6 × 1,800, which leaves out the joining fee. ₹1,28,000 is the total for Basic and ₹1,56,000 is the total for Premium, both picked from the wrong plan. ₹1,12,000 is a near-miss that comes from dropping part of the joining fees.",
+   "tip": "The email gives the decision rule (lowest total over 6 months including joining fees). Use it before reading any numbers.",
+   "trap": "Leaving out the one-time joining fee, which turns the correct total into ₹1,08,000.",
+   "timeTarget": 120,
+   "skills": [
+    "cross-referencing",
+    "arithmetic"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-004",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-02",
+   "prompt": "What was the combined revenue of the two outlets in March?",
+   "choices": [
+    "₹3.1 lakh",
+    "₹18.7 lakh",
+    "₹19.3 lakh",
+    "₹21.0 lakh",
+    "₹22.5 lakh"
+   ],
+   "answer": 2,
+   "explanation": "Read March from the chart: Outlet A earned ₹11.2 lakh and Outlet B earned ₹8.1 lakh. Together that's 11.2 + 8.1 = ₹19.3 lakh.\n\nThe other options are all real readings from the same chart, which is what makes this a careful-reading question. ₹3.1 lakh is the difference between the two outlets in March (11.2 − 8.1), not the sum. ₹18.7 lakh is the combined February figure (10.5 + 8.2). ₹21.0 lakh is the combined April figure (12.0 + 9.0), and ₹22.5 lakh is the combined May figure (12.6 + 9.9). Always confirm the month on the horizontal axis before you read the points.",
+   "tip": "Check the month on the x-axis before reading the point, and read both lines in the same column.",
+   "trap": "Reading the neighbouring month (February or April) because the points sit close together on the chart.",
+   "timeTarget": 90,
+   "skills": [
+    "chart-reading"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-005",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "msr-dc-p-02",
+   "prompt": "Using the email's definition of a growth site and the chart, decide whether each statement is true or false.",
+   "statements": [
+    "Outlet A is a growth site.",
+    "Outlet B's revenue grew by at least 5% in every month-to-month change from January to June.",
+    "Outlet B's revenue exceeded Outlet A's revenue in at least one month."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    1,
+    1
+   ],
+   "explanation": "Statement 1: the last three changes for A are Mar to Apr (11.2 to 12.0, +7.1%), Apr to May (12.0 to 12.6, exactly +5.0%) and May to Jun (12.6 to 13.5, +7.1%). 'At least 5%' includes exactly 5%, so A qualifies. True.\n\nStatement 2: B's changes are +2.5%, then −1.2%, then +11.1%, +10.0% and +10.1%. The first two are below 5%, so the statement is False. (B is a growth site on the last three changes, but the statement is about every change.)\n\nStatement 3: A's revenue is above B's in every month on the chart (for example, 13.5 against 10.9 in June). False.",
+   "tip": "Boundary words matter: 'at least 5%' includes exactly 5%. Compute 12.6 ÷ 12.0 = 1.05 exactly.",
+   "trap": "Treating exactly 5% as 'not enough' and wrongly deciding that A is not a growth site.",
+   "timeTarget": 150,
+   "skills": [
+    "chart-reading",
+    "percent-change",
+    "definitions"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-006",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-02",
+   "prompt": "By what minimum percentage would Outlet B's June revenue have needed to be higher for Outlet B to avoid closure under the owner's rule? (Assume costs are as given.)",
+   "choices": [
+    "About 1.0%",
+    "About 1.9%",
+    "About 2.5%",
+    "About 3.1%",
+    "About 5.0%"
+   ],
+   "answer": 1,
+   "explanation": "Outlet B's June profit is 10.9 × 45% − 3.0 = 4.905 − 3.0 = ₹1.905 lakh, below the ₹2 lakh threshold. Variable costs are 55%, so each rupee of revenue leaves 45 paise before fixed costs.\n\nTo reach ₹2 lakh of profit, revenue × 0.45 must be at least 2.0 + 3.0 = 5.0, so revenue must be at least 5.0 ÷ 0.45 = ₹11.11 lakh. The rise from 10.9 is 0.21 ÷ 10.9, about 1.9%.\n\nWhy the others fail: 1.0% and 2.5% come from guessing around the gap. 5.0% would be 'meeting the growth threshold', which is a different rule. Comparing the profit gap of ₹0.095 lakh with revenue directly (0.095 ÷ 10.9, about 0.9%) forgets that only 45% of extra revenue becomes profit.",
+   "tip": "Only the margin (here 45%) of extra revenue turns into profit; divide the profit gap by the margin before comparing to revenue.",
+   "trap": "Dividing the profit shortfall by revenue directly, ignoring the 55% variable cost.",
+   "timeTarget": 180,
+   "skills": [
+    "profit",
+    "percent-change",
+    "cross-referencing"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-007",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-03",
+   "prompt": "What would be the total cost of sending the 240 parcels with SwiftKart?",
+   "choices": [
+    "₹19,200",
+    "₹20,400",
+    "₹21,120",
+    "₹21,600",
+    "₹22,080"
+   ],
+   "answer": 2,
+   "explanation": "Use the memo's formula: total cost = parcels × price per parcel × (1 + fuel surcharge). For SwiftKart that's 240 × 80 × 1.10. First, 240 × 80 = 19,200. Then add the 10% surcharge: 19,200 × 1.10 = ₹21,120.\n\nWhy the others fail: ₹19,200 leaves out the fuel surcharge. ₹20,400 is the QuickHaul total (240 × 85, no surcharge), taken from the wrong row. ₹21,600 charges a surcharge of 12.5% by mistake, and ₹22,080 uses NorthLine's 15% surcharge instead of SwiftKart's 10%.",
+   "tip": "When a formula is given in the memo, copy it exactly and plug in one row of the table at a time.",
+   "trap": "Reading the surcharge column as 10 rupees per parcel rather than 10% of the cost.",
+   "timeTarget": 90,
+   "skills": [
+    "table-reading",
+    "percent"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-008",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "msr-dc-p-03",
+   "prompt": "Using the memo and the rate table, decide whether each statement is true or false.",
+   "statements": [
+    "NorthLine has the lowest all-in cost per parcel (price plus surcharge) of the four couriers.",
+    "If the batch were 260 parcels, GreenPost would be the eligible courier with the lowest total cost.",
+    "For the 240-parcel batch, QuickHaul's total cost is lower than SwiftKart's by more than ₹1,000."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    1,
+    0,
+    1
+   ],
+   "explanation": "Statement 1: all-in cost per parcel is price × (1 + surcharge). SwiftKart: 80 × 1.10 = 88. NorthLine: 72 × 1.15 = 82.80. GreenPost: 78 × 1.05 = 81.90. QuickHaul: 85. GreenPost is lowest (81.90), not NorthLine, so the statement is False. NorthLine would also fail the 95% on-time rule.\n\nStatement 2: at 260 parcels, GreenPost's minimum of 250 is met, and its on-time rate of 97% passes. Totals: GreenPost 260 × 78 × 1.05 = ₹21,294; SwiftKart 260 × 80 × 1.10 = ₹22,880; QuickHaul 260 × 85 = ₹22,100. GreenPost is the cheapest eligible courier. True.\n\nStatement 3: at 240 parcels, SwiftKart costs ₹21,120 and QuickHaul ₹20,400. The difference is ₹720, which is not more than ₹1,000. False.",
+   "tip": "Eligibility rules come first. Filter the table using the memo, then compare costs among the survivors.",
+   "trap": "Judging NorthLine on price alone: its ₹72 sticker price hides a 15% surcharge and it fails the on-time rule.",
+   "timeTarget": 150,
+   "skills": [
+    "eligibility-rules",
+    "table-reading"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-009",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-03",
+   "prompt": "For the 240-parcel batch, the two cheapest eligible couriers are QuickHaul and SwiftKart. Approximately what fuel surcharge would QuickHaul have to charge for its total cost to equal SwiftKart's?",
+   "choices": [
+    "About 2.5%",
+    "About 3.5%",
+    "About 5.0%",
+    "About 8.0%",
+    "About 10.0%"
+   ],
+   "answer": 1,
+   "explanation": "Eligible couriers for 240 parcels: SwiftKart (96% on time, minimum 100) and QuickHaul (98%, minimum 50). NorthLine fails the on-time rule and GreenPost's minimum of 250 is above 240. SwiftKart's total is ₹21,120. QuickHaul's base cost without a surcharge is 240 × 85 = ₹20,400.\n\nFor QuickHaul to reach ₹21,120 the surcharge s must satisfy 20,400 × (1 + s) = 21,120, so 1 + s = 21,120 ÷ 20,400 = 1.0353. The surcharge would be about 3.5%.\n\nWhy the others fail: 10.0% is SwiftKart's surcharge, copied across. 5.0% is GreenPost's. 2.5% and 8.0% don't match the gap of ₹720, which is 720 ÷ 20,400 = 3.5% of QuickHaul's base cost.",
+   "tip": "The gap between two totals divided by the lower total gives the percentage change needed to close it.",
+   "trap": "Dividing the ₹720 gap by SwiftKart's total (about 3.4%) or copying a surcharge from the table.",
+   "timeTarget": 150,
+   "skills": [
+    "percent",
+    "eligibility-rules"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-010",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-04",
+   "prompt": "Under the rating policy and the current clinic data, how many clinics are rated Red?",
+   "choices": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Check each clinic against both criteria (median wait of 20 minutes or less, and at least 90% seen within 30 minutes). North: median 24 fails and 86% fails, so Red. East: 18 passes and 91% passes, so Green. South: 22 fails and 88% fails, so Red. West: 26 fails but 93% passes, so Amber. Central: 19 passes but 85% fails, so Amber.\n\nThe Red clinics are North and South, so the answer is 2.\n\nWhy the others fail: 1 counts only one of the two clinics that miss both criteria. 3 and 4 wrongly count Amber clinics, which meet exactly one criterion. 0 assumes every clinic meets at least one criterion, which isn't true for North and South.",
+   "tip": "Tick each criterion in a small grid (clinic by criterion) before counting categories.",
+   "trap": "Counting any clinic that fails one criterion as Red, instead of only those that fail both.",
+   "timeTarget": 90,
+   "skills": [
+    "rules",
+    "table-reading"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-011",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "msr-dc-p-04",
+   "prompt": "Decide whether each statement is true or false.",
+   "statements": [
+    "East is the only clinic that is currently rated Green.",
+    "If one extra nurse were placed at North, North would be rated Green.",
+    "If one extra nurse were placed at Central, Central would meet the 'within 30 minutes' criterion."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    1,
+    1
+   ],
+   "explanation": "Statement 1: from the ratings worked out above, East is Green and no other clinic meets both criteria. True.\n\nStatement 2: one nurse at North would lower the median wait from 24 to 21 minutes and raise the 'within 30 minutes' share from 86% to 90%. The share now passes (90% is 'at least 90%'), but 21 minutes is still more than 20, so only one criterion is met. North would be Amber, so the statement is False.\n\nStatement 3: one nurse at Central raises 85% to 89%, which is still below 90%. So Central still would not meet the criterion. False.",
+   "tip": "Apply the nurse effect to both numbers, then recheck both criteria. A change that fixes one criterion isn't enough for Green.",
+   "trap": "Stopping when the percentage reaches 90% at North and forgetting that the median is still 21 minutes.",
+   "timeTarget": 150,
+   "skills": [
+    "rules",
+    "what-if"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-012",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-04",
+   "prompt": "Considering all ways of placing exactly two extra nurses (both at one clinic, or one each at two clinics), what is the greatest number of patients per day that can be treated at Green-rated clinics?",
+   "choices": [
+    "210",
+    "240",
+    "290",
+    "350",
+    "440"
+   ],
+   "answer": 2,
+   "explanation": "East is already Green (90 patients). A nurse can't make East worse. Now see which clinics can become Green. With one nurse: South becomes Green (median 19, 92%). North (21, 90%), West (23, 97%) and Central (16, 89%) stay Amber. With two nurses: North becomes Green (median 18, 94%), West becomes Green (median 20, 101% capped at 100%), and Central becomes Green (median 13, 93%).\n\nOptions for two nurses: South (one) gives East + South = 240 patients, with the other nurse unable to turn anything else Green. Two nurses at North give 90 + 120 = 210. Two at West give 170. Two at Central give 90 + 200 = 290. That is the maximum.\n\nWhy the others fail: 350 would need South (one nurse) and Central (two nurses), which is three nurses. 440 adds every clinic that can ever be Green. 240 and 210 are valid but smaller.",
+   "tip": "With a fixed resource, list how many units each clinic needs to flip, then choose the best combination within the budget.",
+   "trap": "Picking South (one nurse) and Central (two nurses) together for 350, which needs three nurses.",
+   "timeTarget": 180,
+   "skills": [
+    "optimisation",
+    "what-if",
+    "rules"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-013",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-05",
+   "prompt": "What would the household's total bill for the six months have been on Plan B?",
+   "choices": [
+    "₹8,400",
+    "₹9,480",
+    "₹10,020",
+    "₹11,880",
+    "₹13,440"
+   ],
+   "answer": 2,
+   "explanation": "Plan B has no fixed charge. Up to 200 units cost ₹5 each; any units above 200 cost ₹8 each (only on the excess). Month by month: Jan 180 units = 900. Feb 160 = 800. Mar 210 = 1,000 + 10 × 8 = 1,080. Apr 330 = 1,000 + 130 × 8 = 2,040. May 420 = 1,000 + 220 × 8 = 2,760. Jun 380 = 1,000 + 180 × 8 = 2,440.\n\nTotal: 900 + 800 + 1,080 + 2,040 + 2,760 + 2,440 = ₹10,020.\n\nWhy the others fail: ₹9,480 is the Plan C total and ₹11,880 is the Plan A total, both from the wrong rows. ₹8,400 charges ₹5 on all 1,680 units and ignores the higher rate above 200. ₹13,440 charges ₹8 on all 1,680 units, as if the higher rate applied to every unit once a month passes 200.",
+   "tip": "For slab pricing, charge the lower rate on the first slab and the higher rate only on the excess, month by month.",
+   "trap": "Charging the higher rate on all units once a month passes 200 units.",
+   "timeTarget": 150,
+   "skills": [
+    "slab-pricing",
+    "chart-reading"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-014",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "msr-dc-p-05",
+   "prompt": "Using the usage chart and the plan terms, decide whether each statement is true or false.",
+   "statements": [
+    "Plan C would have been the cheapest of the three plans in every one of the six months.",
+    "Plan A would have been the most expensive of the three plans in every one of the six months.",
+    "If May's usage had been exactly 400 units, the Plan C bill for May would have been ₹2,050."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    1,
+    0,
+    0
+   ],
+   "explanation": "Statement 1: check January. Plan A: 300 + 6 × 180 = ₹1,380. Plan B: 5 × 180 = ₹900. Plan C: 450 + 4 × 180 = ₹1,170. Plan B is cheapest in January, so Plan C is not cheapest every month. False.\n\nStatement 2: compute each month (A, B, C): Jan 1,380, 900, 1,170. Feb 1,260, 800, 1,090. Mar 1,560, 1,080, 1,290. Apr 2,280, 2,040, 1,770. May 2,820, 2,760, 2,190. Jun 2,580, 2,440, 1,970. Plan A is the highest in every month. True.\n\nStatement 3: 400 units is exactly at Plan C's slab limit, so everything is at ₹4: 450 + 4 × 400 = 450 + 1,600 = ₹2,050. True.",
+   "tip": "To disprove 'in every month' statements, find one counter-example month; to prove them, check all months.",
+   "trap": "Believing Plan C is cheapest because it wins on total; the winner overall can still lose in low-usage months.",
+   "timeTarget": 180,
+   "skills": [
+    "slab-pricing",
+    "counter-example"
+   ]
+  },
+  {
+   "id": "d-msr-dc-p-015",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "stimulusId": "msr-dc-p-05",
+   "prompt": "Suppose the household had cut its usage by 10% in each of April, May and June, with January to March unchanged. If it then chose whichever plan was cheapest for the new six months, what would its total bill be?",
+   "choices": [
+    "₹8,532",
+    "₹8,968",
+    "₹9,116",
+    "₹9,480",
+    "₹11,202"
+   ],
+   "answer": 1,
+   "explanation": "New monthly usage: Jan 180, Feb 160, Mar 210, Apr 297, May 378, Jun 342 (total 1,567 units). Now cost each plan.\n\nPlan C (₹450 plus ₹4 a unit, since every month is now within the 400-unit slab): Jan 1,170, Feb 1,090, Mar 1,290, Apr 450 + 1,188 = 1,638, May 450 + 1,512 = 1,962, Jun 450 + 1,368 = 1,818. Total ₹8,968.\n\nPlan B: Jan 900, Feb 800, Mar 1,080, Apr 1,000 + 97 × 8 = 1,776, May 1,000 + 178 × 8 = 2,424, Jun 1,000 + 142 × 8 = 2,136. Total ₹9,116.\n\nPlan A: 6 × 300 + 6 × 1,567 = 1,800 + 9,402 = ₹11,202.\n\nPlan C is cheapest at ₹8,968. Why ₹8,532 fails: it takes 90% of the old Plan C total, which wrongly assumes the bill falls in proportion to usage even though fixed charges don't shrink. ₹9,480 is the old total; ₹9,116 and ₹11,202 are Plans B and A.",
+   "tip": "A percentage cut in usage doesn't cut the bill by the same percentage when part of the bill is a fixed charge.",
+   "trap": "Taking 90% of the old bill. The fixed charge doesn't fall when usage falls.",
+   "timeTarget": 180,
+   "skills": [
+    "slab-pricing",
+    "what-if",
+    "percent"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-001",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-01",
+   "prompt": "What was the ticket revenue from the Silver category?",
+   "choices": [
+    "₹12,50,000",
+    "₹10,00,000",
+    "₹7,20,000",
+    "₹5,76,000",
+    "₹22,96,000"
+   ],
+   "answer": 1,
+   "explanation": "Silver has 500 seats and 80% were sold, so 500 × 0.80 = 400 tickets. Each costs ₹2,500, so the revenue is 400 × 2,500 = ₹10,00,000.\n\nWhy the others fail: ₹12,50,000 assumes every Silver seat sold (500 × 2,500). ₹7,20,000 is the Gold revenue (180 tickets at ₹4,000), and ₹5,76,000 is the Bronze revenue (480 tickets at ₹1,200), both from the wrong row. ₹22,96,000 is the total for all three categories.\n\nWriting all three revenues down once pays off, because the other questions in this set reuse them.",
+   "tip": "Seats sold = seats available × sold %. Apply the percentage before multiplying by price.",
+   "trap": "Using all available seats instead of the 80% that were sold.",
+   "timeTarget": 90,
+   "skills": [
+    "table-reading",
+    "percent"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-002",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "yesno",
+   "stimulusId": "msr-dc-m-01",
+   "prompt": "Using the table and the email, decide whether each statement is true.",
+   "statements": [
+    "More than 1,000 tickets were sold in total.",
+    "Silver tickets brought in more than half of the total ticket revenue.",
+    "Bronze revenue was more than half of Silver revenue."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "First, tickets sold: Gold 180, Silver 400, Bronze 480, a total of 1,060. Revenue: Gold 180 × 4,000 = ₹7,20,000; Silver ₹10,00,000; Bronze 480 × 1,200 = ₹5,76,000. Total revenue = ₹22,96,000.\n\nStatement 1: 1,060 is more than 1,000. Yes.\n\nStatement 2: Silver is 10,00,000 out of 22,96,000, which is about 43.6%, below half. No.\n\nStatement 3: half of Silver revenue is ₹5,00,000. Bronze is ₹5,76,000, which is more. Yes (Bronze is about 57.6% of Silver).\n\nNotice that only statement 2 punishes you for looking at ticket counts instead of money.",
+   "tip": "Build a small revenue table first; every statement is then a one-line comparison.",
+   "trap": "Judging by seats (800 Bronze seats looks like most of the revenue) rather than by revenue.",
+   "timeTarget": 120,
+   "skills": [
+    "table-reading",
+    "percent"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-003",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-01",
+   "prompt": "The producer wants a profit of at least ₹5,00,000. If only the Silver ticket price is raised, and the number of tickets sold in each category stays the same, what is the minimum Silver ticket price that achieves this?",
+   "choices": [
+    "₹3,144",
+    "₹3,305",
+    "₹3,500",
+    "₹3,750",
+    "₹4,000"
+   ],
+   "answer": 1,
+   "explanation": "Current profit: total revenue ₹22,96,000 minus fixed costs ₹18,00,000 minus catering and security of 1,060 × 300 = ₹3,18,000, which gives ₹1,78,000.\n\nThe target is ₹5,00,000, so profit must rise by ₹3,22,000. Because the number of tickets sold stays the same, costs don't change, and the whole increase must come from Silver revenue. With 400 Silver tickets sold, the price must rise by 3,22,000 ÷ 400 = ₹805. So the new price is 2,500 + 805 = ₹3,305.\n\nWhy the others fail: ₹3,144 spreads the increase across all 500 Silver seats, but only 400 were sold. ₹3,750 adds ₹5,00,000 (the whole target) to the revenue, forgetting that the current profit already counts. ₹3,500 and ₹4,000 are round-number guesses.",
+   "tip": "Compute the profit gap first, then divide by the number of units that actually carry the price rise.",
+   "trap": "Dividing by 500 seats instead of 400 tickets sold, or adding the full ₹5,00,000 target to revenue.",
+   "timeTarget": 180,
+   "skills": [
+    "profit",
+    "cross-referencing",
+    "what-if"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-004",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-02",
+   "prompt": "How many of the eight stores are efficient under the memo's definition?",
+   "choices": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 2,
+   "explanation": "Sales per 1,000 sq ft = sales ÷ area. Store 1: 18 ÷ 2 = 9.0 (efficient, since 'at least ₹9 lakh' includes exactly 9). Store 2: 24 ÷ 3 = 8. Store 3: 40 ÷ 4 = 10. Store 4: 35 ÷ 5 = 7. Store 5: 66 ÷ 6 = 11. Store 6: 30 ÷ 2.5 = 12. Store 7: 36 ÷ 4.5 = 8. Store 8: 56 ÷ 7 = 8.\n\nEfficient stores: 1, 3, 5 and 6, which is 4.\n\nWhy the others fail: 3 results from treating Store 1's exactly-9.0 as not efficient. 5 and 6 come from misreading the area or sales for stores that sit just below the line. 2 counts only the stores clearly above the line.",
+   "tip": "On a scatter plot, 'sales per area' is the slope of a line from the origin; compute it for each point.",
+   "trap": "Excluding Store 1 because its ratio is exactly 9. 'At least' includes the boundary.",
+   "timeTarget": 120,
+   "skills": [
+    "scatter-plot",
+    "ratios"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-005",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "msr-dc-m-02",
+   "prompt": "Using the memo, chart and rent table, decide whether each statement is true.",
+   "statements": [
+    "Store 6 has the highest monthly sales per 1,000 sq ft of the eight stores.",
+    "Every store flagged for rent review is also not efficient.",
+    "The store with the largest area is efficient."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    1
+   ],
+   "explanation": "Statement 1: the ratios are 9, 8, 10, 7, 11, 12, 8 and 8. Store 6 (12) is the highest. Yes.\n\nStatement 2: rent as a share of sales: Store 1 is 6 ÷ 18 = 33.3% (flagged), Store 4 is 12 ÷ 35 = 34.3% (flagged), Store 7 is 11 ÷ 36 = 30.6% (flagged). Store 1, though, is efficient (ratio exactly 9). So not every flagged store is non-efficient. No.\n\nStatement 3: the largest area is Store 8 (7 thousand sq ft), with sales of 56, giving a ratio of 8. That's below 9, so Store 8 is not efficient. No.",
+   "tip": "For 'every X is also Y' statements, a single counter-example is enough to make the statement false.",
+   "trap": "Assuming that high rent always means low efficiency; Store 1 is both flagged and efficient.",
+   "timeTarget": 150,
+   "skills": [
+    "scatter-plot",
+    "counter-example"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-006",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-02",
+   "prompt": "Suppose monthly rent fell by 10% at every store, with sales unchanged. How many stores would then be flagged for rent review?",
+   "choices": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "A store is flagged if rent is more than 30% of sales. Currently flagged: Store 1 (33.3%), Store 4 (34.3%), Store 7 (30.6%). Cut each rent by 10% (multiply by 0.9).\n\nStore 1: rent 5.4 ÷ 18 = exactly 30%. The rule says 'more than 30%', so exactly 30% is not flagged. Store 4: 10.8 ÷ 35 = 30.9%, still flagged. Store 7: 9.9 ÷ 36 = 27.5%, no longer flagged. The other stores were below 30% and fall further.\n\nSo only Store 4 stays flagged: the answer is 1.\n\nWhy the others fail: 2 keeps Store 1 flagged by treating exactly 30% as over the line. 3 assumes the cut changes nothing. 0 assumes a 10% cut clears every store, but Store 4 is still above 30%.",
+   "tip": "Check the boundary cases exactly: 'more than' excludes the boundary value.",
+   "trap": "Counting Store 1 as still flagged. At exactly 30% it is not 'more than 30%'.",
+   "timeTarget": 150,
+   "skills": [
+    "what-if",
+    "boundary-conditions"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-007",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-03",
+   "prompt": "What is the combined cost of projects P2, P4 and P5?",
+   "choices": [
+    "₹70 lakh",
+    "₹75 lakh",
+    "₹80 lakh",
+    "₹85 lakh",
+    "₹90 lakh"
+   ],
+   "answer": 3,
+   "explanation": "Read the Cost column: P2 costs ₹30 lakh, P4 costs ₹35 lakh and P5 costs ₹20 lakh. The total is 30 + 35 + 20 = ₹85 lakh.\n\nWhy the others fail: ₹75 lakh is what you get if you take P1 and P4 together (40 + 35), which are the two highest impact scores. ₹70 lakh and ₹80 lakh come from misreading one cost by ₹5 lakh, and ₹90 lakh from adding an extra ₹5 lakh by mistake. This question is a warm-up for the harder question in the set: make a reliable cost table first.",
+   "tip": "Write a quick list of cost and impact for each project; the later questions all use the same numbers.",
+   "trap": "Picking up the Duration column by accident (12 + 12 + 6 = 30) or mixing up project labels.",
+   "timeTarget": 90,
+   "skills": [
+    "table-reading",
+    "arithmetic"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-008",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "msr-dc-m-03",
+   "prompt": "Using the data table, decide whether each statement is true.",
+   "statements": [
+    "P6 has the highest impact score per ₹ lakh of cost among the six projects.",
+    "The three cheapest projects together cost exactly ₹60 lakh.",
+    "The two projects with the highest impact scores together cost less than ₹70 lakh."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "Impact per ₹ lakh: P1 70 ÷ 40 = 1.75; P2 1.50; P3 2.00; P4 about 1.57; P5 1.50; P6 35 ÷ 15 = 2.33. P6 is highest. Statement 1: Yes.\n\nThe three cheapest projects are P6 (15), P5 (20) and P3 (25): 15 + 20 + 25 = 60. Statement 2: Yes.\n\nThe two highest impact scores are P1 (70) and P4 (55). Their costs are 40 + 35 = 75, which is more than 70. Statement 3: No.",
+   "tip": "Rank by the relevant column first (cost, impact, or impact per cost), then answer each statement from the ranking.",
+   "trap": "Taking P3 and P1 as the top two impacts because P3's impact per lakh is high. The statement is about impact score, not impact per cost.",
+   "timeTarget": 150,
+   "skills": [
+    "table-reading",
+    "ratios"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-009",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-03",
+   "prompt": "Which set of projects gives the greatest total impact score while meeting both the budget and the same-laboratory restriction?",
+   "choices": [
+    "P1, P3, P5 and P6",
+    "P1, P3 and P4",
+    "P2, P4, P5 and P6",
+    "P1, P2 and P3",
+    "P1, P4 and P6"
+   ],
+   "answer": 1,
+   "explanation": "The total cost must be ₹100 lakh or less, and P3 and P6 can't be funded together.\n\nOption A (P1, P3, P5, P6) has the highest raw impact, 70 + 50 + 30 + 35 = 185 for a cost of ₹100 lakh. But it contains both P3 and P6, so it is not allowed.\n\nOption B (P1, P3, P4): cost 40 + 25 + 35 = 100, impact 70 + 50 + 55 = 175. Allowed.\n\nOption C (P2, P4, P5, P6): cost 100, impact 45 + 55 + 30 + 35 = 165. Option D (P1, P2, P3): cost 95, impact 165. Option E (P1, P4, P6): cost 90, impact 160.\n\nChecking every other allowed combination also gives at most 175 (for example, P1, P3, P5 costs 85 for 150, and no fourth project fits without breaking the rule or the budget). So B is the best. The trap is A: it looks best until you apply the restriction.",
+   "tip": "Apply the hard restrictions first, then compare totals. The best-looking unrestricted option is often the trap.",
+   "trap": "Choosing the set with the highest total impact (185) without noticing it includes both P3 and P6.",
+   "timeTarget": 180,
+   "skills": [
+    "optimisation",
+    "constraints"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-010",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-04",
+   "prompt": "How many orders came from the Email channel in April?",
+   "choices": [
+    "300",
+    "450",
+    "600",
+    "750",
+    "1,500"
+   ],
+   "answer": 3,
+   "explanation": "Read April's Email sessions from the stacked chart: the Email segment is 15 thousand sessions (15,000). The table gives Email's conversion rate as 5%. Orders = 15,000 × 0.05 = 750.\n\nWhy the others fail: 300 is 15,000 at 2% (the Organic rate). 450 is 15,000 at 3% (the Paid rate). 600 uses March's Email sessions (12,000) at 5%. 1,500 is 15,000 at 10%, which doubles the Email rate.\n\nWith stacked charts, remember to read the height of each segment, not the cumulative top of the stack.",
+   "tip": "In a stacked chart, a segment's value is its own height, not the level of its top edge.",
+   "trap": "Reading the position of the Email boundary on the axis (the cumulative total) rather than the segment's own height.",
+   "timeTarget": 90,
+   "skills": [
+    "stacked-chart",
+    "percent"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-011",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "msr-dc-m-04",
+   "prompt": "Decide whether each statement is true.",
+   "statements": [
+    "Paid sessions were lower in April than in March.",
+    "Social revenue was lower than Email revenue in every month from January to April.",
+    "Total sessions across all four channels rose in every month from January to April."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "Revenue per session: Organic 2% × ₹1,200 = ₹24, Paid 3% × ₹1,000 = ₹30, Email 5% × ₹900 = ₹45, Social 1% × ₹1,500 = ₹15.\n\nStatement 1: Paid sessions were 30 thousand in March and 28 thousand in April. Yes.\n\nStatement 2: Social revenue by month is 30k × 15 = ₹4,50,000, then ₹4,20,000, ₹3,90,000 and ₹3,60,000. Email revenue is 10k × 45 = ₹4,50,000, then ₹4,50,000, ₹5,40,000 and ₹6,75,000. In January both are ₹4,50,000, which is equal, not lower. The statement is No.\n\nStatement 3: total sessions are 100, 107, 116 and 119 thousand, rising every month. Yes.",
+   "tip": "Compute revenue per session for each channel once; it turns a three-column table into one number.",
+   "trap": "Assuming Social is lower in January too. The two channels tie that month.",
+   "timeTarget": 150,
+   "skills": [
+    "stacked-chart",
+    "unit-economics"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-012",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-04",
+   "prompt": "Vikram's proposal is to move 4,000 sessions in April from the Social channel to the Paid channel. What would total April revenue be after the move?",
+   "choices": [
+    "₹30,63,000",
+    "₹31,23,000",
+    "₹31,83,000",
+    "₹32,43,000",
+    "₹33,03,000"
+   ],
+   "answer": 2,
+   "explanation": "First, April revenue per session: Paid is ₹30 (3% × ₹1,000) and Social is ₹15 (1% × ₹1,500). Moving a session from Social to Paid changes revenue by +30 − 15 = +₹15 per session.\n\nFor 4,000 sessions: 4,000 × 15 = ₹60,000.\n\nApril total revenue now: Organic 52,000 × 24 = ₹12,48,000; Paid 28,000 × 30 = ₹8,40,000; Email 15,000 × 45 = ₹6,75,000; Social 24,000 × 15 = ₹3,60,000. Total ₹31,23,000. After the move: ₹31,23,000 + ₹60,000 = ₹31,83,000.\n\nWhy the others fail: ₹31,23,000 is the revenue before the move. ₹32,43,000 adds the full Paid value of 4,000 sessions (₹1,20,000) without subtracting what Social would have earned. ₹30,63,000 moves sessions the wrong way. ₹33,03,000 adds three times the gain.",
+   "tip": "When you move volume between groups, change = volume × (new revenue per unit − old revenue per unit).",
+   "trap": "Adding the new channel's revenue without subtracting the revenue lost from the old channel.",
+   "timeTarget": 180,
+   "skills": [
+    "what-if",
+    "unit-economics",
+    "cross-referencing"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-013",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-05",
+   "prompt": "How much bonus does the Operations department receive?",
+   "choices": [
+    "₹3,60,000",
+    "₹4,09,091",
+    "₹4,20,000",
+    "₹4,50,000",
+    "₹4,80,000"
+   ],
+   "answer": 2,
+   "explanation": "Pool: 8% × (₹3.5 crore − ₹2 crore) = 8% × ₹1.5 crore = ₹12,00,000. Eligible departments (score at least 3.0): Sales (20 × 4.0 = 80 points), Operations (30 × 3.0 = 90), Finance (10 × 4.0 = 40) and IT (10 × 3.0 = 30). HR, with a score of 2.5, is not eligible. Total points = 240, so each point is worth ₹5,000.\n\nOperations' points-based share is 90 × 5,000 = ₹4,50,000, which is 37.5% of the pool. The cap is 35% of ₹12,00,000 = ₹4,20,000. So Operations receives the cap, ₹4,20,000.\n\nWhy the others fail: ₹4,50,000 ignores the cap. ₹4,09,091 is what Operations would get if HR were eligible, which it isn't. ₹3,60,000 and ₹4,80,000 come from using the wrong points or percentages.",
+   "tip": "Apply the hand-off in order: eligibility, points, share, then the cap.",
+   "trap": "Leaving the CFO's cap rule out because it is in a different tab from the policy.",
+   "timeTarget": 150,
+   "skills": [
+    "cross-referencing",
+    "percent",
+    "rules"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-014",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "msr-dc-m-05",
+   "prompt": "After the cap rule has been applied, decide whether each statement is true.",
+   "statements": [
+    "The Finance department's bonus per head is higher than the Sales department's bonus per head.",
+    "The IT department's bonus per head is more than ₹15,000.",
+    "The Operations department receives exactly 35% of the pool."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    1,
+    0,
+    0
+   ],
+   "explanation": "After the cap, Operations receives ₹4,20,000. The excess is ₹30,000 (4,50,000 − 4,20,000). It is shared among Sales, Finance and IT in proportion to points 80 : 40 : 30 (total 150). Sales gets 30,000 × 80/150 = ₹16,000; Finance gets 30,000 × 40/150 = ₹8,000; IT gets 30,000 × 30/150 = ₹6,000.\n\nFinal bonuses: Sales ₹4,00,000 + 16,000 = ₹4,16,000; Finance ₹2,00,000 + 8,000 = ₹2,08,000; IT ₹1,50,000 + 6,000 = ₹1,56,000; Operations ₹4,20,000. These total ₹12,00,000.\n\nStatement 1: Finance per head = 2,08,000 ÷ 10 = ₹20,800; Sales = 4,16,000 ÷ 20 = ₹20,800. They are equal, so the statement is False.\n\nStatement 2: IT per head = 1,56,000 ÷ 10 = ₹15,600, which is above ₹15,000. True.\n\nStatement 3: 4,20,000 ÷ 12,00,000 = 35%. True.",
+   "tip": "After redistributing an excess, check that the totals still add up to the pool.",
+   "trap": "Skipping the redistribution step, which would give IT only ₹15,000 per head (not more than ₹15,000).",
+   "timeTarget": 180,
+   "skills": [
+    "cross-referencing",
+    "redistribution"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-015",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-05",
+   "prompt": "Suppose HR's performance score had been 3.0 instead of 2.5, with everything else unchanged (including the same profit and the cap rule). How much would the Operations department receive?",
+   "choices": [
+    "₹3,63,636",
+    "₹4,00,000",
+    "₹4,09,091",
+    "₹4,20,000",
+    "₹4,50,000"
+   ],
+   "answer": 2,
+   "explanation": "With a score of 3.0, HR becomes eligible and earns 8 × 3.0 = 24 points. Total points rise from 240 to 264. The pool is still ₹12,00,000, so each point is worth 12,00,000 ÷ 264 = about ₹4,545.45.\n\nOperations' share is 90 × 4,545.45 = about ₹4,09,091. As a share of the pool this is 90 ÷ 264 = 34.1%, which is below the 35% cap of ₹4,20,000. So the cap does not apply, and no redistribution is needed. No other department exceeds the cap either (Sales is 80 ÷ 264 = 30.3%).\n\nWhy the others fail: ₹4,20,000 applies the cap when it isn't triggered. ₹4,50,000 is the share before HR joined and before the cap. ₹4,00,000 is Sales' original share, and ₹3,63,636 is Sales' share in the new situation, both from the wrong department.",
+   "tip": "When an input changes, re-test every rule that depended on it. A cap that bound before may no longer bind.",
+   "trap": "Keeping the ₹4,20,000 cap from the original case. Adding HR dilutes Operations' share below the cap.",
+   "timeTarget": 180,
+   "skills": [
+    "what-if",
+    "cross-referencing",
+    "rules"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-016",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-06",
+   "prompt": "In how many of the six weeks does the plant incur a penalty?",
+   "choices": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "Compute the plant defect rate each week as a production-weighted average: (5,000 × L1 + 3,000 × L2 + 2,000 × L3) ÷ 10,000.\n\nWeek 1: (40,000 + 36,000 + 8,000) ÷ 10,000 = 8.4. Week 2: (35,000 + 33,000 + 12,000) ÷ 10,000 = 8.0. Week 3: (45,000 + 30,000 + 18,000) ÷ 10,000 = 9.3. Week 4: (30,000 + 30,000 + 22,000) ÷ 10,000 = 8.2. Week 5: 7.6. Week 6: 7.7.\n\nPenalty weeks are those with a rate above 8: weeks 1, 3 and 4. Week 2 is exactly 8.0, which is not above 8, so no penalty. The answer is 3.\n\nWhy the others fail: 4 counts week 2 at exactly 8.0. 2 and 1 miss weeks with rates just over 8 (weeks 1 and 4). 5 counts weeks 5 and 6 on a simple average of the lines instead of a weighted one.",
+   "tip": "A plant-wide rate is a weighted average, so weight each line by its production, not equally.",
+   "trap": "Counting week 2 (exactly 8.0) as a penalty week. 'Above 8' excludes 8.",
+   "timeTarget": 150,
+   "skills": [
+    "weighted-average",
+    "chart-reading"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-017",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "msr-dc-m-06",
+   "prompt": "Decide whether each statement is true.",
+   "statements": [
+    "Line L3 is placed on watch under the memo's rule.",
+    "The plant defect rate in week 2 is above the penalty threshold.",
+    "In week 6, Line L2 produced fewer defects than Line L3."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "Statement 1: L3's rates are 4, 6, 9, 11, 12, 14. It rose in every week-to-week change, so it certainly rose in three consecutive changes. Yes. (L1 goes 8, 7, 9, 6, 5, 5 and never rises three times running; L2 only falls.)\n\nStatement 2: the week 2 plant rate is (5,000 × 7 + 3,000 × 11 + 2,000 × 6) ÷ 10,000 = (35,000 + 33,000 + 12,000) ÷ 10,000 = 8.0. That is not above 8. No.\n\nStatement 3: defects = rate per 1,000 × units ÷ 1,000. In week 6, L2 has 8 × 3,000 ÷ 1,000 = 24 defects, and L3 has 14 × 2,000 ÷ 1,000 = 28 defects. L2 had fewer defects. Yes. L2's rate (8) is lower than L3's (14), but L2 makes more units, so the gap in counts is smaller than the gap in rates.",
+   "tip": "A higher defect rate doesn't always mean more defects. Multiply by volume to compare counts.",
+   "trap": "Comparing the rates (8 against 14) and forgetting that L2 makes more units than L3, which narrows the gap in counts.",
+   "timeTarget": 150,
+   "skills": [
+    "rates",
+    "weighted-average"
+   ]
+  },
+  {
+   "id": "d-msr-dc-m-018",
+   "section": "di",
+   "type": "MSR",
+   "topic": "d-msr",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "stimulusId": "msr-dc-m-06",
+   "prompt": "Management considers closing Line L3 and moving its 2,000 weekly units to L1, so that L1 produces 7,000 units a week at L1's own weekly defect rates (L2 is unchanged at 3,000 units). Under that plan, which weeks would incur a penalty?",
+   "choices": [
+    "Two weeks: weeks 1 and 3",
+    "Three weeks: weeks 1, 2 and 3",
+    "Three weeks: weeks 1, 3 and 4",
+    "Four weeks: weeks 1, 2, 3 and 4",
+    "Two weeks: weeks 2 and 3"
+   ],
+   "answer": 1,
+   "explanation": "New plant rate = (7,000 × L1 + 3,000 × L2) ÷ 10,000 for each week.\n\nWeek 1: (56,000 + 36,000) ÷ 10,000 = 9.2. Week 2: (49,000 + 33,000) ÷ 10,000 = 8.2. Week 3: (63,000 + 30,000) ÷ 10,000 = 9.3. Week 4: (42,000 + 30,000) ÷ 10,000 = 7.2. Week 5: (35,000 + 27,000) ÷ 10,000 = 6.2. Week 6: (35,000 + 24,000) ÷ 10,000 = 5.9.\n\nWeeks with a rate above 8 are weeks 1, 2 and 3: three weeks.\n\nCompare with today: the penalty weeks are 1, 3 and 4. The count is the same (three), but the weeks differ, so a solver who stops at 'three weeks' without listing them picks the wrong option. Week 4 improves (8.2 to 7.2) because L1's rate of 6 is much better than L3's 11, while week 2 gets worse (8.0 to 8.2) because L1's rate of 7 is worse than L3's 6 in that week.",
+   "tip": "Compare the full list of weeks, not just the count; two plans can have the same count with different weeks.",
+   "trap": "Assuming the penalty weeks stay the same (1, 3 and 4) because the count is three in both cases.",
+   "timeTarget": 180,
+   "skills": [
+    "what-if",
+    "weighted-average",
+    "chart-reading"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1697 @@
+{
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "v-cr-assumption-va-p-001",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "The market is a popular shopping street in an old part of the city, with about eighty small shops selling clothes, spices and household goods. The Kaveri Street Market association has noticed that on days when the municipal corporation sweeps the street before 8 a.m., shop sales that day are higher than on days when the sweeping happens later. The association therefore asks the corporation to sweep the street before 8 a.m. every day, expecting overall sales to rise.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Early sweeping is at least partly responsible for the higher sales, rather than merely coinciding with them.",
+        "Shop owners would prefer the street to be swept in the evening.",
+        "Most shoppers visit the market before 8 a.m.",
+        "The corporation has enough workers to sweep every street in the city before 8 a.m.",
+        "Sales are lower on late-sweeping days in all other markets in the city."
+      ],
+      "answer": 0,
+      "explanation": "This is a causal argument: a pattern (early sweeping, higher sales) becomes a plan (sweep early daily) that is expected to lift sales. The author needs the link to be real, not a coincidence.\n\n**Correct: (A).** If the sweeping time had nothing to do with sales, requesting it every day would achieve nothing. Negate it and the argument collapses.\n\n(B) Shop owners' preferences are never mentioned and don't affect whether sales will rise.\n\n(C) Not needed: a clean street could help sales all day. Negate it (\"most shoppers come later\") and the argument still works.\n\n(D) Too broad. The request covers only one street, so the whole city is out of scope.\n\n(E) Other markets are irrelevant, and \"all\" makes it extreme.",
+      "tip": "In a \"pattern becomes plan\" argument, the first assumption to check is that the pattern is actually causal.",
+      "trap": "Picking the shoppers-before-8 choice: it sounds connected, but the argument doesn't need most shoppers to arrive early.",
+      "timeTarget": 75,
+      "skills": [
+        "causal",
+        "plan"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-002",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "Workplace stress has become a common concern at the firm, which employs roughly six hundred people across three offices and has recently expanded its employee-benefits programme. A mid-sized firm surveyed the employees who attended its voluntary Friday wellness workshop. Ninety percent of those respondents said the workshop reduced their stress. The HR head concluded that the workshop reduces stress among the firm's employees in general.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "The workshop is the firm's only wellness programme.",
+        "Workshops reduce stress more effectively than other kinds of programme.",
+        "Employees who did not attend the workshop are not stressed.",
+        "Employees who attended the workshop are not much more receptive to such programmes than the firm's employees as a whole.",
+        "The workshop is inexpensive to run."
+      ],
+      "answer": 3,
+      "explanation": "The evidence comes from workshop attendees only, but the conclusion is about all employees. That is a classic sample-to-population jump, so the author must assume the sample is fair.\n\n**Correct: (D).** The survey speaks only for attendees. If attendees were especially keen on wellness, the result could not be generalised. Negate it and the conclusion has no support.\n\n(A) Other programmes could exist without affecting whether this one reduces stress.\n\n(B) The argument makes no comparison with other programmes.\n\n(C) Irrelevant: the claim is that the workshop reduces stress, not that non-attendees are stress-free.\n\n(E) Cost is out of scope; the argument is about effectiveness.",
+      "tip": "When a conclusion talks about \"all\" and the data come from a self-selected group, the assumption is representativeness.",
+      "trap": "The \"better than other programmes\" choice sounds like praise for the workshop, but the argument never compares programmes.",
+      "timeTarget": 75,
+      "skills": [
+        "sample",
+        "representativeness"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-003",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Marigold Bookstores is a national chain of independent-style bookshops that sells books, stationery and coffee, and its regional managers are responsible for deciding opening hours. Marigold Bookstores found that its Mumbai branch, which stays open until midnight, earns 25 percent more per square metre than its Pune branch, which closes at 9 p.m. The regional manager concludes that extending the Pune branch's hours to midnight will raise its earnings per square metre.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Staff currently working in Mumbai would be willing to transfer to Pune.",
+        "The earnings gap between the two branches is due, at least in part, to the difference in opening hours rather than entirely to other differences between the branches or cities.",
+        "Late-night shoppers spend more per visit than daytime shoppers.",
+        "Marigold's earnings per square metre in Pune have been stable in recent years.",
+        "Every other Marigold branch that stays open late earns more per square metre than the Pune branch."
+      ],
+      "answer": 1,
+      "explanation": "The evidence compares two branches; the conclusion predicts what a change at one branch will do. The manager treats opening hours as the explanation for the earnings gap.\n\n**Correct: (B).** If the gap came entirely from other things (rent, footfall, customer incomes), extending hours would not close it. Negated, the plan has no basis.\n\n(A) Staffing the extra hours could be done in many ways; this specific transfer isn't required.\n\n(C) Too specific. Extra hours can raise earnings even if late shoppers spend the same as others.\n\n(D) Stability is not required for the extension to add earnings.\n\n(E) Extreme (\"every\") and other branches are not part of the reasoning.",
+      "tip": "If two units differ in several ways but the author names only one as the cause, the assumption is that this one matters.",
+      "trap": "The \"late shoppers spend more\" choice is a plausible extra, but a necessary assumption must be needed, not merely helpful.",
+      "timeTarget": 90,
+      "skills": [
+        "causal",
+        "comparison"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-004",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The scheme operates across the city and lets users pick up a bicycle at any docking station and leave it at another. A city's bike-share scheme reports that the percentage of its trips that end at a metro station rose from 20 percent to 30 percent after the scheme added docking stations at metro entrances. The scheme's manager concludes that the new docking stations increased the number of bike-share trips that end at metro stations.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Metro stations are the most popular destination for bike-share trips.",
+        "Trips ending at metro stations are longer than other trips.",
+        "New docking stations were installed at every metro entrance in the city.",
+        "Commuters prefer cycling to taking a bus.",
+        "The total number of bike-share trips did not fall sharply after the new docking stations were added."
+      ],
+      "answer": 4,
+      "explanation": "The evidence is about a percentage; the conclusion is about a number. A share can rise while the count stays flat or falls, so the base matters.\n\n**Correct: (E).** If total trips dropped by one third or more, the share could rise from 20 to 30 percent with no extra metro-bound trips. Negated, the conclusion fails.\n\n(A) Thirty percent could be well short of a majority and the argument would be unaffected.\n\n(B) Trip length is irrelevant to how many trips end at metro stations.\n\n(C) Extreme and unnecessary; some entrances would be enough.\n\n(D) Mode preference between bikes and buses is outside the claim.",
+      "tip": "Percent in the evidence, number in the conclusion: ask what happened to the total.",
+      "trap": "Choosing the \"most popular destination\" option: it sounds supportive but is neither stated nor required.",
+      "timeTarget": 90,
+      "skills": [
+        "numbers-vs-percent"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-005",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The firm is a mid-sized consumer-goods company with separate sales and customer-support departments, and it is reviewing how it screens job applicants. Candidates who scored highly on a firm's online aptitude test have gone on to receive above-average performance ratings in the firm's sales department. The firm therefore plans to use the same test to select candidates for its customer-support department, expecting similarly strong performance there.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Customer-support employees currently receive lower performance ratings than sales employees.",
+        "The online test is cheaper to administer than interviews.",
+        "The abilities the test measures contribute to performance in customer support as they do in sales.",
+        "Every current sales employee took the online test before being hired.",
+        "Very few candidates fail the online test."
+      ],
+      "answer": 2,
+      "explanation": "This is an analogy: the test works for sales, so it will work for support. The author needs the two departments to be alike in the respect that matters.\n\n**Correct: (C).** Without this, a high score tells us nothing about support performance. Negate it and the plan loses its basis.\n\n(A) Current ratings in support don't affect whether the test predicts future success.\n\n(B) Cost is not part of the argument about predicting performance.\n\n(D) Extreme and unneeded. Some evidence from test-takers is enough.\n\n(E) If few fail, the test may select less, but the argument could still hold for those who score high.",
+      "tip": "In analogy arguments, the assumption is \"the two cases are alike in the relevant way\".",
+      "trap": "The cost choice is attractive because plans often involve cost, but this argument is about prediction, not savings.",
+      "timeTarget": 90,
+      "skills": [
+        "analogy"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-006",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The study followed adults in full-time employment in several large cities and asked them about their work, their hobbies and their evening routines. In a study of 5,000 adults, those who regularly attended evening language classes reported higher job satisfaction than those who did not. An education columnist concludes that attending evening language classes increases job satisfaction.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "People who are already satisfied in their jobs are not mainly the ones who decide to attend the classes.",
+        "Attending evening classes of any kind increases job satisfaction.",
+        "Language classes are inexpensive compared with other forms of adult education.",
+        "The adults who did not attend classes work longer hours.",
+        "Most of the 5,000 adults attended at least one class."
+      ],
+      "answer": 0,
+      "explanation": "A correlation is converted into a cause. The classic missing plank is that the causal arrow doesn't run the other way, and that nothing else explains both.\n\n**Correct: (A).** If satisfied people simply enrol more, the classes would not be what raises satisfaction. Negate it and the columnist's conclusion has no support.\n\n(B) Too broad. The claim is about language classes, and the argument can hold without this generalisation.\n\n(C) Cost comparisons are not part of the argument.\n\n(D) This offers a rival explanation, so it hurts rather than supports the argument, and it is not required.\n\n(E) The split between attenders and non-attenders is irrelevant to the causal claim.",
+      "tip": "For correlation-to-cause arguments, reverse causation is a favourite hidden assumption.",
+      "trap": "The \"any kind of class\" choice feels like a natural extension, but a necessary assumption must be needed, not broader.",
+      "timeTarget": 90,
+      "skills": [
+        "causal",
+        "reverse-causation"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-007",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "Demand for electricity in the state peaks sharply between about six and ten in the evening, and the board has struggled to avoid power cuts at that time. A state electricity board plans to offer lower tariffs during off-peak night hours in order to reduce strain on the grid during the evening peak. The board's analysts argue that this will lower evening-peak demand, because households with flexible appliances, such as washing machines and water heaters, will shift their usage to the cheaper hours.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Night-time tariffs will be lower than daytime tariffs in all neighbouring states.",
+        "Households currently pay no attention to tariff differences.",
+        "The board's total revenue will rise after the new tariffs are introduced.",
+        "A significant share of evening-peak demand comes from usage that households can move to the night hours.",
+        "Households that shift usage will use less electricity overall."
+      ],
+      "answer": 3,
+      "explanation": "A plan is expected to produce an outcome through a specific mechanism: households shift usage. The plan only works if there is enough usage that can be shifted.\n\n**Correct: (D).** If almost all peak demand is from lighting, cooking and entertainment that cannot shift, cheaper night tariffs would not reduce the peak. Negated, the plan fails.\n\n(A) Neighbouring states are out of scope, and \"all\" is extreme.\n\n(B) Extreme, and not needed. Households that already respond could respond further.\n\n(C) Revenue is a different goal from reducing peak demand.\n\n(E) Total consumption is irrelevant; the plan concerns when electricity is used, not how much.",
+      "tip": "For plan arguments, ask \"what must be true for the stated mechanism to produce the result?\"",
+      "trap": "The revenue choice tempts because boards care about money, but the conclusion is about peak demand only.",
+      "timeTarget": 100,
+      "skills": [
+        "plan",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-008",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The startup, which delivers meals from restaurants to homes, has been testing different pricing models in a few cities before expanding more widely. Following a pilot in Jaipur in which a food-delivery startup's \"fixed delivery fee\" model raised order volumes 18 percent above those under the previous distance-based fee, the startup's CEO announced that the fixed-fee model would be rolled out nationwide. She projects a significant rise in orders across the country.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Customers disliked distance-based fees in every pilot city.",
+        "Jaipur is not unusual in ways that would make customers there respond to the fee structure differently from customers elsewhere.",
+        "The pilot ran for at least a full year.",
+        "Delivery partners prefer the fixed-fee model.",
+        "The startup's competitors currently use distance-based fees."
+      ],
+      "answer": 1,
+      "explanation": "The evidence comes from one city, and the conclusion extends to the entire country. The author must assume Jaipur is a fair stand-in for everywhere else.\n\n**Correct: (B).** If Jaipur's customers differ in the relevant way, the 18 percent result cannot be projected nationwide. Negated, the projection loses its support.\n\n(A) There was only one pilot city, and \"every\" is extreme.\n\n(C) The pilot's length isn't the point; a shorter pilot could still be representative.\n\n(D) Partners' preferences don't affect order volumes.\n\n(E) Competitors' fee policies are out of scope.",
+      "tip": "One-city pilot, nationwide conclusion: the assumption is that the pilot city is typical.",
+      "trap": "The \"pilot ran a full year\" choice sounds scientific, but duration is not the gap in this argument.",
+      "timeTarget": 90,
+      "skills": [
+        "representativeness",
+        "generalisation"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-009",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The chain runs forty hotels, mostly aimed at business travellers, and has long relied on guest feedback to track how well it is doing. A hotel chain reports that the number of formal guest complaints it receives has dropped by 30 percent since it replaced its paper comment cards with an online feedback form. The chain's manager concludes that guest satisfaction has improved.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Guest satisfaction was low before the online form was introduced.",
+        "Online forms are easier to fill in than paper comment cards.",
+        "The online form asks guests more questions than the paper cards did.",
+        "The chain now operates more hotels than it did before the change.",
+        "The switch to an online form did not make dissatisfied guests much less likely to file complaints."
+      ],
+      "answer": 4,
+      "explanation": "The evidence measures complaints filed; the conclusion is about satisfaction. The author treats a fall in complaints as a fall in dissatisfaction, which only works if the way complaints are collected didn't change the result.\n\n**Correct: (E).** If the online form discouraged complaints, the drop would reflect the form, not satisfaction. Negate it and the conclusion collapses.\n\n(A) Not required. The argument works whatever the earlier level of satisfaction was.\n\n(B) If anything, this would increase complaints. The argument doesn't need it, and negating it leaves the reasoning intact.\n\n(C) The number of questions is irrelevant unless it affects complaint rates, and the choice doesn't say so.\n\n(D) More hotels would, if anything, mean more complaints. The choice is not needed.",
+      "tip": "When evidence is a measure (complaints) and the conclusion is the thing measured (satisfaction), check whether the measuring method changed.",
+      "trap": "The \"easier forms\" choice looks like it touches the method, but it would work against the manager and isn't required.",
+      "timeTarget": 100,
+      "skills": [
+        "terms-match",
+        "measurement"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-010",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "Regulators in one country plan to require makers of packaged drinks to carry a \"high sugar\" warning label on products above a set sugar threshold. A consumer advocate argues that the labels will reduce national sugar consumption. She cites a study from another country, where sales of labelled sugary drinks fell 12 percent in the year after similar labels were introduced.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "The label design planned in the first country is identical to the one used in the study country.",
+        "Few consumers in the first country currently read food labels.",
+        "Consumers who bought fewer labelled drinks did not make up the sugar by buying other high-sugar products.",
+        "Sugar consumption per person is higher in the first country than in the study country.",
+        "Manufacturers will lower the price of labelled drinks."
+      ],
+      "answer": 2,
+      "explanation": "The evidence is a fall in sales of labelled drinks; the conclusion is a fall in total sugar consumption. Between them sits the question of where the lost sales went.\n\n**Correct: (C).** If buyers simply switched to unlabelled sweet snacks or juices, sugar intake would not fall. Negate it and the advocate's conclusion fails.\n\n(A) Too strong. Labels need only be similar enough to have a similar effect.\n\n(B) If anything this would make labels less likely to work. The argument doesn't need it.\n\n(D) A comparison of levels is not part of the argument.\n\n(E) Price cuts would tend to raise sales, working against the author, and aren't required.",
+      "tip": "When evidence covers one product and the conclusion covers the whole category, check for substitution.",
+      "trap": "The \"few read labels\" choice seems to be about how labels work, but it would undermine rather than support the claim.",
+      "timeTarget": 105,
+      "skills": [
+        "plan",
+        "substitution"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-011",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "Economists at a development bank report that in villages where a microloan programme for rural women entrepreneurs began, girls' school enrolment rose over the following five years. In comparable villages without the programme, it did not. The economists conclude that microloan programmes should be extended to further villages in order to raise girls' enrolment.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "The programme was not preferentially introduced in villages that were already on course for rising girls' enrolment.",
+        "Household income gained from microloans is spent mostly on education.",
+        "Boys' enrolment in the programme villages did not rise.",
+        "Extending microloans costs less per additional enrolled girl than building new schools.",
+        "Raising girls' enrolment is the most valuable development goal for the bank."
+      ],
+      "answer": 0,
+      "explanation": "The case rests on a comparison of villages with and without the programme. The recommendation to extend it assumes that the programme, not something else, explains the difference.\n\n**Correct: (A).** If the programme went to villages already improving, the gap could be due to that selection. Negated, the evidence doesn't support extending the programme.\n\n(B) Too strong. Even a small share of the extra income could lift enrolment.\n\n(C) Boys are not part of the claim, and the argument works whatever happened to boys.\n\n(D) The argument makes no comparison with building schools.\n\n(E) The argument is about how to achieve the goal, not about its ranking.",
+      "tip": "In \"treated vs. untreated\" comparisons, the hidden assumption is that the groups started out alike or were chosen without bias.",
+      "trap": "The \"spent mostly on education\" choice looks like the mechanism, but \"mostly\" is far stronger than the argument needs.",
+      "timeTarget": 110,
+      "skills": [
+        "causal",
+        "selection"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-012",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "A fitness-app company reports that the percentage of its registered users who log at least one workout per week rose from 35 percent to 45 percent in the six months after it introduced social challenges, in which friends compete over weekly activity. The company concludes that social challenges motivate its users to exercise more.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Most of the app's users take part in at least one social challenge.",
+        "The app's competitors do not offer social challenges.",
+        "The share of the app's users who access it from mobile phones has increased.",
+        "The introduction of social challenges did not cause many less-active users to leave the app.",
+        "Social challenges are free for all users."
+      ],
+      "answer": 3,
+      "explanation": "A percentage of users rose. But a percentage depends on who is counted. If less active users left the app, the share of active users would rise even if no individual exercised more.\n\n**Correct: (D).** If inactive users dropped out because of the challenges, the percentage would rise without any user exercising more. Negated, the conclusion collapses.\n\n(A) Not required. Even a minority of participants could lift the percentage.\n\n(B) Competitors are out of scope.\n\n(C) Device type has no bearing on whether challenges motivate exercise.\n\n(E) Price is irrelevant to the motivation claim.",
+      "tip": "Percent of a group changes when the group changes; ask who entered or left.",
+      "trap": "The \"most users take part\" choice seems to link challenges and activity, but it is stronger than needed and doesn't address the shrinking base.",
+      "timeTarget": 105,
+      "skills": [
+        "numbers-vs-percent",
+        "survivorship"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-013",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "Biologists studying a lake's carp population noted that after a fish ladder was installed at the dam, the number of carp counted upstream each spring doubled over three years. They conclude that carp had previously been unable to pass the dam in significant numbers, and that the fish ladder has therefore restored the species' access to its natural spawning range.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "No carp were able to pass the dam before the ladder was built.",
+        "The rise in the upstream count reflects carp moving up through the ladder, not mainly growth in the carp population already living above the dam.",
+        "Carp spawn more successfully upstream than downstream.",
+        "Carp are the only species that use the fish ladder.",
+        "The fish ladder will continue to work in future years."
+      ],
+      "answer": 1,
+      "explanation": "The evidence is that the upstream count doubled. The conclusion is a specific explanation: carp now move upstream through the ladder. There's a rival explanation: more carp born upstream.\n\n**Correct: (B).** If the increase came from the resident population multiplying, the ladder would be doing nothing and the \"restored access\" claim would fail. Negated, the conclusion is unsupported.\n\n(A) Too extreme. The conclusion only says \"not in significant numbers\", so a few could have passed.\n\n(C) The conclusion is about access, not about which spawning area is better.\n\n(D) Other species using the ladder don't change the carp conclusion.\n\n(E) The conclusion concerns what has happened, not what will happen.",
+      "tip": "When a count rises, ask whether the increase came from movement in or growth from within.",
+      "trap": "The \"no carp could pass before\" choice is attractive because it repeats the conclusion's drift, but its extreme wording makes it unnecessary.",
+      "timeTarget": 115,
+      "skills": [
+        "causal",
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-p-014",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "A regional airline plans to replace its small turboprop aircraft with larger jets on its busiest routes. Its finance department argues that this will lower the airline's cost per passenger carried, since the jets' total operating cost per seat-kilometre, including fees and maintenance, is 15 percent lower than the turboprops'.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Passengers on the airline's busiest routes prefer jets to turboprops.",
+        "The turboprops can be sold for more than their book value.",
+        "The jets will make the airline's schedule more reliable.",
+        "Jet fuel prices will not rise during the next five years.",
+        "The proportion of seats filled on the jets will not be so much lower than on the turboprops that the saving per seat is lost."
+      ],
+      "answer": 4,
+      "explanation": "The evidence is cost per seat. The conclusion is cost per passenger. The two are only the same if the seats are filled. A cheaper seat that goes empty doesn't help.\n\n**Correct: (E).** Cost per passenger equals cost per seat divided by the fraction filled. If jets fly much emptier, the 15 percent advantage disappears. Negate it and the argument fails.\n\n(A) Preference could help fill seats, but the argument can hold without it. It is a helper, not a necessity.\n\n(B) Sale proceeds are not part of the operating-cost argument.\n\n(C) Reliability is a different issue from cost per passenger.\n\n(D) Fuel price changes would affect both aircraft types, so this isn't required for a relative saving.",
+      "tip": "Per-unit costs and per-customer costs only match if the units are used. Look for utilisation.",
+      "trap": "The \"passengers prefer jets\" choice feels like a load-factor link, but it is merely helpful, not required.",
+      "timeTarget": 110,
+      "skills": [
+        "numbers",
+        "plan"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-m-001",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "Sleep habits among teenagers have been the subject of growing public discussion, and the school has recently collected information on students' routines and results. A school principal notices that students who regularly sleep eight or more hours a night score higher on tests than students who sleep less. She concludes that students who currently sleep too little would score higher if they slept more.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Most students currently sleep fewer than eight hours a night.",
+        "Tests are the best measure of students' learning.",
+        "Sleep contributes to better scores, rather than higher-scoring students simply sleeping more for other reasons.",
+        "Students who sleep less are less intelligent.",
+        "Schools should start later in the morning."
+      ],
+      "answer": 2,
+      "explanation": "The principal moves from a pattern to a cause. She needs sleep itself to affect scores, not just coincide with them.\n\n**Correct: (C).** If something else (say, home environment) explains both, more sleep would not lift the scores of students who now sleep less. Negate it and the conclusion falls.\n\n(A) The number of short sleepers doesn't matter to whether sleep helps them.\n\n(B) Too strong and unnecessary. The claim concerns scores.\n\n(D) This offers a rival explanation, which would hurt the argument.\n\n(E) This is a policy suggestion outside the argument.",
+      "tip": "Pattern to cause: assume the link is real, not coincidence.",
+      "trap": "The \"fewer than eight hours\" choice sounds relevant but only tells you how many students are affected.",
+      "timeTarget": 75,
+      "skills": [
+        "causal"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-m-002",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The magazine covers local news and culture and has a large online readership, and the city council has been debating the stadium proposal for several months. A city magazine invited its online readers to take part in a poll on whether the city should build a new stadium. Sixty-eight percent of those who responded were in favour. The editor concluded that a clear majority of the city's residents favour the new stadium.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "The views of the readers who chose to respond are representative of the views of all residents of the city.",
+        "Every reader of the magazine responded to the poll.",
+        "The stadium would be paid for entirely with private funds.",
+        "Opponents of the stadium were more likely than supporters to respond.",
+        "More than a thousand readers responded."
+      ],
+      "answer": 0,
+      "explanation": "The poll is a self-selected group of readers, but the conclusion is about all residents. The assumption has to say that the respondents are a fair stand-in.\n\n**Correct: (A).** Without this, the 68 percent says nothing about the wider population. Negated, the conclusion fails.\n\n(B) Extreme. Even a complete readership would not be the whole city, and the argument doesn't need full response.\n\n(C) Funding is outside the claim about support.\n\n(D) This would mean the poll understates support for the stadium. It would help the editor's conclusion rather than being something the argument needs.\n\n(E) Sample size could help, but the argument doesn't require a particular number.",
+      "tip": "Self-selected poll plus a claim about everyone: representativeness is the assumption.",
+      "trap": "The \"more than a thousand\" choice appeals to the idea that bigger samples are better, but size doesn't cure self-selection.",
+      "timeTarget": 90,
+      "skills": [
+        "sample"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-m-003",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The bank operates entirely online and offers savings accounts, payments and a range of free planning features. Over the past three years, the proportion of customers of an online bank who use its budgeting tool has grown from 10 percent to 40 percent. Over the same period the bank's average customer balance has grown by 25 percent. A product manager concludes that the budgeting tool helps customers save more.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Customers who use the budgeting tool check their balances more often than other customers.",
+        "Every customer who uses the tool has increased their balance.",
+        "The budgeting tool is available at no charge.",
+        "The growth in customer balances is not mainly the result of general factors, such as rising wages or interest rates, that would have raised balances in any case.",
+        "Few of the bank's customers hold more than one account."
+      ],
+      "answer": 3,
+      "explanation": "Two things rose together, and the manager credits one for the other. The assumption has to rule out the most obvious alternative: balances would have risen anyway.\n\n**Correct: (D).** If general factors explain the rise, the tool needn't have contributed. Negated, the manager's conclusion falls apart.\n\n(A) Checking balances is a behaviour that isn't needed for the claim.\n\n(B) Extreme. The claim concerns the average, and some users could have seen no rise.\n\n(C) Price has nothing to do with whether it helps customers save.\n\n(E) The number of accounts per customer is not part of the reasoning.",
+      "tip": "Two trends moving together: assume there is no third factor driving both.",
+      "trap": "The \"every customer who uses the tool\" choice fits the claim neatly, but \"every\" is far more than the argument requires.",
+      "timeTarget": 100,
+      "skills": [
+        "causal",
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-m-004",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The firm delivers parcels to homes and businesses across several cities, and fuel is one of its major running costs. A mid-sized logistics firm plans to replace its drivers' paper route sheets with a tablet app that suggests efficient routes. The operations director argues that the change will reduce the firm's fuel costs, since a test with 15 experienced drivers showed the app cut their mileage by 12 percent.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "No driver will object to using a tablet.",
+        "The test drivers are not so different from the firm's other drivers that the 12 percent saving would fail to carry over.",
+        "Fuel is the largest single cost the firm faces.",
+        "Paper route sheets have caused errors in many deliveries.",
+        "Competing logistics firms have also adopted route apps."
+      ],
+      "answer": 1,
+      "explanation": "A small test group, and a plan to roll out to everyone. The director needs the test results to carry over to the wider driver base and the new system to be used.\n\n**Correct: (B).** If the 15 were especially inefficient or especially skilled, the result would not generalise. Negated, the fuel saving prediction has no basis.\n\n(A) Extreme. A few objectors would not wreck the plan.\n\n(C) Even a smaller cost could be reduced; size of the cost isn't required.\n\n(D) Delivery errors are a different matter from fuel costs.\n\n(E) Competitors are out of scope.",
+      "tip": "Small test, big rollout: check representativeness of the test group.",
+      "trap": "The \"no driver will object\" choice is a plan-feasibility idea, but its absolute wording makes it unnecessary.",
+      "timeTarget": 95,
+      "skills": [
+        "sample",
+        "plan"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-m-005",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The car park is in the middle of the city's main shopping district and is surrounded by small shops and cafes. City planners propose to convert a downtown car park into a pedestrian plaza. They cite a study of 20 cities in which pedestrianising a street raised the turnover of nearby shops by 9 percent on average in the following year. The planners predict that shops next to the new plaza will see more business.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Most customers of the nearby shops currently arrive by public transport.",
+        "Each of the 20 cities in the study had a larger population than this city.",
+        "The plaza will be cleaner than the car park is now.",
+        "The owners of the shops next to the car park support the plan.",
+        "The extra footfall the plaza brings will not be outweighed by the loss of customers who arrive by car and now use the car park."
+      ],
+      "answer": 4,
+      "explanation": "The study concerned pedestrianised streets. The plan removes a car park. The planners must assume that gains from foot traffic won't be cancelled by losing customers who arrive by car.\n\n**Correct: (E).** If the car park supplies most of the nearby shops' customers, closing it could cut their business. Negated, the prediction fails.\n\n(A) Too strong. Even if many arrive by car, footfall gains could still outweigh the loss.\n\n(B) City size isn't part of the argument.\n\n(C) Cleanliness is not the mechanism cited.\n\n(D) Owners' opinions are not evidence of their sales.",
+      "tip": "When a plan differs from the evidence in one respect, the assumption often addresses that difference.",
+      "trap": "The \"most customers arrive by public transport\" choice is half-right: it would help, but it is stronger than needed.",
+      "timeTarget": 110,
+      "skills": [
+        "analogy",
+        "plan"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-m-006",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The district is in a dry region where farmers have mostly relied on flood irrigation, and the bank offers several farm-loan schemes. After a regional bank began offering interest-free loans to farmers for buying drip-irrigation systems, average water use per hectare in the district fell by 20 percent. The bank argues that its loan scheme is responsible for the saving, pointing out that drip-irrigation systems save about 30 percent of water compared with flood irrigation.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Water prices in the district rose during the period.",
+        "The manufacturers' figure for water saved is an underestimate.",
+        "A substantial number of the farmers who received loans would not have installed drip irrigation without them.",
+        "Farmers who took the loans repaid them on time.",
+        "Drip irrigation is the most effective water-saving method available."
+      ],
+      "answer": 2,
+      "explanation": "The bank is crediting its loans for the water saving. The loans only deserve credit if the loan recipients installed systems they would not otherwise have installed.\n\n**Correct: (C).** If farmers would have installed the systems anyway, the loans did not cause the saving. Negate it and the bank's claim fails.\n\n(A) A price rise is a rival explanation, so it would weaken, not support.\n\n(B) If anything, this would help explain a bigger saving but isn't required for the loans to be responsible.\n\n(D) Repayment is irrelevant to the water saving.\n\n(E) Extreme and unnecessary. It need only save water.",
+      "tip": "When someone claims credit for an outcome, the assumption is that it wouldn't have happened without them.",
+      "trap": "The \"water prices rose\" choice looks like a relevant economic factor, but it points against the bank.",
+      "timeTarget": 105,
+      "skills": [
+        "causal",
+        "counterfactual"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-m-007",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "The company asked the consultant to assess its security training, which all four hundred employees completed during the same month. A cybersecurity consultant evaluated a company's phishing-awareness training. She sent the same 400 employees a simulated phishing email before the training, when 15 percent clicked the link, and another simulated email in the quarter after the training, when 14 percent clicked. She concludes that the training did not change employees' behaviour.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "The two simulated emails were of comparable difficulty to detect.",
+        "Every employee who clicked after the training had also clicked before it.",
+        "Training programmes on other security topics are also ineffective.",
+        "Few employees read the training materials in full.",
+        "Real phishing attacks on the company's employees have not increased."
+      ],
+      "answer": 0,
+      "explanation": "Click rates barely moved, so she says behaviour didn't change. But the two tests used different emails. If the second was harder to spot, an unchanged rate could hide a real improvement.\n\n**Correct: (A).** If the second email was much more convincing, an unchanged click rate would mean employees had actually improved. Negated, her conclusion is unsupported.\n\n(B) Extreme and unnecessary; the overall rate is what matters.\n\n(C) Other topics are outside the scope of this conclusion.\n\n(D) This could explain the result, but the argument doesn't need it.\n\n(E) Real attacks aren't part of the simulated-email comparison.",
+      "tip": "Before/after comparisons assume the measuring instrument stayed the same.",
+      "trap": "The \"every employee who clicked after\" choice sounds like it checks consistency, but it is far stronger than required.",
+      "timeTarget": 115,
+      "skills": [
+        "measurement",
+        "before-after"
+      ]
+    },
+    {
+      "id": "v-cr-assumption-va-m-008",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-assumption",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "Kolam is a popular app for editing and sharing photos on mobile phones, and its design team regularly studies how people use it. Designers of the Kolam photo-editing app reviewed usage data from the six months after the latest update. The data showed that most registered users never once opened the \"advanced tools\" menu, even though they edited photos regularly. The designers conclude that users do not value the advanced tools, which include curves, selective colour and layer masks.\n\nThe argument above depends on which of the following assumptions?",
+      "choices": [
+        "Most users find the app's interface too complicated.",
+        "Users who open the menu do so only once.",
+        "The advanced tools were expensive to develop.",
+        "Users' failure to open the menu does not mainly reflect their not knowing it exists or finding it hard to locate.",
+        "Other photo-editing apps hide their advanced tools in menus."
+      ],
+      "answer": 3,
+      "explanation": "The evidence is behaviour (not opening a menu). The conclusion is an attitude (not valuing the tools). The author must rule out other reasons users might never open it.\n\n**Correct: (D).** If users simply can't find the menu, low usage says nothing about how they value the tools. Negated, the conclusion loses support.\n\n(A) This is a rival reading that would hurt, and it isn't needed.\n\n(B) Frequency among openers isn't part of the argument.\n\n(C) Development cost is irrelevant to how users value the tools.\n\n(E) Other apps are out of scope.",
+      "tip": "When behaviour stands for a feeling, the assumption is that no other reason explains the behaviour.",
+      "trap": "The \"interface too complicated\" choice seems relevant to usage, but it points against the conclusion.",
+      "timeTarget": 100,
+      "skills": [
+        "terms-match",
+        "measurement"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-001",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "Ring Road is a busy road that circles the city, and the traffic department has monitored its accident figures for many years. After speed cameras were installed on Ring Road, the number of accidents on that road fell by 40 percent over the following year. The mayor argues that the speed cameras were responsible for the reduction.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Accidents on comparable roads without speed cameras showed no similar decline over the same year.",
+        "Speed cameras cost less to run than traffic-police patrols.",
+        "Several residents of Ring Road have said that they like the cameras.",
+        "Speed cameras have been installed in many other cities.",
+        "Ring Road is one of the busiest roads in the city."
+      ],
+      "answer": 0,
+      "explanation": "This is a before-and-after causal argument. The best strengthener rules out a general trend that would have lowered accidents anyway.\n\n**Correct: (A).** A comparison group without cameras and without the drop shows that the cameras, not a general trend, are the likely cause.\n\n(B) Cost is irrelevant to whether the cameras cut accidents.\n\n(C) Opinions about the cameras say nothing about accident numbers.\n\n(D) How common cameras are doesn't show that they work.\n\n(E) Background that doesn't bear on the cause of the drop.",
+      "tip": "For before-and-after claims, a comparison group that didn't change is the classic strengthener.",
+      "trap": "The \"residents like the cameras\" choice is about the cameras, so it feels supportive, but opinion isn't evidence of effect.",
+      "timeTarget": 75,
+      "skills": [
+        "causal",
+        "control-group"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-002",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "Maths scores have been a concern at both schools, which serve neighbouring parts of the same town and use similar textbooks. A neighbouring school's new coding club coincided with a rise in that school's maths scores. A principal at another school argues that starting a similar coding club will raise her own students' maths scores.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "The neighbouring school is two kilometres from the principal's school.",
+        "Coding clubs are popular among students across the country.",
+        "The principal has successfully started other clubs before.",
+        "The two schools have students of similar backgrounds and follow the same maths curriculum, and the planned coding club would cover the same content.",
+        "The neighbouring school's coding club has more members than the principal expects hers to have."
+      ],
+      "answer": 3,
+      "explanation": "An analogy argument: what worked there will work here. The strongest support shows the two situations are alike in the way that matters.\n\n**Correct: (D).** This shows the schools are alike in the respects likely to affect how the club influences maths scores.\n\n(A) Distance has no bearing on whether the club will help.\n\n(B) Popularity isn't the same as an effect on maths scores.\n\n(C) Her past clubs are irrelevant to whether this one will raise maths scores.\n\n(E) This points to a difference between the schools, which would, if anything, weaken the analogy.",
+      "tip": "In analogies, look for the choice that says \"the two cases are alike where it counts\".",
+      "trap": "The \"popular across the country\" choice sounds positive but says nothing about maths scores.",
+      "timeTarget": 80,
+      "skills": [
+        "analogy"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-003",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The firm has about five hundred engineers working in teams of roughly forty, and its management has been considering whether to change its attendance rules. A Hyderabad software firm let one team of 40 engineers work remotely three days a week for a quarter. That team's output rose 10 percent compared with the previous quarter. The firm's management concludes that letting engineers work remotely three days a week increases output.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "The firm saves on office rent when its engineers work remotely.",
+        "Output at the firm's other teams, which did not work remotely, was flat over the same quarter.",
+        "Remote work is popular among the firm's employees.",
+        "Several of the firm's competitors already allow remote work.",
+        "The remote team's work depends less on in-person collaboration than the work of most other teams."
+      ],
+      "answer": 1,
+      "explanation": "Output rose for the remote team. To credit remote work, we need to rule out a general rise in output that would have happened regardless.\n\n**Correct: (B).** This shows the rise wasn't a firm-wide trend and points to the remote arrangement as the likely cause.\n\n(A) Rent savings are unrelated to whether output rose because of remote work.\n\n(C) Popularity is not the same as productivity.\n\n(D) What competitors do tells us nothing about this firm's output.\n\n(E) This would suggest the team wasn't typical, so the result may not carry over, and it weakens the generalisation.",
+      "tip": "Look for the answer that holds everything else constant.",
+      "trap": "The \"popular among employees\" choice feels like a sign of success, but it measures preference, not output.",
+      "timeTarget": 80,
+      "skills": [
+        "causal",
+        "control-group"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-004",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The two suburbs are about twenty kilometres apart and lie on opposite sides of the city centre, with no direct public transport link at present. A bus operator plans to launch an express service between two suburbs of a large city. Its planners argue that the service will draw a large number of commuters out of their cars, because the current car journey between the suburbs is slow and unpredictable at peak hours.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Fares on the express service will be higher than on the operator's ordinary buses.",
+        "The operator has recently bought new buses for the service.",
+        "Many suburban car commuters say that they enjoy driving.",
+        "The operator's other express services are profitable.",
+        "At peak hours, the express bus will take substantially less time than the car journey between the suburbs."
+      ],
+      "answer": 4,
+      "explanation": "A plan with a stated reason. For commuters to switch, the bus must offer something better than the slow car journey the planners describe.\n\n**Correct: (E).** It provides the missing comparison: if the bus is faster, the planners' reason for switching holds.\n\n(A) This gives a possible reason for commuters not to switch, so it weakens the plan.\n\n(B) New vehicles do not show that commuters would use the service.\n\n(C) This weakens the claim that they would switch.\n\n(D) Profit elsewhere doesn't show that car commuters here would switch.",
+      "tip": "For plans, prefer the answer that shows the plan beats the current alternative.",
+      "trap": "The \"other services are profitable\" choice sounds like success, but it concerns different routes and different customers.",
+      "timeTarget": 85,
+      "skills": [
+        "plan"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-005",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Heart disease is a leading cause of death in many countries, and a number of scientists have studied the effects of diet on it. The study followed several thousand adults for many years. Researchers found that people who drink green tea every day have lower rates of heart disease than people who do not. They hypothesise that compounds in green tea improve the function of blood vessels, and they conclude that drinking green tea helps protect the heart.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Regular green tea drinkers also tend to exercise more than non-drinkers.",
+        "Green tea contains less caffeine than coffee.",
+        "In a controlled experiment, volunteers randomly assigned to drink green tea showed improved blood-vessel function compared with volunteers assigned to drink water.",
+        "Most patients with heart disease have never regularly drunk green tea.",
+        "Green tea is the most popular drink in several countries."
+      ],
+      "answer": 2,
+      "explanation": "The study shows a correlation; the researchers propose a mechanism. The best support will test that mechanism directly or rule out other explanations.\n\n**Correct: (C).** Random assignment removes lifestyle differences and shows the proposed mechanism in action.\n\n(A) This offers an alternative explanation, so it weakens.\n\n(B) The caffeine comparison has no bearing on heart protection.\n\n(D) Because most people don't drink green tea regularly, this tells us little about its effect.\n\n(E) Popularity doesn't show a protective effect. In short: a correlation plus a proposed mechanism is strongest when a controlled experiment shows the mechanism at work and removes lifestyle differences between drinkers and non-drinkers.",
+      "tip": "Random assignment plus a measured mechanism is about as strong as causal evidence gets.",
+      "trap": "The \"most heart patients never drank green tea\" choice sounds like a pattern, but with no base rate it proves little.",
+      "timeTarget": 90,
+      "skills": [
+        "causal",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-006",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The retailer sells clothing and household goods through about eighty stores and its own website. Its analysts have tracked the sales from each channel every quarter. Over the past three years, a retailer's online sales have grown steadily while its store sales have shrunk. A company analyst concludes that customers are shifting their purchases from the retailer's stores to its website.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Most of the customers who now buy from the retailer's website used to buy from its stores.",
+        "The retailer's online prices are lower than its store prices.",
+        "Total retail spending in the region fell over the three years.",
+        "The retailer's online sales grew faster than the overall online retail market.",
+        "The retailer closed several underperforming stores during the three years."
+      ],
+      "answer": 0,
+      "explanation": "Two trends move in opposite directions, and the analyst infers a transfer. A transfer means the same customers are moving, not that two different groups are doing different things.\n\n**Correct: (A).** This links the two trends through the same people, which is what \"shifting\" means.\n\n(B) A possible reason to shift, but it doesn't show that the same customers did.\n\n(C) This offers another explanation for shrinking store sales and weakens the claim.\n\n(D) Comparison with the market says nothing about where the customers came from.\n\n(E) Store closures give an alternative reason for falling store sales.",
+      "tip": "If the conclusion says \"shifting\", look for the same people appearing on both sides.",
+      "trap": "The lower-online-prices choice is half-right: it's a motive, but not evidence that the move occurred.",
+      "timeTarget": 95,
+      "skills": [
+        "causal",
+        "gap"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-007",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "Plastic waste is a visible problem in the city's markets, and the monsoon brings heavy rain every year between June and September. A municipal corporation plans to ban plastic bags in the city's vegetable markets, expecting to reduce monsoon flooding. The corporation notes that a ban in a nearby town was followed by a 30 percent drop in blocked drains, and argues that because blocked drains cause flooding in the city, the ban will reduce flooding here.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Plastic bags make up a small share of the solid waste collected in the city.",
+        "Cloth bags cost more than plastic bags.",
+        "Monsoon rainfall in the city has been increasing in recent years.",
+        "Plastic bags from vegetable markets are the main material blocking the city's drains, and blocked drains are the main cause of the city's monsoon flooding.",
+        "The city collects rubbish from the vegetable markets every day."
+      ],
+      "answer": 3,
+      "explanation": "The plan relies on a chain: bags to blocked drains to flooding. The strongest support confirms the links in the chain for this city.\n\n**Correct: (D).** It confirms both links of the chain in the city itself.\n\n(A) This would weaken the idea that bags matter for blockages.\n\n(B) Cost differences don't affect flooding.\n\n(C) Heavier rain makes flooding worse regardless of the ban, which weakens the prediction.\n\n(E) Daily collection could make bags matter less, so this doesn't strengthen.",
+      "tip": "For chain arguments, strengthen the weakest link, or confirm all of them.",
+      "trap": "Choosing the cost option because bans are often debated on price; it has no link to flooding.",
+      "timeTarget": 100,
+      "skills": [
+        "plan",
+        "chain"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-008",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The company launches a new handset about once a year and relies on its existing customers for a large share of its sales. A phone maker asked 1,000 owners of its current flagship handset whether they would buy the company's next model. Sixty-five percent said they would. The company's marketing director concludes that the next model will sell strongly among its current owners.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "The next model will be priced lower than the current flagship.",
+        "In past surveys of the company's handset owners, the share who said they would buy a new model closely matched the share who actually did.",
+        "Several respondents refused to answer some of the survey's questions.",
+        "The survey sample was chosen from the company's customer database.",
+        "Competing phone makers are also planning new models."
+      ],
+      "answer": 1,
+      "explanation": "The evidence is what people say they will do. The conclusion is what they will actually do. The strongest support shows that, in this setting, saying and doing line up.\n\n**Correct: (B).** It closes the gap between stated intent and real behaviour.\n\n(A) A lower price could help sales but doesn't show that survey answers predict purchases.\n\n(C) Refusals do not strengthen anything and may suggest a biased sample.\n\n(D) This only tells us who was asked, not whether intentions match actions.\n\n(E) This could reduce the company's sales and weaken the claim.",
+      "tip": "Stated intention vs. actual behaviour is a common gap; evidence that links them is a strong strengthener.",
+      "trap": "The lower-price choice is tempting because price drives sales, but the argument rests on the survey's reliability.",
+      "timeTarget": 95,
+      "skills": [
+        "survey"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-009",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The study covered more than thirty neighbourhoods in a large city and tracked both the number of independent cafes and the average property price over ten years. A sociologist found that neighbourhoods with more independent cafes have faster-rising property prices. She concludes that opening cafes helps raise property prices in a neighbourhood, because cafes attract affluent young professionals who look for housing nearby.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Independent cafes tend to open in neighbourhoods where property prices are already high.",
+        "Property prices in the study's neighbourhoods have risen faster than the prices of coffee.",
+        "Café owners say that most of their customers are young professionals.",
+        "Neighbourhoods with more parks also have faster-rising property prices.",
+        "In most of the neighbourhoods studied, property prices began rising only after the first independent cafes had opened."
+      ],
+      "answer": 4,
+      "explanation": "She reads the correlation as cafes causing price rises. The obvious challenger is the reverse: rising prices bring cafes. Evidence about timing would help.\n\n**Correct: (E).** It addresses the reverse-causation worry by showing the cafes came first.\n\n(A) This is reverse causation, which would weaken her conclusion.\n\n(B) A comparison with coffee prices is irrelevant.\n\n(C) This describes customers but doesn't show that prices rose because of the cafes.\n\n(D) This hints at other factors that could explain the pattern, so it weakens.",
+      "tip": "If reverse causation is the worry, look for evidence on order in time.",
+      "trap": "The \"customers are young professionals\" choice repeats the author's mechanism without proving it.",
+      "timeTarget": 90,
+      "skills": [
+        "causal",
+        "reverse-causation"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-010",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "Migraine is a common condition that can cause severe headaches and sensitivity to light. In a trial with 300 participants, each of whom suffered at least four migraine attacks a month, a new drug, Cefalin, reduced the number of attacks by an average of 40 percent compared with a placebo. The manufacturer now plans to market Cefalin as an effective treatment for migraine sufferers generally, including those who suffer fewer attacks.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Cefalin has fewer side effects than most existing migraine drugs.",
+        "Most migraine sufferers have fewer than four attacks a month.",
+        "In a smaller earlier study, Cefalin reduced attacks by a similar proportion in people who suffered fewer than four migraines a month.",
+        "The trial's participants were recruited from several countries.",
+        "Cefalin is cheaper than the leading migraine treatments."
+      ],
+      "answer": 2,
+      "explanation": "The trial covered frequent sufferers only, but the marketing claim covers all. The strongest support shows the effect extends to those with fewer attacks.\n\n**Correct: (C).** It bridges the gap by showing a comparable effect in the group left out of the trial.\n\n(A) Safety is about side effects, not about whether the effect extends to less-frequent sufferers.\n\n(B) This shows that the trial group isn't typical, which weakens the generalisation.\n\n(D) Geographical spread doesn't address how frequent the attacks were.\n\n(E) Price isn't evidence of effectiveness.",
+      "tip": "When the conclusion extends beyond the sample, the best strengthener is evidence from the excluded group.",
+      "trap": "The \"fewer side effects\" choice sounds like a selling point, but the gap is about who the drug works for.",
+      "timeTarget": 105,
+      "skills": [
+        "generalisation"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-011",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "Many investors and regulators have been paying more attention to how company boards are composed, and the study covered several hundred listed companies. A business-school study found that companies with at least three women on their boards were, on average, more profitable over a five-year period than companies with none. A consultant argues that adding women to the boards of its client companies will improve their profitability.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Among companies that added several women directors during the study, profits rose afterwards relative to similar companies that made no change to their boards.",
+        "Highly profitable companies can afford to recruit more directors.",
+        "Most large companies have at least one woman on the board.",
+        "The women directors in the study had, on average, more years of schooling than the men.",
+        "Profit is the most common measure of a company's success."
+      ],
+      "answer": 0,
+      "explanation": "The study shows that the two things go together, and the consultant treats board composition as a cause. The best strengthener shows that the change preceded and improved profit.\n\n**Correct: (A).** It shows change after the cause was introduced, compared with a similar group, which supports causation.\n\n(B) This suggests profit leads to board size, reversing the arrow and weakening the argument.\n\n(C) How common it is says nothing about its effect on profit.\n\n(D) Qualifications don't show that the board change caused higher profit.\n\n(E) This justifies the measure used but not the causal claim.",
+      "tip": "For correlation-based plans, look for evidence of change after the change was made.",
+      "trap": "The \"more years of schooling\" choice attributes the effect to a trait of the directors, but doesn't show that adding them raised profit.",
+      "timeTarget": 100,
+      "skills": [
+        "causal"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-012",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "Complication rates are closely watched in hospitals, and the checklist covers steps such as confirming allergies and checking equipment. A hospital's board credits a new post-surgery checklist for a fall in its surgical complication rate from 12 percent to 8 percent in the year after the checklist was introduced. A surgeon on the board has said that the improvement could instead have resulted from a change in which patients the hospital treated.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Other hospitals that use the checklist had complication rates above 8 percent before they adopted it.",
+        "The checklist takes about five minutes to complete.",
+        "The hospital treated more patients in the year after the checklist than in the year before.",
+        "The mix of patients operated on, in terms of age and pre-existing conditions, was the same before and after the checklist was introduced.",
+        "Most surgeons at the hospital say that they find the checklist useful."
+      ],
+      "answer": 3,
+      "explanation": "The surgeon's worry is an alternative explanation: a changed patient mix. The strongest strengthener answers that specific worry.\n\n**Correct: (D).** It rules out the surgeon's alternative, leaving the checklist as the likely cause.\n\n(A) Their earlier rates are irrelevant to why this hospital's rate fell.\n\n(B) The time it takes doesn't show that it reduced complications.\n\n(C) This could change patient mix or workload, so it doesn't help and might hurt.\n\n(E) Opinions of surgeons are not evidence of an effect on complication rates.",
+      "tip": "When a critic names an alternative, pick the choice that eliminates it.",
+      "trap": "The surgeons-find-it-useful choice feels supportive, but it doesn't answer the alternative explanation.",
+      "timeTarget": 100,
+      "skills": [
+        "causal",
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-013",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "The railway carries millions of passengers a year, and long-distance services are an important source of its income. A national railway proposes to raise fares on its long-distance trains by 10 percent, arguing that the rise will increase the railway's revenue. It points out that when it last raised those fares by 5 percent, passenger numbers fell by only 1 percent, which suggests that long-distance passengers will keep travelling despite higher fares.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "When the earlier fare rise was announced, many passengers bought tickets in advance of it.",
+        "For most long-distance journeys, rail passengers have no alternative that is comparable in both cost and travel time.",
+        "Long-distance trains account for the majority of the railway's total revenue.",
+        "The railway's operating costs per passenger have been rising.",
+        "Fares on the railway's regional services will not be changed."
+      ],
+      "answer": 1,
+      "explanation": "The railway infers that demand is insensitive to price from one small increase. The best support addresses why passengers stay and whether this will continue for a larger rise.\n\n**Correct: (B).** It explains why demand is insensitive and suggests the pattern will persist for a 10 percent rise.\n\n(A) This means the 1 percent drop understated the effect, so it weakens.\n\n(C) This shows the importance of those trains but not whether revenue will rise.\n\n(D) Costs don't tell us what happens to revenue when fares rise.\n\n(E) Regional fares are irrelevant to long-distance demand.",
+      "tip": "Elasticity arguments strengthen when you learn why customers have nowhere else to go.",
+      "trap": "The \"majority of revenue\" choice feels weighty, but it measures size, not the effect of the fare rise.",
+      "timeTarget": 115,
+      "skills": [
+        "plan",
+        "prediction"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-p-014",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "Obsidian is a volcanic glass that can be chipped into very sharp tools, and different volcanic sources produce glass with different chemical signatures. Archaeologists found obsidian tools at an inland settlement, Site Y, with the chemical signature of obsidian from a volcanic source at X, 500 kilometres away. They conclude that the people of Site Y obtained their obsidian through a long-distance trade route from X, rather than from some unknown nearer source.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Obsidian was widely valued as a material for cutting tools in ancient societies.",
+        "Site Y was larger than any other settlement between X and Site Y.",
+        "Obsidian tools with the signature of other, more distant volcanic sources have been found at Site Y.",
+        "Site Y's people left no written records of their trading.",
+        "Geological surveys have found no deposit of obsidian with the same chemical signature anywhere nearer to Site Y than X."
+      ],
+      "answer": 4,
+      "explanation": "The alternative the archaeologists dismiss is a nearer, undiscovered source with the same signature. The best strengthener targets that.\n\n**Correct: (E).** It eliminates the nearer-source alternative.\n\n(A) General background that doesn't connect X to Y.\n\n(B) The size of settlements doesn't show where obsidian came from.\n\n(C) This may show a trading habit but also points to other sources, so it doesn't settle whether X-obsidian came by trade rather than a nearer deposit.\n\n(D) Absence of records doesn't tell us whether trade happened.",
+      "tip": "If the conclusion rejects a rival explanation, strengthen it by eliminating that rival.",
+      "trap": "The \"other distant sources\" choice looks like trade evidence, but it says nothing about whether a nearer source exists.",
+      "timeTarget": 110,
+      "skills": [
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-m-001",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "Hospital-acquired infections are a serious concern, and the administrator was reviewing the results of several safety measures introduced over the past year. After a hospital placed hand-sanitiser stations at the entrance to every ward, infection rates in its wards fell by 20 percent over the next six months. The hospital administrator concluded that the sanitiser stations reduced infections.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Hand sanitiser is inexpensive.",
+        "Many nurses say they like the new stations.",
+        "Infection rates did not fall in the hospital's day-care units, which have similar patients but no sanitiser stations.",
+        "Several other hospitals have installed sanitiser stations.",
+        "The hospital is one of the largest in the state."
+      ],
+      "answer": 2,
+      "explanation": "A before-and-after claim. Evidence that comparable wards without the stations did not improve points to the stations as the cause.\n\n**Correct: (C).** A similar unit without the change and without the drop makes the stations the likely cause.\n\n(A) Cost has no bearing on effect.\n\n(B) Opinion isn't evidence of effect.\n\n(D) Common practice does not prove that they work.\n\n(E) Size has no bearing on what caused the drop. Remember to ask of each choice whether it adds something new that makes the cause more likely, and discard anything that merely describes the product, its price or how people feel about it.",
+      "tip": "A similar group that didn't change and didn't improve is strong evidence for the cause.",
+      "trap": "Choosing the nurses' opinion: it sounds supportive but it's not evidence of an effect.",
+      "timeTarget": 75,
+      "skills": [
+        "causal",
+        "control-group"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-m-002",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The brand sells a range of fruit juices in several flavours, and it had not advertised on television before. A juice brand ran a television advertising campaign in three cities, and its sales there rose 12 percent over the following two months. The brand's head concludes that the campaign was responsible for the sales rise.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Within those cities, sales rose only for the flavours featured in the advertisements, and the rises followed the weeks when the ads aired.",
+        "The campaign cost less than the brand's previous campaign.",
+        "The brand's juice has been sold for more than twenty years.",
+        "Sales of the juice are normally higher in the summer than in the winter.",
+        "The campaign ran on several popular television channels."
+      ],
+      "answer": 0,
+      "explanation": "The brand credits the campaign for rising sales. The best strengthener shows that the rise matched the campaign in a specific way, ruling out a general upswing.\n\n**Correct: (A).** The rises line up with both product and timing, which is hard to explain without the campaign.\n\n(B) Cost is irrelevant to the cause of the sales rise.\n\n(C) Its age says nothing about the effect of the campaign.\n\n(D) A seasonal explanation would weaken the claim.\n\n(E) Where it ran does not show that it caused the rise.",
+      "tip": "Evidence that matches the effect to the cause on two dimensions (what and when) is powerful.",
+      "trap": "The \"popular channels\" choice sounds like reach, but reach is not impact.",
+      "timeTarget": 85,
+      "skills": [
+        "causal",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-m-003",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The company provides mobile and broadband services to several million customers, and the director wanted to report on customer satisfaction to the board. A telecom company polled 2,000 customers who had called its helpline in the past month. Seventy percent said they were satisfied with the company's service. The company's director concludes that most of its customers are satisfied with its service.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "The helpline's staff completed an extensive training programme this year.",
+        "The poll was carried out by telephone.",
+        "Customers who call the helpline are more likely than other customers to be satisfied with the service.",
+        "An independent poll of a random sample of all the company's customers found a similar level of satisfaction.",
+        "The company's rivals have lower customer-satisfaction ratings."
+      ],
+      "answer": 3,
+      "explanation": "The sample consists of helpline callers, but the conclusion covers all customers. Helpline callers might be more upset than average, or less. The strongest strengthener shows that callers resemble everyone else.\n\n**Correct: (D).** It confirms the result on a sample of all customers, closing the representativeness gap.\n\n(A) Staff training doesn't show that the callers are typical.\n\n(B) The method of polling doesn't address who was polled.\n\n(C) This would mean the callers overstate satisfaction, which weakens the conclusion.\n\n(E) Rivals' ratings don't show that this company's customers are satisfied.",
+      "tip": "If the sample is a subset, the best strengthener is evidence from the whole population.",
+      "trap": "The \"rivals have lower ratings\" choice sounds supportive, but a comparison with rivals doesn't show that this company's customers are mostly satisfied.",
+      "timeTarget": 100,
+      "skills": [
+        "sample"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-m-004",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The programme, launched two years ago, gives grants to students from families with low incomes and is open to all applicants who meet the criteria. A university reports that the proportion of low-income students in its entering class rose from 12 percent to 18 percent after it launched a scholarship programme. The registrar concludes that the university now enrols more low-income students each year than it did before the programme.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "The proportion of students from high-income families in the entering class fell from 40 percent to 30 percent.",
+        "The university's entering class this year is at least as large as the entering class was before the programme.",
+        "The scholarships are funded mainly by alumni donations.",
+        "Other universities have also reported rises in the share of low-income students.",
+        "The average scholarship covers about half of a student's fees."
+      ],
+      "answer": 1,
+      "explanation": "A share rose, and the registrar concludes the number rose. The number depends on class size. Evidence about class size closes the gap.\n\n**Correct: (B).** With the same or a larger class, a larger share means more low-income students.\n\n(A) This restates another share change and doesn't address the total.\n\n(C) Funding source is irrelevant to the count.\n\n(D) Other universities' shares do not tell us about this university's count.\n\n(E) The size of the scholarship doesn't address the total number of students.",
+      "tip": "Percent up, number up: the strengthener provides the base.",
+      "trap": "The \"high-income share fell\" choice is the same kind of share evidence, not count evidence.",
+      "timeTarget": 90,
+      "skills": [
+        "numbers-vs-percent"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-m-005",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The basin is an agricultural region with a mix of farmland and forest, and the lakes vary in size. A survey of twelve lakes in a river basin found that lakes next to farmland had markedly higher algae levels than lakes far from farmland. Environmental officers conclude that fertiliser running off from farms is driving the algal growth and propose limiting fertiliser use in the basin.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Farmers in the basin use more fertiliser than they did ten years ago.",
+        "Lakes next to farmland are, on average, shallower than lakes far from farmland.",
+        "Warm water encourages algal growth in lakes.",
+        "High levels of algae can harm fish in lakes.",
+        "In lakes where fertiliser runoff was later reduced, algae levels fell, while in lakes where it was not reduced, algae levels stayed high."
+      ],
+      "answer": 4,
+      "explanation": "The officers read a correlation as a cause. Evidence that changing the supposed cause changes the effect will be strongest.\n\n**Correct: (E).** A before-and-after change in the cause producing a change in the effect, with a comparison group, is strong causal evidence.\n\n(A) This shows a rise in fertiliser use but not that it affects the lakes, so it helps little.\n\n(B) Shallower lakes warm faster and grow more algae, so this gives an alternative explanation.\n\n(C) A natural cause that might explain the pattern, which weakens.\n\n(D) Harm to fish does not show what causes algae.",
+      "tip": "Manipulating the cause and seeing the effect change beats a plain correlation.",
+      "trap": "The \"more fertiliser than ten years ago\" choice is half-right: it shows an increasing input, but not that the input causes the algae.",
+      "timeTarget": 105,
+      "skills": [
+        "causal",
+        "intervention"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-m-006",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The bank has more than two hundred branches in small towns, many of which handle only a modest number of customers each day. A bank plans to close the teller counters in its small-town branches and move customers to its mobile app, to cut costs. It argues that this can be done without losing customers, since use of the app among small-town customers has risen steadily for three years and teller visits have fallen by a third.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "Smartphone ownership in small towns has risen sharply over the past five years.",
+        "The bank's small-town branches are less profitable than its city branches.",
+        "Most of the remaining visits to small-town tellers are for transactions that the app can already handle.",
+        "Teller salaries are among the bank's largest expenses.",
+        "Competing banks have kept their small-town counters open."
+      ],
+      "answer": 2,
+      "explanation": "The bank sees a trend toward the app. But the plan removes the counter entirely, and the remaining counter users may need things the app can't do. The best strengthener covers them.\n\n**Correct: (C).** It shows the people who still use counters could move to the app without losing a service.\n\n(A) This supports the trend that the bank already cited and says nothing about those who still use counters.\n\n(B) Profit comparisons don't address whether customers will stay.\n\n(D) This shows the savings but not that customers will stay.\n\n(E) This would hint that customers expect counters, so it weakens.",
+      "tip": "When a plan removes an option, strengthen it by showing that those who use the option can be served elsewhere.",
+      "trap": "The smartphone-ownership choice supports a trend the author already cited, so it adds little.",
+      "timeTarget": 105,
+      "skills": [
+        "plan"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-m-007",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "Funds that invest in growth companies have been popular with investors over the past decade, and the company has run many such funds. A fund company's marketing head notes that the average five-year return of its growth funds exceeded the return on the market index. She concludes that the company's fund managers add value through skilful stock picking.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "The five-year average includes funds that the company closed or merged during the period because of poor performance.",
+        "The company's growth funds charge lower fees than the average for the market.",
+        "The market index fell in two of the five years.",
+        "The company's fund managers have, on average, fifteen years of experience.",
+        "The best-performing funds in the company attract the most investor money."
+      ],
+      "answer": 0,
+      "explanation": "Averages over funds still in existence flatter the record if poor funds were closed down along the way. The best strengthener addresses that.\n\n**Correct: (A).** The figure is not flattered by the removal of weak funds, so the outperformance is not an artefact of survival.\n\n(B) Lower fees may raise net returns but do not show skill in picking stocks.\n\n(C) Falls in the index don't show the funds' picks were skilful.\n\n(D) Experience may be suggestive but doesn't show the return figure is reliable.\n\n(E) Investor flows describe behaviour after performance, not skill.",
+      "tip": "Averages that exclude failures need a fix; look for \"including those that failed\".",
+      "trap": "The \"lower fees\" choice is half-right: it helps net returns, but not the claim of skill.",
+      "timeTarget": 115,
+      "skills": [
+        "survivorship"
+      ]
+    },
+    {
+      "id": "v-cr-strengthen-va-m-008",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-strengthen",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "The star lies thousands of light years from Earth and is similar in type to the Sun, and the dips are small but measurable. Astronomers observing a distant star record a dip in its brightness every 40 days. They conclude that the dips are caused by a planet passing in front of the star, rather than by dark patches on the star's surface that come into view as the star rotates.\n\nWhich of the following, if true, most strengthens the argument?",
+      "choices": [
+        "The star is about the same size as the Sun.",
+        "Many stars similar to this one are known to have planets.",
+        "The dips have been recorded over a period of eight years.",
+        "Each dip begins and ends abruptly and has a flat bottom, whereas dark patches rotating into view would produce a gradual dimming and brightening.",
+        "The observations were made with the most sensitive telescope available."
+      ],
+      "answer": 3,
+      "explanation": "There are two rival explanations: a transiting planet and rotating dark patches. The best strengthener shows the dips behave as a planet would, and not as patches would.\n\n**Correct: (D).** The abrupt, flat-bottomed shape matches a planet's transit and does not match rotating patches.\n\n(A) The star's size doesn't discriminate between explanations.\n\n(B) A base-rate point which helps a little, but doesn't discriminate between the two explanations for this star.\n\n(C) Regular dips could result from either cause.\n\n(E) Quality of the instrument doesn't discriminate between causes.",
+      "tip": "When two explanations compete, the best evidence is something that one predicts and the other doesn't.",
+      "trap": "The \"similar stars have planets\" choice is half-right but the right answer rules out the rival.",
+      "timeTarget": 110,
+      "skills": [
+        "alternative-cause",
+        "science"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-001",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "The café is in a busy part of a city with a hot climate, and its owner keeps careful records of sales by drink. A café owner noticed that sales of cold coffee rose 30 percent in the three months after she repainted the café's walls bright yellow. She concludes that the new wall colour has increased the café's cold coffee sales.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The three months in question were the hottest months of the year.",
+        "Yellow is generally regarded as a cheerful colour.",
+        "The repainting cost the owner about twenty thousand rupees.",
+        "A few customers said they liked the café's previous wall colour.",
+        "The café sells a wide range of drinks."
+      ],
+      "answer": 0,
+      "explanation": "A before-and-after causal claim. The best weakener supplies another reason for the rise that has nothing to do with the paint.\n\n**Correct: (A).** Hot weather alone could explain a rise in cold coffee sales, so the paint need not have mattered.\n\n(B) If anything, this makes the paint effect more plausible.\n\n(C) Cost has nothing to do with the cause of the sales rise.\n\n(D) A few opinions don't explain the sales numbers.\n\n(E) The variety of drinks is irrelevant to why cold coffee sales rose.",
+      "tip": "Before-and-after claims are weakened by a second change that happened at the same time.",
+      "trap": "The \"yellow is cheerful\" choice supports the owner, since it strengthens the mechanism.",
+      "timeTarget": 70,
+      "skills": [
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-002",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "The poll was sent to every subscriber by email, and the magazine, which focuses on business and lifestyle, is read throughout the country. A national magazine polled its subscribers on a proposed tax on luxury cars. Eighty percent of the subscribers who responded opposed the tax. The editor concludes that most of the country's citizens oppose the proposed tax.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The magazine has been published continuously for thirty years.",
+        "More than a thousand subscribers responded to the poll.",
+        "The tax, if approved, would take effect next year.",
+        "Most of the magazine's subscribers belong to the highest income bracket, which is the group that would actually pay the tax.",
+        "Subscribers read the magazine's coverage of the budget closely."
+      ],
+      "answer": 3,
+      "explanation": "The editor generalises from magazine subscribers to all citizens. The best weakener shows that the subscribers are not typical.\n\n**Correct: (D).** The respondents are the group most affected, so their view isn't representative of citizens generally.\n\n(A) Its age says nothing about whether its subscribers represent citizens.\n\n(B) A large sample of an unrepresentative group is still unrepresentative.\n\n(C) The start date is irrelevant to opposition.\n\n(E) This suggests that they are informed, not that they are typical. The general lesson is that a poll of one self-selected group tells you about that group, so the strongest attack shows how that group differs from the people the conclusion is about.",
+      "tip": "For polls, ask who answered and whether they resemble everyone else.",
+      "trap": "The \"more than a thousand responded\" choice sounds like a sample-size issue, but it doesn't touch the bias.",
+      "timeTarget": 70,
+      "skills": [
+        "sample"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-003",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Traffic and parking are major problems in the city's central business district, which has several large office towers. A city plans to cut downtown traffic by raising downtown parking fees by 50 percent. City officials argue that, faced with the higher fees, many drivers who now park downtown will switch to the metro, which stops within a short walk of most downtown offices.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The city last raised its downtown parking fees ten years ago.",
+        "Most vehicles entering downtown on weekdays are delivery vans and tradespeople's vehicles carrying equipment, and they cannot do their work by metro.",
+        "Downtown parking garages are mostly owned by private operators.",
+        "Metro trains on the line serving downtown run every five minutes at peak times.",
+        "Some drivers park downtown for less than an hour at a time."
+      ],
+      "answer": 1,
+      "explanation": "A plan relying on drivers' switching. The best weakener shows that many of the drivers can't or won't switch.\n\n**Correct: (B).** These drivers can't use the metro, so the higher fee would not move them to it and traffic wouldn't fall as expected.\n\n(A) The history of fee changes doesn't show whether drivers will switch.\n\n(C) Ownership doesn't change drivers' responses to the fee.\n\n(D) Frequent trains make switching easier, which supports the plan.\n\n(E) Short stays don't show that those drivers would not switch.",
+      "tip": "Plans that depend on people changing behaviour are weakened by evidence that many can't change.",
+      "trap": "The \"ownership of garages\" choice sounds like it matters to fees, but it has no bearing on driver behaviour.",
+      "timeTarget": 85,
+      "skills": [
+        "plan"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-004",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The company provides services to businesses and individuals, and it surveys all its customers once a year. A company's annual customer survey shows that the percentage of its customers who are satisfied with its service rose from 60 percent to 75 percent over a three-year period. The company's chief executive concludes that the company now has more satisfied customers than it did three years ago.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "Some satisfied customers also use the services of competing companies.",
+        "The customer survey is administered by an independent agency.",
+        "Most of the company's customers are small businesses.",
+        "Customers rate their satisfaction on a five-point scale.",
+        "The company's total number of customers shrank by more than one fifth over the three years."
+      ],
+      "answer": 4,
+      "explanation": "The evidence is a percentage; the conclusion is a count. The best weakener shows the base shrank enough to wipe out the gain.\n\n**Correct: (E).** If customers fell by more than a fifth, 75 percent of the smaller base is fewer people than 60 percent of the original.\n\n(A) Using other companies doesn't change how many of this company's customers are satisfied.\n\n(B) Independence supports the survey's reliability.\n\n(C) The type of customer doesn't affect the count of satisfied customers.\n\n(D) The scale doesn't affect the comparison.",
+      "tip": "Percent up and \"more people\" are different claims: ask what happened to the total.",
+      "trap": "The \"independent agency\" choice seems to challenge the survey, but independence helps it.",
+      "timeTarget": 85,
+      "skills": [
+        "numbers-vs-percent"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-005",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Both cities are large, with growing populations and significant congestion, and the bike-sharing scheme in Ahmedabad was one of the first of its kind in the country. In Ahmedabad, the introduction of a public bike-sharing scheme was followed by a doubling of daily cycling trips in the city. Planners in Bengaluru argue that introducing a similar scheme in their city will also double the number of daily cycling trips there.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "Ahmedabad's scheme took two years to set up.",
+        "Bengaluru has more residents than Ahmedabad.",
+        "Ahmedabad's scheme was built around a network of protected bike lanes that Bengaluru's roads currently lack.",
+        "Bike-sharing schemes operate in many cities around the world.",
+        "Several Bengaluru residents already own bicycles."
+      ],
+      "answer": 2,
+      "explanation": "An analogy: what happened in Ahmedabad will happen in Bengaluru. The best weakener points to a relevant difference between the cities.\n\n**Correct: (C).** If the bike lanes were what made cycling attractive, Bengaluru's scheme without them would not produce the same result.\n\n(A) The set-up time doesn't affect the outcome in Bengaluru.\n\n(B) A larger population doesn't show that the scheme would work less well.\n\n(D) Their commonness doesn't show that this one will behave differently.\n\n(E) Ownership could help or make no difference, so it doesn't weaken the claim.",
+      "tip": "Analogy arguments are weakened by one decisive difference between the cases.",
+      "trap": "The \"more residents\" choice sounds like it matters, but size alone doesn't change the mechanism.",
+      "timeTarget": 85,
+      "skills": [
+        "analogy"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-006",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The company has several offices with outdoor space and has encouraged staff to be active during the working day. A company's health report shows that employees who regularly take walking breaks during the working day are, on average, healthier than those who do not. The company's wellness manager concludes that taking regular walking breaks improves employees' health, and she plans to require every employee to take them.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "Employees in poor health often find walking uncomfortable and so take fewer walking breaks.",
+        "The average walking break at the company lasts about ten minutes.",
+        "Many employees use their walking breaks to make personal phone calls.",
+        "Most of the company's employees are covered by health insurance.",
+        "The company's walking paths were built only last year."
+      ],
+      "answer": 0,
+      "explanation": "Correlation is read as cause. The weakener flips the arrow: perhaps good health is what lets employees take walks.\n\n**Correct: (A).** Good health may therefore lead to walking breaks rather than the other way round, so forcing breaks on others needn't improve their health.\n\n(B) The length doesn't bear on the direction of cause.\n\n(C) What they do while walking is irrelevant.\n\n(D) Insurance coverage doesn't bear on whether walking improves health.\n\n(E) The age of the paths doesn't show whether walking works.",
+      "tip": "Whenever a correlation becomes a cause, test the reverse: could the effect be causing the cause?",
+      "trap": "The phone calls choice sounds like a reason walking might not help, but it doesn't challenge the causal claim.",
+      "timeTarget": 90,
+      "skills": [
+        "reverse-causation"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-007",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The volunteers were all adults who were overweight and who agreed to keep records of what they ate. A nutrition laboratory recruited 200 volunteers to follow a new \"Diet Z\" for twelve weeks. The volunteers lost an average of 6 kilograms. The lab concludes that Diet Z is effective for weight loss among adults generally.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The volunteers' average age was 38.",
+        "The volunteers were weighed on the same scale each time.",
+        "Diet Z includes more vegetables than the typical diet of adults.",
+        "Most of the volunteers also began a supervised exercise programme during the twelve weeks.",
+        "Diet Z was developed by the same laboratory that ran the study."
+      ],
+      "answer": 3,
+      "explanation": "The weight loss is real; the question is whether Diet Z caused it. The best weakener supplies another reason volunteers would lose weight.\n\n**Correct: (D).** The exercise could explain much of the weight loss, so Diet Z's role is unclear.\n\n(A) Their age doesn't give another cause of weight loss.\n\n(B) This supports the reliability of the measurements.\n\n(C) This could support the diet's effectiveness.\n\n(E) The source of the diet doesn't show that the result is due to something else.",
+      "tip": "A second change that occurs in the same period is the favourite weakener for treatment studies.",
+      "trap": "The \"developed by the same lab\" choice feels like bias, but it doesn't give a specific alternative cause.",
+      "timeTarget": 90,
+      "skills": [
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-008",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "Rents in the capital have risen quickly in recent years, and many tenants spend a large part of their income on housing. A state government plans to cap rents in its capital city so that more people can afford rented homes. Officials argue that the cap will increase the number of affordable rental homes available in the city.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "Rents in the capital have risen faster than wages over the past decade.",
+        "Faced with capped rents, many landlords are likely to sell their rental properties or convert them to other uses, reducing the number of homes for rent.",
+        "Rent caps have been introduced in several large cities abroad.",
+        "Most tenants in the capital say that they support a rent cap.",
+        "The cap will be reviewed once a year."
+      ],
+      "answer": 1,
+      "explanation": "The cap lowers the price of rentals, but \"the number available\" depends on supply. The best weakener points to a side effect on supply.\n\n**Correct: (B).** The plan could shrink supply, defeating its purpose.\n\n(A) This shows the need for action, not that the cap will fail.\n\n(C) The fact of their existence doesn't show how this cap will work.\n\n(D) Tenant support is not evidence of the cap's effect on supply.\n\n(E) An annual review doesn't indicate that supply would fall.",
+      "tip": "For price controls, test the effect on supply.",
+      "trap": "The \"rents rose faster than wages\" choice sounds like it weakens, but it supports the need for the plan.",
+      "timeTarget": 90,
+      "skills": [
+        "plan",
+        "side-effects"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-009",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The retailer has about a hundred stores and has encouraged customers to use the app to see offers and track their purchases. A retailer's study found that customers who use its mobile app spend, on average, 20 percent more per month in its stores than customers who do not. The retailer concludes that using the app leads customers to spend more in its stores, and it plans a large campaign to get more customers to download the app.\n\nEach of the following, if true, weakens the retailer's argument EXCEPT:",
+      "choices": [
+        "Before the app was launched, the customers who later downloaded it were already the retailer's highest spenders.",
+        "The 20 percent difference is largely the result of a few very large purchases made by a small number of app users.",
+        "Many customers download the app only when they are about to make a large purchase, to claim a discount offered through it.",
+        "App users earn loyalty points only on in-store purchases, so they buy staples in the stores that other customers buy online.",
+        "Customers who started using the app spent noticeably more in the stores than they had spent in the months before they started using it."
+      ],
+      "answer": 4,
+      "explanation": "This is an EXCEPT question: four choices weaken the claim that the app causes more spending, and one does not. The correct choice strengthens the claim or is neutral.\n\n**Correct: (E).** This is a before-and-after comparison within the same customers, which supports the retailer's causal claim, so it does not weaken.\n\n(A) Weakens: the high spenders may simply have been the ones to download it.\n\n(B) Weakens: the average is not typical of app users in general.\n\n(C) Weakens: the app is a result of planned spending, not a cause.\n\n(D) Weakens: the difference could reflect where the spending takes place rather than a rise in spending.",
+      "tip": "For EXCEPT questions, label each choice W or N; the odd one is the answer.",
+      "trap": "Choosing a weakener because it sounds negative; the answer is the one that helps the author.",
+      "timeTarget": 110,
+      "skills": [
+        "except",
+        "causal"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-010",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "Colon cancer is a common disease, and the screening programme is available free of charge to eligible people across the country. A health ministry reports that the five-year survival rate for people diagnosed with colon cancer rose from 55 percent to 65 percent in the years after a national screening programme was introduced. The ministry concludes that the screening programme has improved patients' chances of surviving the disease.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The programme invites everyone aged fifty and over to be screened.",
+        "The screening test is painless and takes only a few minutes.",
+        "Colon cancer is the third most common cancer in the country.",
+        "Screening detects cancers earlier in their development, so patients are diagnosed sooner and counted as five-year survivors, even if they die at the same age as before.",
+        "Screening programmes for other cancers are being expanded."
+      ],
+      "answer": 3,
+      "explanation": "Survival rates are measured from the date of diagnosis. If screening finds cancers earlier, patients get a longer \"survival clock\" even if they die at the same age. The weakener should exploit that.\n\n**Correct: (D).** Earlier diagnosis can raise the five-year figure without anyone living longer, so the conclusion isn't supported.\n\n(A) Who is invited doesn't challenge the claim about survival.\n\n(B) Comfort of the test is irrelevant.\n\n(C) Prevalence doesn't bear on whether screening improved survival.\n\n(E) Other programmes are out of scope.",
+      "tip": "Survival measured from diagnosis can be inflated by earlier diagnosis alone (\"lead-time\" effect).",
+      "trap": "The \"invites everyone over fifty\" choice describes the programme, not why the survival numbers might be misleading.",
+      "timeTarget": 105,
+      "skills": [
+        "measurement",
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-011",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The children came from a range of schools in one region, and the researchers also collected information on the children's family backgrounds. In a study of 1,000 children, those who began learning a musical instrument before the age of eight scored higher on language tests at age twelve than those who did not. The researchers conclude that early instrument training boosts children's language abilities.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The language tests measured vocabulary and grammar.",
+        "Parents who enrol their children in early music lessons are, on average, more highly educated and more likely to read to their children daily, and daily reading strongly predicts language scores.",
+        "Some children in the study stopped taking music lessons before the age of twelve.",
+        "Children who began lessons before eight practised for an average of thirty minutes a day.",
+        "The piano was the most common instrument among the children in the study."
+      ],
+      "answer": 1,
+      "explanation": "A correlation, causal reading. The best weakener offers a factor that would plausibly lead both to early music lessons and to language skill.\n\n**Correct: (B).** Home reading offers a competing cause for the language scores, and it is linked to the choice of early music lessons.\n\n(A) What the tests measured doesn't challenge the causal link.\n\n(C) Dropping out later doesn't give an alternative cause.\n\n(D) Practice time, if anything, supports the training claim.\n\n(E) The type of instrument is irrelevant.",
+      "tip": "The best weakener for a correlation is a third factor that plausibly drives both variables.",
+      "trap": "The \"stopped lessons\" choice seems to threaten the training effect, but doesn't suggest a rival cause.",
+      "timeTarget": 100,
+      "skills": [
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-012",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The company sells software to businesses across the country, and its sales staff have traditionally visited clients in person. A company plans to replace most client visits by its sales staff with video calls, to cut travel costs. Management argues that sales will not suffer, because in a six-month pilot in one region, where salespeople used video calls for most client contact, sales were unchanged.\n\nEach of the following, if true, weakens the management's argument EXCEPT:",
+      "choices": [
+        "The pilot region consists mainly of the company's oldest clients, with whom it has long-standing relationships.",
+        "Most of the company's new-client wins in other regions come from in-person visits.",
+        "Competitors in the other regions have increased their in-person visits to clients.",
+        "Clients in the other regions are, on average, less comfortable with video calls than clients in the pilot region.",
+        "The video-calling software the sales staff would use costs less than a tenth of the travel savings."
+      ],
+      "answer": 4,
+      "explanation": "An EXCEPT question: four choices weaken the claim that video calls will not hurt sales; the odd one supports it or is irrelevant.\n\n**Correct: (E).** This is about the cost of the plan and says nothing about whether sales will suffer, so it doesn't weaken the argument.\n\n(A) Weakens: relationships that already exist survive without visits; new or different clients may not.\n\n(B) Weakens: the plan would remove the very activity that wins new business.\n\n(C) Weakens: the company could lose ground to rivals who visit.\n\n(D) Weakens: the pilot result may not carry over to clients who respond differently.",
+      "tip": "In EXCEPT questions, don't look for the best answer; look for the one that does no damage.",
+      "trap": "Picking one of the four weakeners because it's the \"worst\" statement for the company.",
+      "timeTarget": 110,
+      "skills": [
+        "except",
+        "plan"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-013",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "Advanced driver-assistance features include lane-keeping aids and automatic emergency braking, and insurers have been collecting data on accident claims. In a survey of 10,000 drivers, owners of cars fitted with advanced driver-assistance features had 25 percent fewer accidents per 100,000 kilometres driven than owners of cars without such features. An insurance executive concludes that the driver-assistance features reduce the number of accidents.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The features cost an extra one and a half lakh rupees on most models.",
+        "Some owners of equipped cars switch the features off.",
+        "Drivers who buy cars with these features tend to drive mostly on motorways, where accident rates per kilometre are much lower than on city roads.",
+        "The accident data come from police reports and insurance claims.",
+        "The surveyed drivers were chosen from several states."
+      ],
+      "answer": 2,
+      "explanation": "The measure is accidents per kilometre, which depends heavily on where and how people drive. The best weakener gives owners of equipped cars a safer driving profile that has nothing to do with the features.\n\n**Correct: (C).** Their lower accident rate could be due to where they drive, not to the features.\n\n(A) Price doesn't affect how many accidents occur.\n\n(B) Owners who switch them off would, if anything, dilute the apparent effect, so the true effect of the features might be even larger.\n\n(D) The data sources are a normal basis, and the choice doesn't challenge the conclusion.\n\n(E) Geographical spread doesn't weaken the claim.",
+      "tip": "When rates are compared, look for differences in exposure (distance, road type) between the groups.",
+      "trap": "The \"owners switch them off\" choice looks like an attack on the features but works in the opposite direction.",
+      "timeTarget": 110,
+      "skills": [
+        "alternative-cause",
+        "rates"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-p-014",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "The country's economy relies on manufacturing, and its officials are looking for ways to increase foreign earnings. The government of a country plans to devalue its currency in order to increase export earnings. Officials argue that the devaluation will make the country's goods cheaper for foreign buyers, so that export volumes will rise enough to raise total export earnings.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "Most of the country's export industries depend heavily on components imported and paid for in foreign currency, so devaluation raises their costs by nearly as much as it lowers the foreign price of their goods.",
+        "The country's currency has been devalued twice in the past thirty years.",
+        "Exports account for a small share of the country's total economic output.",
+        "Several of the country's trading partners have strong currencies.",
+        "Foreign buyers generally prefer lower prices to higher prices."
+      ],
+      "answer": 0,
+      "explanation": "Devaluation lowers the foreign price of exports. But the plan's effect on earnings depends on what happens to the exporters' costs and to volume. The best weakener breaks the link between a cheaper currency and cheaper goods.\n\n**Correct: (A).** Higher costs would offset the price advantage, so export volumes and earnings may not rise.\n\n(B) The history of devaluations doesn't show that this one will fail.\n\n(C) The plan is about export earnings, and the size of exports in the economy doesn't change the effect.\n\n(D) Strong partner currencies would, if anything, help the plan.\n\n(E) This supports the plan.",
+      "tip": "If a plan relies on a price falling, ask whether the seller's costs would rise to match.",
+      "trap": "The \"small share of output\" choice sounds like an economic limit, but the argument is about export earnings, not total output.",
+      "timeTarget": 110,
+      "skills": [
+        "plan",
+        "side-effects"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-m-001",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "The town has about eighty thousand residents, and the mayor reviewed the year's figures at a public meeting. After a town installed brighter street lights along its main roads, crime in the town fell by 15 percent over the following year. The mayor concludes that the brighter lights reduced crime.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The new lights cost the town two crore rupees to install.",
+        "Residents say they like the brighter lights.",
+        "The new lights use less electricity than the old ones.",
+        "In the same year, the town doubled the number of police officers patrolling its main roads.",
+        "The town is smaller than most neighbouring towns."
+      ],
+      "answer": 3,
+      "explanation": "A before-and-after causal claim. A second change at the same time provides an alternative cause.\n\n**Correct: (D).** More patrols could explain the fall in crime, so the lights may have played no part.\n\n(A) Cost doesn't affect the cause of the fall.\n\n(B) Liking isn't evidence about crime.\n\n(C) Energy use is irrelevant to crime.\n\n(E) Size doesn't give another cause. In weaken questions the best answer usually names a concrete second change that happened at the same time as the supposed cause, so you can ask whether the effect would have happened even without the lights. Choices about cost, popularity or the size of the town never give such a rival cause.",
+      "tip": "Look for a concurrent change that could also explain the effect.",
+      "trap": "The electricity choice sounds like a fact about the lights, but doesn't touch the crime claim.",
+      "timeTarget": 70,
+      "skills": [
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-m-002",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "The chain, which sells coffee and snacks, is considering whether to switch to ethically sourced beans in all its stores. A coffee chain surveyed 500 customers at its flagship Mumbai store and found that 70 percent would pay a little extra for coffee made from ethically sourced beans. The chain's marketing manager concludes that most of its customers across India would pay extra for such coffee.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The chain operates more than a hundred stores across India.",
+        "Customers at the Mumbai flagship store are, on average, considerably wealthier than customers at the chain's other stores.",
+        "Ethically sourced beans cost the chain about fifteen percent more than other beans.",
+        "The survey was carried out on a weekday morning.",
+        "Many customers at the flagship store visit the store daily."
+      ],
+      "answer": 1,
+      "explanation": "The sample is one store's customers, the conclusion covers every store. A weakener shows that this store's customers are unusual.\n\n**Correct: (B).** Wealthier customers are likelier to accept a higher price, so the result may not carry over.\n\n(A) The number of stores doesn't show that the flagship's customers differ.\n\n(C) The chain's cost doesn't affect customer willingness.\n\n(D) Timing is not obviously relevant to opinions on ethically sourced beans.\n\n(E) Frequent visits don't show that those customers differ from others in willingness to pay.",
+      "tip": "One-site sample, nationwide claim: look for a difference between the site and the rest.",
+      "trap": "The \"more than a hundred stores\" choice sounds like a scale problem, but only a difference in customers would weaken.",
+      "timeTarget": 80,
+      "skills": [
+        "sample"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-m-003",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The centre employs about eight hundred people who handle calls and emails from customers, and the company is reviewing its costs. A company plans to move its customer-support centre from Gurugram to a smaller city where salaries are about 30 percent lower. The company's finance head argues that the move will reduce the centre's overall operating costs.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "Salaries in Gurugram have risen about eight percent a year recently.",
+        "The smaller city has fewer restaurants than Gurugram.",
+        "The smaller city's airport has few direct flights.",
+        "Several of the company's competitors have support centres in Gurugram.",
+        "Staff turnover in the smaller city is much higher, and the cost of recruiting and training replacements would exceed the salary savings."
+      ],
+      "answer": 4,
+      "explanation": "Salary is one cost among several. The weakener should show that the move triggers other costs that outweigh the saving.\n\n**Correct: (E).** Extra hiring and training costs could cancel the saving and even raise total costs.\n\n(A) This supports the plan by increasing the saving.\n\n(B) Restaurants have no bearing on the centre's operating costs.\n\n(C) The centre isn't described as depending on flights.\n\n(D) Competitors' locations don't change the company's costs. The general lesson is that a measurement taken at two different times is only a fair comparison if conditions were the same, so a difference in conditions between the two surveys is a strong attack on the conclusion.",
+      "tip": "When a plan cuts one cost, look for a cost it adds.",
+      "trap": "The \"salaries rising\" choice relates to salaries, but it strengthens the plan.",
+      "timeTarget": 85,
+      "skills": [
+        "plan",
+        "side-effects"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-m-004",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "The company has about two thousand employees and carries out the satisfaction survey twice a year with every employee. A company introduced a \"no-meeting Wednesday\" policy. In the employee survey that followed, the average satisfaction score rose from 62 to 71. The human-resources head concludes that the policy raised employee satisfaction.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The policy was introduced in response to requests from employees.",
+        "Some employees still attend meetings on Wednesdays.",
+        "The first survey was taken during the busy quarter-end, and the second during a quiet holiday period.",
+        "The satisfaction survey contains twenty questions.",
+        "The company has about three thousand employees."
+      ],
+      "answer": 2,
+      "explanation": "Two survey scores are compared. The weakener should show that something other than the policy could have moved the scores, such as when the surveys were taken.\n\n**Correct: (C).** Workload and mood differ at the two times, so the rise could reflect the timing rather than the policy.\n\n(A) This suggests the policy fits employees' wishes, which might support the claim.\n\n(B) A few exceptions don't undermine the overall effect.\n\n(D) The length of the survey doesn't explain the change.\n\n(E) Company size is irrelevant.",
+      "tip": "Compare-measurement arguments are weakened when the two measurements were taken under different conditions.",
+      "trap": "The \"policy introduced at employees' request\" choice sounds relevant but supports rather than weakens.",
+      "timeTarget": 85,
+      "skills": [
+        "measurement",
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-m-005",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The chain operates about two hundred stores around the country, and the programme was introduced to improve customer service. A retail chain gave its ten worst-performing stores a new staff-training programme. Sales at those stores rose by an average of 12 percent in the following year. The chain's operations director concludes that the training programme works and recommends rolling it out to all stores.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "The ten stores had been selected because their sales were unusually low the year before, a year in which several of them suffered temporary disruptions such as flooding and road works.",
+        "The programme cost about two lakh rupees per store.",
+        "Managers at all ten stores attended the training in person.",
+        "The ten stores were located in different regions of the country.",
+        "Sales at the ten stores had been below the chain's average for the previous year."
+      ],
+      "answer": 0,
+      "explanation": "The stores were picked because they did badly. Extreme results often drift back toward normal without any intervention, and a one-off bad year can be a fluke.\n\n**Correct: (A).** Their sales may simply have recovered once the disruptions ended, so the training need not have caused the rise.\n\n(B) Cost is irrelevant to whether sales rose because of the training.\n\n(C) This supports the programme, if anything.\n\n(D) Spread across regions doesn't give a rival explanation.\n\n(E) This is already implied by their selection, and it doesn't offer a specific reason for recovery.",
+      "tip": "If a group was selected for being at an extreme, expect \"regression to the mean\" as a weakener.",
+      "trap": "The \"below the chain's average\" choice is merely a restatement of how the stores were chosen.",
+      "timeTarget": 105,
+      "skills": [
+        "regression",
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-m-006",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The city is one of the country's largest, and its restaurant sector is an important source of employment. An economist argues that the 15 percent fall in the number of new restaurants opened in a large city last year shows that the city's economy is weakening. She notes that restaurant openings have generally been a good indicator of business confidence.\n\nEach of the following, if true, weakens the economist's argument EXCEPT:",
+      "choices": [
+        "A new licensing procedure introduced last year caused long delays in approving restaurant openings.",
+        "Many restaurant owners expanded existing restaurants instead of opening new ones.",
+        "A zoning change sharply reduced the number of commercial properties available for restaurants.",
+        "Over the same period, the number of existing restaurants that closed rose sharply.",
+        "In this city, restaurant openings have historically shown little relationship to the growth of the wider economy."
+      ],
+      "answer": 3,
+      "explanation": "An EXCEPT question: four choices give another reason for fewer openings or undermine the indicator; the odd one backs the economist or is neutral.\n\n**Correct: (D).** Rising closures suggest that business conditions in the sector are worsening, which supports her view.\n\n(A) Weakens: the fall may reflect red tape, not weak confidence.\n\n(B) Weakens: investment may have gone into expansion, not shrunk.\n\n(C) Weakens: a shortage of premises explains fewer openings.\n\n(E) Weakens: the indicator she relies on isn't reliable here.",
+      "tip": "Use W and N tags for each choice; the exception is the one tagged N (or S).",
+      "trap": "Treating \"closures rose\" as a weakener because it sounds like a different fact about restaurants.",
+      "timeTarget": 110,
+      "skills": [
+        "except",
+        "alternative-cause"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-m-007",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "The study covered several hundred firms across a number of countries, using data on employees who left voluntarily. Researchers found that the rate of employee turnover is lower at firms that offer flexible working hours. After controlling for firm size, industry and average pay, they still found the difference. They conclude that offering flexible hours reduces employee turnover.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "Larger firms are more likely than smaller firms to offer flexible hours.",
+        "Well-managed firms are more likely to offer flexible hours and also tend to have lower turnover, for reasons that have nothing to do with the hours.",
+        "Firms in the technology industry are more likely than others to offer flexible hours.",
+        "Firms that pay above-average salaries tend to have lower turnover.",
+        "Some employees at firms that offer flexible hours never use them."
+      ],
+      "answer": 1,
+      "explanation": "The researchers have already removed three obvious alternative explanations. A good weakener must be a new one that none of those controls cover.\n\n**Correct: (B).** Management quality could drive both, and it wasn't controlled for.\n\n(A) Firm size was already controlled for.\n\n(C) Industry was already controlled for.\n\n(D) Pay was already controlled for.\n\n(E) This might dilute the effect but doesn't give a rival explanation for the lower turnover. The general lesson is that when researchers say what they have controlled for, the correct weakener must be a factor outside that list, and one that could plausibly influence both flexible hours and turnover.",
+      "tip": "If a stimulus says what's been controlled for, the weakener will be something else.",
+      "trap": "Picking an alternative cause that the researchers have already controlled for.",
+      "timeTarget": 110,
+      "skills": [
+        "alternative-cause",
+        "controls"
+      ]
+    },
+    {
+      "id": "v-cr-weaken-va-m-008",
+      "section": "verbal",
+      "type": "CR",
+      "topic": "v-cr-weaken",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "A city water utility plans to introduce tiered pricing: the first 10,000 litres a household uses each month will be cheap, and each litre beyond that will cost much more. The utility argues that the city's total household water consumption will fall, because households that now use more than 10,000 litres a month will cut back to avoid the higher rate.\n\nWhich of the following, if true, most seriously weakens the argument?",
+      "choices": [
+        "Households that use more than 10,000 litres a month account for most of the water the utility sells.",
+        "Tiered pricing systems are used by water utilities in several other cities.",
+        "Some households that use less than 10,000 litres a month will use slightly more because the first tier is cheap.",
+        "The utility's revenue will increase after the new prices take effect.",
+        "Most households now using more than 10,000 litres a month are large joint families whose use is already close to the minimum needed for drinking, cooking and sanitation."
+      ],
+      "answer": 4,
+      "explanation": "The plan counts on heavy users cutting back. The best weakener shows that heavy users can't really cut back, so the mechanism fails.\n\n**Correct: (E).** Households that are already near the minimum can't cut back much, so the expected fall in consumption won't occur.\n\n(A) This shows that their behaviour matters, which supports the plan.\n\n(B) Common use doesn't show that it fails here.\n\n(C) A small rise at the low end offsets only part of the expected fall and doesn't remove the mechanism for heavy users.\n\n(D) Revenue is a different matter from total consumption.",
+      "tip": "If a plan expects a group to change behaviour, a weakener shows that they cannot.",
+      "trap": "The \"low-use households use slightly more\" choice is half-right, but it only partly offsets the effect.",
+      "timeTarget": 110,
+      "skills": [
+        "plan",
+        "side-effects"
+      ]
+    }
+  ]
+}

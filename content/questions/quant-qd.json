@@ -1,0 +1,1705 @@
+{
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "q-linear-qd-p-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "If 5x − 7 = 3x + 9, what is the value of x?",
+      "choices": [
+        "−1",
+        "16",
+        "8",
+        "4",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Collect the x terms on one side and the plain numbers on the other. Subtract 3x from both sides: 2x − 7 = 9. Add 7 to both sides: 2x = 16. Divide by 2: x = 8.\n\nCheck by substituting: 5(8) − 7 = 33 and 3(8) + 9 = 33. Both sides match, so x = 8 is right.\n\nIf you want a second method, backsolve from the choices: x = 8 is the only value that makes both sides equal.",
+      "tip": "Always finish by plugging your answer back into the original equation; it takes five seconds and catches sign slips.",
+      "trap": "Choice (A) −1 comes from moving the numbers with the wrong signs (7 − 9 = −2, giving 2x = −2). Choice (B) 16 is where people stop one step early, forgetting to divide 2x = 16 by 2.",
+      "timeTarget": 75,
+      "skills": [
+        "one-variable",
+        "isolating"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "When 7 is subtracted from three times a number, the result is 20. What is the number?",
+      "choices": [
+        "27",
+        "13",
+        "9",
+        "7",
+        "11"
+      ],
+      "answer": 2,
+      "explanation": "Translate word by word. \"Three times a number\" is 3n. \"7 is subtracted from\" that gives 3n − 7. \"The result is 20\" gives the equation 3n − 7 = 20.\n\nAdd 7 to both sides: 3n = 27. Divide by 3: n = 9.\n\nCheck: 3 × 9 = 27, and 27 − 7 = 20. Correct.\n\nSecond method: undo the operations in reverse order. Start at 20, add back the 7 to get 27, then divide by 3 to get 9.",
+      "tip": "To translate a sentence, build the equation piece by piece in the order the words appear.",
+      "trap": "Choice (A) 27 is 3n, not n; it forgets the last step of dividing by 3. Choice (B) 13 comes from subtracting 7 from 20 instead of adding it back.",
+      "timeTarget": 75,
+      "skills": [
+        "translation"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If x/4 + x/6 = 10, what is the value of x?",
+      "choices": [
+        "12",
+        "48",
+        "50",
+        "20",
+        "24"
+      ],
+      "answer": 4,
+      "explanation": "Clear the fractions by multiplying every term by the common denominator, 12: 12(x/4) + 12(x/6) = 12(10), which gives 3x + 2x = 120. So 5x = 120 and x = 24.\n\nCheck: 24/4 = 6 and 24/6 = 4, and 6 + 4 = 10. Correct.\n\nSecond method: add the fractions directly. x/4 + x/6 = 3x/12 + 2x/12 = 5x/12. Then 5x/12 = 10 gives x = 24.",
+      "tip": "When you see fractions in an equation, multiply through by the least common multiple of the denominators right away.",
+      "trap": "Choice (C) 50 comes from 5 × 10, forgetting that 5x/12 = 10 still has the 12 underneath. Choice (A) 12 is the common denominator itself, picked up by mistake.",
+      "timeTarget": 90,
+      "skills": [
+        "fractions",
+        "one-variable"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If 3(2x − 5) = 4x + 7, what is the value of x?",
+      "choices": [
+        "6",
+        "22",
+        "11",
+        "−4",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Distribute the 3 across the bracket: 6x − 15 = 4x + 7. Subtract 4x from both sides: 2x − 15 = 7. Add 15: 2x = 22. So x = 11.\n\nCheck: 3(22 − 5) = 3(17) = 51, and 4(11) + 7 = 51. Both sides agree.\n\nSecond method: backsolve with the middle choice first. Try x = 8: left side is 3(11) = 33, right side is 39. The left is too small, so x must be bigger than 8, which points to 11 (or 22). Test 11 and it works.",
+      "tip": "Distribute first, then collect: it keeps the arithmetic in small, checkable steps.",
+      "trap": "Choice (A) 6 comes from distributing the 3 only to the 2x (giving 6x − 5 = 4x + 7, so x = 6). The 3 multiplies every term inside the bracket, including the −5.",
+      "timeTarget": 90,
+      "skills": [
+        "distribution"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If 2x + y = 11 and x − y = 4, what is the value of x?",
+      "choices": [
+        "1",
+        "5",
+        "4",
+        "7",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "The y terms have opposite signs (+y and −y), so adding the equations eliminates y: (2x + y) + (x − y) = 11 + 4, giving 3x = 15. So x = 5.\n\nCheck: y = x − 4 = 1. Then 2(5) + 1 = 11 and 5 − 1 = 4. Both equations hold.\n\nSecond method: substitution. From the second equation, y = x − 4. Put that into the first: 2x + x − 4 = 11, so 3x = 15 and x = 5.",
+      "tip": "If two equations have +y in one and −y in the other, just add them.",
+      "trap": "Choice (A) 1 is the value of y, not x. The question asks for x, so after finding both variables, re-read which one was requested.",
+      "timeTarget": 90,
+      "skills": [
+        "systems",
+        "elimination"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If 4x + 3y = 29 and 3x + 4y = 27, what is the value of x + y?",
+      "choices": [
+        "7",
+        "56",
+        "28",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "Notice the coefficients are mirror images (4 and 3, then 3 and 4). Add the equations: 7x + 7y = 56. Divide by 7: x + y = 8.\n\nCheck by finding the individual values. Subtract the equations: x − y = 2. With x + y = 8, we get x = 5 and y = 3. Then 4(5) + 3(3) = 29 and 3(5) + 4(3) = 27. Both hold.\n\nSolving for x and y separately works, but the add-the-equations shortcut takes about 15 seconds and needs no further arithmetic.",
+      "tip": "When the question asks for x + y and the coefficients mirror each other, add the two equations and divide.",
+      "trap": "Choice (B) 56 is the sum 7x + 7y before dividing by 7, and (C) 28 is half of that. Finish the division, then check that what you have is what the question asked for.",
+      "timeTarget": 100,
+      "skills": [
+        "systems",
+        "shortcut"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If x ≠ y and (x + 2y)/(x − y) = 4, what is the value of x/y?",
+      "choices": [
+        "2",
+        "1/2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Multiply both sides by (x − y): x + 2y = 4(x − y) = 4x − 4y. Collect x terms on one side and y terms on the other: 2y + 4y = 4x − x, so 6y = 3x. Divide both sides by 3y (y cannot be 0, since then x = 0 and x − y = 0 would make the fraction undefined): 2 = x/y.\n\nCheck with numbers: let y = 1 and x = 2. Then (2 + 2)/(2 − 1) = 4. Correct.\n\nSecond method: plug in the choices as ratios. If x/y = 2, then x = 2y and the fraction becomes 4y/y = 4.",
+      "tip": "To find a ratio from one equation, move all x terms to one side and all y terms to the other, then divide.",
+      "trap": "Choice (B) 1/2 is y/x, the reciprocal. It's easy to flip the ratio when you reduce 6y = 3x to y = x/2.",
+      "timeTarget": 120,
+      "skills": [
+        "ratio",
+        "literal"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "For what value of k does the system 3x − 4y = 8 and 9x + ky = 20 have no solution?",
+      "choices": [
+        "12",
+        "−4",
+        "24",
+        "20",
+        "−12"
+      ],
+      "answer": 4,
+      "explanation": "A system has no solution when the two lines are parallel but different: the left sides are proportional, but the right sides are not.\n\nMultiply the first equation by 3 so the x coefficients match: 9x − 12y = 24. For the second equation to have the same left side, k must be −12. Then the equations read 9x − 12y = 24 and 9x − 12y = 20, which contradict each other. No solution.\n\nIf k were anything else, the lines would have different slopes and would cross at exactly one point.",
+      "tip": "To test a system for parallel lines, scale one equation until the coefficients match, then compare the constants.",
+      "trap": "Choice (A) 12 gets the size right but the sign wrong: with +12y the left sides would not match. Choice (C) 24 is the scaled right-hand side, not a coefficient.",
+      "timeTarget": 120,
+      "skills": [
+        "no-solution",
+        "systems"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-009",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "A taxi company charges a fixed fare of ₹50 plus ₹12 per kilometre. A second company charges a fixed fare of ₹20 plus ₹15 per kilometre. For what distance, in kilometres, do both companies charge the same amount?",
+      "choices": [
+        "5",
+        "6",
+        "12",
+        "10",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "Let d be the distance. The first company charges 50 + 12d, and the second charges 20 + 15d. Set them equal: 50 + 12d = 20 + 15d.\n\nSubtract 12d and 20 from both sides: 30 = 3d, so d = 10.\n\nCheck: first company 50 + 120 = 170, second company 20 + 150 = 170. They match.\n\nSecond method: the first company starts ₹30 higher but costs ₹3 less per km. So the gap closes after 30 ÷ 3 = 10 km.",
+      "tip": "For \"when are two plans equal\" questions, the gap divided by the rate difference gives the answer immediately.",
+      "trap": "Choices (C) 12 and (E) 15 are the per-kilometre rates themselves, grabbed instead of the distance. Choice (A) 5 comes from halving the answer when the ₹30 gap is split across two sides.",
+      "timeTarget": 110,
+      "skills": [
+        "word-problem",
+        "break-even"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-010",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If a + b + c = 24, a + b = 2c, and a + c = 2b − 3, what is the value of a?",
+      "choices": [
+        "7",
+        "9",
+        "8",
+        "16",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "From a + b = 2c, substitute into the first equation: 2c + c = 24, so c = 8 and a + b = 16.\n\nNow use the third equation: a + 8 = 2b − 3, so a = 2b − 11. Substitute into a + b = 16: 2b − 11 + b = 16, so 3b = 27 and b = 9. Then a = 16 − 9 = 7.\n\nCheck all three: 7 + 9 + 8 = 24, 7 + 9 = 16 = 2(8), and 7 + 8 = 15 = 2(9) − 3. All true.\n\nThe key move was spotting that the second equation lets you replace a + b inside the first.",
+      "tip": "With three equations, look for a combination (like a + b) that appears in more than one, and substitute it.",
+      "trap": "Choice (B) 9 is b, and (C) 8 is c. When you solve several variables in turn, it's easy to stop at the wrong one. Underline what the question asks for before you start.",
+      "timeTarget": 150,
+      "skills": [
+        "three-equations",
+        "substitution"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-011",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "Priya is 4 times as old as her cousin Sam. In 6 years she will be 3 times as old as Sam will be then. What is the sum of their current ages?",
+      "choices": [
+        "72",
+        "48",
+        "60",
+        "54",
+        "66"
+      ],
+      "answer": 2,
+      "explanation": "Let Sam's age be s, so Priya's age is 4s. In 6 years, Priya will be 4s + 6 and Sam will be s + 6. The condition says 4s + 6 = 3(s + 6).\n\nExpand: 4s + 6 = 3s + 18. Subtract 3s and 6: s = 12. Priya is 4 × 12 = 48. The sum now is 12 + 48 = 60.\n\nCheck: in 6 years, Sam is 18 and Priya is 54, and 54 = 3 × 18. Correct.\n\nSecond method: backsolve using the sum choices. The sum is 5s, so it must be a multiple of 5, and s = sum/5. Only 60 (s = 12) satisfies the age condition.",
+      "tip": "In age problems, define the younger person's age as the variable, then write each age \"now\" and \"later\" in a quick table.",
+      "trap": "Choice (A) 72 is the sum of their ages in 6 years (54 + 18), not now. Choice (D) 54 is Priya's age in 6 years. Read the time frame in the question.",
+      "timeTarget": 130,
+      "skills": [
+        "age",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-012",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If 1/x + 1/y = 5 and 1/x − 1/y = 1, what is the value of xy?",
+      "choices": [
+        "6",
+        "1/3",
+        "5/6",
+        "1/2",
+        "1/6"
+      ],
+      "answer": 4,
+      "explanation": "Treat 1/x and 1/y as two unknowns. Add the equations: 2/x = 6, so 1/x = 3 and x = 1/3. Subtract them: 2/y = 4, so 1/y = 2 and y = 1/2.\n\nThen xy = (1/3)(1/2) = 1/6.\n\nCheck: 1/x + 1/y = 3 + 2 = 5, and 1/x − 1/y = 3 − 2 = 1. Both match.\n\nSecond method: xy is the reciprocal of (1/x)(1/y) = 3 × 2 = 6, so xy = 1/6.",
+      "tip": "When variables appear as reciprocals, solve for the reciprocals first, then flip at the end.",
+      "trap": "Choice (A) 6 is (1/x)(1/y), the product of the reciprocals; you have to invert once more to get xy. Choice (B) 1/3 is just x.",
+      "timeTarget": 130,
+      "skills": [
+        "reciprocals",
+        "systems"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-013",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "How many ordered pairs (x, y) of positive integers satisfy 3x + 5y = 41?",
+      "choices": [
+        "2",
+        "4",
+        "5",
+        "3",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "Solve for x: x = (41 − 5y)/3. We need 41 − 5y to be positive and divisible by 3, with y a positive integer.\n\nTest y = 1, 2, 3, ... until 5y reaches 41. y = 1: 36/3 = 12 works. y = 2: 31/3 no. y = 3: 26/3 no. y = 4: 21/3 = 7 works. y = 5: 16/3 no. y = 6: 11/3 no. y = 7: 6/3 = 2 works. y = 8: 1/3 no. y = 9 would make 5y = 45 > 41.\n\nSo the pairs are (12, 1), (7, 4), (2, 7): three pairs.\n\nPattern shortcut: once you find one solution, the others differ by 5 in x and 3 in y (the coefficients swapped), so y increases by 3 each time: 1, 4, 7.",
+      "tip": "For one equation with two integer unknowns, find one solution, then step by the other variable's coefficient to list all of them.",
+      "trap": "Choice (A) 2 comes from stopping the list early, and (E) 8 from counting every y without testing divisibility. A single linear equation does have many solutions, but the integer and positivity conditions restrict them to a short list.",
+      "timeTarget": 150,
+      "skills": [
+        "integer-solutions",
+        "diophantine"
+      ]
+    },
+    {
+      "id": "q-linear-qd-p-014",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If x/y = 3/4 and (x + z)/(y + z) = 5/6, where y and z are positive, what is the value of z/x?",
+      "choices": [
+        "2/3",
+        "1/2",
+        "3/2",
+        "5/6",
+        "4/3"
+      ],
+      "answer": 0,
+      "explanation": "From x/y = 3/4, write x = 3k and y = 4k for some positive k. Now use the second equation: (3k + z)/(4k + z) = 5/6. Cross-multiply: 6(3k + z) = 5(4k + z), so 18k + 6z = 20k + 5z. Then z = 2k.\n\nSo z/x = 2k/3k = 2/3.\n\nCheck with k = 1: x = 3, y = 4, z = 2. Then (3 + 2)/(4 + 2) = 5/6, which matches.\n\nSecond method: backsolve with the ratio. Adding the same z to numerator and denominator moves a fraction toward 1; going from 3/4 to 5/6 needs z = 2 when x = 3, y = 4.",
+      "tip": "Turn a ratio into actual multiples (3k and 4k) so the second condition becomes an ordinary linear equation.",
+      "trap": "Choice (B) 1/2 is z/y (2/4), a different ratio than the one requested. Choice (C) 3/2 is x/z, the reciprocal. Always check which way the ratio is written.",
+      "timeTarget": 150,
+      "skills": [
+        "ratio",
+        "substitution"
+      ]
+    },
+    {
+      "id": "q-linear-qd-m-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "If 2(x + 4) = 18, what is the value of x?",
+      "choices": [
+        "9",
+        "5",
+        "7",
+        "13",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Divide both sides by 2 first: x + 4 = 9. Subtract 4: x = 5.\n\nCheck: 2(5 + 4) = 2(9) = 18. Correct.\n\nSecond method: distribute instead. 2x + 8 = 18, so 2x = 10 and x = 5. Both routes give the same answer.",
+      "tip": "When the whole bracket is multiplied by a number that divides the right side evenly, divide first.",
+      "trap": "Choice (A) 9 is what the bracket equals (x + 4 = 9), not x itself. Stopping one step early is the most common slip on easy equations.",
+      "timeTarget": 60,
+      "skills": [
+        "one-variable"
+      ]
+    },
+    {
+      "id": "q-linear-qd-m-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "A plumber charges a call-out fee of ₹400 plus ₹250 per hour of work. If a customer's total bill was ₹1,900, for how many hours did the plumber work?",
+      "choices": [
+        "7.6",
+        "5",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 3,
+      "explanation": "Let h be the hours worked. The bill is 400 + 250h = 1,900. Subtract the call-out fee: 250h = 1,500. Divide by 250: h = 6.\n\nCheck: 400 + 250 × 6 = 400 + 1,500 = 1,900. Correct.\n\nSecond method: strip off the fixed fee first. ₹1,900 − ₹400 = ₹1,500 is the hourly part, and 1,500 ÷ 250 = 6.",
+      "tip": "In fixed-plus-variable pricing, remove the fixed fee before dividing by the rate.",
+      "trap": "Choice (A) 7.6 comes from dividing the whole ₹1,900 by 250 without removing the call-out fee. Always subtract the fixed part first.",
+      "timeTarget": 90,
+      "skills": [
+        "word-problem"
+      ]
+    },
+    {
+      "id": "q-linear-qd-m-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If 7x + 3y = 31 and 3x + 7y = 29, what is the value of (x + y)/(x − y)?",
+      "choices": [
+        "12",
+        "6",
+        "24",
+        "3",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "Add the equations: 10x + 10y = 60, so x + y = 6. Subtract the second from the first: 4x − 4y = 2, so x − y = 1/2.\n\nThen (x + y)/(x − y) = 6/(1/2) = 12.\n\nCheck by solving: x = 3.25 and y = 2.75. Then 7(3.25) + 3(2.75) = 22.75 + 8.25 = 31, and 3(3.25) + 7(2.75) = 9.75 + 19.25 = 29. Both hold.\n\nThe question asks about the sum and the difference, which is exactly what adding and subtracting the equations produces.",
+      "tip": "When a question asks for expressions like x + y and x − y, adding and subtracting the equations hands you both directly.",
+      "trap": "Choice (B) 6 is only x + y. Choice (E) 2 comes from taking x − y = 1/2 and inverting it; a fraction in the denominator means you divide by it, which multiplies by 2.",
+      "timeTarget": 130,
+      "skills": [
+        "systems",
+        "shortcut"
+      ]
+    },
+    {
+      "id": "q-linear-qd-m-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If the system 2x + ky = 5 and 8x + 12y = c has infinitely many solutions, what is the value of c − k?",
+      "choices": [
+        "23",
+        "20",
+        "8",
+        "14",
+        "17"
+      ],
+      "answer": 4,
+      "explanation": "Infinitely many solutions means the second equation is a multiple of the first. The x coefficients go from 2 to 8, so the multiplier is 4.\n\nThen 12y must equal 4ky, so k = 3. And c = 4 × 5 = 20.\n\nSo c − k = 20 − 3 = 17.\n\nCheck: 4(2x + 3y) = 8x + 12y = 20, which is the second equation with c = 20. The two equations describe the same line.",
+      "tip": "For \"infinitely many solutions\", find the single multiplier that turns equation one into equation two and apply it to every part, including the constant.",
+      "trap": "Choice (A) 23 is c + k, which is an easy mix-up of sign. Choice (B) 20 is just c. The question asks for the difference c − k.",
+      "timeTarget": 130,
+      "skills": [
+        "infinite-solutions",
+        "systems"
+      ]
+    },
+    {
+      "id": "q-linear-qd-m-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If x + y = 12, 2x − y = 3k, and x + 2y = k, what is the value of k?",
+      "choices": [
+        "10",
+        "2",
+        "12",
+        "15",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "Use the second and third equations to express x and y in terms of k. From 2x − y = 3k, we get y = 2x − 3k. Substitute into x + 2y = k: x + 4x − 6k = k, so 5x = 7k and x = 7k/5. Then y = 14k/5 − 3k = −k/5.\n\nNow x + y = 7k/5 − k/5 = 6k/5. Since x + y = 12, 6k/5 = 12 and k = 10.\n\nCheck: k = 10 gives x = 14 and y = −2. Then x + y = 12, 2(14) − (−2) = 30 = 3(10), and 14 + 2(−2) = 10. All three hold.\n\nSecond method: add 2 times the second equation to the third: 5x = 7k. Subtract the second from 2 times the third: 5y = −k.",
+      "tip": "When extra equations are expressed in a parameter (k), solve everything in terms of k first, then use the numeric equation to pin k down.",
+      "trap": "Choice (B) 2 comes from dropping the denominator, solving 6k = 12. Choice (C) 12 is just x + y. Don't confuse the value you are given with the one you're asked for.",
+      "timeTarget": 160,
+      "skills": [
+        "parameters",
+        "three-equations"
+      ]
+    },
+    {
+      "id": "q-linear-qd-m-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If x/2 + y/3 = 7 and x/3 + y/2 = 8, what is the value of x + y?",
+      "choices": [
+        "18",
+        "15",
+        "30",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Clear the fractions by multiplying each equation by 6. The first becomes 3x + 2y = 42 and the second becomes 2x + 3y = 48. Add them: 5x + 5y = 90, so x + y = 18.\n\nCheck by solving fully: subtracting gives x − y = −6, so x = 6 and y = 12. Then 6/2 + 12/3 = 3 + 4 = 7 and 6/3 + 12/2 = 2 + 6 = 8. Correct.\n\nThe mirror-image coefficients (3,2 then 2,3) are the signal to add.",
+      "tip": "Clear fractions first, then look for symmetry; adding the cleaned-up equations usually gives the sum you want.",
+      "trap": "Choice (C) 30 is what you get by adding 7 and 8 and doubling, or 5x + 5y before dividing. Choice (B) 15 is 7 + 8, which ignores that the fractions mean the coefficients aren't 1.",
+      "timeTarget": 140,
+      "skills": [
+        "fractions",
+        "systems",
+        "shortcut"
+      ]
+    },
+    {
+      "id": "q-linear-qd-m-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "How many ordered pairs (a, b) of positive integers satisfy 7a + 4b = 120?",
+      "choices": [
+        "3",
+        "5",
+        "6",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "Solve for b: b = (120 − 7a)/4. We need 120 − 7a to be a positive multiple of 4. Since 120 is divisible by 4, 7a must be too, which forces a to be a multiple of 4 (7 shares no factor with 4).\n\nTry a = 4: b = 92/4 = 23. a = 8: b = 64/4 = 16. a = 12: b = 36/4 = 9. a = 16: b = 8/4 = 2. a = 20: 120 − 140 < 0, so stop.\n\nThat's four pairs: (4, 23), (8, 16), (12, 9), (16, 2).\n\nThe divisibility argument saves time: instead of testing all 17 values of a, you only test multiples of 4.",
+      "tip": "In integer-solution problems, use divisibility to restrict which values of one variable can work before you test.",
+      "trap": "Choice (A) 3 comes from forgetting a = 4 or a = 16 at the ends, and (B) 5 from including a = 0 (b = 30), which is not positive. Check the boundary values carefully.",
+      "timeTarget": 160,
+      "skills": [
+        "integer-solutions",
+        "divisibility"
+      ]
+    },
+    {
+      "id": "q-linear-qd-m-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-linear",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If a + 2b = 7 and b + 2c = 8, what is the value of a − 4c?",
+      "choices": [
+        "9",
+        "−9",
+        "−1",
+        "1",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "There are three unknowns but only two equations, so you can't find a, b, c individually. The question is built so that the combination a − 4c is still fixed.\n\nSolve each equation for the shared variable's coefficient. Multiply the second equation by 2: 2b + 4c = 16. Subtract that from the first equation: (a + 2b) − (2b + 4c) = 7 − 16, giving a − 4c = −9.\n\nCheck with specific values: let b = 1. Then a = 5 and c = 3.5, so a − 4c = 5 − 14 = −9. Let b = 3: a = 1 and c = 2.5, so a − 4c = 1 − 10 = −9. The same.",
+      "tip": "If the variables outnumber the equations, ask whether a clever combination eliminates the extras; the question usually asks for exactly that combination.",
+      "trap": "Choice (A) 9 flips the sign when subtracting. Choice (E) 15 comes from adding the equations (7 + 8), which does not cancel b.",
+      "timeTarget": 150,
+      "skills": [
+        "elimination",
+        "underdetermined"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "Which of the following is equivalent to (x + 4)(x − 3)?",
+      "choices": [
+        "x² − x − 12",
+        "x² + 7x − 12",
+        "x² + x + 12",
+        "x² + x − 12",
+        "x² − 12"
+      ],
+      "answer": 3,
+      "explanation": "Use FOIL (First, Outer, Inner, Last). First: x · x = x². Outer: x · (−3) = −3x. Inner: 4 · x = 4x. Last: 4 · (−3) = −12.\n\nAdd them up: x² − 3x + 4x − 12 = x² + x − 12.\n\nA quick shortcut: the middle coefficient is the sum of the two constants (4 + (−3) = 1) and the last term is their product (4 × (−3) = −12).\n\nCheck with x = 1: (1 + 4)(1 − 3) = 5 × (−2) = −10, and 1 + 1 − 12 = −10. They agree.",
+      "tip": "In (x + p)(x + q), the middle coefficient is p + q and the constant is pq.",
+      "trap": "Choice (A) x² − x − 12 has the middle sign flipped (it's the expansion of (x − 4)(x + 3)). The choice x² − 12 forgets the middle term entirely, which is the classic mistake of treating the product as x² − 12.",
+      "timeTarget": 60,
+      "skills": [
+        "FOIL"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "If x² − 8x + 15 = 0, what is the sum of all possible values of x?",
+      "choices": [
+        "15",
+        "2",
+        "8",
+        "5",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Factor the quadratic: find two numbers that multiply to 15 and add to −8. Those are −3 and −5, so (x − 3)(x − 5) = 0. The solutions are x = 3 and x = 5, and their sum is 8.\n\nCheck: 9 − 24 + 15 = 0 and 25 − 40 + 15 = 0. Both work.\n\nSecond method: for x² + bx + c = 0, the sum of the roots is −b. Here b = −8, so the sum is 8 without factoring at all.",
+      "tip": "For x² + bx + c = 0, the sum of the roots is −b and the product is c.",
+      "trap": "Choice (A) 15 is the product of the roots, not the sum. Choices 5 and 3 are the individual roots. Read whether the question asks for the sum, product or the values themselves.",
+      "timeTarget": 60,
+      "skills": [
+        "factoring",
+        "sum-of-roots"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If x² − y² = 36 and x − y = 4, what is the value of x + y?",
+      "choices": [
+        "9",
+        "7",
+        "10",
+        "12",
+        "144"
+      ],
+      "answer": 0,
+      "explanation": "Recognise the difference of squares: x² − y² = (x + y)(x − y). Substitute what you know: 36 = (x + y)(4). Divide by 4: x + y = 9.\n\nCheck: x + y = 9 and x − y = 4 give x = 6.5 and y = 2.5. Then x² − y² = 42.25 − 6.25 = 36. Correct.\n\nNo need to solve for x and y. The special product hands you the answer in one line.",
+      "tip": "Whenever x² − y² appears with x + y or x − y, factor it as (x + y)(x − y).",
+      "trap": "Choice (E) 144 is 36 × 4: multiplying where you should divide. Choices (B) 7 and (C) 10 are near-misses from guessing whole numbers; the real values are x = 6.5 and y = 2.5. Just divide 36 by 4 and stop.",
+      "timeTarget": 75,
+      "skills": [
+        "difference-of-squares"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "What is the value of 62² − 38²?",
+      "choices": [
+        "576",
+        "2,004",
+        "240",
+        "2,400",
+        "1,200"
+      ],
+      "answer": 3,
+      "explanation": "This is a difference of squares: a² − b² = (a + b)(a − b). Here a = 62 and b = 38.\n\n62 + 38 = 100 and 62 − 38 = 24. So 62² − 38² = 100 × 24 = 2,400.\n\nCheck by direct computation: 62² = 3,844 and 38² = 1,444. The difference is 3,844 − 1,444 = 2,400.\n\nThe factored route needs no big squares at all, which is exactly why the GMAT sets up pairs of numbers that add to a round figure.",
+      "tip": "When two numbers in a difference of squares add to a round number (like 100), factor instead of squaring.",
+      "trap": "Choice (A) 576 is 24², and (C) 240 drops a zero. When you use the shortcut, remember to multiply both brackets together: (a + b)(a − b), not (a − b)².",
+      "timeTarget": 75,
+      "skills": [
+        "difference-of-squares",
+        "arithmetic"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If x² + 3x − 10 = 0 and x > 0, what is the value of x?",
+      "choices": [
+        "5",
+        "2",
+        "3",
+        "10",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Factor the quadratic: find two numbers that multiply to −10 and add to 3. They are 5 and −2, so (x + 5)(x − 2) = 0. The solutions are x = −5 and x = 2. Since x > 0, x = 2.\n\nCheck: 4 + 6 − 10 = 0. Correct.\n\nSecond method: test the positive choices. x = 5 gives 25 + 15 − 10 = 30, not 0. x = 3 gives 9 + 9 − 10 = 8. x = 1 gives 1 + 3 − 10 = −6. Only x = 2 works.",
+      "tip": "Use the extra condition (like x > 0) to pick out the right root after you factor.",
+      "trap": "Choice (A) 5 is the number that appears in the factor (x + 5), but the root is −5, which the condition x > 0 rules out. The factor and the root have opposite signs.",
+      "timeTarget": 75,
+      "skills": [
+        "factoring"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If x + y = 9 and xy = 20, what is the value of x² + y²?",
+      "choices": [
+        "81",
+        "61",
+        "40",
+        "49",
+        "41"
+      ],
+      "answer": 4,
+      "explanation": "Use the identity (x + y)² = x² + 2xy + y². Rearranged, x² + y² = (x + y)² − 2xy.\n\nSubstitute: x² + y² = 81 − 2(20) = 81 − 40 = 41.\n\nCheck: the numbers with sum 9 and product 20 are 4 and 5. Then 16 + 25 = 41. Correct.\n\nThe identity is the faster way when the numbers aren't so friendly; it never requires finding x and y.",
+      "tip": "To get x² + y² from x + y and xy, square the sum and subtract 2xy.",
+      "trap": "Choice (A) 81 is (x + y)², which forgets to subtract 2xy. Choice (B) 61 comes from subtracting xy (20) instead of 2xy (40).",
+      "timeTarget": 90,
+      "skills": [
+        "identities"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "How many distinct real values of x satisfy (x² − 4)(x² + 9)(x − 2) = 0?",
+      "choices": [
+        "3",
+        "4",
+        "1",
+        "2",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "A product equals zero when any factor equals zero. Examine each factor.\n\nx² − 4 = 0 gives x = 2 or x = −2. x² + 9 = 0 gives x² = −9, which has no real solution. x − 2 = 0 gives x = 2, which is already counted.\n\nThe distinct real solutions are x = 2 and x = −2, so there are 2.\n\nCheck x = −2: (4 − 4)(…)(…) = 0. Check x = 2: the first and third factors are zero. Both are valid. The tempting mistakes are counting x = 2 twice and counting imaginary roots.",
+      "tip": "In a zero-product equation, list each factor's roots, then remove duplicates and impossible (non-real) roots.",
+      "trap": "Choice (A) 3 counts x = 2 twice (once from each factor). Choice (B) 4 counts the non-real roots of x² + 9. The question says distinct and real.",
+      "timeTarget": 90,
+      "skills": [
+        "zero-product",
+        "counting-solutions"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "What is the product of all values of x that satisfy x² − 4x = x − 4?",
+      "choices": [
+        "1",
+        "5",
+        "4",
+        "0",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "Move everything to one side: x² − 4x − x + 4 = 0, so x² − 5x + 4 = 0. Factor: (x − 1)(x − 4) = 0. The solutions are x = 1 and x = 4, and their product is 4.\n\nAnother route: notice that x² − 4x = x(x − 4), so the equation says x(x − 4) = 1(x − 4). Factoring out (x − 4) gives (x − 4)(x − 1) = 0, the same result.\n\nCheck: x = 4 gives 0 = 0. x = 1 gives 1 − 4 = −3 on the left and 1 − 4 = −3 on the right.\n\nThe product of the roots of x² − 5x + 4 is also c/a = 4.",
+      "tip": "Never divide both sides by an expression containing x; move everything to one side and factor so you keep every root.",
+      "trap": "Choice (A) 1 is what you get if you cancel (x − 4) from both sides and lose the root x = 4. Choice (B) 5 is the sum of the roots, not the product.",
+      "timeTarget": 100,
+      "skills": [
+        "dividing-trap",
+        "factoring"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-009",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "For all x ≠ 3 and x ≠ −3, which of the following is equal to (x² − 6x + 9)/(x² − 9)?",
+      "choices": [
+        "(x + 3)/(x − 3)",
+        "(x − 3)/3",
+        "−1",
+        "(x − 3)/(x + 3)",
+        "1/(x + 3)"
+      ],
+      "answer": 3,
+      "explanation": "Factor the top as a perfect square: x² − 6x + 9 = (x − 3)². Factor the bottom as a difference of squares: x² − 9 = (x − 3)(x + 3).\n\nCancel the common factor (x − 3): (x − 3)²/((x − 3)(x + 3)) = (x − 3)/(x + 3).\n\nCheck with x = 7: the original is (49 − 42 + 9)/(49 − 9) = 16/40 = 2/5. And (7 − 3)/(7 + 3) = 4/10 = 2/5. They match.\n\nThis question combines two special products in one fraction, which is typical of the harder simplification questions.",
+      "tip": "In an algebraic fraction, factor top and bottom completely, then cancel common factors.",
+      "trap": "The choice (x + 3)/(x − 3) is the reciprocal of the right answer. The choice (x − 3)/3 cancels the x² terms and the 3s, which is illegal because you can only cancel factors, never terms in a sum or difference.",
+      "timeTarget": 100,
+      "skills": [
+        "simplification",
+        "special-products"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-010",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "The roots r and s of the equation x² − 10x + k = 0 satisfy r − s = 4, where r > s. What is the value of k?",
+      "choices": [
+        "16",
+        "24",
+        "25",
+        "12",
+        "21"
+      ],
+      "answer": 4,
+      "explanation": "For x² − 10x + k = 0, the sum of the roots is r + s = 10 and the product is rs = k.\n\nWe have r + s = 10 and r − s = 4. Add them: 2r = 14, so r = 7 and s = 3. Then k = rs = 21.\n\nCheck: x² − 10x + 21 = (x − 3)(x − 7). The roots are 3 and 7, whose difference is 4 and sum is 10.\n\nSecond method: use the identity (r + s)² − (r − s)² = 4rs. So 100 − 16 = 4k and k = 84/4 = 21.",
+      "tip": "Use sum of roots = −b and product = c to turn information about the roots into two simple equations.",
+      "trap": "Choice (A) 16 is (r − s)², and (C) 25 is (r + s)²/4, the largest possible product when the roots are equal. Neither is the product of the actual roots.",
+      "timeTarget": 120,
+      "skills": [
+        "sum-product-roots"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-011",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "What is the sum of all real values of x that satisfy √(2x + 3) = x?",
+      "choices": [
+        "2",
+        "3",
+        "−1",
+        "1",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Square both sides: 2x + 3 = x². Rearrange: x² − 2x − 3 = 0, so (x − 3)(x + 1) = 0, giving x = 3 or x = −1.\n\nSquaring can introduce extra answers, so check each. x = 3: √9 = 3, correct. x = −1: √1 = 1, but x = −1, so it fails.\n\nOnly x = 3 works, so the sum of all solutions is 3.\n\nFaster way: since a square root is never negative, x must be ≥ 0, so x = −1 can be discarded before you test it.",
+      "tip": "After squaring a radical equation, check every candidate in the original, or use the sign condition (root ≥ 0) to rule candidates out.",
+      "trap": "Choice (A) 2 is the sum of both roots of the quadratic, 3 + (−1), including the extraneous one.",
+      "timeTarget": 120,
+      "skills": [
+        "radicals",
+        "extraneous"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-012",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If a² − b² = 21 and a − b = 3, what is the value of a² + b²?",
+      "choices": [
+        "21",
+        "25",
+        "29",
+        "49",
+        "34"
+      ],
+      "answer": 2,
+      "explanation": "Use the difference of squares: a² − b² = (a + b)(a − b). So 21 = (a + b)(3), which gives a + b = 7.\n\nNow a + b = 7 and a − b = 3. Add: 2a = 10, so a = 5, and b = 2.\n\nThen a² + b² = 25 + 4 = 29.\n\nCheck: a² − b² = 25 − 4 = 21 and a − b = 3. Both given facts hold.\n\nAlternative: (a + b)² + (a − b)² = 2(a² + b²), so a² + b² = (49 + 9)/2 = 29.",
+      "tip": "Two pieces of information about a² − b² and a − b give you a + b; then (a + b)² and (a − b)² give a² + b².",
+      "trap": "Choice (D) 49 is (a + b)², and (B) 25 is a² alone. Choice (A) 21 is simply the given value of a² − b², not the sum asked for.",
+      "timeTarget": 120,
+      "skills": [
+        "identities",
+        "difference-of-squares"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-013",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If x > 0 and x² + 1/x² = 7, what is the value of x³ + 1/x³?",
+      "choices": [
+        "21",
+        "18",
+        "27",
+        "9",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "First find x + 1/x. Square it: (x + 1/x)² = x² + 2 + 1/x² = 7 + 2 = 9. Since x > 0, x + 1/x = 3.\n\nNow use the sum of cubes: x³ + 1/x³ = (x + 1/x)(x² − 1 + 1/x²) = 3 × (7 − 1) = 18.\n\nCheck with the cube of (x + 1/x): (x + 1/x)³ = x³ + 3x + 3/x + 1/x³ = x³ + 1/x³ + 3(x + 1/x). So 27 = (x³ + 1/x³) + 9, giving 18. Same answer.\n\nThe condition x > 0 matters: it picks the positive root of 9, so x + 1/x = 3, not −3.",
+      "tip": "To climb from x + 1/x to higher powers, square or cube it and subtract the cross terms.",
+      "trap": "Choice (C) 27 is (x + 1/x)³, forgetting to subtract the cross terms 3(x + 1/x) = 9. Choice (A) 21 is 3 × 7, using x² + 1/x² in place of x² − 1 + 1/x².",
+      "timeTarget": 160,
+      "skills": [
+        "identities",
+        "hard"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-p-014",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "For how many integer values of k does the equation x² + kx + 12 = 0 have two distinct integer solutions?",
+      "choices": [
+        "3",
+        "12",
+        "6",
+        "8",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "If the solutions are integers p and q, then x² + kx + 12 = (x − p)(x − q), so pq = 12 and k = −(p + q). We need p ≠ q.\n\nList integer pairs with product 12: (1, 12), (2, 6), (3, 4), (−1, −12), (−2, −6), (−3, −4). No pair has p = q, because 12 is not a perfect square. Each pair gives its own sum, and the sums are 13, 8, 7, −13, −8, −7, so k takes six different values: −13, −8, −7, 7, 8, 13.\n\nSo the answer is 6.\n\nCheck one: k = 7 gives x² + 7x + 12 = (x + 3)(x + 4), roots −3 and −4. Good.",
+      "tip": "When integer roots are required, list the factor pairs of the constant, including the negative pairs, then convert each to a value of k.",
+      "trap": "Choice (A) 3 counts only the positive factor pairs and forgets the negative ones. Choice (B) 12 counts every signed divisor of 12 instead of pairing them up.",
+      "timeTarget": 150,
+      "skills": [
+        "factor-pairs",
+        "integer-roots"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-m-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "Which of the following is equivalent to (x + 5)²?",
+      "choices": [
+        "x² + 25",
+        "x² + 5x + 25",
+        "x² + 10x + 25",
+        "x² + 10x + 10",
+        "x² + 10x"
+      ],
+      "answer": 2,
+      "explanation": "Squaring a binomial means multiplying it by itself: (x + 5)(x + 5). Use FOIL: x · x = x², x · 5 = 5x, 5 · x = 5x, 5 · 5 = 25.\n\nAdd: x² + 5x + 5x + 25 = x² + 10x + 25.\n\nThe general rule is (a + b)² = a² + 2ab + b². Here a = x and b = 5, so 2ab = 10x.\n\nCheck with x = 1: (1 + 5)² = 36, and 1 + 10 + 25 = 36. A quick substitution rules out the other choices too: x² + 25 gives 26.",
+      "tip": "Always expect a middle term when squaring a sum or difference: (a + b)² = a² + 2ab + b².",
+      "trap": "Choice (A) x² + 25 is the classic mistake of squaring each term and dropping the middle term 2ab.",
+      "timeTarget": 60,
+      "skills": [
+        "special-products"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-m-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Which of the following is a solution of 2x² − x − 15 = 0?",
+      "choices": [
+        "−3",
+        "3",
+        "5",
+        "5/2",
+        "−5"
+      ],
+      "answer": 1,
+      "explanation": "Factor: find two numbers that multiply to 2 × (−15) = −30 and add to −1. They are −6 and 5. Split the middle term: 2x² − 6x + 5x − 15 = 2x(x − 3) + 5(x − 3) = (2x + 5)(x − 3).\n\nSo x = 3 or x = −5/2.\n\nOnly 3 appears among the choices. Check by substitution: 2(9) − 3 − 15 = 18 − 18 = 0.\n\nSecond method: substitute each choice. x = −3 gives 18 + 3 − 15 = 6. x = 5 gives 50 − 5 − 15 = 30. x = 5/2 gives 12.5 − 2.5 − 15 = −5. x = −5 gives 50 + 5 − 15 = 40. None of those is zero.",
+      "tip": "When the leading coefficient isn't 1, test the answer choices: it's often faster than factoring.",
+      "trap": "Choice (D) 5/2 is the positive version of the other root (−5/2). The signs of the roots are opposite to the constants in the factors (2x + 5)(x − 3).",
+      "timeTarget": 90,
+      "skills": [
+        "factoring",
+        "backsolving"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-m-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "Which of the following is equal to (√11 + √5)² − (√11 − √5)²?",
+      "choices": [
+        "16",
+        "22",
+        "4√6",
+        "2√55",
+        "4√55"
+      ],
+      "answer": 4,
+      "explanation": "Use the identity (a + b)² − (a − b)² = 4ab. Expand each square to see why: (a² + 2ab + b²) − (a² − 2ab + b²) = 4ab. Here a = √11 and b = √5.\n\nSo the expression equals 4 × √11 × √5 = 4√55.\n\nCheck by expanding directly: (√11 + √5)² = 16 + 2√55 and (√11 − √5)² = 16 − 2√55. Subtracting: 4√55.\n\nThe shortcut avoids squaring roots at all, which is the point: the squares and the 11 + 5 = 16 cancel.",
+      "tip": "The difference of two squared binomials, (a + b)² − (a − b)², always collapses to 4ab.",
+      "trap": "Choice (A) 16 is 11 + 5, what you get from the a² + b² parts alone. Choice (D) 2√55 is the single cross term 2ab; there are two of them here.",
+      "timeTarget": 100,
+      "skills": [
+        "identities",
+        "radicals"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-m-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "What is the sum of all values of x that satisfy x(x − 4) = 5(x − 4)?",
+      "choices": [
+        "9",
+        "5",
+        "4",
+        "20",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Move everything to one side: x(x − 4) − 5(x − 4) = 0. Factor out the common (x − 4): (x − 4)(x − 5) = 0. So x = 4 or x = 5, and the sum is 9.\n\nCheck: x = 4 gives 0 = 0. x = 5 gives 5(1) = 5 and 5(1) = 5.\n\nSecond method: expand to x² − 4x − 5x + 20 = 0, which is x² − 9x + 20 = 0. The sum of the roots is −b = 9.\n\nThe trap is cancelling (x − 4) from both sides and losing x = 4.",
+      "tip": "If both sides share a factor containing x, factor it out rather than dividing it away.",
+      "trap": "Choice (B) 5 results from dividing both sides by (x − 4), which silently drops the solution x = 4.",
+      "timeTarget": 100,
+      "skills": [
+        "dividing-trap"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-m-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If r and s are the roots of x² − 8x + 5 = 0, what is the value of r² + s²?",
+      "choices": [
+        "64",
+        "59",
+        "44",
+        "54",
+        "69"
+      ],
+      "answer": 3,
+      "explanation": "From the equation, r + s = 8 and rs = 5. Use r² + s² = (r + s)² − 2rs.\n\nSo r² + s² = 64 − 10 = 54.\n\nCheck numerically: the roots are 4 ± √11, about 7.317 and 0.683. Their squares are about 53.54 and 0.467, which add to about 54. Correct.\n\nNote that the roots are not whole numbers. If you try to find them first, the arithmetic is messy; the sum-and-product shortcut is the intended route.",
+      "tip": "For anything symmetric in the roots (r² + s², 1/r + 1/s, and so on), use sum and product instead of solving.",
+      "trap": "Choice (A) 64 is (r + s)², forgetting to subtract 2rs. Choice (B) 59 comes from subtracting rs once (5) rather than 2rs (10).",
+      "timeTarget": 120,
+      "skills": [
+        "sum-product-roots",
+        "identities"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-m-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "How many real values of x satisfy √(3x + 4) = x − 2?",
+      "choices": [
+        "2",
+        "0",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Square both sides: 3x + 4 = (x − 2)² = x² − 4x + 4. Rearrange: x² − 7x = 0, so x(x − 7) = 0, giving x = 0 or x = 7.\n\nCheck each in the original. x = 0: left is √4 = 2, right is 0 − 2 = −2. Not equal, so it's extraneous. x = 7: left is √25 = 5, right is 7 − 2 = 5. It works.\n\nExactly one real solution.\n\nFaster check: a square root can't be negative, so x − 2 ≥ 0, meaning x ≥ 2. That excludes x = 0 immediately.",
+      "tip": "Squaring can create fake solutions; always test them, or use the sign of the other side (x − 2 ≥ 0) first.",
+      "trap": "Choice (A) 2 counts both roots of the quadratic, including the extraneous x = 0.",
+      "timeTarget": 120,
+      "skills": [
+        "radicals",
+        "extraneous"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-m-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If x² − 3x + 1 = 0, what is the value of x⁴ + 1/x⁴?",
+      "choices": [
+        "49",
+        "47",
+        "45",
+        "7",
+        "81"
+      ],
+      "answer": 1,
+      "explanation": "First note x ≠ 0 (plugging in 0 gives 1, not 0). Divide the equation by x: x − 3 + 1/x = 0, so x + 1/x = 3.\n\nSquare it: x² + 2 + 1/x² = 9, so x² + 1/x² = 7.\n\nSquare again: x⁴ + 2 + 1/x⁴ = 49, so x⁴ + 1/x⁴ = 47.\n\nCheck: the roots are (3 ± √5)/2. Take x ≈ 2.618: x² ≈ 6.854 and x⁴ ≈ 46.98, and 1/x⁴ ≈ 0.0213. The total is about 47.0. Correct.\n\nThe pattern is to climb one square at a time, subtracting 2 each time.",
+      "tip": "From x + 1/x = n, repeated squaring gives x² + 1/x² = n² − 2, then x⁴ + 1/x⁴ = (n² − 2)² − 2.",
+      "trap": "Choice (A) 49 is (x² + 1/x²)², forgetting to subtract 2. Choice (D) 7 stops one squaring too early.",
+      "timeTarget": 150,
+      "skills": [
+        "identities",
+        "hard"
+      ]
+    },
+    {
+      "id": "q-quadratics-qd-m-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-quadratics",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "For how many ordered pairs (a, b) of positive integers is a² − b² = 45?",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "6",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Factor: a² − b² = (a − b)(a + b) = 45. Since a and b are positive, a + b > a − b > 0, and both factors are positive integers that multiply to 45.\n\nFactor pairs of 45: (1, 45), (3, 15), (5, 9). Check that a − b and a + b have the same parity so that a and b are whole numbers. All of these pairs are odd and odd, so they work.\n\n(1, 45): a = 23, b = 22. (3, 15): a = 9, b = 6. (5, 9): a = 7, b = 2. Each has b positive.\n\nSo there are 3 pairs.\n\nCheck one: 49 − 4 = 45. Correct.",
+      "tip": "For integer solutions of a² − b² = N, list factor pairs of N with the smaller factor as (a − b).",
+      "trap": "Choice (D) 6 counts the factor pairs in both orders (like (45, 1)), which would make a − b larger than a + b and b negative. Choice (A) 2 forgets that (1, 45) works too.",
+      "timeTarget": 150,
+      "skills": [
+        "difference-of-squares",
+        "integer-solutions"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "If 3x − 5 < 10, which of the following describes all possible values of x?",
+      "choices": [
+        "x > 5",
+        "x < 15",
+        "x < 5/3",
+        "x < 5",
+        "x > −5"
+      ],
+      "answer": 3,
+      "explanation": "Solve like an equation. Add 5 to both sides: 3x < 15. Divide by 3: x < 5.\n\nBecause you divided by a positive number, the inequality sign stays the same.\n\nCheck with numbers: x = 4 gives 12 − 5 = 7 < 10, true. x = 6 gives 18 − 5 = 13, which is not less than 10. So the boundary is at 5, and values below it work.",
+      "tip": "Adding, subtracting, or multiplying and dividing by a positive number never flips an inequality sign.",
+      "trap": "Choice (B) x < 15 stops after adding 5 and forgets to divide by 3. Choice (A) x > 5 flips the sign for no reason, a habit people develop after learning the negative-number rule.",
+      "timeTarget": 60,
+      "skills": [
+        "linear-inequality"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "How many integers n satisfy −3 ≤ n < 4?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "5",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "List them. The inequality is inclusive on the left (−3 is allowed) and exclusive on the right (4 is not). The integers are −3, −2, −1, 0, 1, 2, 3.\n\nThat's 7 integers.\n\nSecond method: the count between two endpoints is (largest − smallest) + 1 = 3 − (−3) + 1 = 7.\n\nCheck that 4 is excluded and −3 is included; those two details decide the count.",
+      "tip": "To count integers in a range, take (largest − smallest) + 1, after deciding which endpoints are included.",
+      "trap": "Choice (A) 6 forgets that −3 is included, and (C) 8 wrongly includes 4. Always read the ≤ versus < signs at each end.",
+      "timeTarget": 60,
+      "skills": [
+        "counting-integers"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If 7 − 2x ≥ 15, which of the following describes all possible values of x?",
+      "choices": [
+        "x ≥ −4",
+        "x ≤ 4",
+        "x ≥ 4",
+        "x ≤ −4",
+        "x ≤ 11"
+      ],
+      "answer": 3,
+      "explanation": "Subtract 7 from both sides: −2x ≥ 8. Now divide both sides by −2. Dividing by a negative number flips the inequality: x ≤ −4.\n\nCheck: x = −5 gives 7 + 10 = 17 ≥ 15, true. x = 0 gives 7, which is not ≥ 15. So the solution is values at or below −4.\n\nSecond method: a quick test of x = −4 gives 7 + 8 = 15, which satisfies ≥ with equality. The numbers more negative make the left side bigger, so the solution points to the left of −4.",
+      "tip": "Dividing or multiplying by a negative flips the inequality sign; test one value to catch a missed flip.",
+      "trap": "Choice (A) x ≥ −4 has the right number but forgets to flip the sign. Choice (B) x ≤ 4 loses the negative sign entirely.",
+      "timeTarget": 75,
+      "skills": [
+        "sign-flip"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "How many integers x satisfy |x − 2| ≤ 4?",
+      "choices": [
+        "8",
+        "7",
+        "10",
+        "4",
+        "9"
+      ],
+      "answer": 4,
+      "explanation": "|x − 2| ≤ 4 says x is within 4 units of 2. That means −4 ≤ x − 2 ≤ 4. Add 2 to every part: −2 ≤ x ≤ 6.\n\nThe integers from −2 to 6 inclusive are −2, −1, 0, 1, 2, 3, 4, 5, 6, which is 9 integers (6 − (−2) + 1 = 9).\n\nCheck the endpoints: x = −2 gives |−4| = 4, allowed. x = 6 gives |4| = 4, allowed. Because the inequality uses ≤, both endpoints count.",
+      "tip": "Read |x − a| ≤ b as \"x is within b of a\" and write it as a ≤ x ≤ a, giving a − b ≤ x ≤ a + b.",
+      "trap": "Choice (A) 8 treats the inequality as strict and drops one endpoint. Choice (B) 7 drops both endpoints. The ≤ sign keeps both.",
+      "timeTarget": 75,
+      "skills": [
+        "absolute-value",
+        "counting-integers"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "If 2 < x < 5 and 1 < y < 3, which of the following could be the value of x − y?",
+      "choices": [
+        "−2",
+        "−1",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 4,
+      "explanation": "To find the range of x − y, rewrite it as x + (−y). From 1 < y < 3, multiply by −1 and flip: −3 < −y < −1. Add that to 2 < x < 5: 2 + (−3) < x − y < 5 + (−1), which gives −1 < x − y < 4.\n\nThe inequality is strict, so −1 and 4 are not achievable. Only the values strictly between −1 and 4 can be x − y.\n\nOf the choices, only 3 lies in that range. For instance, x = 4.5 and y = 1.5 gives 3.\n\nCheck extremes: −2 is below the lowest possible value, and 5 is above the highest.",
+      "tip": "For a difference of bounded numbers, flip the bounds on the second variable, then add. Remember strict inequalities exclude their endpoints.",
+      "trap": "Choices (B) −1 and (C) 4 are the endpoints of the range, but because the original bounds are strict, x − y can approach them and never equal them.",
+      "timeTarget": 90,
+      "skills": [
+        "combining-inequalities"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "How many integers x satisfy x² − 2x − 15 < 0?",
+      "choices": [
+        "7",
+        "9",
+        "8",
+        "6",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Factor: x² − 2x − 15 = (x − 5)(x + 3). The product is negative when the two factors have opposite signs, which happens between the roots: −3 < x < 5.\n\nThe integers strictly between −3 and 5 are −2, −1, 0, 1, 2, 3, 4. That is 7 integers.\n\nCheck the boundaries: at x = −3 and x = 5 the expression equals 0, which is not less than 0, so they are excluded. Test x = 0: −15 < 0, true. Test x = 6: 36 − 12 − 15 = 9, not < 0.",
+      "tip": "For a quadratic inequality, find the roots, then test one point from each region; with < 0 the answer is the stretch between the roots.",
+      "trap": "Choice (B) 9 counts the endpoints −3 and 5 as if the inequality were ≤. Choice (C) 8 includes just one of them.",
+      "timeTarget": 100,
+      "skills": [
+        "quadratic-inequality",
+        "counting-integers"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If x > y, which of the following must be true?",
+      "choices": [
+        "x³ > y³",
+        "x² > y²",
+        "1/x < 1/y",
+        "|x| > |y|",
+        "x² > xy"
+      ],
+      "answer": 0,
+      "explanation": "Odd powers preserve order: if x > y then x³ > y³ for every real x and y, positive or negative. So x³ > y³ is always true.\n\nNow try to break the others with test values.\n\nx² > y²: take x = 1, y = −2. Then x > y, but x² = 1 < 4 = y². False.\n1/x < 1/y: take x = 2, y = −1. Then x > y, but 1/x = 1/2 is greater than 1/y = −1. False.\n|x| > |y|: take x = 1, y = −2. Then |x| = 1 < 2 = |y|. False.\nx² > xy: take x = −1, y = −2. Then x > y, but x² = 1 and xy = 2, so x² < xy. False.\n\nOnly x³ > y³ survives every test.",
+      "tip": "For \"must be true\" questions, hunt for a counterexample using a negative, a fraction, and zero; the survivor is the answer.",
+      "trap": "The choice x² > y² feels right because larger numbers have larger squares, but that only holds for non-negative numbers. Negative values reverse the order after squaring.",
+      "timeTarget": 120,
+      "skills": [
+        "must-be-true",
+        "test-cases"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If −3 ≤ x ≤ 5 and −1 ≤ y ≤ 4, what is the least possible value of xy?",
+      "choices": [
+        "−5",
+        "−12",
+        "−4",
+        "−15",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "The extreme values of a product of bounded numbers occur at the corners of the ranges. Test all four combinations of endpoints.\n\nx = −3, y = −1: product 3. x = −3, y = 4: product −12. x = 5, y = −1: product −5. x = 5, y = 4: product 20.\n\nThe least is −12.\n\nReasoning check: to make a product as negative as possible, pair the biggest negative-magnitude number from one range with the biggest positive number from the other that flips the sign. Here, −3 (magnitude 3) with 4 gives −12, which beats 5 with −1 giving −5.",
+      "tip": "For max or min of xy with bounds, evaluate the four corner products and compare.",
+      "trap": "Choice (A) −5 pairs the biggest x with the smallest y, ignoring that −3 × 4 is more negative. Choice (E) 0 is attainable but not the minimum.",
+      "timeTarget": 100,
+      "skills": [
+        "max-min",
+        "corners"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-009",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "What is the sum of all values of x that satisfy |2x − 5| = 9?",
+      "choices": [
+        "5",
+        "7",
+        "2",
+        "9",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "An absolute value equation splits into two cases. Case 1: 2x − 5 = 9, so 2x = 14 and x = 7. Case 2: 2x − 5 = −9, so 2x = −4 and x = −2.\n\nThe sum is 7 + (−2) = 5.\n\nCheck both: |14 − 5| = 9 and |−4 − 5| = |−9| = 9. Both work.\n\nShortcut: the solutions are symmetric about the centre of the inside expression, x = 5/2. Two solutions equally spaced around 5/2 add up to 2 × (5/2) = 5.",
+      "tip": "For |ax + b| = c with c > 0, the two solutions are symmetric about x = −b/a, so their sum is −2b/a.",
+      "trap": "Choice (B) 7 is only one of the two solutions, and (C) 2 is the other one (−2) with the wrong sign. The question asks for the sum of both.",
+      "timeTarget": 90,
+      "skills": [
+        "absolute-value",
+        "cases"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-010",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If −1 < x < 0, which of the following is the greatest?",
+      "choices": [
+        "x",
+        "x²",
+        "x³",
+        "1/x",
+        "−x"
+      ],
+      "answer": 4,
+      "explanation": "Pick a sample value, say x = −1/2. Then x = −0.5, x² = 0.25, x³ = −0.125, 1/x = −2, and −x = 0.5. The greatest is −x.\n\nWhy this holds in general: for −1 < x < 0, the quantity −x is positive and less than 1. Then x² = (−x)(−x) is positive but is a fraction of −x, so x² < −x. Negative numbers (x, x³, 1/x) are all below the positive ones.\n\nCheck with another value, x = −0.9: −x = 0.9 and x² = 0.81. Again −x is bigger.",
+      "tip": "When a variable is a fraction between −1 and 1, test one or two sample values; squaring shrinks magnitudes.",
+      "trap": "Choice x² is tempting because squares are positive, but squaring a number smaller than 1 in size makes it smaller still. The reciprocal 1/x looks big but is very negative here.",
+      "timeTarget": 90,
+      "skills": [
+        "number-types",
+        "test-cases"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-011",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If |x − 2| < 3 and |y + 1| ≤ 2, what is the greatest integer value that x + y can have?",
+      "choices": [
+        "5",
+        "6",
+        "4",
+        "7",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Translate each condition. |x − 2| < 3 gives −1 < x < 5. |y + 1| ≤ 2 gives −3 ≤ y ≤ 1.\n\nAdd the ranges: −4 < x + y < 6. The upper end is open because x < 5 strictly, so x + y can get as close to 6 as you like but can never equal 6.\n\nThe greatest integer value that x + y can actually take is 5. For example, x = 4 and y = 1 gives 5 (x = 4 is allowed since 4 < 5).\n\nCheck 6: it would need x + y = 6 with y ≤ 1, so x ≥ 5, which is not allowed.",
+      "tip": "When adding ranges, one strict end makes the sum's end strict. Ask whether the extreme value is attainable.",
+      "trap": "Choice (B) 6 is the supremum of x + y, but it's never reached because x < 5 is strict. The question asks for a value x + y can have.",
+      "timeTarget": 120,
+      "skills": [
+        "absolute-value",
+        "combining-inequalities"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-012",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "How many integers x satisfy both x² < 30 and |x − 1| > 2?",
+      "choices": [
+        "5",
+        "7",
+        "6",
+        "8",
+        "11"
+      ],
+      "answer": 2,
+      "explanation": "Condition 1: x² < 30 means −√30 < x < √30. Since 5² = 25 < 30 and 6² = 36 > 30, the integers are −5 through 5.\n\nCondition 2: |x − 1| > 2 means x − 1 > 2 or x − 1 < −2, so x > 3 or x < −1.\n\nCombine: from −5 through 5, keep those with x > 3 or x < −1. That gives 4, 5 on the high side and −5, −4, −3, −2 on the low side. Total: 2 + 4 = 6.\n\nCheck a boundary: x = 3 gives |2| = 2, not > 2, so it's out. x = −1 gives |−2| = 2, also out.",
+      "tip": "With two conditions, write each as a range, list the integers for one, and filter by the other.",
+      "trap": "Choice (D) 8 counts x = 3 and x = −1, which are the boundary cases of a strict inequality. Choice (E) 11 is all the integers from −5 to 5, ignoring the second condition.",
+      "timeTarget": 130,
+      "skills": [
+        "absolute-value",
+        "quadratic-inequality"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-013",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "What is the sum of all integers x such that |x − 3| + |x + 2| = 5?",
+      "choices": [
+        "0",
+        "5",
+        "6",
+        "1",
+        "3"
+      ],
+      "answer": 4,
+      "explanation": "Read |x − 3| + |x + 2| as the distance from x to 3 plus the distance from x to −2. The two points 3 and −2 are 5 apart. For any x between them (including the endpoints), the two distances add up to exactly 5. For any x outside that stretch, the sum exceeds 5.\n\nSo the solutions are all x with −2 ≤ x ≤ 3. The integers are −2, −1, 0, 1, 2, 3, whose sum is 3.\n\nCheck x = 1: |−2| + |3| = 5. Check x = 4: 1 + 6 = 7, too big.",
+      "tip": "A sum of two distances |x − a| + |x − b| equals the gap between a and b exactly when x lies between a and b.",
+      "trap": "Choice (D) 1 counts only the endpoints, −2 + 3, treating the equation as having two solutions. The equation is actually true for a whole interval of values.",
+      "timeTarget": 140,
+      "skills": [
+        "absolute-value",
+        "distance"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-p-014",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "practice",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "How many integers x satisfy both (x − 2)/(x + 3) ≤ 0 and x² ≤ 16?",
+      "choices": [
+        "6",
+        "4",
+        "7",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Condition 1: a fraction is ≤ 0 when the numerator and denominator have opposite signs, or the numerator is 0. The critical points are x = 2 (numerator zero) and x = −3 (denominator zero, so excluded). Testing regions: x < −3 gives (−)/(−) = positive, no. −3 < x < 2 gives (−)/(+) = negative, yes. x > 2 gives positive, no. At x = 2 the fraction is 0, so it counts.\n\nSolution: −3 < x ≤ 2.\n\nCondition 2: x² ≤ 16 gives −4 ≤ x ≤ 4.\n\nIntersect: −3 < x ≤ 2. The integers are −2, −1, 0, 1, 2, which is 5.\n\nCheck: x = −3 is excluded because the denominator would be 0.",
+      "tip": "For a fraction inequality, mark where the numerator and denominator hit zero, test each region, and never include a point that makes the denominator zero.",
+      "trap": "Choice (A) 6 counts x = −3, where the expression is undefined. Always check that a boundary is not a forbidden value.",
+      "timeTarget": 150,
+      "skills": [
+        "rational-inequality"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-m-001",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "mock",
+      "difficulty": 1,
+      "format": "mc",
+      "prompt": "If 4x + 3 > 19, which of the following describes all possible values of x?",
+      "choices": [
+        "x < 4",
+        "x > 4",
+        "x > 16",
+        "x > 5.5",
+        "x > 1"
+      ],
+      "answer": 1,
+      "explanation": "Subtract 3 from both sides: 4x > 16. Divide by 4: x > 4.\n\nDividing by a positive number keeps the sign the same.\n\nCheck: x = 5 gives 23 > 19, true. x = 4 gives 19, which is not greater than 19, so 4 is excluded.\n\nSecond method: test the boundary. At x = 4 the left side equals 19 exactly, and as x grows the left side grows, so the solution is x > 4.",
+      "tip": "Treat an inequality like an equation; only multiplying or dividing by a negative changes the rules.",
+      "trap": "Choice (C) x > 16 stops before dividing by 4. Choice (A) x < 4 flips the sign even though no negative number was involved.",
+      "timeTarget": 60,
+      "skills": [
+        "linear-inequality"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-m-002",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "mock",
+      "difficulty": 2,
+      "format": "mc",
+      "prompt": "Which of the following describes all x for which −2 < 3x − 5 ≤ 7?",
+      "choices": [
+        "1 ≤ x < 4",
+        "3 < x ≤ 12",
+        "−7/3 < x ≤ 2/3",
+        "1 < x < 4",
+        "1 < x ≤ 4"
+      ],
+      "answer": 4,
+      "explanation": "Apply each step to all three parts. Add 5: 3 < 3x ≤ 12. Divide by 3: 1 < x ≤ 4.\n\nThe left sign (<) and right sign (≤) stay the same because you added a number and divided by a positive.\n\nCheck the endpoints. x = 1 gives 3 − 5 = −2, which is not greater than −2, so 1 is out. x = 4 gives 12 − 5 = 7, which is allowed (≤ 7), so 4 is in.\n\nThe answer must therefore be open at 1 and closed at 4.",
+      "tip": "In a compound inequality, do every operation to all three parts and keep track of which end is open and which is closed.",
+      "trap": "Choice 1 ≤ x < 4 swaps the open and closed ends, and 1 < x < 4 closes neither. Choice −7/3 < x ≤ 2/3 subtracts 5 instead of adding it.",
+      "timeTarget": 90,
+      "skills": [
+        "compound-inequality"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-m-003",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If 0 < x < 1, which of the following is the greatest?",
+      "choices": [
+        "1/x",
+        "√x",
+        "1/x²",
+        "x",
+        "x²"
+      ],
+      "answer": 2,
+      "explanation": "Test a value such as x = 1/4. Then √x = 1/2, x = 1/4, x² = 1/16, 1/x = 4, and 1/x² = 16. The greatest is 1/x².\n\nWhy in general: for a number between 0 and 1, powers shrink it (x² < x < √x < 1), while reciprocals blow it up: 1/x > 1, and 1/x² = (1/x)(1/x) is bigger than 1/x because it's 1/x times something larger than 1.\n\nCheck with x = 0.9: 1/x ≈ 1.11 and 1/x² ≈ 1.23. The order holds.\n\nSo the order is x² < x < √x < 1 < 1/x < 1/x².",
+      "tip": "For 0 < x < 1: squaring shrinks, square roots grow slightly, reciprocals grow a lot.",
+      "trap": "Choice (A) 1/x is large but beaten by 1/x². Choice (B) √x is the biggest of the \"small\" group, which is why it can look attractive.",
+      "timeTarget": 90,
+      "skills": [
+        "fractions",
+        "test-cases"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-m-004",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "mock",
+      "difficulty": 3,
+      "format": "mc",
+      "prompt": "If x < 0 < y and |x| < |y|, which of the following must be true?",
+      "choices": [
+        "x − y > 0",
+        "x + y > 0",
+        "xy > 0",
+        "x² > y²",
+        "y/x > 0"
+      ],
+      "answer": 1,
+      "explanation": "Use a concrete example: x = −2 and y = 5. Then x + y = 3, x − y = −7, xy = −10, x² = 4 and y² = 25, and y/x = −2.5.\n\nCheck each. x + y > 0: since y is positive and bigger in size than negative x, the sum is positive. True. x − y > 0: negative minus positive is negative. False. xy > 0: negative times positive is negative. False. x² > y²: because |x| < |y|, x² < y². False. y/x > 0: positive over negative is negative. False.\n\nOnly the first statement holds. Another example, x = −1, y = 1.5, agrees.",
+      "tip": "Plug in one clean example that meets the conditions; it usually eliminates four choices at once.",
+      "trap": "Choice (D) x² > y² reverses the relationship. Since |x| < |y|, squaring (which compares sizes) gives x² < y².",
+      "timeTarget": 100,
+      "skills": [
+        "must-be-true",
+        "absolute-value"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-m-005",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "What is the sum of all values of x that satisfy |x − 5| = 3x − 1?",
+      "choices": [
+        "−1/2",
+        "−2",
+        "3/2",
+        "5/2",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Split into cases based on the sign of x − 5.\n\nCase 1: x ≥ 5. Then |x − 5| = x − 5, so x − 5 = 3x − 1, giving −4 = 2x and x = −2. But −2 is not ≥ 5, so reject it.\n\nCase 2: x < 5. Then |x − 5| = 5 − x, so 5 − x = 3x − 1, giving 6 = 4x and x = 3/2. Since 3/2 < 5, it's valid.\n\nCheck x = 3/2 in the original: |3/2 − 5| = 7/2 and 3(3/2) − 1 = 7/2. It works.\n\nThere is only one solution, so the sum is 3/2.\n\nCheck the rejected value too: x = −2 gives |−7| = 7 but 3(−2) − 1 = −7. Not equal.",
+      "tip": "In absolute value equations, test each candidate against its case condition and the original equation; extra answers are common.",
+      "trap": "Choice (A) −1/2 is −2 + 3/2, which wrongly includes the rejected solution. Choice (B) −2 is the extraneous solution on its own.",
+      "timeTarget": 140,
+      "skills": [
+        "absolute-value",
+        "cases",
+        "extraneous"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-m-006",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "mock",
+      "difficulty": 4,
+      "format": "mc",
+      "prompt": "If x and y are integers with 2 < x < 8 and 3 < y < 9, how many different integer values can x − y take?",
+      "choices": [
+        "8",
+        "10",
+        "11",
+        "7",
+        "9"
+      ],
+      "answer": 4,
+      "explanation": "List the integers. For 2 < x < 8, x is 3, 4, 5, 6, 7. For 3 < y < 9, y is 4, 5, 6, 7, 8.\n\nThe smallest x − y is the smallest x minus the largest y: 3 − 8 = −5. The largest is the largest x minus the smallest y: 7 − 4 = 3.\n\nEvery integer between −5 and 3 is achievable, since you can step x or y by one at a time. The values are −5, −4, −3, −2, −1, 0, 1, 2, 3, which is 9 values.\n\nCheck: 3 − (−5) + 1 = 9.",
+      "tip": "For integer ranges, list the actual integers first; strict inequalities shrink each range by one at both ends.",
+      "trap": "Choices 10 and 11 come from treating strict bounds as inclusive and miscounting. Choice 8 takes the gap between the extremes (3 − (−5)) without adding 1.",
+      "timeTarget": 130,
+      "skills": [
+        "combining-inequalities",
+        "counting-integers"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-m-007",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "How many integers x satisfy |x − 1| + |x − 6| < 9?",
+      "choices": [
+        "9",
+        "10",
+        "8",
+        "7",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Interpret |x − 1| + |x − 6| as the sum of distances from x to 1 and to 6. The points 1 and 6 are 5 apart, so between them the sum is exactly 5.\n\nOutside that stretch, the sum grows by 2 for each unit you step away. To the left of 1: at x = 1 − t the sum is t + (5 + t) = 5 + 2t. We need 5 + 2t < 9, so t < 2, meaning x > −1. To the right of 6: at x = 6 + t the sum is (5 + t) + t = 5 + 2t, so t < 2, meaning x < 8.\n\nSolution: −1 < x < 8. The integers are 0 through 7, which is 8 integers.\n\nCheck the boundary: x = −1 gives 2 + 7 = 9, not < 9. x = 8 gives 7 + 2 = 9, also excluded. x = 0 gives 1 + 6 = 7, included.",
+      "tip": "Interpret sums of absolute values as total distance from two points; the sum increases by 2 for each unit outside the gap.",
+      "trap": "Choice (A) 9 includes one of the boundary values −1 or 8, where the sum equals 9 exactly and the strict inequality fails.",
+      "timeTarget": 150,
+      "skills": [
+        "absolute-value",
+        "distance"
+      ]
+    },
+    {
+      "id": "q-inequalities-qd-m-008",
+      "section": "quant",
+      "type": "PS",
+      "topic": "q-inequalities",
+      "pool": "mock",
+      "difficulty": 5,
+      "format": "mc",
+      "prompt": "If −2 ≤ a ≤ 3 and −4 ≤ b ≤ 1, what is the greatest possible value of a² + b² − ab?",
+      "choices": [
+        "37",
+        "25",
+        "12",
+        "28",
+        "41"
+      ],
+      "answer": 0,
+      "explanation": "The expression a² + b² − ab is a bowl-shaped (convex) function, so its maximum over a rectangle occurs at one of the four corners. Test them.\n\n(a, b) = (−2, −4): 4 + 16 − 8 = 12.\n(a, b) = (−2, 1): 4 + 1 − (−2) = 7.\n(a, b) = (3, −4): 9 + 16 − (−12) = 37.\n(a, b) = (3, 1): 9 + 1 − 3 = 7.\n\nThe greatest is 37. Notice that it comes from making a and b opposite in sign, because then −ab adds to the squares instead of subtracting.\n\nCheck 37: 9 + 16 + 12 = 37. Correct.",
+      "tip": "For expressions with squares, the maximum often sits at endpoints with the biggest magnitudes and with signs arranged so cross terms add.",
+      "trap": "Choice (B) 25 is a² + b² alone (9 + 16), forgetting that −ab = +12 here. Choice (C) 12 is the corner where a and b share a sign, which makes the cross term subtract.",
+      "timeTarget": 150,
+      "skills": [
+        "max-min",
+        "corners"
+      ]
+    }
+  ]
+}

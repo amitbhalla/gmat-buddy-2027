@@ -1,0 +1,1 @@
+{"name":"gmat-buddy-2027","version":"1.0.0","private":true,"type":"module","description":"GMAT Buddy 2027: a complete guided GMAT Focus Edition prep companion","scripts":{"start":"node server.js","build":"node scripts/build.mjs","validate":"node scripts/validate-content.mjs","test":"node --test tests/*.test.mjs"},"engines":{"node":">=18"},"license":"MIT"}

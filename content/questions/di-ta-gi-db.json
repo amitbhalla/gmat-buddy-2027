@@ -1,0 +1,3767 @@
+{
+ "stimuli": [
+  {
+   "id": "ta-db-p-01",
+   "kind": "table",
+   "title": "Cafe outlets across Delhi NCR",
+   "intro": "A cafe chain tracks eight outlets. Figures are daily averages for the last quarter.",
+   "table": {
+    "columns": [
+     "Outlet",
+     "City",
+     "Daily customers",
+     "Average bill (₹)",
+     "Staff"
+    ],
+    "rows": [
+     [
+      "Connaught Place",
+      "Delhi",
+      420,
+      310,
+      14
+     ],
+     [
+      "Khan Market",
+      "Delhi",
+      380,
+      350,
+      12
+     ],
+     [
+      "Saket",
+      "Delhi",
+      300,
+      280,
+      10
+     ],
+     [
+      "Cyber Hub",
+      "Gurugram",
+      460,
+      330,
+      15
+     ],
+     [
+      "Sector 29",
+      "Gurugram",
+      350,
+      300,
+      11
+     ],
+     [
+      "Sector 18",
+      "Noida",
+      290,
+      240,
+      9
+     ],
+     [
+      "Botanical Garden",
+      "Noida",
+      260,
+      220,
+      8
+     ],
+     [
+      "Indirapuram",
+      "Ghaziabad",
+      240,
+      210,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-02",
+   "kind": "table",
+   "title": "Quarterly revenue by product line",
+   "intro": "A technology company reports revenue by product line for each quarter of last year.",
+   "table": {
+    "columns": [
+     "Product line",
+     "Q1 ($m)",
+     "Q2 ($m)",
+     "Q3 ($m)",
+     "Q4 ($m)"
+    ],
+    "rows": [
+     [
+      "Software",
+      12.5,
+      13.1,
+      14,
+      15.2
+     ],
+     [
+      "Hardware",
+      20.4,
+      19.8,
+      21,
+      22.5
+     ],
+     [
+      "Services",
+      8.2,
+      8.9,
+      9.5,
+      10.1
+     ],
+     [
+      "Cloud",
+      5,
+      6.5,
+      8.2,
+      10.4
+     ],
+     [
+      "Support",
+      4.4,
+      4.4,
+      4.6,
+      4.5
+     ],
+     [
+      "Training",
+      2.1,
+      2.5,
+      2.2,
+      3
+     ],
+     [
+      "Licences",
+      9,
+      8.4,
+      8,
+      7.6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-03",
+   "kind": "table",
+   "title": "Economic indicators for nine economies",
+   "intro": "The table gives illustrative economic figures for nine countries. Use only the information in the table.",
+   "table": {
+    "columns": [
+     "Country",
+     "GDP (US$ bn)",
+     "Population (m)",
+     "GDP growth (%)",
+     "Inflation (%)"
+    ],
+    "rows": [
+     [
+      "Brazil",
+      2170,
+      216,
+      2.9,
+      4.5
+     ],
+     [
+      "Canada",
+      2140,
+      40,
+      1.1,
+      3
+     ],
+     [
+      "Indonesia",
+      1370,
+      277,
+      5,
+      2.6
+     ],
+     [
+      "Mexico",
+      1790,
+      129,
+      3.2,
+      4.2
+     ],
+     [
+      "Poland",
+      810,
+      37,
+      0.2,
+      5.9
+     ],
+     [
+      "Thailand",
+      515,
+      72,
+      1.9,
+      1.2
+     ],
+     [
+      "Turkey",
+      1110,
+      85,
+      4.5,
+      22
+     ],
+     [
+      "Vietnam",
+      430,
+      99,
+      5.1,
+      3.3
+     ],
+     [
+      "Chile",
+      335,
+      19,
+      0.2,
+      7.6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-04",
+   "kind": "table",
+   "title": "Paid campaign performance",
+   "intro": "A marketing team reviews ten paid campaigns. Conversion rate means conversions divided by clicks; ROI means revenue divided by spend.",
+   "table": {
+    "columns": [
+     "Campaign",
+     "Channel",
+     "Spend (₹ thousand)",
+     "Clicks",
+     "Conversions",
+     "Revenue (₹ thousand)"
+    ],
+    "rows": [
+     [
+      "C01",
+      "Search",
+      120,
+      6000,
+      300,
+      540
+     ],
+     [
+      "C02",
+      "Search",
+      90,
+      4200,
+      189,
+      330
+     ],
+     [
+      "C03",
+      "Social",
+      150,
+      9000,
+      270,
+      420
+     ],
+     [
+      "C04",
+      "Social",
+      80,
+      5600,
+      112,
+      150
+     ],
+     [
+      "C05",
+      "Email",
+      25,
+      2500,
+      150,
+      260
+     ],
+     [
+      "C06",
+      "Display",
+      100,
+      12000,
+      120,
+      160
+     ],
+     [
+      "C07",
+      "Video",
+      140,
+      7000,
+      175,
+      310
+     ],
+     [
+      "C08",
+      "Email",
+      30,
+      2500,
+      100,
+      180
+     ],
+     [
+      "C09",
+      "Display",
+      60,
+      8000,
+      64,
+      70
+     ],
+     [
+      "C10",
+      "Search",
+      70,
+      2800,
+      112,
+      250
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-05",
+   "kind": "table",
+   "title": "Department workforce profile",
+   "intro": "A company reports the following by department. Payroll means headcount multiplied by average salary.",
+   "table": {
+    "columns": [
+     "Department",
+     "Headcount",
+     "Avg salary (₹ lakh)",
+     "Attrition (%)",
+     "Avg tenure (years)"
+    ],
+    "rows": [
+     [
+      "Sales",
+      120,
+      9.5,
+      18,
+      2.8
+     ],
+     [
+      "Marketing",
+      45,
+      11,
+      14,
+      3.1
+     ],
+     [
+      "Engineering",
+      210,
+      16.5,
+      9,
+      4.2
+     ],
+     [
+      "Finance",
+      60,
+      12,
+      6,
+      5.5
+     ],
+     [
+      "HR",
+      25,
+      8.5,
+      8,
+      4.8
+     ],
+     [
+      "Operations",
+      180,
+      7,
+      22,
+      2.5
+     ],
+     [
+      "Legal",
+      15,
+      21,
+      4,
+      6
+     ],
+     [
+      "Support",
+      95,
+      5.5,
+      25,
+      2.2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-06",
+   "kind": "table",
+   "title": "Mutual fund comparison",
+   "intro": "An investor compares nine funds. AUM is assets under management. Returns are annualised percentages.",
+   "table": {
+    "columns": [
+     "Fund",
+     "Category",
+     "AUM (₹ crore)",
+     "1-year return (%)",
+     "3-year return (% p.a.)",
+     "Expense ratio (%)"
+    ],
+    "rows": [
+     [
+      "Alpha Equity",
+      "Large cap",
+      5200,
+      14.2,
+      12.5,
+      1.1
+     ],
+     [
+      "Beta Growth",
+      "Mid cap",
+      3100,
+      22.5,
+      16,
+      1.6
+     ],
+     [
+      "Gamma Small",
+      "Small cap",
+      1800,
+      31,
+      21,
+      1.9
+     ],
+     [
+      "Delta Bond",
+      "Debt",
+      4500,
+      7.1,
+      6.8,
+      0.6
+     ],
+     [
+      "Epsilon Hybrid",
+      "Hybrid",
+      2700,
+      11.8,
+      10.2,
+      1.3
+     ],
+     [
+      "Zeta Index",
+      "Large cap",
+      8200,
+      13.9,
+      12.1,
+      0.2
+     ],
+     [
+      "Eta Liquid",
+      "Debt",
+      6000,
+      6.5,
+      6.2,
+      0.3
+     ],
+     [
+      "Theta Value",
+      "Mid cap",
+      1500,
+      18.4,
+      14.1,
+      1.7
+     ],
+     [
+      "Iota Dynamic",
+      "Hybrid",
+      2200,
+      12.6,
+      10.9,
+      1.4
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-07",
+   "kind": "table",
+   "title": "Power plants: capacity, output and cost",
+   "intro": "A utility lists ten plants. Capacity factor is annual output divided by the maximum possible output (capacity in MW × 8.76 gives GWh per year at full load).",
+   "table": {
+    "columns": [
+     "Plant",
+     "Type",
+     "Capacity (MW)",
+     "Output (GWh/year)",
+     "Cost ($m)",
+     "Year built"
+    ],
+    "rows": [
+     [
+      "P1",
+      "Solar",
+      100,
+      175,
+      90,
+      2019
+     ],
+     [
+      "P2",
+      "Solar",
+      150,
+      270,
+      130,
+      2021
+     ],
+     [
+      "P3",
+      "Wind",
+      200,
+      520,
+      260,
+      2018
+     ],
+     [
+      "P4",
+      "Wind",
+      120,
+      300,
+      170,
+      2020
+     ],
+     [
+      "P5",
+      "Hydro",
+      300,
+      1100,
+      600,
+      2005
+     ],
+     [
+      "P6",
+      "Hydro",
+      80,
+      290,
+      170,
+      2012
+     ],
+     [
+      "P7",
+      "Gas",
+      400,
+      2100,
+      320,
+      2015
+     ],
+     [
+      "P8",
+      "Gas",
+      250,
+      900,
+      210,
+      2010
+     ],
+     [
+      "P9",
+      "Coal",
+      600,
+      3700,
+      900,
+      2008
+     ],
+     [
+      "P10",
+      "Solar",
+      60,
+      100,
+      58,
+      2022
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-08",
+   "kind": "table",
+   "title": "Subscription cohorts",
+   "intro": "A streaming app tracks ten monthly sign-up cohorts. Paid users = signups × paid conversion. Retained users = paid users × (1 − 3-month churn).",
+   "table": {
+    "columns": [
+     "Cohort",
+     "Signups",
+     "Paid conversion (%)",
+     "3-month churn (%)",
+     "ARPU (₹ per month)"
+    ],
+    "rows": [
+     [
+      "Jan",
+      1200,
+      18,
+      30,
+      480
+     ],
+     [
+      "Feb",
+      1500,
+      16,
+      28,
+      470
+     ],
+     [
+      "Mar",
+      1800,
+      14,
+      35,
+      450
+     ],
+     [
+      "Apr",
+      1400,
+      20,
+      25,
+      500
+     ],
+     [
+      "May",
+      2000,
+      15,
+      33,
+      440
+     ],
+     [
+      "Jun",
+      1600,
+      19,
+      27,
+      510
+     ],
+     [
+      "Jul",
+      1100,
+      22,
+      24,
+      520
+     ],
+     [
+      "Aug",
+      1900,
+      13,
+      38,
+      430
+     ],
+     [
+      "Sep",
+      1300,
+      21,
+      26,
+      515
+     ],
+     [
+      "Oct",
+      1700,
+      17,
+      31,
+      455
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-09",
+   "kind": "table",
+   "title": "Regional retail network",
+   "intro": "A retailer reports its stores, average monthly sales per store and operating margin by region. Online share is the percentage of regional sales made online.",
+   "table": {
+    "columns": [
+     "Region",
+     "Stores",
+     "Sales per store (₹ lakh per month)",
+     "Online share of sales (%)",
+     "Operating margin (%)"
+    ],
+    "rows": [
+     [
+      "North",
+      120,
+      40,
+      15,
+      12
+     ],
+     [
+      "South",
+      150,
+      35,
+      22,
+      10
+     ],
+     [
+      "East",
+      90,
+      30,
+      10,
+      14
+     ],
+     [
+      "West",
+      140,
+      45,
+      18,
+      11
+     ],
+     [
+      "Central",
+      80,
+      32,
+      25,
+      9
+     ],
+     [
+      "North-East",
+      40,
+      28,
+      8,
+      15
+     ],
+     [
+      "Islands",
+      20,
+      55,
+      30,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-p-10",
+   "kind": "table",
+   "title": "Clinical trial results by site",
+   "intro": "A trial enrolled patients at seven sites. At each site, patients were split into a treated group and a control group (all remaining patients). Response rate is responders divided by group size.",
+   "table": {
+    "columns": [
+     "Site",
+     "Patients enrolled",
+     "Treated patients",
+     "Responders (treated)",
+     "Responders (control)",
+     "Dropouts"
+    ],
+    "rows": [
+     [
+      "A",
+      200,
+      100,
+      62,
+      41,
+      8
+     ],
+     [
+      "B",
+      150,
+      90,
+      51,
+      24,
+      12
+     ],
+     [
+      "C",
+      120,
+      60,
+      33,
+      27,
+      5
+     ],
+     [
+      "D",
+      300,
+      200,
+      120,
+      38,
+      20
+     ],
+     [
+      "E",
+      80,
+      40,
+      22,
+      14,
+      3
+     ],
+     [
+      "F",
+      250,
+      125,
+      70,
+      60,
+      15
+     ],
+     [
+      "G",
+      180,
+      120,
+      75,
+      28,
+      10
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-m-01",
+   "kind": "table",
+   "title": "Bookstore sales by genre",
+   "intro": "A bookstore chain summarises last year by genre.",
+   "table": {
+    "columns": [
+     "Genre",
+     "Titles stocked",
+     "Copies sold (thousand)",
+     "Average price (₹)",
+     "Returns (%)"
+    ],
+    "rows": [
+     [
+      "Fiction",
+      420,
+      85,
+      350,
+      6
+     ],
+     [
+      "Non-fiction",
+      310,
+      60,
+      480,
+      4
+     ],
+     [
+      "Children",
+      260,
+      72,
+      220,
+      3
+     ],
+     [
+      "Academic",
+      180,
+      30,
+      900,
+      2
+     ],
+     [
+      "Comics",
+      150,
+      55,
+      180,
+      8
+     ],
+     [
+      "Poetry",
+      90,
+      12,
+      260,
+      10
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-m-02",
+   "kind": "table",
+   "title": "Airline operating metrics",
+   "intro": "Eight regional airlines are compared on fleet size, passengers, punctuality and complaints.",
+   "table": {
+    "columns": [
+     "Airline",
+     "Fleet (aircraft)",
+     "Passengers (m)",
+     "On-time arrivals (%)",
+     "Complaints per 100,000 passengers"
+    ],
+    "rows": [
+     [
+      "AeroNova",
+      120,
+      24.5,
+      82,
+      4.1
+     ],
+     [
+      "SkyBridge",
+      85,
+      15.2,
+      76,
+      6.3
+     ],
+     [
+      "Blue Orbit",
+      60,
+      9.8,
+      88,
+      3
+     ],
+     [
+      "Horizon",
+      150,
+      31,
+      79,
+      5.2
+     ],
+     [
+      "Cirrus",
+      45,
+      5.4,
+      91,
+      2.2
+     ],
+     [
+      "Meridian",
+      95,
+      18.6,
+      73,
+      7.5
+     ],
+     [
+      "Zephyr",
+      70,
+      11.9,
+      85,
+      3.8
+     ],
+     [
+      "Atlas",
+      110,
+      22.2,
+      80,
+      4.9
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-m-03",
+   "kind": "table",
+   "title": "New housing projects in Delhi NCR",
+   "intro": "A property portal lists nine projects under construction. Total value of units sold means units sold multiplied by the price per unit.",
+   "table": {
+    "columns": [
+     "Project",
+     "Locality",
+     "Units",
+     "Units sold",
+     "Price per unit (₹ lakh)",
+     "Possession year"
+    ],
+    "rows": [
+     [
+      "Skyline",
+      "Dwarka",
+      200,
+      150,
+      85,
+      2027
+     ],
+     [
+      "Greenview",
+      "Gurugram",
+      320,
+      240,
+      140,
+      2028
+     ],
+     [
+      "Orchid",
+      "Noida",
+      150,
+      150,
+      62,
+      2026
+     ],
+     [
+      "Palm Court",
+      "Gurugram",
+      180,
+      90,
+      210,
+      2029
+     ],
+     [
+      "Lakeside",
+      "Faridabad",
+      220,
+      110,
+      55,
+      2028
+     ],
+     [
+      "Metro Heights",
+      "Dwarka",
+      260,
+      208,
+      78,
+      2027
+     ],
+     [
+      "Sunrise",
+      "Noida",
+      300,
+      150,
+      70,
+      2029
+     ],
+     [
+      "Central Park",
+      "Gurugram",
+      240,
+      192,
+      175,
+      2028
+     ],
+     [
+      "Riverside",
+      "Faridabad",
+      120,
+      36,
+      48,
+      2029
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-m-04",
+   "kind": "table",
+   "title": "Customer survey by age group and city tier",
+   "intro": "A survey of 2,050 customers is reported in two separate cuts: by age group and by city tier. \"Tried\" is the percentage of all respondents in the group who tried the product.",
+   "table": {
+    "columns": [
+     "Segment",
+     "Respondents",
+     "Aware (%)",
+     "Tried (%)",
+     "Repurchase (% of those who tried)"
+    ],
+    "rows": [
+     [
+      "Age 18-24",
+      400,
+      72,
+      38,
+      20
+     ],
+     [
+      "Age 25-34",
+      650,
+      68,
+      45,
+      31
+     ],
+     [
+      "Age 35-44",
+      520,
+      55,
+      41,
+      29
+     ],
+     [
+      "Age 45-54",
+      300,
+      48,
+      30,
+      22
+     ],
+     [
+      "Age 55+",
+      180,
+      35,
+      18,
+      12
+     ],
+     [
+      "Metro",
+      800,
+      70,
+      46,
+      30
+     ],
+     [
+      "Tier-2",
+      650,
+      52,
+      33,
+      21
+     ],
+     [
+      "Tier-3",
+      600,
+      40,
+      25,
+      14
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-m-05",
+   "kind": "table",
+   "title": "Exam results by subject",
+   "intro": "A school reports results for seven subjects. Scores are out of 100, and the pass mark is 40.",
+   "table": {
+    "columns": [
+     "Subject",
+     "Students",
+     "Mean score",
+     "Highest score",
+     "Lowest score",
+     "Pass rate (%)"
+    ],
+    "rows": [
+     [
+      "Maths",
+      120,
+      62,
+      98,
+      18,
+      70
+     ],
+     [
+      "Physics",
+      95,
+      58,
+      94,
+      12,
+      62
+     ],
+     [
+      "Chemistry",
+      110,
+      66,
+      97,
+      25,
+      78
+     ],
+     [
+      "Biology",
+      80,
+      71,
+      99,
+      30,
+      88
+     ],
+     [
+      "English",
+      200,
+      69,
+      95,
+      35,
+      85
+     ],
+     [
+      "History",
+      60,
+      64,
+      92,
+      22,
+      72
+     ],
+     [
+      "Economics",
+      75,
+      60,
+      96,
+      15,
+      64
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-m-06",
+   "kind": "table",
+   "title": "Warehouse performance",
+   "intro": "A retailer compares ten fulfilment warehouses. Late orders are the share of daily orders delivered after the promised date.",
+   "table": {
+    "columns": [
+     "Warehouse",
+     "Region",
+     "Orders per day",
+     "Late orders (%)",
+     "Cost per order (₹)",
+     "Staff"
+    ],
+    "rows": [
+     [
+      "W1",
+      "North",
+      1800,
+      4,
+      42,
+      60
+     ],
+     [
+      "W2",
+      "North",
+      1200,
+      6.5,
+      48,
+      45
+     ],
+     [
+      "W3",
+      "South",
+      2400,
+      3.2,
+      38,
+      75
+     ],
+     [
+      "W4",
+      "South",
+      900,
+      9,
+      55,
+      40
+     ],
+     [
+      "W5",
+      "East",
+      1500,
+      5,
+      45,
+      52
+     ],
+     [
+      "W6",
+      "East",
+      700,
+      12,
+      62,
+      30
+     ],
+     [
+      "W7",
+      "West",
+      2100,
+      4.5,
+      40,
+      68
+     ],
+     [
+      "W8",
+      "West",
+      1000,
+      7.5,
+      51,
+      42
+     ],
+     [
+      "W9",
+      "Central",
+      2800,
+      2.8,
+      36,
+      85
+     ],
+     [
+      "W10",
+      "Central",
+      600,
+      10.5,
+      58,
+      28
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-m-07",
+   "kind": "table",
+   "title": "Smartphone brands: units and prices",
+   "intro": "Eight brands report units shipped and average selling price in two years. Revenue = units × average price.",
+   "table": {
+    "columns": [
+     "Brand",
+     "Units 2023 (m)",
+     "Units 2024 (m)",
+     "Avg price 2023 ($)",
+     "Avg price 2024 ($)"
+    ],
+    "rows": [
+     [
+      "Apex",
+      42,
+      45,
+      780,
+      800
+     ],
+     [
+      "Nova",
+      38,
+      36,
+      310,
+      295
+     ],
+     [
+      "Lumen",
+      25,
+      31,
+      220,
+      230
+     ],
+     [
+      "Orbit",
+      20,
+      19,
+      540,
+      560
+     ],
+     [
+      "Pixa",
+      15,
+      22,
+      180,
+      185
+     ],
+     [
+      "Quanta",
+      12,
+      10,
+      650,
+      640
+     ],
+     [
+      "Vega",
+      9,
+      13,
+      260,
+      270
+     ],
+     [
+      "Zen",
+      6,
+      8,
+      150,
+      155
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ta-db-m-08",
+   "kind": "table",
+   "title": "Government department budgets",
+   "intro": "The table shows annual budgets and 2024 actual spending for eight departments. Amounts are in ₹ crore. \"Unspent\" means budget minus spending for departments that spent less than their budget.",
+   "table": {
+    "columns": [
+     "Department",
+     "Budget 2023",
+     "Budget 2024",
+     "Spent 2024"
+    ],
+    "rows": [
+     [
+      "Health",
+      520,
+      600,
+      582
+     ],
+     [
+      "Education",
+      610,
+      650,
+      640
+     ],
+     [
+      "Defence",
+      900,
+      960,
+      955
+     ],
+     [
+      "Transport",
+      340,
+      410,
+      370
+     ],
+     [
+      "Energy",
+      280,
+      360,
+      300
+     ],
+     [
+      "Agriculture",
+      220,
+      250,
+      248
+     ],
+     [
+      "Housing",
+      150,
+      210,
+      160
+     ],
+     [
+      "Culture",
+      40,
+      44,
+      45
+     ]
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-01",
+   "kind": "chart",
+   "title": "App downloads by city",
+   "intro": "A fitness app recorded new downloads in six cities last month.",
+   "chart": {
+    "type": "bar",
+    "xLabel": "City",
+    "yLabel": "Downloads (thousand)",
+    "categories": [
+     "Delhi",
+     "Mumbai",
+     "Bengaluru",
+     "Chennai",
+     "Hyderabad",
+     "Pune"
+    ],
+    "series": [
+     {
+      "name": "Downloads",
+      "values": [
+       48,
+       62,
+       70,
+       41,
+       55,
+       36
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-02",
+   "kind": "chart",
+   "title": "Quarterly revenue",
+   "intro": "A software firm reports revenue for eight consecutive quarters.",
+   "chart": {
+    "type": "line",
+    "xLabel": "Quarter",
+    "yLabel": "Revenue ($ million)",
+    "categories": [
+     "Q1 22",
+     "Q2 22",
+     "Q3 22",
+     "Q4 22",
+     "Q1 23",
+     "Q2 23",
+     "Q3 23",
+     "Q4 23"
+    ],
+    "series": [
+     {
+      "name": "Revenue",
+      "values": [
+       40,
+       44,
+       47,
+       45,
+       50,
+       56,
+       61,
+       60
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-03",
+   "kind": "chart",
+   "title": "Marketing budget allocation",
+   "intro": "A company’s annual marketing budget is ₹80 lakh. The pie shows how it is split.",
+   "chart": {
+    "type": "pie",
+    "slices": [
+     {
+      "label": "Paid search",
+      "value": 30
+     },
+     {
+      "label": "Social media",
+      "value": 25
+     },
+     {
+      "label": "Content",
+      "value": 20
+     },
+     {
+      "label": "Events",
+      "value": 15
+     },
+     {
+      "label": "Email",
+      "value": 10
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-04",
+   "kind": "chart",
+   "title": "Orders by sales channel",
+   "intro": "A retailer’s orders are shown by channel for four quarters. The bottom segment is Online.",
+   "chart": {
+    "type": "stacked",
+    "xLabel": "Quarter",
+    "yLabel": "Orders (thousand)",
+    "categories": [
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "series": [
+     {
+      "name": "Online",
+      "values": [
+       30,
+       34,
+       40,
+       46
+      ]
+     },
+     {
+      "name": "Store",
+      "values": [
+       50,
+       48,
+       45,
+       44
+      ]
+     },
+     {
+      "name": "Partner",
+      "values": [
+       20,
+       22,
+       25,
+       30
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-05",
+   "kind": "chart",
+   "title": "Advertising spend and store sales",
+   "intro": "Twelve stores are plotted by monthly advertising spend and monthly sales.",
+   "chart": {
+    "type": "scatter",
+    "xLabel": "Advertising spend (₹ lakh)",
+    "yLabel": "Monthly sales (₹ lakh)",
+    "points": [
+     {
+      "name": "S1",
+      "x": 2,
+      "y": 18
+     },
+     {
+      "name": "S2",
+      "x": 3,
+      "y": 22
+     },
+     {
+      "name": "S3",
+      "x": 4,
+      "y": 25
+     },
+     {
+      "name": "S4",
+      "x": 5,
+      "y": 33
+     },
+     {
+      "name": "S5",
+      "x": 6,
+      "y": 32
+     },
+     {
+      "name": "S6",
+      "x": 7,
+      "y": 41
+     },
+     {
+      "name": "S7",
+      "x": 8,
+      "y": 44
+     },
+     {
+      "name": "S8",
+      "x": 9,
+      "y": 43
+     },
+     {
+      "name": "S9",
+      "x": 10,
+      "y": 52
+     },
+     {
+      "name": "S10",
+      "x": 11,
+      "y": 55
+     },
+     {
+      "name": "S11",
+      "x": 12,
+      "y": 53
+     },
+     {
+      "name": "S12",
+      "x": 13,
+      "y": 64
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-06",
+   "kind": "chart",
+   "title": "Regional revenue in two years",
+   "intro": "A company compares regional revenue in 2023 and 2024.",
+   "chart": {
+    "type": "bar",
+    "xLabel": "Region",
+    "yLabel": "Revenue ($ million)",
+    "categories": [
+     "North",
+     "South",
+     "East",
+     "West"
+    ],
+    "series": [
+     {
+      "name": "2023",
+      "values": [
+       40,
+       90,
+       60,
+       150
+      ]
+     },
+     {
+      "name": "2024",
+      "values": [
+       56,
+       99,
+       57,
+       180
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-07",
+   "kind": "chart",
+   "title": "Subscribers of two streaming services",
+   "intro": "The chart shows subscribers (in thousands) of two streaming services over six years.",
+   "chart": {
+    "type": "line",
+    "xLabel": "Year",
+    "yLabel": "Subscribers (thousand)",
+    "categories": [
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ],
+    "series": [
+     {
+      "name": "Service A",
+      "values": [
+       100,
+       110,
+       120,
+       130,
+       140,
+       150
+      ]
+     },
+     {
+      "name": "Service B",
+      "values": [
+       40,
+       48,
+       58,
+       70,
+       84,
+       100
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-08",
+   "kind": "chart",
+   "title": "Electricity generation mix",
+   "intro": "The chart shows electricity generated by source for a country. The bottom segment is Coal, the middle is Gas and the top is Renewables.",
+   "chart": {
+    "type": "stacked",
+    "xLabel": "Year",
+    "yLabel": "Generation (TWh)",
+    "categories": [
+     "2010",
+     "2015",
+     "2020",
+     "2025"
+    ],
+    "series": [
+     {
+      "name": "Coal",
+      "values": [
+       60,
+       55,
+       48,
+       40
+      ]
+     },
+     {
+      "name": "Gas",
+      "values": [
+       30,
+       32,
+       34,
+       36
+      ]
+     },
+     {
+      "name": "Renewables",
+      "values": [
+       10,
+       18,
+       28,
+       44
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-09",
+   "kind": "chart",
+   "title": "Revenue growth over six years",
+   "intro": "A company’s revenue is shown for 2018 to 2023.",
+   "chart": {
+    "type": "line",
+    "xLabel": "Year",
+    "yLabel": "Revenue ($ million)",
+    "categories": [
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Revenue",
+      "values": [
+       80,
+       88,
+       97,
+       106,
+       117,
+       128
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-10",
+   "kind": "chart",
+   "title": "City size and number of cafes",
+   "intro": "Ten cities are plotted by population (millions) and the number of cafes (hundreds). The trend line shown on the original graph has the equation cafes = 12 × population + 20.",
+   "chart": {
+    "type": "scatter",
+    "xLabel": "Population (million)",
+    "yLabel": "Cafes (hundred)",
+    "points": [
+     {
+      "name": "A",
+      "x": 2,
+      "y": 50
+     },
+     {
+      "name": "B",
+      "x": 3,
+      "y": 52
+     },
+     {
+      "name": "C",
+      "x": 4,
+      "y": 75
+     },
+     {
+      "name": "D",
+      "x": 5,
+      "y": 70
+     },
+     {
+      "name": "E",
+      "x": 6,
+      "y": 100
+     },
+     {
+      "name": "F",
+      "x": 7,
+      "y": 98
+     },
+     {
+      "name": "G",
+      "x": 8,
+      "y": 125
+     },
+     {
+      "name": "H",
+      "x": 9,
+      "y": 135
+     },
+     {
+      "name": "I",
+      "x": 10,
+      "y": 128
+     },
+     {
+      "name": "J",
+      "x": 11,
+      "y": 160
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-11",
+   "kind": "chart",
+   "title": "Sales by segment over three years",
+   "intro": "A company reports sales for three segments. The bottom segment is A, the middle is B and the top is C.",
+   "chart": {
+    "type": "stacked",
+    "xLabel": "Year",
+    "yLabel": "Sales ($ million)",
+    "categories": [
+     "2022",
+     "2023",
+     "2024"
+    ],
+    "series": [
+     {
+      "name": "Segment A",
+      "values": [
+       50,
+       52,
+       54
+      ]
+     },
+     {
+      "name": "Segment B",
+      "values": [
+       30,
+       36,
+       45
+      ]
+     },
+     {
+      "name": "Segment C",
+      "values": [
+       20,
+       22,
+       31
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-p-12",
+   "kind": "chart",
+   "title": "Price and units sold",
+   "intro": "Twelve products are plotted by price and weekly units sold. The trend line passes through the points (10, 90) and (40, 30).",
+   "chart": {
+    "type": "scatter",
+    "xLabel": "Price ($)",
+    "yLabel": "Units sold (hundred)",
+    "points": [
+     {
+      "name": "P1",
+      "x": 8,
+      "y": 94
+     },
+     {
+      "name": "P2",
+      "x": 12,
+      "y": 84
+     },
+     {
+      "name": "P3",
+      "x": 15,
+      "y": 80
+     },
+     {
+      "name": "P4",
+      "x": 18,
+      "y": 72
+     },
+     {
+      "name": "P5",
+      "x": 20,
+      "y": 68
+     },
+     {
+      "name": "P6",
+      "x": 23,
+      "y": 62
+     },
+     {
+      "name": "P7",
+      "x": 26,
+      "y": 58
+     },
+     {
+      "name": "P8",
+      "x": 29,
+      "y": 50
+     },
+     {
+      "name": "P9",
+      "x": 32,
+      "y": 46
+     },
+     {
+      "name": "P10",
+      "x": 35,
+      "y": 40
+     },
+     {
+      "name": "P11",
+      "x": 38,
+      "y": 34
+     },
+     {
+      "name": "P12",
+      "x": 40,
+      "y": 30
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-01",
+   "kind": "chart",
+   "title": "Customer satisfaction survey",
+   "intro": "A survey of 400 customers asked how satisfied they were. The pie shows percentages of respondents.",
+   "chart": {
+    "type": "pie",
+    "slices": [
+     {
+      "label": "Very satisfied",
+      "value": 40
+     },
+     {
+      "label": "Satisfied",
+      "value": 35
+     },
+     {
+      "label": "Neutral",
+      "value": 15
+     },
+     {
+      "label": "Dissatisfied",
+      "value": 10
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-02",
+   "kind": "chart",
+   "title": "Daily output of five plants",
+   "intro": "A manufacturer reports average daily output by plant.",
+   "chart": {
+    "type": "bar",
+    "xLabel": "Plant",
+    "yLabel": "Units per day",
+    "categories": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "series": [
+     {
+      "name": "Output",
+      "values": [
+       450,
+       380,
+       520,
+       290,
+       410
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-03",
+   "kind": "chart",
+   "title": "Daily orders through the week",
+   "intro": "An online store tracked average orders for each day of the week.",
+   "chart": {
+    "type": "line",
+    "xLabel": "Day",
+    "yLabel": "Orders",
+    "categories": [
+     "Mon",
+     "Tue",
+     "Wed",
+     "Thu",
+     "Fri",
+     "Sat",
+     "Sun"
+    ],
+    "series": [
+     {
+      "name": "Orders",
+      "values": [
+       120,
+       135,
+       128,
+       150,
+       190,
+       240,
+       210
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-04",
+   "kind": "chart",
+   "title": "Manufacturing cost structure",
+   "intro": "A company’s costs are shown by component for four years. The bottom segment is Raw materials, the middle is Labour and the top is Overheads.",
+   "chart": {
+    "type": "stacked",
+    "xLabel": "Year",
+    "yLabel": "Cost (₹ crore)",
+    "categories": [
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ],
+    "series": [
+     {
+      "name": "Raw materials",
+      "values": [
+       40,
+       44,
+       50,
+       55
+      ]
+     },
+     {
+      "name": "Labour",
+      "values": [
+       25,
+       26,
+       27,
+       30
+      ]
+     },
+     {
+      "name": "Overheads",
+      "values": [
+       15,
+       15,
+       18,
+       20
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-05",
+   "kind": "chart",
+   "title": "Hotel price and distance from the airport",
+   "intro": "Eleven hotels in a city are plotted by distance from the airport and average nightly price.",
+   "chart": {
+    "type": "scatter",
+    "xLabel": "Distance from airport (km)",
+    "yLabel": "Nightly price (₹ hundred)",
+    "points": [
+     {
+      "name": "H1",
+      "x": 1,
+      "y": 92
+     },
+     {
+      "name": "H2",
+      "x": 2,
+      "y": 88
+     },
+     {
+      "name": "H3",
+      "x": 3,
+      "y": 80
+     },
+     {
+      "name": "H4",
+      "x": 4,
+      "y": 78
+     },
+     {
+      "name": "H5",
+      "x": 6,
+      "y": 65
+     },
+     {
+      "name": "H6",
+      "x": 7,
+      "y": 60
+     },
+     {
+      "name": "H7",
+      "x": 8,
+      "y": 85
+     },
+     {
+      "name": "H8",
+      "x": 9,
+      "y": 52
+     },
+     {
+      "name": "H9",
+      "x": 10,
+      "y": 50
+     },
+     {
+      "name": "H10",
+      "x": 12,
+      "y": 40
+     },
+     {
+      "name": "H11",
+      "x": 14,
+      "y": 38
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-06",
+   "kind": "chart",
+   "title": "Payment app usage by age group",
+   "intro": "A survey asked people whether they use a payment app. The bars show the percentage of each age group that said yes. The number surveyed in each group was 1,500 (18-24), 2,000 (25-34), 1,800 (35-44), 1,200 (45-54) and 1,500 (55+).",
+   "chart": {
+    "type": "bar",
+    "xLabel": "Age group",
+    "yLabel": "Users of payment app (% of group)",
+    "categories": [
+     "18-24",
+     "25-34",
+     "35-44",
+     "45-54",
+     "55+"
+    ],
+    "series": [
+     {
+      "name": "Users (%)",
+      "values": [
+       82,
+       90,
+       76,
+       58,
+       31
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-07",
+   "kind": "chart",
+   "title": "Revenue, costs and profit",
+   "intro": "A company’s revenue and total costs are plotted for five years. Profit is revenue minus costs, and profit margin is profit divided by revenue.",
+   "chart": {
+    "type": "line",
+    "xLabel": "Year",
+    "yLabel": "$ million",
+    "categories": [
+     "Year 1",
+     "Year 2",
+     "Year 3",
+     "Year 4",
+     "Year 5"
+    ],
+    "series": [
+     {
+      "name": "Revenue",
+      "values": [
+       200,
+       230,
+       260,
+       300,
+       320
+      ]
+     },
+     {
+      "name": "Costs",
+      "values": [
+       180,
+       195,
+       215,
+       250,
+       285
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-08",
+   "kind": "chart",
+   "title": "Population by age band",
+   "intro": "A country’s population is shown by age band. The bottom segment is Under 15, the middle is 15-59 and the top is 60 and over.",
+   "chart": {
+    "type": "stacked",
+    "xLabel": "Year",
+    "yLabel": "Population (million)",
+    "categories": [
+     "2000",
+     "2010",
+     "2020"
+    ],
+    "series": [
+     {
+      "name": "Under 15",
+      "values": [
+       28,
+       30,
+       27
+      ]
+     },
+     {
+      "name": "15-59",
+      "values": [
+       60,
+       68,
+       78
+      ]
+     },
+     {
+      "name": "60 and over",
+      "values": [
+       12,
+       16,
+       25
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-09",
+   "kind": "chart",
+   "title": "Revenue by region",
+   "intro": "A company’s total revenue is $240 million. The pie shows each region’s share of total revenue.",
+   "chart": {
+    "type": "pie",
+    "slices": [
+     {
+      "label": "North America",
+      "value": 38
+     },
+     {
+      "label": "Europe",
+      "value": 27
+     },
+     {
+      "label": "Asia",
+      "value": 22
+     },
+     {
+      "label": "Other",
+      "value": 13
+     }
+    ]
+   }
+  },
+  {
+   "id": "gi-db-m-10",
+   "kind": "chart",
+   "title": "Marketing spend and revenue by company",
+   "intro": "Eight companies are plotted by annual marketing spend and annual revenue (both in $ million).",
+   "chart": {
+    "type": "scatter",
+    "xLabel": "Marketing spend ($ million)",
+    "yLabel": "Revenue ($ million)",
+    "points": [
+     {
+      "name": "A",
+      "x": 5,
+      "y": 60
+     },
+     {
+      "name": "B",
+      "x": 8,
+      "y": 72
+     },
+     {
+      "name": "C",
+      "x": 12,
+      "y": 110
+     },
+     {
+      "name": "D",
+      "x": 15,
+      "y": 120
+     },
+     {
+      "name": "E",
+      "x": 20,
+      "y": 170
+     },
+     {
+      "name": "F",
+      "x": 25,
+      "y": 125
+     },
+     {
+      "name": "G",
+      "x": 30,
+      "y": 240
+     },
+     {
+      "name": "H",
+      "x": 35,
+      "y": 245
+     }
+    ]
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "d-ta-db-p-001",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-01",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "More than half of the outlets serve more than 300 customers a day.",
+    "Every Delhi outlet has an average bill of at least ₹280.",
+    "The two Gurugram outlets together serve more than 800 customers a day."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    1,
+    0,
+    0
+   ],
+   "explanation": "**Statement 1 (No).** Sort by daily customers. Only 4 outlets are above 300 (Saket is exactly 300, which does not count). Half of 8 is 4, and \"more than half\" needs at least 5.\n\n**Statement 2 (Yes).** The Delhi bills are 310, 350, 280. The lowest is exactly 280, and \"at least\" includes the boundary.\n\n**Statement 3 (Yes).** 460 + 350 = 810, which is above 800.\n\n**Strategy.** When a statement says \"more than\" or \"at least\", find the boundary row first and decide whether it counts.",
+   "tip": "When a statement says \"more than\" or \"at least\", find the boundary row first and decide whether it counts.",
+   "trap": "Counting Saket (exactly 300) as \"more than 300\" makes the first statement look true.",
+   "timeTarget": 120,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-002",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-02",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "Cloud revenue in Q4 was more than double its revenue in Q1.",
+    "Every product line had higher revenue in each quarter than in the quarter before.",
+    "Total revenue in Q4 was more than 20% higher than total revenue in Q1."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    1
+   ],
+   "explanation": "**Statement 1 (Yes).** Cloud went from 5 to 10.4. Double Q1 is 10, and 10.4 is above it.\n\n**Statement 2 (No).** One counterexample is enough: Hardware fell from 20.4 in Q1 to 19.8 in Q2 (Support, Training and Licences also break the pattern).\n\n**Statement 3 (No).** Q1 total = 61.6 and Q4 total = 73.3. The increase is 11.7, which is 19% of Q1, below 20%. (20% above Q1 would be 73.9.)\n\n**Strategy.** To test \"more than X% higher\", multiply the base by (1 + X/100) and compare, instead of working out the exact percent.",
+   "tip": "To test \"more than X% higher\", multiply the base by (1 + X/100) and compare, instead of working out the exact percent.",
+   "trap": "Totals look so close to 20% that some people round the Q1 total down and wrongly say Yes; compute 1.2 times Q1 first.",
+   "timeTarget": 135,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-003",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-03",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "Canada has a higher GDP per person than any other country in the table.",
+    "The median inflation rate is below 4%.",
+    "Countries with GDP growth above 3% have a combined population of more than 500 million."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "**Statement 1 (Yes).** Canada: 2140/40 = 53.5 per person (US$ thousand). The next highest is Poland at 21.9 and Chile at 17.6; everyone else is below 14.\n\n**Statement 2 (No).** Sorted inflation rates: 1.2, 2.6, 3, 3.3, 4.2, 4.5, 5.9, 7.6, 22. The 5th of 9 values is 4.2, which is above 4. The extreme 22.0 does not matter for a median.\n\n**Statement 3 (Yes).** Sort by growth. The countries above 3% are Indonesia, Mexico, Turkey, Vietnam with populations 277 + 129 + 85 + 99 = 590 million.\n\n**Strategy.** For per-person claims, you only need to test the leading candidates, not every row.",
+   "tip": "For per-person claims, you only need to test the leading candidates, not every row.",
+   "trap": "Averaging the inflation figures would give about 6, tempting you to think the median is also high; the median ignores the 22.0 outlier.",
+   "timeTarget": 135,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-004",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-04",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "The campaign with the highest conversion rate is an Email campaign.",
+    "Every campaign whose ROI is above 3 is either a Search or an Email campaign.",
+    "Search campaigns account for more than half of total spend."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "**Statement 1 (Yes).** Conversion rates run from 0.8% to 6%. The top is C05 (Email) at 6%, with C01 next at 5%.\n\n**Statement 2 (Yes).** ROI above 3: C01 (Search, 4.5); C02 (Search, 3.7); C05 (Email, 10.4); C08 (Email, 6); C10 (Search, 3.6). Social tops out at 2.8 and Video at 2.2.\n\n**Statement 3 (No).** Total spend is 865. Search spend is 120 + 90 + 70 = 280, about 32% of the total.\n\n**Strategy.** For derived ratios you cannot sort by, compute quickly for the leading candidates and use the statement to decide when you can stop.",
+   "tip": "For derived ratios you cannot sort by, compute quickly for the leading candidates and use the statement to decide when you can stop.",
+   "trap": "Assuming Search must win because it has the most campaigns; the small Email campaign C05 converts at 6%, above every Search campaign.",
+   "timeTarget": 150,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-005",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-05",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "Departments with attrition above 10% employ more than 40% of all staff.",
+    "The department with the highest total payroll is Engineering.",
+    "The company-wide average salary (across all employees) is above ₹11 lakh."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "**Statement 1 (Yes).** Total headcount is 750. Attrition above 10%: Sales 120, Marketing 45, Operations 180, Support 95, together 440, which is 59% of staff.\n\n**Statement 2 (Yes).** Engineering payroll is 210 × 16.5 = 3465. The next largest is Operations at 1260 and Sales at 1140.\n\n**Statement 3 (No).** Weighted average = total payroll / headcount = 8130 / 750 = 10.84, below 11. The simple average of the eight salaries is 11.38, which would wrongly suggest Yes.\n\n**Strategy.** Averages across groups of different sizes must be weighted by headcount.",
+   "tip": "Averages across groups of different sizes must be weighted by headcount.",
+   "trap": "Averaging the eight salary figures (about 11.4) instead of weighting by headcount (about 10.8).",
+   "timeTarget": 150,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-006",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-06",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "Funds with a 3-year return above 12% together hold more than 40% of the total AUM.",
+    "Every Debt fund has an expense ratio below the median expense ratio of all nine funds.",
+    "The fund whose return falls the most from 1-year to 3-year is a Mid cap fund."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "**Statement 1 (Yes).** Sort by 3-year return. Above 12%: Alpha Equity 5200, Beta Growth 3100, Gamma Small 1800, Zeta Index 8200, Theta Value 1500, totalling 19800 crore, out of 35200 crore. That is 56%.\n\n**Statement 2 (Yes).** Sorted expense ratios: 0.2, 0.3, 0.6, 1.1, 1.3, 1.4, 1.6, 1.7, 1.9. The 5th of 9 is 1.3. Debt funds charge 0.6 and 0.3, both below it.\n\n**Statement 3 (No).** Drops (1-year minus 3-year): Alpha 1.7, Beta 6.5, Gamma 10, Delta 0.3, Epsilon 1.6, Zeta 1.8, Eta 0.3, Theta 4.3, Iota 1.7. Gamma Small drops 10.0 points, more than Beta Growth at 6.5, so the biggest is a Small cap fund.\n\n**Strategy.** For \"falls the most\", compute the difference for every row; a derived column cannot be sorted.",
+   "tip": "For \"falls the most\", compute the difference for every row; a derived column cannot be sorted.",
+   "trap": "Assuming the biggest drop belongs to the most famous mid-cap fund, when the small-cap fund moved even more.",
+   "timeTarget": 150,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-007",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-07",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "The two plants with the highest capacity factors are both Hydro plants.",
+    "Every solar plant has a capacity factor below 25%.",
+    "Every plant built after 2015 cost less than $1 million per MW of capacity."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    1,
+    0,
+    1
+   ],
+   "explanation": "**Statement 1 (No).** Capacity factors: P9 (Coal) 70%, P7 (Gas) 60%, P5 (Hydro) 42%, P6 (Hydro) 41%. The top two are Coal and Gas, not Hydro.\n\n**Statement 2 (Yes).** Solar: P1 20%, P2 21%, P10 19%. Roughly, 25% of 100 MW would be 219 GWh, and P1 produces only 175.\n\n**Statement 3 (No).** Plants after 2015: P1 0.9, P2 0.87, P3 1.3, P4 1.42, P10 0.97 ($m per MW). P4 (Wind) is at 170/120 = 1.42, above 1.\n\n**Strategy.** For \"every\" statements, hunt for the one counterexample and stop as soon as you find it.",
+   "tip": "For \"every\" statements, hunt for the one counterexample and stop as soon as you find it.",
+   "trap": "Capacity factor needs output divided by capacity, so a plant with big output (like gas or coal) is not automatically the most efficient per MW.",
+   "timeTarget": 165,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-008",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-08",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "The cohort with the most signups is not the cohort with the most paid users.",
+    "The cohort with the most retained users after 3 months is April.",
+    "Total paid users across all ten cohorts exceed 2,600."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "**Statement 1 (Yes).** May has the most signups (2,000) and 300 paid users. June has 304 paid users, which is higher.\n\n**Statement 2 (No).** Retained users: Jan 151, Feb 173, Mar 164, Apr 210, May 201, Jun 222, Jul 184, Aug 153, Sep 202, Oct 199. April has 210, but June has 222, which is the highest.\n\n**Statement 3 (Yes).** Paid users: 216 + 240 + 252 + 280 + 300 + 304 + 242 + 247 + 273 + 289 = 2643, which is above 2,600.\n\n**Strategy.** When a chain of columns multiplies together, compute the whole chain once per row and keep a short list of the results.",
+   "tip": "When a chain of columns multiplies together, compute the whole chain once per row and keep a short list of the results.",
+   "trap": "Looking only at the highest conversion rate (July at 22%) or the lowest churn without multiplying by the cohort size.",
+   "timeTarget": 165,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-009",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-09",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "South and West together account for more than half of the company’s online sales.",
+    "The company-wide operating margin is below 11%.",
+    "The region with the highest operating profit per store is not North."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "**Statement 1 (Yes).** Online sales (₹ lakh per month) = stores × sales per store × online share: North 720, South 1155, East 270, West 1134, Central 640, North-East 90, Islands 330. South + West = 2289 out of 4339, which is 52.8%.\n\n**Statement 2 (No).** Total sales = 23830; operating profit = 2658.4. The margin is 11.16%, so it is slightly above 11%.\n\n**Statement 3 (Yes).** Profit per store = sales per store × margin: North 4.8, South 3.5, East 4.2, West 4.95, Central 2.88, North-East 4.2, Islands 4.4. West (4.95) edges out North (4.80).\n\n**Strategy.** Rank derived ratios by multiplying the two columns that make them (here, sales per store times margin).",
+   "tip": "Rank derived ratios by multiplying the two columns that make them (here, sales per store times margin).",
+   "trap": "Averaging the seven margins (11.3%) or ranking regions by margin alone; West has a lower margin than North but a much larger store.",
+   "timeTarget": 180,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-p-010",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "yesno",
+   "stimulusId": "ta-db-p-10",
+   "prompt": "For each of the following statements, select **True** if the statement must be true based on the information in the table, and **False** otherwise.",
+   "statements": [
+    "At every site, the treated response rate is higher than the control response rate.",
+    "The largest gap between treated and control response rates is at Site A.",
+    "Across all sites combined, the control response rate is above 42%."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "**Statement 1 (True).** Control size = enrolled minus treated. Rates (treated vs control): A 62% vs 41%; B 57% vs 40%; C 55% vs 45%; D 60% vs 38%; E 55% vs 35%; F 56% vs 48%; G 63% vs 47%. Treated is higher at all seven.\n\n**Statement 2 (False).** Gaps in percentage points: A 21, B 16.7, C 10, D 22, E 20, F 8, G 15.8. Site D has the largest gap, 22 points, ahead of Site A at 21.\n\n**Statement 3 (True).** Control responders = 232 out of 545 control patients, which is 42.57%. The simple average of the seven site rates is 41.95%, which would wrongly give False.\n\n**Strategy.** When the question pools groups of different sizes, total the responders and total the patients, then divide once.",
+   "tip": "When the question pools groups of different sizes, total the responders and total the patients, then divide once.",
+   "trap": "Averaging the seven control rates (41.96%), which falls just below 42% and flips the answer.",
+   "timeTarget": 180,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-m-001",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "yesno",
+   "stimulusId": "ta-db-m-01",
+   "prompt": "For each of the following statements, select **True** if the statement must be true based on the information in the table, and **False** otherwise.",
+   "statements": [
+    "Fiction sold more copies than any other genre.",
+    "Poetry has both the highest return rate and the fewest titles stocked.",
+    "Children’s books account for more than a quarter of all copies sold."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "**Statement 1 (True).** Sort by copies sold: Fiction is first at 85, followed by Children at 72.\n\n**Statement 2 (True).** Poetry has 10% returns (the next is Comics at 8%) and 90 titles (the next is Comics at 150). Both conditions hold.\n\n**Statement 3 (False).** Total copies = 314 thousand. A quarter is 78.5, and Children sold 72, which is 22.9% of the total.\n\n**Strategy.** For percent-of-total, compare the row with total ÷ 4 (or total ÷ 10 for 10%) instead of dividing exactly.",
+   "tip": "For percent-of-total, compare the row with total ÷ 4 (or total ÷ 10 for 10%) instead of dividing exactly.",
+   "trap": "Judging \"more than a quarter\" by eye: 72 against 85 feels large, but the total is 314, so a quarter is about 78.",
+   "timeTarget": 120,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-m-002",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "yesno",
+   "stimulusId": "ta-db-m-02",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "Every airline with on-time arrivals above 80% has fewer than 5 complaints per 100,000 passengers.",
+    "Cirrus carries more passengers per aircraft than any other airline.",
+    "The median fleet size is greater than 90 aircraft."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    1
+   ],
+   "explanation": "**Statement 1 (Yes).** Sort by on-time arrivals. Above 80%: AeroNova (4.1), Blue Orbit (3), Cirrus (2.2), Zephyr (3.8). All are below 5. Atlas is exactly 80, so it is not included.\n\n**Statement 2 (No).** Passengers per aircraft (millions): AeroNova 0.2, SkyBridge 0.18, Blue Orbit 0.16, Horizon 0.21, Cirrus 0.12, Meridian 0.2, Zephyr 0.17, Atlas 0.2. Cirrus is the lowest at 0.12; Horizon is the highest.\n\n**Statement 3 (No).** Sorted fleets: 45, 60, 70, 85, 95, 110, 120, 150. The median is the average of the 4th and 5th values: (85 + 95)/2 = 90, which is not greater than 90.\n\n**Strategy.** With an even number of rows the median is the average of the two middle values, so test the boundary exactly.",
+   "tip": "With an even number of rows the median is the average of the two middle values, so test the boundary exactly.",
+   "trap": "Taking the 5th value (95) as the median and wrongly answering Yes to the third statement.",
+   "timeTarget": 135,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-m-003",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "yesno",
+   "stimulusId": "ta-db-m-03",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "Exactly one project has sold all of its units.",
+    "Projects with possession in 2029 are, taken together, less than 50% sold.",
+    "The units sold in Gurugram have a combined value above ₹90,000 lakh."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "**Statement 1 (Yes).** Compare units with units sold: only Orchid (150 of 150) is complete. The next best is Metro Heights and Central Park at 80%.\n\n**Statement 2 (Yes).** The 2029 projects have 600 units, of which 276 are sold, which is 46%.\n\n**Statement 3 (No).** 240 × 140 = 33600; 90 × 210 = 18900; 192 × 175 = 33600. The total is 86100, below 90,000.\n\n**Strategy.** When a statement uses a group (\"taken together\"), add the counts before you divide.",
+   "tip": "When a statement uses a group (\"taken together\"), add the counts before you divide.",
+   "trap": "Averaging the three 2029 percentages (50, 50 and 30) gives 43%, which happens to give the same answer here, but with different sizes it would not.",
+   "timeTarget": 135,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-m-004",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "ta-db-m-04",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "Among the age groups, the 25-34 group has the largest number of respondents who tried the product.",
+    "More than 40% of all respondents have tried the product.",
+    "The number of aware respondents in Metro is greater than the number of aware respondents in Tier-2 and Tier-3 combined."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    1
+   ],
+   "explanation": "**Statement 1 (Yes).** People who tried: Age 18-24 152, Age 25-34 292.5, Age 35-44 213.2, Age 45-54 90, Age 55+ 32.4. The 25-34 group leads with 292.5.\n\n**Statement 2 (No).** Using the age groups, the total who tried is 780.1 out of 2,050, which is 38.1%. The city cut gives the same answer, 732.5, which is 35.7%.\n\n**Statement 3 (No).** Metro: 800 × 70% = 560. Tier-2 plus Tier-3: 338 + 240 = 578. The combined figure is larger.\n\n**Strategy.** The two cuts describe the same people, so never add an age group to a city tier; use one cut per statement.",
+   "tip": "The two cuts describe the same people, so never add an age group to a city tier; use one cut per statement.",
+   "trap": "Comparing percentages (70% against 52% and 40%) instead of converting them to head counts using different group sizes.",
+   "timeTarget": 150,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-m-005",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "yesno",
+   "stimulusId": "ta-db-m-05",
+   "prompt": "For each of the following statements, select **Consistent** if the statement is consistent with the information in the table, and **Inconsistent** otherwise.",
+   "statements": [
+    "More than 150 students passed Maths and Physics combined.",
+    "The subject with the highest mean score also has the highest pass rate.",
+    "The mean score across all students in these seven subjects is above 64.5."
+   ],
+   "labels": [
+    "Consistent",
+    "Inconsistent"
+   ],
+   "answer": [
+    1,
+    0,
+    0
+   ],
+   "explanation": "**Statement 1 (Inconsistent).** Maths: 120 × 70% = 84. Physics: 95 × 62% = 58.9. The total of 142.9 is under 150.\n\n**Statement 2 (Consistent).** Biology leads on both, with a mean of 71 and a pass rate of 88%.\n\n**Statement 3 (Consistent).** Weighted mean = 48030 / 740 = 64.91. The simple mean of the seven subject means is 64.29, which would wrongly give a No.\n\n**Strategy.** A weighted mean sits closer to the means of the biggest groups (English with 200 students pulls this one up).",
+   "tip": "A weighted mean sits closer to the means of the biggest groups (English with 200 students pulls this one up).",
+   "trap": "Averaging the seven subject means (64.3) rather than weighting by class size (64.9).",
+   "timeTarget": 150,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-m-006",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "ta-db-m-06",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "The warehouse with the most orders per day handles more orders per staff member than either East warehouse.",
+    "Across all ten warehouses, more than 5% of daily orders are late.",
+    "Warehouses with a cost per order above ₹50 handle fewer than 10% of all orders."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    0,
+    1
+   ],
+   "explanation": "**Statement 1 (Yes).** W9 is the busiest, with 2800/85 = 32.9 orders per staff member. East: W5 = 28.8 and W6 = 23.3.\n\n**Statement 2 (Yes).** Total orders per day = 15000. Late orders = 777.7, which is 5.18%. The simple average of the ten late percentages is 6.5%, so this one is close and needs the weighted method.\n\n**Statement 3 (No).** Sort by cost: W4 (900), W6 (700), W8 (1000), W10 (600), a total of 3200 orders, which is 21.3% of 15000.\n\n**Strategy.** When a weighted result is close to the threshold, do the full calculation once instead of estimating.",
+   "tip": "When a weighted result is close to the threshold, do the full calculation once instead of estimating.",
+   "trap": "Averaging the late percentages directly (about 6.5%) overstates the share because big warehouses have lower late rates.",
+   "timeTarget": 165,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-m-007",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "yesno",
+   "stimulusId": "ta-db-m-07",
+   "prompt": "For each of the following statements, select **True** if the statement must be true based on the information in the table, and **False** otherwise.",
+   "statements": [
+    "Total revenue across the eight brands grew by a larger percentage than total units.",
+    "Exactly two brands saw both their units and their average price fall.",
+    "The brand with the highest percentage growth in revenue is Pixa."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "answer": [
+    1,
+    0,
+    0
+   ],
+   "explanation": "**Statement 1 (False).** Units: 167 to 184 million, up 10.2%. Revenue: 74580 to 79610 ($m), up 6.7%. Units grew faster.\n\n**Statement 2 (True).** Units and price both fell for Nova and Quanta. Orbit’s units fell, but its price rose.\n\n**Statement 3 (True).** Revenue growth: Apex 9.9%, Nova -9.8%, Lumen 29.6%, Orbit -1.5%, Pixa 50.7%, Quanta -17.9%, Vega 50%, Zen 37.8%. Pixa (50.7%) just beats Vega (50%).\n\n**Strategy.** Percent growth of a product is (1 + units growth)(1 + price growth) − 1, so units and price both matter.",
+   "tip": "Percent growth of a product is (1 + units growth)(1 + price growth) − 1, so units and price both matter.",
+   "trap": "Picking Vega or Lumen from the biggest unit growth; Pixa wins on units plus a small price rise.",
+   "timeTarget": 165,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-ta-db-m-008",
+   "section": "di",
+   "type": "TA",
+   "topic": "d-ta",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "yesno",
+   "stimulusId": "ta-db-m-08",
+   "prompt": "For each of the following statements, select **Yes** if the statement is true based on the information in the table, and **No** otherwise.",
+   "statements": [
+    "Housing and Energy together account for more than 30% of the total increase in budget from 2023 to 2024.",
+    "Education’s share of the total budget was higher in 2024 than in 2023.",
+    "The combined unspent amount in departments that spent less than their budget exceeds 5% of the total 2024 budget."
+   ],
+   "labels": [
+    "Yes",
+    "No"
+   ],
+   "answer": [
+    0,
+    1,
+    0
+   ],
+   "explanation": "**Statement 1 (Yes).** Increases: Health 80, Education 40, Defence 60, Transport 70, Energy 80, Agriculture 30, Housing 60, Culture 4, a total of 424. Housing (60) + Energy (80) = 140, which is 33% of the total.\n\n**Statement 2 (No).** 2023 total = 3060, so Education was 19.93%. 2024 total = 3484, so Education was 18.66%. The share fell, even though the budget rose.\n\n**Statement 3 (Yes).** Unspent: Health 18, Education 10, Defence 5, Transport 40, Energy 60, Agriculture 2, Housing 50, totalling 185. Five percent of 3484 is 174.2, so the unspent amount is above it. (Culture overspent by 1, which is ignored.)\n\n**Strategy.** A rising amount can still have a falling share; compare each amount with its own total.",
+   "tip": "A rising amount can still have a falling share; compare each amount with its own total.",
+   "trap": "Using net underspend (the total budget minus total spending, 184), which hides that Culture overspent; here it lands on the same answer, but the wording is about departments that underspent.",
+   "timeTarget": 180,
+   "skills": [
+    "table-sorting",
+    "calculations-from-tables"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-001",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-01",
+   "prompt": "Use the graph to select the best option for each blank.\n\n[[1]] recorded the most downloads, and Delhi’s downloads were about [[2]] percent of Mumbai’s.",
+   "blanks": [
+    [
+     "Mumbai",
+     "Bengaluru",
+     "Hyderabad"
+    ],
+    [
+     "65",
+     "70",
+     "77",
+     "85"
+    ]
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "Blank 1: the tallest bar is Bengaluru at 70 thousand (Mumbai is second at 62). Blank 2: Delhi is 48 and Mumbai is 62, so 48/62 = 77.4%, which is about 77. Remember that \"X is what percent of Y\" divides by Y, the thing after \"of\".\n\nSo the answers are: Blank 1: **Bengaluru**. Blank 2: **77**.\n\n**Method.** Read the tallest bar by following it to the axis, not by comparing it with its neighbour. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Picking Mumbai because it is the second tallest bar, or dividing 48 by 70 for blank 2 (about 69%).",
+   "tip": "Read the tallest bar by following it to the axis, not by comparing it with its neighbour.",
+   "trap": "Picking Mumbai because it is the second tallest bar, or dividing 48 by 70 for blank 2 (about 69%).",
+   "timeTarget": 90,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-002",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-02",
+   "prompt": "Use the graph to select the best option for each blank.\n\nThe largest increase between two consecutive quarters was $[[1]] million, and revenue in Q4 23 was about [[2]] percent above revenue in Q4 22.",
+   "blanks": [
+    [
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    [
+     "25",
+     "33",
+     "40",
+     "50"
+    ]
+   ],
+   "answer": [
+    2,
+    1
+   ],
+   "explanation": "Blank 1: the quarter-to-quarter changes are +4, +3, −2, +5, +6, +5 and −1. The largest is +6 (Q1 23 to Q2 23). Blank 2: Q4 22 is 45 and Q4 23 is 60, so the increase is 15/45 = 33.3%, about 33. Divide by the earlier figure, 45.\n\nSo the answers are: Blank 1: **6**. Blank 2: **33**.\n\n**Method.** For \"largest increase\" on a line, compute each step; the steepest-looking segment is usually right but verify the close ones. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Dividing the 15-point gain by 60 (the later value) gives 25%, which is the wrong base.",
+   "tip": "For \"largest increase\" on a line, compute each step; the steepest-looking segment is usually right but verify the close ones.",
+   "trap": "Dividing the 15-point gain by 60 (the later value) gives 25%, which is the wrong base.",
+   "timeTarget": 102,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-003",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-03",
+   "prompt": "Use the graph to select the best option for each blank.\n\nPaid search and social media together receive [[1]] percent of the budget, and the amount spent on events is ₹[[2]] lakh.",
+   "blanks": [
+    [
+     "45",
+     "50",
+     "55",
+     "60"
+    ],
+    [
+     "8",
+     "10",
+     "12",
+     "15"
+    ]
+   ],
+   "answer": [
+    2,
+    2
+   ],
+   "explanation": "Blank 1: 30% + 25% = 55%. Blank 2: Events are 15% of ₹80 lakh, and 0.15 × 80 = 12 lakh. Shortcut: 10% of 80 is 8, and half of that is 4, so 15% is 12.\n\nSo the answers are: Blank 1: **55**. Blank 2: **12**.\n\n**Method.** Use the 10% + 5% split for 15%: take a tenth of the total, then add half of that. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Answering 15 for blank 2, which is the percentage and not the rupee amount.",
+   "tip": "Use the 10% + 5% split for 15%: take a tenth of the total, then add half of that.",
+   "trap": "Answering 15 for blank 2, which is the percentage and not the rupee amount.",
+   "timeTarget": 102,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-004",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-04",
+   "prompt": "Use the graph to select the best option for each blank.\n\nOnline’s share of total orders was [[1]] percent in Q1 and rose to about [[2]] percent in Q4.",
+   "blanks": [
+    [
+     "25",
+     "30",
+     "35"
+    ],
+    [
+     "33",
+     "38",
+     "42",
+     "46"
+    ]
+   ],
+   "answer": [
+    1,
+    1
+   ],
+   "explanation": "The segment heights are the values. Q1 total = 30 + 50 + 20 = 100, so Online is 30%. Q4 total = 46 + 44 + 30 = 120, so Online is 46/120 = 38.3%, about 38. Every segment is read as a part of its own bar's total.\n\nSo the answers are: Blank 1: **30**. Blank 2: **38**.\n\n**Method.** In a stacked bar, add up the segments of that one bar to get the total, then divide. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Using the Q1 total (100) for Q4 as well, which gives 46%.",
+   "tip": "In a stacked bar, add up the segments of that one bar to get the total, then divide.",
+   "trap": "Using the Q1 total (100) for Q4 as well, which gives 46%.",
+   "timeTarget": 114,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-005",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-05",
+   "prompt": "Use the graph to select the best option for each blank.\n\nThe scatterplot shows a [[1]] relationship between advertising spend and sales, and the store with the highest sales per rupee of advertising is [[2]].",
+   "blanks": [
+    [
+     "strong positive",
+     "weak positive",
+     "no",
+     "negative"
+    ],
+    [
+     "S1",
+     "S4",
+     "S7",
+     "S12"
+    ]
+   ],
+   "answer": [
+    0,
+    0
+   ],
+   "explanation": "Blank 1: the dots rise steadily from lower left to upper right and hug a line closely (correlation about 0.98), so the relationship is strong and positive. Blank 2: sales per rupee is y/x. S1 = 18/2 = 9.0, S4 = 6.6, S7 = 5.5 and S12 = 4.9. The steepest line from the origin belongs to S1.\n\nSo the answers are: Blank 1: **strong positive**. Blank 2: **S1**.\n\n**Method.** Sales per rupee of spend is the slope from the origin to a dot, so the dot on the steepest ray wins, not the highest dot. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Choosing S12 because it has the highest sales; the question asks for sales per rupee, a ratio.",
+   "tip": "Sales per rupee of spend is the slope from the origin to a dot, so the dot on the steepest ray wins, not the highest dot.",
+   "trap": "Choosing S12 because it has the highest sales; the question asks for sales per rupee, a ratio.",
+   "timeTarget": 114,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-006",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-06",
+   "prompt": "Use the graph to select the best option for each blank.\n\n[[1]] had the largest increase in revenue in dollars, but the largest percentage increase, about [[2]] percent, was in the North.",
+   "blanks": [
+    [
+     "North",
+     "South",
+     "West"
+    ],
+    [
+     "16",
+     "30",
+     "40",
+     "56"
+    ]
+   ],
+   "answer": [
+    2,
+    2
+   ],
+   "explanation": "Blank 1: the dollar changes are North +16, South +9, East −3 and West +30, so West has the largest. Blank 2: North grew from 40 to 56, so 16/40 = 40%. North is a small base, so a small dollar gain is a big percentage gain.\n\nSo the answers are: Blank 1: **West**. Blank 2: **40**.\n\n**Method.** Absolute change and percentage change can point to different winners; the smaller base usually wins on percentage. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Picking 16 for blank 2, which is the dollar gain rather than the percent, or 56 (the new value).",
+   "tip": "Absolute change and percentage change can point to different winners; the smaller base usually wins on percentage.",
+   "trap": "Picking 16 for blank 2, which is the dollar gain rather than the percent, or 56 (the new value).",
+   "timeTarget": 114,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-007",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-07",
+   "prompt": "Use the graph to select the best option for each blank.\n\nBetween 2019 and 2024, Service A’s subscribers grew by [[1]] percent, and Service B’s subscribers grew by [[2]] percent.",
+   "blanks": [
+    [
+     "40",
+     "50",
+     "60"
+    ],
+    [
+     "60",
+     "100",
+     "150",
+     "250"
+    ]
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "Service A went from 100 to 150, a gain of 50 on a base of 100, so 50%. Service B went from 40 to 100, a gain of 60 on a base of 40, which is 150%. B added more subscribers (60 against 50) from a much smaller base.\n\nSo the answers are: Blank 1: **50**. Blank 2: **150**.\n\n**Method.** Percent growth divides by each series’ own starting value, so compare the starting points before the endpoints. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Using 100 (B’s end value) for blank 2, or 60, which is the number of subscribers added rather than the percent.",
+   "tip": "Percent growth divides by each series’ own starting value, so compare the starting points before the endpoints.",
+   "trap": "Using 100 (B’s end value) for blank 2, or 60, which is the number of subscribers added rather than the percent.",
+   "timeTarget": 114,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-008",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-08",
+   "prompt": "Use the graph to select the best option for each blank.\n\nBetween 2010 and 2025, coal generation fell by about [[1]] percent, while renewables’ share of total generation rose by about [[2]] percentage points.",
+   "blanks": [
+    [
+     "20",
+     "25",
+     "33",
+     "40"
+    ],
+    [
+     "17",
+     "22",
+     "27",
+     "37"
+    ]
+   ],
+   "answer": [
+    2,
+    2
+   ],
+   "explanation": "Blank 1: coal fell from 60 to 40, a drop of 20 on a base of 60, which is 33%. Blank 2: in 2010 the total is 100, so renewables are 10%. In 2025 the total is 40 + 36 + 44 = 120, so renewables are 44/120 = 36.7%. The share rose by 26.7 percentage points, about 27.\n\nSo the answers are: Blank 1: **33**. Blank 2: **27**.\n\n**Method.** For a share that changes between two bars, compute each bar’s own total first; the totals are different. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Answering 34 for the second blank (44 − 10) is the change in TWh, and 37 is the 2025 share itself, not the change.",
+   "tip": "For a share that changes between two bars, compute each bar’s own total first; the totals are different.",
+   "trap": "Answering 34 for the second blank (44 − 10) is the change in TWh, and 37 is the 2025 share itself, not the change.",
+   "timeTarget": 126,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-009",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-09",
+   "prompt": "Use the graph to select the best option for each blank.\n\nRevenue grew at an average annual rate of about [[1]] percent between 2018 and 2023. If that rate continued, 2024 revenue would be about $[[2]] million.",
+   "blanks": [
+    [
+     "8",
+     "10",
+     "12",
+     "16"
+    ],
+    [
+     "136",
+     "141",
+     "144",
+     "150"
+    ]
+   ],
+   "answer": [
+    1,
+    1
+   ],
+   "explanation": "Over five years revenue multiplied by 128/80 = 1.6. Testing 10% a year: 1.1 × 1.1 = 1.21, 1.21 × 1.1 = 1.331, then 1.464, then 1.61, so five years of 10% gives about 1.61, almost exactly 1.6. So the rate is about 10% (the exact figure is 9.9%). Blank 2: 128 × 1.10 = 140.8, which is about 141.\n\nSo the answers are: Blank 1: **10**. Blank 2: **141**.\n\n**Method.** Test a round rate by compounding it step by step and see whether it hits the observed multiple. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Dividing the total 60% increase by 5 years gives 12 percent a year, which ignores compounding.",
+   "tip": "Test a round rate by compounding it step by step and see whether it hits the observed multiple.",
+   "trap": "Dividing the total 60% increase by 5 years gives 12 percent a year, which ignores compounding.",
+   "timeTarget": 126,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-010",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-10",
+   "prompt": "Use the graph to select the best option for each blank.\n\nAccording to the trend line, a city of 8 million people would have about [[1]] hundred cafes, and City H has [[2]] hundred cafes more than the trend line predicts.",
+   "blanks": [
+    [
+     "96",
+     "106",
+     "116",
+     "128"
+    ],
+    [
+     "3",
+     "7",
+     "12",
+     "19"
+    ]
+   ],
+   "answer": [
+    2,
+    1
+   ],
+   "explanation": "Blank 1: 12 × 8 + 20 = 116. Blank 2: at a population of 9 the line predicts 12 × 9 + 20 = 128. City H is at 135, so it is 135 − 128 = 7 above the line. The gap is measured vertically, at the same x-value.\n\nSo the answers are: Blank 1: **116**. Blank 2: **7**.\n\n**Method.** To compare a dot with a trend line, compute the line’s value at the dot’s x and subtract. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Using city G (8, 125) instead of the line value for blank 1, which gives 125 rather than 116 (the line is a prediction, not a dot).",
+   "tip": "To compare a dot with a trend line, compute the line’s value at the dot’s x and subtract.",
+   "trap": "Using city G (8, 125) instead of the line value for blank 1, which gives 125 rather than 116 (the line is a prediction, not a dot).",
+   "timeTarget": 126,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-011",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-11",
+   "prompt": "Use the graph to select the best option for each blank.\n\nBetween 2022 and 2024, [[1]] had the highest percentage growth in sales, and Segment B’s share of total sales rose by about [[2]] percentage points.",
+   "blanks": [
+    [
+     "Segment A",
+     "Segment B",
+     "Segment C"
+    ],
+    [
+     "2",
+     "3",
+     "5",
+     "7"
+    ]
+   ],
+   "answer": [
+    2,
+    2
+   ],
+   "explanation": "Blank 1: growth from 2022 to 2024: A is 4/50 = 8%, B is 15/30 = 50%, C is 11/20 = 55%. Segment C is the fastest, even though B added more dollars (15 against 11). Blank 2: totals are 100 in 2022 and 130 in 2024. B’s share goes from 30% to 45/130 = 34.6%, a rise of 4.6 points, about 5.\n\nSo the answers are: Blank 1: **Segment C**. Blank 2: **5**.\n\n**Method.** Separate three ideas: dollar change, percent growth and change in share; each uses a different base. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Choosing Segment B because it added the most dollars, or giving 15 for the share change (the dollar gain).",
+   "tip": "Separate three ideas: dollar change, percent growth and change in share; each uses a different base.",
+   "trap": "Choosing Segment B because it added the most dollars, or giving 15 for the share change (the dollar gain).",
+   "timeTarget": 138,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-p-012",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "dropdown",
+   "stimulusId": "gi-db-p-12",
+   "prompt": "Use the graph to select the best option for each blank.\n\nThe trend line implies that each $1 increase in price is associated with about [[1]] hundred fewer units sold. Extending the line, units would reach zero at a price of about $[[2]], which is far outside the data and therefore unreliable.",
+   "blanks": [
+    [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    [
+     "45",
+     "50",
+     "55",
+     "60"
+    ]
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "Blank 1: slope = (30 − 90)/(40 − 10) = −60/30 = −2, so 2 hundred fewer units per dollar. Blank 2: from (10, 90), zero units needs a fall of 90, which is 90/2 = 45 more dollars, so the price would be 10 + 45 = 55. The data stop at $40, so using the line at $55 is extrapolation, and a good analyst would not trust it.\n\nSo the answers are: Blank 1: **2**. Blank 2: **55**.\n\n**Method.** Read a slope as \"change in y per one unit of x\", and remember to use the starting point of the line when solving for an intercept. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Answering 45 for blank 2 by forgetting to add the starting price of $10.",
+   "tip": "Read a slope as \"change in y per one unit of x\", and remember to use the starting point of the line when solving for an intercept.",
+   "trap": "Answering 45 for blank 2 by forgetting to add the starting price of $10.",
+   "timeTarget": 138,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-001",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-01",
+   "prompt": "Use the graph to select the best option for each blank.\n\n[[1]] percent of respondents were at least satisfied, and the number of dissatisfied respondents was [[2]].",
+   "blanks": [
+    [
+     "65",
+     "75",
+     "85",
+     "90"
+    ],
+    [
+     "25",
+     "40",
+     "60",
+     "100"
+    ]
+   ],
+   "answer": [
+    1,
+    1
+   ],
+   "explanation": "Blank 1: \"at least satisfied\" means Satisfied or Very satisfied, so 40 + 35 = 75%. Blank 2: 10% of 400 = 40 respondents. A quick way to see this is that 10% of any number is that number with one zero removed, so 400 becomes 40. Always check whether the blank wants a percentage or a head count before you answer, because the pie is drawn in percentages while the question mentions a total of 400 people.\n\nSo the answers are: Blank 1: **75**. Blank 2: **40**.\n\n**Method.** \"At least\" in a ranking scale means that level and everything above it. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Giving 10 for blank 2, which is the percentage and not the number of people.",
+   "tip": "\"At least\" in a ranking scale means that level and everything above it.",
+   "trap": "Giving 10 for blank 2, which is the percentage and not the number of people.",
+   "timeTarget": 90,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-002",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-02",
+   "prompt": "Use the graph to select the best option for each blank.\n\nPlant C produces [[1]] more units per day than Plant D, and Plant C accounts for about [[2]] percent of total output.",
+   "blanks": [
+    [
+     "130",
+     "230",
+     "330"
+    ],
+    [
+     "20",
+     "25",
+     "30",
+     "35"
+    ]
+   ],
+   "answer": [
+    1,
+    1
+   ],
+   "explanation": "Blank 1: 520 − 290 = 230. Blank 2: total = 450 + 380 + 520 + 290 + 410 = 2,050, and 520/2,050 = 25.4%, which is about 25. Shortcut: 2,050 divided by 4 is about 510, so Plant C is just over a quarter.\n\nSo the answers are: Blank 1: **230**. Blank 2: **25**.\n\n**Method.** Test \"about a quarter\" by dividing the total by 4 and comparing. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Using the average plant output (410) as the total, which gives about 127%.",
+   "tip": "Test \"about a quarter\" by dividing the total by 4 and comparing.",
+   "trap": "Using the average plant output (410) as the total, which gives about 127%.",
+   "timeTarget": 102,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-003",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-03",
+   "prompt": "Use the graph to select the best option for each blank.\n\nOrders peaked on [[1]], when they were [[2]] percent higher than on Monday.",
+   "blanks": [
+    [
+     "Friday",
+     "Saturday",
+     "Sunday"
+    ],
+    [
+     "80",
+     "100",
+     "120",
+     "200"
+    ]
+   ],
+   "answer": [
+    1,
+    1
+   ],
+   "explanation": "Blank 1: the highest point is Saturday at 240. Blank 2: Saturday is 240 and Monday is 120, so the increase is 120/120 = 100%. The orders doubled, which is a 100% increase and not a 200% increase.\n\nSo the answers are: Blank 1: **Saturday**. Blank 2: **100**.\n\n**Method.** \"Twice as much\" is a 100% increase; \"200% higher\" would be three times as much. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Choosing 200 because 240 is double 120, which confuses the ratio with the percentage increase.",
+   "tip": "\"Twice as much\" is a 100% increase; \"200% higher\" would be three times as much.",
+   "trap": "Choosing 200 because 240 is double 120, which confuses the ratio with the percentage increase.",
+   "timeTarget": 102,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-004",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-04",
+   "prompt": "Use the graph to select the best option for each blank.\n\nRaw materials accounted for [[1]] percent of total cost in 2021 and about [[2]] percent in 2024.",
+   "blanks": [
+    [
+     "40",
+     "45",
+     "50",
+     "55"
+    ],
+    [
+     "48",
+     "50",
+     "52",
+     "56"
+    ]
+   ],
+   "answer": [
+    2,
+    2
+   ],
+   "explanation": "2021 total = 40 + 25 + 15 = 80, so Raw materials = 40/80 = 50%. 2024 total = 55 + 30 + 20 = 105, so 55/105 = 52.4%, which is about 52. The share barely moved even though the raw material cost rose by 15.\n\nSo the answers are: Blank 1: **50**. Blank 2: **52**.\n\n**Method.** When a rising amount has a similar share, check each total before assuming the share grew. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Dividing 55 by the 2021 total (80) gives about 69%.",
+   "tip": "When a rising amount has a similar share, check each total before assuming the share grew.",
+   "trap": "Dividing 55 by the 2021 total (80) gives about 69%.",
+   "timeTarget": 114,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-005",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-05",
+   "prompt": "Use the graph to select the best option for each blank.\n\nOverall the scatterplot shows a [[1]] relationship between distance and price, and the hotel that is furthest from that pattern is at a distance of [[2]] km.",
+   "blanks": [
+    [
+     "strong negative",
+     "weak negative",
+     "strong positive",
+     "no"
+    ],
+    [
+     "3",
+     "5",
+     "8",
+     "12"
+    ]
+   ],
+   "answer": [
+    0,
+    2
+   ],
+   "explanation": "Blank 1: most dots fall steadily from upper left to lower right, so the relationship is negative, and the cloud is tight (correlation about -0.91), so it is strong. Blank 2: at 8 km the pattern suggests a price of about 55, yet one hotel sits at 85. That is by far the largest gap from the downward trend, so it is the outlier.\n\nSo the answers are: Blank 1: **strong negative**. Blank 2: **8**.\n\n**Method.** An outlier is a dot far from the pattern vertically, not just a dot that is high or low overall. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Choosing 3 km, because it looks high, but that price is exactly what the trend would predict for a hotel near the airport.",
+   "tip": "An outlier is a dot far from the pattern vertically, not just a dot that is high or low overall.",
+   "trap": "Choosing 3 km, because it looks high, but that price is exactly what the trend would predict for a hotel near the airport.",
+   "timeTarget": 114,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-006",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-06",
+   "prompt": "Use the graph to select the best option for each blank.\n\nThe number of users in the 25-34 group is [[1]], which is about [[2]] times the number of users in the 55+ group.",
+   "blanks": [
+    [
+     "1,600",
+     "1,800",
+     "2,000",
+     "2,250"
+    ],
+    [
+     "2.9",
+     "3.4",
+     "3.9",
+     "4.4"
+    ]
+   ],
+   "answer": [
+    1,
+    2
+   ],
+   "explanation": "Blank 1: 90% of 2,000 = 1,800 users. Blank 2: 31% of 1,500 = 465 users in the 55+ group, and 1,800/465 = 3.87, about 3.9. The percentage ratio alone (90/31 = 2.9) is too small because the 25-34 group is also bigger.\n\nSo the answers are: Blank 1: **1,800**. Blank 2: **3.9**.\n\n**Method.** Percentages on a bar chart need the group sizes before you can compare head counts. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Taking the ratio of the percentages (about 2.9), which ignores that the groups have different sizes.",
+   "tip": "Percentages on a bar chart need the group sizes before you can compare head counts.",
+   "trap": "Taking the ratio of the percentages (about 2.9), which ignores that the groups have different sizes.",
+   "timeTarget": 114,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-007",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-07",
+   "prompt": "Use the graph to select the best option for each blank.\n\nProfit in dollars was highest in [[1]], but the profit margin was highest in [[2]].",
+   "blanks": [
+    [
+     "Year 2",
+     "Year 3",
+     "Year 4",
+     "Year 5"
+    ],
+    [
+     "Year 2",
+     "Year 3",
+     "Year 4",
+     "Year 5"
+    ]
+   ],
+   "answer": [
+    2,
+    1
+   ],
+   "explanation": "Profit by year: 20, 35, 45, 50, 35, so dollar profit peaked in Year 4 at 50. Profit margin = profit/revenue: 10%, 15.2%, 17.3%, 16.7%, 10.9%. The highest is Year 3 at 17.3%, ahead of Year 4 at 16.7%. A growing gap between the lines does not always mean a growing margin.\n\nSo the answers are: Blank 1: **Year 4**. Blank 2: **Year 3**.\n\n**Method.** The gap between two lines is the amount; the margin is the gap divided by the top line. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Assuming the year with the widest gap also has the best margin; revenue grew faster than profit in Year 4.",
+   "tip": "The gap between two lines is the amount; the margin is the gap divided by the top line.",
+   "trap": "Assuming the year with the widest gap also has the best margin; revenue grew faster than profit in Year 4.",
+   "timeTarget": 126,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-008",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-08",
+   "prompt": "Use the graph to select the best option for each blank.\n\nBetween 2000 and 2020, the population aged 60 and over grew by about [[1]] percent, and its share of the total population rose by about [[2]] percentage points.",
+   "blanks": [
+    [
+     "90",
+     "108",
+     "125",
+     "208"
+    ],
+    [
+     "5",
+     "7",
+     "9",
+     "13"
+    ]
+   ],
+   "answer": [
+    1,
+    1
+   ],
+   "explanation": "Blank 1: the 60+ group went from 12 to 25 million, a gain of 13 on a base of 12, so 108.3%, about 108. Blank 2: the totals are 100 (2000) and 130 (2020). The 60+ share goes from 12% to 25/130 = 19.2%, a rise of 7.2 points, about 7.\n\nSo the answers are: Blank 1: **108**. Blank 2: **7**.\n\n**Method.** Growth of a part and change in its share can be wildly different numbers; label which one you are computing before you start. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Giving 208 (25/12 expressed as a percentage, the ratio rather than the growth) or 13 (the change in millions).",
+   "tip": "Growth of a part and change in its share can be wildly different numbers; label which one you are computing before you start.",
+   "trap": "Giving 208 (25/12 expressed as a percentage, the ratio rather than the growth) or 13 (the change in millions).",
+   "timeTarget": 126,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-009",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-09",
+   "prompt": "Use the graph to select the best option for each blank.\n\nEurope’s revenue is about $[[1]] million. If Asia’s revenue doubled while every other region stayed the same, Asia would account for about [[2]] percent of the new total.",
+   "blanks": [
+    [
+     "54",
+     "61",
+     "65",
+     "72"
+    ],
+    [
+     "28",
+     "32",
+     "36",
+     "44"
+    ]
+   ],
+   "answer": [
+    2,
+    2
+   ],
+   "explanation": "Blank 1: 27% of 240 = 64.8, about 65. Blank 2: Asia is 22% of 240 = 52.8. Doubling adds another 52.8, so the new total is 292.8 and Asia is 105.6, which is 36.1% of it, about 36. Doubling a part does not double its share.\n\nSo the answers are: Blank 1: **65**. Blank 2: **36**.\n\n**Method.** When one part changes, the total changes too; recompute the denominator before finding the new share. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Answering 44 (twice the original 22%), which forgets that the total also grows.",
+   "tip": "When one part changes, the total changes too; recompute the denominator before finding the new share.",
+   "trap": "Answering 44 (twice the original 22%), which forgets that the total also grows.",
+   "timeTarget": 126,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  },
+  {
+   "id": "d-gi-db-m-010",
+   "section": "di",
+   "type": "GI",
+   "topic": "d-gi",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "dropdown",
+   "stimulusId": "gi-db-m-10",
+   "prompt": "Use the graph to select the best option for each blank.\n\nCompany [[1]] earns the most revenue per dollar of marketing spend, while the three biggest spenders together earn about $[[2]] of revenue per marketing dollar.",
+   "blanks": [
+    [
+     "A",
+     "C",
+     "E",
+     "G"
+    ],
+    [
+     "6.0",
+     "6.8",
+     "7.5",
+     "8.0"
+    ]
+   ],
+   "answer": [
+    0,
+    1
+   ],
+   "explanation": "Blank 1: revenue per marketing dollar is y/x: A 12, B 9, C 9.2, D 8, E 8.5, F 5, G 8, H 7. Company A is the highest at 12.0. Blank 2: the three biggest spenders are H (35), G (30) and F (25). Their revenue is 245 + 240 + 125 = 610 and their spend is 90, so the ratio is 610/90 = 6.78, about 6.8. Combine totals first, then divide.\n\nSo the answers are: Blank 1: **A**. Blank 2: **6.8**.\n\n**Method.** For a group ratio, add the numerators and the denominators separately, then divide once. Read the sentence first, pull exact values from the gridlines and labels, finish the arithmetic, and only then choose the nearest option from each menu.\n\n**Watch out.** Averaging the three individual ratios (7, 8 and 5), which only happens to land close here but is the wrong method.",
+   "tip": "For a group ratio, add the numerators and the denominators separately, then divide once.",
+   "trap": "Averaging the three individual ratios (7, 8 and 5), which only happens to land close here but is the wrong method.",
+   "timeTarget": 138,
+   "skills": [
+    "graph-reading",
+    "percent-change"
+   ]
+  }
+ ]
+}

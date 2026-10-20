@@ -1,0 +1,1291 @@
+{
+ "stimuli": [],
+ "questions": [
+  {
+   "id": "q-counting-qg-p-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A cafe offers 4 kinds of sandwich, 3 kinds of soup and 2 kinds of juice. A lunch set is one sandwich, one soup and one juice. How many different lunch sets are possible?",
+   "choices": [
+    "9",
+    "12",
+    "20",
+    "48",
+    "24"
+   ],
+   "answer": 4,
+   "explanation": "Each choice is a slot: 4 options for the sandwich, 3 for the soup, 2 for the juice. Because every slot is filled independently, you multiply: 4 × 3 × 2 = 24.\n\nSanity check by listing: for each of the 4 sandwiches there are 3 × 2 = 6 soup-and-juice pairs, and 4 × 6 = 24.",
+   "tip": "When a result is built from independent steps (this AND that AND the other), multiply the number of options at each step.",
+   "trap": "Adding (4 + 3 + 2 = 9) is the classic slip. Add only when you pick one thing OR another, never when you pick one of each.",
+   "timeTarget": 90,
+   "skills": [
+    "slot-method"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A club of 7 members must choose a president, a vice-president and a treasurer. No member can hold more than one post. In how many ways can the three posts be filled?",
+   "choices": [
+    "210",
+    "35",
+    "42",
+    "343",
+    "840"
+   ],
+   "answer": 0,
+   "explanation": "The posts are different, so order matters. Fill the slots one at a time: 7 choices for president, then 6 left for vice-president, then 5 for treasurer.\n\n7 × 6 × 5 = 210.\n\nIn formula language this is 7P3 = 7!/4! = 210. Choosing three people without caring about posts would give 7C3 = 35, which is the answer to a different question.",
+   "tip": "If the roles have different names, order matters, so use the slot method (or nPr).",
+   "trap": "35 is what you get from combinations. It ignores that 'Asha president, Ben treasurer' differs from 'Ben president, Asha treasurer'.",
+   "timeTarget": 90,
+   "skills": [
+    "permutations"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "How many distinct arrangements are there of the letters of the word BANANA?",
+   "choices": [
+    "30",
+    "120",
+    "360",
+    "720",
+    "60"
+   ],
+   "answer": 4,
+   "explanation": "There are 6 letters, but A repeats 3 times and N repeats 2 times. Start with 6! = 720 arrangements as if all letters were different, then divide by 3! for the swapping of the A's and 2! for the N's.\n\n720 / (6 × 2) = 60.\n\nSanity check: place the single B (6 spots), then the two N's among the remaining 5 spots (C(5,2) = 10), and the A's fill the rest: 6 × 10 = 60.",
+   "tip": "Repeated letters: total factorial divided by the factorial of each repeat count.",
+   "trap": "720 treats the three A's as different people. Swapping two A's does not make a new word, so you must divide.",
+   "timeTarget": 90,
+   "skills": [
+    "identical-items"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A committee of 3 is to be chosen from 5 men and 3 women. How many committees contain at least one woman?",
+   "choices": [
+    "10",
+    "46",
+    "36",
+    "56",
+    "63"
+   ],
+   "answer": 1,
+   "explanation": "'At least one woman' is easiest by complement: all committees minus the all-men committees.\n\nAll committees: 8C3 = 56. All-men committees: 5C3 = 10. So 56 − 10 = 46.\n\nDirect method also works but takes three cases: 1 woman (3 × 10 = 30), 2 women (3 × 5 = 15), 3 women (1) gives 30 + 15 + 1 = 46.",
+   "tip": "See 'at least one'? Compute total minus 'none'.",
+   "trap": "63 comes from choosing one woman first (3 ways) and then any 2 of the other 7 (21 ways). That counts committees with two or three women more than once.",
+   "timeTarget": 100,
+   "skills": [
+    "complement",
+    "combinations"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A 4-digit access code uses digits 0 to 9. Digits may repeat, but the first digit cannot be 0 and the last digit must be even. How many codes are possible?",
+   "choices": [
+    "4500",
+    "2250",
+    "4000",
+    "5000",
+    "9000"
+   ],
+   "answer": 0,
+   "explanation": "Use slots. First digit: 9 choices (1 to 9). Second: 10. Third: 10. Last: 5 choices (0, 2, 4, 6, 8).\n\n9 × 10 × 10 × 5 = 4500.\n\nCheck: of the 9000 four-digit numbers, exactly half end in an even digit, so 4500.",
+   "tip": "Handle the restricted slots first, then multiply by the free ones.",
+   "trap": "5000 happens if you forget the first digit cannot be 0 (10 × 10 × 10 × 5).",
+   "timeTarget": 100,
+   "skills": [
+    "slot-method",
+    "restrictions"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Six friends sit in a row of six chairs. Two of them, Asha and Ben, insist on sitting next to each other. In how many different ways can the six be seated?",
+   "choices": [
+    "120",
+    "360",
+    "480",
+    "240",
+    "720"
+   ],
+   "answer": 3,
+   "explanation": "Glue Asha and Ben into one block. Now there are 5 things to arrange: the block and 4 other people. That is 5! = 120 arrangements.\n\nInside the block, Asha and Ben can swap places, which doubles it: 120 × 2 = 240.\n\nSanity check: Asha and Ben can occupy 5 adjacent seat pairs, in 2 orders, and the other 4 people fill the rest in 4! = 24 ways: 5 × 2 × 24 = 240.",
+   "tip": "'Must sit together' means glue them into one block, arrange the blocks, then multiply by the internal arrangements.",
+   "trap": "120 forgets that Asha-Ben and Ben-Asha are different seatings.",
+   "timeTarget": 100,
+   "skills": [
+    "glue-method"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A committee of 4 is to be chosen from 5 men and 4 women. How many possible committees have at least 2 women?",
+   "choices": [
+    "60",
+    "81",
+    "75",
+    "96",
+    "126"
+   ],
+   "answer": 1,
+   "explanation": "Split by the exact number of women. 2 women: 4C2 × 5C2 = 6 × 10 = 60. 3 women: 4C3 × 5C1 = 4 × 5 = 20. 4 women: 1.\n\nTotal = 60 + 20 + 1 = 81.\n\nComplement check: all committees 9C4 = 126; subtract 0 women (5C4 = 5) and exactly 1 woman (4 × 5C3 = 40): 126 − 45 = 81.",
+   "tip": "'At least k' with several cases: add the exact cases, or subtract the few unwanted ones from the total. Pick whichever has fewer cases.",
+   "trap": "126 is the total with no condition, and 4C2 × 7C2 = 126 is a coincidental overcounting trap: picking 2 women first and then 'any 2' counts committees with 3 or 4 women several times.",
+   "timeTarget": 150,
+   "skills": [
+    "combinations",
+    "complement"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Four men and three women are to stand in a row so that no two women stand next to each other. How many arrangements are possible?",
+   "choices": [
+    "144",
+    "1440",
+    "720",
+    "2880",
+    "5040"
+   ],
+   "answer": 1,
+   "explanation": "Seat the men first: 4! = 24 ways. That creates 5 gaps (one before, three between, one after the men). Women must go in different gaps, so choose 3 of the 5 gaps: 5C3 = 10. The three women can be ordered in them in 3! = 6 ways.\n\n24 × 10 × 6 = 1440.\n\nCheck by complement: 7! = 5040 total, minus arrangements with some women adjacent, gives 1440 (the gap method is far quicker).",
+   "tip": "'Never together' for a small group: place the others first, then drop the group into the gaps.",
+   "trap": "5040 ignores the restriction. 144 is 4! × 3! with no gap-choosing at all.",
+   "timeTarget": 150,
+   "skills": [
+    "gap-method",
+    "restrictions"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "How many distinct arrangements of the letters of the word SCHOOL are there in which the two O's are not next to each other?",
+   "choices": [
+    "120",
+    "360",
+    "480",
+    "240",
+    "720"
+   ],
+   "answer": 3,
+   "explanation": "Use total minus 'together'. Total arrangements: 6!/2! = 360. With the two O's glued as one block there are 5 items, all different: 5! = 120.\n\n360 − 120 = 240.\n\nGap method check: arrange S, C, H, L in 4! = 24 ways, giving 5 gaps; choose 2 gaps for the O's: 5C2 = 10. 24 × 10 = 240.",
+   "tip": "Repeated letters plus 'not adjacent': total with repeats minus glued case, or arrange the others and choose gaps.",
+   "trap": "360 is the total with no restriction. 480 comes from forgetting to divide the total by 2! before subtracting.",
+   "timeTarget": 120,
+   "skills": [
+    "identical-items",
+    "gap-method"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-010",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Six people, including Priya and Rahul, sit around a circular table. Rotations of the same seating count as one arrangement. In how many arrangements are Priya and Rahul NOT sitting next to each other?",
+   "choices": [
+    "48",
+    "96",
+    "120",
+    "144",
+    "72"
+   ],
+   "answer": 4,
+   "explanation": "Total circular arrangements of 6 people: (6 − 1)! = 120.\n\nPriya and Rahul together: glue them, giving 5 items in a circle: 4! = 24, times 2 for their internal order = 48.\n\nNot together = 120 − 48 = 72.\n\nCheck: fix Priya's seat. Rahul can take 5 seats, 2 of them adjacent, so 3 non-adjacent seats; the other 4 people fill the rest in 4! = 24 ways: 3 × 24 = 72.",
+   "tip": "In a circle, fix one person to kill rotations: n people give (n − 1)! arrangements.",
+   "trap": "120 is the total, 48 is the 'together' count. Always re-read whether the question wants together or apart.",
+   "timeTarget": 150,
+   "skills": [
+    "circular",
+    "complement"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-011",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "How many 4-digit positive integers have digits that strictly increase from left to right (for example 1359 or 2678)?",
+   "choices": [
+    "84",
+    "210",
+    "126",
+    "252",
+    "3024"
+   ],
+   "answer": 2,
+   "explanation": "Any set of 4 different digits can be written in exactly one increasing order, so we only need to choose the digits. The digit 0 cannot appear: if it did, it would have to come first in an increasing number, and a 4-digit number cannot start with 0. So pick 4 digits from 1 to 9: 9C4 = 126.\n\nNo ordering step is needed because the order is forced.",
+   "tip": "When the order is forced by a rule (increasing, decreasing), the count is a combination, not a permutation.",
+   "trap": "3024 (9P4) counts every ordering. 210 (10C4) forgets that 0 cannot be used.",
+   "timeTarget": 120,
+   "skills": [
+    "combinations",
+    "forced-order"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-012",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Ten players are to be split into two teams of five, Team Red and Team Blue are NOT labelled (swapping the two teams gives the same split). Two particular players, Mia and Noor, must be on different teams. In how many ways can the split be made?",
+   "choices": [
+    "35",
+    "56",
+    "126",
+    "70",
+    "252"
+   ],
+   "answer": 3,
+   "explanation": "Because the teams are unlabelled, anchor on Mia: her team is whichever team she is in. Noor must be on the other team, so Mia's team needs 4 more players chosen from the 8 people who are not Mia or Noor.\n\n8C4 = 70.\n\nCheck: 10C5 = 252 ordered splits, so 126 unlabelled splits in total. Those with Mia and Noor together: choose 3 more from 8 for their team, 8C3 = 56. Apart: 126 − 56 = 70.",
+   "tip": "For unlabelled groups, anchor one person; their group is then defined and the rest is a plain combination.",
+   "trap": "126 is the total number of unlabelled splits with no condition. 56 is the number with Mia and Noor on the SAME team.",
+   "timeTarget": 150,
+   "skills": [
+    "anchor",
+    "combinations",
+    "grouping"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-013",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A teacher gives out 10 identical pencils to 4 students so that each student gets at least one pencil. In how many ways can this be done?",
+   "choices": [
+    "84",
+    "24",
+    "126",
+    "210",
+    "286"
+   ],
+   "answer": 0,
+   "explanation": "Lay the 10 pencils in a row. There are 9 gaps between them. Cutting the row into 4 non-empty groups needs 3 cuts, placed in 3 different gaps: 9C3 = 84.\n\nEquivalent route: give each student one pencil first, leaving 6 pencils to share freely among 4 students. That is 6 pencils and 3 dividers: 9 positions, choose 3 for the dividers: 9C3 = 84.",
+   "tip": "Identical items, each recipient gets at least one: choose (n − 1) gaps for (k − 1) cuts.",
+   "trap": "210 is 10C4, which treats pencils as if you were choosing which pencils each student gets. 286 is the answer when students can receive zero (13C3).",
+   "timeTarget": 150,
+   "skills": [
+    "distribution",
+    "stars-and-bars"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-014",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "How many 5-digit numbers can be formed using each of the digits 1, 2, 3, 4 and 5 exactly once, such that the number is divisible by 4?",
+   "choices": [
+    "20",
+    "30",
+    "48",
+    "24",
+    "120"
+   ],
+   "answer": 3,
+   "explanation": "A number is divisible by 4 when its last two digits form a multiple of 4. From the digits 1 to 5 (no repeats), the possible endings are 12, 24, 32 and 52. That is 4 endings.\n\nFor each ending, the other three digits fill the first three places in 3! = 6 ways.\n\n4 × 6 = 24.\n\nThe 5! = 120 total includes lots of numbers that fail the divisibility test; the quickest route is to fix the ending first.",
+   "tip": "Counting with a divisibility rule: fix the digits that decide divisibility first, then arrange the rest.",
+   "trap": "30 comes from guessing the endings (for example 5 × 6). Instead list every legal two-digit ending 12, 24, 32, 52 and count them.",
+   "timeTarget": 120,
+   "skills": [
+    "divisibility",
+    "slot-method"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-015",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "A committee of 4 people is to be chosen from 5 married couples. Exactly one married couple must be on the committee. How many committees are possible?",
+   "choices": [
+    "120",
+    "60",
+    "140",
+    "240",
+    "270"
+   ],
+   "answer": 0,
+   "explanation": "Pick the couple that will be on the committee: 5 ways. The remaining 2 seats must come from different couples (otherwise a second couple would sit together) among the 4 other couples: choose 2 couples, 4C2 = 6, and pick one person from each, 2 × 2 = 4.\n\n5 × 6 × 4 = 120.\n\nTrap check: choosing the remaining 2 people freely from the other 8 people, 8C2 = 28, would include 4 pairs that are couples, giving 5 × 28 = 140 (which wrongly allows two couples).",
+   "tip": "'Exactly one pair' problems: choose the pair, then choose the rest so no new pair is formed.",
+   "trap": "140 allows the other two members to be a married couple, giving a committee with two couples. Subtract those or choose from different couples.",
+   "timeTarget": 180,
+   "skills": [
+    "restrictions",
+    "combinations"
+   ]
+  },
+  {
+   "id": "q-counting-qg-p-016",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "The letters of MISSISSIPPI are arranged in a row. In how many of the arrangements are no two S's adjacent?",
+   "choices": [
+    "105",
+    "7350",
+    "1680",
+    "5880",
+    "34650"
+   ],
+   "answer": 1,
+   "explanation": "The letters are M, I×4, S×4, P×2. First arrange the 7 non-S letters (M, 4 I's, 2 P's): 7!/(4! × 2!) = 105 ways.\n\nThose 7 letters create 8 gaps (including both ends). To keep the S's apart, put each S in a different gap: choose 4 of the 8 gaps, 8C4 = 70. The S's are identical, so no further arrangement is needed.\n\n105 × 70 = 7350.\n\nFor reference, the unrestricted total is 11!/(4! × 4! × 2!) = 34650, so about 21% of all arrangements keep the S's apart.",
+   "tip": "Identical items that must not touch: arrange everyone else first, then choose gaps for them.",
+   "trap": "34650 is the unrestricted total; 105 is only the first step; 5880 comes from choosing gaps but then also multiplying by 4! as if the S's were different.",
+   "timeTarget": 180,
+   "skills": [
+    "gap-method",
+    "identical-items"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A restaurant menu has 5 starters, 6 main courses and 3 desserts. A meal consists of one starter, one main course and one dessert. How many different meals can be ordered?",
+   "choices": [
+    "14",
+    "30",
+    "45",
+    "180",
+    "90"
+   ],
+   "answer": 4,
+   "explanation": "Three independent choices, so multiply: 5 × 6 × 3 = 90.\n\nQuick way: 5 × 6 = 30 starter-main pairs, and each pair can be followed by 3 desserts, so 30 × 3 = 90.\n\nThis is the fundamental counting principle: when a process has several stages, and each stage's number of options does not depend on earlier choices, the total number of outcomes is the product of the options at each stage. No listing is needed, which is exactly why it is so fast on test day.",
+   "tip": "Independent stages joined by AND: multiply.",
+   "trap": "14 (adding 5 + 6 + 3) answers 'how many items are on the menu', not 'how many meals'.",
+   "timeTarget": 75,
+   "skills": [
+    "slot-method"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "From 6 different books, Tara picks 3 and places them on a shelf in a row from left to right. How many different shelf arrangements are possible?",
+   "choices": [
+    "20",
+    "60",
+    "120",
+    "216",
+    "720"
+   ],
+   "answer": 2,
+   "explanation": "Order on the shelf matters, so this is a permutation. First place: 6 books, second: 5, third: 4.\n\n6 × 5 × 4 = 120.\n\nAlternative: choose the 3 books (6C3 = 20) and then arrange them (3! = 6): 20 × 6 = 120.",
+   "tip": "Choose, then arrange: nCr × r! equals nPr.",
+   "trap": "20 is the number of ways to choose the books without placing them. 720 arranges all six books.",
+   "timeTarget": 90,
+   "skills": [
+    "permutations"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A shelf will hold 3 mathematics books and 4 literature books, all different. In how many ways can the 7 books be arranged so that all the mathematics books stay together and all the literature books stay together?",
+   "choices": [
+    "144",
+    "288",
+    "576",
+    "1008",
+    "5040"
+   ],
+   "answer": 1,
+   "explanation": "Treat the maths books as one block and the literature books as another block. The two blocks can be ordered in 2! = 2 ways.\n\nInside the maths block: 3! = 6 orders. Inside the literature block: 4! = 24 orders.\n\n2 × 6 × 24 = 288.",
+   "tip": "Two groups that each stay together: order the blocks, then multiply by each block's internal arrangements.",
+   "trap": "144 forgets that the blocks can be swapped (maths first or literature first).",
+   "timeTarget": 120,
+   "skills": [
+    "glue-method"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Seven people, including Anil and Beena, are to stand in a line. In how many arrangements are Anil and Beena NOT standing next to each other?",
+   "choices": [
+    "1440",
+    "2160",
+    "4320",
+    "3600",
+    "5040"
+   ],
+   "answer": 3,
+   "explanation": "Use total minus 'together'. Total: 7! = 5040. Together: glue Anil and Beena into a block, arrange 6 items (6! = 720), and double for their internal order: 1440.\n\n5040 − 1440 = 3600.\n\nGap check: arrange the other 5 people (120 ways), creating 6 gaps; Anil and Beena take two different gaps in order: 6 × 5 = 30. 120 × 30 = 3600.",
+   "tip": "'Not together' is nearly always 'total minus together'.",
+   "trap": "1440 is the 'together' count; 5040 is the total. Check which one the question wants.",
+   "timeTarget": 100,
+   "skills": [
+    "complement",
+    "glue-method"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Three different numbers are chosen from the integers 1 through 10. For how many such choices is the sum of the three numbers even?",
+   "choices": [
+    "50",
+    "65",
+    "60",
+    "120",
+    "75"
+   ],
+   "answer": 2,
+   "explanation": "A sum of three numbers is even in two situations: all three are even, or exactly one is even and two are odd. (Three odds give an odd sum; two evens and one odd give an odd sum.)\n\nThere are 5 even and 5 odd numbers in 1 to 10.\n\nAll even: 5C3 = 10. One even, two odd: 5 × 5C2 = 5 × 10 = 50.\n\nTotal = 60. Check: 10C3 = 120 total, and by symmetry exactly half have an even sum.",
+   "tip": "Parity of a sum comes from counting how many odd terms there are: even sum needs an even number of odds.",
+   "trap": "50 only counts one of the two cases. 120 ignores the condition.",
+   "timeTarget": 120,
+   "skills": [
+    "parity",
+    "casework"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "A path runs on a grid from the lower-left corner to a point 5 blocks east and 3 blocks north. Each move is one block east or one block north. How many shortest paths pass through the intersection that is 2 blocks east and 1 block north of the start?",
+   "choices": [
+    "15",
+    "26",
+    "30",
+    "56",
+    "60"
+   ],
+   "answer": 2,
+   "explanation": "Split the journey at the required point.\n\nStart to (2, 1): 2 easts and 1 north in any order: 3C1 = 3 paths.\n\n(2, 1) to (5, 3): 3 easts and 2 norths: 5C2 = 10 paths.\n\nMultiply: 3 × 10 = 30.\n\nFor context, all paths from start to finish number 8C3 = 56, so 'through the point' is a subset.",
+   "tip": "Paths through a point: count to the point, count from it, and multiply.",
+   "trap": "56 is all paths with no condition. 26 = 56 − 30 is the number of paths that AVOID the point.",
+   "timeTarget": 120,
+   "skills": [
+    "lattice-paths"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "How many integers from 100 to 999 inclusive contain exactly one digit equal to 7?",
+   "choices": [
+    "162",
+    "216",
+    "243",
+    "252",
+    "225"
+   ],
+   "answer": 4,
+   "explanation": "Split by where the single 7 sits.\n\n7 in the hundreds place: the other two digits are each non-7, so 9 × 9 = 81.\n\n7 in the tens place: hundreds digit is not 0 and not 7 (8 choices), units is not 7 (9 choices): 8 × 9 = 72.\n\n7 in the units place: hundreds 8 choices, tens 9 choices: 72.\n\nTotal: 81 + 72 + 72 = 225.",
+   "tip": "Digit-counting problems: the leading digit has its own restriction (no 0), so treat it separately.",
+   "trap": "243 is 3 × 9 × 9, which wrongly lets the hundreds digit be 0 when the 7 is elsewhere.",
+   "timeTarget": 150,
+   "skills": [
+    "digits",
+    "casework"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Three pairs of twins stand in a row for a photograph. In how many arrangements do no two twins stand next to each other?",
+   "choices": [
+    "96",
+    "144",
+    "240",
+    "360",
+    "480"
+   ],
+   "answer": 2,
+   "explanation": "Use inclusion-exclusion on the 'bad' events: a pair of twins standing together.\n\nTotal: 6! = 720.\n\nOne given pair together: glue them: 5! × 2 = 240. For three pairs: 3 × 240 = 720.\n\nTwo given pairs together: 4! × 2 × 2 = 96. There are 3 such choices: 288.\n\nAll three pairs together: 3! × 2³ = 48.\n\nGood arrangements = 720 − 720 + 288 − 48 = 240.",
+   "tip": "Several 'not together' conditions at once: inclusion-exclusion (subtract singles, add back pairs, subtract triples).",
+   "trap": "Subtracting only the single-pair cases gives 0, and stopping early at 720 − 720 + 288 = 288 forgets the final correction.",
+   "timeTarget": 180,
+   "skills": [
+    "inclusion-exclusion",
+    "glue-method"
+   ]
+  },
+  {
+   "id": "q-counting-qg-m-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-counting",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "How many ordered triples (x, y, z) of positive integers satisfy x + y + z = 15 with each of x, y and z at most 8?",
+   "choices": [
+    "45",
+    "76",
+    "91",
+    "105",
+    "46"
+   ],
+   "answer": 4,
+   "explanation": "First ignore the upper limit. Positive solutions of x + y + z = 15: place 2 dividers in the 14 gaps between 15 units: 14C2 = 91.\n\nNow remove solutions where some variable is 9 or more. If x ≥ 9, write x = 8 + x' with x' ≥ 1; then x' + y + z = 7, which has 6C2 = 15 positive solutions. The same holds for y and z, giving 3 × 15 = 45.\n\nTwo variables both at least 9 would need a sum of at least 9 + 9 + 1 = 19 > 15, so there is no overlap to add back.\n\n91 − 45 = 46.",
+   "tip": "Bounded positive-integer solutions: count all, then subtract the cases that break each bound.",
+   "trap": "91 ignores the upper limit; 45 is only the amount you subtract.",
+   "timeTarget": 180,
+   "skills": [
+    "stars-and-bars",
+    "inclusion-exclusion"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A bag holds 4 red marbles and 6 blue marbles. One marble is drawn at random. What is the probability that it is red?",
+   "choices": [
+    "1/10",
+    "1/4",
+    "3/5",
+    "2/5",
+    "2/3"
+   ],
+   "answer": 3,
+   "explanation": "Probability = favourable outcomes / total outcomes. There are 4 red marbles out of 4 + 6 = 10 in total.\n\n4/10 = 2/5.\n\nYou can also write it as a ratio of favourable to total and then reduce. Always reduce the fraction before looking at the choices, because answer choices on the GMAT are nearly always in lowest terms. Remember that a probability can never exceed 1, which helps you throw out impossible choices fast.",
+   "tip": "Probability is part over WHOLE, so add everything for the denominator.",
+   "trap": "2/3 comes from comparing red to blue (4 : 6) instead of red to all marbles.",
+   "timeTarget": 60,
+   "skills": [
+    "basic-probability"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A fair six-sided die is rolled once. What is the probability that the number rolled is prime or even?",
+   "choices": [
+    "1/2",
+    "2/3",
+    "1",
+    "5/6",
+    "1/6"
+   ],
+   "answer": 3,
+   "explanation": "List what qualifies. Primes: 2, 3, 5. Evens: 2, 4, 6. Combined without double counting 2: {2, 3, 4, 5, 6}, which is 5 outcomes.\n\nProbability = 5/6.\n\nFormula check: P(prime) + P(even) − P(both) = 3/6 + 3/6 − 1/6 = 5/6.",
+   "tip": "For OR, add the probabilities and subtract the overlap.",
+   "trap": "1 (3/6 + 3/6) double counts the number 2.",
+   "timeTarget": 75,
+   "skills": [
+    "or-rule"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A fair coin is tossed 3 times. What is the probability of getting exactly 2 heads?",
+   "choices": [
+    "1/8",
+    "3/8",
+    "1/4",
+    "1/2",
+    "3/4"
+   ],
+   "answer": 1,
+   "explanation": "There are 2³ = 8 equally likely sequences. Sequences with exactly 2 heads: HHT, HTH, THH, which is 3C2 = 3.\n\nProbability = 3/8.\n\nEach specific sequence has probability (1/2)³ = 1/8, and there are 3 of them: 3 × 1/8 = 3/8.",
+   "tip": "'Exactly k of n' with a fair coin: nCk / 2ⁿ.",
+   "trap": "1/4 (or 1/8) uses the probability of ONE sequence and forgets that the heads can land in different positions.",
+   "timeTarget": 75,
+   "skills": [
+    "combinations",
+    "basic-probability"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "A box contains 5 red balls and 3 green balls. Two balls are drawn at random, one after the other, without replacement. What is the probability that both are red?",
+   "choices": [
+    "5/14",
+    "5/16",
+    "2/7",
+    "25/64",
+    "1/2"
+   ],
+   "answer": 0,
+   "explanation": "Multiply the chances step by step. First ball red: 5/8. With one red gone, 4 red remain out of 7 balls: 4/7.\n\n5/8 × 4/7 = 20/56 = 5/14.\n\nThe key idea is that after the first red ball is taken out, the box changes: 7 balls remain and only 4 are red. That is what 'without replacement' means, and it is the whole difference from the 'with replacement' version.\n\nCombination check: 5C2 / 8C2 = 10/28 = 5/14.",
+   "tip": "Without replacement: reduce both the favourable count and the total for the second draw.",
+   "trap": "25/64 uses 5/8 twice, which is the answer if the ball were put back.",
+   "timeTarget": 90,
+   "skills": [
+    "without-replacement"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Two fair six-sided dice are rolled. What is the probability that the sum of the two numbers is 8?",
+   "choices": [
+    "1/9",
+    "1/6",
+    "5/36",
+    "7/36",
+    "5/12"
+   ],
+   "answer": 2,
+   "explanation": "There are 6 × 6 = 36 equally likely ordered outcomes. Sums of 8: (2,6), (3,5), (4,4), (5,3), (6,2), which is 5 outcomes.\n\nProbability = 5/36.\n\nMemorise the pattern: the number of ways to roll sum s is 6 − |s − 7|, so sum 8 has 5 ways.",
+   "tip": "Treat two dice as ordered pairs, so (2,6) and (6,2) count separately.",
+   "trap": "1/9 (4/36) forgets one of the pairs or counts (4,4) twice; 1/6 is the probability of a sum of 7.",
+   "timeTarget": 90,
+   "skills": [
+    "dice"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Events A and B are independent, with P(A) = 0.3 and P(B) = 0.4. What is the probability that at least one of A or B occurs?",
+   "choices": [
+    "0.12",
+    "0.58",
+    "0.42",
+    "0.7",
+    "0.88"
+   ],
+   "answer": 1,
+   "explanation": "For independent events, P(A and B) = 0.3 × 0.4 = 0.12.\n\nP(A or B) = P(A) + P(B) − P(A and B) = 0.3 + 0.4 − 0.12 = 0.58.\n\nComplement check: P(neither) = 0.7 × 0.6 = 0.42, so P(at least one) = 1 − 0.42 = 0.58.",
+   "tip": "'At least one' = 1 − P(none). For independent events P(none) is a simple product.",
+   "trap": "0.7 forgets to subtract the overlap, 0.12 is only 'both', and 0.42 is the probability of 'neither'.",
+   "timeTarget": 90,
+   "skills": [
+    "independent",
+    "or-rule"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A fair coin is tossed 5 times. What is the probability of getting at least 2 heads?",
+   "choices": [
+    "13/16",
+    "5/8",
+    "3/4",
+    "7/8",
+    "15/16"
+   ],
+   "answer": 0,
+   "explanation": "Use the complement: 'at least 2 heads' = 1 − (0 heads or 1 head).\n\nThere are 2⁵ = 32 outcomes. 0 heads: 1 outcome. Exactly 1 head: 5 outcomes.\n\nP(fewer than 2 heads) = 6/32 = 3/16. So the answer is 1 − 3/16 = 13/16.\n\nDirect counting would need cases for 2, 3, 4 and 5 heads; the complement needs only two.",
+   "tip": "'At least k' with small k: subtract the few cases below k from 1.",
+   "trap": "15/16 is the answer to 'at least ONE head', which is a different question.",
+   "timeTarget": 100,
+   "skills": [
+    "complement",
+    "combinations"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "A committee of 3 people is chosen at random from 5 men and 4 women. What is the probability that the committee includes at least one woman?",
+   "choices": [
+    "5/42",
+    "2/3",
+    "11/14",
+    "5/6",
+    "37/42"
+   ],
+   "answer": 4,
+   "explanation": "Complement again: 1 − P(all men).\n\nAll-men committees: 5C3 = 10. All committees: 9C3 = 84.\n\nP(all men) = 10/84 = 5/42. So P(at least one woman) = 1 − 5/42 = 37/42.\n\nSequential check: P(all men) = 5/9 × 4/8 × 3/7 = 60/504 = 5/42.",
+   "tip": "Counting probability: probability = favourable combinations / total combinations, using the same kind of counting on top and bottom.",
+   "trap": "5/42 is the chance of NO woman. The question asks for the opposite.",
+   "timeTarget": 120,
+   "skills": [
+    "complement",
+    "combinations"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "For two events A and B, P(A) = 0.6, P(B) = 0.5 and P(A and B) = 0.2. What is the probability that neither A nor B occurs?",
+   "choices": [
+    "0",
+    "0.1",
+    "0.2",
+    "0.3",
+    "0.4"
+   ],
+   "answer": 1,
+   "explanation": "First find P(A or B) = P(A) + P(B) − P(A and B) = 0.6 + 0.5 − 0.2 = 0.9.\n\nNeither = 1 − 0.9 = 0.1.\n\nTable check: only A = 0.4, only B = 0.3, both = 0.2, neither = 0.1, which add to 1.",
+   "tip": "Draw the two-circle picture: only A, both, only B, neither must add to 1.",
+   "trap": "0.4 (1 − 0.6) ignores B entirely; 0.2 uses the independence formula, but nothing says A and B are independent (0.6 × 0.5 = 0.3 ≠ 0.2).",
+   "timeTarget": 100,
+   "skills": [
+    "or-rule",
+    "complement"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-010",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Bag X holds 3 red and 2 blue marbles. Bag Y holds 1 red and 4 blue marbles. A fair coin is tossed to choose a bag (heads: X, tails: Y), and one marble is drawn at random from the chosen bag. What is the probability that the marble is red?",
+   "choices": [
+    "1/5",
+    "3/10",
+    "2/5",
+    "1/2",
+    "3/5"
+   ],
+   "answer": 2,
+   "explanation": "Use a probability tree. Bag X path: 1/2 × 3/5 = 3/10. Bag Y path: 1/2 × 1/5 = 1/10.\n\nAdd the two routes to 'red': 3/10 + 1/10 = 4/10 = 2/5.\n\nShortcut: because the bags are equally likely, just average 3/5 and 1/5: (3/5 + 1/5)/2 = 2/5.",
+   "tip": "A tree multiplies along branches and adds across branches that end in the same result.",
+   "trap": "3/5 only uses the red-heavy bag; you must weight both bags by their chance of being chosen.",
+   "timeTarget": 100,
+   "skills": [
+    "probability-tree"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-011",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Two fair six-sided dice are rolled. Given that at least one die shows a 3, what is the probability that the sum is 7?",
+   "choices": [
+    "2/11",
+    "1/18",
+    "1/11",
+    "1/6",
+    "1/3"
+   ],
+   "answer": 0,
+   "explanation": "Conditional probability shrinks the sample space to the outcomes where the condition holds.\n\nAt least one 3: 36 − 25 = 11 outcomes.\n\nAmong those, sum 7 happens for (3,4) and (4,3): 2 outcomes.\n\nProbability = 2/11.\n\nIt helps to list them: (3,1) (3,2) (3,3) (3,4) (3,5) (3,6) and (1,3) (2,3) (4,3) (5,3) (6,3), which is 6 + 5 = 11 outcomes (the pair (3,3) is shared, so we do not count it twice).",
+   "tip": "'Given that' means: count only inside the condition. Denominator = outcomes satisfying the condition.",
+   "trap": "1/6 is the unconditional chance of sum 7. 1/18 divides by all 36 outcomes instead of the 11 that satisfy the condition.",
+   "timeTarget": 120,
+   "skills": [
+    "conditional",
+    "dice"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-012",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Machine A makes 60% of a factory's bolts, and 2% of its bolts are defective. Machine B makes the other 40%, and 5% of its bolts are defective. A bolt chosen at random is found to be defective. What is the probability that it came from machine B?",
+   "choices": [
+    "2/5",
+    "3/8",
+    "5/8",
+    "1/2",
+    "5/6"
+   ],
+   "answer": 2,
+   "explanation": "Out of every 1000 bolts: A makes 600, of which 2% = 12 are defective; B makes 400, of which 5% = 20 are defective.\n\nDefective total = 32. Of those, 20 came from B.\n\nProbability = 20/32 = 5/8.\n\nThe 'out of 1000' trick turns Bayes' rule into simple counting.",
+   "tip": "Reverse-conditional questions: imagine 1000 items and count, rather than juggling the formula.",
+   "trap": "2/5 is simply B's share of production, which ignores the fact that B has the higher defect rate. 3/8 is machine A's share of the defects.",
+   "timeTarget": 150,
+   "skills": [
+    "bayes",
+    "probability-tree"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-013",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Two players each roll a fair six-sided die once. What is the probability that the second player's number is strictly greater than the first player's number?",
+   "choices": [
+    "1/6",
+    "1/3",
+    "1/2",
+    "5/12",
+    "7/12"
+   ],
+   "answer": 3,
+   "explanation": "Use symmetry. Outcomes split into three groups: first greater, second greater, and ties. By symmetry the first two are equal.\n\nTies: 6 of 36 outcomes (1/6). So the other two groups share 30/36, each getting 15/36 = 5/12.\n\nCounting check: second number 2 beats 1 (1 way), 3 beats 2 (2), ... 6 beats 5 (5): 1 + 2 + 3 + 4 + 5 = 15 outcomes.",
+   "tip": "Symmetric 'greater than' questions: remove the ties, then split the rest evenly.",
+   "trap": "1/2 forgets that ties are possible.",
+   "timeTarget": 100,
+   "skills": [
+    "symmetry",
+    "dice"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-014",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Three fair six-sided dice are rolled. What is the probability that all three numbers are different and add up to 9?",
+   "choices": [
+    "1/24",
+    "1/8",
+    "1/12",
+    "1/6",
+    "25/216"
+   ],
+   "answer": 2,
+   "explanation": "Find the sets first: three different numbers from 1 to 6 summing to 9 are {1, 2, 6}, {1, 3, 5} and {2, 3, 4}.\n\nEach set can appear in 3! = 6 orders, giving 18 ordered outcomes out of 6³ = 216.\n\n18/216 = 1/12.",
+   "tip": "Enumerate the sets (unordered), then multiply by the number of orderings.",
+   "trap": "25/216 counts every triple summing to 9, including ones with repeated numbers like (3,3,3), (1,4,4) and (2,2,5) that the question rules out.",
+   "timeTarget": 150,
+   "skills": [
+    "dice",
+    "casework"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-015",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Eight balls, 3 red and 5 blue, are drawn one by one without replacement until all are drawn, so every order of colours is equally likely. What is the probability that no two red balls are drawn consecutively?",
+   "choices": [
+    "5/14",
+    "3/14",
+    "15/56",
+    "3/8",
+    "9/14"
+   ],
+   "answer": 0,
+   "explanation": "Only the colour pattern matters. There are 8C3 = 56 equally likely patterns (the positions of the reds).\n\nGood patterns: place the 5 blue balls first, creating 6 gaps. The 3 reds go into 3 different gaps: 6C3 = 20.\n\nProbability = 20/56 = 5/14.",
+   "tip": "'No two adjacent' in a random order: gap method on the counting, then divide by all patterns.",
+   "trap": "9/14 is the probability that SOME two reds are adjacent (1 − 5/14), the complement of what is asked.",
+   "timeTarget": 150,
+   "skills": [
+    "gap-method",
+    "combinations"
+   ]
+  },
+  {
+   "id": "q-probability-qg-p-016",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "practice",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Two fair dice are rolled repeatedly until the sum is either 5 or 7. What is the probability that a sum of 5 appears before a sum of 7?",
+   "choices": [
+    "1/9",
+    "2/9",
+    "2/5",
+    "1/2",
+    "3/5"
+   ],
+   "answer": 2,
+   "explanation": "Rolls with any other sum do not matter; they just repeat the game. So only compare the two outcomes that end it.\n\nSum 5: 4 ways ((1,4), (2,3), (3,2), (4,1)). Sum 7: 6 ways.\n\nOn the roll that finally ends the game, P(5) = 4/(4 + 6) = 2/5.\n\nCheck with a series: p = 4/36 per roll for a 5, stop probability 10/36; P = (4/36) / (1 − 26/36) = (4/36)/(10/36) = 2/5.",
+   "tip": "'First to happen' races: ignore every irrelevant trial and compare the two competing probabilities.",
+   "trap": "2/9 is 4/18 and 1/9 is 4/36, i.e. the chance of a 5 on a single roll, which ignores that the game keeps going.",
+   "timeTarget": 150,
+   "skills": [
+    "race",
+    "dice"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-001",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 1,
+   "format": "mc",
+   "prompt": "A spinner is divided into 8 equal sectors, of which 3 are shaded. If the spinner is spun once, what is the probability that it lands on an unshaded sector?",
+   "choices": [
+    "1/8",
+    "3/8",
+    "3/5",
+    "5/8",
+    "5/11"
+   ],
+   "answer": 3,
+   "explanation": "Unshaded sectors: 8 − 3 = 5 out of 8 equal sectors.\n\nProbability = 5/8.\n\nComplement view: 1 − 3/8 = 5/8.\n\nBecause the sectors are equal in size, each is equally likely, so probability is simply a count of sectors over the total number of sectors. Re-read the question for 'unshaded' versus 'shaded' before you circle an answer.",
+   "tip": "Read whether the question asks for the event or its opposite before computing.",
+   "trap": "3/8 is the chance of landing on a shaded sector.",
+   "timeTarget": 60,
+   "skills": [
+    "basic-probability"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-002",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 2,
+   "format": "mc",
+   "prompt": "Two fair six-sided dice are rolled. What is the probability that the product of the two numbers is odd?",
+   "choices": [
+    "1/6",
+    "1/4",
+    "1/3",
+    "1/2",
+    "3/4"
+   ],
+   "answer": 1,
+   "explanation": "A product is odd only when BOTH numbers are odd. Each die is odd with probability 3/6 = 1/2.\n\nIndependent events: 1/2 × 1/2 = 1/4.\n\nCount check: 3 × 3 = 9 odd-odd outcomes out of 36 = 1/4.",
+   "tip": "Odd × odd is the only way to get an odd product, so AND of two odd events.",
+   "trap": "1/2 treats the product like a single die roll. 3/4 is the probability that the product is EVEN.",
+   "timeTarget": 75,
+   "skills": [
+    "independent",
+    "parity"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-003",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "Two cards are dealt, one after the other and without replacement, from a standard deck of 52 cards (4 suits of 13 cards each). What is the probability that both cards are of the same suit?",
+   "choices": [
+    "1/4",
+    "1/17",
+    "3/13",
+    "1/2",
+    "4/17"
+   ],
+   "answer": 4,
+   "explanation": "The first card can be anything. Whatever suit it is, 12 of the remaining 51 cards share that suit.\n\nProbability = 12/51 = 4/17.\n\nThat is a quick way to avoid summing four suits separately.\n\nCombination check: pairs of the same suit are 4 × 13C2 = 4 × 78 = 312, out of 52C2 = 1326 pairs in total. 312/1326 = 4/17, which agrees.",
+   "tip": "Let the first pick be free, then ask how many of the rest 'match' it.",
+   "trap": "1/4 would be right if the second card were drawn with replacement (or if the first card were put back).",
+   "timeTarget": 90,
+   "skills": [
+    "without-replacement",
+    "cards"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-004",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 3,
+   "format": "mc",
+   "prompt": "In a game, a fair six-sided die is rolled once. A roll of 6 wins 30 rupees, a roll of 4 or 5 wins 6 rupees, and a roll of 1, 2 or 3 loses 6 rupees. What is the expected net gain, in rupees, per roll?",
+   "choices": [
+    "2",
+    "3",
+    "5",
+    "10",
+    "4"
+   ],
+   "answer": 4,
+   "explanation": "Expected value = sum of (outcome × probability).\n\n6: (1/6) × 30 = 5. 4 or 5: (2/6) × 6 = 2. 1, 2 or 3: (3/6) × (−6) = −3.\n\n5 + 2 − 3 = 4 rupees per roll.\n\nCheck with totals: over 6 rolls (one of each face), net = 30 + 6 + 6 − 6 − 6 − 6 = 24, and 24/6 = 4.",
+   "tip": "Expected value: weight each payoff by its probability, and keep the sign of losses.",
+   "trap": "Averaging the three payoffs (30, 6, −6) gives 10, ignoring that they are not equally likely.",
+   "timeTarget": 120,
+   "skills": [
+    "expected-value"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-005",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Events A and B are independent. P(A) = 1/2 and P(A or B) = 2/3. What is P(B)?",
+   "choices": [
+    "1/6",
+    "1/4",
+    "1/2",
+    "1/3",
+    "2/3"
+   ],
+   "answer": 3,
+   "explanation": "Write the OR rule with independence: P(A or B) = P(A) + P(B) − P(A) × P(B).\n\n2/3 = 1/2 + b − b/2, so 2/3 = 1/2 + b/2.\n\nb/2 = 2/3 − 1/2 = 1/6, so b = 1/3.\n\nCheck by complement: P(neither) = 1/3, and P(not A) × P(not B) = 1/2 × 2/3 = 1/3. ✓",
+   "tip": "Independent + OR: use P(none) = P(not A) × P(not B), which turns the problem into one linear equation.",
+   "trap": "1/6 is what you get if you forget the overlap term and solve 1/2 + b = 2/3.",
+   "timeTarget": 120,
+   "skills": [
+    "independent",
+    "or-rule"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-006",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Asha and Bala take turns rolling a fair six-sided die, with Asha going first. The first person to roll a 6 wins. What is the probability that Asha wins?",
+   "choices": [
+    "1/2",
+    "6/11",
+    "5/11",
+    "7/12",
+    "2/3"
+   ],
+   "answer": 1,
+   "explanation": "Asha wins on her first roll (1/6), or if both miss (5/6 × 5/6) and the game restarts with Asha to roll again.\n\nLet p = P(Asha wins): p = 1/6 + (25/36) p, so (11/36) p = 1/6 and p = 6/11.\n\nSeries view: 1/6 + (25/36)(1/6) + (25/36)²(1/6) + ... = (1/6)/(1 − 25/36) = 6/11.\n\nSanity: Asha has the advantage of going first, so the answer must exceed 1/2.",
+   "tip": "Repeating-game problems: write 'probability = win now + (both miss) × same probability' and solve.",
+   "trap": "1/2 ignores the first-mover advantage; 5/11 is Bala's chance.",
+   "timeTarget": 150,
+   "skills": [
+    "recursion",
+    "series"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-007",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 4,
+   "format": "mc",
+   "prompt": "Four married couples are in a room. Three of the eight people are chosen at random to form a committee. What is the probability that the committee contains no married couple?",
+   "choices": [
+    "4/7",
+    "2/7",
+    "3/7",
+    "1/2",
+    "5/7"
+   ],
+   "answer": 0,
+   "explanation": "Total committees: 8C3 = 56.\n\nNo couple means the 3 members come from 3 different couples. Choose which 3 of the 4 couples contribute: 4C3 = 4, then pick one person from each: 2 × 2 × 2 = 8.\n\nFavourable = 4 × 8 = 32. Probability = 32/56 = 4/7.\n\nSequential check: 1st anyone; 2nd must avoid the first person's partner: 6/7; 3rd must avoid both partners: 4/6. 6/7 × 4/6 = 4/7.",
+   "tip": "'No pair' questions: pick the groups first, then one member from each, or build the selection step by step with shrinking pools.",
+   "trap": "3/7 is the chance that the committee DOES contain a couple (1 − 4/7).",
+   "timeTarget": 150,
+   "skills": [
+    "combinations",
+    "complement"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-008",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Two different integers are chosen at random from the integers 1 through 11. What is the probability that their sum is divisible by 3?",
+   "choices": [
+    "1/3",
+    "18/55",
+    "4/11",
+    "21/55",
+    "19/55"
+   ],
+   "answer": 4,
+   "explanation": "Sort the numbers by remainder when divided by 3. Remainder 0: {3, 6, 9} (3 numbers). Remainder 1: {1, 4, 7, 10} (4 numbers). Remainder 2: {2, 5, 8, 11} (4 numbers).\n\nA sum is divisible by 3 if both have remainder 0, or one has remainder 1 and the other remainder 2.\n\nBoth remainder 0: 3C2 = 3. Remainder 1 with remainder 2: 4 × 4 = 16. Favourable = 19.\n\nTotal pairs: 11C2 = 55. Probability = 19/55.",
+   "tip": "Divisibility by 3 of a sum: group numbers by remainder and pair complementary remainders.",
+   "trap": "1/3 is the tempting 'one in three' guess; the groups are unequal in size, so it is not exactly 1/3. 18/55 forgets one of the 3 same-remainder pairs.",
+   "timeTarget": 180,
+   "skills": [
+    "remainders",
+    "combinations"
+   ]
+  },
+  {
+   "id": "q-probability-qg-m-009",
+   "section": "quant",
+   "type": "PS",
+   "topic": "q-probability",
+   "pool": "mock",
+   "difficulty": 5,
+   "format": "mc",
+   "prompt": "Urn A holds 3 white and 2 black balls. Urn B holds 2 white and 4 black balls. One ball is drawn at random from urn A and placed into urn B. Then one ball is drawn at random from urn B. Given that the second ball drawn is white, what is the probability that the ball transferred from A was white?",
+   "choices": [
+    "9/13",
+    "3/5",
+    "3/7",
+    "13/35",
+    "9/35"
+   ],
+   "answer": 0,
+   "explanation": "Build the tree. Transfer white (3/5): urn B now has 3 white of 7, so P(white next) = 3/7. Joint = 3/5 × 3/7 = 9/35.\n\nTransfer black (2/5): urn B now has 2 white of 7, so P(white next) = 2/7. Joint = 2/5 × 2/7 = 4/35.\n\nP(second is white) = 9/35 + 4/35 = 13/35.\n\nGiven white second: 9/35 divided by 13/35 = 9/13.",
+   "tip": "Given-that questions: joint probability of the path divided by the total probability of the condition.",
+   "trap": "9/35 forgets to divide by P(white second); 13/35 is the denominator on its own; 3/5 is the prior (before the clue).",
+   "timeTarget": 180,
+   "skills": [
+    "bayes",
+    "probability-tree"
+   ]
+  }
+ ]
+}
