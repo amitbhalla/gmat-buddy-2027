@@ -75,9 +75,6 @@ export function lessonOutline(text) {
     .map((l) => l.replace(/^## /, '').trim());
 }
 
-export function readingMinutes(text) {
-  return Math.max(3, Math.round(String(text).split(/\s+/).length / 180));
-}
 
 // ---------- Mermaid diagrams (lazy-loaded; ~3.5 MB, only on pages that need it)
 let mermaidPromise = null;

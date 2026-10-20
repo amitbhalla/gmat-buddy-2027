@@ -1,0 +1,13 @@
+/* On-screen calculator (Data Insights). Loaded with app.css. */
+.calc { position: fixed; right: 20px; bottom: 96px; z-index: 65; width: 264px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; box-shadow: var(--shadow-lg); padding: 0 12px 12px; touch-action: none; }
+.calc-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 2px 6px; font-size: 13px; font-weight: 700; color: var(--text-2); cursor: grab; user-select: none; }
+.calc-x { border: 0; background: none; font-size: 16px; color: var(--text-3); cursor: pointer; width: 32px; height: 32px; border-radius: 8px; }
+.calc-mem { height: 14px; font-size: 11px; color: var(--text-3); text-align: right; }
+.calc-out { display: block; text-align: right; font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; padding: 4px 8px 10px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.calc-keys { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.calc-keys button { min-height: 44px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface-2); font-size: 16px; font-weight: 650; cursor: pointer; }
+.calc-keys button:active { transform: scale(0.97); }
+.calc-keys button.op { background: var(--indigo-soft); color: var(--primary); }
+.calc-keys button.fn { font-size: 13.5px; color: var(--text-2); }
+.calc-keys button[data-k="="] { background: var(--primary); color: var(--primary-ink); border-color: transparent; }
+@media (max-width: 600px) { .calc { left: 12px; right: 12px; width: auto; bottom: calc(84px + var(--safe-b)); } }

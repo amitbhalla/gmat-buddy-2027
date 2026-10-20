@@ -315,10 +315,6 @@ function averageCapacity(state, today) {
   return sum / 14 || 1;
 }
 
-// Expected progress by a date, used for "ahead/behind" by item count.
-export function expectedDoneBy(plan, date) {
-  return plan.days.filter((d) => d.date <= date).reduce((n, d) => n + d.items.filter((x) => x.ref?.phase).length, 0);
-}
 
 export function phaseRanges(plan) {
   const ranges = [];
@@ -330,8 +326,5 @@ export function phaseRanges(plan) {
   return ranges;
 }
 
-export function weeksUntil(today, date) {
-  return Math.max(0, Math.ceil(daysBetween(today, date) / 7));
-}
 
 export { parseDate };

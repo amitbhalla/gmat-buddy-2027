@@ -92,26 +92,11 @@ export function pick(arr, rand = Math.random) {
   return arr[Math.floor(rand() * arr.length)];
 }
 
-export function clamp(x, lo, hi) {
-  return Math.min(hi, Math.max(lo, x));
-}
 
-export function groupBy(arr, fn) {
-  const out = {};
-  for (const x of arr) (out[fn(x)] ||= []).push(x);
-  return out;
-}
 
 // DOM helpers
 export const $ = (sel, root = document) => root.querySelector(sel);
-export const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
-export function on(root, event, selector, handler) {
-  root.addEventListener(event, (e) => {
-    const el = e.target.closest(selector);
-    if (el && root.contains(el)) handler(e, el);
-  });
-}
 
 export function toast(msg, { kind = 'info', ms = 2600 } = {}) {
   let host = document.getElementById('toasts');
