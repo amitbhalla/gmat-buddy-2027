@@ -8,7 +8,7 @@ import { sheet } from './common.js';
 
 const TOPIC_NAMES_FROM = (cur, id) => cur.lessons[id]?.title || id;
 
-export async function render({ view }) {
+export async function render({ view, desktop }) {
   const [cur, bank, cards] = await Promise.all([content.curriculum(), content.bank(), content.flashcards()]);
   const s = store.get();
   const today = todayStr();
@@ -24,7 +24,7 @@ export async function render({ view }) {
       ? `<div class="card tint"><div class="eyebrow">Recommended</div><h2>Smart practice</h2><p class="muted">Ten questions picked from your weakest topics, plus any mistakes that are due for another look.</p><a class="btn primary block" href="#/session/smart">${icon('bolt')} Start</a></div>`
       : `<div class="card tint"><div class="eyebrow">Getting started</div><h2>Your first practice</h2><p class="muted">Finish your first topic lesson and smart practice unlocks. Until then, try a few warm-up questions on number sense.</p><a class="btn primary block" href="#/session/topic/q-arith">${icon('play')} Warm up</a></div>`;
 
-  view.innerHTML = `
+  view.innerHTML = `<div class="${desktop ? 'layout practice-desk' : ''}"><div>
     <h1 style="margin-top:8px">Practice</h1>
     <p class="muted">${practiceCount} practice questions, plus a separate pool kept fresh for your mocks.</p>
     ${primary}
@@ -34,7 +34,7 @@ export async function render({ view }) {
       <button class="item" data-section style="flex-direction:column;align-items:flex-start;text-align:left"><div class="ic amber">${icon('clock')}</div><div class="t">Section test</div><div class="s">45 minutes, timed</div></button>
       <a class="item" href="#/mock" style="flex-direction:column;align-items:flex-start"><div class="ic amber">${icon('mock')}</div><div class="t">Full mock</div><div class="s">Adaptive, 2 h 15 min</div></a>
     </div>
-    <details class="card flat" style="margin-top:16px">
+    <details class="card flat builder" style="margin-top:16px"${desktop ? ' open' : ''}>
       <summary style="cursor:pointer;font-weight:650">Build your own set</summary>
       <div style="margin-top:14px">
         <label class="field"><span>Section</span><div class="seg" data-f="section">${['quant', 'verbal', 'di'].map((x, i) => `<button data-v="${x}" class="${i === 0 ? 'on' : ''}">${SECTION_NAMES[x]}</button>`).join('')}</div></label>
@@ -45,7 +45,22 @@ export async function render({ view }) {
         <button class="btn primary block" data-custom style="margin-top:14px">Start custom set</button>
       </div>
     </details>
-    <a class="item" href="#/errors" style="margin-top:12px"><div class="ic">${icon('journal')}</div><div class="body"><div class="t">Mistake log</div><div class="s">Every miss, why it happened, and what to fix</div></div>${icon('chevron')}</a>`;
+    <a class="item" href="#/errors" style="margin-top:12px"><div class="ic">${icon('journal')}</div><div class="body"><div class="t">Mistake log</div><div class="s">Every miss, why it happened, and what to fix</div></div>${icon('chevron')}</a>
+    </div></div>`;
+  if (desktop) {
+    // Move the builder into a right-hand panel.
+    const b = view.querySelector('.builder');
+    const aside = document.createElement('aside');
+    aside.className = 'side-col';
+    aside.innerHTML = '<h2 style="margin:8px 0 12px">Build your own set</h2>';
+    // Unwrap the <details> so the builder is simply always open.
+    const panel = document.createElement('div');
+    panel.className = 'card flat builder';
+    panel.append(...Array.from(b.children).filter((c) => c.tagName !== 'SUMMARY'));
+    b.remove();
+    aside.appendChild(panel);
+    view.querySelector('.practice-desk').appendChild(aside);
+  }
 
   const f = { section: 'quant', d: '2-4', n: '10' };
   const fillTopics = () => {

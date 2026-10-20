@@ -52,7 +52,20 @@ export function focusMode(on) {
   $('#topbar').hidden = !!on;
 }
 
+// Desktop shows every destination, grouped; phones keep five tabs with "More".
+const DESK_NAV = [
+  ['Study', [['today', 'Today', 'today'], ['plan', 'Plan & calendar', 'calendar'], ['learn', 'Learn', 'learn'], ['practice', 'Practice', 'practice'], ['mock', 'Mocks', 'mock'], ['cards', 'Flashcards', 'cards'], ['errors', 'Mistake log', 'journal']]],
+  ['Track', [['progress', 'Progress', 'progress']]],
+  ['Beyond the test', [['admissions', 'Admissions', 'cap'], ['library', 'Library', 'book'], ['checklist', 'Test-day checklist', 'list']]],
+  ['App', [['settings', 'Settings', 'settings']]],
+];
+
 function renderNav(active) {
+  if (isDesktop()) {
+    $('#nav').innerHTML = `<a class="nav-brand" href="#/today"><img src="icons/icon.svg" alt=""><span>GMAT Buddy</span></a>` +
+      DESK_NAV.map(([group, items]) => `<div class="nav-group">${esc(group)}</div>` + items.map(([r, label, ic]) => `<a href="#/${r}" class="${active === r ? 'active' : ''}"${active === r ? ' aria-current="page"' : ''}>${icon(ic)}<span>${label}</span></a>`).join('')).join('');
+    return;
+  }
   $('#nav').innerHTML = `<a class="nav-brand" href="#/today"><img src="icons/icon.svg" alt=""><span>GMAT Buddy</span></a>` + NAV.map(([r, label, ic]) => `<a href="#/${r}" class="${active === r ? 'active' : ''}"${active === r ? ' aria-current="page"' : ''}>${icon(ic)}<span>${label}</span></a>`).join('');
 }
 
@@ -86,7 +99,8 @@ async function route() {
   old.replaceWith(view);
   view.className = '';
   focusMode(false);
-  renderNav(NAV_OWNER[entry[0]] || entry[0]);
+  const DESK_OWNER = { lesson: 'learn', session: 'practice', more: 'today' };
+  renderNav(isDesktop() ? DESK_OWNER[entry[0]] || entry[0] : NAV_OWNER[entry[0]] || entry[0]);
   setTop();
   try {
     const mod = await entry[1]();

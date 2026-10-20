@@ -9,7 +9,7 @@ import { esc, fmtMinutes, todayStr, addDays, weekday, fmtDate, SECTION_NAMES } f
 import { BADGES } from './common.js';
 import { trendChart } from './mock.js';
 
-export async function render({ view }) {
+export async function render({ view, desktop }) {
   const [cur, bank] = await Promise.all([content.curriculum(), content.bank()]);
   const s = store.get();
   const today = todayStr();
@@ -79,24 +79,24 @@ export async function render({ view }) {
     </div>
 
     <div class="cards-grid">
-    <details class="card flat"><summary style="cursor:pointer;font-weight:650">Topics, weakest first</summary>
+    <details class="card flat"${desktop ? ' open' : ''}><summary style="cursor:pointer;font-weight:650">Topics, weakest first</summary>
       <div style="margin-top:10px">${topicRows.map(({ l, st }) => `<a href="#/session/topic/${l.topic}" style="display:block;text-decoration:none;color:inherit;margin:10px 0">
         <div style="display:flex;justify-content:space-between;font-size:14.5px"><span>${esc(l.topic === 'd-ds' ? 'Data Sufficiency' : l.title)}</span><span class="faint">${st ? `${st.correct}/${st.n} · mastery ${st.mastery}` : 'Not practised'}</span></div>
         <div class="bar ${st && st.mastery >= 65 ? 'green' : st && st.mastery < 40 ? 'amber' : ''}"><span style="width:${st ? st.mastery : 0}%"></span></div></a>`).join('')}</div>
     </details>
-    <details class="card flat"><summary style="cursor:pointer;font-weight:650">Study calendar</summary>
+    <details class="card flat"${desktop ? ' open' : ''}><summary style="cursor:pointer;font-weight:650">Study calendar</summary>
       <div class="heat" style="margin-top:12px">${cells.join('')}</div>
       <p class="faint" style="margin:8px 0 0">Last 16 weeks. Current streak: ${store.streak(s)} days.</p>
       <div style="margin-top:12px">${renderSparkBars(weeks, { width: 320, height: 70 })}</div>
       <p class="faint" style="margin:4px 0 0">Hours per week, last 8 weeks (this week on the right): ${weeks.join(' · ')}</p>
     </details>
-    <details class="card flat"><summary style="cursor:pointer;font-weight:650">Mistake patterns</summary>
+    <details class="card flat"${desktop ? ' open' : ''}><summary style="cursor:pointer;font-weight:650">Mistake patterns</summary>
       <div style="margin-top:10px">${Object.keys(errorsByReason).length ? Object.entries(errorsByReason).sort((a, b) => b[1] - a[1]).map(([k, n]) => `<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border)"><span>${esc({ concept: 'Concept gap', careless: 'Careless slip', misread: 'Misread', time: 'Too slow', trap: 'Fell for a trap', guess: 'Guessed', untagged: 'Not tagged yet' }[k] || k)}</span><strong>${n}</strong></div>`).join('') : '<p class="muted">No open mistakes. Keep going.</p>'}</div>
       <a class="btn sm" href="#/errors" style="margin-top:10px">Open the mistake log</a>
     </details>
-    <details class="card flat"><summary style="cursor:pointer;font-weight:650">Milestones (${BADGES.filter(([k]) => s.achievements[k]).length}/${BADGES.length})</summary>
+    <details class="card flat"${desktop ? ' open' : ''}><summary style="cursor:pointer;font-weight:650">Milestones (${BADGES.filter(([k]) => s.achievements[k]).length}/${BADGES.length})</summary>
       <div class="badge-grid" style="margin-top:12px">${BADGES.map(([k, l, ic]) => `<div class="badge${s.achievements[k] ? '' : ' locked'}"><div class="medal">${icon(ic)}</div>${esc(l)}</div>`).join('')}</div>
     </details>
-    ${s.sessions.length ? `<details class="card flat"><summary style="cursor:pointer;font-weight:650">Recent practice sessions</summary><div class="list" style="margin-top:10px">${s.sessions.slice(-12).reverse().map((x) => `<a class="item" href="#/session/review/${x.id}"><div class="body"><div class="t">${esc(x.title)}</div><div class="s">${fmtDate(x.date)} · ${x.correct}/${x.total} · ${fmtMinutes(Math.max(1, x.secs / 60))}</div></div>${icon('chevron')}</a>`).join('')}</div></details>` : ''}
+    ${s.sessions.length ? `<details class="card flat"${desktop ? ' open' : ''}><summary style="cursor:pointer;font-weight:650">Recent practice sessions</summary><div class="list" style="margin-top:10px">${s.sessions.slice(-12).reverse().map((x) => `<a class="item" href="#/session/review/${x.id}"><div class="body"><div class="t">${esc(x.title)}</div><div class="s">${fmtDate(x.date)} · ${x.correct}/${x.total} · ${fmtMinutes(Math.max(1, x.secs / 60))}</div></div>${icon('chevron')}</a>`).join('')}</div></details>` : ''}
     </div>`;
 }

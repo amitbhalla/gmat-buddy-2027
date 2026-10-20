@@ -113,7 +113,8 @@ async function runMock({ view, setTop, focusMode }) {
     return;
   }
   focusMode(true);
-  view.className = 'wide immersive';
+  view.className = 'wide immersive exam';
+  document.body.classList.add('exam-mode');
   let qStart = Date.now();
   let lastTick = Date.now();
   let tick = null;
@@ -179,7 +180,7 @@ async function runMock({ view, setTop, focusMode }) {
     view.innerHTML = `
       <div class="player-top" style="margin:0 -16px">
         <div class="ptitle">${SECTION_LONG[sec()]}</div>
-        <span class="count">${num} of ${spec(m, sec()).n}</span>
+        <span class="count">Question ${num} of ${spec(m, sec()).n}</span>
         <button class="timer" data-timer title="Tap to hide or show"></button>
       </div>
       <div class="player-progress" style="margin:0 -16px"><span style="width:${(s.served.length / spec(m, sec()).n) * 100}%"></span></div>
@@ -344,6 +345,7 @@ async function runMock({ view, setTop, focusMode }) {
     clearInterval(tick);
     view.removeEventListener('click', onClick);
     if (store.get().activeMock) save();
+    document.body.classList.remove('exam-mode');
     focusMode(false);
   };
 }

@@ -1,6 +1,6 @@
 // Plan generator. Pure: (curriculum, state, today, timeline) -> day-by-day plan + status.
 // The plan is recomputed from "today" on every render, so missed days reflow automatically.
-import { addDays, daysBetween, weekday, parseDate } from './util.js';
+import { addDays, daysBetween, weekday, parseDate, fmtDate } from './util.js';
 
 export const SPEED_BUFFER = { slow: 3, normal: 21, fast: 63 }; // days between finishing lessons and mock season
 export const SPEED_LABEL = { slow: 'Gentle', normal: 'Balanced', fast: 'Fast-track' };
@@ -306,7 +306,7 @@ function planStatus({ kd, learnTarget, lastSeqDate, queueLeft, remainingMinutes,
     return { ...out, level: 'tight', message: `You need about ${Math.round(quota)} minutes of new material per study day to finish lessons on time. That's most of your daily time. Consider adding 15-30 minutes a day.` };
   }
   if (slack < -3) return { ...out, level: 'behind', message: `You're about ${-slack} days behind your lesson target. The plan has absorbed it, but days will feel fuller.` };
-  return { ...out, level: 'ok', message: `On track. All lessons done by ${lastSeqDate}, then mock season from ${kd.mockStart}.` };
+  return { ...out, level: 'ok', message: `On track. All lessons done by ${fmtDate(lastSeqDate, { year: true })}, then mock season from ${fmtDate(kd.mockStart, { year: true })}.` };
 }
 
 function averageCapacity(state, today) {
