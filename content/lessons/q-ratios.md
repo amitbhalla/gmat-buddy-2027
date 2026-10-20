@@ -63,15 +63,15 @@ So a:b:c = 8:12:15.
 > To link two ratios through the shared term, multiply each ratio by the OTHER ratio's value of the shared term. Here: a:b × 4 and b:c × 3. That gives 8:12 and 12:15 straight away.
 
 ### Worked example 3 (Medium)
-The ratio of Anil's savings to Bela's is 3:4, and the ratio of Bela's to Chitra's is 6:5. Together the three have ₹ 3,10,000. How much does Chitra have?
+The ratio of Anil's savings to Bela's is 3:4, and the ratio of Bela's to Chitra's is 6:5. Together the three have ₹310,000. How much does Chitra have?
 
 <details><summary>Show solution</summary>
 
 Make Bela's term equal. The two ratios give Bela 4 and 6; the common multiple is 12. Multiply the first ratio by 3 and the second by 2: A:B = 9:12 and B:C = 12:10. So A:B:C = 9:12:10, a total of 31 units.
 
-One unit = 3,10,000 ÷ 31 = 10,000. Chitra = 10 × 10,000 = ₹ 1,00,000.
+One unit = 310,000 ÷ 31 = 10,000. Chitra = 10 × 10,000 = ₹100,000.
 
-Check: Anil 90,000, Bela 1,20,000, Chitra 1,00,000. Bela to Chitra is 12:10 = 6:5 ✓.
+Check: Anil 90,000, Bela 120,000, Chitra 100,000. Bela to Chitra is 12:10 = 6:5 ✓.
 
 Trap: Writing A:B:C = 3:4:5 by sticking the first ratio and the second ratio's "5" together without matching Bela's term. That would give 3:4:5 with Chitra at 5/12 of the total, which is wrong.
 

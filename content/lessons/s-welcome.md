@@ -2,6 +2,9 @@
 
 Hi Maria. I'm your study buddy for the next ten months, and this is the one lesson I'd like you to read slowly, with a cup of chai, before you touch anything else. It explains how the app works, what the journey looks like, and exactly what to do this week.
 
+
+![Infographic titled Your 10-Month GMAT Journey: a winding road with seven milestones in order: Oct 2026 · Orientation, Nov · Foundations, Dec–Feb · Core Skills, Mar–Jun · Advanced Practice, Jul–Aug · Mock Season, 28 Aug 2027 · Test Day, Sep 2027 onward · Applications.](img/gen/journey.jpg)
+
 ## A letter before we start
 
 You're about to prepare for an exam that most people find stressful, and you're going to do it while holding down a full-time marketing job. That's a real thing, and plenty of people have done it well. The ones who do tend to share one habit: they show up in small, boring, regular doses instead of waiting for a heroic weekend.
@@ -72,7 +75,7 @@ Exam day on 28 August, then the score decision, then the applications. There's a
 
 ## A realistic weekly rhythm
 
-Let's be honest about hours. The plan assumes about 8 to 10 hours a week. Over 44 weeks that's somewhere around 350 to 440 hours, which is a solid amount for a first-time preparation. Prep companies often suggest 100 to 150 hours for a modest improvement and 240 to 360 hours for a big jump, though no one publishes an exact formula for you personally. The aim isn't to hit a number. It's to be consistent.
+Let's be honest about hours. The plan assumes about 8 to 10 hours a week. Over 44 weeks that's somewhere around 350 to 440 hours, which is a solid amount for a first-time preparation. Prep companies often suggest about 180 hours for a gain of 50 to 80 points and 240 to 360 hours for a jump of 100 to 150 points, though these are vendor estimates and no one publishes an exact formula for you personally. The aim isn't to hit a number. It's to be consistent.
 
 Here's one way a working week can look.
 

@@ -5,6 +5,9 @@ This lesson walks you through the whole practical side: creating your account, c
 > [!NOTE]
 > GMAC's official fee and policy pages didn't load for me, so some figures below come from reputable prep-company sites. I'll tell you when that's the case. Treat those figures as "very likely, but confirm".
 
+
+![Infographic titled Test Day Checklist: Passport (name matches your booking); Arrive 30 minutes early; Light breakfast and water; Snack for the break; Your practised section order; Breathe. You are ready.](img/gen/test-day.jpg)
+
 ## Step 1: Your mba.com account
 
 Everything starts with a free account on mba.com. You'll use it to book, reschedule, see your scores and send them to schools.
@@ -50,7 +53,7 @@ Always confirm the current fee, and whether GST applies, on mba.com.
 
 GMAT appointments can be booked from about six months ahead to 24 hours before. The exam is available year-round, with no fixed national test dates. Centre seats vary by location.
 
-Our default plan: **first attempt on Saturday 28 August 2027.** Weekend slots at centres in major cities fill faster than weekdays. Prep sites suggest booking six to twelve weeks ahead in busy months. So aim to look for your 28 August slot around the end of February 2027, as soon as the six-month window opens, and choose a morning time.
+Our default plan: **first attempt on Saturday 28 August 2027.** Weekend slots at centres in major cities fill faster than weekdays. Prep sites suggest booking six to twelve weeks ahead in busy months. So aim to look for your 28 August slot around the end of February 2027, as soon as the six-month window opens, and choose a morning time. Early July 2027 is the latest sensible date, since that is about seven weeks ahead.
 
 Also book your **backup attempt** (mid-October 2027) once you have a result, or at least check availability early. Keep in mind the rule: 16 calendar days between attempts.
 

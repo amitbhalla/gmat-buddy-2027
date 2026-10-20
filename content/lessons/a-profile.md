@@ -94,7 +94,7 @@ That's not final, but it has tension and direction. We'll work on it in the essa
 | Feb to Apr 2027 | Run the project; collect numbers; ask for feedback from your manager |
 | May to Jul 2027 | Finish a quant or analytics course; formalise volunteering hours |
 | Aug 2027 | Update the wins file; draft your "why now" paragraph |
-| Sep 2027 | Pick recommenders; share your wins file with them |
+| Jun to Aug 2027 | Choose recommenders; share your wins file when you brief them |
 
 ## Worked example: turning a bullet into a profile story
 

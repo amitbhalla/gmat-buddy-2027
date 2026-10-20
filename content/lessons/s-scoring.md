@@ -6,6 +6,9 @@
 
 Every section is scored from **60 to 90**. Your total score runs from **205 to 805**, in steps of 10. The three sections (Quant, Verbal, Data Insights) are weighted equally, so each one is worth a third of your total.
 
+![Infographic titled How Your GMAT Score Works. Cards Quant 60–90, Verbal 60–90 and Data Insights 60–90 are added together into a Total 205–805 card. Caption: All three sections count equally. Scale markers: 555 ≈ 47th percentile, 655 ≈ 90th percentile, 705 ≈ 98th percentile. Footnote: Percentiles are approximate.](img/gen/score-scale.jpg)
+
+
 GMAC doesn't publish the exact formula for turning section scores into a total. Prep companies estimate that it works roughly like this: add the three section scores, subtract 180, multiply by about 6.67 and add 205. Treat that as an approximation, not a rule. It does show you something useful: one extra point in any single section moves your total by about 6 to 7 points.
 
 | Section scores (Q / V / DI) | Rough total |
@@ -87,7 +90,7 @@ Prep companies explain that the adaptive engine learns a lot from your first han
 2. Don't over-invest, though. Spending five minutes on question 3 will damage questions 18 to 21 more than it helps.
 3. Don't panic if you miss an early question. It's one answer among many.
 
-And a reassurance: Review & Edit only lets you change up to three answers, and fixing an early mistake doesn't reset the difficulty path that you've already been routed on. So the lesson is simply to get it right the first time.
+And a caution: Review & Edit only lets you change up to three answers, and prep companies report that fixing an early mistake doesn't reset the difficulty path you've already been routed on (GMAC doesn't publish this). So the lesson is simply to get it right the first time.
 
 ## The unanswered-question penalty
 
@@ -146,7 +149,7 @@ Whether the number is on the old 200 to 800 scale or the current 205 to 805 scal
 - Section scores run 60 to 90, totals 205 to 805, and the three sections count equally.
 - One section point is worth roughly 6 to 7 total points (a prep-company estimate, not an official formula).
 - Percentiles flatten at the top: 655 is about the 90th percentile and 705 about the 98th (approximate).
-- ISB's class-of-2026 mean was 683 on a mixed scale. A target of 655 to 705 or above is sensible, with a personal floor, target and stretch.
+- ISB's class-of-2026 mean was 683 (ISB doesn't say which scale). A target of 655 to 705 or above is sensible, with a personal floor, target and stretch.
 - Old-scale and current-scale scores aren't the same. Use GMAC's concordance table.
 - The exam adapts question by question, so the early questions deserve extra care.
 - Never leave a question unanswered. Wrong answers aren't directly penalised, blanks are.

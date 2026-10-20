@@ -152,7 +152,7 @@ Which of the following would be most useful to know in evaluating the argument?
 (A) Whether the number of cyclists using Marine Road changed substantially over the twelve months
 (B) Whether red paint is more expensive than other colours
 (C) Whether cyclists prefer red lanes to green ones
-(D) Whether injuries to motorists on Marine Road also fell
+(D) Whether motorists on Marine Road approve of the red lanes
 (E) Whether the department painted lanes on any other road
 
 <details><summary>Show solution</summary>
@@ -161,9 +161,9 @@ The department compares injury *counts*, but safety depends on injuries per cycl
 
 (A): if cyclist numbers fell sharply, fewer injuries may just reflect fewer riders (weakens). If numbers held steady or rose, the drop is more impressive (strengthens). Opposite directions.
 
-(B) and (C) concern cost and preference, not safety outcomes. (D) is tempting because a general fall in injuries could point to a different cause, but a fall in motorist injuries could be explained by many things, and if motorist injuries had not fallen, that would not clearly help the red-paint theory. The two answers don't cleanly diverge on the cyclist conclusion. (E) asks about painting elsewhere, which doesn't tell us what happened on Marine Road.
+(B) and (C) concern cost and preference, not safety outcomes. (D) is about motorists' opinions, which says nothing about cyclist injuries. (E) asks about painting elsewhere, which doesn't tell us what happened on Marine Road.
 
-Trap: (D) looks like a control-group question. It isn't, because motorists are a different group facing different risks.
+Trap: (E) sounds like a comparison-group question, but it only asks whether painting happened elsewhere, not what happened to injuries there or here.
 
 </details>
 

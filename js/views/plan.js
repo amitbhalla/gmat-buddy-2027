@@ -2,7 +2,7 @@
 import * as store from '../store.js';
 import { phaseRanges, usualCapacity, keyDates, SPEED_LABEL } from '../planner.js';
 import { icon } from '../icons.js';
-import { esc, fmtDate, fmtMinutes, todayStr, addDays, weekday, DAY_NAMES, toast } from '../util.js';
+import { esc, fmtDate, fmtMinutes, todayStr, addDays, weekday, daysBetween, DAY_NAMES, toast } from '../util.js';
 import { itemRow, itemTitle, deferSheet } from './common.js';
 import { loadPlan, phaseName, toggleItem } from './today.js';
 
@@ -10,7 +10,8 @@ export async function render({ view, setTop, query }) {
   setTop({ title: 'Your plan', back: '#/today' });
   const today = todayStr();
   let sel = query.d && query.d >= today ? query.d : today;
-  let weekOffset = 0;
+  const monday = (d) => addDays(d, -((weekday(d) + 6) % 7));
+  let weekOffset = Math.max(0, Math.round(daysBetween(monday(today), monday(sel)) / 7));
 
   const paint = async () => {
     const s = store.get();

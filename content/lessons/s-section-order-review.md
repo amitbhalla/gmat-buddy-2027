@@ -54,7 +54,7 @@ You get one optional break of 10 minutes. Prep companies report it can be taken 
 
 ### Should you take it?
 
-Most coaches say yes. Taking no break means 90 minutes or more of focused work with no pause. The break is useful even if you feel fine, because your focus fades before you notice.
+Most coaches say yes. Taking no break means 2 hours 15 minutes of focused work with no pause. The break is useful even if you feel fine, because your focus fades before you notice.
 
 ### How to use it
 

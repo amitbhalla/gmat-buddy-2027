@@ -1,6 +1,6 @@
 # Multi-Source Reasoning (MSR)
 
-Multi-Source Reasoning is the Data Insights question type that feels most like real work: you open a few "tabs" (an email, a memo, a table, a chart), and you answer questions that need information from more than one of them. Expect roughly 2 to 3 MSR sets, so 6 to 9 of your 20 questions, which makes this the single biggest type in the section.
+Multi-Source Reasoning is the Data Insights question type that feels most like real work: you open a few "tabs" (an email, a memo, a table, a chart), and you answer questions that need information from more than one of them. Expect roughly 2 to 3 MSR sets, so about 6 to 9 of your 20 questions, which makes this the biggest single type in the section.
 
 ## How an MSR set is built
 
@@ -93,14 +93,14 @@ Here's one complete MSR set, with four questions at rising difficulty. (Real set
 > To: Expansion team
 > Subject: New kiosk decision
 >
-> We're opening one new coffee kiosk next quarter, either at the Metro Station or at the Mall. A site goes ahead only if its expected monthly profit is at least ₹1,00,000. Monthly profit means monthly revenue minus variable costs minus rent. Assume 30 trading days a month. Variable costs are 55% of revenue at both sites.
+> We're opening one new coffee kiosk next quarter, either at the Metro Station or at the Mall. A site goes ahead only if its expected monthly profit is at least ₹100,000. Monthly profit means monthly revenue minus variable costs minus rent. Assume 30 trading days a month. Variable costs are 55% of revenue at both sites.
 
 **Tab 2: Site data**
 
 | Site | Visitors per day | Share of visitors who buy | Average bill (₹) | Monthly rent (₹) |
 |---|---|---|---|---|
 | Metro Station | 1,500 | 8% | 100 | 90,000 |
-| Mall | 1,000 | 12% | 160 | 1,40,000 |
+| Mall | 1,000 | 12% | 160 | 140,000 |
 
 **Tab 3: Note from Finance**
 
@@ -110,13 +110,13 @@ Here's one complete MSR set, with four questions at rising difficulty. (Real set
 
 What is the expected monthly revenue at the Mall?
 
-(A) ₹1,92,000  (B) ₹2,59,200  (C) ₹3,60,000  (D) ₹5,76,000  (E) ₹6,40,000
+(A) ₹192,000  (B) ₹259,200  (C) ₹360,000  (D) ₹576,000  (E) ₹640,000
 
 <details><summary>Show solution</summary>
 
-Buyers per day = 1,000 × 12% = 120. Revenue per day = 120 × 160 = ₹19,200. Over 30 days: ₹5,76,000. Answer (D).
+Buyers per day = 1,000 × 12% = 120. Revenue per day = 120 × 160 = ₹19,200. Over 30 days: ₹576,000. Answer (D).
 
-Trap: (B) ₹2,59,200 is the Mall's profit before rent (45% of revenue), not revenue. (C) is the Metro's revenue, from the wrong row.
+Trap: (B) ₹259,200 is the Mall's profit before rent (45% of revenue), not revenue. (C) is the Metro's revenue, from the wrong row.
 
 </details>
 
@@ -124,13 +124,13 @@ Trap: (B) ₹2,59,200 is the Mall's profit before rent (45% of revenue), not rev
 
 Does the Mall meet Priya's profit rule, and by how much does it exceed or miss the target?
 
-(A) Misses by ₹7,200  (B) Meets, exceeds by ₹19,200  (C) Meets, exceeds by ₹1,19,200  (D) Misses by ₹40,000  (E) Meets, exceeds by ₹1,00,000
+(A) Misses by ₹7,200  (B) Meets, exceeds by ₹19,200  (C) Meets, exceeds by ₹119,200  (D) Misses by ₹40,000  (E) Meets, exceeds by ₹100,000
 
 <details><summary>Show solution</summary>
 
-Revenue = ₹5,76,000. Variable costs are 55%, so contribution = 45% × 5,76,000 = ₹2,59,200. Subtract rent: 2,59,200 − 1,40,000 = ₹1,19,200. The target is ₹1,00,000, so the Mall exceeds it by ₹19,200. Answer (B).
+Revenue = ₹576,000. Variable costs are 55%, so contribution = 45% × 576,000 = ₹259,200. Subtract rent: 259,200 − 140,000 = ₹119,200. The target is ₹100,000, so the Mall exceeds it by ₹19,200. Answer (B).
 
-Trap: (C) forgets to compare with the target; ₹1,19,200 is the profit itself.
+Trap: (C) forgets to compare with the target; ₹119,200 is the profit itself.
 
 </details>
 
@@ -144,11 +144,11 @@ For each statement, say whether it is True or False based on the three tabs.
 
 <details><summary>Show solution</summary>
 
-Metro revenue = 1,500 × 8% × 100 × 30 = ₹3,60,000. Contribution at 45% = ₹1,62,000. Minus rent 90,000 = ₹72,000, below the ₹1,00,000 target. Statement 1: False.
+Metro revenue = 1,500 × 8% × 100 × 30 = ₹360,000. Contribution at 45% = ₹162,000. Minus rent 90,000 = ₹72,000, below the ₹100,000 target. Statement 1: False.
 
 Revenue per visitor: Mall 12% × 160 = ₹19.20. Metro 8% × 100 = ₹8. Statement 2: True.
 
-At 50% costs: 3,60,000 × 50% = 1,80,000, minus 90,000 = ₹90,000. Still below 1,00,000. Statement 3: False.
+At 50% costs: 360,000 × 50% = 180,000, minus 90,000 = ₹90,000. Still below 100,000. Statement 3: False.
 
 Answer: F, T, F. Note that statement 2 didn't need the memo at all, which shows how some statements use only one tab.
 
@@ -158,13 +158,13 @@ Answer: F, T, F. Note that statement 2 didn't need the memo at all, which shows 
 
 Using only the information given, what is the largest Metro Station monthly rent at which the Metro Station would still meet the profit rule?
 
-(A) ₹62,000  (B) ₹72,000  (C) ₹90,000  (D) ₹1,00,000  (E) ₹1,62,000
+(A) ₹62,000  (B) ₹72,000  (C) ₹90,000  (D) ₹100,000  (E) ₹162,000
 
 <details><summary>Show solution</summary>
 
-This question needs the memo's rule (profit at least ₹1,00,000), the table's data (to get contribution), and the Finance note (rent is the variable you can change).
+This question needs the memo's rule (profit at least ₹100,000), the table's data (to get contribution), and the Finance note (rent is the variable you can change).
 
-Contribution at Metro = ₹1,62,000. We need 1,62,000 − rent ≥ 1,00,000, so rent ≤ ₹62,000. Answer (A).
+Contribution at Metro = ₹162,000. We need 162,000 − rent ≥ 100,000, so rent ≤ ₹62,000. Answer (A).
 
 Trap: (B) is the current profit, which is a different quantity. (E) is contribution before rent. The tab-3 note is what tells you rent is the thing to solve for; without it, you'd look for another unknown.
 

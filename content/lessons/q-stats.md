@@ -147,7 +147,7 @@ The tiny-set recipe, in case you need it: find the mean, find each value's dista
 | If you... | SD becomes |
 |---|---|
 | Add or subtract a constant to every value | Unchanged (everything shifts together) |
-| Multiply every value by k | Multiplied by |k| |
+| Multiply every value by k | Multiplied by the absolute value of k |
 | Add a value equal to the mean | Decreases (more points sit at zero distance) |
 | Add a value far from the mean | Increases |
 | Replace values with ones closer to the mean | Decreases |

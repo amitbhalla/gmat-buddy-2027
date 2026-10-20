@@ -1,6 +1,9 @@
 # How GMAT Arguments Work
 
-Roughly half of the Verbal section is Critical Reasoning (CR): a short paragraph of business, science or policy talk, followed by one question about the logic. Every CR question, whatever its type, is really testing whether you can see how an argument is built. Learn the anatomy once and the whole family of questions gets easier.
+Roughly 9 to 11 of the 23 Verbal questions are Critical Reasoning (CR); GMAC publishes no fixed split. Each one is a short paragraph of business, science or policy talk, followed by one question about the logic. Every CR question, whatever its type, is really testing whether you can see how an argument is built. Learn the anatomy once and the whole family of questions gets easier.
+
+
+![Infographic titled Anatomy of a GMAT Argument: two Premise boxes feed an arrow into a Conclusion box; a dashed bridge on the arrow is labelled Assumption (the hidden gap). Caption: Find the gap. Most questions are about it.](img/gen/cr-argument.jpg)
 
 ## What an argument is
 
@@ -72,7 +75,7 @@ flowchart LR
 A["Premise<br/>the evidence"] --> B["Assumption<br/>the unstated bridge"] --> C["Conclusion<br/>the claim"]
 ```
 
-In the Larkspur example, the evidence is about timing (revenue fell, budget cut). The conclusion is about cause. The gap is: "nothing else explains the revenue decline" and "the correlation isn't a coincidence". Each of the three main question families works on that gap:
+In the Larkspur example, the evidence is about timing (revenue fell, budget cut). The conclusion is about cause. The gap is: "nothing else explains the revenue decline" and "the correlation isn't a coincidence". Each of the main question families works on that gap:
 
 - **Assumption**: name the bridge the author needs.
 - **Strengthen**: give evidence that makes the bridge more solid.
@@ -83,7 +86,7 @@ In the Larkspur example, the evidence is about timing (revenue fell, budget cut)
 Inference and Paradox questions work differently (we'll cover them in their own lessons), but even there, reading the structure helps.
 
 > [!NOTE]
-> Arguments in the real GMAT are almost always about a **change in vocabulary** between the premise and the conclusion. If the evidence talks about "sales" and the conclusion talks about "profit", or the evidence talks about "tested users" and the conclusion about "all customers", you've found the gap.
+> Arguments on the real GMAT very often hinge on a **change in vocabulary** between the premise and the conclusion. If the evidence talks about "sales" and the conclusion talks about "profit", or the evidence talks about "tested users" and the conclusion about "all customers", you've found the gap.
 
 ## The universal 4-step CR method
 
@@ -152,6 +155,9 @@ Faster way: any time you see a percent in the premise and an absolute in the con
 ## Reading the question stem: the type cheat table
 
 The stem tells you what job to do. Learn to classify it in two seconds.
+
+![Infographic titled Critical Reasoning Question Types, nine cards: Assumption, Find the missing link; Strengthen, Close the gap; Weaken, Open the gap; Evaluate, Ask the key question; Inference, Stay inside the facts; Paradox, Make both facts true; Boldface, Name each part's role; Flaw, Spot the bad logic; Complete, Fill the blank logically.](img/gen/cr-types.jpg)
+
 
 | Stem sounds like... | Type | Your job |
 |---|---|---|

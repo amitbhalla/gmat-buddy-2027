@@ -67,7 +67,7 @@ G -->|"Yes"| H["Answer C<br/>together only"]
 G -->|"No"| I["Answer E<br/>even together not enough"]
 ```
 
-The two-step routine:
+The routine:
 
 1. Evaluate (1) alone. Write "S" (sufficient) or "N" (not sufficient).
 2. **Forget statement (1) completely.** Evaluate (2) alone and write S or N.
@@ -92,7 +92,7 @@ Before you look at the statements, spend ten seconds simplifying the question. A
 
 - "What is the value of 4a + 2b?" is the same as "What is the value of 2a + b?" times 2. So what you need is just 2a + b.
 - "Is x² > 9?" becomes "Is x > 3 or x < −3?" (that is, "Is |x| > 3?").
-- "What is the perimeter of the rectangle?" becomes "What is length + width?" because perimeter is 2(l + w).
+- "What is the total cost of 3 pens and 3 notebooks?" becomes "What is the price of one pen plus one notebook?" because the total is 3 × (pen + notebook).
 - "Is the average of three numbers greater than 10?" becomes "Is their sum greater than 30?"
 
 A good rephrase reduces each statement to a yes/no check: "Does this give me 2a + b?"

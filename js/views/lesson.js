@@ -28,7 +28,7 @@ export function splitSteps(md) {
   return main.map((st) => ({ title: st.title, md: st.lines.join('\n') }));
 }
 
-export async function render({ view, params, query, setTop }) {
+export async function render({ view, params, query, setTop, desktop }) {
   const id = params[0];
   const cur = await content.curriculum();
   const meta = cur.lessons[id];
@@ -74,16 +74,46 @@ export async function render({ view, params, query, setTop }) {
           <span class="faint">Step ${step + 1} of ${steps.length}</span>
         </div>
         <article class="prose read step-body">${renderLesson(steps[step].md)}</article>
-        ${last ? finishHtml() : ''}
+        ${last ? finishHtml() : `<p class="faint up-next">Up next: ${esc(steps[step + 1].title)}</p>`}
         <div style="height:24px"></div>
         <div class="action-bar">
           <button class="btn" data-prev ${step === 0 ? 'disabled' : ''}>Back</button>
-          ${last ? `<button class="btn primary" data-complete>${doneAlready ? 'Back to plan' : 'Finish lesson'}</button>` : `<button class="btn primary" data-next>Next: ${esc(trimTitle(steps[step + 1].title))}</button>`}
+          ${last ? `<button class="btn primary" style="flex:2" data-complete>${doneAlready ? 'Back to plan' : 'Finish lesson'}</button>` : `<button class="btn primary" style="flex:2" data-next>Next ${icon('chevron')}</button>`}
         </div>`;
     }
+    if (desktop) wrapDesktop();
     renderDiagrams(view);
     const notes = view.querySelector('#notes');
     if (notes) notes.addEventListener('input', () => store.update((x) => (x.notes[id] = notes.value)));
+  };
+
+  // Desktop: reading column + a sidebar with every step (the whole lesson at a glance) and notes always open.
+  const wrapDesktop = () => {
+    const toc = `<aside class="lesson-toc"><div class="panel" style="padding:16px 14px">
+        <div class="eyebrow" style="padding:0 12px">${all ? 'Sections' : `Step ${step + 1} of ${steps.length}`}</div>
+        <ol>${steps.map((st, i) => `<li class="${!all && i === step ? 'on' : ''}${!all && i < step ? ' done' : ''}"><button data-goto="${i}">${i + 1}. ${esc(st.title)}</button></li>`).join('')}</ol>
+      </div>
+      <div class="panel" style="padding:16px">
+        <div class="eyebrow">My notes</div>
+        <textarea id="notes" placeholder="The one thing to remember, in your own words." style="min-height:140px">${esc(store.get().notes[id] || '')}</textarea>
+        <p class="faint" style="margin:6px 0 0">Saved automatically.</p>
+      </div></aside>`;
+    // Notes live in the sidebar on desktop; drop the duplicate at the end of the lesson.
+    view.querySelector('.lesson-end details')?.remove();
+    const nodes = Array.from(view.childNodes).filter((n) => !(n.classList && n.classList.contains('action-bar')));
+    const col = document.createElement('div');
+    col.className = 'lesson-main';
+    nodes.forEach((n) => col.appendChild(n));
+    const grid = document.createElement('div');
+    grid.className = 'lesson-layout';
+    grid.appendChild(col);
+    grid.insertAdjacentHTML('beforeend', toc);
+    view.prepend(grid);
+    const bar = view.querySelector('.action-bar');
+    if (bar) {
+      bar.classList.add('inline-bar');
+      col.appendChild(bar);
+    }
   };
 
   const go = (n) => {
@@ -109,6 +139,16 @@ export async function render({ view, params, query, setTop }) {
   };
 
   const onClick = (e) => {
+    const g = e.target.closest('[data-goto]');
+    if (g) {
+      if (all) {
+        const h = Array.from(view.querySelectorAll('.prose h2'))[Number(g.dataset.goto) - 1];
+        if (h) h.scrollIntoView({ behavior: 'smooth' });
+        else window.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+      return go(Number(g.dataset.goto));
+    }
     if (e.target.closest('[data-next]')) return go(step + 1);
     if (e.target.closest('[data-prev]')) return go(step - 1);
     if (e.target.closest('[data-complete]')) return complete();

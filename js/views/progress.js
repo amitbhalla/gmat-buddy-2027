@@ -73,9 +73,12 @@ export async function render({ view }) {
       ${headline ? `<div class="faint">${esc(headline.l)}</div><div style="font-size:46px;font-weight:800;letter-spacing:-.03em;line-height:1.1">${headline.n}</div><div class="muted small">About the ${totalPercentile(headline.n)}th percentile · aiming for ${target}+</div>` : `<div class="faint">Projected score</div><h2 style="color:#fff">Not enough data yet</h2><p class="muted small" style="margin:0">Answer about 15 questions in each section, or take the diagnostic, and your projection appears here.</p>`}
       <div class="hero-stats"><div class="hero-stat"><div class="n">${lessonsDone}/${lessonsTotal}</div><div class="l">lessons</div></div><div class="hero-stat"><div class="n">${enriched.length}</div><div class="l">questions</div></div><div class="hero-stat"><div class="n">${Math.round(totalMin / 60)}</div><div class="l">hours studied</div></div></div>
     </div>
-    ${trendChart(s.mocks)}
-    <div class="card"><h3>Section strength</h3>${sec('quant')}${sec('verbal')}${sec('di')}<p class="faint" style="margin:8px 0 0">${enriched.length ? `Overall accuracy ${acc}%. ` : ''}Bars show estimated section scores on the 60-90 scale.</p></div>
+    <div class="layout even">
+      <div>${trendChart(s.mocks) || `<div class="card flat"><h3>Score trend</h3><p class="muted" style="margin:0">Your mock and official practice exam scores will chart here.</p></div>`}</div>
+      <div class="card"><h3>Section strength</h3>${sec('quant')}${sec('verbal')}${sec('di')}<p class="faint" style="margin:8px 0 0">${enriched.length ? `Overall accuracy ${acc}%. ` : ''}Bars show estimated section scores on the 60-90 scale.</p></div>
+    </div>
 
+    <div class="cards-grid">
     <details class="card flat"><summary style="cursor:pointer;font-weight:650">Topics, weakest first</summary>
       <div style="margin-top:10px">${topicRows.map(({ l, st }) => `<a href="#/session/topic/${l.topic}" style="display:block;text-decoration:none;color:inherit;margin:10px 0">
         <div style="display:flex;justify-content:space-between;font-size:14.5px"><span>${esc(l.topic === 'd-ds' ? 'Data Sufficiency' : l.title)}</span><span class="faint">${st ? `${st.correct}/${st.n} · mastery ${st.mastery}` : 'Not practised'}</span></div>
@@ -94,5 +97,6 @@ export async function render({ view }) {
     <details class="card flat"><summary style="cursor:pointer;font-weight:650">Milestones (${BADGES.filter(([k]) => s.achievements[k]).length}/${BADGES.length})</summary>
       <div class="badge-grid" style="margin-top:12px">${BADGES.map(([k, l, ic]) => `<div class="badge${s.achievements[k] ? '' : ' locked'}"><div class="medal">${icon(ic)}</div>${esc(l)}</div>`).join('')}</div>
     </details>
-    ${s.sessions.length ? `<details class="card flat"><summary style="cursor:pointer;font-weight:650">Recent practice sessions</summary><div class="list" style="margin-top:10px">${s.sessions.slice(-12).reverse().map((x) => `<a class="item" href="#/session/review/${x.id}"><div class="body"><div class="t">${esc(x.title)}</div><div class="s">${fmtDate(x.date)} · ${x.correct}/${x.total} · ${fmtMinutes(Math.max(1, x.secs / 60))}</div></div>${icon('chevron')}</a>`).join('')}</div></details>` : ''}`;
+    ${s.sessions.length ? `<details class="card flat"><summary style="cursor:pointer;font-weight:650">Recent practice sessions</summary><div class="list" style="margin-top:10px">${s.sessions.slice(-12).reverse().map((x) => `<a class="item" href="#/session/review/${x.id}"><div class="body"><div class="t">${esc(x.title)}</div><div class="s">${fmtDate(x.date)} · ${x.correct}/${x.total} · ${fmtMinutes(Math.max(1, x.secs / 60))}</div></div>${icon('chevron')}</a>`).join('')}</div></details>` : ''}
+    </div>`;
 }

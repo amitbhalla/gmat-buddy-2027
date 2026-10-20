@@ -16,7 +16,7 @@ What the research tells us:
 | ISB | A TOEFL or IELTS score is required for non-Indian students who didn't have English as the primary language of instruction. For Indian students educated in English, not required |
 | HEC Paris MiM | English proof via TOEIC, TOEFL, IELTS or Cambridge; waived if your entire prior degree was taught in English, with a university statement |
 | INSEAD | TOEFL, IELTS, PTE, Duolingo or an English-taught degree can qualify |
-| LBS | Applicants from majority English-speaking countries submit unless waived; applicants whose degree was in another language must prove fluency; may be waived at discretion |
+| LBS | Non-native English speakers usually submit a test unless it is waived at the school's discretion; applicants whose degree was taught in another language must prove fluency |
 
 For you, the most useful single document is a **Medium of Instruction (MOI) certificate**.
 
@@ -59,7 +59,7 @@ We haven't researched which schools on your list require this. Add one line to y
 
 ### Degree length
 
-A point to confirm: some programmes expect a particular degree length. For example, a third-party source says MDI's international business programme needs a four-year bachelor's. Many Indian degrees are three years. For each programme, check whether a three-year bachelor's is accepted. Most India-based and European schools accept it for their own programmes, but you should confirm for every school on your list.
+A point to confirm: some programmes expect a particular degree length. For example, a third-party source says MDI's international business programme needs a four-year bachelor's. Many Indian degrees are three years. For each programme, check whether a three-year bachelor's is accepted. Policies vary by school and country, so confirm for every school on your list whether a three-year bachelor's is accepted.
 
 ## Passport and identity
 
@@ -69,7 +69,7 @@ A point to confirm: some programmes expect a particular degree length. For examp
 
 ## GMAT test-day identification
 
-Your GMAT registration name must match your ID exactly. Book the exam about six to eight weeks ahead, as slots fill. For your 28 August 2027 attempt, that means booking by early July.
+Your GMAT registration name must match your ID exactly. Book as soon as the booking window opens (about six months ahead, so around 28 February 2027 for your 28 August 2027 attempt), because weekend slots fill. Early July 2027 is the latest sensible date, about six to eight weeks ahead.
 
 ## Visas overview
 
@@ -96,12 +96,12 @@ Plan on starting visa steps within a few days of accepting an offer, because pro
 
 | Task | By when |
 |---|---|
-| Check passport validity and name match | Dec 2026 |
+| Check passport validity and name match | Nov 2026 |
 | Ask the college and university about MOI and transcripts | Jan to Mar 2027 |
 | Create the mba.com account; keep your ID name consistent | Nov 2026 |
 | Gather scanned mark sheets and certificates | Apr 2027 |
 | Confirm English-test and credential rules for each shortlisted school | Jun 2027 |
-| Book the GMAT | Early July 2027 |
+| Book the GMAT | From late Feb 2027; latest early July 2027 |
 | Order official transcripts if required | Aug to Sep 2027 |
 | Start visa research after offers | Spring 2028 |
 

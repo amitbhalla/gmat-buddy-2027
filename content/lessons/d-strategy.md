@@ -6,11 +6,11 @@ Data Insights (DI) is the section most people under-prepare, and it's also the o
 
 | Type | Typical count | What it tests | Target time |
 |---|---|---|---|
-| Data Sufficiency (DS) | 4 to 6 | Is the information enough? | 1.5 to 2.5 min |
+| Data Sufficiency (DS) | 5 to 7 | Is the information enough? | 1.5 to 2.5 min |
 | Multi-Source Reasoning (MSR) | 6 to 9 (2 to 3 sets) | Combining tabs, rules, inferences | 2 to 3 min each (7 to 8 per set) |
 | Table Analysis (TA) | 2 to 4 | Sorting and reading a table, three statements | 2 to 3 min |
 | Graphics Interpretation (GI) | 2 to 4 | Reading a chart, completing two statements | 1.5 to 2.5 min |
-| Two-Part Analysis (TPA) | 3 to 5 | Two linked answers | 2 to 3 min |
+| Two-Part Analysis (TPA) | 2 to 4 | Two linked answers | 2 to 3 min |
 
 The mix changes from one exam to the next. Don't count on a specific split. What you can count on is that the on-screen calculator is available and that no question needs advanced maths.
 

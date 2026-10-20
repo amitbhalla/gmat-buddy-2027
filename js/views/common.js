@@ -112,7 +112,7 @@ export function deferSheet(title) {
       const b = e.target.closest('[data-date]');
       const p = e.target.closest('[data-pick]');
       const v = b ? b.dataset.date : p ? sh.el.querySelector('#defer-date').value : null;
-      if (v) {
+      if (v && v > today) {
         picked = true;
         sh.close();
         resolve(v);

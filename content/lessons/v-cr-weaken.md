@@ -124,7 +124,7 @@ When the argument is "we should do X so that Y happens", the choices that work u
 
 Which of the following, if true, most seriously weakens the management's argument?
 
-(A) Vending machines in the food court are used mainly by people who would otherwise skip lunch.
+(A) The vending machines will accept both cash and card payments.
 (B) At present, the longest queues form at the four counters that will be removed, and their customers will have to move to the remaining eight counters.
 (C) The vending machines will be stocked each morning by a contractor.
 (D) Food-court revenues rose last year.
@@ -134,7 +134,7 @@ Which of the following, if true, most seriously weakens the management's argumen
 
 The plan: remove four counters, add vending machines, queues shorten. The assumption is that the people displaced end up served faster. (B) says the busiest counters' customers would crowd into fewer counters, which could lengthen queues there, and the vending machines may not absorb them. It attacks the plan's effect directly.
 
-(A) says vending users are mostly people who would otherwise skip lunch, so they don't come from the queues at all. That is, if anything, neutral to the counter queues. (C) is logistics, irrelevant to queues. (D) is irrelevant. (E) is a preference, possibly a mild point, but it doesn't say those customers would stay in queues; it could be handled by the eight remaining counters.
+(A) is a payment detail that says nothing about how queues move. (C) is logistics, irrelevant to queues. (D) is irrelevant. (E) is a preference, possibly a mild point, but it doesn't say those customers would stay in queues; it could be handled by the eight remaining counters.
 
 Trap: (E). Preference-based answers sound reasonable but don't establish an effect on queue length.
 
@@ -177,7 +177,7 @@ Which of the following, if true, most seriously weakens the authority's conclusi
 
 The evidence is "recovery per audit" and the conclusion is "better detection". Recovery per audit also depends on *whom* you audit. (B) offers an alternative explanation: the rise could come from auditing richer taxpayers, whatever the software does. It weakens clearly.
 
-(A) fewer audits doesn't tell us anything about per-audit recovery (if anything, fewer but more selective audits might hint at better targeting, which supports the author). (C) says the criteria are the same as before; it might suggest the system adds no detection ability, but the new system could still be faster and more consistent. It raises a mild doubt but is less direct than (B). (D) deterrence might raise compliance, which would lower recoveries, so it works against the author less clearly. (E) total recovery is a different measure, so it doesn't bear on per-audit performance.
+(A) fewer audits doesn't tell us anything about per-audit recovery (if anything, fewer but more selective audits might hint at better targeting, which supports the author). (C) says the criteria are the same as before; it might suggest the system adds no detection ability, but the new system could still be faster and more consistent. It raises a mild doubt but is less direct than (B). (D) deterrence would, if anything, shrink the underpayments left to recover, so it doesn't explain the rise away. (E) total recovery is a different measure, so it doesn't bear on per-audit performance.
 
 Trap: (C). It is attractive because it seems to say the system is "nothing new", but sameness of criteria doesn't show that detection didn't improve (accuracy, coverage and consistency could differ). It is half-right, so (B), which supplies a concrete rival cause, is stronger.
 

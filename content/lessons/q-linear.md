@@ -64,7 +64,7 @@ Let n be the price of a notebook. Then 4n + 30 = 210, so 4n = 180 and n = 45. Th
 
 Faster way: take the pen out first. ₹210 − ₹30 = ₹180 is spent on notebooks, and 180 ÷ 4 = 45.
 
-Trap: (E) ₹60 comes from dividing 210 by 4 and ignoring the pen, or from 180/3 if you miscount notebooks.
+Trap: (D) ₹52.50 comes from dividing 210 by 4 and ignoring the pen, and (E) ₹60 comes from 180/3 if you miscount the notebooks.
 
 </details>
 

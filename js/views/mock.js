@@ -80,7 +80,7 @@ function startScreen({ view, setTop, query }, key) {
       <div class="card flat small"><strong>How it works:</strong> you must answer each question to move on. At the end of a section, if time remains, you can review bookmarked questions and change up to 3 answers. You get one optional 10-minute break after section 1 or 2.</div>
       <div class="action-bar"><button class="btn primary" data-go>${icon('play')} Begin section 1: ${SECTION_NAMES[order[0]]}</button></div>`;
   };
-  view.addEventListener('click', (e) => {
+  view.addEventListener('click', async (e) => {
     const o = e.target.closest('[data-order]');
     if (o) {
       order = o.dataset.order.split(',');
@@ -89,6 +89,7 @@ function startScreen({ view, setTop, query }, key) {
     }
     if (e.target.closest('[data-go]')) {
       const s = store.get();
+      if (s.activeMock && !(await confirmSheet('Replace the mock in progress?', 'You already have a mock under way. Starting a new one discards its answers.', 'Start new'))) return;
       const k = key && key !== 'free' ? key : null;
       const m = createMock({ key: k, mode, order, seed: Date.now() });
       m.phase = 'section';
@@ -132,6 +133,7 @@ async function runMock({ view, setTop, focusMode }) {
   const endSection = () => {
     S().finished = true;
     m.reviewing = null;
+    m.draft = null; // an unconfirmed pick must not carry into the next section
     if (m.idx < m.order.length - 1) {
       m.phase = m.breakTaken || m.idx > 1 ? 'between' : 'break-offer';
     } else {
@@ -143,6 +145,7 @@ async function runMock({ view, setTop, focusMode }) {
 
   const complete = () => {
     clearInterval(tick);
+    if (!store.get().activeMock) return; // already finalised (double tap)
     const result = finalizeMock(m, bank);
     result.itemKey = m.itemKey;
     store.update((x) => {
@@ -275,6 +278,8 @@ async function runMock({ view, setTop, focusMode }) {
       if (l <= 0) {
         m.phase = 'section';
         m.idx++;
+        m.current = null;
+        qStart = Date.now();
         save();
         paint();
       }
@@ -371,7 +376,7 @@ function officialForm({ view, setTop, query }, key) {
   view.querySelector('[data-save]').addEventListener('click', () => {
     const [q, v, d] = [val('q'), val('v'), val('d')];
     if (![q, v, d].every((x) => x >= 60 && x <= 90)) return toast('Each section score is between 60 and 90.', { kind: 'warn' });
-    const total = val('t') >= 205 ? val('t') : totalScore(q, v, d);
+    const total = val('t') >= 205 ? Math.min(805, Math.round(val('t'))) : totalScore(q, v, d);
     store.update((x) => x.mocks.push({ id: `off-${Date.now()}`, key, kind: real ? 'real' : 'official', title: label, date: view.querySelector('#dt').value || todayStr(), scores: { quant: q, verbal: v, di: d }, total, pct: totalPercentile(total) }), true);
     if (key && key !== 'official:free') store.markDone(key, real ? 0 : 150);
     if (query.item) store.markDone(query.item, 0);
@@ -419,6 +424,8 @@ async function resultsScreen({ view, setTop }, id) {
       <div class="review-grid" style="margin-top:12px">${bySec(x).map((it, i) => `<button class="${it.correct ? 'right' : 'wrongq'}${it.bookmarked ? ' bm' : ''}" data-q="${esc(it.qid)}" data-sec="${x}">${i + 1}</button>`).join('')}</div></details>`).join('')}
     <div id="qdetail"></div>
     <div class="btn-row" style="margin-top:16px"><a class="btn primary" href="#/session/redo">Redo the mistakes</a><a class="btn" href="#/today">Back to today</a></div>`;
+  const detailHost = view.querySelector('#qdetail');
+  bindQuestion(detailHost, null, () => null, () => {}); // one set of handlers (tabs, sort, hide) for every question shown
   view.addEventListener('click', (e) => {
     const b = e.target.closest('[data-q]');
     if (!b) return;
@@ -430,7 +437,6 @@ async function resultsScreen({ view, setTop }, id) {
     const host = view.querySelector('#qdetail');
     host.innerHTML = `<div class="card"><div class="faint">${SECTION_NAMES[b.dataset.sec]} · Q${r.items.filter((x) => x.section === b.dataset.sec).indexOf(it) + 1} · Level ${q.difficulty} · ${fmtClock(it.secs)} (target ${fmtClock(q.timeTarget)})</div>
       ${renderQuestion(q, stim, { answer: ans, reveal: true })}${renderExplanation(q, it.answered ? ans : null)}${reasonPicker(q.id, q, ans)}</div>`;
-    bindQuestion(host, q, () => null, () => {});
     host.scrollIntoView({ behavior: 'smooth' });
   });
   view.addEventListener('click', (e) => {

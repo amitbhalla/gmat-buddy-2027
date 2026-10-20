@@ -31,7 +31,7 @@ Where you stand: the two-year caps at LBS MiM, Imperial and Kellogg are the issu
 
 ### Why MiMs still matter
 
-They're shorter than you'd think (many are 12 to 16 months), they give an international degree, and they feed strong recruiting pipelines in consulting, consumer goods and tech. The downside is cost, and that classmates are often 22 to 24 years old. You'd bring a year or two of real work, which is an advantage, as long as you're within the caps.
+Some are shorter than you'd think (Imperial's is 12 to 16 months, though several French programmes run two years), they give an international degree, and they feed strong recruiting pipelines in consulting, consumer goods and tech. The downside is cost, and that classmates are often 22 to 24 years old. You'd bring a year or two of real work, which is an advantage, as long as you're within the caps.
 
 ## Group 2: Marketing and specialised Masters
 

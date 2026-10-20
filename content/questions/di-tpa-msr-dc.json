@@ -93,6 +93,37 @@
         ]
        }
       ]
+     },
+     "table": {
+      "columns": [
+       "Outlet",
+       "Jan",
+       "Feb",
+       "Mar",
+       "Apr",
+       "May",
+       "Jun"
+      ],
+      "rows": [
+       [
+        "Outlet A",
+        10,
+        10.5,
+        11.2,
+        12.0,
+        12.6,
+        13.5
+       ],
+       [
+        "Outlet B",
+        8,
+        8.2,
+        8.1,
+        9.0,
+        9.9,
+        10.9
+       ]
+      ]
      }
     },
     {
@@ -301,6 +332,28 @@
         ]
        }
       ]
+     },
+     "table": {
+      "columns": [
+       "Month",
+       "Jan",
+       "Feb",
+       "Mar",
+       "Apr",
+       "May",
+       "Jun"
+      ],
+      "rows": [
+       [
+        "Units used (kWh)",
+        180,
+        160,
+        210,
+        330,
+        420,
+        380
+       ]
+      ]
      }
     }
    ]
@@ -403,6 +456,55 @@
         "x": 7,
         "y": 56
        }
+      ]
+     },
+     "table": {
+      "columns": [
+       "Store",
+       "Area (thousand sq ft)",
+       "Monthly sales (₹ lakh)"
+      ],
+      "rows": [
+       [
+        "Store 1",
+        2,
+        18
+       ],
+       [
+        "Store 2",
+        3,
+        24
+       ],
+       [
+        "Store 3",
+        4,
+        40
+       ],
+       [
+        "Store 4",
+        5,
+        35
+       ],
+       [
+        "Store 5",
+        6,
+        66
+       ],
+       [
+        "Store 6",
+        2.5,
+        30
+       ],
+       [
+        "Store 7",
+        4.5,
+        36
+       ],
+       [
+        "Store 8",
+        7,
+        56
+       ]
       ]
      }
     },
@@ -569,6 +671,45 @@
          24
         ]
        }
+      ]
+     },
+     "table": {
+      "columns": [
+       "Channel",
+       "Jan",
+       "Feb",
+       "Mar",
+       "Apr"
+      ],
+      "rows": [
+       [
+        "Organic",
+        40,
+        44,
+        48,
+        52
+       ],
+       [
+        "Paid",
+        20,
+        25,
+        30,
+        28
+       ],
+       [
+        "Email",
+        10,
+        10,
+        12,
+        15
+       ],
+       [
+        "Social",
+        30,
+        28,
+        26,
+        24
+       ]
       ]
      }
     },
@@ -738,6 +879,46 @@
          14
         ]
        }
+      ]
+     },
+     "table": {
+      "columns": [
+       "Line",
+       "Week 1",
+       "Week 2",
+       "Week 3",
+       "Week 4",
+       "Week 5",
+       "Week 6"
+      ],
+      "rows": [
+       [
+        "L1",
+        8,
+        7,
+        9,
+        6,
+        5,
+        5
+       ],
+       [
+        "L2",
+        12,
+        11,
+        10,
+        10,
+        9,
+        8
+       ],
+       [
+        "L3",
+        4,
+        6,
+        9,
+        11,
+        12,
+        14
+       ]
       ]
      }
     }
@@ -1637,7 +1818,7 @@
     "Most weakens the conclusion"
    ],
    "choices": [
-    "The new jets need much longer runways, and most of the airline's airports the airline would pay substantially higher landing fees on every flight to cover runway extensions.",
+    "The new jets need much longer runways, so at most of the airline's airports the airline would pay substantially higher landing fees on every flight to cover runway extensions.",
     "Maintenance costs for the older turboprops have risen each year and are expected to double over the next five years, while maintenance costs for the new jets are guaranteed by the manufacturer for ten years.",
     "Passengers say they prefer flying on jets to flying on turboprops.",
     "The new jets are considerably quieter than the older turboprops.",
@@ -1795,7 +1976,7 @@
    "difficulty": 2,
    "format": "yesno",
    "stimulusId": "msr-dc-p-01",
-   "prompt": "Over the first 6 months, with each person attending 6 classes a month, decide whether each statement is true or false.",
+   "prompt": "Over the first 6 months, with each person attending 6 classes a month, decide whether each statement is true (Yes) or false (No).",
    "statements": [
     "The Plus plan costs less per person than the Basic plan.",
     "The Premium plan costs less per person than the Basic plan.",
@@ -2099,7 +2280,7 @@
     "440"
    ],
    "answer": 2,
-   "explanation": "East is already Green (90 patients). A nurse can't make East worse. Now see which clinics can become Green. With one nurse: South becomes Green (median 19, 92%). North (21, 90%), West (23, 97%) and Central (16, 89%) stay Amber. With two nurses: North becomes Green (median 18, 94%), West becomes Green (median 20, 101% capped at 100%), and Central becomes Green (median 13, 93%).\n\nOptions for two nurses: South (one) gives East + South = 240 patients, with the other nurse unable to turn anything else Green. Two nurses at North give 90 + 120 = 210. Two at West give 170. Two at Central give 90 + 200 = 290. That is the maximum.\n\nWhy the others fail: 350 would need South (one nurse) and Central (two nurses), which is three nurses. 440 adds every clinic that can ever be Green. 240 and 210 are valid but smaller.",
+   "explanation": "East is already Green (90 patients). A nurse can't make East worse. Now see which clinics can become Green. With one nurse: South becomes Green (median 19, 92%). North (21, 90%), West (23, 97%) and Central (16, 89%) stay Amber. With two nurses: North becomes Green (median 18, 94%), West becomes Green (median 20, 101% capped at 100%), and Central becomes Green (median 13, 93%).\n\nOptions for two nurses: South (one) gives East + South = 240 patients, with the other nurse unable to turn anything else Green. Two nurses at North give 90 + 120 = 210. Two at West give 170. Two at Central give 90 + 200 = 290. That is the maximum.\n\nWhy the others fail: 350 (South plus Central) and 440 (East, South and Central) would both need three nurses, because South takes one and Central takes two. 240 and 210 are valid but smaller.",
    "tip": "With a fixed resource, list how many units each clinic needs to flip, then choose the best combination within the budget.",
    "trap": "Picking South (one nurse) and Central (two nurses) together for 350, which needs three nurses.",
    "timeTarget": 180,
@@ -2233,7 +2414,7 @@
    "difficulty": 2,
    "format": "yesno",
    "stimulusId": "msr-dc-m-01",
-   "prompt": "Using the table and the email, decide whether each statement is true.",
+   "prompt": "Using the table and the email, decide whether each statement is true (Yes) or not (No).",
    "statements": [
     "More than 1,000 tickets were sold in total.",
     "Silver tickets brought in more than half of the total ticket revenue.",
@@ -2321,7 +2502,7 @@
    "difficulty": 3,
    "format": "yesno",
    "stimulusId": "msr-dc-m-02",
-   "prompt": "Using the memo, chart and rent table, decide whether each statement is true.",
+   "prompt": "Using the memo, chart and rent table, decide whether each statement is true (Yes) or not (No).",
    "statements": [
     "Store 6 has the highest monthly sales per 1,000 sq ft of the eight stores.",
     "Every store flagged for rent review is also not efficient.",
@@ -2408,7 +2589,7 @@
    "difficulty": 3,
    "format": "yesno",
    "stimulusId": "msr-dc-m-03",
-   "prompt": "Using the data table, decide whether each statement is true.",
+   "prompt": "Using the data table, decide whether each statement is true (Yes) or not (No).",
    "statements": [
     "P6 has the highest impact score per ₹ lakh of cost among the six projects.",
     "The three cheapest projects together cost exactly ₹60 lakh.",
@@ -2495,7 +2676,7 @@
    "difficulty": 3,
    "format": "yesno",
    "stimulusId": "msr-dc-m-04",
-   "prompt": "Decide whether each statement is true.",
+   "prompt": "Decide whether each statement is true (Yes) or not (No).",
    "statements": [
     "Paid sessions were lower in April than in March.",
     "Social revenue was lower than Email revenue in every month from January to April.",
@@ -2672,7 +2853,7 @@
    "difficulty": 4,
    "format": "yesno",
    "stimulusId": "msr-dc-m-06",
-   "prompt": "Decide whether each statement is true.",
+   "prompt": "Decide whether each statement is true (Yes) or not (No).",
    "statements": [
     "Line L3 is placed on watch under the memo's rule.",
     "The plant defect rate in week 2 is above the penalty threshold.",

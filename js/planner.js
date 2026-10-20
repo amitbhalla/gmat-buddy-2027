@@ -214,12 +214,13 @@ export function buildPlan({ curriculum, state, today, timeline = [], doneToday =
     } else if (date < kd.taperStart) {
       // Mock season.
       const wd = weekday(date);
+      const mockWd = effectiveMockDay(s);
       if (held.length) queue.unshift(...held.splice(0));
-      if (wd === s.mockDay && mockQueue.length && room >= 60 && !(deferred[mockQueue[0]] > date)) {
+      if (wd === mockWd && mockQueue.length && cap >= 60 && !(deferred[mockQueue[0]] > date)) {
         const k = mockQueue.shift();
         const meta = MOCK_META[k];
         push({ key: k, kind: meta.official ? 'official' : 'mock', title: meta.title, detail: meta.detail, minutes: 165, phase: 'mocks', ref: { mode: 'full', key: k } });
-      } else if (wd === s.reviewDay && days.length && days[days.length - 1].items.some((x) => x.kind === 'mock' || x.kind === 'official')) {
+      } else if (days.length && days[days.length - 1].items.some((x) => x.kind === 'mock' || x.kind === 'official')) {
         const prev = days[days.length - 1].items.find((x) => x.kind === 'mock' || x.kind === 'official');
         push({ key: `review:mock:${prev.key}`, kind: 'mock-review', title: `Deep review: ${prev.title}`, minutes: 90, phase: 'mocks', ref: { mockKey: prev.key } });
       } else {
@@ -260,7 +261,7 @@ export function buildPlan({ curriculum, state, today, timeline = [], doneToday =
         if (weekday(date) === s.mockDay && daysBetween(date, kd.backup) >= 6) {
           push({ key: `retake:mock:${date}`, kind: 'mock', title: 'Full mock (retake prep)', minutes: 165, phase: 'retake', ref: { mode: 'full', key: `retake:mock:${date}` } });
         } else {
-          push({ key: `retake:targeted:${date}`, kind: 'smart', title: 'Targeted practice: weakest section', minutes: Math.min(45, room), phase: 'retake' });
+          if (room >= 15) push({ key: `retake:targeted:${date}`, kind: 'smart', title: 'Targeted practice: weakest section', minutes: Math.min(45, room), phase: 'retake' });
         }
       } else {
         day.phase = 'apply';
@@ -275,6 +276,15 @@ export function buildPlan({ curriculum, state, today, timeline = [], doneToday =
 
   const status = planStatus({ kd, learnTarget, lastSeqDate, queueLeft: queue.length + held.length + waiting.length, remainingMinutes, quota, state, today, studyDaysLeft });
   return { days, status, keyDates: kd, learnTarget };
+}
+
+// The weekly mock goes on the chosen day; if that is not a study day, on the next study day after it.
+function effectiveMockDay(s) {
+  for (let i = 0; i < 7; i++) {
+    const wd = (s.mockDay + i) % 7;
+    if (s.studyDays[wd]) return wd;
+  }
+  return s.mockDay;
 }
 
 function phaseFor(date, kd, queue) {
@@ -292,7 +302,7 @@ function planStatus({ kd, learnTarget, lastSeqDate, queueLeft, remainingMinutes,
   }
   const slack = daysBetween(lastSeqDate, learnTarget);
   const cap = averageCapacity(state, today);
-  if (quota > cap * 0.9) {
+  if (Number.isFinite(quota) && quota > cap * 0.9) {
     return { ...out, level: 'tight', message: `You need about ${Math.round(quota)} minutes of new material per study day to finish lessons on time. That's most of your daily time. Consider adding 15-30 minutes a day.` };
   }
   if (slack < -3) return { ...out, level: 'behind', message: `You're about ${-slack} days behind your lesson target. The plan has absorbed it, but days will feel fuller.` };

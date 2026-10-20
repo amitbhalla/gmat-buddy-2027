@@ -135,16 +135,16 @@ Many passages contain a **conflict**: a traditional view and a newer one, or two
 
 ### Worked example 3 (Medium-Hard)
 
-> Archaeologists have traditionally explained the abandonment of the Bronze Age settlement at Karanis by pointing to a single climatic shock, a prolonged drought. Soil cores from the surrounding plain do indicate a dry spell. But the cores also show that the dry spell began at least a century before the site was deserted, and a settlement of that size would be expected to adapt within a generation.
+> Archaeologists have traditionally explained the abandonment of the Bronze Age settlement at Tell Ardan by pointing to a single climatic shock, a prolonged drought. Soil cores from the surrounding plain do indicate a dry spell. But the cores also show that the dry spell began at least a century before the site was deserted, and a settlement of that size would be expected to adapt within a generation.
 >
-> A growing minority of researchers instead emphasise the collapse of the regional trade network that supplied Karanis with copper. Without copper, the town's workshops lost their main source of income, and families moved to be near surviving markets. This explanation is attractive, though it rests largely on indirect evidence, since no documents from the period survive.
+> A growing minority of researchers instead emphasise the collapse of the regional trade network that supplied Tell Ardan with copper. Without copper, the town's workshops lost their main source of income, and families moved to be near surviving markets. This explanation is attractive, though it rests largely on indirect evidence, since no documents from the period survive.
 >
 > The most defensible position, then, is that neither factor alone suffices. Drought may have weakened the town's farming base, leaving it vulnerable when the trade network failed.
 
 The primary purpose of the passage is to
 
-(A) prove that a trade collapse, not a drought, caused the abandonment of Karanis
-(B) outline two explanations for the abandonment of Karanis and argue that a combination of them is most plausible
+(A) prove that a trade collapse, not a drought, caused the abandonment of Tell Ardan
+(B) outline two explanations for the abandonment of Tell Ardan and argue that a combination of them is most plausible
 (C) describe the methods archaeologists use to analyse soil cores
 (D) show that archaeologists cannot explain why ancient settlements were abandoned
 (E) criticise researchers who rely on indirect evidence
@@ -164,17 +164,17 @@ The answer is **(B)**. Map: "P1: drought theory and its problem. P2: trade theor
 
 ### Worked example 4 (Hard)
 
-> Biographers of the economist Joan Robinson often treat her late shift toward development economics as an abandonment of her earlier, more theoretical work. This reading is tempting, because the surface subject matter did change: the elegant models of imperfect competition gave way to field reports on agrarian economies. Yet the continuity is easy to see once one notices what her earlier work was about. Her models of monopsony, in which a single buyer dominates a market, were always intended to explain why wages in some labour markets fall below what a competitive market would pay. The villages she later described were precisely such markets.
+> Biographers of the economist Leela Menon often treat her late shift toward development economics as an abandonment of her earlier, more theoretical work. This reading is tempting, because the surface subject matter did change: the elegant models of imperfect competition gave way to field reports on agrarian economies. Yet the continuity is easy to see once one notices what her earlier work was about. Her models of monopsony, in which a single buyer dominates a market, were always intended to explain why wages in some labour markets fall below what a competitive market would pay. The villages she later described were precisely such markets.
 >
 > To read her later work as a retreat from theory is therefore to mistake a change of setting for a change of purpose.
 
 Which of the following best states the main point of the passage?
 
-(A) Joan Robinson's later writings on development were less rigorous than her earlier theoretical work.
-(B) Joan Robinson's move to development economics applied, rather than abandoned, the concerns of her earlier theory.
+(A) Leela Menon's later writings on development were less rigorous than her earlier theoretical work.
+(B) Leela Menon's move to development economics applied, rather than abandoned, the concerns of her earlier theory.
 (C) Biographers have generally misunderstood the models of imperfect competition.
 (D) Monopsony is a more useful concept in development economics than in theory.
-(E) Joan Robinson changed the subject matter of her research several times in her career.
+(E) Leela Menon changed the subject matter of her research several times in her career.
 
 <details><summary>Show solution</summary>
 

@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const DIRS = ['css', 'js', 'vendor', 'icons', 'content'];
+const DIRS = ['css', 'js', 'vendor', 'icons', 'img', 'content'];
 const SINGLES = ['index.html', 'manifest.webmanifest'];
 const SKIP = new Set(['research', 'scripts', 'tests', 'node_modules', '.git']);
 

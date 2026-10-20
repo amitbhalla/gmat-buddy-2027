@@ -83,7 +83,7 @@ function choiceButton(i, text, sel, reveal, q) {
 
 function renderMC(q, a, reveal) {
   const choices = choicesFor(q);
-  return `<div class="choices" role="radiogroup" aria-label="Answer choices">${choices.map((c, i) => choiceButton(i, c, a, reveal, q)).join('')}</div>`;
+  return `<div class="choices"${q.type === 'DS' ? ' data-ds' : ''} role="radiogroup" aria-label="Answer choices">${choices.map((c, i) => choiceButton(i, c, a, reveal, q)).join('')}</div>`;
 }
 
 function renderYesNo(q, a, reveal) {
@@ -133,7 +133,7 @@ function renderDropdownPrompt(q, a, reveal) {
     const sel = `<select class="${cls}" data-blank="${i}" aria-label="Blank ${i + 1}"${reveal ? ' disabled' : ''}><option value="">Select…</option>${opts
       .map((o, j) => `<option value="${j}"${a[i] === j ? ' selected' : ''}>${esc(o)}</option>`)
       .join('')}</select>${reveal && a[i] !== q.answer[i] ? `<span class="dd-correct">Answer: ${esc(opts[q.answer[i]])}</span>` : ''}`;
-    html = html.replace(`[[${i + 1}]]`, sel);
+    html = html.replace(`[[${i + 1}]]`, () => sel);
   });
   return `<div class="prompt prose">${html}</div>`;
 }

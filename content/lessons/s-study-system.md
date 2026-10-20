@@ -2,6 +2,9 @@
 
 Most people prepare for the GMAT by reading, watching and re-reading. It feels productive and it works badly. This lesson gives you the study methods that research and good coaching both support, and the habits the app is built around.
 
+
+![Infographic titled The Learning Loop: a cycle of five steps, Learn the idea, Practise it, Review your mistakes, Space it out, Test yourself, with the word Repeat in the centre.](img/gen/study-loop.jpg)
+
 ## Why re-reading doesn't work
 
 Imagine you read a lesson on percents three times in one evening. The next day it feels familiar, and you think you know it. Then a question appears with the numbers changed, and you stall. Familiarity isn't the same as being able to do it.
@@ -30,6 +33,9 @@ What it means for you:
 
 The second big finding is about timing. Cepeda and colleagues (2006) reviewed 839 assessments of distributed practice from 317 experiments. Their headline finding: spreading study over time beats cramming, and the best gap between sessions gets longer the longer you need to remember something.
 
+![Infographic titled Why Spaced Review Works: a steeply falling curve labelled Without review, and a stepped curve that stays high labelled With spaced review, with review points marked Day 1, Day 3, Day 7 and Day 16.](img/gen/memory-curve.jpg)
+
+
 In plain terms, studying a topic for one hour on Saturday and 20 minutes on each of the next three weekends will beat four hours in one go. The research again used verbal recall tasks, so the application to GMAT skills is an inference. But it's one that matches every study plan that works.
 
 How the app uses it:
@@ -41,6 +47,9 @@ How the app uses it:
 ## The error log
 
 If I could give you only one habit, this would be it. Your mistakes are the most personal and valuable study material you have. A log turns random mistakes into patterns you can fix.
+
+![Infographic titled Why Did I Get It Wrong? Five reasons and fixes: Concept gap, Re-read the lesson; Careless slip, Slow down on the last step; Misread the question, Reread before answering; Ran out of time, Practise timed sets; Fell for a trap, Name the trap in your log.](img/gen/error-log.jpg)
+
 
 Every time you get a question wrong, or right by luck or after a struggle, record four things in the app's error log:
 

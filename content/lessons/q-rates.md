@@ -9,6 +9,9 @@ Rate problems are a GMAT favourite because the same one idea, rate × time = amo
 >
 > **Work = Rate × Time.** A worker who finishes a job in 5 hours has a rate of 1/5 of the job per hour.
 
+![Infographic titled Distance = Rate × Time: a triangle with Distance on top and Rate and Time on the bottom. Caption: Cover what you want, the rest shows the formula. Note: Average speed = total distance ÷ total time.](img/gen/rate-triangle.jpg)
+
+
 Draw a small RTD table (Rate, Time, Distance) for each object or person in the problem, fill in what you know, and use D = R × T across each row. The only job left is to link the rows: usually the distances are equal (round trip) or add up (towards each other), or the times are equal (leaving together).
 
 ### Unit conversions
@@ -98,7 +101,7 @@ After 1 hour the first car has covered 60 km, leaving 180 km. They close at 60 +
 
 Check from Y: 90 × 1.2 = 108 km, and 240 − 108 = 132.
 
-Trap: 108 (the distance from Y) or 120 (ignoring the head start).
+Trap: 108 (the distance from Y) or 96 (treating both cars as leaving at the same time).
 
 </details>
 

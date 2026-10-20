@@ -158,7 +158,7 @@ Trap: E sounds philosophical and "deep", but it attacks something the argument n
 
 The flaw is most similar to which of these?
 
-A. "The average height of players in the league has risen, so every team now has taller players than before."
+A. "The average score of the class on its tests has risen each term, so every student in the class scored higher this term than last."
 B. "This singer's albums have always sold well; therefore her next album will also sell well."
 C. "Most people who wear glasses read a lot; therefore reading causes poor eyesight."
 D. "The newspaper says the mayor is honest; the mayor owns the newspaper; so the mayor is honest."
@@ -166,7 +166,7 @@ E. "This recipe has worked every time I made it, so it will work for you."
 
 <details><summary>Show solution</summary>
 
-The flaw: an increase in an average does not mean each item rose. New high earners could have been hired, low earners could have left, or a few salaries could have risen steeply. Choice **A** repeats the same error: the average rose, so every team (an individual part) must have changed in the same direction.
+The flaw: an increase in an average does not mean each item rose. New high earners could have been hired, low earners could have left, or a few salaries could have risen steeply. Choice **A** repeats the same error: the class average rose, so every student (an individual part) must have changed in the same direction.
 
 B: a prediction from past sales, a different mistake (assumes the past predicts the future). C: reverse causation. D: circular reasoning plus an interested source. E: assumes your situation is like the speaker's.
 

@@ -525,7 +525,7 @@
    "id": "gi-dd-m-03",
    "kind": "chart",
    "title": "Production cost breakdown",
-   "intro": "The chart shows a manufacturer's annual production costs, in ₹ crore, split into three components.",
+   "intro": "The chart shows a manufacturer’s annual production costs, in ₹ crore, split into three components. The bottom segment is Materials, the middle is Labour and the top is Overheads. Overheads were ₹15 crore in 2021 and ₹24 crore in 2024.",
    "chart": {
     "type": "stacked",
     "xLabel": "Year",
@@ -542,8 +542,8 @@
       "values": [
        30,
        32,
-       36,
-       40
+       44,
+       46
       ]
      },
      {
@@ -551,7 +551,7 @@
       "values": [
        25,
        26,
-       27,
+       24,
        28
       ]
      },
@@ -560,8 +560,8 @@
       "values": [
        15,
        17,
-       17,
-       22
+       12,
+       24
       ]
      }
     ]
@@ -580,7 +580,7 @@
      {
       "name": "Store A",
       "x": 10,
-      "y": 120
+      "y": 140
      },
      {
       "name": "Store B",
@@ -605,7 +605,7 @@
      {
       "name": "Store F",
       "x": 35,
-      "y": 300
+      "y": 270
      },
      {
       "name": "Store G",
@@ -2000,20 +2000,20 @@
      "Q4"
     ],
     [
-     "94%",
+     "80%",
+     "88%",
      "97%",
-     "100%",
-     "103%",
-     "106%"
+     "108%",
+     "120%"
     ]
    ],
    "answer": [
     2,
-    1
+    2
    ],
    "explanation": "Blank 1: compare bar heights quarter by quarter. Q1: A 12 vs B 20. Q2: 15 vs 18. Q3: 18 vs 16, so A is ahead for the first time in Q3. In Q2 A is still behind by 3.\n\nBlank 2: total A = 12 + 15 + 18 + 21 = 66. Total B = 20 + 18 + 16 + 14 = 68. 66/68 = 97.1%, so about 97%. The ratio is below 100% because A's early deficit outweighs its later lead.\n\nSpot-check: the gaps are −8, −3, +2, +7, which sum to −2. A is 2 below B in total, which is about 3% of 68.",
    "tip": "For \"total\" questions, sum the series and compare; do not eyeball the last bars.",
-   "trap": "Picking 103% because Product A finishes the year on top. The early quarters, where A trails by a lot, outweigh the late lead.",
+   "trap": "Picking 108% because Product A finishes the year on top. The early quarters, where A trails by a lot, outweigh the late lead.",
    "timeTarget": 120,
    "skills": [
     "graphics-interpretation"
@@ -2074,17 +2074,17 @@
     ],
     [
      "35%",
-     "40%",
-     "43%",
-     "47%",
-     "53%"
+     "50%",
+     "60%",
+     "75%",
+     "90%"
     ]
    ],
    "answer": [
     2,
-    3
+    2
    ],
-   "explanation": "Blank 1: compute the materials share each year. 2021: 30/70 = 42.9%. 2022: 32/75 = 42.7%. 2023: 36/80 = 45.0%. 2024: 40/90 = 44.4%. The highest share is 2023. The largest absolute materials cost is 2024 (40), which is the tempting wrong answer.\n\nBlank 2: overheads are 15 in 2021 and 22 in 2024. Increase = 7, and 7/15 = 46.7%, so about 47%.\n\nTip: stacked bars show each segment's size, not its share. Shares need a division by the bar total.",
+   "explanation": "Blank 1: compute the materials share each year. 2021: 30/70 = 42.9%. 2022: 32/75 = 42.7%. 2023: 44/80 = 55.0%. 2024: 46/98 = 46.9%. The highest share is 2023. The largest absolute materials cost is 2024 (46), which is the tempting wrong answer.\n\nBlank 2: overheads are 15 in 2021 and 24 in 2024. Increase = 9, and 9/15 = 60%.\n\nTip: stacked bars show each segment's size, not its share. Shares need a division by the bar total.",
    "tip": "In a stacked chart, a segment's size and its share of the bar are different things. Divide by the bar total for shares.",
    "trap": "Choosing 2024 for blank 1 because the materials segment is tallest there. It is the biggest in rupees but not the biggest share of that year's total.",
    "timeTarget": 150,
@@ -2110,17 +2110,17 @@
      "Store G"
     ],
     [
-     "$80k",
-     "$100k",
-     "$120k",
-     "$140k"
+     "$130k",
+     "$180k",
+     "$220k",
+     "$270k"
     ]
    ],
    "answer": [
     0,
     2
    ],
-   "explanation": "Sales per advertising dollar is y divided by x, which is the slope of the line from the origin to each point.\n\nStore A: 120/10 = 12.0. Store B: 10.0. Store C: 10.5. Store D: 9.2. Store E: 11.0. Store F: 300/35 = 8.57. Store G: 10.5. Store H: 400/45 = 8.9.\n\nHighest ratio: Store A (12.0). Lowest ratio: Store F (8.57).\n\nIf Store F matched A's ratio, its sales would be 35 × 12 = $420k instead of $300k, an increase of $120k.\n\nNote that Store G has the highest sales overall, but not the best ratio.",
+   "explanation": "Sales per advertising dollar is y divided by x, which is the slope of the line from the origin to each point.\n\nStore A: 140/10 = 14.0. Store B: 10.0. Store C: 10.5. Store D: 9.2. Store E: 11.0. Store F: 270/35 = 7.7. Store G: 10.5. Store H: 400/45 = 8.9.\n\nHighest ratio: Store A (14.0). Lowest ratio: Store F (7.7).\n\nIf Store F matched A's ratio, its sales would be 35 × 14 = $490k instead of $270k, an increase of $220k.\n\nNote that Store G has the highest sales overall, but not the best ratio.",
    "tip": "On a scatter plot, a ratio of y to x is the steepness of the line from the origin to the point. Compare slopes, not heights.",
    "trap": "Choosing Store G because it has the highest sales. Sales per advertising dollar rewards low spending that still produces sales.",
    "timeTarget": 160,
@@ -2184,14 +2184,14 @@
     [
      "12%",
      "35%",
-     "45%",
      "55%",
-     "65%"
+     "75%",
+     "95%"
     ]
    ],
    "answer": [
     2,
-    3
+    2
    ],
    "explanation": "Blank 1: the X and Y lines meet in 2023 at 27% each, which is a tie, not a lead. X is first above Y in 2024 (31 versus 25).\n\nBlank 2: X goes from 22% to 34%. That is a rise of 12 percentage points, but the question asks for relative growth: 12/22 = 54.5%, so about 55%. The choice of 12% is the percentage-point change.\n\nTip: \"percentage points\" are differences between percentages. \"Percent growth\" divides by the starting percentage.",
    "tip": "A change in a percentage share can be quoted in points (34 − 22 = 12) or in relative terms (12/22 = 55%). Read which one is asked for.",

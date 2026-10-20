@@ -11,14 +11,14 @@
       "format": "mc",
       "prompt": "An online furniture retailer introduced free returns last spring. Over the following six months, the share of its customers who made a second purchase rose from 22% to 31%. The retailer's marketing director concludes that free returns made customers more loyal.\n\nWhich of the following would be most useful to know in order to evaluate the argument above?",
       "choices": [
-        "Whether the retailer's website was redesigned during the same six months",
+        "Whether the retailer's website displays customer reviews for each product",
         "Whether customers prefer free returns to free delivery",
         "Whether second purchases at online furniture retailers that did not introduce free returns also rose over the same period",
         "Whether the retailer plans to extend free returns to its international customers",
         "Whether returned items are resold at a discount"
       ],
       "answer": 2,
-      "explanation": "The director argues that free returns caused the rise in repeat purchases. The gap is that something else, such as a general market trend, may have caused it. (C) checks this with a comparison group. If repeat purchases rose just as much at retailers without free returns, the claim is weakened; if they did not, it is strengthened. Opposite directions, so it passes the variance test.\n\n(A) is tempting because a redesign could be a rival cause, but as worded it only asks whether a redesign happened, and a yes or no does not tell us whether it affected repeat purchases. (B) compares two policies the argument doesn't compare. (D) concerns future plans. (E) concerns what happens to returned goods, not customer loyalty.",
+      "explanation": "The director argues that free returns caused the rise in repeat purchases. The gap is that something else, such as a general market trend, may have caused it. (C) checks this with a comparison group. If repeat purchases rose just as much at retailers without free returns, the claim is weakened; if they did not, it is strengthened. Opposite directions, so it passes the variance test.\n\n(A) concerns product reviews on the website, which have no clear bearing on whether free returns made customers more loyal. (B) compares two policies the argument doesn't compare. (D) concerns future plans. (E) concerns what happens to returned goods, not customer loyalty.",
       "tip": "For causal arguments, look for the choice that asks what happened without the supposed cause.",
       "trap": "(A) feels like a rival-cause question, but it only asks whether something happened, not whether it affected repeat purchases.",
       "timeTarget": 100
@@ -191,10 +191,10 @@
         "Whether households that received smart meters said they would recommend them to friends",
         "Whether the households in the pilot continued to use less electricity after the first few months",
         "Whether the cost of installing a smart meter exceeds the value of the electricity saved in three months",
-        "Whether the pilot households are located in the capital city"
+        "Whether the smart meters used in the pilot were made by a domestic manufacturer"
       ],
       "answer": 2,
-      "explanation": "The regulator extrapolates a three-month result to a permanent, national effect. The key gap is durability: the novelty of a new display may wear off. (C) tests that. If the saving persisted, the 9% projection is supported; if it faded, the projection is weakened.\n\n(A) is a detail of logistics. (B) concerns satisfaction, which is not the same as continued savings. (D) is about cost-effectiveness, a different question from whether consumption falls by 9%. (E) is one-sided: if the pilot households were in the capital, it is unclear which way the answer would push, since the argument says nothing about differences between the capital and elsewhere.",
+      "explanation": "The regulator extrapolates a three-month result to a permanent, national effect. The key gap is durability: the novelty of a new display may wear off. (C) tests that. If the saving persisted, the 9% projection is supported; if it faded, the projection is weakened.\n\n(A) is a detail of logistics. (B) concerns satisfaction, which is not the same as continued savings. (D) is about cost-effectiveness, a different question from whether consumption falls by 9%. (E) concerns where the meters were made, which has no bearing on how much electricity households use.",
       "tip": "When a short-term result is projected forward, ask whether the effect lasts.",
       "trap": "(D) is tempting because it is a sensible business question, but the argument is about how much electricity is saved, not whether the scheme pays for itself.",
       "timeTarget": 110

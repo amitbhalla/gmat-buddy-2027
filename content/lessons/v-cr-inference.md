@@ -97,14 +97,14 @@ Which of the following must be true?
 (A) All cafés that serve breakfast close by 9 p.m.
 (B) Some cafés that close by 9 p.m. serve breakfast.
 (C) Some cafés in the Old Quarter serve dinner.
-(D) No café in the Old Quarter stays open after 9 p.m. unless it serves breakfast.
+(D) Every café in the Old Quarter serves breakfast.
 (E) Most cafés in the Old Quarter serve breakfast.
 
 <details><summary>Show solution</summary>
 
 Every Old Quarter café closes by 9 p.m. Some Old Quarter cafés serve breakfast. Those breakfast-serving cafés are Old Quarter cafés, so they close by 9 p.m. That makes (B) true.
 
-(A) covers all breakfast cafés anywhere, not just in the Old Quarter. (C) says nothing about dinner. (D) invents a rule about breakfast. (E) turns "some" into "most."
+(A) covers all breakfast cafés anywhere, not just in the Old Quarter. (C) says nothing about dinner. (D) turns "some" into "every". (E) turns "some" into "most."
 
 Trap: (A) feels close, but "cafés that serve breakfast" includes ones outside the Old Quarter.
 

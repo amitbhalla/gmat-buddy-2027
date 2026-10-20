@@ -1,6 +1,6 @@
 # Two-Part Analysis (TPA)
 
-Two-Part Analysis questions show up in roughly 3 to 5 of your 20 Data Insights questions. They look strange at first, because you pick two answers instead of one, but underneath they're ordinary algebra, logic, or word-problem questions wearing a different outfit. Once you see that, they become some of the most predictable points in the section.
+Two-Part Analysis questions show up in roughly 2 to 4 of your 20 Data Insights questions. They look strange at first, because you pick two answers instead of one, but underneath they're ordinary algebra, logic, or word-problem questions wearing a different outfit. Once you see that, they become some of the most predictable points in the section.
 
 ## What the question looks like
 
@@ -27,7 +27,7 @@ Three facts about the format matter a lot.
 
 ## The two flavours
 
-About 60% of TPAs are quantitative and about 40% are verbal or logic-based. You can't predict which you'll get, so train both.
+Most TPAs are quantitative, and a smaller share are verbal or logic-based. You can't predict which you'll get, so train both.
 
 ### Quant TPAs
 

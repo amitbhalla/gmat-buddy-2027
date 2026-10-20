@@ -495,7 +495,7 @@
     "sellers pay buyers for favourable reviews"
    ],
    "answer": 0,
-   "explanation": "Paraphrase of the second and third sentences of paragraph 2.\n\n**(A) Correct.** Paragraph 2: a poor rating lets the seller \"respond in kind\", and the buyer \"anticipates this\".\n\n(B) Wrong: This is the first (usual) diagnosis; the question concerns the structural reason in the second.\n\n(C) Wrong: Invented; no such requirement is mentioned.\n\n(D) Wrong: Form length is not discussed. The author says detail will not help because retaliation fear applies to every field.\n\n(E) Wrong: Not mentioned anywhere.",
+   "explanation": "Paraphrase of the second and third sentences of paragraph 2.\n\n**(A) Correct.** Paragraph 2: a poor rating lets the seller \"respond in kind\", and the buyer \"anticipates this\".\n\n(B) Wrong: This is the first (usual) diagnosis; the question concerns the structural reason in the second.\n\n(C) Wrong: Invented; no such requirement is mentioned.\n\n(D) Wrong: Form length is not discussed. The author says detail will not help because retaliation fear applies to every field.\n\n(E) Wrong: Not mentioned anywhere.\n\nTo check yourself, restate the sentence in your own words before looking at the choices: the buyer fears the seller will hit back with a bad rating, so a modest complaint is not worth voicing.",
    "tip": "Identify which diagnosis a detail question is asking about before choosing.",
    "trap": "Choosing the first diagnosis (temperament) because it is stated first and sounds natural.",
    "timeTarget": 70
@@ -575,7 +575,7 @@
    "type": "RC",
    "topic": "v-rc-application",
    "pool": "practice",
-   "difficulty": 5,
+   "difficulty": 3,
    "format": "mc",
    "stimulusId": "rc-vc1-p-07",
    "prompt": "Which of the following situations is most analogous to the author's view of the role of improved seed in the Green Revolution?",
@@ -633,7 +633,7 @@
     "Restrictions on the use of canal water"
    ],
    "answer": 3,
-   "explanation": "A direct match to a sentence in paragraph 3.\n\n(A) Wrong: Imports are mentioned only as the dependence that the revolution allowed India to leave behind.\n\n(B) Wrong: Not mentioned. The seed is described as adopted by farmers, not given free.\n\n(C) Wrong: Not mentioned anywhere in the passage.\n\n**(D) Correct.** Paragraph 3: \"Subsidised fertiliser and cheap electricity for pumping completed the arrangement.\"\n\n(E) Wrong: Canals are mentioned as irrigation that predated the revolution, not as restricted.",
+   "explanation": "A direct match to a sentence in paragraph 3.\n\n(A) Wrong: Imports are mentioned only as the dependence that the revolution allowed India to leave behind.\n\n(B) Wrong: Not mentioned. The seed is described as adopted by farmers, not given free.\n\n(C) Wrong: Not mentioned anywhere in the passage.\n\n**(D) Correct.** Paragraph 3: \"Subsidised fertiliser and cheap electricity for pumping completed the arrangement.\"\n\n(E) Wrong: Canals are mentioned as irrigation that predated the revolution, not as restricted.\n\nOn a detail question, find the exact sentence first. Here it is the one listing the subsidies that completed the arrangement, and only one choice appears in it.",
    "tip": "For a list-style detail question, scan the paragraph that discusses the topic and match one item exactly.",
    "trap": "Choosing a plausible policy that the passage never mentions.",
    "timeTarget": 70
@@ -782,7 +782,7 @@
    "type": "RC",
    "topic": "v-rc-application",
    "pool": "practice",
-   "difficulty": 5,
+   "difficulty": 3,
    "format": "mc",
    "stimulusId": "rc-vc1-p-09",
    "prompt": "Which of the following situations is most similar to the logic of the incentive account of franchising?",
@@ -955,7 +955,7 @@
     "moth visits fell by about one-eighth while seed production fell by about three-fifths"
    ],
    "answer": 2,
-   "explanation": "A direct match with two sentences in paragraph 2.\n\n(A) Wrong: Seed production fell far less.\n\n(B) Wrong: Seed production fell; daytime visits only made up much of the difference.\n\n**(C) Correct.** Paragraph 2: \"Visits by moths in the lit plots fell by about three-fifths. Yet the number of seeds... fell by only about one-eighth.\"\n\n(D) Wrong: The passage says daytime pollinators visited in greater numbers.\n\n(E) Wrong: The two figures are swapped.",
+   "explanation": "A direct match with two sentences in paragraph 2.\n\n(A) Wrong: Seed production fell far less.\n\n(B) Wrong: Seed production fell; daytime visits only made up much of the difference.\n\n**(C) Correct.** Paragraph 2: \"Visits by moths in the lit plots fell by about three-fifths. Yet the number of seeds... fell by only about one-eighth.\"\n\n(D) Wrong: The passage says daytime pollinators visited in greater numbers.\n\n(E) Wrong: The two figures are swapped.\n\nBecause two numbers are involved, check which figure belongs to moths and which to seeds; choices that swap or merge them are built to catch a quick skim.",
    "tip": "When a question combines two numbers, check that each number is attached to the right quantity.",
    "trap": "Swapped or merged figures.",
    "timeTarget": 70
@@ -1127,7 +1127,7 @@
    "type": "RC",
    "topic": "v-rc-application",
    "pool": "mock",
-   "difficulty": 5,
+   "difficulty": 3,
    "format": "mc",
    "stimulusId": "rc-vc1-m-03",
    "prompt": "Which of the following is most analogous to the critics' first objection (concerning evidence) to the traditional advice?",
@@ -1231,7 +1231,7 @@
     "form among people who are already similar in age, income and outlook"
    ],
    "answer": 4,
-   "explanation": "A direct match with a sentence in paragraph 3.\n\n(A) Wrong: Written constitutions belong to formal associations.\n\n(B) Wrong: This describes formal associations; informal groups \"need admit no one\".\n\n(C) Wrong: Paragraph 2 says informal groups have \"no officers, no dues and no minutes\".\n\n(D) Wrong: The decline described concerns formal associations.\n\n**(E) Correct.** Paragraph 3: \"They tend to form among people who are already similar in age, income and outlook\".",
+   "explanation": "A direct match with a sentence in paragraph 3.\n\n(A) Wrong: Written constitutions belong to formal associations.\n\n(B) Wrong: This describes formal associations; informal groups \"need admit no one\".\n\n(C) Wrong: Paragraph 2 says informal groups have \"no officers, no dues and no minutes\".\n\n(D) Wrong: The decline described concerns formal associations.\n\n**(E) Correct.** Paragraph 3: \"They tend to form among people who are already similar in age, income and outlook\".\n\nThe wrong choices describe the formal associations the passage contrasts with informal networks, so check which kind of group each one describes.",
    "tip": "Make sure the feature is attributed to the right type of group; the passage contrasts two types.",
    "trap": "Choosing a feature of the formal association.",
    "timeTarget": 70

@@ -6,7 +6,7 @@ Your exam isn't over when you click "finish". There are decisions about sending 
 
 A few days after the exam (prep sources say roughly 3 to 5 business days), your **Official Score Report** appears in your mba.com account. It shows your total score (205 to 805), your three section scores (60 to 90) and percentiles. GMAC says the report includes detailed performance insights for free. That means you can see how you did by question type, which is gold for planning a retake.
 
-An older, paid product called the **Enhanced Score Report** existed in the past. One site lists it at US$30, but I couldn't confirm whether it's still sold now that the official report already includes detailed insights. Check mba.com before paying for anything.
+A paid product called the **Enhanced Score Report** has been offered in the past. One site lists it at US$30, but I couldn't confirm whether it's still sold now that the official report already includes detailed insights. Check mba.com before paying for anything.
 
 ## Sending your scores
 
@@ -30,9 +30,9 @@ For example, imagine two attempts:
 
 | | Quant | Verbal | Data Insights | Total (illustrative) |
 |---|---|---|---|---|
-| Attempt 1 | 83 | 80 | 78 | about 625 |
-| Attempt 2 | 80 | 84 | 80 | about 645 |
-| **Superscore** | **83** | **84** | **80** | **about 660** |
+| Attempt 1 | 83 | 80 | 78 | about 610 |
+| Attempt 2 | 80 | 84 | 80 | about 630 |
+| **Superscore** | **83** | **84** | **80** | **about 650** |
 
 The Superscore takes 83 from Attempt 1, 84 from Attempt 2 and 80 from Attempt 2. It's higher than either single attempt. (The totals here are only illustrative, since GMAC's exact formula isn't published.)
 
@@ -76,7 +76,7 @@ For you, the practical effect is that a second attempt in mid-October 2027 is fu
 
 A retake isn't a sign of failure. For many applicants, it's a normal step. Think about it using three questions.
 
-1. **Is your score below the range your target schools publish?** For ISB, the class-of-2026 mean was about 683 on a mixed scale. If you're well below your target programmes' ranges, a retake can matter.
+1. **Is your score below the range your target schools publish?** For ISB, the class-of-2026 mean was about 683 (ISB doesn't say which scale). If you're well below your target programmes' ranges, a retake can matter.
 2. **Do you have a clear, fixable reason?** Maybe one section was far below your mocks, or you ran out of time, or you had a bad day. A specific fixable issue is a good reason. "I'd just like a higher number" with no plan is a weaker one.
 3. **Is the cost worth it?** Compare the extra fee and weeks of study against the improvement you can reasonably expect.
 

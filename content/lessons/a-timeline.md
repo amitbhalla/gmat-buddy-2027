@@ -62,7 +62,7 @@ Apr to Jun 2028 : Offers and waitlists : Funding and visa : Deposit in May
 
 ### April 2027
 - Attend info sessions and webinars for your shortlisted schools.
-- Finish a quant, statistics or analytics course, if you're doing one.
+- Keep going with a quant, statistics or analytics course, if you're doing one (aim to finish by July).
 - Update your wins file with the project's results.
 
 ### May 2027
@@ -76,7 +76,7 @@ Apr to Jun 2028 : Offers and waitlists : Funding and visa : Deposit in May
 - Plan your recommender conversations.
 
 ### July 2027
-- Book the GMAT for 28 August 2027. Booking about six to eight weeks ahead keeps your date.
+- Book the GMAT for 28 August 2027 now if you haven't already. The booking window opens about six months ahead (around 28 February 2027), so earlier is better; early July, about six to eight weeks ahead, is the latest sensible date.
 - Collect scanned transcripts and the MOI certificate.
 - Draft your story: why management, why now.
 
@@ -170,7 +170,7 @@ Trap: planning to the exact deadline day. Portals crash, recommenders are late, 
 
 ## Quick check
 1. When is your first GMAT attempt, and when should you book it?
-<details><summary>Answer</summary>Saturday 28 August 2027, booked about six to eight weeks ahead, by early July.</details>
+<details><summary>Answer</summary>Saturday 28 August 2027. Book as soon as the window opens (around 28 February 2027), and no later than early July.</details>
 
 2. Why might early rounds matter more for MiMs with experience caps?
 <details><summary>Answer</summary>Your experience grows each month, so a later round could push you past the school's cap.</details>
@@ -180,7 +180,7 @@ Trap: planning to the exact deadline day. Portals crash, recommenders are late, 
 
 ## Key takeaways
 - Five phases: foundations, build and shortlist, test and draft, apply and interview, decide and prepare.
-- Book the GMAT in early July 2027 for 28 August; keep mid-October as a backup.
+- Book the GMAT for 28 August as soon as the window opens (about late February 2027), and by early July at the latest; keep mid-October as a backup.
 - Brief recommenders in August, about eight weeks before the deadline.
 - Plan to inferred deadlines, then replace them with official ones.
 - Submit a few days early.

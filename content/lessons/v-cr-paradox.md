@@ -164,7 +164,7 @@ Each of the following, if true, helps to explain how fare revenue could rise EXC
 
 (A) Many passengers switched from cheap off-peak tickets to more expensive peak-time and first-class tickets during the year.
 (B) The railway introduced a new, premium express service in February that carried many passengers at high fares.
-(C) The 10% cut applied only to a few rarely used routes.
+(C) In March, the railway raised fares on its busiest routes by 15%.
 (D) Passengers took fewer short journeys but more long journeys, which cost more per trip.
 (E) The railway's operating costs rose during the year.
 
@@ -172,7 +172,7 @@ Each of the following, if true, helps to explain how fare revenue could rise EXC
 
 Puzzle: fares were cut, journeys fell, yet revenue rose. Anything that raises the *average* revenue per journey explains it.
 
-(A): a mix shift to pricier tickets raises average revenue per journey. Helps. (B): premium service raises revenue. Helps. (C): if the cut hit rarely used routes, the average fare barely changed, so revenue could rise with other changes. Helps. (D): longer trips pay more per journey. Helps.
+(A): a mix shift to pricier tickets raises average revenue per journey. Helps. (B): premium service raises revenue. Helps. (C): a later rise on the busiest routes lifts the average fare per journey. Helps. (D): longer trips pay more per journey. Helps.
 
 (E): operating costs concern spending, not fare revenue. It does nothing to explain how revenue rose, so (E) is the exception.
 

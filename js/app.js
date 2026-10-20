@@ -33,6 +33,11 @@ const NAV = [
 const NAV_OWNER = { plan: 'today', lesson: 'learn', session: 'practice', mock: 'practice', errors: 'practice', cards: 'practice', admissions: 'more', library: 'more', settings: 'more', checklist: 'more' };
 
 let cleanup = null;
+let routeSeq = 0;
+
+// Desktop and phone get different structures, not just different widths.
+const DESKTOP_MQ = window.matchMedia('(min-width: 1100px)');
+export const isDesktop = () => DESKTOP_MQ.matches;
 
 export function setTop({ title = '', back = null, actions = '' } = {}) {
   const top = $('#topbar');
@@ -48,7 +53,7 @@ export function focusMode(on) {
 }
 
 function renderNav(active) {
-  $('#nav').innerHTML = NAV.map(([r, label, ic]) => `<a href="#/${r}" class="${active === r ? 'active' : ''}"${active === r ? ' aria-current="page"' : ''}>${icon(ic)}<span>${label}</span></a>`).join('');
+  $('#nav').innerHTML = `<a class="nav-brand" href="#/today"><img src="icons/icon.svg" alt=""><span>GMAT Buddy</span></a>` + NAV.map(([r, label, ic]) => `<a href="#/${r}" class="${active === r ? 'active' : ''}"${active === r ? ' aria-current="page"' : ''}>${icon(ic)}<span>${label}</span></a>`).join('');
 }
 
 function parseHash() {
@@ -65,6 +70,7 @@ async function route() {
     location.replace('#/welcome');
     return;
   }
+  const seq = ++routeSeq;
   const entry = ROUTES.find((r) => r[0] === name) || ROUTES[1];
   if (cleanup) {
     try {
@@ -84,8 +90,18 @@ async function route() {
   setTop();
   try {
     const mod = await entry[1]();
-    const result = await mod.render({ view, params, query, setTop, focusMode });
-    if (typeof result === 'function') cleanup = result;
+    const result = await mod.render({ view, params, query, setTop, focusMode, desktop: isDesktop() });
+    if (typeof result === 'function') {
+      // A slow view that finished after the user already moved on must clean up now, not later.
+      if (seq === routeSeq) cleanup = result;
+      else {
+        try {
+          result();
+        } catch (e) {
+          console.warn(e);
+        }
+      }
+    }
   } catch (e) {
     console.error(e);
     view.innerHTML = `<div class="empty">${icon('alert')}<h2>Something went wrong</h2><p class="muted">${esc(e.message)}</p><a class="btn" href="#/today">Back to Today</a></div>`;
@@ -104,12 +120,18 @@ function boot() {
   applyTheme();
   store.subscribe(applyTheme);
   window.addEventListener('hashchange', route);
+  // Re-render when crossing the phone/desktop breakpoint (players keep their state in the store, so this is safe).
+  DESKTOP_MQ.addEventListener('change', () => route());
   window.addEventListener('scroll', () => $('#topbar').classList.toggle('scrolled', window.scrollY > 4), { passive: true });
   content.warm().catch((e) => console.warn('Preload failed', e));
   route();
   // Offline support everywhere except local development (where it would serve stale code).
   if ('serviceWorker' in navigator && location.protocol !== 'file:' && !['localhost', '127.0.0.1'].includes(location.hostname)) {
-    navigator.serviceWorker.register('sw.js').catch((e) => console.warn('SW registration failed', e));
+    // Versioned registration: a new build (new precache version) installs a fresh worker straight away.
+    fetch('precache.json', { cache: 'no-store' })
+      .then((r) => r.json())
+      .then((p) => navigator.serviceWorker.register(`sw.js?v=${p.version}`))
+      .catch((e) => console.warn('SW registration failed', e));
   }
 }
 

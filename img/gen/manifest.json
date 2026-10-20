@@ -1,0 +1,170 @@
+[
+  {
+    "file": "img/gen/exam-glance.jpg",
+    "kind": "infographic",
+    "alt": "Infographic: the GMAT Focus exam at a glance (three sections: Quant, Verbal, Data Insights; total score 205-805).",
+    "lesson": "s-gmat-explained"
+  },
+  {
+    "file": "img/gen/score-scale.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled How Your GMAT Score Works. Cards Quant 60–90, Verbal 60–90 and Data Insights 60–90 are added together into a Total 205–805 card. Caption: All three sections count equally. Scale markers: 555 ≈ 47th percentile, 655 ≈ 90th percentile, 705 ≈ 98th percentile. Footnote: Percentiles are approximate.",
+    "lesson": "s-scoring"
+  },
+  {
+    "file": "img/gen/journey.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Your 10-Month GMAT Journey: a winding road with seven milestones in order: Oct 2026 · Orientation, Nov · Foundations, Dec–Feb · Core Skills, Mar–Jun · Advanced Practice, Jul–Aug · Mock Season, 28 Aug 2027 · Test Day, Sep 2027 onward · Applications.",
+    "lesson": "s-welcome"
+  },
+  {
+    "file": "img/gen/study-loop.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled The Learning Loop: a cycle of five steps, Learn the idea, Practise it, Review your mistakes, Space it out, Test yourself, with the word Repeat in the centre.",
+    "lesson": "s-study-system"
+  },
+  {
+    "file": "img/gen/error-log.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Why Did I Get It Wrong? Five reasons and fixes: Concept gap, Re-read the lesson; Careless slip, Slow down on the last step; Misread the question, Reread before answering; Ran out of time, Practise timed sets; Fell for a trap, Name the trap in your log.",
+    "lesson": "s-study-system"
+  },
+  {
+    "file": "img/gen/cr-argument.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Anatomy of a GMAT Argument: two Premise boxes feed an arrow into a Conclusion box; a dashed bridge on the arrow is labelled Assumption (the hidden gap). Caption: Find the gap. Most questions are about it.",
+    "lesson": "v-cr-structure"
+  },
+  {
+    "file": "img/gen/cr-types.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Critical Reasoning Question Types, nine cards: Assumption, Find the missing link; Strengthen, Close the gap; Weaken, Open the gap; Evaluate, Ask the key question; Inference, Stay inside the facts; Paradox, Make both facts true; Boldface, Name each part's role; Flaw, Spot the bad logic; Complete, Fill the blank logically.",
+    "lesson": "v-cr-structure"
+  },
+  {
+    "file": "img/gen/rc-map.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Map the Passage, Not the Details: a three-paragraph document beside a notepad reading P1: Context, P2: Author's view, P3: Counterpoint, Tone: Cautiously optimistic. Caption: One line per paragraph. Details can wait.",
+    "lesson": "v-rc-reading"
+  },
+  {
+    "file": "img/gen/di-types.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Five Data Insights Question Types: Data Sufficiency, Is there enough info?; Table Analysis, Sort and test 3 statements; Graphics Interpretation, Read the graph, fill 2 blanks; Two-Part Analysis, Two linked answers; Multi-Source Reasoning, Combine 2–3 tabs.",
+    "lesson": "d-intro"
+  },
+  {
+    "file": "img/gen/percent-change.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Percent Change Made Simple. Formula: Percent change = (New − Old) ÷ Old × 100. Multiplier chips: Up 20% → × 1.2 and Down 20% → × 0.8. Example: Up 20%, then down 20%: 1.2 × 0.8 = 0.96, a 4% drop overall.",
+    "lesson": "q-percents"
+  },
+  {
+    "file": "img/gen/rate-triangle.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Distance = Rate × Time: a triangle with Distance on top and Rate and Time on the bottom. Caption: Cover what you want, the rest shows the formula. Note: Average speed = total distance ÷ total time.",
+    "lesson": "q-rates"
+  },
+  {
+    "file": "img/gen/sets-venn.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Overlapping Sets: two overlapping circles A and B, the overlap labelled Both, the outside area labelled Neither. Formula: Total = A + B − Both + Neither.",
+    "lesson": "q-sets"
+  },
+  {
+    "file": "img/gen/pacing.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Pacing Checkpoints. Quant: Question 7 by 15 min, Question 14 by 30 min, Question 21 by 45 min. Verbal: Question 8 by 15 min, Question 16 by 30 min, Question 23 by 45 min. Data Insights: Question 7 by 15 min, Question 14 by 30 min, Question 20 by 45 min. Caption: Behind by 3+ minutes? Make a smart guess and move on.",
+    "lesson": "s-pacing"
+  },
+  {
+    "file": "img/gen/test-day.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Test Day Checklist: Passport (name matches your booking); Arrive 30 minutes early; Light breakfast and water; Snack for the break; Your practised section order; Breathe. You are ready.",
+    "lesson": "s-test-day-india"
+  },
+  {
+    "file": "img/gen/paths.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Your Three Paths After the GMAT: ISB PGP, India, 2028 intake; Masters in Management or Marketing, Europe, 2028 intake; Experienced MBA, India or abroad, Later, with 4+ years. Caption: Your GMAT score stays valid for 5 years.",
+    "lesson": "a-roadmap"
+  },
+  {
+    "file": "img/gen/memory-curve.jpg",
+    "kind": "infographic",
+    "alt": "Infographic titled Why Spaced Review Works: a steeply falling curve labelled Without review, and a stepped curve that stays high labelled With spaced review, with review points marked Day 1, Day 3, Day 7 and Day 16.",
+    "lesson": "s-study-system"
+  },
+  {
+    "file": "img/gen/unit-start.jpg",
+    "kind": "illustration",
+    "alt": "A winding path up a gentle hill toward a glowing flag at sunrise, with a small figure carrying a backpack starting the walk.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/unit-quant.jpg",
+    "kind": "illustration",
+    "alt": "Floating geometric shapes, number tiles, a balance scale and a notebook with neat handwriting marks.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/unit-verbal.jpg",
+    "kind": "illustration",
+    "alt": "Open books and a reading lamp, with speech bubbles linked by arrows forming an argument chain.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/unit-di.jpg",
+    "kind": "illustration",
+    "alt": "A young woman at a calm analyst desk with a laptop showing bar and line charts and a table, and a coffee cup.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/unit-strategy.jpg",
+    "kind": "illustration",
+    "alt": "A stopwatch, a chess knight and a target with an arrow in the centre.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/unit-admissions.jpg",
+    "kind": "illustration",
+    "alt": "A university building with columns, a graduation cap, and a passport with a boarding pass, suggesting study abroad.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/welcome.jpg",
+    "kind": "illustration",
+    "alt": "A young Indian woman studying on her phone on a sofa in the evening with a cup of chai, warm lamp light, and the Delhi skyline in the window behind her.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/all-done.jpg",
+    "kind": "illustration",
+    "alt": "The same young woman stretching happily at her desk with her laptop closed, an evening sky outside and a small plant; a sense of accomplishment.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/rest-day.jpg",
+    "kind": "illustration",
+    "alt": "A cosy window seat with a book, a cup of tea and a blanket while rain falls outside.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/test-day-illus.jpg",
+    "kind": "illustration",
+    "alt": "A young Indian woman walking confidently towards a modern test centre building in the morning, holding a passport.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/mock-season.jpg",
+    "kind": "illustration",
+    "alt": "A young woman wearing headphones, focused at a desk with a timer and laptop, determined mood.",
+    "lesson": null
+  },
+  {
+    "file": "img/gen/empty-errors.jpg",
+    "kind": "illustration",
+    "alt": "A tidy empty notebook with a single check mark drawn in it and a small sparkle.",
+    "lesson": null
+  }
+]

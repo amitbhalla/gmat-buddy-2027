@@ -1,6 +1,6 @@
 # Table Analysis
 
-Table Analysis (TA) shows you a sortable data table and three statements. For each one you decide Yes or No (or True or False). You get one Data Insights question per table, usually one or two per exam, and each takes about two to three minutes. The table is not hard to read; the skill is deciding what to compute and what to skip.
+Table Analysis (TA) shows you a sortable data table and three statements. For each one you decide Yes or No (or True or False). Each table is one Data Insights question, you will usually see two to four per exam, and each takes about two to three minutes. The table is not hard to read; the skill is deciding what to compute and what to skip.
 
 ## What the question looks like
 
@@ -64,7 +64,7 @@ For the mean, you often do not need the exact value. Estimate the total from the
 
 ### 4. Percent-of-total statements
 
-"Region X accounts for more than 25% of total sales." Total is the sum of the column, so add the column once (use the calculator or estimate), then compare the row against a quarter of the total. A cleaner check: is the row bigger than the sum of the other three-quarters divided by three? In practice, just test "row × 4 > total".
+"Region X accounts for more than 25% of total sales." Total is the sum of the column, so add the column once (use the calculator or estimate), then compare the row against a quarter of the total. A cleaner check: is the row bigger than one third of the sum of all the other rows? In practice, just test "row × 4 > total".
 
 > [!TIP]
 > To test "A is more than 30% of B", compute 0.3 × B (or 3 × B / 10) and compare with A. You never need the exact percent.

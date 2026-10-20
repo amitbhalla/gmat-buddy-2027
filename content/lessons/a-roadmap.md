@@ -5,6 +5,9 @@ The GMAT is one piece of a bigger puzzle. Before you spend a single weekend on q
 > [!NOTE]
 > Everything about schools in this module is indicative. Deadlines, fees and eligibility rules change every cycle. Treat the numbers here as a way to plan, and always confirm on the school's official website before you act. Where we flag "confirm", we mean it.
 
+
+![Infographic titled Your Three Paths After the GMAT: ISB PGP, India, 2028 intake; Masters in Management or Marketing, Europe, 2028 intake; Experienced MBA, India or abroad, Later, with 4+ years. Caption: Your GMAT score stays valid for 5 years.](img/gen/paths.jpg)
+
 ## Four kinds of programme, and what each one is for
 
 People say "MBA" for everything. They're not the same product. Here's the honest breakdown.

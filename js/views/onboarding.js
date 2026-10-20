@@ -23,6 +23,7 @@ export async function render({ view, setTop, focusMode }) {
 
   const steps = [
     () => `
+      <img class="cover" src="img/gen/welcome.jpg" alt="" onerror="this.remove()">
       <div class="eyebrow">Step 1 of 5</div>
       <h1>Hi! I'm your GMAT Buddy.</h1>
       <p class="muted">I'll take you from "where do I even start?" to test day and your applications. One small step at a time, every day. You won't need anything else open.</p>
@@ -65,6 +66,7 @@ export async function render({ view, setTop, focusMode }) {
       const kd = keyDates(draft);
       const st = projected(draft.speed);
       return `
+      <img class="cover slim" src="img/gen/journey.jpg" alt="Your 10-month GMAT journey: October 2026 orientation, November foundations, December to February core skills, March to June advanced practice, July to August mock season, test day 28 August 2027, applications from September 2027." onerror="this.remove()">
       <div class="eyebrow">Step 5 of 5</div>
       <h1>Your plan is ready, ${esc(draft.name)}.</h1>
       <div class="timeline" style="margin:18px 0">
@@ -81,7 +83,7 @@ export async function render({ view, setTop, focusMode }) {
 
   const paint = () => {
     view.className = 'immersive';
-    view.innerHTML = `<div style="max-width:520px;margin:0 auto;padding-top:24px">
+    view.innerHTML = `<div style="max-width:620px;margin:0 auto;padding-top:24px">
       <div class="bar" style="margin-bottom:22px"><span style="width:${((step + 1) / steps.length) * 100}%"></span></div>
       ${steps[step]()}
     </div>

@@ -224,7 +224,7 @@
    "answer": 3,
    "explanation": "Use total minus 'together'. Total arrangements: 6!/2! = 360. With the two O's glued as one block there are 5 items, all different: 5! = 120.\n\n360 − 120 = 240.\n\nGap method check: arrange S, C, H, L in 4! = 24 ways, giving 5 gaps; choose 2 gaps for the O's: 5C2 = 10. 24 × 10 = 240.",
    "tip": "Repeated letters plus 'not adjacent': total with repeats minus glued case, or arrange the others and choose gaps.",
-   "trap": "360 is the total with no restriction. 480 comes from forgetting to divide the total by 2! before subtracting.",
+   "trap": "360 is the total with no restriction. 600 comes from subtracting the glued-block count (120) from 720 instead of from 360, which forgets to divide the total by 2!. 480 comes from 720 − 240, where the glued block was wrongly doubled for the O's internal order (the two O's are identical, so there is nothing to swap).",
    "timeTarget": 120,
    "skills": [
     "identical-items",
@@ -291,7 +291,7 @@
    "pool": "practice",
    "difficulty": 4,
    "format": "mc",
-   "prompt": "Ten players are to be split into two teams of five, Team Red and Team Blue are NOT labelled (swapping the two teams gives the same split). Two particular players, Mia and Noor, must be on different teams. In how many ways can the split be made?",
+   "prompt": "Ten players are to be split into two teams of five. The teams are not labelled, so swapping the two teams gives the same split. Two particular players, Mia and Noor, must be on different teams. In how many ways can the split be made?",
    "choices": [
     "35",
     "56",
@@ -407,7 +407,7 @@
    "answer": 1,
    "explanation": "The letters are M, I×4, S×4, P×2. First arrange the 7 non-S letters (M, 4 I's, 2 P's): 7!/(4! × 2!) = 105 ways.\n\nThose 7 letters create 8 gaps (including both ends). To keep the S's apart, put each S in a different gap: choose 4 of the 8 gaps, 8C4 = 70. The S's are identical, so no further arrangement is needed.\n\n105 × 70 = 7350.\n\nFor reference, the unrestricted total is 11!/(4! × 4! × 2!) = 34650, so about 21% of all arrangements keep the S's apart.",
    "tip": "Identical items that must not touch: arrange everyone else first, then choose gaps for them.",
-   "trap": "34650 is the unrestricted total; 105 is only the first step; 5880 comes from choosing gaps but then also multiplying by 4! as if the S's were different.",
+   "trap": "34650 is the unrestricted total; 105 is only the first step; 1680 comes from choosing the gaps (70) and then also multiplying by 4! as if the S's were different people.",
    "timeTarget": 180,
    "skills": [
     "gap-method",

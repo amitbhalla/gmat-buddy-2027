@@ -203,7 +203,7 @@ Memorise these. They let you check any answer quickly and they come up in the se
 |---|---|
 | Coin | 2 outcomes. n tosses: 2<sup>n</sup> equally likely sequences. |
 | One die | 6 outcomes; evens 2, 4, 6; primes 2, 3, 5. |
-| Two dice | 36 ordered outcomes. Ways to get a sum s is 6 − |s − 7|. Sum 7 is most likely: 6/36 = 1/6. |
+| Two dice | 36 ordered outcomes. Ways to get a sum s is 6 minus the gap between s and 7. Sum 7 is most likely: 6/36 = 1/6. |
 | Card deck | 52 cards: 4 suits of 13; 12 face cards; 4 aces. |
 | People in a row | n people can stand in n! orders, all equally likely if the order is random. |
 

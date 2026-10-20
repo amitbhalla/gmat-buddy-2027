@@ -48,7 +48,7 @@ How to negate cleanly:
 |---|---|
 | "Every customer received the survey." | "Not every customer received the survey." (some didn't) |
 | "The new road will not increase pollution." | "The new road will increase pollution." |
-| "Most employees prefer remote work." | "Fewer than half of employees prefer remote work." (not most) |
+| "Most employees prefer remote work." | "Half or fewer of the employees prefer remote work." (not most) |
 | "Competitors will not cut prices." | "Competitors will cut prices." |
 | "The 2024 results were not caused by weather." | "The 2024 results were caused (at least partly) by weather." |
 | "Some of the recruits are experienced." | "None of the recruits are experienced." |
@@ -140,7 +140,7 @@ Wrong choices on assumption questions tend to follow predictable patterns:
 
 The company's plan assumes which of the following?"
 
-(A) Most customers who buy petrol scooters from Tarun Motors would be willing to consider an electric model.
+(A) At least some of the customers who buy petrol scooters from Tarun Motors would be willing to buy an electric model.
 (B) No other manufacturer sells electric scooters through dealerships.
 (C) Online sales would lower the average price of the electric scooter.
 (D) The dealerships' staff are currently enthusiastic about electric vehicles.
@@ -150,7 +150,7 @@ The company's plan assumes which of the following?"
 
 The argument: dealers sell 40,000 petrol scooters, so selling through dealers is the quickest way to reach 50,000 electric ones. The author needs the dealer base to be a source of electric buyers.
 
-(A) is the bridge: the dealer's existing customer pool must produce electric buyers. Negation: "Most existing customers would NOT consider an electric model." Then the dealer base doesn't help reach 50,000, and the plan collapses.
+(A) is the bridge: the dealer's existing customer pool must produce electric buyers. Negation: "None of the existing customers would buy an electric model." Then the dealer base doesn't help reach 50,000, and the plan collapses.
 
 (B) is extreme and unnecessary. (C) brings in online channels, not mentioned. (D) is helpful to success but not necessary (the plan could still work with indifferent staff). (E) is too extreme ("all"); new customers could also walk into dealerships.
 

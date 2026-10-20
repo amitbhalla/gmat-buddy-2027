@@ -4,6 +4,9 @@ Some people belong to more than one group: students who study French and Spanish
 
 The whole topic comes down to one principle: **don't count anyone twice**.
 
+
+![Infographic titled Overlapping Sets: two overlapping circles A and B, the overlap labelled Both, the outside area labelled Neither. Formula: Total = A + B − Both + Neither.](img/gen/sets-venn.jpg)
+
 ## Two overlapping sets
 
 Picture two overlapping circles. The left circle is group A, the right is group B, and the lens-shaped overlap is "both". Anything outside both circles but inside the box is "neither".

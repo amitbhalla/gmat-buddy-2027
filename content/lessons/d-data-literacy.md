@@ -244,6 +244,6 @@ Trap: comparing the heights of the two line segments by eye. On a squeezed axis,
 
 ## Go deeper
 - [Khan Academy: Statistics and probability](https://www.khanacademy.org/math/statistics-probability) — free practice on reading charts, averages and scatterplots.
-- [Khan Academy: Algebra basics](https://www.khanacademy.org/math/algebra) — brush up percent and ratio fundamentals.
+- [Khan Academy: Algebra](https://www.khanacademy.org/math/algebra) — brush up percent and ratio fundamentals.
 - [GMAT Club forum](https://gmatclub.com/forum/) — community discussions on Data Insights strategy.
 - [Official GMAT exam site](https://www.mba.com/exams/gmat-exam) — format details for Data Insights.

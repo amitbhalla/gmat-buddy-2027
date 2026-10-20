@@ -1,6 +1,9 @@
 # How to Read a GMAT Passage
 
-Reading Comprehension is roughly a third to a half of the Verbal section on the GMAT Focus Edition: expect 2 to 4 passages, each followed by 3 to 4 questions. The passages are dense and academic, and most people lose points not because they can't understand them, but because they read them the wrong way. This lesson fixes that.
+Reading Comprehension is a large part of the Verbal section on the GMAT Focus Edition (prep companies estimate roughly 9 to 14 of the 23 questions, and GMAC publishes no fixed split): expect about 3 to 4 passages, each followed by 3 to 4 questions. The passages are dense and academic, and most people lose points not because they can't understand them, but because they read them the wrong way. This lesson fixes that.
+
+
+![Infographic titled Map the Passage, Not the Details: a three-paragraph document beside a notepad reading P1: Context, P2: Author's view, P3: Counterpoint, Tone: Cautiously optimistic. Caption: One line per paragraph. Details can wait.](img/gen/rc-map.jpg)
 
 ## The big idea: read for structure, not for detail
 
@@ -30,7 +33,7 @@ While reading on screen, you can jot a tiny map on your note board. The map has 
 - **The author's main point**, in one short sentence.
 - **The tone**: neutral, supportive, cautious, skeptical or critical.
 
-A good map is 15 to 25 words in total. If yours is longer, you're copying instead of summarising.
+A good map is about 20 to 30 words in total. If yours is longer, you're copying instead of summarising.
 
 > [!TIP]
 > Write verbs, not nouns. "P2: challenges tidal theory" is far more useful than "P2: tides, moon, 1950s data". The verb tells you the paragraph's role, and roles are what structure questions test.
@@ -65,7 +68,7 @@ GMAT passages fall into four families. They all use the same reading method, but
 
 ## Reading speed versus comprehension
 
-On the GMAT Focus you have about 45 minutes for 23 Verbal questions, so roughly 1 minute 55 seconds per question on average. For a 3-question passage plus reading, a good target is **about 3 minutes of reading and mapping** for a long passage, and **under 2 minutes** for a short one. Questions then take about 60 to 90 seconds each.
+On the GMAT Focus you have about 45 minutes for 23 Verbal questions, so roughly 1 minute 57 seconds per question on average. For a 3-question passage plus reading, a good target is **about 3 minutes of reading and mapping** for a long passage, and **under 2 minutes** for a short one. Questions then take about 60 to 90 seconds each.
 
 Here's the trade-off nobody tells you. If you read too slowly (trying to understand every phrase), you run out of time. If you read too fast (skimming without a map), you re-read three times per question and lose more time. The sweet spot is a **steady, focused first read at about 220 to 250 words per minute** while hunting only for structure.
 
@@ -100,13 +103,13 @@ F --> G["Eliminate with a reason and pick"]
 ```
 
 > [!TIP]
-> The first question on a passage is often the main idea. Answer it first even if it's not listed first, and your map will already hold the answer. If the first question is a hard detail, don't be afraid to answer it after you've warmed up on easier ones. (You can't skip and return in the Focus Edition, but you can decide how long to spend.)
+> The first question on a passage is often the main idea, and your map will already hold the answer. If the first question is a hard detail, remember you can't skip and return in the Focus Edition, so decide quickly how long it deserves and guess if it runs past about two minutes.
 
 ## Short passages versus long passages
 
-Short passages (about 200 to 300 words) usually have 3 questions and one or two paragraphs. The whole thing is close to one idea, so your map is tiny: "context, then problem, then the author's point". Spend about 90 seconds reading.
+Short passages (about 200 to 250 words) usually have 3 questions and one or two paragraphs. The whole thing is close to one idea, so your map is tiny: "context, then problem, then the author's point". Spend about 90 seconds reading.
 
-Long passages (about 350 to 450 words) have 3 to 4 questions and 3 or 4 paragraphs. They often contain **two competing views** and the author's evaluation of them. Here the map matters a lot. Spend about 2.5 to 3 minutes reading, and don't be tempted to re-read the whole thing for every question.
+Long passages (about 300 to 350 words) usually have 4 questions and 3 or 4 paragraphs. They often contain **two competing views** and the author's evaluation of them. Here the map matters a lot. Spend about 2.5 to 3 minutes reading, and don't be tempted to re-read the whole thing for every question.
 
 ### Worked example 1 (Easy)
 
@@ -128,7 +131,7 @@ Read the passage, then write a map: one line per paragraph, the author's point, 
 
 **Tone:** mildly critical of the old view, cautiously supportive of pricing ("many researchers now argue", "more promising"). The author reports rather than shouts.
 
-That's the whole map in under 25 words: "P1: old view, then evidence against. P2: why, plus a better idea. Point: capacity doesn't fix congestion, demand management might. Tone: critical of old, cautiously supportive of new."
+That's the whole map in roughly 30 words: "P1: old view, then evidence against. P2: why, plus a better idea. Point: capacity doesn't fix congestion, demand management might. Tone: critical of old, cautiously supportive of new."
 
 **Trap:** copying details like "within a few years" into the map. You can find that later if a question asks.
 

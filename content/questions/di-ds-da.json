@@ -190,14 +190,13 @@
    "pool": "practice",
    "difficulty": 2,
    "format": "mc",
-   "prompt": "What is the width of a rectangle whose length is twice its width?\n\n(1) The perimeter of the rectangle is 36 cm.\n\n(2) The area of the rectangle is 72 cm².",
+   "prompt": "Two positive numbers are such that the larger is twice the smaller. What is the smaller number?\n\n(1) The sum of the two numbers is 18.\n\n(2) The product of the two numbers is 72.",
    "answer": 3,
-   "explanation": "Let the width be w, so the length is 2w.\n\n**Statement (1) alone:** The perimeter is 2(2w + w) = 6w = 36, so w = 6. Sufficient.\n\n**Statement (2) alone:** The area is 2w × w = 2w² = 72, so w² = 36. A width must be positive, so w = 6. Sufficient.\n\nBoth work alone and agree (w = 6), so the answer is **D**.\n\nThe quadratic in (2) has a second root, w = −6, but a length cannot be negative. That is the hidden constraint that rescues the statement.",
-   "tip": "A physical length can't be negative, which removes the negative root of a quadratic.",
-   "trap": "Marking (2) insufficient because 'w² = 36 gives two values'. A width is positive, so only one survives.",
+   "explanation": "Let the smaller number be w, so the larger is 2w.\n\n**Statement (1) alone:** The sum is w + 2w = 3w = 18, so w = 6. Sufficient.\n\n**Statement (2) alone:** The product is 2w × w = 2w² = 72, so w² = 36. The numbers are positive, so w = 6. Sufficient.\n\nBoth work alone and agree (w = 6), so the answer is **D**.\n\nThe quadratic in (2) has a second root, w = −6, but the stem says both numbers are positive. That is the hidden constraint that rescues the statement.",
+   "tip": "The stem's 'positive' removes the negative root of a quadratic.",
+   "trap": "Marking (2) insufficient because 'w² = 36 gives two values'. The numbers are positive, so only one survives.",
    "timeTarget": 110,
    "skills": [
-    "geometry-lite",
     "quadratic-roots"
    ]
   },
@@ -609,7 +608,7 @@
    "format": "mc",
    "prompt": "Four colleagues (Tara, Uma, Vik and Wen) each sit in one of four seats, numbered 1 to 4 from left to right. Uma and Vik do not sit next to each other. In which seat does Tara sit?\n\n(1) Tara sits immediately to the left of Uma.\n\n(2) Vik sits immediately to the left of Wen.",
    "answer": 2,
-   "explanation": "List arrangements consistent with the stem: Uma and Vik are never in neighbouring seats.\n\n**Statement (1) alone:** Tara and Uma form an adjacent pair, Tara on the left. Three placements fit the stem. T U W V (Tara in seat 1, Vik in seat 4, not next to Uma). V T U W (Tara in seat 2, Vik in seat 1). V W T U (Tara in seat 3, Vik in seat 1). Tara's seat varies. Not sufficient.\n\n**Statement (2) alone:** Vik-Wen adjacent leaves many arrangements, with Tara in different seats. Not sufficient.\n\n**Together:** The blocks (T U) and (V W) fill the four seats. If (T U) is first, Uma is in seat 2 and Vik in seat 3, which are neighbours, which is forbidden. So (V W) comes first and (T U) second: V W T U. Tara is in seat 3. Sufficient.\n\nThe answer is **C**.",
+   "explanation": "List arrangements consistent with the stem: Uma and Vik are never in neighbouring seats.\n\n**Statement (1) alone:** Tara and Uma form an adjacent pair, Tara on the left. Several placements fit the stem. For example, T U W V (Tara in seat 1, Vik in seat 4, not next to Uma). V T U W (Tara in seat 2, Vik in seat 1). V W T U (Tara in seat 3, Vik in seat 1). Tara's seat varies. Not sufficient.\n\n**Statement (2) alone:** Vik-Wen adjacent leaves many arrangements, with Tara in different seats. Not sufficient.\n\n**Together:** The blocks (T U) and (V W) fill the four seats. If (T U) is first, Uma is in seat 2 and Vik in seat 3, which are neighbours, which is forbidden. So (V W) comes first and (T U) second: V W T U. Tara is in seat 3. Sufficient.\n\nThe answer is **C**.",
    "tip": "With two 'immediately left' pairs, treat each pair as a block and test the two block orders.",
    "trap": "Letting an attractive arrangement slip past the no-neighbours rule. Always check the stem's restriction on each candidate.",
    "timeTarget": 150,
@@ -835,15 +834,14 @@
    "pool": "mock",
    "difficulty": 2,
    "format": "mc",
-   "prompt": "What is the area of a rectangle?\n\n(1) The perimeter of the rectangle is 24 cm.\n\n(2) The length of the rectangle is greater than its width.",
+   "prompt": "x and y are positive numbers. What is the value of xy?\n\n(1) x + y = 12\n\n(2) x > y",
    "answer": 4,
-   "explanation": "**Statement (1) alone:** The perimeter 2(l + w) = 24 gives l + w = 12. A 6 × 6 rectangle has area 36, and a 10 × 2 rectangle has area 20. Not sufficient.\n\n**Statement (2) alone:** l > w tells us nothing about size. Not sufficient.\n\n**Together:** l + w = 12 and l > w. A 7 × 5 rectangle has area 35, and a 10 × 2 rectangle has area 20. Still different. Not sufficient.\n\nThe answer is **E**.\n\nThe perimeter fixes the sum of the sides but not the product. For a fixed perimeter, the area depends on how 'square' the rectangle is. You would need a second independent fact, such as the diagonal or the ratio of the sides.",
-   "tip": "A fixed perimeter doesn't fix the area; you need a second independent relationship between the sides.",
-   "trap": "Believing that 'l > w' pins down the shape. It only rules out the rectangles where l is at most w.",
+   "explanation": "**Statement (1) alone:** x + y = 12. (6, 6) gives xy = 36, and (10, 2) gives xy = 20. Not sufficient.\n\n**Statement (2) alone:** x > y tells us nothing about size. Not sufficient.\n\n**Together:** x + y = 12 and x > y. (7, 5) gives xy = 35, and (10, 2) gives xy = 20. Still different. Not sufficient.\n\nThe answer is **E**.\n\nA known sum fixes x + y but not the product. For a fixed sum, the product depends on how close x and y are to each other. You would need a second independent fact, such as the difference of the numbers or their ratio.",
+   "tip": "A known sum doesn't fix the product; you need a second independent relationship between the numbers.",
+   "trap": "Believing that 'x > y' pins the numbers down. It only rules out the pairs where x is at most y.",
    "timeTarget": 100,
    "skills": [
-    "rectangles",
-    "geometry-lite"
+    "sum-and-product"
    ]
   },
   {

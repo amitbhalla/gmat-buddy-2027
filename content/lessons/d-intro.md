@@ -2,6 +2,9 @@
 
 Data Insights (DI) is the newest section of the GMAT, and the one that feels least like anything you did at school. It is 20 questions in 45 minutes, it counts for one third of your total score, and it rewards exactly the skills a marketing job already trains: reading messy information, deciding what matters, and not getting fooled by a confident-looking number.
 
+
+![Infographic titled Five Data Insights Question Types: Data Sufficiency, Is there enough info?; Table Analysis, Sort and test 3 statements; Graphics Interpretation, Read the graph, fill 2 blanks; Two-Part Analysis, Two linked answers; Multi-Source Reasoning, Combine 2–3 tabs.](img/gen/di-types.jpg)
+
 ## What Data Insights actually tests
 
 Quant asks you to solve a clean problem. Data Insights hands you a pile of information (a table, a chart, three emails, two statements) and asks what you can conclude from it. The math is the same arithmetic and algebra you meet in Quant, and it is usually lighter. The harder part is the reasoning: which numbers are relevant, what the question is really asking, and whether the information you were given is enough.
@@ -18,7 +21,7 @@ You will see all five in every test, in a mixed order. The numbers below are typ
 | Type | Full name | What you get | Roughly how many |
 |---|---|---|---|
 | DS | Data Sufficiency | A question and two statements | 5-7 |
-| MSR | Multi-Source Reasoning | 2-3 tabs of text, tables or charts, then 2-3 questions | 6-7 (in 2-3 sets) |
+| MSR | Multi-Source Reasoning | 2-3 tabs of text, tables or charts, then 2-3 questions | 6-9 (in 2-3 sets) |
 | TA | Table Analysis | A sortable table, then true/false statements | 2-4 |
 | GI | Graphics Interpretation | A chart, then a sentence with drop-down blanks | 2-4 |
 | TPA | Two-Part Analysis | A short problem, then one answer for each of two columns | 2-4 |

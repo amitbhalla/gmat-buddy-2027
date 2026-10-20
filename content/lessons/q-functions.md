@@ -168,7 +168,7 @@ Trap: leaving out the starting 2 and answering 381.
 
 If you're given the sum of the first n terms, Sₙ, the nth term is the difference of two sums: aₙ = Sₙ − Sₙ₋₁. For Sₙ = n² + 3n, a₁₀ = S₁₀ − S₉ = 130 − 108 = 22.
 
-If a function is defined by a relationship like f(f(x)) = 9x + 8 with f linear, write f(x) = ax + b, expand f(f(x)) = a²x + ab + b, and match coefficients of x and the constants. Here a² = 9 and 4b = 8 (for a = 3), so f(x) = 3x + 2.
+If a function is defined by a relationship like f(f(x)) = 9x + 8 with f linear, write f(x) = ax + b, expand f(f(x)) = a²x + ab + b, and match coefficients of x and the constants. Here a² = 9 and, taking a = 3, 4b = 8, so f(x) = 3x + 2. (Taking a = −3 gives f(x) = −3x − 4, which also works, so a real question will add a condition such as "f is increasing" or ask for something both versions share.)
 
 Equations such as f(x) + 2f(1/x) = 3x are solved by writing them twice, once with x and once with 1/x. You then have two equations in the two unknowns f(x) and f(1/x).
 

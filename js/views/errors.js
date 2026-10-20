@@ -3,7 +3,7 @@ import * as store from '../store.js';
 import * as content from '../content.js';
 import { renderQuestion, renderExplanation, bindQuestion } from '../qview.js';
 import { icon } from '../icons.js';
-import { esc, fmtDate, TYPE_NAMES, SECTION_NAMES } from '../util.js';
+import { esc, fmtDate, todayStr, TYPE_NAMES, SECTION_NAMES } from '../util.js';
 import { REASONS } from './session.js';
 
 export async function render({ view, setTop }) {
@@ -79,7 +79,7 @@ export async function render({ view, setTop }) {
       store.update((x) => {
         const er = x.errors[res.dataset.resolve];
         er.resolved = !er.resolved;
-        er.resolvedAt = er.resolved ? new Date().toISOString().slice(0, 10) : null;
+        er.resolvedAt = er.resolved ? todayStr() : null;
       }, true);
       paint();
     }

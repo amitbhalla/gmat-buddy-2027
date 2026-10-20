@@ -1107,7 +1107,7 @@
    "pool": "mock",
    "difficulty": 5,
    "format": "mc",
-   "prompt": "A set of 9 numbers has a mean of 20 and a standard deviation of 3. Two of the numbers in the set are 14 and 26. If both of these are replaced by 20, what is the standard deviation of the new set?",
+   "prompt": "A set of 9 numbers has a mean of 20 and a (population) standard deviation of 3. Two of the numbers in the set are 14 and 26. If both of these are replaced by 20, what is the standard deviation of the new set?",
    "choices": [
     "3",
     "2",

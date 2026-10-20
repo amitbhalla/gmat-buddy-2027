@@ -73,6 +73,9 @@ Trap: adding the percents (75%) or multiplying incorrectly (15 × 60 = 900). Suc
 
 Percent change measures how much something moved compared to where it **started**:
 
+![Infographic titled Percent Change Made Simple. Formula: Percent change = (New − Old) ÷ Old × 100. Multiplier chips: Up 20% → × 1.2 and Down 20% → × 0.8. Example: Up 20%, then down 20%: 1.2 × 0.8 = 0.96, a 4% drop overall.](img/gen/percent-change.jpg)
+
+
 **Percent change = (new − old)/old × 100%**
 
 Going from 80 to 100: (100 − 80)/80 = 20/80 = 25% increase. Going from 100 to 80: (80 − 100)/100 = −20%, a 20% decrease. Same two numbers, different base, different percent.

@@ -83,8 +83,10 @@ export async function render({ view, setTop, query }) {
   };
   const onClick = (e) => {
     if (!e.target.closest('#mark-done')) return;
-    store.markDone(query.item, 15);
-    store.logMinutes(15);
+    if (!store.isDone(query.item)) {
+      store.markDone(query.item, 15);
+      store.logMinutes(15);
+    }
     toast('Done. Nicely handled.', { kind: 'good' });
     location.hash = '#/today';
   };

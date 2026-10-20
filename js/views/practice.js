@@ -28,7 +28,7 @@ export async function render({ view }) {
     <h1 style="margin-top:8px">Practice</h1>
     <p class="muted">${practiceCount} practice questions, plus a separate pool kept fresh for your mocks.</p>
     ${primary}
-    <div class="grid2">
+    <div class="grid2 tiles">
       <a class="item" href="#/session/redo" style="flex-direction:column;align-items:flex-start"><div class="ic red">${icon('refresh')}</div><div class="t">Redo mistakes</div><div class="s">${errorsOpen ? `${errorsOpen} waiting` : 'All clear'}</div></a>
       <a class="item" href="#/cards" style="flex-direction:column;align-items:flex-start"><div class="ic green">${icon('cards')}</div><div class="t">Flashcards</div><div class="s">${due.due.length + due.fresh.length} ready</div></a>
       <button class="item" data-section style="flex-direction:column;align-items:flex-start;text-align:left"><div class="ic amber">${icon('clock')}</div><div class="t">Section test</div><div class="s">45 minutes, timed</div></button>

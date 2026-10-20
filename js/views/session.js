@@ -4,7 +4,7 @@ import * as content from '../content.js';
 import { selectSet, smartSet, redoSet, sectionSet, topicStats } from '../select.js';
 import { renderQuestion, renderExplanation, bindQuestion, isComplete, isCorrect } from '../qview.js';
 import { icon } from '../icons.js';
-import { esc, fmtClock, fmtMinutes, uid, toast, TYPE_NAMES, SECTION_NAMES } from '../util.js';
+import { esc, fmtClock, fmtMinutes, uid, toast, todayStr, TYPE_NAMES, SECTION_NAMES } from '../util.js';
 import { checkAchievements } from './common.js';
 
 export const REASONS = [
@@ -69,7 +69,7 @@ async function buildSession(params, query, bank, cur) {
   throw new Error('Unknown practice type.');
 }
 
-export async function render({ view, params, query, setTop, focusMode }) {
+export async function render({ view, params, query, setTop, focusMode, desktop }) {
   const [bank, cur, coach] = await Promise.all([content.bank(), content.curriculum(), content.coach()]);
   const s = store.get();
   let sess = s.activeSession;
@@ -105,7 +105,7 @@ export async function render({ view, params, query, setTop, focusMode }) {
     const correct = sess.qids.filter((id) => sess.checked[id] && isCorrect(bank.questions.get(id), sess.answers[id])).length;
     const secs = Object.values(sess.times).reduce((a, b) => a + b, 0);
     store.update((x) => {
-      x.sessions.push({ id: sess.id, title: sess.title, date: new Date().toISOString().slice(0, 10), qids: sess.qids, answers: sess.answers, correct, total: sess.qids.length, secs: Math.round(secs), timed: sess.timed, itemKey: sess.itemKey });
+      x.sessions.push({ id: sess.id, title: sess.title, date: todayStr(), qids: sess.qids, answers: sess.answers, correct, total: sess.qids.length, secs: Math.round(secs), timed: sess.timed, itemKey: sess.itemKey });
       if (x.sessions.length > 400) x.sessions = x.sessions.slice(-400);
       x.activeSession = null;
     }, true);
@@ -145,12 +145,21 @@ export async function render({ view, params, query, setTop, focusMode }) {
         <button class="timer" data-timer aria-label="Timer"></button>
       </div>
       <div class="player-progress" style="margin:0 -16px"><span style="width:${(sess.idx / sess.qids.length) * 100}%"></span></div>
-      <div id="qhost">${renderQuestion(q, stim, { answer: ans, reveal: checked, showMeta: !sess.timed, header: `<div class="faint" style="margin-bottom:8px">${esc(TYPE_NAMES[q.type])}</div>` })}</div>
+      <div class="${desktop && !stim ? 'qx-grid' : ''}${desktop && !stim && checked ? ' has-ex' : ''}">
+      <div id="qhost">${renderQuestion(q, stim, { answer: ans, reveal: checked, showMeta: !sess.timed, header: sess.timed ? `<div class="faint" style="margin-bottom:8px">${esc(TYPE_NAMES[q.type])}</div>` : '' })}</div>
       <div id="exhost">${checked ? renderExplanation(q, ans) + reasonPicker(id, q, ans) : ''}</div>
+      </div>
+      ${desktop ? `<p class="faint keys-hint">Keyboard: <span class="kbd">A</span>–<span class="kbd">E</span> choose · <span class="kbd">Enter</span> ${sess.timed ? 'next' : 'check, then next'} · <span class="kbd">B</span> bookmark</p>` : ''}
       <div class="action-bar">
         <button class="btn icon-only${bm ? ' bookmarked' : ''}" data-bm aria-label="${bm ? 'Remove bookmark' : 'Bookmark'}">${icon('bookmark')}</button>
         ${sess.timed || checked ? `<button class="btn primary" data-next ${!sess.timed || isComplete(q, ans) ? '' : 'disabled'}>${last ? 'Finish' : 'Next'}</button>` : `<button class="btn primary" data-check ${isComplete(q, ans) ? '' : 'disabled'}>Check answer</button>`}
       </div>`;
+    // Passage questions on desktop: the explanation sits under the question, beside the passage.
+    if (desktop && stim) {
+      const ex = view.querySelector('#exhost');
+      const qm = view.querySelector('.q-main');
+      if (ex && qm) qm.appendChild(ex);
+    }
     const host = view.querySelector('#qhost');
     bindQuestion(host, q, () => sess.answers[id], (a) => {
       sess.answers[id] = a;
@@ -172,6 +181,9 @@ export async function render({ view, params, query, setTop, focusMode }) {
       t.className = `timer${left < 300 ? ' warn' : ''}${left <= 0 ? ' over' : ''}`;
       if (left <= 0 && !sess.finished) {
         toast('Time is up.');
+        // The question on screen counts if it was answered but not yet confirmed with Next.
+        const curId = sess.qids[sess.idx];
+        if (!sess.checked[curId] && isComplete(bank.questions.get(curId), sess.answers[curId])) commit(curId);
         for (const qid of sess.qids) if (!sess.checked[qid]) sess.checked[qid] = true;
         finish();
       }
@@ -229,12 +241,33 @@ export async function render({ view, params, query, setTop, focusMode }) {
       location.hash = sess.from || (query.item ? '#/today' : '#/practice');
     }
   };
+  const onKey = (e) => {
+    if (e.target.closest('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
+    const k = e.key.toLowerCase();
+    const idx = 'abcde'.indexOf(k) >= 0 ? 'abcde'.indexOf(k) : '12345'.indexOf(k);
+    if (idx >= 0) {
+      const b = view.querySelector(`[data-choice="${idx}"]:not([disabled])`);
+      if (b) b.click();
+      return;
+    }
+    if (k === 'enter') {
+      const b = view.querySelector('[data-check]:not([disabled]), [data-next]:not([disabled])');
+      if (b) {
+        e.preventDefault();
+        b.click();
+      }
+      return;
+    }
+    if (k === 'b' && !e.shiftKey) view.querySelector('[data-bm]')?.click();
+  };
+  document.addEventListener('keydown', onKey);
   view.addEventListener('click', onClick);
   tick = setInterval(updateTimer, 1000);
   paint();
   return () => {
     clearInterval(tick);
     view.removeEventListener('click', onClick);
+    document.removeEventListener('keydown', onKey);
     focusMode(false);
   };
 }

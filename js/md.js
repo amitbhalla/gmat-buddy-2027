@@ -53,6 +53,15 @@ export function renderLesson(text) {
     }
   }
   for (const d of root.querySelectorAll('details')) d.classList.add('reveal');
+  for (const img of root.querySelectorAll('img')) {
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    const p = img.parentElement;
+    const fig = document.createElement('figure');
+    fig.className = 'visual';
+    (p && p.tagName === 'P' && p.childNodes.length === 1 ? p : img).replaceWith(fig);
+    fig.appendChild(img);
+  }
   const div = document.createElement('div');
   div.appendChild(root);
   return div.innerHTML;
@@ -126,9 +135,41 @@ export async function renderDiagrams(root) {
     try {
       const { svg } = await mermaid.render(`dg-${Date.now()}-${i++}`, fig.dataset.src);
       fig.innerHTML = svg;
+      fitDiagram(fig);
     } catch (e) {
       console.warn('Diagram failed', e);
       fig.innerHTML = `<pre class="diagram-fallback">${fig.dataset.src.replace(/</g, '&lt;')}</pre>`;
     }
   }
+}
+
+// Big diagrams stay readable: draw at natural size with horizontal scroll, and tap to open full screen.
+function fitDiagram(fig) {
+  const svg = fig.querySelector('svg');
+  if (!svg) return;
+  const vb = svg.viewBox && svg.viewBox.baseVal;
+  const natural = vb && vb.width ? vb.width : svg.getBoundingClientRect().width;
+  const avail = fig.clientWidth - 20;
+  if (natural > avail * 1.25) {
+    svg.style.maxWidth = 'none';
+    svg.style.width = `${Math.min(natural, 1000)}px`;
+    fig.classList.add('wide');
+    fig.insertAdjacentHTML('afterbegin', `<div class="diagram-hint">${matchMedia('(pointer: coarse)').matches ? 'Swipe to explore · tap to enlarge' : 'Scroll sideways to explore · click to enlarge'}</div>`);
+  }
+  fig.setAttribute('role', 'button');
+  fig.setAttribute('tabindex', '0');
+  fig.setAttribute('aria-label', 'Open diagram full screen');
+  const open = () => {
+    const ov = document.createElement('div');
+    ov.className = 'diagram-overlay';
+    ov.innerHTML = `<button class="icon-btn diagram-close" aria-label="Close">✕</button><div class="diagram-full">${svg.outerHTML}</div>`;
+    const s2 = ov.querySelector('svg');
+    s2.style.maxWidth = 'none';
+    s2.style.width = `${Math.max(natural, 700)}px`;
+    s2.style.height = 'auto';
+    ov.addEventListener('click', (e) => (e.target === ov || e.target.closest('.diagram-close')) && ov.remove());
+    document.body.appendChild(ov);
+  };
+  fig.addEventListener('click', open);
+  fig.addEventListener('keydown', (e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), open()));
 }

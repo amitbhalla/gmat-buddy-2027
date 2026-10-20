@@ -94,6 +94,21 @@ export function save(immediate = false) {
   listeners.forEach((fn) => fn(state));
 }
 
+// A save is debounced by 150 ms; flush it if the tab is closed or hidden in that window.
+if (typeof window !== 'undefined' && window.addEventListener) {
+  const flush = () => {
+    if (state && saveTimer) {
+      clearTimeout(saveTimer);
+      saveTimer = null;
+      try {
+        localStorage.setItem(KEY, JSON.stringify(state));
+      } catch (e) { /* storage full or unavailable */ }
+    }
+  };
+  window.addEventListener('pagehide', flush);
+  document.addEventListener('visibilitychange', () => document.hidden && flush());
+}
+
 export function update(fn, immediate = false) {
   fn(get());
   save(immediate);
@@ -106,9 +121,10 @@ export function subscribe(fn) {
 
 // ---------- study time & streaks
 export function logMinutes(min, date = todayStr()) {
-  if (!min || min < 0) return;
+  if (!min) return;
   update((s) => {
-    s.studyLog[date] = Math.round(((s.studyLog[date] || 0) + min) * 10) / 10;
+    // Negative values undo a tick (e.g. un-marking an item); the day never goes below zero.
+    s.studyLog[date] = Math.max(0, Math.round(((s.studyLog[date] || 0) + min) * 10) / 10);
   });
 }
 

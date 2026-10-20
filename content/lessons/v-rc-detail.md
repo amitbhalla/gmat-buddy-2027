@@ -141,7 +141,7 @@ The answer is **(D)**. Vegetation appears nowhere in the passage. (A) is in para
 
 ### Worked example 4 (Hard)
 
-> A growing number of retailers now offer "subscribe and save" plans, in which customers receive regular deliveries of everyday items at a discount. Industry analysts initially predicted that the discount would be the plans' main attraction, and indeed early surveys showed that price was the most common reason customers gave for signing up. But retailers' own data tell a subtler story. Customers who stay on a plan for more than a year are, on average, no more price-sensitive than those who leave; what separates them is that they rarely reorder from competitors, even when a rival's product is cheaper.
+> A growing number of retailers now offer "subscribe and save" plans, in which customers receive regular deliveries of everyday items at a discount. Industry analysts initially predicted that the discount would be the plans' main attraction, and indeed early surveys showed that price was the most common reason customers gave for signing up. But retailers' own data tell a subtler story. Customers who stay on a plan for more than a year are, on average, just as price-sensitive as those who leave; what separates them is that they rarely reorder from competitors, even when a rival's product is cheaper.
 >
 > One interpretation is that the plans create a habit: once a household has stopped thinking about running out of an item, the effort of switching brands is not worth the saving. Retailers, however, caution that the sample comes only from customers who did not cancel in the first month, and so may not represent subscribers generally.
 
@@ -157,7 +157,7 @@ According to the passage, which of the following distinguishes subscribers who s
 
 The answer is **(C)**. Paragraph 1: "what separates them is that they rarely reorder from competitors, even when a rival's product is cheaper."
 
-(A) is directly contradicted: long-term subscribers are "on average, no more price-sensitive".
+(A) is contradicted: long-term subscribers are "on average, just as price-sensitive" as those who leave.
 (B) is true of many subscribers (price was the most common reason for signing up), but it doesn't *distinguish* long-stayers from leavers.
 (D) The passage says nothing about different discount sizes.
 (E) distorts the retailers' caution: the sample excludes people who cancelled in the first month.

@@ -2,6 +2,9 @@
 
 Before you study anything, you should know exactly what you're walking into. The current GMAT is shorter and simpler in shape than the exam your seniors may have taken, and once you can picture all 2 hours and 15 minutes of it, a lot of the fear goes away.
 
+
+![Infographic: the GMAT Focus exam at a glance (three sections: Quant, Verbal, Data Insights; total score 205-805).](img/gen/exam-glance.jpg)
+
 ## The big picture
 
 The exam has three sections. Each is 45 minutes. In total, that's 64 questions and 2 hours 15 minutes of testing time, plus one optional 10-minute break. There's no essay.

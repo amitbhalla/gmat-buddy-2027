@@ -42,7 +42,7 @@ Here's the default schedule for your plan. Move dates if work gets in the way, b
 
 Leave at least seven days between your last mock and the real exam. Taking a mock three days before is risky: a bad score lands right when you can't fix it.
 
-If you decide to retake in October 2027, we'll replan the mocks. There may be some later official exams you can save for that.
+If you decide to retake in October 2027, we'll replan the mocks. You'll have used all six official exams by then, so expect to lean on the app's mocks and any new official material, and avoid repeating an exam you've already seen.
 
 > [!TIP]
 > You only get a limited number of official exams. Don't take Exam 3 on a day when you're exhausted or distracted. A clean score is worth more than a convenient date.

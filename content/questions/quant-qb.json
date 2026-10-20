@@ -71,7 +71,7 @@
       "answer": 4,
       "explanation": "Write the shares as 2k, 3k and 5k. The largest minus the smallest is 5k − 2k = 3k, and this equals ₹12,000. So k = 4,000.\n\nThe total is 2k + 3k + 5k = 10k = ₹40,000.\n\nCheck: shares are 8,000, 12,000 and 20,000, which add to 40,000, and 20,000 − 8,000 = 12,000.\n\nThe key move is turning the 'difference' information into an equation in k. The difference of 3 units, not 10 units, matches the ₹12,000.",
       "tip": "When a ratio problem gives a difference, find how many units that difference spans, then scale to the total.",
-      "trap": "₹12,000 is the given gap, not the total. ₹30,000 comes from treating the gap as 4 units instead of 3 (3,000 × 10), and ₹36,000 from treating the gap as one third of 9 units.",
+      "trap": "₹12,000 is the given gap, not the total. ₹30,000 comes from treating the gap as 4 units instead of 3 (3,000 × 10), and ₹36,000 from multiplying the gap by 3 (the number of units it truly spans) instead of dividing by 3.",
       "timeTarget": 90,
       "skills": [
         "multiplier-method"
@@ -96,7 +96,7 @@
       "answer": 0,
       "explanation": "The two ratios share b, but b is 4 in the first and 2 in the second, so they don't connect yet. Scale the second ratio by 2: b:c = 4:10. Now b is 4 in both, so a:b:c = 3:4:10.\n\nTherefore a:c = 3:10.\n\nCheck with numbers: let b = 4. Then a = 3 (from 3:4) and, since b:c = 2:5, c = 10. So a:c = 3:10.\n\nThe matching step is the whole skill: scale each ratio until the shared term has the same value.",
       "tip": "To chain two ratios, multiply each ratio by whatever makes the shared term equal.",
-      "trap": "3:5 comes from writing a:b:c as 3:4:5, simply glueing the 5 from the second ratio without matching b. 6:5 comes from scaling the first ratio instead of the second.",
+      "trap": "3:5 comes from writing a:b:c as 3:4:5, simply glueing the 5 from the second ratio without matching b. 6:5 comes from mixing up terms after scaling, for example reading a = 6 from the scaled first ratio but c = 5 from the unscaled second one.",
       "timeTarget": 90,
       "skills": [
         "common-term"
@@ -429,7 +429,7 @@
       "answer": 1,
       "explanation": "Write the numbers of coins as 8k, 5k and 3k. Their values are 8k × 1 = 8k, 5k × 2 = 10k and 3k × 5 = 15k. Total value = 33k = 330, so k = 10.\n\nThe number of ₹5 coins is 3k = 30.\n\nCheck: 80 + 50 + 30 = 160 coins; value = 80 + 100 + 150 = ₹330. ✓\n\nThe ratio is for the NUMBER of coins, not their values, so you must multiply by the coin denominations before adding.",
       "tip": "When a ratio is about counts but the total is about value, convert each count into value before summing.",
-      "trap": "150 is the total value of the ₹5 coins, not their count. 10 is just k. 60 comes from adding coin counts as if every coin were worth the same.",
+      "trap": "150 is the total value of the ₹5 coins, not their count. 10 is just k. 50 is the number of ₹2 coins, and 60 matches no valid step, so it is just a distractor.",
       "timeTarget": 105,
       "skills": [
         "multiplier-method",
@@ -1561,7 +1561,7 @@
         "x² < y"
       ],
       "answer": 0,
-      "explanation": "x² is never negative, and x² cannot be 0 here (otherwise the product would be 0). So x² > 0. For x²y to be negative, y must be negative. So y < 0 must be true.\n\nTest the others: x = 2, y = −1 gives x²y = −4 < 0 but breaks x < 0 (A), and x + y = 1 (D). x = −2, y = −1 gives x²y = −4 < 0 but xy = 2 > 0 (C). In all cases y < 0, so x² < y fails since x² > 0 > y (E).\n\nOnly y < 0 survives.",
+      "explanation": "x² is never negative, and x² cannot be 0 here (otherwise the product would be 0). So x² > 0. For x²y to be negative, y must be negative. So y < 0 must be true.\n\nTest the others: x = 2, y = −1 gives x²y = −4 < 0 but breaks x < 0 (B), and x + y = 1 (D). x = −2, y = −1 gives x²y = −4 < 0 but xy = 2 > 0 (C). In all cases y < 0, so x² < y fails since x² > 0 > y (E).\n\nOnly y < 0 survives.",
       "tip": "A square is never negative, so the sign of an expression like x²y is decided by y alone (provided x ≠ 0).",
       "trap": "Choosing xy < 0 because it looks like a restatement of the problem. x can be negative, which makes xy positive.",
       "timeTarget": 105,

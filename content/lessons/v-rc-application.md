@@ -4,6 +4,9 @@ Some RC questions ask you to take an idea from the passage and **apply it somewh
 
 ## Application questions
 
+> [!NOTE]
+> GMAC doesn't publish a separate "application" question type for Focus Verbal. Prep companies use the label for questions that ask you to apply the passage's idea to a new case, and they are worth practising because the skill (abstracting a principle) also helps with inference and function questions.
+
 An application question gives you a new scenario and asks which one "is most analogous to", "would be an example of", "would most likely be cited by the author as", or "would the author consider to be...". The passage's **principle** is the key.
 
 > [!REMEMBER]
@@ -67,7 +70,7 @@ Some RC stems ask: "Which of the following, if true, would most strengthen/weake
 
 Which of the following, if true, would most weaken the transport office's claim?
 
-(A) Traffic on the roads leading to the closed bridge fell by 25 per cent.
+(A) The charge is higher for large vehicles than for ordinary cars.
 (B) A neighbouring city with no charge saw traffic fall by 14 per cent over the same year, after a similar bridge closure.
 (C) The charge raised more revenue than expected.
 (D) A survey found that most drivers disliked the charge.
@@ -77,7 +80,7 @@ Which of the following, if true, would most weaken the transport office's claim?
 
 The answer is **(B)**. It gives a comparison: a city with the closure but without the charge saw almost the same fall. That suggests the closure, not the charge, explains the drop. It's an alternative explanation.
 
-(A) is consistent with both the closure and the charge being causes, and is about only one set of roads.
+(A) is about how the charge is structured, not about what caused the fall.
 (C) is about revenue, not traffic.
 (D) is about attitudes, not causes.
 (E) would be consistent with the charge working (people switching to buses).

@@ -124,7 +124,7 @@ Abstractly: first bold = opposing view that the author argues against; second bo
 
 Why the others fail: A treats the commentators' claim as support, but the author rejects it. C reverses the order. D gets the first role wrong (it is not mere background) and the second wrong (the second is the conclusion, not an objection). E calls both premises, and the second is plainly the point of the whole passage.
 
-Trap: choice A. The first bold sentence comes with a number-like claim ("sales surge") and looks like evidence. The "who believes it?" test shows the author doesn't buy the commentators' reading.
+Trap: choice A. The first bold sentence reads like a finding ("this proves...") and so looks like evidence. The "who believes it?" test shows the author doesn't buy the commentators' reading.
 
 </details>
 

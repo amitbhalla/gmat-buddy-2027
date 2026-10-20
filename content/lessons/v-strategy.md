@@ -6,7 +6,7 @@ The Verbal section is 23 questions in 45 minutes. You don't win it with speed al
 
 - **23 questions, 45 minutes**, so the average is about **1 minute 57 seconds** per question.
 - A mix of **Critical Reasoning (CR)** and **Reading Comprehension (RC)**. There's no Sentence Correction in the Focus Edition.
-- RC comes in passages (roughly 200 to 450 words) with 3 to 4 questions each. CR questions are standalone, each with a short stimulus.
+- RC comes in passages (roughly 200 to 350 words) with 3 to 4 questions each. CR questions are standalone, each with a short stimulus.
 - Questions are shown one at a time. You can bookmark and later use Review & Edit to change up to three answers per section.
 
 Because CR and RC are mixed, you can't plan "CR first, then RC". You'll see them in an order driven by the adaptive algorithm, so you need to be flexible.
@@ -16,7 +16,7 @@ Because CR and RC are mixed, you can't plan "CR first, then RC". You'll see them
 | Question type | Target time | Notes |
 |---|---|---|
 | Critical Reasoning | about 2 minutes (90 to 120 seconds) | Read the stem first, then the stimulus, then predict |
-| RC passage, including reading | 6 to 8 minutes per passage of 3 to 4 questions | About 2 to 3 minutes reading, then 1 to 1.5 minutes per question |
+| RC passage, including reading | 6 to 8 minutes per passage of 3 to 4 questions | About 1.5 to 2.5 minutes reading, then 1 to 1.5 minutes per question |
 | Single RC question after the passage is read | 60 to 90 seconds | The passage should already be in your head |
 
 If an RC passage with four questions takes you 7 minutes, that's 1:45 per question, which beats the average. This is why RC is where you can bank time for harder CR questions.
@@ -88,11 +88,11 @@ Pick the choice that requires fewer extra assumptions, bookmark the question, an
 
 ### Worked example 3 (Hard): two finalists
 
-A CR inference question has two finalists: (C) "Most of the town's residents work in manufacturing" and (D) "At least some of the town's residents work in manufacturing." The stimulus says: "Manufacturing is the town's largest single employer." Which should you choose?
+A CR inference question has two finalists: (C) "Most of the town's jobs are in manufacturing" and (D) "At least some of the town's jobs are in manufacturing." The stimulus says: "Manufacturing is the largest source of jobs in the town." Which should you choose?
 
 <details><summary>Show solution</summary>
 
-The word that differs is "most" versus "at least some". "Largest single employer" could be 25 percent of jobs, well short of "most". So (C) goes beyond what the stimulus supports. (D) must be true if the largest employer has any employees at all. Choose (D).
+The word that differs is "most" versus "at least some". "Largest source of jobs" could be 25 percent of jobs, well short of "most". So (C) goes beyond what the stimulus supports. (D) must be true if the largest source of jobs provides any jobs at all. Choose (D).
 
 Trap: (C). "Largest" gets mistaken for "majority".
 

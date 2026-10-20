@@ -21,6 +21,9 @@ These are averages, not targets for every question. Some will take 40 seconds. O
 
 Checkpoints tell you whether you're on pace without constantly doing sums. Glance at the clock only at these moments. Looking after every question wastes attention.
 
+![Infographic titled Pacing Checkpoints. Quant: Question 7 by 15 min, Question 14 by 30 min, Question 21 by 45 min. Verbal: Question 8 by 15 min, Question 16 by 30 min, Question 23 by 45 min. Data Insights: Question 7 by 15 min, Question 14 by 30 min, Question 20 by 45 min. Caption: Behind by 3+ minutes? Make a smart guess and move on.](img/gen/pacing.jpg)
+
+
 These are guidelines I've built from the averages above, with about two minutes left over at the end. The exact numbers aren't magic.
 
 ### Quant (45 minutes, 21 questions)

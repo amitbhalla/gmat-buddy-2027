@@ -73,13 +73,13 @@ Slight differences in the wording of the stem:
 
 ## A model passage
 
-> When the Tamil Nadu coastal village of Pazhaverkadu introduced shared fishing quotas in 2011, most outside observers expected conflict. Fishing communities elsewhere in South Asia had seen quotas breed resentment, with families accusing neighbours of exceeding their limits. In Pazhaverkadu, however, a decade of data show that catches stayed within the agreed total in every season but one, and the exception was a cyclone year.
+> When the coastal village of Kadalmedu in southern India introduced shared fishing quotas in 2011, most outside observers expected conflict. Fishing communities elsewhere in South Asia had seen quotas breed resentment, with families accusing neighbours of exceeding their limits. In Kadalmedu, however, a decade of data show that catches stayed within the agreed total in every season but one, and the exception was a cyclone year.
 >
-> Researchers credit a feature of the scheme that is easy to overlook: the quotas were allocated not to individuals but to boat crews, and each crew was responsible for reporting its own catch to a village council that included crew members from every boat. Because every crew had a representative on the council, members could see how any rule-breaking would affect the shared total. The researchers do not claim that this design would work everywhere. Pazhaverkadu is small, and its families have fished together for generations.
+> Researchers credit a feature of the scheme that is easy to overlook: the quotas were allocated not to individuals but to boat crews, and each crew was responsible for reporting its own catch to a village council that included crew members from every boat. Because every crew had a representative on the council, members could see how any rule-breaking would affect the shared total. The researchers do not claim that this design would work everywhere. Kadalmedu is small, and its families have fished together for generations.
 
 ### Worked example 1 (Easy)
 
-The passage suggests that the quota scheme at Pazhaverkadu
+The passage suggests that the quota scheme at Kadalmedu
 
 (A) was imposed on the village by outside observers
 (B) worked in part because those affected by rule-breaking could see its effect
@@ -193,7 +193,7 @@ No. Not having served on a board is narrower than "inexperienced in business". T
 2. A passage says "Prices rose in most regions." Is "Prices fell in some regions" a valid inference?
 <details><summary>Answer</summary>
 
-No. In the remaining regions prices could simply have stayed flat. The safe inference is weaker: prices did not rise in some regions, or at least cannot be said to have risen everywhere.
+No. In the remaining regions prices could simply have stayed flat. The safe inference is weaker: prices rose in more than half of the regions.
 
 </details>
 

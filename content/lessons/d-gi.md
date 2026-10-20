@@ -1,6 +1,6 @@
 # Graphics Interpretation
 
-Graphics Interpretation (GI) shows you one graph (bar, line, stacked bar, scatterplot, pie) and a sentence with two drop-down blanks. You pick the best option in each blank. It looks gentle, but each blank is its own scoring point, and both must be right. Expect one or two of these in the Data Insights section.
+Graphics Interpretation (GI) shows you one graph (bar, line, stacked bar, scatterplot, pie) and a sentence with two drop-down blanks. You pick the best option in each blank. It looks gentle, but each blank is its own scoring point, and both must be right. Expect two to four of these in the Data Insights section.
 
 ## How the question works
 

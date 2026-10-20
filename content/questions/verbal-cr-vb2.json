@@ -163,7 +163,7 @@
       "pool": "practice",
       "difficulty": 3,
       "format": "mc",
-      "prompt": "The city's economic board has been reviewing the entertainment sector this year. A nutrition writer claims: \"Anyone who follows a vegetarian diet is automatically healthier than anyone who eats meat.\" Consider, though, a person whose entire diet is white bread, sugar and fried snacks. That diet is vegetarian, yet it is plainly unhealthy. The writer's claim must therefore be mistaken.\n\nThe argument proceeds by",
+      "prompt": "A nutrition writer claims: \"Anyone who follows a vegetarian diet is automatically healthier than anyone who eats meat.\" Consider, though, a person whose entire diet is white bread, sugar and fried snacks. That diet is vegetarian, yet it is plainly unhealthy. The writer's claim must therefore be mistaken.\n\nThe argument proceeds by",
       "choices": [
         "questioning the writer's qualifications to speak about nutrition",
         "drawing a parallel between two cases and inferring that what holds in one holds in the other",
@@ -559,18 +559,18 @@
       "pool": "practice",
       "difficulty": 2,
       "format": "mc",
-      "prompt": "A mid-sized firm that supplies electrical appliances to retailers is reviewing its strategy after a difficult year. The company must either cut its prices or lose its customers to rivals. Cutting prices would mean losing money on every sale. Therefore, the company will lose its customers to rivals.\n\nThe reasoning in the argument is most vulnerable to criticism on the grounds that it",
+      "prompt": "A mid-sized firm that supplies electrical appliances to retailers is reviewing its strategy after a difficult year. A rival supplier has cut its prices sharply. The firm cannot match those prices without losing money on every sale. Therefore, the firm will lose its customers to the rival.\n\nThe reasoning in the argument is most vulnerable to criticism on the grounds that it",
       "choices": [
-        "assumes that rivals will not cut their own prices",
+        "assumes that the firm's own costs will rise in future",
         "relies on an example that is not typical of companies in general",
-        "fails to consider options other than the two it presents, such as improving the quality of service",
+        "fails to consider ways of keeping customers other than matching the rival's prices, such as improving the quality of service",
         "takes for granted that customers care only about quality",
         "confuses losing money on each sale with losing customers"
       ],
       "answer": 2,
-      "explanation": "The argument sets up an either/or (cut prices or lose customers), rules out the first, and concludes the second. This only works if there are no other ways to keep customers: better service, loyalty schemes, product improvements. That is a false dichotomy. Choice C names it.\n\nA adds rivals' prices; that is not an assumption the conclusion needs. B suggests unrepresentative evidence, but no example is cited. D invents a claim about quality; the argument's logic does not rely on it. E speaks of a confusion between two things that the argument keeps separate.",
-      "tip": "\"Either A or B\" followed by \"not A, so B\" is only as strong as the claim that there is no C.",
-      "trap": "A sounds like a hidden assumption, but the argument can be flawed without any assumption about rivals.",
+      "explanation": "The argument says the firm cannot match the rival's price profitably, and concludes it will lose its customers. That only follows if price matching is the sole way to keep customers. Better service, delivery reliability, loyalty deals or product improvements could all hold them. The argument never considers these alternatives. Choice C names the gap.\n\nA brings in the firm's future costs, which the conclusion does not depend on. B suggests unrepresentative evidence, but no example is cited. D invents a claim about quality; the argument is about price, and its logic does not rely on customers caring only about quality. E speaks of a confusion between two things that the argument keeps separate: it never treats the loss on each sale as a loss of customers.",
+      "tip": "When an argument says \"we can't do X, so we will lose Y\", ask whether X is the only way to keep Y.",
+      "trap": "D reads like a hidden assumption, but it points the wrong way: the argument is about price, not quality.",
       "timeTarget": 90
     },
     {
